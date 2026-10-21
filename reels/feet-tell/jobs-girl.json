@@ -1,0 +1,23 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/s02-girl.jpg",
+   "refs": [
+    "img/s14-train.jpg"
+   ],
+   "seed": 121,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW composition as described. No train speed lines. Only the woman, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: full-body shot of the woman standing alone on the platform facing the camera with a sweet smile, her face in the upper part of the frame, both white sneakers clearly visible on the floor near the bottom."
+  },
+  {
+   "out": "img/s02b-girl.jpg",
+   "refs": [
+    "img/s14-train.jpg"
+   ],
+   "seed": 122,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW composition as described. No train speed lines. Only the woman, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: full-body shot of the woman standing alone on the platform facing the camera with a sweet smile, her face in the upper part of the frame, both white sneakers clearly visible on the floor near the bottom."
+  }
+ ]
+}

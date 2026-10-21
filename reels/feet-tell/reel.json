@@ -1,0 +1,271 @@
+{
+ "out": "../output/feet-tell.mp4",
+ "audio": [
+  "voice-cand-3.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865
+  },
+  {
+   "shot": 7,
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26
+  },
+  {
+   "shot": 11,
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 1.6
+  }
+ ],
+ "fade_out": 1.0,
+ "shots": [
+  {
+   "image": "img/s02-arrow.jpg",
+   "text": "Don't look at her face.",
+   "focus": [
+    0.62,
+    0.44,
+    0.3
+   ],
+   "zoom": 2.6,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "image": "img/s02-arrow.jpg",
+   "text": "Look at her feet.",
+   "focus": [
+    0.64,
+    0.78,
+    0.64
+   ],
+   "zoom": 2.2,
+   "punch": true,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "img/x01-split.jpg",
+   "text": "Her smile can lie.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "flash": true,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/x01-split-q.jpg",
+   "text": "Her feet almost never do.",
+   "focus": [
+    0.5,
+    0.75,
+    0.62
+   ],
+   "zoom": 1.25,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/s01-wide.jpg",
+   "text": "When someone's interested,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "img/s05-feet-toward.jpg",
+   "text": "their feet point toward you,",
+   "focus": [
+    0.5,
+    0.66,
+    0.62
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s06-dotted.jpg",
+   "text": "even when their body is turned away.",
+   "focus": [
+    0.48,
+    0.62,
+    0.52
+   ],
+   "zoom": 1.45,
+   "drift": 0.06,
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "pop",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "flip": [
+    "img/s06-dotted.jpg",
+    "img/s05-feet-toward.jpg",
+    "img/s01-wide.jpg",
+    "img/x01-split.jpg",
+    "img/s02-arrow.jpg"
+   ],
+   "text": "But if her feet point",
+   "pause_before": 0.25,
+   "sfx": [
+    "rewind"
+   ]
+  },
+  {
+   "image": "img/s07-exit.jpg",
+   "text": "toward the exit...",
+   "focus": [
+    0.5,
+    0.3,
+    0.3
+   ],
+   "zoom": 1.0,
+   "drift": 0.06,
+   "flash": true,
+   "sfx": [
+    "glitch",
+    {
+     "name": "wrong",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/s08-clock.jpg",
+   "text": "she's already mentally leaving",
+   "focus": [
+    0.62,
+    0.47,
+    0.34
+   ],
+   "zoom": 1.9,
+   "drift": 0.06,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s09-sweat.jpg",
+   "text": "the conversation.",
+   "focus": "man-face",
+   "zoom": 1.15,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/s10-calm.jpg",
+   "text": "So if you see that, don't push.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s11-wave.jpg",
+   "text": "Wrap it up with a smile",
+   "focus": "man-face",
+   "zoom": 1.9,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/s11-wave.jpg",
+   "text": "and leave on a good note.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s12-curious.jpg",
+   "text": "Weirdly, that's often when",
+   "focus": [
+    0.54,
+    0.45,
+    0.34
+   ],
+   "zoom": 1.9,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s13-feet-back.jpg",
+   "text": "she turns her feet back.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/s14-train.jpg",
+   "text": "Follow for more signs",
+   "focus": [
+    0.62,
+    0.56,
+    0.36
+   ],
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "img/s14-train.jpg",
+   "text": "nobody tells you about.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh2"
+   ]
+  }
+ ]
+}

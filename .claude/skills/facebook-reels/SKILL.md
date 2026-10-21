@@ -46,6 +46,8 @@ Cloud environment setup (done once by the user): network access **Custom** with 
 network secrets for `gen.pollinations.ai` (Authorization: Bearer) and `generativelanguage.googleapis.com`
 (`x-goog-api-key`, no prefix); setup script = `cloud/setup.sh`. If a request fails with 401/403 in the cloud, the
 secret or allowlist is missing — tell the user which, don't work around it.
+Cloud quirks: faster-whisper breaks with PyAV ≥ 16 (`metadata_errors` TypeError) — `cloud/setup.sh` pins `av<16`;
+librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../audio/voice-ref.m4a <scratch>/voice-ref.wav`).
 
 ## Tools and keys (all already set up)
 

@@ -1,0 +1,109 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 13,
+ "jobs": [
+  {
+   "out": "img/s02-girl.jpg",
+   "refs": [
+    "../refs/girl.jpg"
+   ],
+   "seed": 71,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Completely replace the background with the train station described: no bookshelves, no window, no lamp. Only the woman, no other people. She is white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: full-body shot of the woman standing alone on the platform facing the camera with a sweet smile, both white sneakers clearly visible on the floor, the station clock high above her."
+  },
+  {
+   "out": "img/s03-face.jpg",
+   "refs": [
+    "../refs/girl.jpg"
+   ],
+   "seed": 72,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Completely replace the background with the train station described: no bookshelves, no window, no lamp. Only the woman, no other people. She is white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: close-up portrait of the woman's face and shoulders, a big sweet smile, looking at the viewer."
+  },
+  {
+   "out": "img/s04-feet-away.jpg",
+   "refs": [],
+   "seed": 73,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Only the lower legs of a young woman drawn in white anime-style line art: knee socks and white sneakers, no people visible above the knees. Setting: a train station platform floor at night in thin white line art with the yellow safety line and tracks at the side. Scene: close-up of her two white sneakers on the platform floor, both feet pointing sideways to the left, away from the viewer, toward the platform exit. White line art only, NOT yellow."
+  },
+  {
+   "out": "img/s05-feet-toward.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 74,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: low camera at floor level on the platform: on the left the woman's white sneakers and knee socks, both her feet pointing to the right toward the glowing yellow feet and legs of the yellow man standing on the right. Only legs and feet visible, cut at the knees."
+  },
+  {
+   "out": "img/s06-turned.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 75,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: the woman's head and upper body are twisted to the left to watch the arriving train, but her hips and both feet point to the right toward the yellow man, who stands on the right talking to her. Full bodies and feet visible."
+  },
+  {
+   "out": "img/s07-exit.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 76,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: wide shot, the yellow man on the left talks to the woman, but the woman's body and both feet point to the right toward the staircase down to the exit on the right side of the frame. Above the staircase hangs an empty blank rectangular sign with nothing written on it."
+  },
+  {
+   "out": "img/s08-clock.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 77,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: the woman looks up at the big station clock with a bored impatient face, holding her bag strap, while the yellow man keeps talking cheerfully with big hand gestures, eyes closed happily, not noticing."
+  },
+  {
+   "out": "img/s09-sweat.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 78,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Only the yellow man, no woman in the frame. Scene: close-up of the yellow man's head and shoulders, his eyebrows drop into an awkward worried face, a single small white sweat drop on the side of his head."
+  },
+  {
+   "out": "img/s10-calm.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 79,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Only the yellow man, no woman in the frame. Scene: medium shot of the yellow man with a calm relaxed smile, one open palm raised gently in front of him as if to say it's okay."
+  },
+  {
+   "out": "img/s11-wave.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 80,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: wide shot, the yellow man on the right waves goodbye politely with a warm smile and takes a step back away from the woman, the woman on the left looks surprised and a little curious, eyebrows raised."
+  },
+  {
+   "out": "img/s12-curious.jpg",
+   "refs": [
+    "../refs/girl.jpg"
+   ],
+   "seed": 81,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Completely replace the background with the train station described: no bookshelves, no window, no lamp. Only the woman, no other people. She is white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: close-up of the woman's face, surprised and curious, eyebrows raised, looking to the right as if watching someone walk away."
+  },
+  {
+   "out": "img/s13-feet-back.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 82,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: low camera behind the woman at floor level: in the foreground her white sneakers turn to point to the right, toward the small glowing yellow man walking away in the distance on the right. A small white heart outline floats above her feet."
+  },
+  {
+   "out": "img/s14-train.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 83,
+   "prompt": "Use the reference image ONLY for how the characters look, the train station and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. No yellow man. Scene: wide shot, a long train rushes fast through the station from left to right with white speed lines, filling the middle of the frame, the woman stands small on the platform in the foreground with her ponytail blowing."
+  }
+ ]
+}
