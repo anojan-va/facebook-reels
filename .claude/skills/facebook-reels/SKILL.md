@@ -37,6 +37,7 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 6 | Feet close-ups with crossed / back-to-front feet | Feet shots: two natural feet side by side, both toes the same way, side profile; reject any odd anatomy |
 | 7 | Man with three arms / extra hands on one side (s02 polite, s08 pointing) | **Anatomy check on every image**: count arms, hands, legs, feet per character at full size. Klein keeps the reference's hand-in-pocket and adds the new gesture as an extra arm — for any gesture, say what EACH arm does, add "exactly two arms and two hands, his hands NOT in his pockets", and make sure no arm crosses another face |
 | 8 | New main character | From reel 9 on the main character is the bearded man in the yellow hoodie (`refs/man-sheet.jpg`), never the yellow mannequin. Always pass `refs/man.jpg` as reference 1 |
+| 8 | Girl far shorter than the new man | Almost the same height: her head reaches his eyebrows, both at the same distance from the camera (Height rule) |
 
 ## Where you are running
 
@@ -112,8 +113,11 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
   mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft
   warm yellow glow around his outline."
 - **Girl**: "A young adult woman drawn in white anime-style line art only, NOT coloured: long light hair in a high ponytail,
-  fitted t-shirt, plaid skirt, knee socks and white sneakers. She is an adult, only slightly shorter than the man, her eyes
-  level with his chin." (without the height sentence she comes out child-sized next to him)
+  fitted t-shirt, plaid skirt, knee socks and white sneakers."
+- **Height** (every prompt with both of them): "They stand at the SAME distance from the camera, their feet on the same
+  line, both the same scale. She is almost as tall as he is: the top of her head reaches his eyebrows." When a girl image is
+  a reference, say "…how the woman looks and the drawing style, NOT her size" — otherwise Klein copies her small scale
+  and puts him in the foreground, and she looks child-sized.
 - **Anatomy** (every prompt with people): "Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet."
 - One `Setting:` sentence per location, repeated verbatim in every prompt for that location. Then `Scene:` + action/emotion.
 - **Order**: generate the establishing image (both characters, main location) first with a previous reel's image
