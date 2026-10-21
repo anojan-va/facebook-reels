@@ -1,0 +1,67 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "img/c-turn-0.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 201,
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Draw a COMPLETELY NEW composition and pose as described. Exactly ONE woman and ONE yellow man, no other people. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: the yellow man stands on the LEFT side of the frame, talking to her and facing right. The woman stands on the RIGHT side. Her head, face and shoulders are turned completely AWAY from him: she looks to the far right at the train arriving, we see the back of her head and her ponytail facing the man, her face in profile looking right, away from him. But her hips, knees and both sneakers point LEFT, toward the yellow man. Full bodies and feet visible."
+  },
+  {
+   "out": "img/c-turn-1.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 202,
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Draw a COMPLETELY NEW composition and pose as described. Exactly ONE woman and ONE yellow man, no other people. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: the yellow man stands on the LEFT side of the frame, talking to her and facing right. The woman stands on the RIGHT side. Her head, face and shoulders are turned completely AWAY from him: she looks to the far right at the train arriving, we see the back of her head and her ponytail facing the man, her face in profile looking right, away from him. But her hips, knees and both sneakers point LEFT, toward the yellow man. Full bodies and feet visible."
+  },
+  {
+   "out": "img/c-turn-2.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 203,
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Draw a COMPLETELY NEW composition and pose as described. Exactly ONE woman and ONE yellow man, no other people. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: the yellow man stands on the LEFT side of the frame, talking to her and facing right. The woman stands on the RIGHT side. Her head, face and shoulders are turned completely AWAY from him: she looks to the far right at the train arriving, we see the back of her head and her ponytail facing the man, her face in profile looking right, away from him. But her hips, knees and both sneakers point LEFT, toward the yellow man. Full bodies and feet visible."
+  },
+  {
+   "out": "img/c-turn-noref-0.jpg",
+   "refs": [],
+   "seed": 211,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: the yellow man stands on the LEFT side of the frame, talking to her and facing right. The woman stands on the RIGHT side. Her head, face and shoulders are turned completely AWAY from him: she looks to the far right at the train arriving, we see the back of her head and her ponytail facing the man, her face in profile looking right, away from him. But her hips, knees and both sneakers point LEFT, toward the yellow man. Full bodies and feet visible."
+  },
+  {
+   "out": "img/c-turn-noref-1.jpg",
+   "refs": [],
+   "seed": 212,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: the yellow man stands on the LEFT side of the frame, talking to her and facing right. The woman stands on the RIGHT side. Her head, face and shoulders are turned completely AWAY from him: she looks to the far right at the train arriving, we see the back of her head and her ponytail facing the man, her face in profile looking right, away from him. But her hips, knees and both sneakers point LEFT, toward the yellow man. Full bodies and feet visible."
+  },
+  {
+   "out": "img/c-feet-0.jpg",
+   "refs": [],
+   "seed": 221,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Setting: a train station platform floor at night in thin white line art, a white dashed safety line along the platform edge and railway tracks at the side. Scene: side view close-up at floor level of the lower legs of ONE young woman standing still, white line art only, NOT yellow: white knee socks and white sneakers, cut off at the knees. She stands naturally with her two feet side by side and parallel, both sneakers pointing in the SAME direction, toes to the RIGHT, heels to the left, normal human anatomy: one left foot and one right foot, the far foot slightly behind the near foot. No people above the knees. No colour."
+  },
+  {
+   "out": "img/c-feet-1.jpg",
+   "refs": [],
+   "seed": 222,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Setting: a train station platform floor at night in thin white line art, a white dashed safety line along the platform edge and railway tracks at the side. Scene: side view close-up at floor level of the lower legs of ONE young woman standing still, white line art only, NOT yellow: white knee socks and white sneakers, cut off at the knees. She stands naturally with her two feet side by side and parallel, both sneakers pointing in the SAME direction, toes to the RIGHT, heels to the left, normal human anatomy: one left foot and one right foot, the far foot slightly behind the near foot. No people above the knees. No colour."
+  },
+  {
+   "out": "img/c-feet-2.jpg",
+   "refs": [],
+   "seed": 223,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Setting: a train station platform floor at night in thin white line art, a white dashed safety line along the platform edge and railway tracks at the side. Scene: side view close-up at floor level of the lower legs of ONE young woman standing still, white line art only, NOT yellow: white knee socks and white sneakers, cut off at the knees. She stands naturally with her two feet side by side and parallel, both sneakers pointing in the SAME direction, toes to the RIGHT, heels to the left, normal human anatomy: one left foot and one right foot, the far foot slightly behind the near foot. No people above the knees. No colour."
+  },
+  {
+   "out": "img/c-feet-3.jpg",
+   "refs": [],
+   "seed": 224,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Setting: a train station platform floor at night in thin white line art, a white dashed safety line along the platform edge and railway tracks at the side. Scene: side view close-up at floor level of the lower legs of ONE young woman standing still, white line art only, NOT yellow: white knee socks and white sneakers, cut off at the knees. She stands naturally with her two feet side by side and parallel, both sneakers pointing in the SAME direction, toes to the RIGHT, heels to the left, normal human anatomy: one left foot and one right foot, the far foot slightly behind the near foot. No people above the knees. No colour."
+  }
+ ]
+}

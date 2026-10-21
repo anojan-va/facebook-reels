@@ -27,6 +27,8 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 4 | Voice slowed to 0.93× | Never slow below 1.0×; short script = short reel, say so |
 | 4 | 5 phone screens, two in a row | ≤ 3 object/phone screens, never adjacent |
 | 4 | Confident trap, then "Silent Descent", on a mistake/fix dating script | Music must follow the mood **per section** (`music_cues`) |
+| 6 | "Body turned away, feet toward him" drawn the other way round (she faced him, feet away) | Check every body-language image says exactly what the line says (who faces whom, where the feet point). Klein always turns her face to the man — generate her alone in the pose, then paste the yellow man (cut out by his yellow pixels) on the side her feet point to |
+| 6 | Feet close-ups with crossed / back-to-front feet | Feet shots: two natural feet side by side, both toes the same way, side profile; reject any odd anatomy |
 
 ## Where you are running
 

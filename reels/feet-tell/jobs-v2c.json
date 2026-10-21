@@ -1,0 +1,35 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/cand/g-0.jpg",
+   "refs": [
+    "img/s14-train.jpg"
+   ],
+   "seed": 401,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW pose as described. No speed lines. Only the woman, no other people, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: full-body shot, the woman stands alone in the centre of the platform in a twisted pose. The train is arriving on the LEFT side of the frame. Her head, face and shoulders are turned to the LEFT, looking at the train, her face in side profile facing left. Her hips, knees and both white sneakers point to the RIGHT side of the frame, toes to the right. The right side of the platform is empty."
+  },
+  {
+   "out": "img/cand/g-1.jpg",
+   "refs": [
+    "img/s14-train.jpg"
+   ],
+   "seed": 402,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW pose as described. No speed lines. Only the woman, no other people, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: full-body shot, the woman stands alone in the centre of the platform in a twisted pose. The train is arriving on the LEFT side of the frame. Her head, face and shoulders are turned to the LEFT, looking at the train, her face in side profile facing left. Her hips, knees and both white sneakers point to the RIGHT side of the frame, toes to the right. The right side of the platform is empty."
+  },
+  {
+   "out": "img/cand/g-2.jpg",
+   "refs": [],
+   "seed": 403,
+   "prompt": "Only the woman, no other people. White line art only. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: full-body shot, the woman stands alone in the centre of the platform in a twisted pose. The train is arriving on the LEFT side of the frame. Her head, face and shoulders are turned to the LEFT, looking at the train, her face in side profile facing left. Her hips, knees and both white sneakers point to the RIGHT side of the frame, toes to the right. The right side of the platform is empty."
+  },
+  {
+   "out": "img/cand/g-3.jpg",
+   "refs": [],
+   "seed": 404,
+   "prompt": "Only the woman, no other people. White line art only. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a train station platform at night in thin white line art: a big round station clock hanging from the roof, metal benches, the platform edge and railway tracks, a train arriving in the background, a staircase down to the exit. Scene: full-body shot, the woman stands alone in the centre of the platform in a twisted pose. The train is arriving on the LEFT side of the frame. Her head, face and shoulders are turned to the LEFT, looking at the train, her face in side profile facing left. Her hips, knees and both white sneakers point to the RIGHT side of the frame, toes to the right. The right side of the platform is empty."
+  }
+ ]
+}

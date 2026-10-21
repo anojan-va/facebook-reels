@@ -107,12 +107,8 @@
   {
    "image": "img/s06-dotted.jpg",
    "text": "even when their body is turned away.",
-   "focus": [
-    0.48,
-    0.62,
-    0.52
-   ],
-   "zoom": 1.45,
+   "focus": "wide",
+   "zoom": 1.05,
    "drift": 0.06,
    "sfx": [
     "whoosh2",

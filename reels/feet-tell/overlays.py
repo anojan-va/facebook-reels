@@ -43,8 +43,8 @@ face = Image.open(img / "s03-face.jpg").convert("RGB")
 cw = 620; ch = round(cw * 1012 / W)
 fx, fy = int(0.6 * W), int(0.36 * H)
 top = face.crop((fx - cw // 2, fy - ch // 2, fx + cw // 2, fy + ch // 2)).resize((W, 1012))
-feet = ImageOps.mirror(Image.open(img / "s04-feet-away.jpg").convert("RGB"))
-bot = feet.crop((0, 520, W, 520 + 1012 * W // W))
+feet = ImageOps.mirror(Image.open(img / "s04-feet.jpg").convert("RGB"))   # toes point left = away
+bot = feet.crop((0, 860, W, 860 + 1012))
 split = Image.new("RGB", (W, H), "black")
 split.paste(top, (0, 0)); split.paste(bot.resize((W, 1012)), (0, 1036))
 L = Image.new("RGBA", im.size, (0, 0, 0, 0))
@@ -55,18 +55,28 @@ L = Image.new("RGBA", im.size, (0, 0, 0, 0))
 ImageDraw.Draw(L).text((900, 1560), "?", font=ImageFont.truetype(font("bold"), 300), fill=(255, 255, 255, 255), anchor="mm")
 glow(split, L, (255, 220, 60)).save(img / "x01-split-q.jpg", quality=95)
 
-# 3. Dotted line along the floor from her toes to his feet.
-im = Image.open(img / "s06-turned.jpg").convert("RGB")
+# 3. Body turned away, feet toward him: the girl looks left at the train, her feet point right, so the yellow man
+#    (cut out of s01-wide by his yellow pixels, mirrored to face her) stands on the right; dotted line toes -> him.
+im = Image.open(img / "s06-girl-away.jpg").convert("RGB")
+src = ImageOps.mirror(Image.open(img / "s01-wide.jpg").convert("RGB").crop((250, 680, 520, 1800)))
+import numpy as np
+a = np.asarray(src).astype(int)
+yellow = np.clip(((a[..., 0] + a[..., 1]) / 2 - a[..., 2] - 25) * 4, 0, 255).astype("uint8")
+man = src.convert("RGBA"); man.putalpha(Image.fromarray(yellow))
+h = 1430
+man = man.resize((round(man.width * h / man.height), h), Image.Resampling.LANCZOS)
+base = im.convert("RGBA"); base.alpha_composite(man, (W - man.width + 10, 1950 - man.height))
+im = base.convert("RGB")
 L = Image.new("RGBA", im.size, (0, 0, 0, 0))
 d = ImageDraw.Draw(L)
-x0, x1, y = 700, 470, 1690
-for x in range(x0, x1 + 60, -44):
-    d.ellipse([x - 9, y - 9, x + 9, y + 9], fill=(255, 255, 255, 255))
-arrow(d, x1 + 40, y, x1 - 20, y, 1, 46)
+x0, x1, y = 760, 930, 1935
+for x in range(x0, x1 - 40, 36):
+    d.ellipse([x - 8, y - 8, x + 8, y + 8], fill=(255, 255, 255, 255))
+arrow(d, x1 - 50, y, x1 + 10, y, 1, 40)
 glow(im, L, (255, 220, 60)).save(img / "s06-dotted.jpg", quality=95)
 
 # 4. Feet pointing to the exit + glowing red EXIT sign with an arrow (upper third, clear of captions).
-im = Image.open(img / "s04-feet-away.jpg").convert("RGB")
+im = Image.open(img / "s04-feet.jpg").convert("RGB")   # toes point right, toward the sign
 L = Image.new("RGBA", im.size, (0, 0, 0, 0))
 d = ImageDraw.Draw(L)
 d.rounded_rectangle([300, 300, 900, 560], radius=24, outline=(255, 255, 255, 255), width=10)
