@@ -173,7 +173,7 @@ def music_bed(spec, base, starts, n):
 def focus_point(img: Path, focus) -> tuple[float, float, float]:
     """(x, y) on the image to look at, and how far down the frame to place it (0.5 = centre).
     Faces go in the upper third so the centred caption never covers them.
-    'man'/'man-face' find the glowing yellow figure by colour; [x, y] or [x, y, frame_y] are explicit."""
+    'man'/'man-face' find the man by his yellow hoodie / glow; [x, y] or [x, y, frame_y] are explicit."""
     if isinstance(focus, list):
         return float(focus[0]), float(focus[1]), float(focus[2]) if len(focus) > 2 else 0.5
     if focus in (None, "wide"):
@@ -189,9 +189,16 @@ def focus_point(img: Path, focus) -> tuple[float, float, float]:
     y0, y1 = np.percentile(ys, [2, 98])
     cx = (x0 + x1) / 2 / 192
     if focus == "man-face":
+        # The man's hair, skin and glow outline are warm but darker than his yellow hoodie: take the top of the
+        # looser warm mask as the top of his head; the face sits about a tenth of his height below it.
+        warm = (r > 120) & (g > 90) & (b < 90) & (r - b > 60)
+        wy, wx = np.nonzero(warm)
+        if len(wx) >= 40:
+            y0, y1 = np.percentile(wy, [2, 98])
+            ys, xs = wy, wx
         head = ys < y0 + (y1 - y0) * 0.2
         cx = xs[head].mean() / 192 if head.any() else cx
-        return cx, (y0 + (y1 - y0) * 0.12) / 344, 0.32
+        return cx, (y0 + (y1 - y0) * 0.1) / 344, 0.32
     return cx, (y0 + y1) / 2 / 344, 0.5
 
 

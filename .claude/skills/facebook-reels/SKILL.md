@@ -7,7 +7,13 @@ description: Make a finished 9:16 psychology/dating Facebook reel from a script 
 
 The user sends a script; you deliver a finished MP4 in `D:\Claude\reels\output\`. Do the whole pipeline yourself —
 never propose building an app. Reference look: `D:\Claude\sample.mp4` (9:16, ~45 s, black background, white line
-art, glowing yellow faceless man + anime girl, one word at a time captions in the centre, dark trap bed).
+art, the bearded man in the yellow hoodie (see below) + anime girl, one word at a time captions in the centre, dark trap bed).
+
+**Main character (from reel 9 on — always him, never the old yellow mannequin):** `reels/refs/man-sheet.jpg`, the user's
+character sheet "The Inner You": young man, short tousled brown hair, short neat brown beard, warm friendly eyes,
+mustard-yellow hoodie, black cargo joggers, white sneakers, soft warm yellow glow around his outline. He is the only
+colour in the frame; the world and the girl stay white line art on black. The sheet also has his expressions
+(`man-expressions.jpg`) and optional outfits (blazer, olive jacket, grey tee with sling bag) for scenes that need them.
 
 Everything lives in `D:\Claude\reels\`. Each reel gets its own folder `reels/<slug>/` (prompts.json, script.txt,
 voice takes, img/, reel.json). Reuse the newest reel folder as a template — `reels/first-date/` is the most complete.
@@ -30,6 +36,7 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 6 | "Body turned away, feet toward him" drawn the other way round (she faced him, feet away) | Check every body-language image says exactly what the line says (who faces whom, where the feet point). Klein always turns her face to the man — generate her alone in the pose, then paste the yellow man (cut out by his yellow pixels) on the side her feet point to |
 | 6 | Feet close-ups with crossed / back-to-front feet | Feet shots: two natural feet side by side, both toes the same way, side profile; reject any odd anatomy |
 | 7 | Man with three arms / extra hands on one side (s02 polite, s08 pointing) | **Anatomy check on every image**: count arms, hands, legs, feet per character at full size. Klein keeps the reference's hand-in-pocket and adds the new gesture as an extra arm — for any gesture, say what EACH arm does, add "exactly two arms and two hands, his hands NOT in his pockets", and make sure no arm crosses another face |
+| 8 | New main character | From reel 9 on the main character is the bearded man in the yellow hoodie (`refs/man-sheet.jpg`), never the yellow mannequin. Always pass `refs/man.jpg` as reference 1 |
 
 ## Where you are running
 
@@ -59,7 +66,9 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
 - **Images (default)**: `python reels/polli.py jobs.json` → Pollinations FLUX.2 Klein 4B, parallel.
   Key: `$POLLINATIONS_KEY` or `~/.pollinations-key` locally; the proxy in the cloud. ~$0.005/image, 1152x2048. User approved the cost.
 - **Character references** (committed, use these for the establishing image of a new reel):
-  `reels/refs/characters.jpg` (man + girl), `reels/refs/man.jpg`, `reels/refs/girl.jpg`.
+  `reels/refs/man.jpg` (front/side/back of the main character — ALWAYS reference image 1 when he is in the shot),
+  `reels/refs/man-hero.jpg`, `reels/refs/characters.jpg` (him + the girl on a platform, the approved look),
+  `reels/refs/girl.jpg`. Old mannequin refs (`man-old-mannequin.jpg`, `characters-old.jpg`) are for old reels only.
   Previous reels' `img/` folders are not in git.
 - **Images (fallback, local PC only)**: Google Flow via flow-mcp (`C:\Users\Anojan\flow-mcp`). `python reels/flow.py <method> '<json>'`.
   If the server is down: run `reels/start_flow.ps1` in the background, then
@@ -93,12 +102,19 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
 
 ### 3. Images — Klein with references
 - **House style** (start every prompt with it):
-  "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour
-  anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition."
-- **Man** (in EVERY prompt where he appears, even background — else Klein draws a white human):
-  "The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two
-  black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow."
-- **Girl**: "A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt."
+  "Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and the
+  woman. The only colour in the image is the man. No text, letters or captions in the image unless described. Vertical 9:16 composition."
+  For shots with NO people use a version without any mention of the man ("…white lines only, no colour at all"), or
+  Klein paints him in anyway.
+- **Man** (in EVERY prompt where he appears, even background), with `refs/man.jpg` as reference image 1 and the prefix
+  "Reference image 1 shows exactly how the man looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers.":
+  "The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a
+  mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft
+  warm yellow glow around his outline."
+- **Girl**: "A young adult woman drawn in white anime-style line art only, NOT coloured: long light hair in a high ponytail,
+  fitted t-shirt, plaid skirt, knee socks and white sneakers. She is an adult, only slightly shorter than the man, her eyes
+  level with his chin." (without the height sentence she comes out child-sized next to him)
+- **Anatomy** (every prompt with people): "Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet."
 - One `Setting:` sentence per location, repeated verbatim in every prompt for that location. Then `Scene:` + action/emotion.
 - **Order**: generate the establishing image (both characters, main location) first with a previous reel's image
   as ref and the prefix "Use the reference image ONLY for how the two characters look … Completely replace the
@@ -123,7 +139,7 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
   **Keep text out of the caption band (frame y 0.42–0.58)**: put titles/graphics in the upper third, or shift the
   image up in PIL. For a two-item card, make a first version with only item 1 and reveal item 2 on the next shot.
 - **Review every image** on a gridded contact sheet (red 10% grid, label in the corner). Reject: wrong location,
-  extra characters, man not yellow, garbled text, wrong emotion, the pose not saying what the line says.
+  extra characters, man not matching `refs/man.jpg` (beard, hoodie, joggers), garbled text, wrong emotion, the pose not saying what the line says.
   **Anatomy check** (zoom each character to ≥ 400 px wide, a contact-sheet thumbnail is too small): exactly two arms,
   two hands, two legs, two feet each; feet point the same way as the body; no arm crossing someone's face. Reject anything else. Regenerate rejects with a new seed and fixed refs.
   Move rejects to `img/rejected/`.
@@ -139,7 +155,7 @@ consecutive, covering the whole script), `focus`, `zoom`, `drift`, `punch`, `fla
 `flip` (VHS rewind montage). Top level: `audio` (one take), `speed`, `music_cues` or `music`, `music_volume`, `fade_out`.
 
 - **Cut every 1.5–3 s** (~18–22 shots for 40 s). No shot > 3.1 s; merge fragments < 0.8 s into a neighbour.
-- **Camera follows the narration.** `focus: "man"` / `"man-face"` are found automatically (yellow pixels).
+- **Camera follows the narration.** `focus: "man"` / `"man-face"` are found automatically (his yellow hoodie and warm glow; `man-face` lands on his face).
   Anything else: `[x, y, frame_y]` read off the gridded sheet. **Faces/bubbles at frame_y ≈ 0.3–0.36** so the
   centred caption never covers them.
 - **Zoom grammar**: section opens WIDE (zoom 1.0, `drift` 0.05) → key phrase punches in (`punch: true`,

@@ -64,7 +64,7 @@ def bubble(im, box, s, tail, size=56, line=WHITE, txt=WHITE, color=YELLOW):
 
 
 def yellow_mask(im):
-    """0-255 mask of the glowing yellow man (yellow pixels and their glow)."""
+    """0-255 mask of the yellow parts of the man: the whole old mannequin, or the new man's hoodie and glow."""
     a = np.asarray(im.convert("RGB")).astype(int)
     return Image.fromarray(np.clip(((a[..., 0] + a[..., 1]) / 2 - a[..., 2] - 25) * 4, 0, 255).astype("uint8"))
 
