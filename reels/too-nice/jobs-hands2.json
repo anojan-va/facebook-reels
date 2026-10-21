@@ -1,0 +1,35 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/cand/s08b-0.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 751,
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Draw a NEW composition as described: the woman on the left, the yellow man on the right, his hands NOT in his pockets. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Normal human anatomy: the yellow man has exactly two arms and two hands, no extra arms or hands. Scene: the woman stands on the LEFT side of the frame. The yellow man stands on the RIGHT side of the frame, glowing extra bright, big confident grin. His right arm is stretched straight out toward the RIGHT edge of the frame, pointing away from the woman down the boardwalk with one finger. His other arm hangs relaxed at his side. The woman looks where he points, curious. Nothing overlaps her face."
+  },
+  {
+   "out": "img/cand/s08b-1.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 752,
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Draw a NEW composition as described: the woman on the left, the yellow man on the right, his hands NOT in his pockets. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Normal human anatomy: the yellow man has exactly two arms and two hands, no extra arms or hands. Scene: the woman stands on the LEFT side of the frame. The yellow man stands on the RIGHT side of the frame, glowing extra bright, big confident grin. His right arm is stretched straight out toward the RIGHT edge of the frame, pointing away from the woman down the boardwalk with one finger. His other arm hangs relaxed at his side. The woman looks where he points, curious. Nothing overlaps her face."
+  },
+  {
+   "out": "img/cand/s08b-2.jpg",
+   "refs": [],
+   "seed": 753,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Normal human anatomy: the yellow man has exactly two arms and two hands, no extra arms or hands. Scene: the woman stands on the LEFT side of the frame. The yellow man stands on the RIGHT side of the frame, glowing extra bright, big confident grin. His right arm is stretched straight out toward the RIGHT edge of the frame, pointing away from the woman down the boardwalk with one finger. His other arm hangs relaxed at his side. The woman looks where he points, curious. Nothing overlaps her face."
+  },
+  {
+   "out": "img/cand/s08b-3.jpg",
+   "refs": [],
+   "seed": 754,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Normal human anatomy: the yellow man has exactly two arms and two hands, no extra arms or hands. Scene: the woman stands on the LEFT side of the frame. The yellow man stands on the RIGHT side of the frame, glowing extra bright, big confident grin. His right arm is stretched straight out toward the RIGHT edge of the frame, pointing away from the woman down the boardwalk with one finger. His other arm hangs relaxed at his side. The woman looks where he points, curious. Nothing overlaps her face."
+  }
+ ]
+}

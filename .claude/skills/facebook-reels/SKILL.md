@@ -29,6 +29,7 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 4 | Confident trap, then "Silent Descent", on a mistake/fix dating script | Music must follow the mood **per section** (`music_cues`) |
 | 6 | "Body turned away, feet toward him" drawn the other way round (she faced him, feet away) | Check every body-language image says exactly what the line says (who faces whom, where the feet point). Klein always turns her face to the man — generate her alone in the pose, then paste the yellow man (cut out by his yellow pixels) on the side her feet point to |
 | 6 | Feet close-ups with crossed / back-to-front feet | Feet shots: two natural feet side by side, both toes the same way, side profile; reject any odd anatomy |
+| 7 | Man with three arms / extra hands on one side (s02 polite, s08 pointing) | **Anatomy check on every image**: count arms, hands, legs, feet per character at full size. Klein keeps the reference's hand-in-pocket and adds the new gesture as an extra arm — for any gesture, say what EACH arm does, add "exactly two arms and two hands, his hands NOT in his pockets", and make sure no arm crosses another face |
 
 ## Where you are running
 
@@ -122,7 +123,9 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
   **Keep text out of the caption band (frame y 0.42–0.58)**: put titles/graphics in the upper third, or shift the
   image up in PIL. For a two-item card, make a first version with only item 1 and reveal item 2 on the next shot.
 - **Review every image** on a gridded contact sheet (red 10% grid, label in the corner). Reject: wrong location,
-  extra characters, man not yellow, garbled text, wrong emotion. Regenerate rejects with a new seed and fixed refs.
+  extra characters, man not yellow, garbled text, wrong emotion, the pose not saying what the line says.
+  **Anatomy check** (zoom each character to ≥ 400 px wide, a contact-sheet thumbnail is too small): exactly two arms,
+  two hands, two legs, two feet each; feet point the same way as the body; no arm crossing someone's face. Reject anything else. Regenerate rejects with a new seed and fixed refs.
   Move rejects to `img/rejected/`.
 - Budget ~15–20 images: story beats in the main setting + ~5–8 in other locations (street, office, crosswalk,
   stage, bedroom, hallway) + 1–3 object shots (brain, heart, phone, number).
@@ -207,7 +210,7 @@ Library is Mixkit (`audio/sfx/`); new ones: scrape `https://mixkit.co/free-sound
 1. Render. The renderer prints word matching ("heard N (M matching)") and the shot table, and writes
    `<slug>_work/timeline.json`, `music.wav`, `mix.wav`, `captions.ass`.
 2. **Frames**: middle frame of every shot tiled into one sheet (`select='eq(n\,F)+…',tile=10x2`) — check framing,
-   faces above captions, no stray characters.
+   faces above captions, no stray characters, and the anatomy check again on every person in frame.
 3. **Audio**: quietest 0.1 s window > −40 dB (no dead gaps); loudness ≈ −14 to −15 LUFS (`ebur128`);
    music mood per section measured on `music.wav`.
 4. Shot lengths 0.8–3.1 s.
