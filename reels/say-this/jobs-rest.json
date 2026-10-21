@@ -1,0 +1,103 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/s02-yawn.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 611,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW composition as described. Only the woman, no other people, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: the woman stands on the left side of the frame, yawning widely with one hand over her mouth, bored. The right half of the frame is empty dark space."
+  },
+  {
+   "out": "img/s03-confident.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 612,
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition as described. Only the yellow man, no woman. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: close-up of the yellow man's head and shoulders, a confident knowing half smile, one eyebrow raised, looking at the viewer."
+  },
+  {
+   "out": "img/x01-keys.jpg",
+   "refs": [],
+   "seed": 613,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. No people. Scene: two big glowing white computer keyboard keys side by side floating in the upper half of the frame, drawn in thin white line art, their tops completely blank and empty, no letters. Plain black background."
+  },
+  {
+   "out": "img/s04-point.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 614,
+   "prompt": "Use the reference image ONLY for how the characters look, the festival and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: the yellow man on the left points gently at the woman with a warm smile, the woman on the right stands facing him, a bracelet on her wrist and a small shoulder bag with a book sticking out of it."
+  },
+  {
+   "out": "img/s05-bracelet.jpg",
+   "refs": [],
+   "seed": 615,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. No face visible. Scene: close-up of a young woman's wrist and hand in white line art, wearing a delicate beaded bracelet, her hand resting on the strap of a small shoulder bag, festival lanterns blurred in the background. White line art only, NOT yellow."
+  },
+  {
+   "out": "img/s06-book.jpg",
+   "refs": [],
+   "seed": 616,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. No face visible. Scene: close-up of a small shoulder bag drawn in white line art with a paperback book sticking out of the top, worn by a young woman, festival lanterns in the background. White line art only, NOT yellow."
+  },
+  {
+   "out": "img/s07-laugh.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 617,
+   "prompt": "Use the reference image ONLY for how the characters look, the festival and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: medium shot, the yellow man on the right talks casually with one hand in his pocket, relaxed smile. The woman on the left laughs with her whole face, eyes closed, mouth wide open, head tilted back."
+  },
+  {
+   "out": "img/s08-blush.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 618,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW composition as described. Only the woman, no other people, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: close-up of the woman's face, she stops, blushes with small blush lines on her cheeks, and covers her smile with one hand, eyes happy and shy, glowing lanterns behind her."
+  },
+  {
+   "out": "img/s09-crowd.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 619,
+   "prompt": "Use the reference image ONLY for how the characters look, the festival and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: the yellow man and the woman stand close together in the middle of the frame looking at each other, smiling, surrounded by a busy crowd of simple faceless people drawn in faint thin white outlines walking past them on both sides."
+  },
+  {
+   "out": "img/s10-wheel-point.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 620,
+   "prompt": "Use the reference image ONLY for how the characters look, the festival and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: the yellow man turns and points up at the big Ferris wheel in the background with a playful grin, the woman beside him looks up at it, nodding. Empty dark space above the man's head on the left."
+  },
+  {
+   "out": "img/s11-nod.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 621,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW composition as described. Only the woman, no other people, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: close-up of the woman's face and shoulders, she nods with a happy excited smile, looking up and to the left."
+  },
+  {
+   "out": "img/s12-gondola.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 622,
+   "prompt": "Use the reference image ONLY for how the characters look, the festival and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a night festival street in thin white line art: rows of hanging paper lanterns on strings, small food stalls with awnings, a big Ferris wheel in the background against the night sky. Scene: the yellow man and the woman sit side by side in an open Ferris wheel gondola high up in the night sky, outlined against the dark sky, the festival lanterns tiny far below, both smiling and looking at the view."
+  },
+  {
+   "out": "img/s13-wheel.jpg",
+   "refs": [],
+   "seed": 623,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. No people. Setting: a night festival in thin white line art. Scene: a big Ferris wheel filling the frame against the black night sky, small round lights along its spokes and rim, festival lanterns and stalls tiny at the bottom."
+  }
+ ]
+}

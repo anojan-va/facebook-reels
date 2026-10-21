@@ -1,0 +1,33 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/s05-bracelet.jpg",
+   "refs": [],
+   "seed": 631,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. No face, no colour. Scene: close-up of a young woman's slim forearm and hand in white line art held in front of her chest, wearing a delicate beaded bracelet on the wrist, her plain t-shirt behind. White line art only on black, NOT yellow, no lights."
+  },
+  {
+   "out": "img/s06-book.jpg",
+   "refs": [],
+   "seed": 632,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. No face, no colour. Scene: close-up of a small leather shoulder bag in white line art hanging at a young woman's hip, the flap open and a paperback book clearly sticking out of the top of the bag. Her plaid skirt visible behind. White line art only on black, NOT yellow."
+  },
+  {
+   "out": "img/s12-gondola.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 633,
+   "prompt": "Use the reference image ONLY for how the two characters look and the drawing style. Draw a COMPLETELY NEW scene: high up on a Ferris wheel. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Scene: close view of one open Ferris wheel gondola, a small round cabin with a curved roof hanging from the steel spokes of the wheel, high in the black night sky. The yellow man and the woman sit side by side inside the gondola, smiling, looking out at the view. Tiny festival lights far below."
+  },
+  {
+   "out": "img/s13-wheel.jpg",
+   "refs": [],
+   "seed": 634,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. No people at all, nobody anywhere, no yellow. Scene: a big Ferris wheel in thin white line art filling the frame against the black night sky, small round white lights along its rim and spokes, small gondolas, tiny festival stalls at the bottom."
+  }
+ ]
+}

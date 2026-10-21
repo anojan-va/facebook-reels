@@ -1,0 +1,273 @@
+{
+ "out": "../output/say-this.mp4",
+ "audio": [
+  "voice-cand-2.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865
+  },
+  {
+   "shot": 5,
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 1.6
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/s02-yawn-b.jpg",
+   "text": "She's heard \"you're beautiful\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook",
+    {
+     "name": "pop",
+     "at": 0.5
+    },
+    {
+     "name": "pop",
+     "at": 0.8
+    },
+    {
+     "name": "pop",
+     "at": 1.1
+    }
+   ]
+  },
+  {
+   "image": "img/s02-yawn-b.jpg",
+   "text": "a thousand times.",
+   "focus": [
+    0.3,
+    0.36,
+    0.33
+   ],
+   "zoom": 2.3,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s03-confident.jpg",
+   "text": "Say this instead.",
+   "focus": "man-face",
+   "zoom": 1.05,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/x01-keys-t.jpg",
+   "text": "Generic compliments feel like copy-paste.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "flash": true,
+   "sfx": [
+    "glitch",
+    {
+     "name": "pop",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "image": "img/s02-yawn-grey.jpg",
+   "text": "Her brain just ignores them.",
+   "focus": [
+    0.45,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s04-point.jpg",
+   "text": "Instead, compliment",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s05-bracelet-h.jpg",
+   "text": "something she chose,",
+   "focus": [
+    0.47,
+    0.6,
+    0.36
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "image": "img/s04-point.jpg",
+   "text": "not something she was born with.",
+   "focus": [
+    0.66,
+    0.37,
+    0.33
+   ],
+   "zoom": 2.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s07-laugh-w.jpg",
+   "text": "\"You laugh with your whole face.",
+   "focus": [
+    0.38,
+    0.33,
+    0.33
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/s08-blush.jpg",
+   "text": "It's kind of contagious.\"",
+   "focus": [
+    0.5,
+    0.42,
+    0.33
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/s09-crowd.jpg",
+   "text": "Specific means you actually noticed her.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s09-crowd-blur.jpg",
+   "text": "And being noticed is rare.",
+   "focus": [
+    0.55,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.3,
+   "drift": 0.08,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/s10-wheel-b.jpg",
+   "text": "Then don't wait for a reaction.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "pop",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "image": "img/s11-nod.jpg",
+   "text": "Just keep the conversation going.",
+   "focus": [
+    0.64,
+    0.38,
+    0.33
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s12-gondola.jpg",
+   "text": "Not a line.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "img/s12-gondola.jpg",
+   "text": "Just honest attention.",
+   "focus": [
+    0.55,
+    0.35,
+    0.33
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/s13-wheel.jpg",
+   "text": "Follow for more.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh2"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/s07-noman.jpg",
+   "refs": [
+    "img/s07-awkward.jpg"
+   ],
+   "seed": 551,
+   "prompt": "Edit the reference image: remove the glowing yellow man completely and fill that area with the empty wooden boardwalk, railing, sea and sky continuing exactly as around it. Keep everything else exactly the same: the woman, her pose, the ice cream stand, the moon, the drawing style. Minimalist white line art on pure black, no yellow anywhere."
+  },
+  {
+   "out": "img/s07-nomanb.jpg",
+   "refs": [
+    "img/s07-awkward.jpg"
+   ],
+   "seed": 552,
+   "prompt": "Edit the reference image: remove the glowing yellow man completely and fill that area with the empty wooden boardwalk, railing, sea and sky continuing exactly as around it. Keep everything else exactly the same: the woman, her pose, the ice cream stand, the moon, the drawing style. Minimalist white line art on pure black, no yellow anywhere."
+  }
+ ]
+}

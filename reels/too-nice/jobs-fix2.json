@@ -1,0 +1,19 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/s10-tacos.jpg",
+   "refs": [],
+   "seed": 541,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: medium shot from the front, the yellow man on the left and the woman on the right walk side by side along the boardwalk toward the viewer. Each of them holds a big taco up in one hand: a crunchy folded tortilla shell stuffed with lettuce and meat, drawn in white line art. The woman laughs happily with eyes closed, the man smiles. Their heads in the lower half of the frame, empty night sky and moon above."
+  },
+  {
+   "out": "img/s10-tacosb.jpg",
+   "refs": [],
+   "seed": 542,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: medium shot from the front, the yellow man on the left and the woman on the right walk side by side along the boardwalk toward the viewer. Each of them holds a big taco up in one hand: a crunchy folded tortilla shell stuffed with lettuce and meat, drawn in white line art. The woman laughs happily with eyes closed, the man smiles. Their heads in the lower half of the frame, empty night sky and moon above."
+  }
+ ]
+}

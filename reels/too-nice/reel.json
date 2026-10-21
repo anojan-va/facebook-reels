@@ -1,0 +1,283 @@
+{
+ "out": "../output/too-nice.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865
+  },
+  {
+   "shot": 5,
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26
+  },
+  {
+   "shot": 10,
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 1.6
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/x00-card.jpg",
+   "text": "\"Nice guys finish last\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "image": "img/x00-card-slash.jpg",
+   "text": "is a lie.",
+   "focus": "wide",
+   "zoom": 1.05,
+   "punch": true,
+   "sfx": [
+    "glitch",
+    "bass"
+   ]
+  },
+  {
+   "image": "img/s01-wide.jpg",
+   "text": "Here's the real problem.",
+   "focus": "man",
+   "zoom": 1.6,
+   "drift": 0.06,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s02-polite.jpg",
+   "text": "Being nice is great.",
+   "focus": "man-face",
+   "zoom": 2.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s03-nod.jpg",
+   "text": "Having no opinion is the problem.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "wrong",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "image": "img/s04-ask-b.jpg",
+   "text": "She asks, \"Where do you want to eat?\"",
+   "focus": [
+    0.6,
+    0.3,
+    0.3
+   ],
+   "zoom": 1.1,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "pop",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "image": "img/s05-shrug-b.jpg",
+   "text": "He says, \"Anything's fine,",
+   "focus": [
+    0.5,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.2,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s06-sigh.jpg",
+   "text": "whatever you want.\"",
+   "focus": [
+    0.5,
+    0.2,
+    0.33
+   ],
+   "zoom": 2.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s07-awkward.jpg",
+   "text": "That's not nice.",
+   "focus": "wide",
+   "zoom": 1.05,
+   "drift": 0.04,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/s07-faded.jpg",
+   "text": "That's invisible.",
+   "focus": "wide",
+   "zoom": 1.07,
+   "drift": 0.04,
+   "sfx": [
+    "whoosh2",
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/s08-point.jpg",
+   "text": "Now try:",
+   "focus": "man",
+   "zoom": 1.3,
+   "drift": 0.06,
+   "flash": true,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "sparkle",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "image": "img/s08-point.jpg",
+   "text": "\"There's a taco stand down the beach",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s09-excited.jpg",
+   "text": "that's honestly the best. Let's go.\"",
+   "focus": [
+    0.5,
+    0.2,
+    0.33
+   ],
+   "zoom": 2.0,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/s10-tacos-t.jpg",
+   "text": "Kind and decisive.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.2,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "correct",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/s10-tacos.jpg",
+   "text": "That's the combination",
+   "focus": [
+    0.62,
+    0.35,
+    0.33
+   ],
+   "zoom": 1.7,
+   "drift": 0.06,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s10-tacos.jpg",
+   "text": "that actually stands out.",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s11-smirk.jpg",
+   "text": "Be nice.",
+   "focus": [
+    0.5,
+    0.5,
+    0.3
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s11-smirk.jpg",
+   "text": "Just don't disappear.",
+   "focus": [
+    0.5,
+    0.5,
+    0.3
+   ],
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s12-wave.jpg",
+   "text": "Follow if this hit home.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ]
+}

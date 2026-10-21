@@ -1,0 +1,71 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/s05-shrug.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 515,
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition as described. Only the yellow man, no woman. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: medium shot of the yellow man shrugging, both palms up, shoulders raised, a weak unsure smile, empty dark space above his head."
+  },
+  {
+   "out": "img/s06-sigh.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 516,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW composition as described. Only the woman, no other people, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: close-up of the woman's face and shoulders, she sighs, unimpressed, eyes half closed, flat mouth, a small puff of breath."
+  },
+  {
+   "out": "img/s07-awkward.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 517,
+   "prompt": "Use the reference image ONLY for how the characters look, the boardwalk and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: wide shot, the yellow man stands stiffly with an awkward smile, the woman stands next to him looking away at the sea, bored."
+  },
+  {
+   "out": "img/s08-point.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 518,
+   "prompt": "Use the reference image ONLY for how the characters look, the boardwalk and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: the yellow man glows extra bright and confidently points far down the boardwalk with one arm stretched out, big confident grin, chest out. The woman beside him follows his finger with her eyes."
+  },
+  {
+   "out": "img/s09-excited.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 519,
+   "prompt": "Use the reference image ONLY for how the woman looks and the drawing style. Draw a NEW composition as described. Only the woman, no other people, white line art only, NOT yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: close-up of the woman's face, her eyes light up with excitement, a big delighted smile, small white sparkles around her eyes."
+  },
+  {
+   "out": "img/s10-tacos.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 520,
+   "prompt": "Use the reference image ONLY for how the characters look, the boardwalk and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: the yellow man and the woman walk side by side along the boardwalk toward the viewer, each holding a taco, the woman laughing happily, the man smiling. Their heads in the lower half of the frame, empty night sky above them."
+  },
+  {
+   "out": "img/s11-smirk.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 521,
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition as described. Only the yellow man, no woman. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: close-up of the yellow man's head and shoulders, a confident smirk, the big full moon glowing right behind his head like a halo."
+  },
+  {
+   "out": "img/s12-wave.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 522,
+   "prompt": "Use the reference image ONLY for how the characters look, the boardwalk and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: very wide shot, a huge curling ocean wave in white line art sweeps across the frame from the right, the yellow man and the woman tiny on the boardwalk at the far left."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/s13-wheel.jpg",
+   "refs": [],
+   "seed": 641,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. No people, no figures, empty scene. Scene: a big Ferris wheel in thin white line art filling the frame against the black night sky, small round white lights along its rim and spokes, small gondolas, tiny festival stalls at the bottom."
+  },
+  {
+   "out": "img/s13b-wheel.jpg",
+   "refs": [],
+   "seed": 642,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. No people, no figures, empty scene. Scene: a big Ferris wheel in thin white line art filling the frame against the black night sky, small round white lights along its rim and spokes, small gondolas, tiny festival stalls at the bottom."
+  }
+ ]
+}

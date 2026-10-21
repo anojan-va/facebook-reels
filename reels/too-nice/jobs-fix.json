@@ -1,0 +1,21 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/s10-tacos.jpg",
+   "refs": [
+    "img/s01-wide.jpg"
+   ],
+   "seed": 531,
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Draw a NEW composition. Exactly one yellow man and one woman, no other people. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and white sneakers. Setting: a beach boardwalk at night in thin white line art: wooden planks, a wooden railing, a small ice cream stand with a striped awning, the sea with curling waves on one side, a big full moon in the sky. Scene: medium shot from the front, the yellow man and the woman walk side by side along the boardwalk, each holding a taco in one hand, a taco is a folded tortilla shell filled with lettuce. The woman laughs happily with eyes closed, the man smiles. Their heads in the lower half of the frame, empty night sky above."
+  },
+  {
+   "out": "img/s12-wave.jpg",
+   "refs": [],
+   "seed": 532,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. No people. Setting: a beach at night in thin white line art. Scene: a huge curling ocean wave fills the frame, crashing from right to left, foam and spray, the full moon behind it."
+  }
+ ]
+}
