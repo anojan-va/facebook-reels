@@ -38,7 +38,7 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 7 | Man with three arms / extra hands on one side (s02 polite, s08 pointing) | **Anatomy check on every image**: count arms, hands, legs, feet per character at full size. Klein keeps the reference's hand-in-pocket and adds the new gesture as an extra arm — for any gesture, say what EACH arm does, add "exactly two arms and two hands, his hands NOT in his pockets", and make sure no arm crosses another face |
 | 8 | New main character | From reel 9 on the main character is the bearded man in the yellow hoodie (`refs/man-sheet.jpg`), never the yellow mannequin. Always pass `refs/man.jpg` as reference 1 |
 | 8 | Girl far shorter than the new man | Almost the same height: her head reaches his eyebrows, both at the same distance from the camera (Height rule) |
-| 8 | Voice | Premium voice for all reels from now on: Gemini 2.5 Pro TTS on Vertex AI (`reels/tts.py` default) |
+| 8 | Voice | Compared premium Pro voices (Charon/Orus/Algenib) with the channel voice: keep the channel voice (Flash, Charon, deep style). Premium only on request |
 
 ## Where you are running
 
@@ -63,13 +63,14 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
 
 ## Tools and keys (all already set up)
 
-- **Voice (premium, default)**: `python reels/tts.py script.txt voice-cand-N.wav [voice] [style]` → Gemini 2.5 **Pro** TTS on
-  Vertex AI (paid, no daily limit), one call = whole script. Key: a Vertex AI express-mode key (`AQ.…`): `$GOOGLE_VERTEX_API_KEY`
-  or `~/.vertex-key` locally; in the cloud a network secret for `aiplatform.googleapis.com` (header `x-goog-api-key`).
-  This key does NOT work with Google Cloud Text-to-Speech / Chirp 3 HD ("API keys are not supported by this API").
-  Never put the key in a command or a file in the repo — if a call gets 401/403, tell the user the network secret is missing.
-  `--model gemini-2.5-flash-tts` = paid Flash (lower, closer to reel 1's pitch). `--free` = old free AI Studio Flash
-  (`$GEMINI_API_KEY` / proxy, **3 requests/min, 10/day**) only as a fallback.
+- **Voice (channel voice, default)**: `python reels/tts.py script.txt voice-cand-N.wav` → Gemini 2.5 Flash TTS on AI Studio,
+  Charon, style "calm, confident, conversational, slightly slow, in a deep low relaxed voice, like a friendly psychology
+  explainer" — one call = whole script. The user compared it with the premium voices and chose this one. Key:
+  `$GEMINI_API_KEY` or `~/.flow-mcp/gemini-key` locally; the proxy in the cloud. Free tier: **3 requests/min, 10/day**.
+  `--premium` = Gemini 2.5 Pro TTS on Vertex AI (paid, no cap; richer but ~125–135 Hz) — only if the user asks. Its key is a
+  Vertex express key (`AQ.…`): `$GOOGLE_VERTEX_API_KEY` / `~/.vertex-key` locally, network secret for
+  `aiplatform.googleapis.com` (`x-goog-api-key`) in the cloud. It does NOT work with Cloud Text-to-Speech / Chirp 3 HD.
+  Never put a key in a command or a repo file.
 - **Images (default)**: `python reels/polli.py jobs.json` → Pollinations FLUX.2 Klein 4B, parallel.
   Key: `$POLLINATIONS_KEY` or `~/.pollinations-key` locally; the proxy in the cloud. ~$0.005/image, 1152x2048. User approved the cost.
 - **Character references** (committed, use these for the establishing image of a new reel):
@@ -99,15 +100,13 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
 
 ### 2. Voice — one take, channel voice
 1. Write `script.txt` (the exact narration, plain quotes, `...` kept).
-2. Make 2–3 takes: `python ../tts.py script.txt voice-cand-1.wav` (defaults: premium Pro TTS, Charon + channel style
-   "in a deep, low-pitched, relaxed male voice at a natural conversational pace, calm and confident, like a friendly
-   psychology explainer"). Do NOT say "slow" to the Pro model — it reads 25 % slower than Flash.
+2. Make 2–3 takes: `python ../tts.py script.txt voice-cand-1.wav` (defaults: channel voice, Charon + the deep channel
+   style above — it scored 3.9–4.8 against reel 1, the best matches so far).
 3. Score vs the channel voice:
    `<audio python> ../audio/voice_profile.py ../audio/voice-ref.m4a voice-cand-*.wav` (the reference is reel 1's opening take)
    Keep the lowest distance (≈5 is fine; reference pitch ~89 Hz). If all takes are high-pitched (>105 Hz), spend
    one more with style `"... slightly slow, in a deep low relaxed voice, like a friendly psychology explainer"`.
-4. Budget: premium has no daily cap (a few cents per take). Only the `--free` fallback has 10 calls/day.
-   Pro voices measure ~125–135 Hz (reel 1's take: 89 Hz) whatever the style says; that is accepted as the premium sound.
+4. Budget: 10 TTS calls/day on the channel voice. Tell the user how many are left if it gets low.
 
 ### 3. Images — Klein with references
 - **House style** (start every prompt with it):
