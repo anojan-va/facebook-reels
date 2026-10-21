@@ -1,0 +1,275 @@
+{
+ "out": "../output/glass-of-water.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 13
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 18
+  }
+ ],
+ "shots": [
+  {
+   "text": "A teacher raised a glass of water",
+   "focus": [
+    0.78,
+    0.2,
+    0.3
+   ],
+   "zoom": 1.8,
+   "sfx": [
+    "hook"
+   ],
+   "image": "img/i01-raise.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "and asked,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "image": "img/i01-raise.jpg"
+  },
+  {
+   "text": "\"How heavy is this?\"",
+   "focus": [
+    0.78,
+    0.18,
+    0.3
+   ],
+   "zoom": 2.2,
+   "drift": 0.05,
+   "image": "img/i01-raise.jpg",
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "text": "Students guessed:",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.5
+    },
+    {
+     "name": "pop",
+     "at": 1.3
+    }
+   ],
+   "image": "img/i02-guess-b.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "200 grams,",
+   "focus": [
+    0.27,
+    0.2,
+    0.3
+   ],
+   "zoom": 1.7,
+   "image": "img/i02-guess-b.jpg",
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "text": "300 grams.",
+   "focus": [
+    0.73,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.7,
+   "image": "img/i02-guess-b.jpg",
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "text": "He said, \"The weight doesn't matter.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "image": "img/i03-smile.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "What matters is how long",
+   "focus": [
+    0.45,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/i03-smile.jpg"
+  },
+  {
+   "text": "I hold it.\"",
+   "focus": [
+    0.4,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.6,
+   "image": "img/i03-smile.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "\"One minute, no problem.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/i04a-minute-l.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "One hour, my arm will hurt.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/i04b-hour-l.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "One day,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "glitch"
+   ],
+   "image": "img/i04c-day-l.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "I won't feel my arm.\"",
+   "focus": [
+    0.5,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.5,
+   "image": "img/i04c-day-l.jpg",
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "text": "Your worries are the same.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "image": "img/i05-night.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "Think about them a little,",
+   "focus": [
+    0.35,
+    0.45,
+    0.35
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "image": "img/i05-night.jpg"
+  },
+  {
+   "text": "and nothing happens.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "image": "img/i05-night.jpg"
+  },
+  {
+   "text": "Hold them all day,",
+   "focus": [
+    0.45,
+    0.15,
+    0.3
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ],
+   "image": "img/i05-night.jpg"
+  },
+  {
+   "text": "and they'll paralyze you.",
+   "focus": [
+    0.4,
+    0.3,
+    0.35
+   ],
+   "zoom": 2.0,
+   "image": "img/i05-night.jpg",
+   "drift": 0.06
+  },
+  {
+   "text": "Put the glass down",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "image": "img/i06-down.jpg"
+  },
+  {
+   "text": "before you sleep.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    }
+   ],
+   "image": "img/z-card.jpg",
+   "drift": 0.05
+  }
+ ]
+}

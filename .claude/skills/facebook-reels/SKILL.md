@@ -66,7 +66,11 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
 - **Voice (channel voice, default)**: `python reels/tts.py script.txt voice-cand-N.wav` → Gemini 2.5 Flash TTS on AI Studio,
   Charon, style "calm, confident, conversational, slightly slow, in a deep low relaxed voice, like a friendly psychology
   explainer" — one call = whole script. The user compared it with the premium voices and chose this one. Key:
-  `$GEMINI_API_KEY` or `~/.flow-mcp/gemini-key` locally; the proxy in the cloud. Free tier: **3 requests/min, 10/day**.
+  `$GEMINI_API_KEY` or `~/.flow-mcp/gemini-key` locally; the proxy in the cloud. Free tier: **3 requests/min, 10/day per
+  Google project** (a second key from the same project shares the quota). Extra keys the user gives: pass them for the
+  command only as `GEMINI_API_KEYS="k1,k2" python reels/tts.py …` — tts.py sends them as `?key=` (the cloud proxy
+  overwrites an x-goog-api-key header with its stored, possibly exhausted, key) and moves to the next key on 429.
+  Never write keys to a file.
   `--premium` = Gemini 2.5 Pro TTS on Vertex AI (paid, no cap; richer but ~125–135 Hz) — only if the user asks. Its key is a
   Vertex express key (`AQ.…`): `$GOOGLE_VERTEX_API_KEY` / `~/.vertex-key` locally, network secret for
   `aiplatform.googleapis.com` (`x-goog-api-key`) in the cloud. It does NOT work with Cloud Text-to-Speech / Chirp 3 HD.

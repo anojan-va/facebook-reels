@@ -1,0 +1,249 @@
+{
+ "out": "../output/bamboo.mp4",
+ "audio": [
+  "voice-cand-3.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 5
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 9
+  }
+ ],
+ "shots": [
+  {
+   "text": "A farmer planted a bamboo seed.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "image": "img/e01-plant.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "He watered it every day for one year.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "pop",
+     "at": 0.2
+    }
+   ],
+   "image": "img/e02-water-y.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "Nothing.",
+   "focus": [
+    0.62,
+    0.8,
+    0.55
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "wrong"
+   ],
+   "image": "img/e02-water.jpg"
+  },
+  {
+   "text": "Two years. Nothing.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "pop",
+     "at": 0.2
+    }
+   ],
+   "image": "img/e03-rain-y.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "Four years. Still nothing.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "pop",
+     "at": 0.2
+    }
+   ],
+   "image": "img/e03b-snow-y.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "People called him a fool.",
+   "focus": [
+    0.75,
+    0.4,
+    0.38
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "wrong"
+   ],
+   "image": "img/e02-water.jpg"
+  },
+  {
+   "text": "What they couldn't see",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.08,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "image": "img/e04-roots.jpg"
+  },
+  {
+   "text": "was that the bamboo",
+   "focus": [
+    0.5,
+    0.55,
+    0.5
+   ],
+   "zoom": 1.4,
+   "drift": 0.06,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.6
+    }
+   ],
+   "image": "img/e04-roots.jpg"
+  },
+  {
+   "text": "was building roots.",
+   "focus": [
+    0.5,
+    0.6,
+    0.5
+   ],
+   "zoom": 1.8,
+   "drift": 0.06,
+   "image": "img/e04-roots.jpg",
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "text": "Then, in the fifth year,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "flash": true,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "image": "img/e05-tower-y.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "it grew over 20 meters",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "riser",
+    {
+     "name": "sparkle",
+     "at": 0.8
+    }
+   ],
+   "image": "img/e05-tower.jpg"
+  },
+  {
+   "text": "in just weeks.",
+   "focus": [
+    0.5,
+    0.2,
+    0.3
+   ],
+   "zoom": 1.5,
+   "drift": -0.08,
+   "image": "img/e05-tower.jpg",
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "text": "It didn't grow in five weeks.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "image": "img/e06-smile.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "It grew in five years.",
+   "focus": "wide",
+   "zoom": 1.05,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ],
+   "image": "img/e04-roots.jpg"
+  },
+  {
+   "text": "If nobody sees your progress yet,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "image": "img/z-card-1.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "don't stop.",
+   "focus": "wide",
+   "zoom": 1.06,
+   "image": "img/z-card-1.jpg",
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "text": "You're building roots.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    }
+   ],
+   "image": "img/z-card.jpg",
+   "drift": 0.05
+  }
+ ]
+}

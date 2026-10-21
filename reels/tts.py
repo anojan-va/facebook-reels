@@ -4,7 +4,8 @@ Usage: python tts.py <script.txt> <out.wav> [voice] [style] [--premium] [--model
 
 Default: the CHANNEL voice = Gemini 2.5 Flash TTS on AI Studio, Charon, deep relaxed style (the user's choice; closest
   to reel 1). Key: $GEMINI_API_KEY, else ~/.flow-mcp/gemini-key; in the cloud the proxy adds it for
-  generativelanguage.googleapis.com. Free tier: 3 requests/minute, 10/day.
+  generativelanguage.googleapis.com. Free tier: 3 requests/minute, 10/day per key.
+  Several keys: $GEMINI_API_KEYS="key1,key2,..." — on a quota error (429) the next key is tried (keys never go to disk).
 --premium: Gemini 2.5 Pro TTS on Vertex AI (paid, no daily limit; sounds richer but higher-pitched, ~125-135 Hz;
   the user preferred the channel voice).
   Key: $GOOGLE_VERTEX_API_KEY, else ~/.vertex-key (local PC); in a Claude cloud session neither exists and the
@@ -40,22 +41,30 @@ def speak(text: str, out: Path, voice=CHANNEL_VOICE, style=None, premium=False, 
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
     if free:
-        key = key_from("GEMINI_API_KEY", Path.home() / ".flow-mcp" / "gemini-key")
+        keys = [k for k in os.environ.get("GEMINI_API_KEYS", "").split(",") if k.strip()] or \
+               [key_from("GEMINI_API_KEY", Path.home() / ".flow-mcp" / "gemini-key")]
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model or FREE_MODEL}:generateContent"
     else:
-        key = key_from("GOOGLE_VERTEX_API_KEY", Path.home() / ".vertex-key")
+        keys = [key_from("GOOGLE_VERTEX_API_KEY", Path.home() / ".vertex-key")]
         url = f"https://aiplatform.googleapis.com/v1/publishers/google/models/{model or PREMIUM_MODEL}:generateContent"
-    req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST",
-                                 headers={"content-type": "application/json", **({"x-goog-api-key": key} if key else {})})
-    try:
-        with urllib.request.urlopen(req, timeout=300) as r:
-            data = json.loads(r.read())
-    except urllib.error.HTTPError as e:
-        hint = ""
-        if e.code in (401, 403) and not free:
-            hint = ("\nNo Vertex key reached Google: add a network secret for aiplatform.googleapis.com "
-                    "(header x-goog-api-key) in the cloud environment, or set GOOGLE_VERTEX_API_KEY.")
-        sys.exit(f"TTS HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:400]}{hint}")
+    for n, key in enumerate(keys):
+        # In the cloud the proxy overwrites an x-goog-api-key header with the stored secret, so a key we were given
+        # goes in the URL instead (?key=), which the proxy leaves alone.
+        req = urllib.request.Request(url + (f"?key={key.strip()}" if key else ""), data=json.dumps(body).encode(),
+                                     method="POST", headers={"content-type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as r:
+                data = json.loads(r.read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and n + 1 < len(keys):
+                print(f"key {n + 1} over quota, trying key {n + 2}", file=sys.stderr)
+                continue
+            hint = ""
+            if e.code in (401, 403) and not free:
+                hint = ("\nNo Vertex key reached Google: add a network secret for aiplatform.googleapis.com "
+                        "(header x-goog-api-key) in the cloud environment, or set GOOGLE_VERTEX_API_KEY.")
+            sys.exit(f"TTS HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:400]}{hint}")
     part = next(p for p in data["candidates"][0]["content"]["parts"] if "inlineData" in p)["inlineData"]
     rate = part.get("mimeType", "").split("rate=")[-1] if "rate=" in part.get("mimeType", "") else "24000"
     pcm = base64.b64decode(part["data"])

@@ -1,0 +1,197 @@
+{
+ "out": "../output/elephant-rope.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 4
+  },
+  {
+   "music": "../audio/music/unforgiven.mp3",
+   "start": 13.63,
+   "shot": 11
+  }
+ ],
+ "shots": [
+  {
+   "text": "A man saw a giant elephant",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "image": "img/f01-elephant.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "held by one thin rope.",
+   "focus": [
+    0.55,
+    0.8,
+    0.55
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/f05-rope.jpg"
+  },
+  {
+   "text": "He asked the trainer,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "image": "img/f02-ask.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "\"Why doesn't it just break free?\"",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/f02-ask.jpg"
+  },
+  {
+   "text": "\"When it was a baby,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    "rewind"
+   ],
+   "flip": [
+    "img/f01-elephant.jpg",
+    "img/f02-ask.jpg",
+    "img/f05-rope.jpg",
+    "img/f01-elephant.jpg"
+   ],
+   "drift": 0.05
+  },
+  {
+   "text": "we tied it with this rope.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "image": "img/f03-baby.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "It pulled and pulled,",
+   "focus": [
+    0.5,
+    0.65,
+    0.45
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/f03-baby.jpg"
+  },
+  {
+   "text": "but it was too small.\"",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": 0.05,
+   "image": "img/f03-baby.jpg"
+  },
+  {
+   "text": "\"One day, it stopped trying.\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "heartbeat"
+   ],
+   "image": "img/f04-gaveup.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "\"Now it's strong enough to break it,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "image": "img/f01-elephant.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "but it believes it can't.\"",
+   "focus": [
+    0.55,
+    0.8,
+    0.55
+   ],
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/f05-rope.jpg"
+  },
+  {
+   "text": "How many of us are still tied",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "image": "img/f06-hands.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "to a rope from our past?",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/f06-hands.jpg"
+  },
+  {
+   "text": "Your old limits",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "image": "img/z-card-1.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "are not your real limits.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    }
+   ],
+   "image": "img/z-card.jpg",
+   "drift": 0.05
+  }
+ ]
+}

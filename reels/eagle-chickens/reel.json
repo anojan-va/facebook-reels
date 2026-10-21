@@ -1,0 +1,256 @@
+{
+ "out": "../output/eagle-chickens.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 13
+  },
+  {
+   "music": "../audio/music/unforgiven.mp3",
+   "start": 13.63,
+   "shot": 15
+  }
+ ],
+ "shots": [
+  {
+   "text": "A farmer once put an eagle's egg",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "image": "img/g01-egg.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "among chickens.",
+   "focus": [
+    0.3,
+    0.7,
+    0.5
+   ],
+   "zoom": 1.6,
+   "image": "img/g01-egg.jpg",
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "text": "The eagle grew up thinking it was a chicken.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "image": "img/g02-peck.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "It walked like them,",
+   "focus": "wide",
+   "zoom": 1.3,
+   "image": "img/g03-walk.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "ate like them,",
+   "focus": [
+    0.5,
+    0.65,
+    0.5
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/g02-peck.jpg"
+  },
+  {
+   "text": "lived like them.",
+   "focus": [
+    0.5,
+    0.6,
+    0.5
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/g03-walk.jpg"
+  },
+  {
+   "text": "One day, it saw a bird",
+   "focus": [
+    0.5,
+    0.15,
+    0.3
+   ],
+   "zoom": 1.5,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "image": "img/g04-sky.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "flying high above the mountains.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.06,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ],
+   "image": "img/g04-sky.jpg"
+  },
+  {
+   "text": "\"What is that?\" it asked.",
+   "focus": [
+    0.5,
+    0.8,
+    0.55
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/g04-sky.jpg"
+  },
+  {
+   "text": "The chickens said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "image": "img/g05-shrug.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "\"That's the eagle, king of the sky.",
+   "focus": [
+    0.5,
+    0.15,
+    0.3
+   ],
+   "zoom": 1.5,
+   "image": "img/g04-sky.jpg",
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "text": "But we're just chickens.\"",
+   "focus": [
+    0.5,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/g05-shrug.jpg"
+  },
+  {
+   "text": "So it never tried.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.2,
+   "sfx": [
+    "heartbeat"
+   ],
+   "image": "img/g06-lower.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "It lived and died as a chicken.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "image": "img/g07-old.jpg"
+  },
+  {
+   "text": "Who you spend time with",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "image": "img/g08-circle.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "decides what you believe you can do.",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ],
+   "image": "img/g08-circle.jpg"
+  },
+  {
+   "text": "If you want to fly,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "image": "img/z-card-1.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "stop living with those",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    }
+   ],
+   "image": "img/z-card.jpg",
+   "drift": 0.05
+  },
+  {
+   "text": "who only know the ground.",
+   "focus": "wide",
+   "zoom": 1.05,
+   "image": "img/z-card.jpg",
+   "drift": 0.03
+  }
+ ]
+}
