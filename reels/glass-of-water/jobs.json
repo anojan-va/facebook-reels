@@ -1,0 +1,61 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/i01-raise.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1004,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a classroom in thin white line art: a blackboard, wooden desks. Scene: a teacher, a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers with glasses stands at the front raising a glass of water in one hand; the main character sits at a desk in the front row looking up at the glass. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. "
+  },
+  {
+   "out": "img/i02-guess.jpg",
+   "refs": [],
+   "seed": 1005,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a classroom in thin white line art: a blackboard, wooden desks. Scene: students drawn in white line art at their desks raise their hands and shout guesses, mouths open. Empty dark space above their heads. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/i03-smile.jpg",
+   "refs": [],
+   "seed": 1006,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a classroom in thin white line art: a blackboard, wooden desks. Scene: a teacher, a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers with glasses smiles wisely, holding the glass of water up at shoulder height. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/i04a-minute.jpg",
+   "refs": [],
+   "seed": 1007,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a classroom in thin white line art: a blackboard, wooden desks. Scene: close-up of one arm holding a glass of water out straight, relaxed and steady. Only the arm and the glass."
+  },
+  {
+   "out": "img/i04b-hour.jpg",
+   "refs": [],
+   "seed": 1008,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a classroom in thin white line art: a blackboard, wooden desks. Scene: close-up of one arm holding a glass of water out straight, the arm trembling a little, small strain lines around the elbow. Only the arm and the glass."
+  },
+  {
+   "out": "img/i04c-day.jpg",
+   "refs": [],
+   "seed": 1009,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a classroom in thin white line art: a blackboard, wooden desks. Scene: close-up of one arm holding a glass of water out straight, shaking hard with pain, many jagged pain lines, the water spilling. Only the arm and the glass."
+  },
+  {
+   "out": "img/i05-night.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1010,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a dark bedroom at night in thin white line art: a bed, a window with the moon. Scene: the main character lies awake in bed staring at the ceiling, replaying an old argument; a heavy dark storm cloud hangs over his head. Nobody else."
+  },
+  {
+   "out": "img/i06-down.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1011,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a dark bedroom at night in thin white line art: a bed, a nightstand. Scene: the main character sits on the edge of the bed, eyes closed, breathing out calmly, slowly placing an empty hand down on the nightstand as if putting down an invisible glass. Nobody else."
+  }
+ ]
+}

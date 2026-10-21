@@ -1,0 +1,59 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/c01-king.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 926,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a dry village during a drought in thin white line art: cracked earth, dead trees, small huts. Scene: a king's wooden cart pulled by an ox stops in the village; a royal servant hands a sack of seeds to the main character and another sack to a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers. Hungry villagers watch. They stand at the same distance from the camera, the same scale, adults of similar height. "
+  },
+  {
+   "out": "img/c02-cook.jpg",
+   "refs": [],
+   "seed": 927,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a dry village during a drought in thin white line art: cracked earth, dead trees, small huts. Scene: at night a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers sits by a small cooking fire, cooking the seeds in a pot and eating happily from a bowl. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/c03-plant.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 928,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a dry village during a drought in thin white line art: cracked earth, dead trees, small huts. Scene: the main character, thin and tired, kneels in the dry cracked soil planting seeds one by one with his hands. Nobody else."
+  },
+  {
+   "out": "img/c04-laugh.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 929,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a dry village during a drought in thin white line art: cracked earth, dead trees, small huts. Scene: the main character sits eating from a very small bowl; next to him a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers points at him and laughs. They stand at the same distance from the camera, the same scale, adults of similar height. "
+  },
+  {
+   "out": "img/c05-empty.jpg",
+   "refs": [],
+   "seed": 930,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a dry village during a drought in thin white line art: cracked earth, dead trees, small huts. Scene: months later, a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers sits on the ground holding an empty sack upside down, sad hungry face. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/c06-field.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 931,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: farmland in thin white line art. A low sun at sunset. Scene: the main character stands proudly in a huge field full of tall ripe wheat, the field stretching to the horizon."
+  },
+  {
+   "out": "img/c07-basket.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 932,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: farmland in thin white line art. Scene: the main character kindly hands a big basket full of grain to a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers, who takes it with a humble grateful face. They stand at the same distance from the camera, the same scale, adults of similar height. "
+  }
+ ]
+}

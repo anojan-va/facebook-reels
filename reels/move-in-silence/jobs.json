@@ -1,0 +1,69 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/a01-teashop.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 900,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a small village street at dusk in thin white line art: a tiny tea shop with a tin roof, wooden benches, hanging bulbs, small houses. Scene: wide shot at the tea shop, two friends sit on a bench with tea glasses: on the right a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers, who talks loudly with big excited arm gestures; on the left the main character listens quietly with a small smile. They stand at the same distance from the camera, the same scale, adults of similar height. "
+  },
+  {
+   "out": "img/a02-crowd.jpg",
+   "refs": [],
+   "seed": 901,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village street at dusk in thin white line art: a tiny tea shop with a tin roof, wooden benches, hanging bulbs, small houses. Scene: a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers stands in the middle telling a crowd of villagers about his plans with big gestures; the villagers around him laugh and point at him. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/a03-talker.jpg",
+   "refs": [],
+   "seed": 902,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village street at dusk in thin white line art: a tiny tea shop with a tin roof, wooden benches, hanging bulbs, small houses. Scene: close-up of a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers, talking excitedly with one hand raised, eyes wide, mouth open, boasting. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/a04-coins.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 903,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a small bare room in a village house at night in thin white line art: one bare light bulb hanging over a wooden table. Scene: the main character sits alone at the wooden table under the single bulb, counting a small pile of coins with both hands, focused and quiet. Nobody else."
+  },
+  {
+   "out": "img/a05-whisper.jpg",
+   "refs": [],
+   "seed": 904,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village street at dusk in thin white line art: a tiny tea shop with a tin roof, wooden benches, hanging bulbs, small houses. Scene: a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers stands in the foreground looking doubtful and unsure, while behind him villagers whisper to each other behind their hands, glancing at him. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/a06-doubt.jpg",
+   "refs": [],
+   "seed": 905,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village street at dusk in thin white line art: a tiny tea shop with a tin roof, wooden benches, hanging bulbs, small houses. Scene: close-up of a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers, worried doubtful face, eyebrows pulled together, looking down. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/a07-stall.jpg",
+   "refs": [],
+   "seed": 906,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a village street in heavy rain at night in thin white line art. Scene: an empty abandoned wooden market stall in the rain, a torn awning, an overturned stool, puddles. No people."
+  },
+  {
+   "out": "img/a08-shop.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 907,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: the same village street on a bright morning in thin white line art: small shops with metal roller shutters. Scene: the main character lifts the metal roller shutter of a bright new shop full of goods, smiling; across the street a crowd of villagers stares at him in shock, mouths open. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. "
+  },
+  {
+   "out": "img/a09-smile.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 908,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: the same village street on a bright morning in thin white line art: small shops with metal roller shutters. Scene: close-up of the main character's head and shoulders, a calm quiet confident smile, looking at the viewer. Nobody else."
+  }
+ ]
+}

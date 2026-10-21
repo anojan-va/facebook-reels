@@ -1,0 +1,241 @@
+{
+ "out": "../output/move-in-silence.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 7
+  },
+  {
+   "music": "../audio/music/unforgiven.mp3",
+   "start": 13.63,
+   "shot": 10
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/a01-teashop.jpg",
+   "text": "Two friends had the same dream:",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a01-teashop.jpg",
+   "text": "to open their own shop.",
+   "focus": [
+    0.45,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/a02-crowd.jpg",
+   "text": "The first one told everyone.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a03-talker.jpg",
+   "text": "Every plan,",
+   "focus": [
+    0.45,
+    0.27,
+    0.33
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop",
+    {
+     "name": "pop",
+     "at": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "image": "img/a03-talker.jpg",
+   "text": "every idea, every date.",
+   "focus": [
+    0.45,
+    0.27,
+    0.33
+   ],
+   "zoom": 2.1,
+   "punch": true,
+   "sfx": [
+    "pop",
+    {
+     "name": "pop",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "image": "img/a04-coins.jpg",
+   "text": "The second one told no one.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a04-coins.jpg",
+   "text": "He just worked.",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/a05-whisper.jpg",
+   "text": "People laughed at the first.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a06-doubt.jpg",
+   "text": "Their doubts became his doubts.",
+   "focus": [
+    0.45,
+    0.3,
+    0.33
+   ],
+   "zoom": 1.4,
+   "sfx": [
+    "heartbeat"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a07-stall.jpg",
+   "text": "Slowly, he gave up.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.07
+  },
+  {
+   "image": "img/a08-shop.jpg",
+   "text": "One morning,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "flash": true,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a08-shop.jpg",
+   "text": "the second friend simply opened his shop.",
+   "focus": "man",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/a08-shop.jpg",
+   "text": "Nobody saw it coming.",
+   "focus": [
+    0.8,
+    0.45,
+    0.4
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/a09-smile.jpg",
+   "text": "And nobody could stop it.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/z-card-1.jpg",
+   "text": "Plans told too early",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/z-card-1.jpg",
+   "text": "invite opinions.",
+   "focus": "wide",
+   "zoom": 1.06,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/z-card.jpg",
+   "text": "Results speak for themselves.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    }
+   ],
+   "drift": 0.05
+  }
+ ]
+}

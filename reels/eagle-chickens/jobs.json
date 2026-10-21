@@ -1,0 +1,57 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/g01-egg.jpg",
+   "refs": [],
+   "seed": 978,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: a farmer, a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers wearing a straw hat, gently places a big egg into a straw nest among chickens in the barn. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/g02-peck.jpg",
+   "refs": [],
+   "seed": 979,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: a young eagle drawn in white line art pecks at the ground among a group of chickens. No people."
+  },
+  {
+   "out": "img/g03-walk.jpg",
+   "refs": [],
+   "seed": 980,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: wide shot: a young eagle walks in a line with chickens across the farmyard, copying them. No people."
+  },
+  {
+   "out": "img/g04-sky.jpg",
+   "refs": [],
+   "seed": 981,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Sunset sky over mountains. Scene: a majestic eagle soars high across the sky above the mountains; below in the farmyard a young eagle among chickens looks up at it. No people."
+  },
+  {
+   "out": "img/g05-shrug.jpg",
+   "refs": [],
+   "seed": 982,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: close view: chickens talk to the young eagle, one chicken shrugs with its wings. No people."
+  },
+  {
+   "out": "img/g06-lower.jpg",
+   "refs": [],
+   "seed": 983,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: the young eagle lowers its head sadly and keeps pecking at the ground among the chickens. No people."
+  },
+  {
+   "out": "img/g07-old.jpg",
+   "refs": [],
+   "seed": 984,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: an old eagle lies peacefully on the straw in the chicken yard, eyes closed, gentle and calm, chickens nearby. No people."
+  },
+  {
+   "out": "img/g08-circle.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 985,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a small living room in thin white line art: a sofa, a coffee table. Scene: the main character sits on the sofa among four people who all stare at their phones and complain with bored, frowning faces; he looks away, thinking. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. "
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/j01-insult.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1017,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a busy open-air market in thin white line art: fruit stalls, baskets, awnings, shoppers. Scene: the main character stands behind his fruit stall; in front of it a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers points at him angrily, shouting insults; shoppers turn to look. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. "
+  },
+  {
+   "out": "img/j02-calm.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1018,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a busy open-air market in thin white line art: fruit stalls, baskets, awnings, shoppers. Scene: the main character calmly arranges apples on his fruit stall, peaceful face, eyes down. Nobody else in focus."
+  },
+  {
+   "out": "img/j03-louder.jpg",
+   "refs": [],
+   "seed": 1019,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a busy open-air market in thin white line art: fruit stalls, baskets, awnings, shoppers. Scene: a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers shouts louder with both fists clenched, red-faced anger lines, a crowd of shoppers watching. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/j04-leave.jpg",
+   "refs": [],
+   "seed": 1020,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a busy open-air market in thin white line art: fruit stalls, baskets, awnings, shoppers. Scene: a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers storms off through the market, frustrated and embarrassed, looking back over his shoulder. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "img/j05-boy.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1021,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a busy open-air market in thin white line art: fruit stalls, baskets, awnings, shoppers. Scene: a young boy drawn in white line art looks up at the main character behind his fruit stall and asks him a question. The boy is a child, the main character an adult."
+  },
+  {
+   "out": "img/j06-fruit.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1022,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a busy open-air market in thin white line art: fruit stalls, baskets, awnings, shoppers. Scene: the main character kneels and holds out an apple to the young boy, kind wise smile; the boy, drawn in white line art, looks at the apple. The boy is a child."
+  },
+  {
+   "out": "img/j07-think.jpg",
+   "refs": [],
+   "seed": 1023,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a busy open-air market in thin white line art: fruit stalls, baskets, awnings, shoppers. Scene: close-up of a young boy drawn in white line art thinking, one finger on his chin, eyes looking up. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  }
+ ]
+}

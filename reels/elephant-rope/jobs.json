@@ -1,0 +1,47 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/f01-elephant.jpg",
+   "refs": [],
+   "seed": 965,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Scene: a huge adult elephant drawn in white line art with four legs, two ears, one trunk and two tusks stands calmly, one back leg tied with a thin rope to a small wooden stake in the ground. No people."
+  },
+  {
+   "out": "img/f02-ask.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 966,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Scene: the main character, puzzled, asks a circus trainer, a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers wearing a cap, a question; the huge elephant drawn in white line art with four legs, two ears, one trunk and two tusks stands behind them tied to a small stake. They stand at the same distance from the camera, the same scale, adults of similar height. "
+  },
+  {
+   "out": "img/f03-baby.jpg",
+   "refs": [],
+   "seed": 967,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Scene: a small baby elephant drawn in white line art with four legs, two ears, one trunk and two tusks pulls hard with all its strength against a thin rope tied to a small wooden stake, straining. No people."
+  },
+  {
+   "out": "img/f04-gaveup.jpg",
+   "refs": [],
+   "seed": 968,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Scene: the small baby elephant drawn in white line art with four legs, two ears, one trunk and two tusks lies down on the ground next to the stake, giving up, sad eyes. No people."
+  },
+  {
+   "out": "img/f05-rope.jpg",
+   "refs": [],
+   "seed": 969,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Scene: close-up at ground level: a thin rope loosely tied around a giant elephant's leg and a tiny wooden stake in the ground. No people."
+  },
+  {
+   "out": "img/f06-hands.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 970,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Scene: close-up of the main character looking down at his own open hands, thinking deeply. Nobody else."
+  }
+ ]
+}

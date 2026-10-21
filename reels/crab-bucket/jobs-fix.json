@@ -1,0 +1,13 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/b03-pull.jpg",
+   "refs": [],
+   "seed": 1300,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a wooden fishing dock at sunset in thin white line art, the sea and a low sun on the horizon. Scene: close-up inside a metal bucket full of many crabs: one crab is climbing up the wall near the rim, and three other crabs below grab its legs with their claws and pull it back down into the bucket. All crabs drawn in white line art. No people."
+  }
+ ]
+}

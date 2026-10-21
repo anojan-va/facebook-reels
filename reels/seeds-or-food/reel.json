@@ -1,0 +1,206 @@
+{
+ "out": "../output/seeds-or-food.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 10
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 1.6,
+   "shot": 11
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/c01-king.jpg",
+   "text": "During a famine,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/c01-king.jpg",
+   "text": "a king gave two farmers",
+   "focus": [
+    0.5,
+    0.4,
+    0.4
+   ],
+   "zoom": 1.4,
+   "drift": 0.06
+  },
+  {
+   "image": "img/c01-king.jpg",
+   "text": "one sack of seeds each.",
+   "focus": "man",
+   "zoom": 1.6,
+   "drift": 0.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/c02-cook.jpg",
+   "text": "The first farmer was hungry,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/c02-cook.jpg",
+   "text": "so he cooked the seeds",
+   "focus": [
+    0.55,
+    0.35,
+    0.33
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/c02-cook.jpg",
+   "text": "and ate well that night.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "punch": false,
+   "drift": 0.06,
+   "sfx": []
+  },
+  {
+   "image": "img/c03-plant.jpg",
+   "text": "The second farmer was just as hungry,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/c03-plant.jpg",
+   "text": "but he planted them.",
+   "focus": [
+    0.5,
+    0.7,
+    0.5
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/c04-laugh.jpg",
+   "text": "For weeks he ate less,",
+   "focus": "man",
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/c04-laugh.jpg",
+   "text": "and his friend laughed at him.",
+   "focus": [
+    0.78,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/c05-empty.jpg",
+   "text": "Months later, the first farmer's sack was empty.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "heartbeat"
+   ],
+   "pause_before": 0.2,
+   "drift": 0.05
+  },
+  {
+   "image": "img/c06-field.jpg",
+   "text": "The second farmer's field was full.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/c07-basket.jpg",
+   "text": "Same seeds. Same hunger. Different choice.",
+   "focus": [
+    0.5,
+    0.45,
+    0.4
+   ],
+   "zoom": 1.25,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.08
+  },
+  {
+   "image": "img/z-card-1.jpg",
+   "text": "What you sacrifice today",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/z-card.jpg",
+   "text": "decides what you harvest tomorrow.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    }
+   ]
+  }
+ ]
+}

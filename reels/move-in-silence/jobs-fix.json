@@ -1,0 +1,13 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/a03-talker.jpg",
+   "refs": [],
+   "seed": 1300,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village street at dusk in thin white line art: a tiny tea shop with a tin roof, wooden benches, hanging bulbs, small houses. Scene: close-up of a man drawn in white line art only, NOT coloured: short black hair, clean-shaven, plain t-shirt and trousers, talking excitedly and boasting, one hand raised, eyes wide, big open smile. His face is drawn with clean white outlines and normal friendly features, NOT a black filled face, NOT a silhouette. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+  }
+ ]
+}

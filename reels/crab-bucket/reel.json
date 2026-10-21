@@ -1,0 +1,226 @@
+{
+ "out": "../output/crab-bucket.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 8
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 1.6,
+   "shot": 14
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/b01-bucket.jpg",
+   "text": "Have you ever noticed",
+   "focus": [
+    0.5,
+    0.5,
+    0.45
+   ],
+   "zoom": 1.5,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b01-bucket.jpg",
+   "text": "something strange about crabs?",
+   "focus": [
+    0.5,
+    0.45,
+    0.4
+   ],
+   "zoom": 2.0,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b02-climb.jpg",
+   "text": "Put one crab in a bucket,",
+   "focus": [
+    0.5,
+    0.45,
+    0.4
+   ],
+   "zoom": 1.4,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b02-climb.jpg",
+   "text": "and it climbs out easily.",
+   "focus": [
+    0.5,
+    0.4,
+    0.36
+   ],
+   "zoom": 2.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b01-bucket.jpg",
+   "text": "Put many crabs together,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b03-pull.jpg",
+   "text": "and none of them escape.",
+   "focus": [
+    0.5,
+    0.4,
+    0.4
+   ],
+   "zoom": 1.1,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b03-pull.jpg",
+   "text": "Every time one climbs,",
+   "focus": [
+    0.6,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.6,
+   "punch": false,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b03-pull.jpg",
+   "text": "the others pull it down.",
+   "focus": [
+    0.5,
+    0.5,
+    0.45
+   ],
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/b04-study.jpg",
+   "text": "People are the same.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b05-mock.jpg",
+   "text": "When you try to grow, some will call you proud.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b05-mock-b.jpg",
+   "text": "Some will say you've changed.",
+   "focus": [
+    0.66,
+    0.38,
+    0.33
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b06-door.jpg",
+   "text": "Not because you're wrong,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b07-focus.jpg",
+   "text": "but because your growth",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.06
+  },
+  {
+   "image": "img/b05-mock.jpg",
+   "text": "reminds them of their own fear.",
+   "focus": [
+    0.75,
+    0.55,
+    0.42
+   ],
+   "zoom": 1.6,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/b08-hill.jpg",
+   "text": "Love them.",
+   "focus": "man",
+   "zoom": 1.5,
+   "drift": 0.04,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "sparkle",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "image": "img/b08-hill.jpg",
+   "text": "But don't stay in the bucket.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh2"
+   ]
+  }
+ ]
+}

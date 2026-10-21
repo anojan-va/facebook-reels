@@ -1,0 +1,173 @@
+{
+ "out": "../output/umbrella.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 3
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 11
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/d01-rain.jpg",
+   "text": "A man always carried an umbrella.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d01-rain.jpg",
+   "text": "Whenever it rained,",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d02-crowd.jpg",
+   "text": "everyone wanted to stand next to him.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d03-sun.jpg",
+   "text": "But when the sun came out,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d03-sun.jpg",
+   "text": "nobody even said hello.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/d04-bench.jpg",
+   "text": "For years he wondered,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d04-bench.jpg",
+   "text": "\"Why does nobody stay?\"",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/d05-realize.jpg",
+   "text": "Then he understood.",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "drift": 0.05
+  },
+  {
+   "image": "img/d05-realize.jpg",
+   "text": "They never came for him.",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d02-crowd.jpg",
+   "text": "They came for the shelter.",
+   "focus": [
+    0.5,
+    0.2,
+    0.3
+   ],
+   "zoom": 1.5,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d01-rain.jpg",
+   "text": "Some people need you.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05
+  },
+  {
+   "image": "img/d06-friend.jpg",
+   "text": "Few people want you.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/z-card-1.jpg",
+   "text": "Learn the difference,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/z-card.jpg",
+   "text": "and you'll stop feeling used.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    }
+   ]
+  }
+ ]
+}
