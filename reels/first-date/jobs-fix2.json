@@ -1,0 +1,30 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/s11-type.jpg",
+   "prompt": "Only the woman is in the scene, nobody else. She is drawn in white line art only, NOT yellow, no glow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the woman's bedroom at night in thin white line art: a bed, a lamp, a window with the moon. Scene: the woman lies on her bed smiling at her phone, starting to type a reply, light blush lines.",
+   "seed": 51
+  },
+  {
+   "out": "img/s15-thinks.jpg",
+   "prompt": "Only the woman is in the scene, nobody else. She is drawn in white line art only, NOT yellow, no glow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the woman's bedroom at night in thin white line art: a bed, a lamp, a window with the moon. Scene: the woman sits by her window hugging a pillow, smiling to herself, thinking about him, a small white heart outline beside her head.",
+   "seed": 51
+  },
+  {
+   "out": "img/s14-walk.jpg",
+   "prompt": "Keep the glowing neon-yellow man and the drawing style exactly as in the reference image. No woman. Scene: wide shot from behind, the solid glowing neon-yellow man is mid-stride walking AWAY from the viewer down the night street, his back to us, between the old lamp posts and the parked scooters, a restaurant awning on the side. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city street at night in thin white line art: a small restaurant front with a striped awning and a window, outdoor tables, old lamp posts, parked scooters along the kerb. ",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s12-pocket.jpg"
+   ],
+   "seed": 51
+  },
+  {
+   "out": "img/x10-blank.jpg",
+   "prompt": "Only a phone, no people. Minimalist illustration on a pure black background, clean thin white line art. Scene: close-up of a smartphone drawn in white line art, upright in the centre, its screen completely empty and black. No text anywhere.",
+   "seed": 51
+  }
+ ]
+}

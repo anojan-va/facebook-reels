@@ -1,0 +1,15 @@
+{
+ "project": "remember",
+ "scenes": [
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, a shoulder bag. Setting: a city bus stop at night in thin white line art: bus shelter with a bench, timetable board, street lamp, road, a few small background figures. Scene: wide shot, the yellow man and the woman stand a little apart under the bus shelter, both waiting for the bus, glancing at each other. Draw the yellow man and the woman exactly like the reference image, but in the NEW location described.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\cbl-2k\\clip-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  }
+ ]
+}

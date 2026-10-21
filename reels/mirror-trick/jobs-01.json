@@ -1,0 +1,14 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "jobs": [
+  {
+   "out": "img/b01-wide.jpg",
+   "seed": 71,
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "prompt": "Use the reference image ONLY for how the two characters look (the glowing yellow man and the anime woman). Completely replace the background: no street, no awning, no scooters, no lamp posts. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cosy bookstore at night in thin white line art: tall wooden bookshelves full of books, a warm reading lamp, a big window with rain streaks running down the glass. Scene: wide shot, the yellow man and the woman stand in the aisle between two bookshelves, browsing books a few steps apart, glancing at each other."
+  }
+ ]
+}

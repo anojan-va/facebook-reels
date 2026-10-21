@@ -1,0 +1,11 @@
+{
+ "project": "confident-body-language",
+ "scenes": [
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: Wide shot. The yellow man slouches beside the counter, hunched shoulders, head low. The woman stands at the counter ordering coffee.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0
+  }
+ ]
+}

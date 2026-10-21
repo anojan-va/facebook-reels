@@ -1,0 +1,14 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "jobs": [
+  {
+   "out": "img/s16-spam.jpg",
+   "seed": 61,
+   "refs": [
+    "D:/Claude/reels/first-date/img/s12-pocket.jpg"
+   ],
+   "prompt": "Keep the glowing neon-yellow man and the drawing style exactly as in the reference image. No woman. The man MUST be solid glowing neon yellow. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: his small apartment kitchen in the morning in thin white line art, a coffee mug, a window with the sunrise. Scene: the yellow man hunches over his phone, texting frantically with both thumbs, anxious wide eyes, sweat drops, white motion lines around his thumbs."
+  }
+ ]
+}

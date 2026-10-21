@@ -1,0 +1,289 @@
+{
+ "out": "../output/remember-after-one-conversation.mp4",
+ "audio": [
+  "voice-cand-3.wav"
+ ],
+ "speed": 1.0,
+ "music": "../audio/music/unforgiven.mp3",
+ "music_start": 4.64,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "shots": [
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-01.jpeg",
+   "text": "Want someone to remember you",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.12,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-01.jpeg",
+   "text": "after just one conversation?",
+   "focus": [
+    0.48,
+    0.4,
+    0.42
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-02.jpeg",
+   "text": "Use these 3 tricks.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.15
+    },
+    {
+     "name": "sparkle",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-03.jpeg",
+   "text": "Because most people",
+   "focus": "man",
+   "zoom": 1.2,
+   "flash": true,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-03.jpeg",
+   "text": "are forgotten in five minutes.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-04.jpeg",
+   "text": "First, use their name once.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-04.jpeg",
+   "text": "Not ten times, once.",
+   "focus": "man-face",
+   "zoom": 2.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-05.jpeg",
+   "text": "Say it naturally",
+   "focus": [
+    0.47,
+    0.33,
+    0.4
+   ],
+   "zoom": 1.7,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-05.jpeg",
+   "text": "when you agree with something they said.",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": 1.3,
+   "drift": 0.06
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-06.jpeg",
+   "text": "A person's own name",
+   "focus": [
+    0.6,
+    0.38,
+    0.34
+   ],
+   "zoom": 1.45,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-07.jpeg",
+   "text": "is the sweetest sound",
+   "focus": [
+    0.68,
+    0.38,
+    0.34
+   ],
+   "zoom": 2.2,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-08.jpeg",
+   "text": "to their brain.",
+   "focus": "wide",
+   "zoom": 1.2,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-09.jpeg",
+   "text": "Second, ask the second question.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-10.jpeg",
+   "text": "Don't just ask, what do you do?",
+   "focus": [
+    0.55,
+    0.42
+   ],
+   "zoom": 1.3,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-09.jpeg",
+   "text": "Ask, why did you choose that?",
+   "focus": "man-face",
+   "zoom": 2.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-11.jpeg",
+   "text": "That's where",
+   "focus": [
+    0.5,
+    0.42
+   ],
+   "zoom": 1.3,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-11.jpeg",
+   "text": "real conversations start.",
+   "focus": [
+    0.6,
+    0.37,
+    0.34
+   ],
+   "zoom": 2.0,
+   "sfx": [
+    {
+     "name": "correct",
+     "at": 0.3
+    }
+   ],
+   "punch": true
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-12.jpeg",
+   "text": "Third, leave first.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-13.jpeg",
+   "text": "End the conversation while it's still fun,",
+   "focus": "man",
+   "zoom": 1.3,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-13.jpeg",
+   "text": "with a smile.",
+   "focus": "man-face",
+   "zoom": 2.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-14.jpeg",
+   "text": "People remember the moment",
+   "focus": [
+    0.67,
+    0.4,
+    0.36
+   ],
+   "zoom": 2.3,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-17.jpeg",
+   "text": "that ended too soon.",
+   "focus": [
+    0.55,
+    0.45,
+    0.36
+   ],
+   "zoom": 1.8,
+   "drift": 0.06,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/remember/scene-16.jpeg",
+   "text": "Follow for more.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ]
+}

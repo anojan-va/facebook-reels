@@ -1,0 +1,251 @@
+{
+ "out": "../output/one-second-pause.mp4",
+ "audio": [
+  "voice-cand-2.wav"
+ ],
+ "speed": 1.0,
+ "music": "../audio/music/unforgiven.mp3",
+ "music_start": 2.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "shots": [
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-15.jpeg",
+   "text": "Stop answering questions so fast.",
+   "focus": [
+    0.55,
+    0.45
+   ],
+   "zoom": 1.0,
+   "punch": true,
+   "flash": true,
+   "sfx": [
+    "bass",
+    "hook"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-03.jpeg",
+   "text": "It's killing your attraction.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-01.jpeg",
+   "text": "Watch what happens",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.1,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-01.jpeg",
+   "text": "when she asks him something.",
+   "focus": [
+    0.69,
+    0.38,
+    0.34
+   ],
+   "zoom": 1.9,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-06.jpeg",
+   "text": "She asks, so what do you do?",
+   "focus": [
+    0.5,
+    0.42
+   ],
+   "zoom": 1.15,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-05.jpeg",
+   "text": "And he answers instantly,",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-05.jpeg",
+   "text": "nervous,",
+   "focus": [
+    0.45,
+    0.4
+   ],
+   "zoom": 1.2
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-06.jpeg",
+   "text": "too fast.",
+   "focus": [
+    0.72,
+    0.4,
+    0.34
+   ],
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.15
+    }
+   ]
+  },
+  {
+   "flip": [
+    "C:/Users/Anojan/flow-mcp-out/pause/scene-06.jpeg",
+    "C:/Users/Anojan/flow-mcp-out/pause/scene-05.jpeg",
+    "C:/Users/Anojan/flow-mcp-out/pause/scene-01.jpeg",
+    "C:/Users/Anojan/flow-mcp-out/pause/scene-03.jpeg",
+    "C:/Users/Anojan/flow-mcp-out/pause/scene-15.jpeg",
+    "C:/Users/Anojan/flow-mcp-out/pause/scene-05.jpeg",
+    "C:/Users/Anojan/flow-mcp-out/pause/scene-01.jpeg"
+   ],
+   "flip_frames": 3,
+   "text": "Now rewind.",
+   "sfx": [
+    "rewind"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-01.jpeg",
+   "text": "Same question.",
+   "focus": [
+    0.69,
+    0.38,
+    0.34
+   ],
+   "zoom": 1.6,
+   "flash": true,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-07.jpeg",
+   "text": "This time he pauses for one second,",
+   "focus": "man",
+   "zoom": 1.4,
+   "drift": 0.06,
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-08.jpeg",
+   "text": "smiles slightly,",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-07.jpeg",
+   "text": "then answers slowly.",
+   "focus": [
+    0.45,
+    0.45
+   ],
+   "zoom": 1.15,
+   "drift": 0.08
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-10.jpeg",
+   "text": "That one second tells her brain:",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": 0.08,
+   "sfx": [
+    "whoosh",
+    "sparkle"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-09.jpeg",
+   "text": "he's not trying to impress me.",
+   "focus": [
+    0.68,
+    0.43,
+    0.34
+   ],
+   "zoom": 1.7,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-12.jpeg",
+   "text": "He's comfortable.",
+   "focus": "man",
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-11.jpeg",
+   "text": "Confidence isn't what you say.",
+   "focus": "man",
+   "zoom": 1.4,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-12.jpeg",
+   "text": "It's how unhurried you say it.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.18
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-13.jpeg",
+   "text": "Try it today and watch the difference.",
+   "focus": [
+    0.6,
+    0.42,
+    0.38
+   ],
+   "zoom": 1.5,
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "sparkle",
+     "at": 1.0
+    }
+   ],
+   "drift": 0.12
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/pause/scene-14.jpeg",
+   "text": "Follow for more.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ]
+}

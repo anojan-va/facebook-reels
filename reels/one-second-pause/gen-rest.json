@@ -1,0 +1,135 @@
+{
+ "project": "pause",
+ "scenes": [
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: extreme close-up of the yellow man's face looking nervous and panicked, and a big glowing RED X symbol slammed over the right side of the frame. The red X is the only other colour. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Scene: a single white line-art heart outline in the centre cracking in two with a jagged crack, small fragments falling. Simple black background. Match the drawing style of the reference image only.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: medium shot at the railing, the woman turns to the yellow man and asks him a question with a curious friendly expression, he listens. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: the yellow man talks rapidly and nervously, panicked raised eyebrows, sweat drops flying off his head, white motion lines around his waving hands. The woman looks bored, checking her phone. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: close-up of the woman looking down at her phone, bored half-lidded eyes, ignoring the conversation. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: the yellow man stands calm and relaxed at the railing, holding eye contact with the woman, a tiny confident smirk. A small glowing white label reading \"1s\" floats beside his head. The only text is \"1s\". Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: close-up of the yellow man's face and shoulders, calm steady eye contact, a tiny confident smirk, relaxed eyebrows. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: close-up of the woman looking up from her phone, blushing with light blush lines, head tilted slightly, interested soft smile. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Scene: a white line-art human brain floating in the centre with a calm smooth glowing wave line passing through it and a few soft sparkles, peaceful. Simple black background. Match the drawing style of the reference image only.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a small theatre stage in white line art with a microphone stand, spotlight, rows of audience silhouettes. Scene: the yellow man speaks calmly and slowly at the microphone, relaxed open posture, the audience leans in, attentive. Keep the yellow man and the drawing style exactly as in the reference image, but in the NEW location described.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: the yellow man leans relaxed on the rooftop railing with one elbow, calm half smile, city lights twinkling behind him. Medium shot. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: the woman laughs happily, eyes closed, hand near her mouth, while the yellow man leans on the railing beside her, relaxed and smiling. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a city rooftop at night in thin white line art: a metal railing along the edge, a water tank on legs, strings of small light bulbs overhead, city skyline lights in the distance. Scene: wide shot from behind, the yellow man and the woman stand close together at the railing looking out at the glowing city skyline under the string lights. Keep the characters, the rooftop and the drawing style exactly as in the reference image.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\pause\\scene-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  }
+ ]
+}

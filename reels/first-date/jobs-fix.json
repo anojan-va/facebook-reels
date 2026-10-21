@@ -1,0 +1,41 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 5,
+ "jobs": [
+  {
+   "out": "img/x08-texts.jpg",
+   "prompt": "Only a phone, no people, no characters anywhere in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Scene: close-up of a smartphone drawn in white line art, its screen filled with many white outline message bubbles stacked on top of each other, containing only the short texts \"hey\", \"u up?\", \"??\", \"hey\", \"??\". Simple black background.",
+   "seed": 41
+  },
+  {
+   "out": "img/x10-onemsg.jpg",
+   "prompt": "Only a phone, no people, no characters anywhere in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Scene: close-up of a smartphone drawn in white line art, its screen showing one single white outline message bubble with the text \"Still thinking about that terrible dessert \ud83d\ude02\" written clearly and spelled correctly. Simple black background.",
+   "seed": 41
+  },
+  {
+   "out": "img/s11-type.jpg",
+   "prompt": "Keep the woman, her bedroom and the drawing style exactly as in the reference image. Only the woman is in the scene, nobody else. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the woman's bedroom at night in thin white line art: a bed, a lamp, a window with the moon. Scene: the woman lies on her bed smiling at her phone, starting to type a reply, light blush lines.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s09-overwhelm.jpg"
+   ],
+   "seed": 41
+  },
+  {
+   "out": "img/s15-thinks.jpg",
+   "prompt": "Keep the woman, her bedroom and the drawing style exactly as in the reference image. Only the woman is in the scene, nobody else. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the woman's bedroom at night in thin white line art: a bed, a lamp, a window with the moon. Scene: the woman sits by her window hugging a pillow, smiling to herself, thinking about him, a small white heart outline beside her head.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s09-overwhelm.jpg"
+   ],
+   "seed": 41
+  },
+  {
+   "out": "img/s14-walk.jpg",
+   "prompt": "Keep the glowing neon-yellow man, the street and the drawing style exactly as in the reference image. The man MUST be solid glowing neon yellow. No woman in this scene. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city street at night in thin white line art: a small restaurant front with a striped awning and a window, outdoor tables, old lamp posts, parked scooters along the kerb. Scene: wide shot, the yellow man walks calmly away down the night street between the lamp posts and the parked scooters.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s12-pocket.jpg"
+   ],
+   "seed": 41
+  }
+ ]
+}

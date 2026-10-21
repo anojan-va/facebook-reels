@@ -1,0 +1,55 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 6,
+ "jobs": [
+  {
+   "out": "img/b02-hair.jpg",
+   "prompt": "Use the reference image ONLY for how the two characters look and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cosy bookstore at night in thin white line art: tall wooden bookshelves full of books, a warm reading lamp, a big window with rain streaks running down the glass. Scene: medium close-up from the side, the yellow man and the woman face each other a step apart and BOTH raise one hand to touch their own hair at the same moment, exactly mirrored poses, a thin glowing white circle drawn around both of them.",
+   "refs": [
+    "D:/Claude/reels/mirror-trick/img/b01-wide.jpg"
+   ],
+   "seed": 81
+  },
+  {
+   "out": "img/b04-lean.jpg",
+   "prompt": "Use the reference image ONLY for how the two characters look and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cosy bookstore at night in thin white line art: tall wooden bookshelves full of books, a warm reading lamp, a big window with rain streaks running down the glass. Scene: medium shot, the yellow man leans his shoulder against the bookshelf with his arms crossed and one foot crossed over the other, relaxed half smile. The woman stands a few steps away holding a book, glancing at him.",
+   "refs": [
+    "D:/Claude/reels/mirror-trick/img/b01-wide.jpg"
+   ],
+   "seed": 81
+  },
+  {
+   "out": "img/b05-both.jpg",
+   "prompt": "Use the reference image ONLY for how the two characters look and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cosy bookstore at night in thin white line art: tall wooden bookshelves full of books, a warm reading lamp, a big window with rain streaks running down the glass. Scene: wide shot down the aisle: the yellow man leans with his shoulder on the left bookshelf and the woman leans with her shoulder on the right bookshelf in exactly the same mirrored pose, arms crossed, facing each other, a white dotted line connecting their heads.",
+   "refs": [
+    "D:/Claude/reels/mirror-trick/img/b01-wide.jpg"
+   ],
+   "seed": 81
+  },
+  {
+   "out": "img/b06-sip.jpg",
+   "prompt": "Use the reference image ONLY for how the two characters look and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cosy bookstore at night in thin white line art: tall wooden bookshelves full of books, a warm reading lamp, a big window with rain streaks running down the glass. Scene: medium close-up, the yellow man and the woman sit across a small round reading table by the rainy window and both lift their coffee cups to their lips at the same moment, a tiny white heart outline floating between them.",
+   "refs": [
+    "D:/Claude/reels/mirror-trick/img/b01-wide.jpg"
+   ],
+   "seed": 81
+  },
+  {
+   "out": "img/b07-quiet.jpg",
+   "prompt": "Use the reference image ONLY for how the two characters look and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cosy bookstore at night in thin white line art: tall wooden bookshelves full of books, a warm reading lamp, a big window with rain streaks running down the glass. Scene: close-up over the yellow man's shoulder: the woman speaks softly with a gentle shy expression, the yellow man's glowing head and shoulder in the foreground, leaning in to listen.",
+   "refs": [
+    "D:/Claude/reels/mirror-trick/img/b01-wide.jpg"
+   ],
+   "seed": 81
+  },
+  {
+   "out": "img/b08-laugh.jpg",
+   "prompt": "Use the reference image ONLY for how the two characters look and the drawing style. Draw a NEW composition and camera angle as described, NOT the same standing pose as the reference. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cosy bookstore at night in thin white line art: tall wooden bookshelves full of books, a warm reading lamp, a big window with rain streaks running down the glass. Scene: medium close-up at the reading table, the yellow man and the woman both laugh out loud together, heads tilted back, eyes closed with joy, cups on the table.",
+   "refs": [
+    "D:/Claude/reels/mirror-trick/img/b01-wide.jpg"
+   ],
+   "seed": 81
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+# Generated / large — never commit
+reels/output/
+reels/audio/cand/
+reels/.venv/
+reels/polli-test/
+reels/*/img/
+reels/*/voice-cand-*.wav
+reels/*/*_work/
+reels/*/*.pcm
+__pycache__/
+*.pyc
+# Music tracks rejected for this channel (kept locally only)
+reels/audio/music/just-chill.mp3
+reels/audio/music/sicilian-coffee.mp3
+reels/audio/music/sweet-september.mp3
+reels/audio/music/recline-and-chill.mp3
+reels/audio/music/night-sky.mp3
+reels/audio/music/river-flow.*
+reels/audio/music/ode-to-loneliness.*
+# Local-only clutter
+readme.txt

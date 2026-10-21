@@ -1,0 +1,302 @@
+{
+ "out": "../output/mirror-trick.mp4",
+ "audio": [
+  "voice-cand-2.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.2,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865
+  },
+  {
+   "shot": 9,
+   "music": "../audio/music/unforgiven.mp3",
+   "start": 13.63
+  },
+  {
+   "shot": 16,
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 1.6
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/b02-hair.jpg",
+   "text": "She just copied his movement...",
+   "focus": [
+    0.52,
+    0.36,
+    0.38
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "flash": true,
+   "sfx": [
+    "scratch",
+    "hook"
+   ]
+  },
+  {
+   "image": "img/b02-hair.jpg",
+   "text": "and that's not an accident.",
+   "focus": [
+    0.7,
+    0.33,
+    0.34
+   ],
+   "zoom": 2.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/x03-mirroring-up.jpg",
+   "text": "Psychologists call it mirroring,",
+   "focus": "wide",
+   "zoom": 1.05,
+   "punch": true,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/b01-wide.jpg",
+   "text": "and your brain does it",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.08,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/b07-quiet.jpg",
+   "text": "with people it likes.",
+   "focus": [
+    0.62,
+    0.42,
+    0.34
+   ],
+   "zoom": 1.4,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/b04-lean.jpg",
+   "text": "Watch. He leans on the shelf...",
+   "focus": "man",
+   "zoom": 1.3,
+   "drift": 0.06,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/b05-both.jpg",
+   "text": "a few seconds later, she does too.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.08,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.8
+    }
+   ]
+  },
+  {
+   "image": "img/b06-sip.jpg",
+   "text": "He picks up his coffee.",
+   "focus": [
+    0.3,
+    0.42,
+    0.38
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b06-sip.jpg",
+   "text": "She picks up hers.",
+   "focus": [
+    0.7,
+    0.42,
+    0.38
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/b12-smirk.jpg",
+   "text": "Here's the twist:",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "bass"
+   ]
+  },
+  {
+   "image": "img/s10-walk.jpg",
+   "text": "you can use it too.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.08,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s10-walk.jpg",
+   "text": "Subtly match her pace,",
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/x09-wave.jpg",
+   "text": "her tone,",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": 0.1,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/b08-laugh.jpg",
+   "text": "her energy.",
+   "focus": [
+    0.55,
+    0.42,
+    0.38
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/x14-warning-x.jpg",
+   "text": "Not copying.",
+   "focus": [
+    0.5,
+    0.4,
+    0.3
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "image": "img/x14-warning.jpg",
+   "text": "Just being on the same wavelength.",
+   "focus": [
+    0.5,
+    0.56,
+    0.3
+   ],
+   "zoom": 1.35,
+   "drift": 0.06,
+   "sfx": [
+    {
+     "name": "correct",
+     "at": 0.3
+    }
+   ],
+   "punch": true
+  },
+  {
+   "image": "img/b11-tuck.jpg",
+   "text": "And if she starts mirroring you back?",
+   "focus": [
+    0.48,
+    0.35,
+    0.33
+   ],
+   "zoom": 1.5,
+   "drift": 0.08,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "sparkle",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "image": "img/b12-smirk.jpg",
+   "text": "That's your sign.",
+   "focus": [
+    0.55,
+    0.33,
+    0.34
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "pop",
+    {
+     "name": "correct",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/x13-rain.jpg",
+   "text": "Follow for more mind tricks.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh"
+   ],
+   "pause_before": 0.3
+  }
+ ]
+}

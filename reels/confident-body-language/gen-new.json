@@ -1,0 +1,65 @@
+{
+ "project": "cbl-new",
+ "scenes": [
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a crowded rooftop party at night in white line art, string lights, city skyline. Scene: the yellow man stands confidently in the centre under a soft spotlight while many white line-art people around him turn their heads to look at him. Draw the yellow man (and the woman, if present) exactly like the reference image, but in the NEW location described.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\cbl-2k\\clip-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an empty city street at night in white line art, a single street lamp, closed shop fronts, parked car. Scene: the yellow man walks alone, hunched and slouching, head down, hands in pockets, unsure expression. Full body, medium-wide shot. Draw the yellow man (and the woman, if present) exactly like the reference image, but in the NEW location described.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\cbl-2k\\clip-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an office meeting room in white line art, long table, chairs, whiteboard, three white line-art coworkers seated. Scene: the yellow man stands at the head of the table fidgeting nervously, tapping his fingers, sweat drop, white motion lines around his hands, the coworkers look unimpressed. Draw the yellow man (and the woman, if present) exactly like the reference image, but in the NEW location described.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\cbl-2k\\clip-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a busy city crosswalk at night in white line art, traffic lights, tall buildings. Scene: many white line-art people rush past in a hurry with speed lines, blurred, while the yellow man walks calmly and slowly in the middle with a relaxed half smile. Draw the yellow man (and the woman, if present) exactly like the reference image, but in the NEW location described.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\cbl-2k\\clip-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Scene: extreme close-up of the yellow man's two glowing yellow hands, palms open and facing up in a relaxed open gesture, his chest and chin at the top of the frame. Simple black background with a few white line-art caf\u00e9 details. Draw the yellow man (and the woman, if present) exactly like the reference image, but in the NEW location described.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\cbl-2k\\clip-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  },
+  {
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the night coffee shop in white line art. Scene: close-up of the woman's face and shoulders, warm trusting smile, light blush lines, a small white line-art thought bubble above her head containing a simple open palm drawing. Draw the yellow man (and the woman, if present) exactly like the reference image, but in the NEW location described.",
+   "type": "image",
+   "aspect_ratio": "9:16",
+   "max_credits": 0,
+   "reference_images": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\cbl-2k\\clip-01.jpeg"
+   ],
+   "download_quality": "upscaled"
+  }
+ ]
+}

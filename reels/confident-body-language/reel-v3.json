@@ -1,0 +1,233 @@
+{
+ "out": "../output/confident-body-language-v3.mp4",
+ "audio": [
+  "C:/Users/Anojan/flow-mcp-out/confident-body-language/narration-05.m4a",
+  "C:/Users/Anojan/flow-mcp-out/confident-body-language/narration-06.m4a"
+ ],
+ "speed": 1.15,
+ "music": "../audio/music/unforgiven.mp3",
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "shots": [
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-new/scene-01.jpeg",
+   "text": "If you want people to see you as confident,",
+   "focus": "man",
+   "zoom": 1.0,
+   "drift": 0.15,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-01.jpeg",
+   "text": "you need these 3 body language tricks.",
+   "focus": "man",
+   "zoom": 1.3,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-new/scene-02.jpeg",
+   "text": "Most guys get the first one wrong",
+   "focus": "man",
+   "zoom": 1.2,
+   "flash": true,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-02.jpeg",
+   "text": "without even knowing it.",
+   "focus": "man-face",
+   "zoom": 2.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-03.jpeg",
+   "text": "First, take up space.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.5,
+   "drift": 0.06
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-03.jpeg",
+   "text": "Stop folding into yourself.",
+   "focus": "man-face",
+   "zoom": 1.9,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-04.jpeg",
+   "text": "Shoulders back, chin slightly up,",
+   "focus": "man",
+   "zoom": 1.3,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-04.jpeg",
+   "text": "and stand still.",
+   "focus": "man-face",
+   "zoom": 2.1,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-05.jpeg",
+   "text": "Still bodies look calm.",
+   "focus": "man",
+   "zoom": 1.4,
+   "sfx": [
+    {
+     "name": "correct",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-new/scene-03.jpeg",
+   "text": "Fidgety bodies look nervous.",
+   "focus": "man",
+   "zoom": 1.25,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "wrong",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-07.jpeg",
+   "text": "Second, slow everything down.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.5,
+   "drift": 0.05
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-07.jpeg",
+   "text": "Walk slower, talk slower,",
+   "focus": "man",
+   "zoom": 1.6,
+   "drift": 0.07,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-08.jpeg",
+   "text": "even turn your head slower.",
+   "focus": [
+    0.5,
+    0.33,
+    0.34
+   ],
+   "zoom": 1.5,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-new/scene-04.jpeg",
+   "text": "Rushing tells people",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.1,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-09.jpeg",
+   "text": "you don't feel you belong there.",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-10.jpeg",
+   "text": "Third, the relaxed hands rule.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.5,
+   "drift": 0.05
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-new/scene-05.jpeg",
+   "text": "Hands visible,",
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-2k/clip-11.jpeg",
+   "text": "not in pockets, not crossed.",
+   "focus": [
+    0.55,
+    0.35,
+    0.34
+   ],
+   "zoom": 1.4,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/cbl-new/scene-06.jpeg",
+   "text": "Your brain trusts open hands.",
+   "focus": [
+    0.36,
+    0.33,
+    0.36
+   ],
+   "zoom": 1.6,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-15.jpeg",
+   "text": "So does everyone else's.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-16.jpeg",
+   "text": "Follow for more psychology tricks like this.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "music_start": 4.49
+}

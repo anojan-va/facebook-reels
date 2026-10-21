@@ -1,0 +1,65 @@
+{
+ "out": "../output/confident-body-language.mp4",
+ "audio": [
+  "C:/Users/Anojan/flow-mcp-out/confident-body-language/narration-05.m4a",
+  "C:/Users/Anojan/flow-mcp-out/confident-body-language/narration-06.m4a"
+ ],
+ "speed": 1.15,
+ "fade_out": 1.0,
+ "scenes": [
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-04.jpeg",
+   "text": "If you want people to see you as confident, you need these 3 body language tricks.",
+   "zoom": "in"
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-05.jpeg",
+   "text": "Most guys get the first one wrong without even knowing it.",
+   "flash": true
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-06.jpeg",
+   "text": "First, take up space. Stop folding into yourself."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-07.jpeg",
+   "text": "Shoulders back, chin slightly up, and stand still."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-08.jpeg",
+   "text": "Still bodies look calm."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-09.jpeg",
+   "text": "Fidgety bodies look nervous."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-10.jpeg",
+   "text": "Second, slow everything down."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-11.jpeg",
+   "text": "Walk slower, talk slower, even turn your head slower."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-12.jpeg",
+   "text": "Rushing tells people you don't feel you belong there."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-13.jpeg",
+   "text": "Third, the relaxed hands rule."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-14.jpeg",
+   "text": "Hands visible, not in pockets, not crossed."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-15.jpeg",
+   "text": "Your brain trusts open hands. So does everyone else's."
+  },
+  {
+   "image": "C:/Users/Anojan/flow-mcp-out/confident-body-language/scene-16.jpeg",
+   "text": "Follow for more psychology tricks like this."
+  }
+ ]
+}

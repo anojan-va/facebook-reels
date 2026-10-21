@@ -1,0 +1,119 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 14,
+ "jobs": [
+  {
+   "out": "img/s01-phone.jpg",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city street at night in thin white line art: a small restaurant front with a striped awning and a window, outdoor tables, old lamp posts, parked scooters along the kerb. Scene: close-up of the yellow man staring at his phone, confused raised eyebrows. The phone screen shows a single message bubble and below it the small text \"Seen \u2713\u2713\". The only text is \"Seen \u2713\u2713\". Keep the characters, the street and the drawing style exactly as in the reference image.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/x02-two.jpg",
+   "prompt": "Match the drawing style of the reference image only (thin white lines on pure black). Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Scene: a big glowing white number 2 in the centre, cracking down the middle with a jagged crack, small fragments falling. The only text is the number 2. Simple black background.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s04-talk.jpg",
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Completely replace the background with the NEW location described. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a small restaurant table by the window at night in thin white line art, two plates, two glasses, a candle. Scene: at the table the yellow man talks non-stop with an excited face, a big white outline speech bubble from his mouth containing only the text \"I... me... my...\". The woman sits across with a flat bored face, chin resting on her hand.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s05-bored.jpg",
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Completely replace the background with the NEW location described. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a small restaurant table by the window at night in thin white line art, two plates, two glasses, a candle. Scene: close-up of the woman at the table, flat bored face, half-lidded eyes, chin resting on her hand, looking away.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s06-listen.jpg",
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Completely replace the background with the NEW location described. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a small restaurant table by the window at night in thin white line art, two plates, two glasses, a candle. Scene: at the table the yellow man leans in, nodding and listening carefully with a warm curious face. The woman talks.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s07-lightup.jpg",
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Completely replace the background with the NEW location described. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a small restaurant table by the window at night in thin white line art, two plates, two glasses, a candle. Scene: medium close-up, the woman lights up, smiling brightly and talking with expressive hands, while the yellow man (glowing yellow) listens across the table.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/x08-texts.jpg",
+   "prompt": "Match the drawing style of the reference image only (thin white lines on pure black). Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Scene: close-up of a smartphone drawn in white line art, its screen filled with many white outline message bubbles stacked on top of each other, containing only the short texts \"hey\", \"u up?\", \"??\", \"hey\", \"??\". Simple black background.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s09-overwhelm.jpg",
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Completely replace the background with the NEW location described. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the woman's bedroom at night in thin white line art: a bed, a lamp, a window with the moon. Scene: the woman sits on her bed looking overwhelmed and annoyed, sweat drop, putting her phone face down on the bed.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/x10-onemsg.jpg",
+   "prompt": "Match the drawing style of the reference image only (thin white lines on pure black). Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. Scene: close-up of a smartphone drawn in white line art, its screen showing one single white outline message bubble with the text \"Still thinking about that terrible dessert \ud83d\ude02\". Simple black background.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s11-type.jpg",
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Completely replace the background with the NEW location described. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the woman's bedroom at night in thin white line art: a bed, a lamp, a window with the moon. Scene: the woman lies on her bed smiling at her phone, starting to type a reply, light blush lines.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s12-pocket.jpg",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city street at night in thin white line art: a small restaurant front with a striped awning and a window, outdoor tables, old lamp posts, parked scooters along the kerb. Scene: the yellow man calmly puts his phone into his pocket and starts walking down the street, relaxed half smile. Medium shot. Keep the characters, the street and the drawing style exactly as in the reference image.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s13-buzz.jpg",
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Completely replace the background with the NEW location described. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the woman's bedroom at night in thin white line art: a bed, a lamp, a window with the moon. Scene: close-up of the woman's phone buzzing on her bed with small white vibration lines, she glances at it with a curious smile.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s14-walk.jpg",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city street at night in thin white line art: a small restaurant front with a striped awning and a window, outdoor tables, old lamp posts, parked scooters along the kerb. Scene: wide shot, the yellow man walks calmly away down the night street between the lamp posts and the parked scooters. Keep the characters, the street and the drawing style exactly as in the reference image.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  },
+  {
+   "out": "img/s15-thinks.jpg",
+   "prompt": "Use the reference image ONLY for how the characters look and the drawing style. Completely replace the background with the NEW location described. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Vertical 9:16 composition. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: the woman's bedroom at night in thin white line art: a bed, a lamp, a window with the moon. Scene: the woman sits by her window hugging a pillow, smiling to herself, thinking about him, a small white heart outline beside her head.",
+   "refs": [
+    "D:/Claude/reels/first-date/img/s03-wide.jpg"
+   ],
+   "seed": 31
+  }
+ ]
+}

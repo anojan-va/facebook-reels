@@ -1,0 +1,299 @@
+{
+ "out": "../output/first-date.mp4",
+ "audio": [
+  "voice-cand-4.wav"
+ ],
+ "speed": 1.08,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "shots": [
+  {
+   "image": "img/s01-phone.jpg",
+   "text": "The date went perfect...",
+   "focus": "man-face",
+   "zoom": 2.2,
+   "drift": 0.08,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "image": "img/x00-seen.jpg",
+   "text": "so why did she stop replying?",
+   "focus": [
+    0.5,
+    0.42,
+    0.3
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/x02-two.jpg",
+   "text": "There are two silent mistakes",
+   "focus": "wide",
+   "zoom": 1.05,
+   "flash": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/s03-wide.jpg",
+   "text": "almost every guy makes.",
+   "focus": "man",
+   "zoom": 1.4,
+   "drift": 0.08,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s04-talk.jpg",
+   "text": "Mistake one:",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s04-talk.jpg",
+   "text": "he talked about himself",
+   "focus": [
+    0.58,
+    0.27,
+    0.24
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s05-bored.jpg",
+   "text": "the whole night.",
+   "focus": [
+    0.45,
+    0.4,
+    0.38
+   ],
+   "zoom": 1.15,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/s06-listen.jpg",
+   "text": "The fix?",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s06-listen.jpg",
+   "text": "Ask one deep question,",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s07-lightup.jpg",
+   "text": "then actually listen.",
+   "focus": [
+    0.68,
+    0.42,
+    0.36
+   ],
+   "zoom": 1.8,
+   "sfx": [
+    {
+     "name": "correct",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/s16-spam.jpg",
+   "text": "Mistake two:",
+   "focus": "man",
+   "zoom": 1.1,
+   "pause_before": 0.25,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/x08-texts.jpg",
+   "text": "he texted her ten times",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": 1.3,
+   "drift": 0.12,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.0
+    },
+    {
+     "name": "pop",
+     "at": 0.3
+    },
+    {
+     "name": "pop",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "image": "img/s09-overwhelm.jpg",
+   "text": "the next morning.",
+   "focus": [
+    0.64,
+    0.42,
+    0.38
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/x10-onemsg.jpg",
+   "text": "The fix? One message.",
+   "focus": [
+    0.5,
+    0.45,
+    0.36
+   ],
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "pop",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "image": "img/s11-type.jpg",
+   "text": "Light, funny,",
+   "focus": [
+    0.42,
+    0.33,
+    0.36
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/s12-pocket.jpg",
+   "text": "and give her space",
+   "focus": "man",
+   "zoom": 1.3,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s15-thinks.jpg",
+   "text": "to miss you.",
+   "focus": [
+    0.48,
+    0.3,
+    0.34
+   ],
+   "zoom": 1.5,
+   "drift": 0.08,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/s13-buzz.jpg",
+   "text": "Attraction grows in the space you leave.",
+   "focus": [
+    0.5,
+    0.48
+   ],
+   "zoom": 1.2,
+   "drift": 0.12,
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/s14-walk.jpg",
+   "text": "Follow if you needed this.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.261
+  },
+  {
+   "shot": 7,
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 1.6
+  },
+  {
+   "shot": 10,
+   "music": "../audio/music/out-of-this-world.mp3"
+  },
+  {
+   "shot": 13,
+   "music": "../audio/music/fifth-of-february.mp3"
+  }
+ ]
+}

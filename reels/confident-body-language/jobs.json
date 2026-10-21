@@ -1,0 +1,174 @@
+{
+ "finished": true,
+ "pacing": null,
+ "jobs": [
+  {
+   "id": "7f398659",
+   "status": "failed",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-03",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: Wide shot. The yellow man slouches beside the counter, hunched shoulders, head low. The woman stands at the counter ordering coffee.",
+   "attempts": 1,
+   "files": [],
+   "error": "Signed in, but no project is open. Open or create a project in the Flow Chrome window."
+  },
+  {
+   "id": "e57b331b",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-04",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: Wide shot. The yellow man slouches beside the counter, hunched shoulders, head low. The woman stands at the counter ordering coffee.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-04.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-04"
+  },
+  {
+   "id": "e47bb682",
+   "status": "failed",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-05",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: Medium shot. The yellow man looks down nervously, sad worried eyebrows, shoulders curled in, fidgeting hands. The woman in the background. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [],
+   "error": "Flow did not finish processing the upload \"fm-e47bb682-ref1.jpeg\" within 90s."
+  },
+  {
+   "id": "44e49523",
+   "status": "failed",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-06",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: The yellow man starts to straighten up from a slouch, his yellow glow getting brighter. The woman at the counter behind him. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "files": [],
+   "error": "locator.getAttribute: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Agent', exact: true })\u001b[22m\n"
+  },
+  {
+   "id": "43ac62c5",
+   "status": "failed",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-07",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: The yellow man stands tall, chest open, shoulders back, chin slightly raised, a strong yellow glow pulse around him, small white arrows pointing outward from both shoulders. The woman glances over at him with one curious raised eyebrow. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "files": [],
+   "error": "locator.getAttribute: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Agent', exact: true })\u001b[22m\n"
+  },
+  {
+   "id": "93a1f1f7",
+   "status": "failed",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-08",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: The yellow man stands perfectly still and relaxed with a calm small smile. A simple white check mark symbol floats beside him. The woman in the background. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "files": [],
+   "error": "locator.getAttribute: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Agent', exact: true })\u001b[22m\n"
+  },
+  {
+   "id": "09565b0b",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-09",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: The yellow man fidgets nervously, tapping his foot and fingers, white motion lines around his hands and foot, a sweat drop on his head. A simple white X symbol floats beside him. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-09.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-09"
+  },
+  {
+   "id": "f04882df",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-10",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: The yellow man walks slowly and calmly toward the counter with a relaxed long stride, confident half smile. The woman at the counter. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-10.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-10"
+  },
+  {
+   "id": "4cdd8d90",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-11",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: At the counter the yellow man calmly turns his head toward the woman, relaxed expression. The woman gives him a small smile. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-11.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-11"
+  },
+  {
+   "id": "c90df6e6",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-12",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: Small white background figures rush past with speed lines, blurred and hurried, while the yellow man leans relaxed on the counter holding a coffee cup, totally calm. The woman beside the counter. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-12.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-12"
+  },
+  {
+   "id": "c65e9e82",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-13",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: The yellow man stands with his hands in his pockets, looking unsure. The woman faces him with her arms crossed, neutral expression. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-13.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-13"
+  },
+  {
+   "id": "709cd1e1",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-14",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: The yellow man talks while gesturing openly, both palms visible and open. The woman has uncrossed her arms and laughs, with light blush lines on her cheeks. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-14.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-14"
+  },
+  {
+   "id": "4d18eeb5",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-15",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: Close-up of both faces from the chest up. The yellow man smirks confidently, the woman smiles back at him warmly with light blush lines. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-15.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-15"
+  },
+  {
+   "id": "51e1d842",
+   "status": "done",
+   "project": "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language",
+   "scene": "scene-16",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the yellow man. No text, letters or captions in the image. Vertical 9:16 composition, characters full-body in the middle third. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt, knee socks and sneakers. Setting: a coffee shop at night in thin white line art: service counter with espresso machine and cups, big window onto a dark street, a few small simple white background figures. Scene: The yellow man walks away toward the door holding a coffee cup, relaxed. The woman watches him leave over her shoulder with a smile. Keep the yellow man, the woman and the coffee shop drawn exactly as in the reference image.",
+   "attempts": 1,
+   "credits": 0,
+   "files": [
+    "C:\\Users\\Anojan\\flow-mcp-out\\confident-body-language\\scene-16.jpeg"
+   ],
+   "note": "renamed in Flow to confident-body-language-scene-16"
+  }
+ ]
+}
