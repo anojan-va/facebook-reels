@@ -1,0 +1,39 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/k1-keepgoing.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1500,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a small field at the edge of a village in thin white line art, a wooden fence. Dawn, the sun rising behind the fence. Scene: the main character kneels and gently waters one tiny bamboo sprout with a watering can held in both hands, a calm determined face. Nobody else."
+  },
+  {
+   "out": "img/k1-keepgoingb.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1501,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a small field at the edge of a village in thin white line art, a wooden fence. Dawn, the sun rising behind the fence. Scene: the main character kneels and gently waters one tiny bamboo sprout with a watering can held in both hands, a calm determined face. Nobody else."
+  },
+  {
+   "out": "img/k2-roots.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1502,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a small field at the edge of a village in thin white line art, a wooden fence. Sunrise. Scene: split view: above the ground the main character stands at the foot of giant towering bamboo stalks, one hand resting on a stalk, looking up with a proud smile; below the ground line, a cross-section of the earth shows a huge network of softly glowing white roots spreading wide beneath his feet. Nobody else."
+  },
+  {
+   "out": "img/k2-rootsb.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1503,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world and all other people and animals. The only colour in the image is the main character. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are simple figures drawn in white line art only, NOT coloured, NOT yellow. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a small field at the edge of a village in thin white line art, a wooden fence. Sunrise. Scene: split view: above the ground the main character stands at the foot of giant towering bamboo stalks, one hand resting on a stalk, looking up with a proud smile; below the ground line, a cross-section of the earth shows a huge network of softly glowing white roots spreading wide beneath his feet. Nobody else."
+  }
+ ]
+}

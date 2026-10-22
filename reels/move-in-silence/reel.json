@@ -206,7 +206,7 @@
    ]
   },
   {
-   "image": "img/z-card-1.jpg",
+   "image": "img/k1-shh.jpg",
    "text": "Plans told too early",
    "focus": "wide",
    "zoom": 1.0,
@@ -216,26 +216,28 @@
    "drift": 0.05
   },
   {
-   "image": "img/z-card-1.jpg",
+   "image": "img/k1-shh.jpg",
    "text": "invite opinions.",
-   "focus": "wide",
-   "zoom": 1.06,
-   "drift": 0.05,
-   "punch": true,
-   "sfx": []
+   "focus": "man-face",
+   "zoom": 1.7,
+   "sfx": [
+    "pop"
+   ],
+   "punch": true
   },
   {
-   "image": "img/z-card.jpg",
+   "image": "img/k2-results.jpg",
    "text": "Results speak for themselves.",
    "focus": "wide",
-   "zoom": 1.0,
+   "zoom": 1.1,
    "sfx": [
+    "whoosh",
     {
-     "name": "pop",
-     "at": 0.1
+     "name": "sparkle",
+     "at": 0.4
     }
    ],
-   "drift": 0.05
+   "drift": -0.08
   }
  ]
 }

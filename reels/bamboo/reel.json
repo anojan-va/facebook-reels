@@ -218,32 +218,32 @@
    "sfx": [
     "whoosh2"
    ],
-   "image": "img/z-card-1.jpg",
+   "image": "img/k1-keepgoing.jpg",
    "drift": 0.05
   },
   {
    "text": "don't stop.",
-   "focus": "wide",
-   "zoom": 1.06,
-   "image": "img/z-card-1.jpg",
-   "drift": 0.05,
-   "punch": true,
+   "focus": "man-face",
+   "zoom": 1.6,
+   "image": "img/k1-keepgoing.jpg",
    "sfx": [
     "pop"
-   ]
+   ],
+   "punch": true
   },
   {
    "text": "You're building roots.",
    "focus": "wide",
-   "zoom": 1.0,
+   "zoom": 1.1,
    "sfx": [
+    "whoosh",
     {
-     "name": "pop",
-     "at": 0.1
+     "name": "sparkle",
+     "at": 0.4
     }
    ],
-   "image": "img/z-card.jpg",
-   "drift": 0.05
+   "image": "img/k2-roots.jpg",
+   "drift": -0.08
   }
  ]
 }
