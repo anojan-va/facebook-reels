@@ -180,25 +180,26 @@
    "drift": 0.08
   },
   {
-   "image": "img/z-card-1.jpg",
+   "image": "img/k1-seed.jpg",
    "text": "What you sacrifice today",
-   "focus": "wide",
-   "zoom": 1.0,
-   "sfx": [
-    "whoosh2"
-   ],
-   "drift": 0.05
-  },
-  {
-   "image": "img/z-card.jpg",
-   "text": "decides what you harvest tomorrow.",
-   "focus": "wide",
-   "zoom": 1.0,
+   "focus": "man-face",
+   "zoom": 1.2,
    "drift": 0.05,
    "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/k2-harvest.jpg",
+   "text": "decides what you harvest tomorrow.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
     {
-     "name": "pop",
-     "at": 0.1
+     "name": "sparkle",
+     "at": 0.4
     }
    ]
   }

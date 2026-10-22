@@ -170,26 +170,27 @@
   },
   {
    "text": "When you don't react,",
-   "focus": "wide",
-   "zoom": 1.0,
+   "image": "img/k1-calm.jpg",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
    "sfx": [
     "whoosh2"
-   ],
-   "image": "img/z-card-1.jpg",
-   "drift": 0.05
+   ]
   },
   {
    "text": "you keep your power.",
+   "image": "img/k2-sunset.jpg",
    "focus": "wide",
-   "zoom": 1.0,
+   "zoom": 1.1,
+   "drift": -0.08,
    "sfx": [
+    "whoosh",
     {
-     "name": "pop",
-     "at": 0.1
+     "name": "sparkle",
+     "at": 0.4
     }
-   ],
-   "image": "img/z-card.jpg",
-   "drift": 0.05
+   ]
   }
  ]
 }

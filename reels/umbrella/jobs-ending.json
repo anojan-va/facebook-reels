@@ -1,0 +1,39 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/k1-calm.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1600,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a city street in thin white line art: shop fronts, a lamp post, a bench. A sunny day. Scene: close-up of the main character with his closed umbrella resting on his shoulder, a calm wise smile, sunlight on his face. Nobody else."
+  },
+  {
+   "out": "img/k1-calmb.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1601,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a city street in thin white line art: shop fronts, a lamp post, a bench. A sunny day. Scene: close-up of the main character with his closed umbrella resting on his shoulder, a calm wise smile, sunlight on his face. Nobody else."
+  },
+  {
+   "out": "img/k2-walk.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1602,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a city street in thin white line art: shop fronts, a lamp post, a bench. A sunny day. Scene: wide shot from behind: the main character walks away down the sunny street side by side with his one true friend, a man drawn all in WHITE, NOT coloured, NOT black-filled: short hair, clean-shaven, a plain WHITE t-shirt and WHITE trousers, white skin with thin dark outlines, both laughing, the closed umbrella in his hand. They stand at the same distance from the camera, the same scale, adults of similar height. "
+  },
+  {
+   "out": "img/k2-walkb.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1603,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a city street in thin white line art: shop fronts, a lamp post, a bench. A sunny day. Scene: wide shot from behind: the main character walks away down the sunny street side by side with his one true friend, a man drawn all in WHITE, NOT coloured, NOT black-filled: short hair, clean-shaven, a plain WHITE t-shirt and WHITE trousers, white skin with thin dark outlines, both laughing, the closed umbrella in his hand. They stand at the same distance from the camera, the same scale, adults of similar height. "
+  }
+ ]
+}

@@ -147,25 +147,26 @@
    "drift": 0.05
   },
   {
-   "image": "img/z-card-1.jpg",
+   "image": "img/k1-calm.jpg",
    "text": "Learn the difference,",
-   "focus": "wide",
-   "zoom": 1.0,
-   "sfx": [
-    "whoosh2"
-   ],
-   "drift": 0.05
-  },
-  {
-   "image": "img/z-card.jpg",
-   "text": "and you'll stop feeling used.",
-   "focus": "wide",
-   "zoom": 1.0,
+   "focus": "man-face",
+   "zoom": 1.3,
    "drift": 0.05,
    "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/k2-walk.jpg",
+   "text": "and you'll stop feeling used.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
     {
-     "name": "pop",
-     "at": 0.1
+     "name": "sparkle",
+     "at": 0.4
     }
    ]
   }

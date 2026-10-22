@@ -224,33 +224,41 @@
   },
   {
    "text": "If you want to fly,",
+   "image": "img/k1-stand.jpg",
    "focus": "wide",
    "zoom": 1.0,
+   "drift": 0.05,
    "sfx": [
     "whoosh2"
-   ],
-   "image": "img/z-card-1.jpg",
-   "drift": 0.05
+   ]
   },
   {
    "text": "stop living with those",
-   "focus": "wide",
-   "zoom": 1.0,
-   "sfx": [
-    {
-     "name": "pop",
-     "at": 0.1
-    }
+   "image": "img/k1-stand.jpg",
+   "focus": [
+    0.18,
+    0.6,
+    0.5
    ],
-   "image": "img/z-card.jpg",
-   "drift": 0.05
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
   },
   {
    "text": "who only know the ground.",
+   "image": "img/k2-summit.jpg",
    "focus": "wide",
-   "zoom": 1.05,
-   "image": "img/z-card.jpg",
-   "drift": 0.03
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
   }
  ]
 }

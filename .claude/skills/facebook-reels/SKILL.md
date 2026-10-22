@@ -39,6 +39,8 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 8 | New main character | From reel 9 on the main character is the bearded man in the yellow hoodie (`refs/man-sheet.jpg`), never the yellow mannequin. Always pass `refs/man.jpg` as reference 1 |
 | 8 | Girl far shorter than the new man | Almost the same height: her head reaches his eyebrows, both at the same distance from the camera (Height rule) |
 | 8 | Voice | Compared premium Pro voices (Charon/Orus/Algenib) with the channel voice: keep the channel voice (Flash, Charon, deep style). Premium only on request |
+| 9 | Last 10 reels ended on black text cards | Never end on a text card: the closing lines play over closing images of the main character that conclude the story (e.g. "shh" + his busy shop; watering the sprout + standing on the glowing roots) |
+| 9 | Second person / objects drawn black-filled | Only the hero is coloured (yellow). The second person, every other person, animal and object is drawn WHITE (white clothes, white fills) — never black-filled or a dark silhouette. Prompts: `reels/style_new.py` |
 
 ## Where you are running
 

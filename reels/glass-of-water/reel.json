@@ -260,16 +260,17 @@
   },
   {
    "text": "before you sleep.",
+   "image": "img/k1-sleep.jpg",
    "focus": "wide",
-   "zoom": 1.0,
+   "zoom": 1.1,
+   "drift": -0.08,
    "sfx": [
+    "whoosh",
     {
-     "name": "pop",
-     "at": 0.1
+     "name": "sparkle",
+     "at": 0.4
     }
-   ],
-   "image": "img/z-card.jpg",
-   "drift": 0.05
+   ]
   }
  ]
 }

@@ -172,26 +172,27 @@
   },
   {
    "text": "Your old limits",
-   "focus": "wide",
-   "zoom": 1.0,
+   "image": "img/k1-rope.jpg",
+   "focus": "man",
+   "zoom": 1.2,
+   "drift": 0.05,
    "sfx": [
     "whoosh2"
-   ],
-   "image": "img/z-card-1.jpg",
-   "drift": 0.05
+   ]
   },
   {
    "text": "are not your real limits.",
+   "image": "img/k2-free.jpg",
    "focus": "wide",
-   "zoom": 1.0,
+   "zoom": 1.1,
+   "drift": -0.08,
    "sfx": [
+    "whoosh",
     {
-     "name": "pop",
-     "at": 0.1
+     "name": "sparkle",
+     "at": 0.4
     }
-   ],
-   "image": "img/z-card.jpg",
-   "drift": 0.05
+   ]
   }
  ]
 }

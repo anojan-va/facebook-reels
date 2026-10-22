@@ -1,0 +1,39 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/k1-rope.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1600,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Scene: close-up of the main character holding a thin snapped rope in both hands, looking at it with a determined, freed face. Nobody else."
+  },
+  {
+   "out": "img/k1-ropeb.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1601,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Scene: close-up of the main character holding a thin snapped rope in both hands, looking at it with a determined, freed face. Nobody else."
+  },
+  {
+   "out": "img/k2-free.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1602,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Dawn, the sun rising. Scene: the main character walks forward confidently out of the circus camp toward the sunrise; beside him a huge elephant drawn all in WHITE walks free, a snapped rope and a fallen wooden stake on the ground behind them."
+  },
+  {
+   "out": "img/k2-freeb.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1603,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Setting: a circus camp at night in thin white line art: a striped circus tent, lanterns, wooden wagons. Dawn, the sun rising. Scene: the main character walks forward confidently out of the circus camp toward the sunrise; beside him a huge elephant drawn all in WHITE walks free, a snapped rope and a fallen wooden stake on the ground behind them."
+  }
+ ]
+}

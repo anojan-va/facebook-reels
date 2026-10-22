@@ -173,26 +173,27 @@
   },
   {
    "text": "Protect your flame.",
-   "focus": "wide",
-   "zoom": 1.0,
+   "image": "img/k1-protect.jpg",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "drift": 0.05,
    "sfx": [
     "whoosh2"
-   ],
-   "image": "img/z-card-1.jpg",
-   "drift": 0.05
+   ]
   },
   {
    "text": "You can't give light if you burn out.",
+   "image": "img/k2-bright.jpg",
    "focus": "wide",
-   "zoom": 1.0,
+   "zoom": 1.1,
+   "drift": -0.08,
    "sfx": [
+    "whoosh",
     {
-     "name": "pop",
-     "at": 0.1
+     "name": "sparkle",
+     "at": 0.4
     }
-   ],
-   "image": "img/z-card.jpg",
-   "drift": 0.05
+   ]
   }
  ]
 }
