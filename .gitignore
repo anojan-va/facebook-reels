@@ -19,3 +19,5 @@ reels/audio/music/river-flow.*
 reels/audio/music/ode-to-loneliness.*
 # Local-only clutter
 readme.txt
+# Local zip exports (videos are already in deliveries/)
+exports/
