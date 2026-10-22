@@ -1,0 +1,67 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/a01-fall.jpg",
+   "refs": [],
+   "seed": 2000,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village at dusk in thin white line art: huts, a dry stone well with a wooden frame, a low moon. Scene: close-up of the stone well; deep inside, an old donkey drawn all in solid WHITE, four legs, long ears looks up and brays, its mouth open, scared. No people."
+  },
+  {
+   "out": "img/a02-farmer.jpg",
+   "refs": [],
+   "seed": 2001,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village at dusk in thin white line art: huts, a dry stone well with a wooden frame, a low moon. Scene: a man drawn all in WHITE, NOT coloured, NOT black-filled: short hair, clean-shaven, a plain WHITE t-shirt and WHITE trousers, white skin with thin dark outlines, an old farmer with a straw hat, leans over the edge of the well looking down, shaking his head, holding a rope. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. "
+  },
+  {
+   "out": "img/a03-shovel.jpg",
+   "refs": [],
+   "seed": 2002,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village at dusk in thin white line art: huts, a dry stone well with a wooden frame, a low moon. Scene: four villagers drawn all in WHITE stand around the well, each throwing a shovel of dirt into it, standing clearly apart. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. "
+  },
+  {
+   "out": "img/a04-shake.jpg",
+   "refs": [],
+   "seed": 2003,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a deep round stone well in thin white line art, stone walls all around, a circle of dusk sky at the top. Scene: looking down into the well: an old donkey drawn all in solid WHITE, four legs, long ears shakes dirt off its back, a cloud of dust flying off, its front hooves stepping up onto a pile of dirt. No people."
+  },
+  {
+   "out": "img/a05-higher.jpg",
+   "refs": [],
+   "seed": 2004,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a deep round stone well in thin white line art, stone walls all around, a circle of dusk sky at the top. Scene: an old donkey drawn all in solid WHITE, four legs, long ears stands high up on a tall mound of dirt inside the well, close to the top, the rim of the well just above its head. No people."
+  },
+  {
+   "out": "img/a06-out.jpg",
+   "refs": [],
+   "seed": 2005,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a small village at dusk in thin white line art: huts, a dry stone well with a wooden frame, a low moon. Scene: an old donkey drawn all in solid WHITE, four legs, long ears steps out over the rim of the well onto the ground; villagers drawn all in WHITE stand frozen in shock holding their shovels, mouths open. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. "
+  },
+  {
+   "out": "img/a07-gossip.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 2006,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, NOT yellow, NOT black-filled, no dark silhouettes. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. Setting: a village street in thin white line art. Scene: the main character walks calmly down the street, looking ahead; on both sides villagers drawn all in WHITE whisper behind their hands and point at him, standing clearly apart. He walks slowly with both feet flat on the ground side by side. "
+  },
+  {
+   "out": "img/k1-shake.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 2007,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. He is completely ALONE in the image: no other people, no figures, no silhouettes anywhere. Setting: a village street in thin white line art. Scene: medium shot from the waist up: he brushes dust off his shoulder with one hand, a small cloud of dust flying away, a calm confident smile."
+  },
+  {
+   "out": "img/k2-higher.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 2008,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. He is completely ALONE in the image: no other people, no figures, no silhouettes anywhere. Setting: hills at sunrise in thin white line art, a big rising sun. Scene: he stands on top of a hill, relaxed and proud, looking out at the sunrise. He stands still with both feet flat on the ground side by side. "
+  }
+ ]
+}
