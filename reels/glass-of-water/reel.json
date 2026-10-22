@@ -26,12 +26,8 @@
  "shots": [
   {
    "text": "A teacher raised a glass of water",
-   "focus": [
-    0.78,
-    0.2,
-    0.3
-   ],
-   "zoom": 1.8,
+   "focus": "wide",
+   "zoom": 1.0,
    "sfx": [
     "hook"
    ],
@@ -48,11 +44,11 @@
   {
    "text": "\"How heavy is this?\"",
    "focus": [
-    0.78,
-    0.18,
+    0.58,
+    0.12,
     0.3
    ],
-   "zoom": 2.2,
+   "zoom": 2.0,
    "drift": 0.05,
    "image": "img/i01-raise.jpg",
    "punch": true,
@@ -120,11 +116,11 @@
   {
    "text": "What matters is how long",
    "focus": [
-    0.45,
-    0.25,
+    0.35,
+    0.18,
     0.3
    ],
-   "zoom": 1.7,
+   "zoom": 1.6,
    "punch": true,
    "sfx": [
     "pop"
@@ -134,11 +130,11 @@
   {
    "text": "I hold it.\"",
    "focus": [
-    0.4,
     0.25,
+    0.14,
     0.3
    ],
-   "zoom": 1.6,
+   "zoom": 2.0,
    "image": "img/i03-smile.jpg",
    "drift": 0.05
   },
@@ -175,11 +171,11 @@
   {
    "text": "I won't feel my arm.\"",
    "focus": [
-    0.5,
-    0.55,
-    0.45
+    0.3,
+    0.3,
+    0.32
    ],
-   "zoom": 1.5,
+   "zoom": 1.8,
    "image": "img/i04c-day-l.jpg",
    "drift": 0.05,
    "punch": true,
@@ -261,8 +257,12 @@
   {
    "text": "before you sleep.",
    "image": "img/k1-sleep.jpg",
-   "focus": "wide",
-   "zoom": 1.1,
+   "focus": [
+    0.4,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.5,
    "drift": -0.08,
    "sfx": [
     "whoosh",

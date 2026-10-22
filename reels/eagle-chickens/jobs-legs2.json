@@ -1,0 +1,31 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/cand/g03-walk-c.jpg",
+   "refs": [],
+   "seed": 1808,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is clearly an EAGLE, not a chicken: a sleek hunting bird with solid bright WHITE filled feathers, a large hooked beak, fierce eyes, long broad wings folded at its sides and big curved talons, slim and taller than the chickens. wide shot: the young eagle walks in a line behind the chickens across the farmyard, copying them. No people."
+  },
+  {
+   "out": "img/cand/g03-walk-d.jpg",
+   "refs": [],
+   "seed": 1809,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is clearly an EAGLE, not a chicken: a sleek hunting bird with solid bright WHITE filled feathers, a large hooked beak, fierce eyes, long broad wings folded at its sides and big curved talons, slim and taller than the chickens. wide shot: the young eagle walks in a line behind the chickens across the farmyard, copying them. No people."
+  },
+  {
+   "out": "img/cand/g04-sky-c.jpg",
+   "refs": [],
+   "seed": 1810,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Sunset sky over mountains. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is clearly an EAGLE, not a chicken: a sleek hunting bird with solid bright WHITE filled feathers, a large hooked beak, fierce eyes, long broad wings folded at its sides and big curved talons, slim and taller than the chickens. a majestic adult eagle soars high in the sky; below in the farmyard the white young eagle stands among the chickens and looks up at it. No people."
+  },
+  {
+   "out": "img/cand/g04-sky-d.jpg",
+   "refs": [],
+   "seed": 1811,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Sunset sky over mountains. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is clearly an EAGLE, not a chicken: a sleek hunting bird with solid bright WHITE filled feathers, a large hooked beak, fierce eyes, long broad wings folded at its sides and big curved talons, slim and taller than the chickens. a majestic adult eagle soars high in the sky; below in the farmyard the white young eagle stands among the chickens and looks up at it. No people."
+  }
+ ]
+}

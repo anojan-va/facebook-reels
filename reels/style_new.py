@@ -19,7 +19,9 @@ WHITE_MAN = ("a man drawn all in WHITE, NOT coloured, NOT black-filled: short ha
              "WHITE trousers, white skin with thin dark outlines")
 PEOPLE = ("All other people are figures drawn all in WHITE (white clothes, white fills, thin dark outlines), NOT coloured, "
           "NOT yellow, NOT black-filled, no dark silhouettes. ")
-ANAT = "Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. "
+ANAT = ("Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip "
+        "to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different "
+        "people never merge or overlap; people in the background stand clearly apart from each other. ")
 SAME = ("They stand at the same distance from the camera, the same scale, adults of similar height. ")
 
 

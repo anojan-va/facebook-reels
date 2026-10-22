@@ -1,0 +1,23 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/cand/k1-sleep-e.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1900,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. He is completely ALONE. Setting: a dark bedroom at night in thin white line art. Scene: TOP-DOWN view looking straight down at a bed: he LIES HORIZONTALLY on his back in the bed, asleep, eyes closed, a peaceful smile, his head on a white pillow, a thick white blanket covering his whole body from the shoulders down, no legs or feet visible at all; an empty glass on the nightstand beside the bed."
+  },
+  {
+   "out": "img/cand/k1-sleep-f.jpg",
+   "refs": [
+    "../refs/man.jpg"
+   ],
+   "seed": 1901,
+   "prompt": "Reference image 1 shows exactly how the main character looks: copy his face, hair, beard, yellow hoodie, black cargo pants and white sneakers. Do NOT copy the reference's beige background or its layout: draw a NEW scene as described. Minimalist illustration on a pure black background, clean thin white line art with no shading for the world. The only colour in the image is the main character. All other people, animals and objects are drawn WHITE: white bodies, white clothes, white fills with thin dark outlines, never black-filled shapes or dark silhouettes. No text, letters or captions in the image unless described. Vertical 9:16 composition. The main character is a young man with short tousled brown hair, a short neat brown beard and warm friendly eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. He is completely ALONE. Setting: a dark bedroom at night in thin white line art. Scene: TOP-DOWN view looking straight down at a bed: he LIES HORIZONTALLY on his back in the bed, asleep, eyes closed, a peaceful smile, his head on a white pillow, a thick white blanket covering his whole body from the shoulders down, no legs or feet visible at all; an empty glass on the nightstand beside the bed."
+  }
+ ]
+}

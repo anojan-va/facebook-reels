@@ -1,0 +1,79 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/cand/g02-peck-a.jpg",
+   "refs": [],
+   "seed": 1738,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. the young eagle pecks at the ground among a group of chickens. No people."
+  },
+  {
+   "out": "img/cand/g02-peck-b.jpg",
+   "refs": [],
+   "seed": 1739,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. the young eagle pecks at the ground among a group of chickens. No people."
+  },
+  {
+   "out": "img/cand/g03-walk-a.jpg",
+   "refs": [],
+   "seed": 1740,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. wide shot: the young eagle walks in a line with the chickens across the farmyard, copying them. No people."
+  },
+  {
+   "out": "img/cand/g03-walk-b.jpg",
+   "refs": [],
+   "seed": 1741,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. wide shot: the young eagle walks in a line with the chickens across the farmyard, copying them. No people."
+  },
+  {
+   "out": "img/cand/g04-sky-a.jpg",
+   "refs": [],
+   "seed": 1742,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Sunset sky over mountains. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. a majestic adult eagle soars high in the sky above the mountains; below in the farmyard the young eagle among the chickens looks up at it. No people."
+  },
+  {
+   "out": "img/cand/g04-sky-b.jpg",
+   "refs": [],
+   "seed": 1743,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Sunset sky over mountains. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. a majestic adult eagle soars high in the sky above the mountains; below in the farmyard the young eagle among the chickens looks up at it. No people."
+  },
+  {
+   "out": "img/cand/g05-shrug-a.jpg",
+   "refs": [],
+   "seed": 1744,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. close view: two chickens talk to the young eagle, one chicken shrugs with its wings. No people."
+  },
+  {
+   "out": "img/cand/g05-shrug-b.jpg",
+   "refs": [],
+   "seed": 1745,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. close view: two chickens talk to the young eagle, one chicken shrugs with its wings. No people."
+  },
+  {
+   "out": "img/cand/g06-lower-a.jpg",
+   "refs": [],
+   "seed": 1746,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. the young eagle lowers its head sadly and keeps pecking at the ground among the chickens. No people."
+  },
+  {
+   "out": "img/cand/g06-lower-b.jpg",
+   "refs": [],
+   "seed": 1747,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. the young eagle lowers its head sadly and keeps pecking at the ground among the chickens. No people."
+  },
+  {
+   "out": "img/cand/g07-old-a.jpg",
+   "refs": [],
+   "seed": 1748,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. an old eagle lies peacefully on the straw in the chicken yard, eyes closed, gentle and calm, chickens nearby. No people."
+  },
+  {
+   "out": "img/cand/g07-old-b.jpg",
+   "refs": [],
+   "seed": 1749,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a farmyard in thin white line art: a wooden barn, straw, a fence, hills behind. Scene: The chickens are drawn as thin white outlines only, black inside. The young eagle is drawn with solid bright WHITE filled feathers, a hooked beak and big talons, clearly different from the chickens. an old eagle lies peacefully on the straw in the chicken yard, eyes closed, gentle and calm, chickens nearby. No people."
+  }
+ ]
+}

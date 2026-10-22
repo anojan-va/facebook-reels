@@ -41,6 +41,9 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 8 | Voice | Compared premium Pro voices (Charon/Orus/Algenib) with the channel voice: keep the channel voice (Flash, Charon, deep style). Premium only on request |
 | 9 | Last 10 reels ended on black text cards | Never end on a text card: the closing lines play over closing images of the main character that conclude the story (e.g. "shh" + his busy shop; watering the sprout + standing on the glowing roots) |
 | 9 | Second person / objects drawn black-filled | Only the hero is coloured (yellow). The second person, every other person, animal and object is drawn WHITE (white clothes, white fills) — never black-filled or a dark silhouette. Prompts: `reels/style_new.py` |
+| 10 | Bad legs: third sneaker, ghost legs of background people tangled with his, crossed/twisted walking legs, one leg sticking out of a bed | **Leg check on every image, same as hands**: count legs and feet per person at full size (each leg → one foot, feet point like the knees, no legs from people behind merging in). Prefer standing still with both feet flat, kneeling on both knees, or framing from the waist up; for lying in bed use a top-down view with the blanket to the shoulders. When he must be alone say "completely ALONE, no figures" and leave out the other-people sentence |
+| 10 | Arm-only close-ups of a glass looked like an unknown hand | Never show a disembodied hand/arm doing the story action: show the person (the teacher) whole. The hero is a seated student when the story says so |
+| 10 | Young eagle among chickens not visible | When an animal must stand out from its group, make it solid WHITE-filled (eagle) and keep the group as thin outlines (chickens), and describe what makes it that animal (hooked beak, talons) |
 
 ## Where you are running
 
@@ -158,7 +161,8 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
 - **Review every image** on a gridded contact sheet (red 10% grid, label in the corner). Reject: wrong location,
   extra characters, man not matching `refs/man.jpg` (beard, hoodie, joggers), garbled text, wrong emotion, the pose not saying what the line says.
   **Anatomy check** (zoom each character to ≥ 400 px wide, a contact-sheet thumbnail is too small): exactly two arms,
-  two hands, two legs, two feet each; feet point the same way as the body; no arm crossing someone's face. Reject anything else. Regenerate rejects with a new seed and fixed refs.
+  two hands, two legs, two feet each — count the LEGS and FEET as carefully as the hands (no third foot, no extra leg,
+  no legs merging with people behind); feet point the same way as the body; no arm crossing someone's face. Reject anything else. Regenerate rejects with a new seed and fixed refs.
   Move rejects to `img/rejected/`.
 - Budget ~15–20 images: story beats in the main setting + ~5–8 in other locations (street, office, crosswalk,
   stage, bedroom, hallway) + 1–3 object shots (brain, heart, phone, number).
