@@ -1,0 +1,224 @@
+{
+ "out": "../output/donkey-well.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/unforgiven.mp3",
+   "start": 13.63,
+   "shot": 7
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/a01-fall.jpg",
+   "text": "One evening,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a01-fall.jpg",
+   "text": "an old donkey fell into a deep well.",
+   "focus": [
+    0.5,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/a02-farmer.jpg",
+   "text": "The farmer tried for hours",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a02-farmer.jpg",
+   "text": "but couldn't pull it out.",
+   "focus": [
+    0.6,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/a03-shovel.jpg",
+   "text": "So he decided to bury it.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a03-shovel.jpg",
+   "text": "Everyone began throwing dirt into the well.",
+   "focus": [
+    0.5,
+    0.6,
+    0.5
+   ],
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/a04-shake.jpg",
+   "text": "But every time dirt hit its back,",
+   "focus": "wide",
+   "zoom": 1.05,
+   "drift": 0.05
+  },
+  {
+   "image": "img/a04-shake.jpg",
+   "text": "the donkey shook it off",
+   "focus": [
+    0.55,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/a04-shake.jpg",
+   "text": "and stepped on top of it.",
+   "focus": [
+    0.55,
+    0.7,
+    0.5
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/a05-higher.jpg",
+   "text": "Shovel after shovel, it climbed higher.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.08,
+   "sfx": [
+    "riser"
+   ]
+  },
+  {
+   "image": "img/a06-out.jpg",
+   "text": "Until it walked right out.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "flash": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a07-gossip.jpg",
+   "text": "People will throw dirt at you too:",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a07-gossip.jpg",
+   "text": "criticism, gossip, doubt.",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop",
+    {
+     "name": "pop",
+     "at": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "image": "img/k1-shake.jpg",
+   "text": "Shake it off.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/k1-shake.jpg",
+   "text": "Step on it.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k2-higher.jpg",
+   "text": "Let it lift you higher.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}

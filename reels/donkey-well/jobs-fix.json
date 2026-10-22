@@ -1,0 +1,19 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/cand/a01-fall-a.jpg",
+   "refs": [],
+   "seed": 2311,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a deep round stone well in thin white line art, stone walls all around, a circle of dusk sky at the top. Scene: looking DOWN into the deep well from above: far below at the bottom, an old donkey drawn all in solid WHITE, four legs, long ears stands trapped, looking up and braying with its mouth open, scared. No people."
+  },
+  {
+   "out": "img/cand/a01-fall-b.jpg",
+   "refs": [],
+   "seed": 2318,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a deep round stone well in thin white line art, stone walls all around, a circle of dusk sky at the top. Scene: looking DOWN into the deep well from above: far below at the bottom, an old donkey drawn all in solid WHITE, four legs, long ears stands trapped, looking up and braying with its mouth open, scared. No people."
+  }
+ ]
+}

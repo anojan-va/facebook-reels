@@ -1,0 +1,304 @@
+{
+ "out": "../output/stonecutter.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 14
+  },
+  {
+   "music": "../audio/music/unforgiven.mp3",
+   "start": 13.63,
+   "shot": 18
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/e01-hammer.jpg",
+   "text": "A poor stonecutter",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/e01-hammer.jpg",
+   "text": "worked every day",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e01-hammer.jpg",
+   "text": "breaking stone.",
+   "focus": [
+    0.8,
+    0.35,
+    0.35
+   ],
+   "zoom": 1.6,
+   "drift": 0.05,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/e02-merchant.jpg",
+   "text": "He saw a rich merchant",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/e02-merchant.jpg",
+   "text": "and wished,",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/e02-merchant.jpg",
+   "text": "\"I want to be him.\"",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e03-rich.jpg",
+   "text": "His wish came true.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "flash": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.2
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/e04-king.jpg",
+   "text": "Then he saw a king,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/e04-king.jpg",
+   "text": "more powerful.",
+   "focus": [
+    0.62,
+    0.18,
+    0.25
+   ],
+   "zoom": 1.6,
+   "drift": 0.05
+  },
+  {
+   "image": "img/e04-king.jpg",
+   "text": "\"I want to be the king.\"",
+   "focus": [
+    0.62,
+    0.2,
+    0.3
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e05-crown.jpg",
+   "text": "He became the king.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "flash": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.2
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/e05-crown.jpg",
+   "text": "But the sun burned him.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/e06-sun.jpg",
+   "text": "\"The sun is stronger.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/e05-crown.jpg",
+   "text": "I want to be the sun.\"",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "drift": 0.06,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e06-sun.jpg",
+   "text": "A cloud blocked the sun.",
+   "focus": "wide",
+   "zoom": 1.2,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e07-mountain.jpg",
+   "text": "The wind moved the cloud.",
+   "focus": [
+    0.5,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/e07-mountain.jpg",
+   "text": "But nothing could move the mountain.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/e07-mountain.jpg",
+   "text": "So he became the mountain.",
+   "focus": "wide",
+   "zoom": 1.05,
+   "drift": 0.05,
+   "flash": true
+  },
+  {
+   "image": "img/e08-tap.jpg",
+   "text": "Then he felt something breaking him.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e09-cutter.jpg",
+   "text": "It was a stonecutter.",
+   "focus": [
+    0.5,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/k1-proud.jpg",
+   "text": "You spent your life",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/e03-rich.jpg",
+   "text": "wanting to be others,",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/k1-proud.jpg",
+   "text": "while they were never",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-proud.jpg",
+   "text": "as strong as you.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}

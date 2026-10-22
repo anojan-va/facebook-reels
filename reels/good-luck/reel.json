@@ -1,0 +1,269 @@
+{
+ "out": "../output/good-luck.mp4",
+ "audio": [
+  "voice-cand-3.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 8
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 17
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/d01-fence.jpg",
+   "text": "A farmer's only horse",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d01-fence.jpg",
+   "text": "ran away.",
+   "focus": [
+    0.8,
+    0.45,
+    0.45
+   ],
+   "zoom": 1.6,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d02-neighbors.jpg",
+   "text": "Neighbors said, \"What bad luck.\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "wrong",
+     "at": 0.8
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d02-neighbors.jpg",
+   "text": "The farmer said, \"Maybe.\"",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d03-horses.jpg",
+   "text": "Days later, the horse came back",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.07,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/d03-horses.jpg",
+   "text": "with three wild horses.",
+   "focus": [
+    0.6,
+    0.6,
+    0.45
+   ],
+   "zoom": 1.5,
+   "drift": 0.07,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d04-cheer.jpg",
+   "text": "\"What good luck!\" they said.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d01-fence.jpg",
+   "text": "He said, \"Maybe.\"",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d05-cast.jpg",
+   "text": "His son tried to ride one, fell,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/d05-cast.jpg",
+   "text": "and broke his leg.",
+   "focus": [
+    0.45,
+    0.7,
+    0.5
+   ],
+   "zoom": 1.7,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/d02-neighbors.jpg",
+   "text": "\"Bad luck,\" they said.",
+   "focus": [
+    0.5,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "image": "img/d08-tea.jpg",
+   "text": "\"Maybe.\"",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d06-army.jpg",
+   "text": "Then the army came",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "flash": true,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/d06-army.jpg",
+   "text": "to take every young man to war.",
+   "focus": [
+    0.5,
+    0.6,
+    0.45
+   ],
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/d07-passed.jpg",
+   "text": "They left his son behind.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/d08-tea.jpg",
+   "text": "Good luck? Bad luck?",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d08-tea.jpg",
+   "text": "Who knows.",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k1-sunset.jpg",
+   "text": "Don't let one moment decide",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/k1-sunset.jpg",
+   "text": "how you feel about your whole story.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}

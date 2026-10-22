@@ -1,0 +1,223 @@
+{
+ "out": "../output/carpenter-house.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 2
+  },
+  {
+   "music": "../audio/music/unforgiven.mp3",
+   "start": 13.63,
+   "shot": 9
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/b01-tools.jpg",
+   "text": "An old carpenter told his boss",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b01-tools.jpg",
+   "text": "he wanted to retire.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b02-boss.jpg",
+   "text": "His boss said, \"Please,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b02-boss.jpg",
+   "text": "build just one last house.\"",
+   "focus": [
+    0.75,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b03-lazy.jpg",
+   "text": "His heart wasn't in it.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b03-lazy.jpg",
+   "text": "He used cheap wood and rushed every job.",
+   "focus": [
+    0.4,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "image": "img/b04-house.jpg",
+   "text": "Soon, the house was done.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b05-keys.jpg",
+   "text": "The boss gave him the keys",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b05-keys.jpg",
+   "text": "and said, \"This is my gift to you.\"",
+   "focus": [
+    0.7,
+    0.28,
+    0.3
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/b06-shock.jpg",
+   "text": "He was shocked.",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/b06-shock.jpg",
+   "text": "If he had known it was his own home,",
+   "focus": [
+    0.45,
+    0.45,
+    0.42
+   ],
+   "zoom": 1.3,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b04-house.jpg",
+   "text": "he would have built it differently.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/b07-phone.jpg",
+   "text": "We're the same.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b07-phone.jpg",
+   "text": "Every lazy day, every shortcut,",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k1-build.jpg",
+   "text": "we're building our own life.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/k1-build.jpg",
+   "text": "Build it as if you'll live in it.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k2-home.jpg",
+   "text": "Because you will.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}
