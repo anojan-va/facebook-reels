@@ -44,6 +44,7 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 10 | Bad legs: third sneaker, ghost legs of background people tangled with his, crossed/twisted walking legs, one leg sticking out of a bed | **Leg check on every image, same as hands**: count legs and feet per person at full size (each leg → one foot, feet point like the knees, no legs from people behind merging in). Prefer standing still with both feet flat, kneeling on both knees, or framing from the waist up; for lying in bed use a top-down view with the blanket to the shoulders. When he must be alone say "completely ALONE, no figures" and leave out the other-people sentence |
 | 10 | Arm-only close-ups of a glass looked like an unknown hand | Never show a disembodied hand/arm doing the story action: show the person (the teacher) whole. The hero is a seated student when the story says so |
 | 10 | Young eagle among chickens not visible | When an animal must stand out from its group, make it solid WHITE-filled (eagle) and keep the group as thin outlines (chickens), and describe what makes it that animal (hooked beak, talons) |
+| 11 | Glass of Water: worried shot read as an extra hand; sneakers on in bed; hero seated among schoolchildren | **STRICT anatomy gate, every image, every reel, no exceptions**: open each image at full size (≥ 600 px wide, never judge from a thumbnail sheet) and for EVERY person write down arms/hands/legs/feet = 2/2/2/2 and that each hand is attached to that person's own arm; any doubt = reject and regenerate (make 2–3 candidates and pick one that clearly passes). Repeat the count on the final frame sheet (start and end of each shot, so crops/zooms can't hide or create limbs). Prefer poses that show both hands clearly (hands on head, holding an object with both hands, arms at sides). Nobody wears shoes in bed. The hero is an adult: never seat him among children/students; classroom shots show only white students + the white teacher |
 
 ## Where you are running
 
@@ -246,7 +247,7 @@ Library is Mixkit (`audio/sfx/`); new ones: scrape `https://mixkit.co/free-sound
 ### 7. Render and QA (do all of it before replying)
 1. Render. The renderer prints word matching ("heard N (M matching)") and the shot table, and writes
    `<slug>_work/timeline.json`, `music.wav`, `mix.wav`, `captions.ass`.
-2. **Frames**: middle frame of every shot tiled into one sheet (`select='eq(n\,F)+…',tile=10x2`) — check framing,
+2. **Frames** (anatomy gate again: count 2 arms / 2 hands / 2 legs / 2 feet per visible person on frames at 10 % and 90 % of every shot): middle frame of every shot tiled into one sheet (`select='eq(n\,F)+…',tile=10x2`) — check framing,
    faces above captions, no stray characters, and the anatomy check again on every person in frame.
 3. **Audio**: quietest 0.1 s window > −40 dB (no dead gaps); loudness ≈ −14 to −15 LUFS (`ebur128`);
    music mood per section measured on `music.wav`.
