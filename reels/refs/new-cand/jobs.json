@@ -1,0 +1,55 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "new-cand/boy-a.jpg",
+   "refs": [
+    "man.jpg"
+   ],
+   "seed": 4000,
+   "prompt": "Edit the reference image: turn him into a small BOY about 8 years old, a child, short and small, with the same short tousled brown hair and warm friendly eyes but NO beard, a round child's face, wearing the same mustard-yellow hoodie, black jogger pants and white sneakers. Same front, side and back views as the reference on the same plain background, same clean anime line art with flat colours and soft warm yellow glow. Each view has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "new-cand/boy-b.jpg",
+   "refs": [
+    "man.jpg"
+   ],
+   "seed": 4001,
+   "prompt": "Edit the reference image: turn him into a small BOY about 8 years old, a child, short and small, with the same short tousled brown hair and warm friendly eyes but NO beard, a round child's face, wearing the same mustard-yellow hoodie, black jogger pants and white sneakers. Same front, side and back views as the reference on the same plain background, same clean anime line art with flat colours and soft warm yellow glow. Each view has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "new-cand/monk-a.jpg",
+   "refs": [
+    "man.jpg"
+   ],
+   "seed": 4010,
+   "prompt": "Edit the reference image: keep exactly the same face, brown hair and short brown beard, but dress him as a Buddhist monk in a simple long mustard-yellow monk robe wrapped over one shoulder, and simple sandals, instead of the hoodie, pants and sneakers. Same front, side and back views as the reference on the same plain background, same clean anime line art with flat colours and soft warm yellow glow. Each view has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "new-cand/monk-b.jpg",
+   "refs": [
+    "man.jpg"
+   ],
+   "seed": 4011,
+   "prompt": "Edit the reference image: keep exactly the same face, brown hair and short brown beard, but dress him as a Buddhist monk in a simple long mustard-yellow monk robe wrapped over one shoulder, and simple sandals, instead of the hoodie, pants and sneakers. Same front, side and back views as the reference on the same plain background, same clean anime line art with flat colours and soft warm yellow glow. Each view has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "new-cand/monk-old-a.jpg",
+   "refs": [
+    "man-old.jpg"
+   ],
+   "seed": 4020,
+   "prompt": "Edit the reference image: keep exactly the same OLD face, grey-white hair and grey-white beard, but dress him as an old Buddhist monk in a simple long mustard-yellow monk robe wrapped over one shoulder, and simple sandals, instead of the hoodie, pants and sneakers. Same front, side and back views as the reference on the same plain background, same clean anime line art with flat colours and soft warm yellow glow. Each view has exactly two arms, two hands, two legs and two feet. "
+  },
+  {
+   "out": "new-cand/monk-old-b.jpg",
+   "refs": [
+    "man-old.jpg"
+   ],
+   "seed": 4021,
+   "prompt": "Edit the reference image: keep exactly the same OLD face, grey-white hair and grey-white beard, but dress him as an old Buddhist monk in a simple long mustard-yellow monk robe wrapped over one shoulder, and simple sandals, instead of the hoodie, pants and sneakers. Same front, side and back views as the reference on the same plain background, same clean anime line art with flat colours and soft warm yellow glow. Each view has exactly two arms, two hands, two legs and two feet. "
+  }
+ ]
+}

@@ -50,6 +50,7 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | 12 | Script says OLD man / grandfather / wise old man but the hero was drawn young | **Match the hero's age to the script**: use `refs/man-old.jpg` + `old_scene()` in `reels/style_new.py` (grey hair & beard, wrinkles, same yellow hoodie) whenever the narration says old/grandfather/elder |
 | 12 | A child aged into an adult later in the same reel (Nails in the Fence) | **Character continuity**: a character keeps the same age, size and look in every shot of a reel — describe the child as a small child in every prompt where he appears, and compare all shots of a character side by side before rendering |
 | 12 | Prop not in the hand that uses it (scissors floating idle) / tea pouring against gravity | **Props and physics check**: the tool must be held in the hand doing the action and touching what it acts on; liquids fall straight down, cups stand on surfaces, spills spread on the table/floor. For before/after pairs (pour → overflow) make the second shot as an EDIT of the first so the pose stays consistent |
+| 13 | Close-up crops can leave a hand from a person cut out of frame (floating hand) | Check the final frames for limbs entering from the frame edge with no body; widen the framing so every visible hand belongs to a visible person |
 
 ## Where you are running
 
@@ -89,6 +90,8 @@ librosa can't read `voice-ref.m4a` there — convert it first (`ffmpeg -i ../aud
 - **Images (default)**: `python reels/polli.py jobs.json` → Pollinations FLUX.2 Klein 4B, parallel.
   Key: `$POLLINATIONS_KEY` or `~/.pollinations-key` locally; the proxy in the cloud. ~$0.005/image, 1152x2048. User approved the cost.
 - **Character references** (committed, use these for the establishing image of a new reel):
+  Hero variants: `refs/man-old.jpg` (old man / grandfather), `refs/boy.jpg` (the hero as a small boy), `refs/monk.jpg` and
+  `refs/monk-old.jpg` (yellow monk robe). A crown/cape is added in the prompt for a king. Use the variant the script's hero needs.
   `reels/refs/man.jpg` (front/side/back of the main character — ALWAYS reference image 1 when he is in the shot),
   `reels/refs/man-hero.jpg`, `reels/refs/characters.jpg` (him + the girl on a platform, the approved look),
   `reels/refs/girl.jpg`. Old mannequin refs (`man-old-mannequin.jpg`, `characters-old.jpg`) are for old reels only.

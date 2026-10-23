@@ -1,0 +1,234 @@
+{
+ "out": "../output/carrying-woman.mp4",
+ "audio": [
+  "voice-cand-2.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 5
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 8
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/b01-river.jpg",
+   "text": "Two monks",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b01-river.jpg",
+   "text": "reached a river",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b01-river.jpg",
+   "text": "where a woman couldn't cross.",
+   "focus": [
+    0.75,
+    0.45,
+    0.42
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b02-carry.jpg",
+   "text": "The old monk carried her across",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/b02-carry.jpg",
+   "text": "and set her down.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "drift": 0.06,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b03-walk.jpg",
+   "text": "They walked on for hours.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b03-walk.jpg",
+   "text": "The young monk was silent but upset.",
+   "focus": [
+    0.72,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b04-burst.jpg",
+   "text": "Finally he said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/b04-burst.jpg",
+   "text": "\"We're not supposed to touch women.",
+   "focus": [
+    0.78,
+    0.35,
+    0.33
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/b04-burst.jpg",
+   "text": "Why did you carry her?\"",
+   "focus": [
+    0.78,
+    0.4,
+    0.35
+   ],
+   "zoom": 1.3,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b05-smile.jpg",
+   "text": "The old monk said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/b05-smile.jpg",
+   "text": "\"I put her down at the river.\"",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b06-close.jpg",
+   "text": "\"Why are you still carrying her?\"",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/b07-rock.jpg",
+   "text": "We all do this.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/b07-rock.jpg",
+   "text": "We carry moments that ended long ago.",
+   "focus": [
+    0.5,
+    0.2,
+    0.3
+   ],
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/k1-drop.jpg",
+   "text": "Put it down.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/k1-drop.jpg",
+   "text": "It's only heavy because",
+   "focus": [
+    0.4,
+    0.5,
+    0.45
+   ],
+   "zoom": 1.4,
+   "drift": 0.05
+  },
+  {
+   "image": "img/k2-light.jpg",
+   "text": "you won't let go.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}

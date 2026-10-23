@@ -1,0 +1,236 @@
+{
+ "out": "../output/starfish.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 5
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 8
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/e01-beach.jpg",
+   "text": "After a storm,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "image": "img/e01-beach.jpg",
+   "text": "thousands of starfish",
+   "focus": [
+    0.5,
+    0.75,
+    0.5
+   ],
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/e01-beach.jpg",
+   "text": "washed up on the beach.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06
+  },
+  {
+   "image": "img/e02-throw.jpg",
+   "text": "A little boy was throwing them back,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "pop",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "image": "img/e02-throw.jpg",
+   "text": "one by one.",
+   "focus": [
+    0.6,
+    0.35,
+    0.33
+   ],
+   "zoom": 1.6,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e03-laugh.jpg",
+   "text": "A man laughed and said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/e03-laugh.jpg",
+   "text": "\"There are thousands.",
+   "focus": [
+    0.7,
+    0.4,
+    0.38
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e03-laugh.jpg",
+   "text": "You can't make a difference.\"",
+   "focus": [
+    0.3,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.6,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "image": "img/e04-pick.jpg",
+   "text": "The boy picked up another starfish.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e05-into.jpg",
+   "text": "He threw it into the sea and said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/e05-into.jpg",
+   "text": "\"I made a difference to that one.\"",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/e06-help.jpg",
+   "text": "The man stood silent.",
+   "focus": [
+    0.68,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.5,
+   "drift": 0.05
+  },
+  {
+   "image": "img/e06-help.jpg",
+   "text": "Then he started helping.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e07-village.jpg",
+   "text": "Soon, the whole village joined.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.07,
+   "flash": true,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/k1-world.jpg",
+   "text": "You can't change the whole world.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-world.jpg",
+   "text": "But you can change",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k1-world.jpg",
+   "text": "someone's world.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}

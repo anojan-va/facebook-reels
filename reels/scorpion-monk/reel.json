@@ -1,0 +1,234 @@
+{
+ "out": "../output/scorpion-monk.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 12
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/d01-see.jpg",
+   "text": "A monk saw a scorpion",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/d01-see.jpg",
+   "text": "drowning in a river.",
+   "focus": [
+    0.62,
+    0.82,
+    0.55
+   ],
+   "zoom": 1.8,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d02-scoop.jpg",
+   "text": "He picked it up to save it.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/d02-scoop.jpg",
+   "text": "It stung him.",
+   "focus": [
+    0.6,
+    0.7,
+    0.5
+   ],
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/d03-pain.jpg",
+   "text": "Again it fell into the water.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/d04-again.jpg",
+   "text": "He saved it again.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/d04-again.jpg",
+   "text": "Again, it stung him.",
+   "focus": [
+    0.25,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/d05-ask.jpg",
+   "text": "A man asked,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/d05-ask.jpg",
+   "text": "\"Why save something",
+   "focus": [
+    0.62,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.3,
+   "drift": 0.05
+  },
+  {
+   "image": "img/d05-ask.jpg",
+   "text": "that keeps hurting you?\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/d06-land.jpg",
+   "text": "The monk said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/d06-land.jpg",
+   "text": "\"Stinging is its nature.",
+   "focus": [
+    0.6,
+    0.75,
+    0.5
+   ],
+   "zoom": 1.6,
+   "drift": 0.05
+  },
+  {
+   "image": "img/d06-land.jpg",
+   "text": "Helping is mine.\"",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/d07-close.jpg",
+   "text": "\"Why should I give up my nature",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05
+  },
+  {
+   "image": "img/d07-close.jpg",
+   "text": "because of its nature?\"",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k1-leaf.jpg",
+   "text": "Stay kind.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-leaf.jpg",
+   "text": "But learn to use a leaf",
+   "focus": [
+    0.6,
+    0.6,
+    0.45
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-leaf.jpg",
+   "text": "next time.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}
