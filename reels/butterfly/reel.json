@@ -1,0 +1,222 @@
+{
+ "out": "../output/butterfly.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 2
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 8
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/b01-cocoon.jpg",
+   "text": "A man found a cocoon",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/b01-cocoon.jpg",
+   "text": "with a butterfly trying to come out.",
+   "focus": [
+    0.62,
+    0.45,
+    0.42
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/b02-hole.jpg",
+   "text": "For hours it struggled",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/b02-hole.jpg",
+   "text": "through a tiny hole.",
+   "focus": [
+    0.5,
+    0.62,
+    0.45
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/b03-scissors.jpg",
+   "text": "He felt sorry for it,",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05
+  },
+  {
+   "image": "img/b03-scissors.jpg",
+   "text": "so he cut the cocoon open to help.",
+   "focus": [
+    0.4,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/b04-crumpled.jpg",
+   "text": "It came out easily.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/b04-crumpled.jpg",
+   "text": "But something was wrong.",
+   "focus": [
+    0.5,
+    0.45,
+    0.4
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/b05-ground.jpg",
+   "text": "Its wings were weak.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/b05-ground.jpg",
+   "text": "It never flew. Not once.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/b06-diagram.jpg",
+   "text": "He didn't know the struggle",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "flash": true,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/b06-diagram.jpg",
+   "text": "was what made its wings strong.",
+   "focus": [
+    0.5,
+    0.45,
+    0.4
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/b07-climb.jpg",
+   "text": "Your hard times aren't stopping you.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/b07-climb.jpg",
+   "text": "They're building your wings.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k1-fly.jpg",
+   "text": "Without the struggle,",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/k1-fly.jpg",
+   "text": "you'd never learn to fly.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}

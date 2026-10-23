@@ -1,0 +1,25 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "img/cand/b04-crumpled-m0.jpg",
+   "refs": [],
+   "seed": 3600,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Scene: a big macro close-up filling the frame: a sad butterfly drawn in white line art sitting on a leaf. Its body is large, fat and swollen. Its wings are NOT open: they are tiny, crumpled, wrinkled, shrivelled little flaps no bigger than its head, drooping limp at its sides like crumpled paper. A broken empty cocoon hangs on the twig behind it. Clearly a butterfly that can never fly. No people."
+  },
+  {
+   "out": "img/cand/b04-crumpled-m1.jpg",
+   "refs": [],
+   "seed": 3609,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Scene: a big macro close-up filling the frame: a sad butterfly drawn in white line art sitting on a leaf. Its body is large, fat and swollen. Its wings are NOT open: they are tiny, crumpled, wrinkled, shrivelled little flaps no bigger than its head, drooping limp at its sides like crumpled paper. A broken empty cocoon hangs on the twig behind it. Clearly a butterfly that can never fly. No people."
+  },
+  {
+   "out": "img/cand/b04-crumpled-m2.jpg",
+   "refs": [],
+   "seed": 3618,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Scene: a big macro close-up filling the frame: a sad butterfly drawn in white line art sitting on a leaf. Its body is large, fat and swollen. Its wings are NOT open: they are tiny, crumpled, wrinkled, shrivelled little flaps no bigger than its head, drooping limp at its sides like crumpled paper. A broken empty cocoon hangs on the twig behind it. Clearly a butterfly that can never fly. No people."
+  }
+ ]
+}

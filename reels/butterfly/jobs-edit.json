@@ -1,0 +1,31 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "img/cand/b04-crumpled-e0.jpg",
+   "refs": [
+    "img/cand/b04-crumpled-b.jpg"
+   ],
+   "seed": 3500,
+   "prompt": "Edit the reference image: keep the branch, flowers, cocoon and drawing style exactly the same, but change the butterfly: make its wings very SMALL, shrivelled, wrinkled and crumpled, like tiny crushed stubs folded against its body, much smaller than its body; make its body fat and swollen. It clearly cannot fly. White line art on black."
+  },
+  {
+   "out": "img/cand/b04-crumpled-e1.jpg",
+   "refs": [
+    "img/cand/b04-crumpled-b.jpg"
+   ],
+   "seed": 3507,
+   "prompt": "Edit the reference image: keep the branch, flowers, cocoon and drawing style exactly the same, but change the butterfly: make its wings very SMALL, shrivelled, wrinkled and crumpled, like tiny crushed stubs folded against its body, much smaller than its body; make its body fat and swollen. It clearly cannot fly. White line art on black."
+  },
+  {
+   "out": "img/cand/b04-crumpled-e2.jpg",
+   "refs": [
+    "img/cand/b04-crumpled-b.jpg"
+   ],
+   "seed": 3514,
+   "prompt": "Edit the reference image: keep the branch, flowers, cocoon and drawing style exactly the same, but change the butterfly: make its wings very SMALL, shrivelled, wrinkled and crumpled, like tiny crushed stubs folded against its body, much smaller than its body; make its body fat and swollen. It clearly cannot fly. White line art on black."
+  }
+ ]
+}

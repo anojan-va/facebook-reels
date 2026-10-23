@@ -1,0 +1,243 @@
+{
+ "out": "../output/nails-fence.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 4
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/c01-slam.jpg",
+   "text": "A boy had a bad temper.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook",
+    {
+     "name": "bass",
+     "at": 0.3
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/c02-nails.jpg",
+   "text": "His father gave him nails and said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/c02-nails.jpg",
+   "text": "\"Every time you get angry,",
+   "focus": [
+    0.6,
+    0.5,
+    0.42
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/c03-full.jpg",
+   "text": "hammer one into the fence.\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/c03-full.jpg",
+   "text": "On the first day,",
+   "focus": [
+    0.55,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.4,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/c03-full.jpg",
+   "text": "he hammered 37 nails.",
+   "focus": [
+    0.4,
+    0.6,
+    0.5
+   ],
+   "zoom": 1.8,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/c04-calm.jpg",
+   "text": "Slowly, he learned to control his anger.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/c05-pull.jpg",
+   "text": "Then his father said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/c05-pull.jpg",
+   "text": "\"Now remove one nail",
+   "focus": [
+    0.55,
+    0.4,
+    0.4
+   ],
+   "zoom": 1.25,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/c05-pull.jpg",
+   "text": "for every calm day.\"",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05
+  },
+  {
+   "image": "img/c06-holes.jpg",
+   "text": "Weeks later, every nail was gone.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/c07-touch.jpg",
+   "text": "His father said, \"Look at the holes.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05
+  },
+  {
+   "image": "img/c06-holes.jpg",
+   "text": "The fence will never be the same.\"",
+   "focus": [
+    0.4,
+    0.55,
+    0.45
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/c08-hurt.jpg",
+   "text": "Words said in anger are the same.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/k1-sorry.jpg",
+   "text": "You can say sorry,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05
+  },
+  {
+   "image": "img/c08-hurt.jpg",
+   "text": "but the mark stays.",
+   "focus": [
+    0.68,
+    0.25,
+    0.3
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k2-fence.jpg",
+   "text": "Think before you speak.",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k2-fence.jpg",
+   "text": "Some holes never close.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}

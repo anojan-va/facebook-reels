@@ -1,0 +1,242 @@
+{
+ "out": "../output/two-wolves.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 4
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 6
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/a01-fire.jpg",
+   "text": "An old man told his grandson",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a01-fire.jpg",
+   "text": "a secret.",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/a02-wolves.jpg",
+   "text": "\"Inside every person,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "flash": true,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/a02-wolves.jpg",
+   "text": "two wolves are fighting.\"",
+   "focus": [
+    0.5,
+    0.38,
+    0.35
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/a03-dark.jpg",
+   "text": "\"One is anger, jealousy,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/a03-dark.jpg",
+   "text": "ego and fear.\"",
+   "focus": [
+    0.5,
+    0.45,
+    0.4
+   ],
+   "zoom": 1.6,
+   "drift": 0.06,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/a04-gold.jpg",
+   "text": "\"The other is kindness, patience,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/a04-gold.jpg",
+   "text": "hope and love.\"",
+   "focus": [
+    0.5,
+    0.38,
+    0.35
+   ],
+   "zoom": 1.6,
+   "drift": 0.06,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/a05-boy.jpg",
+   "text": "The boy asked,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/a05-boy.jpg",
+   "text": "\"Which wolf wins?\"",
+   "focus": [
+    0.45,
+    0.55,
+    0.4
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/a06-smile.jpg",
+   "text": "The old man said,",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "drift": 0.05
+  },
+  {
+   "image": "img/a06-smile.jpg",
+   "text": "\"The one you feed.\"",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/a07-phone.jpg",
+   "text": "Every thought,",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/a08-book.jpg",
+   "text": "every habit,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k1-feed.jpg",
+   "text": "every choice is food.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "image": "img/k1-feed.jpg",
+   "text": "Be careful which wolf",
+   "focus": [
+    0.4,
+    0.5,
+    0.4
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k2-walk.jpg",
+   "text": "you feed today.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}

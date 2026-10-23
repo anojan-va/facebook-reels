@@ -1,0 +1,243 @@
+{
+ "out": "../output/empty-cup.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 7
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 10
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/e01-arrive.jpg",
+   "text": "A proud scholar came",
+   "focus": [
+    0.75,
+    0.35,
+    0.33
+   ],
+   "zoom": 1.6,
+   "sfx": [
+    "hook"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/e01-arrive.jpg",
+   "text": "to a master to learn.",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e02-talk.jpg",
+   "text": "But he talked endlessly",
+   "focus": "wide",
+   "zoom": 1.0,
+   "sfx": [
+    "whoosh2"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/e02-talk.jpg",
+   "text": "about everything",
+   "focus": [
+    0.75,
+    0.45,
+    0.4
+   ],
+   "zoom": 1.6,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e02-talk.jpg",
+   "text": "he already knew.",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "drift": 0.05
+  },
+  {
+   "image": "img/e03-pour.jpg",
+   "text": "The master said nothing",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e03-pour.jpg",
+   "text": "and began pouring tea.",
+   "focus": [
+    0.45,
+    0.35,
+    0.33
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e04-overflow.jpg",
+   "text": "The cup filled,",
+   "focus": [
+    0.5,
+    0.62,
+    0.5
+   ],
+   "zoom": 1.4,
+   "drift": 0.05
+  },
+  {
+   "image": "img/e04-overflow.jpg",
+   "text": "and he kept pouring.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/e05-stop.jpg",
+   "text": "\"Stop! It's already full!\"",
+   "focus": [
+    0.5,
+    0.4,
+    0.35
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/e06-calm.jpg",
+   "text": "The master said,",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e06-calm.jpg",
+   "text": "\"You are like this cup.",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e04-overflow.jpg",
+   "text": "Full of your own ideas.\"",
+   "focus": [
+    0.5,
+    0.62,
+    0.5
+   ],
+   "zoom": 1.6,
+   "drift": 0.05
+  },
+  {
+   "image": "img/e07-close.jpg",
+   "text": "\"How can I teach you,",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05
+  },
+  {
+   "image": "img/e07-close.jpg",
+   "text": "unless you first empty your cup?\"",
+   "focus": [
+    0.5,
+    0.32,
+    0.32
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/k1-empty.jpg",
+   "text": "The smartest people",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e07-close.jpg",
+   "text": "stay empty",
+   "focus": [
+    0.5,
+    0.3,
+    0.32
+   ],
+   "zoom": 1.3,
+   "drift": 0.05
+  },
+  {
+   "image": "img/k2-sunrise.jpg",
+   "text": "enough to keep learning.",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.4
+    }
+   ]
+  }
+ ]
+}
