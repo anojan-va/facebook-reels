@@ -1,0 +1,31 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "old-cand/old-0.jpg",
+   "refs": [
+    "man.jpg"
+   ],
+   "seed": 3700,
+   "prompt": "Edit the reference image: keep EXACTLY the same character design, clothes and drawing style (mustard-yellow hoodie, black cargo jogger pants, white sneakers, clean anime line art, flat colours, soft warm yellow glow), but make him an OLD man about 70 years old: short neat GREY-WHITE hair, a short neat grey-white beard, gentle wrinkles around the eyes and forehead, kind wise eyes, slightly thinner face. Same front, side and back views as the reference, on the same plain background. Each view has exactly two arms, two hands, two legs and two feet."
+  },
+  {
+   "out": "old-cand/old-1.jpg",
+   "refs": [
+    "man.jpg"
+   ],
+   "seed": 3711,
+   "prompt": "Edit the reference image: keep EXACTLY the same character design, clothes and drawing style (mustard-yellow hoodie, black cargo jogger pants, white sneakers, clean anime line art, flat colours, soft warm yellow glow), but make him an OLD man about 70 years old: short neat GREY-WHITE hair, a short neat grey-white beard, gentle wrinkles around the eyes and forehead, kind wise eyes, slightly thinner face. Same front, side and back views as the reference, on the same plain background. Each view has exactly two arms, two hands, two legs and two feet."
+  },
+  {
+   "out": "old-cand/old-2.jpg",
+   "refs": [
+    "man.jpg"
+   ],
+   "seed": 3722,
+   "prompt": "Edit the reference image: keep EXACTLY the same character design, clothes and drawing style (mustard-yellow hoodie, black cargo jogger pants, white sneakers, clean anime line art, flat colours, soft warm yellow glow), but make him an OLD man about 70 years old: short neat GREY-WHITE hair, a short neat grey-white beard, gentle wrinkles around the eyes and forehead, kind wise eyes, slightly thinner face. Same front, side and back views as the reference, on the same plain background. Each view has exactly two arms, two hands, two legs and two feet."
+  }
+ ]
+}
