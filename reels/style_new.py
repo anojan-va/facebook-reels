@@ -33,3 +33,19 @@ def man_scene(setting, scene, extra=""):
 def scene(setting, scene, extra=""):
     """Prompt + refs for a shot without the main character."""
     return HOUSE_EMPTY + extra + setting + "Scene: " + scene, []
+
+
+# Old version of the main character (grey hair/beard), for stories about an old man / grandfather / wise old man.
+OLD_REF = ("Reference image 1 shows exactly how the main character looks: an OLD man about 70 with short grey-white hair, "
+           "a short grey-white beard and gentle wrinkles, wearing a mustard-yellow hoodie, black cargo pants and white sneakers. "
+           "Copy his face, grey hair, grey beard and clothes exactly. Do NOT copy the reference's beige background or layout. ")
+OLD_MAN = ("The main character is an OLD man about 70 years old with short grey-white hair, a short neat grey-white beard, "
+           "gentle wrinkles and kind wise eyes, wearing a mustard-yellow hoodie, black cargo jogger pants and white sneakers, "
+           "drawn in clean anime line art with flat colours and a soft warm yellow glow around his outline. He is clearly OLD, not young. ")
+TWO_ARMS = ("Every person has exactly TWO arms and TWO hands, each attached to their own shoulder; count them: no third hand, "
+            "no extra arm, no hidden figure behind anyone. ")
+
+
+def old_scene(setting, scene, extra=""):
+    """Prompt + refs for a shot with the OLD main character (refs/man-old.jpg)."""
+    return OLD_REF + HOUSE + OLD_MAN + PEOPLE + ANAT + TWO_ARMS + extra + setting + "Scene: " + scene, ["../refs/man-old.jpg"]

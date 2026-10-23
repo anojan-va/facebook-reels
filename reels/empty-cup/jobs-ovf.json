@@ -1,0 +1,31 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "img/cand3/e04-overflow-e0.jpg",
+   "refs": [
+    "img/cand3/e03-pour-b.jpg"
+   ],
+   "seed": 3900,
+   "prompt": "Edit the reference image: keep EVERYTHING the same (the man, his pose, how he holds the teapot by the handle, the low table, the room, the style), but the white cup on the table is now completely FULL and overflowing: tea spills over its rim, runs down its sides and spreads in a wide puddle across the table top, while he keeps pouring the stream straight down into it. He still has exactly two arms and two hands."
+  },
+  {
+   "out": "img/cand3/e04-overflow-e1.jpg",
+   "refs": [
+    "img/cand3/e03-pour-b.jpg"
+   ],
+   "seed": 3907,
+   "prompt": "Edit the reference image: keep EVERYTHING the same (the man, his pose, how he holds the teapot by the handle, the low table, the room, the style), but the white cup on the table is now completely FULL and overflowing: tea spills over its rim, runs down its sides and spreads in a wide puddle across the table top, while he keeps pouring the stream straight down into it. He still has exactly two arms and two hands."
+  },
+  {
+   "out": "img/cand3/e04-overflow-e2.jpg",
+   "refs": [
+    "img/cand3/e03-pour-b.jpg"
+   ],
+   "seed": 3914,
+   "prompt": "Edit the reference image: keep EVERYTHING the same (the man, his pose, how he holds the teapot by the handle, the low table, the room, the style), but the white cup on the table is now completely FULL and overflowing: tea spills over its rim, runs down its sides and spreads in a wide puddle across the table top, while he keeps pouring the stream straight down into it. He still has exactly two arms and two hands."
+  }
+ ]
+}

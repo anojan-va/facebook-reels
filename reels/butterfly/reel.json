@@ -87,11 +87,11 @@
    "image": "img/b03-scissors.jpg",
    "text": "so he cut the cocoon open to help.",
    "focus": [
-    0.4,
+    0.6,
     0.3,
     0.32
    ],
-   "zoom": 1.4,
+   "zoom": 1.6,
    "punch": true,
    "sfx": [
     "glitch"
