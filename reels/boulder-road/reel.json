@@ -222,8 +222,8 @@
   {
    "image": "img/k1-king.jpg",
    "text": "Only one man saw a chance.",
-   "focus": "man-face",
-   "zoom": 1.5,
+   "focus": "wide",
+   "zoom": 1.2,
    "punch": true,
    "sfx": [
     "bass"
@@ -239,7 +239,15 @@
   },
   {
    "image": "img/k1-king.jpg",
-   "text": "might be the gift you're looking for.",
+   "text": "might be the gift",
+   "focus": "wide",
+   "zoom": 1.08,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-king.jpg",
+   "text": "you're looking for.",
    "focus": "wide",
    "zoom": 1.15,
    "drift": -0.08,

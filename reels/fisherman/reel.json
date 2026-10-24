@@ -15,7 +15,7 @@
   {
    "music": "../audio/music/fifth-of-february.mp3",
    "start": 4.85,
-   "shot": 13
+   "shot": 12
   }
  ],
  "shots": [
@@ -57,25 +57,13 @@
   },
   {
    "image": "img/b03-count.jpg",
-   "text": "\"Fish more!",
+   "text": "\"Fish more! Buy a bigger boat.",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
    "sfx": [
     "pop"
    ]
-  },
-  {
-   "image": "img/b03-count.jpg",
-   "text": "Buy a bigger boat.",
-   "focus": [
-    0.5,
-    0.5,
-    0.5
-   ],
-   "zoom": 1.3,
-   "drift": 0.05,
-   "sfx": []
   },
   {
    "image": "img/b04-dream.jpg",
@@ -191,7 +179,7 @@
   },
   {
    "image": "img/k1-sunset.jpg",
-   "text": "Some people chase their whole life",
+   "text": "Some people chase",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
@@ -205,7 +193,15 @@
   },
   {
    "image": "img/k1-sunset.jpg",
-   "text": "for what they already have.",
+   "text": "their whole life for what",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-sunset.jpg",
+   "text": "they already have.",
    "focus": "wide",
    "zoom": 1.15,
    "drift": -0.08,

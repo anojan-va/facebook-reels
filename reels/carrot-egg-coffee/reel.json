@@ -226,8 +226,8 @@
   {
    "image": "img/a10-hand.jpg",
    "text": "So which one are you?\"",
-   "focus": "man-face",
-   "zoom": 1.5,
+   "focus": "wide",
+   "zoom": 1.2,
    "punch": true,
    "sfx": [
     "bass"

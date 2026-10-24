@@ -185,9 +185,21 @@
   },
   {
    "image": "img/e07-wise.jpg",
-   "text": "Each of you touched only one part.\"",
+   "text": "Each of you touched",
    "focus": "wide",
    "zoom": 1.05,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e07-wise.jpg",
+   "text": "only one part.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
    "drift": 0.05,
    "sfx": []
   },
@@ -243,7 +255,7 @@
   },
   {
    "image": "img/k1-see.jpg",
-   "text": "ask yourself",
+   "text": "ask yourself what part",
    "focus": "man-face",
    "zoom": 1.4,
    "drift": 0.05,
@@ -251,7 +263,7 @@
   },
   {
    "image": "img/k1-see.jpg",
-   "text": "what part you can't see.",
+   "text": "you can't see.",
    "focus": "wide",
    "zoom": 1.15,
    "drift": -0.08,

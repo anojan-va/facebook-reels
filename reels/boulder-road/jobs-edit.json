@@ -1,0 +1,39 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/cand/d01-place-e1.jpg",
+   "refs": [
+    "img/d01-place.jpg"
+   ],
+   "seed": 7801,
+   "prompt": "Edit this image. Keep the people, their poses, faces, crown, cape and clothes exactly the same. Change ONLY the colours of the world: the background and sky become PURE BLACK, the ground is black with thin white lines, the huge round boulder is WHITE-filled with thin dark outlines, not grey, not black. Everything except the main character in the yellow hoodie is white line art on black. No grey areas."
+  },
+  {
+   "out": "img/cand/d01-place-e2.jpg",
+   "refs": [
+    "img/d01-place.jpg"
+   ],
+   "seed": 7802,
+   "prompt": "Edit this image. Keep the people, their poses, faces, crown, cape and clothes exactly the same. Change ONLY the colours of the world: the background and sky become PURE BLACK, the ground is black with thin white lines, the huge round boulder is WHITE-filled with thin dark outlines, not grey, not black. Everything except the main character in the yellow hoodie is white line art on black. No grey areas."
+  },
+  {
+   "out": "img/cand/d02-hide-e1.jpg",
+   "refs": [
+    "img/d02-hide.jpg"
+   ],
+   "seed": 7811,
+   "prompt": "Edit this image. Keep the people, their poses, faces, crown, cape and clothes exactly the same. Change ONLY the colours of the world: the background and sky become PURE BLACK, the ground is black with thin white lines, the bushes are thin white line art. Everything except the main character in the yellow hoodie is white line art on black. No grey areas."
+  },
+  {
+   "out": "img/cand/d02-hide-e2.jpg",
+   "refs": [
+    "img/d02-hide.jpg"
+   ],
+   "seed": 7812,
+   "prompt": "Edit this image. Keep the people, their poses, faces, crown, cape and clothes exactly the same. Change ONLY the colours of the world: the background and sky become PURE BLACK, the ground is black with thin white lines, the bushes are thin white line art. Everything except the main character in the yellow hoodie is white line art on black. No grey areas."
+  }
+ ]
+}
