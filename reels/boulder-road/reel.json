@@ -1,0 +1,255 @@
+{
+ "out": "../output/boulder-road.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 12
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/d01-place.jpg",
+   "text": "One night, a king placed a huge rock",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "image": "img/d01-place.jpg",
+   "text": "in the middle of a busy road.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/d02-hide.jpg",
+   "text": "Then he hid and watched.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/d03-traders.jpg",
+   "text": "Rich traders came and walked around it,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/d03-traders.jpg",
+   "text": "complaining,",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/d03-traders.jpg",
+   "text": "\"Why doesn't the king clear this road?\"",
+   "focus": "wide",
+   "zoom": 1.1,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/d04-pass.jpg",
+   "text": "Many people passed.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/d04-pass.jpg",
+   "text": "Nobody tried.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "wrong"
+   ]
+  },
+  {
+   "image": "img/d05-farmer.jpg",
+   "text": "Then a poor farmer came.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/d05-farmer.jpg",
+   "text": "He put down his load",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/d06-push.jpg",
+   "text": "and pushed with all his strength.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/d07-rolls.jpg",
+   "text": "Finally, the rock moved.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "impact"
+   ]
+  },
+  {
+   "image": "img/d08-gold.jpg",
+   "text": "Underneath was a bag of gold,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/d08-gold.jpg",
+   "text": "with a note from the king:",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/d09-amazed.jpg",
+   "text": "\"This belongs to the one",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/d09-amazed.jpg",
+   "text": "who moved the rock.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k1-king.jpg",
+   "text": "Everyone saw a problem.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-king.jpg",
+   "text": "Only one man saw a chance.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/k1-king.jpg",
+   "text": "The obstacle in your path",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-king.jpg",
+   "text": "might be the gift you're looking for.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

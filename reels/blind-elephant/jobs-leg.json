@@ -1,0 +1,25 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "img/cand/e03-leg-f.jpg",
+   "refs": [],
+   "seed": 7700,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a village courtyard in daylight in thin white line art: houses, a tree, a stone path. Scene: a big calm elephant drawn all in WHITE with four legs, two ears, one trunk and one tail stands in full side view facing LEFT, its head and trunk at the far LEFT edge; at the RIGHT, by its thick BACK leg, ONE blind man drawn all in WHITE with a white robe, white skin, eyes closed wraps both arms around the back leg and hugs it like a tree trunk, cheek pressed against it, far away from the trunk. The elephant is WHITE-filled with thin dark outlines, NOT black, NOT a dark silhouette; it is big and fully in the frame. Only one man and the elephant. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. "
+  },
+  {
+   "out": "img/cand/e03-leg-g.jpg",
+   "refs": [],
+   "seed": 7701,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a village courtyard in daylight in thin white line art: houses, a tree, a stone path. Scene: a big calm elephant drawn all in WHITE with four legs, two ears, one trunk and one tail stands in full side view facing LEFT, its head and trunk at the far LEFT edge; at the RIGHT, by its thick BACK leg, ONE blind man drawn all in WHITE with a white robe, white skin, eyes closed wraps both arms around the back leg and hugs it like a tree trunk, cheek pressed against it, far away from the trunk. The elephant is WHITE-filled with thin dark outlines, NOT black, NOT a dark silhouette; it is big and fully in the frame. Only one man and the elephant. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. "
+  },
+  {
+   "out": "img/cand/e03-leg-h.jpg",
+   "refs": [],
+   "seed": 7702,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a village courtyard in daylight in thin white line art: houses, a tree, a stone path. Scene: a big calm elephant drawn all in WHITE with four legs, two ears, one trunk and one tail stands in full side view facing LEFT, its head and trunk at the far LEFT edge; at the RIGHT, by its thick BACK leg, ONE blind man drawn all in WHITE with a white robe, white skin, eyes closed wraps both arms around the back leg and hugs it like a tree trunk, cheek pressed against it, far away from the trunk. The elephant is WHITE-filled with thin dark outlines, NOT black, NOT a dark silhouette; it is big and fully in the frame. Only one man and the elephant. Normal human anatomy: each person has exactly two arms, two hands, two legs and two feet. Each leg runs from the hip to ONE foot, the feet point the same way as the knees, no third foot or extra leg, and the legs of different people never merge or overlap; people in the background stand clearly apart from each other. "
+  }
+ ]
+}

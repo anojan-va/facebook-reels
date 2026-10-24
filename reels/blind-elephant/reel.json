@@ -1,0 +1,267 @@
+{
+ "out": "../output/blind-elephant.mp4",
+ "audio": [
+  "voice-cand-2.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 12
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/e01-four.jpg",
+   "text": "Four blind men touched an elephant",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "image": "img/e01-four.jpg",
+   "text": "for the first time.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e02-trunk.jpg",
+   "text": "The first touched the trunk and said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/e02-trunk.jpg",
+   "text": "\"An elephant is like a snake.\"",
+   "focus": [
+    0.4,
+    0.5,
+    0.45
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/e03-leg.jpg",
+   "text": "The second touched a leg.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/e03-leg.jpg",
+   "text": "\"No, it's like a tree.\"",
+   "focus": [
+    0.65,
+    0.6,
+    0.45
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/e04-ear.jpg",
+   "text": "The third touched the ear.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/e04-ear.jpg",
+   "text": "\"You're wrong, it's like a fan.\"",
+   "focus": [
+    0.65,
+    0.45,
+    0.45
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/e05-tail.jpg",
+   "text": "The fourth touched the tail.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/e05-tail.jpg",
+   "text": "\"It's a rope!\"",
+   "focus": [
+    0.6,
+    0.6,
+    0.45
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/e06-fight.jpg",
+   "text": "They began to fight.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/e06-fight.jpg",
+   "text": "Each one was sure he was right.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e07-wise.jpg",
+   "text": "A wise man said,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e07-wise.jpg",
+   "text": "\"You are all right,",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e07-wise.jpg",
+   "text": "and you are all wrong.",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/e07-wise.jpg",
+   "text": "Each of you touched only one part.\"",
+   "focus": "wide",
+   "zoom": 1.05,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e08-shape.jpg",
+   "text": "Most arguments are just people",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e08-shape.jpg",
+   "text": "holding different parts",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e08-shape.jpg",
+   "text": "of the same truth.",
+   "focus": "wide",
+   "zoom": 1.05,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/k1-see.jpg",
+   "text": "Before you judge,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-see.jpg",
+   "text": "ask yourself",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-see.jpg",
+   "text": "what part you can't see.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}
