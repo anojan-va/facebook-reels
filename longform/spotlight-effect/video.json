@@ -1,0 +1,707 @@
+{
+ "out": "../output/spotlight-effect-sample.mp4",
+ "audio": "voice-cand-1.wav",
+ "speed": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865
+  },
+  {
+   "shot": 21,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "start": 13.63
+  }
+ ],
+ "music_volume": 0.38,
+ "fade_out": 1.2,
+ "progress": true,
+ "shots": [
+  {
+   "text": "Right now,",
+   "v": {
+    "video": "stock/eye.mp4",
+    "start": 1.0,
+    "zoom": 1.25,
+    "drift": 0.1
+   },
+   "sfx": [
+    "hook"
+   ],
+   "fx": [],
+   "punch": true
+  },
+  {
+   "text": "you probably think people are watching you.",
+   "in": "flash",
+   "v": {
+    "img": "img/crowd-stare.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.05
+   },
+   "punch": {
+    "at": "@watching",
+    "zoom": 2.0,
+    "focus": [
+     0.51,
+     0.3
+    ]
+   },
+   "shake": [
+    "@watching"
+   ],
+   "sfx": [
+    {
+     "name": "glass",
+     "at": "@watching"
+    }
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   }
+  },
+  {
+   "text": "Judging your outfit.",
+   "in": "whip",
+   "v": {
+    "video": "stock/judge.mp4",
+    "start": 0.3,
+    "zoom": 1.05,
+    "drift": 0.05
+   },
+   "overlays": [
+    {
+     "mg": "scan",
+     "at": 0.1,
+     "box": [
+      0.56,
+      0.12,
+      0.86,
+      0.97
+     ],
+     "label": "ANALYZING OUTFIT..."
+    }
+   ],
+   "sfx": [
+    "swoosh-fast",
+    {
+     "name": "zap",
+     "at": 0.15,
+     "gain": 0.6
+    },
+    {
+     "name": "typing",
+     "at": 0.3,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Replaying that awkward thing you said yesterday.",
+   "in": "glitch",
+   "v": {
+    "img": "img/bed-replay.jpg",
+    "focus": [
+     0.36,
+     0.6
+    ],
+    "zoom": 1.35,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.7,
+    "drift": 0
+   },
+   "fx": [
+    "vhs"
+   ],
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ REPLAY   YESTERDAY 11:47 PM",
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    "rewind"
+   ]
+  },
+  {
+   "text": "But here's the truth...",
+   "in": "glitch",
+   "captions": false,
+   "pause_before": 0.2,
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HERE'S",
+      "white"
+     ],
+     [
+      "THE TRUTH",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@truth"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    "glitch-hit",
+    {
+     "name": "bass",
+     "at": "@truth",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "they're not.",
+   "in": "zoom",
+   "v": {
+    "video": "stock/phones.mp4",
+    "start": 1.0,
+    "zoom": 1.12,
+    "drift": 0.06,
+    "focus": [
+     0.45,
+     0.5
+    ]
+   },
+   "voice_fx": {
+    "at": "@not",
+    "fx": "echo"
+   },
+   "shake": [
+    0.0
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "at": -0.05
+    },
+    {
+     "name": "boom",
+     "at": 0.0,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Psychologists call this the Spotlight Effect.",
+   "in": "whip",
+   "captions": false,
+   "v": {
+    "img": "img/stage-spotlight.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.15,
+    "drift": -0.12
+   },
+   "overlays": [
+    {
+     "mg": "title",
+     "at": "@spotlight",
+     "text": "THE SPOTLIGHT EFFECT",
+     "sub": "WHY YOU THINK EVERYONE IS WATCHING",
+     "y": 0.8,
+     "size": 120
+    }
+   ],
+   "sfx": [
+    "swoosh",
+    {
+     "name": "reveal",
+     "at": "@spotlight"
+    },
+    {
+     "name": "impact",
+     "at": "@spotlight",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In the year two thousand,",
+   "in": "dip",
+   "captions": false,
+   "pause_before": 0.25,
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 2000,
+    "roll": 1.0,
+    "label": "THE EXPERIMENT"
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "rewind",
+     "at": 0.05,
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.15
+    },
+    {
+     "name": "tick",
+     "at": 0.35
+    },
+    {
+     "name": "tick",
+     "at": 0.55
+    },
+    {
+     "name": "tick",
+     "at": 0.75
+    },
+    {
+     "name": "pop",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "text": "researchers at Cornell University",
+   "in": "flash",
+   "v": {
+    "video": "stock/campus.mp4",
+    "start": 2.0,
+    "zoom": 1.05,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "at": "@Cornell-0.1",
+     "title": "CORNELL UNIVERSITY",
+     "sub": "Gilovich, Medvec & Savitsky (2000)"
+    }
+   ],
+   "sfx": [
+    "shutter",
+    {
+     "name": "swoosh-fast",
+     "at": "@Cornell-0.1",
+     "gain": 0.7
+    }
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.08
+   }
+  },
+  {
+   "text": "asked students to walk into a room full of strangers",
+   "in": "whip",
+   "v": {
+    "video": "stock/room.mp4",
+    "start": 1.5,
+    "zoom": 1.05,
+    "drift": 0.08
+   },
+   "sfx": [
+    "swoosh-fast"
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.12
+   }
+  },
+  {
+   "text": "wearing a really embarrassing T-shirt.",
+   "in": "zoom",
+   "v": {
+    "img": "img/tshirt-doorway.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.04
+   },
+   "punch": {
+    "at": "@embarrassing",
+    "zoom": 2.1,
+    "focus": [
+     0.19,
+     0.36
+    ]
+   },
+   "shake": [
+    "@embarrassing"
+   ],
+   "sfx": [
+    "swoosh",
+    {
+     "name": "scratch",
+     "at": "@embarrassing"
+    }
+   ]
+  },
+  {
+   "text": "Afterwards, those students guessed that half the room had noticed.",
+   "in": "whip",
+   "v": {
+    "mg": "grid",
+    "label": "WHAT THEY GUESSED",
+    "lit": [
+     0,
+     10,
+     "@guessed",
+     "@noticed"
+    ],
+    "pct": [
+     0,
+     50,
+     "@guessed",
+     "@noticed"
+    ]
+   },
+   "sfx": [
+    "swoosh-fast",
+    {
+     "name": "pop",
+     "at": "@guessed"
+    },
+    {
+     "name": "pop",
+     "at": "@guessed+0.25"
+    },
+    {
+     "name": "pop",
+     "at": "@half"
+    },
+    {
+     "name": "pop",
+     "at": "@room"
+    },
+    {
+     "name": "pop",
+     "at": "@had"
+    },
+    {
+     "name": "correct",
+     "at": "@noticed",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The real number?",
+   "in": "cut",
+   "captions": false,
+   "music_fx": "muffle",
+   "v": {
+    "mg": "grid",
+    "label": "THE REAL NUMBER",
+    "lit": 0,
+    "question": true
+   },
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.05
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.5
+    },
+    {
+     "name": "riser",
+     "at": "@number+0.75",
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "text": "Only about twenty-three percent.",
+   "in": "flash",
+   "v": {
+    "mg": "grid",
+    "label": "WHAT REALLY HAPPENED",
+    "lit": [
+     0,
+     4.6,
+     0.0,
+     "@twenty"
+    ],
+    "pct": [
+     0,
+     23,
+     0.0,
+     "@twenty"
+    ]
+   },
+   "shake": [
+    "@twenty"
+   ],
+   "sfx": [
+    {
+     "name": "bass",
+     "at": "@twenty"
+    }
+   ],
+   "pause_before": 0.4
+  },
+  {
+   "text": "Less than one in four.",
+   "in": "whip",
+   "v": {
+    "mg": "bars",
+    "headline": "LESS THAN 1 IN 4",
+    "bars": [
+     [
+      "GUESSED",
+      50,
+      "grey"
+     ],
+     [
+      "REALITY",
+      23,
+      "yellow"
+     ]
+    ]
+   },
+   "sfx": [
+    "swoosh-fast",
+    {
+     "name": "pop",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": 0.45
+    },
+    {
+     "name": "sparkle",
+     "at": "@four"
+    }
+   ]
+  },
+  {
+   "text": "Your brain puts you at the centre of every scene,",
+   "in": "dip",
+   "pause_before": 0.25,
+   "v": {
+    "video": "stock/brain.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.08,
+    "focus": [
+     0.4,
+     0.5
+    ]
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "text": "because you are the centre of your own world.",
+   "in": "zoom",
+   "v": {
+    "img": "img/tiny-planet.jpg",
+    "focus": [
+     0.5,
+     0.48
+    ],
+    "zoom": 1.5,
+    "to_zoom": 1.0,
+    "drift": 0,
+    "spin": 4
+   },
+   "sfx": [
+    "tunnel",
+    {
+     "name": "sparkle",
+     "at": "@world"
+    }
+   ]
+  },
+  {
+   "text": "But everyone else is doing the exact same thing.",
+   "in": "whip",
+   "v": {
+    "video": "stock/crowd.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.14
+   }
+  },
+  {
+   "text": "They're too busy worrying about their own spotlight",
+   "in": "zoom",
+   "v": {
+    "img": "img/many-spotlights.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "sfx": [
+    "sweep",
+    {
+     "name": "heartbeat",
+     "at": "@worrying"
+    }
+   ]
+  },
+  {
+   "text": "to notice yours.",
+   "in": "whip",
+   "v": {
+    "video": "stock/selfie.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    "swoosh-fast",
+    {
+     "name": "shutter",
+     "at": "@yours"
+    }
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   }
+  },
+  {
+   "text": "So in this video, I'll show you seven psychological tricks",
+   "in": "flash",
+   "captions": false,
+   "pause_before": 0.3,
+   "v": {
+    "mg": "list",
+    "headline": "7 PSYCHOLOGICAL TRICKS",
+    "n": 7,
+    "stagger": 0.14
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "pop",
+     "at": 0.3
+    },
+    {
+     "name": "pop",
+     "at": 0.44
+    },
+    {
+     "name": "pop",
+     "at": 0.58
+    },
+    {
+     "name": "pop",
+     "at": 0.72
+    },
+    {
+     "name": "pop",
+     "at": 0.86
+    },
+    {
+     "name": "pop",
+     "at": 1.0
+    },
+    {
+     "name": "pop",
+     "at": 1.14
+    }
+   ]
+  },
+  {
+   "text": "to switch that spotlight off.",
+   "in": "whip",
+   "v": {
+    "img": "img/switch-off.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0.06
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@off"
+    }
+   ],
+   "sfx": [
+    "swoosh",
+    {
+     "name": "switch",
+     "at": "@off"
+    }
+   ]
+  },
+  {
+   "text": "And we're starting with the one that almost everyone gets completely wrong.",
+   "in": "glitch",
+   "pause_before": 0.25,
+   "v": {
+    "mg": "chapter",
+    "label": "TRICK",
+    "text": "#1",
+    "stamp": "MOST PEOPLE GET THIS WRONG",
+    "stamp_at": "@completely"
+   },
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0
+    },
+    {
+     "name": "wrong",
+     "at": "@completely"
+    },
+    {
+     "name": "boom",
+     "at": "@wrong",
+     "gain": 0.8
+    }
+   ]
+  }
+ ]
+}

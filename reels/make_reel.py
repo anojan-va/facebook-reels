@@ -217,7 +217,10 @@ def main():
     run(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", graph, "-map", "[voice]",
          "-c:a", "pcm_s16le", str(work / "voice_raw.wav")])
     model = WhisperModel("small.en", device="cpu", compute_type="int8")
-    segs, _ = model.transcribe(str(work / "voice_raw.wav"), word_timestamps=True, language="en")
+    # Whisper gets a decoded array: some PyAV builds (the cloud VM's) can't open files through faster-whisper.
+    mono16 = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", str(work / "voice_raw.wav"), "-ac", "1", "-ar", "16000",
+                                           "-f", "f32le", "-"], capture_output=True).stdout, np.float32)
+    segs, _ = model.transcribe(mono16, word_timestamps=True, language="en")
     heard = [w for s in segs for w in (s.words or [])]
     script, owner = [], []
     for si, sh in enumerate(shots):

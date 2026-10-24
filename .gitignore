@@ -19,3 +19,9 @@ reels/audio/music/river-flow.*
 reels/audio/music/ode-to-loneliness.*
 # Local-only clutter
 readme.txt
+# Long-form: generated media stays local (images, stock clips, voice takes, renders)
+longform/output/
+longform/*/img/
+longform/*/stock/*.mp4
+longform/*/stock/cand/
+longform/*/voice-cand-*.wav

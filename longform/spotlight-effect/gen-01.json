@@ -1,0 +1,63 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/crowd-stare.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an open city square. Scene: wide shot, the yellow man stands alone in the centre looking nervous, hands clasped, surrounded by a ring of about fifteen white line-art people who have all turned their heads to stare at him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 11
+  },
+  {
+   "out": "img/bed-replay.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a dark bedroom at night with a window and a bedside lamp switched off. Scene: the yellow man lies in bed on his back with the blanket pulled to his chest, eyes wide open staring at the ceiling, anxious. Above him floats a big white line-art thought cloud showing a small drawing of himself talking awkwardly to three people who look confused.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 12
+  },
+  {
+   "out": "img/stage-spotlight.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an empty theatre stage with closed curtains on both sides and rows of empty seats in the dark foreground. Scene: the yellow man stands alone in the centre of the stage inside one bright white cone of spotlight shining down from above, squinting, arms stiff at his sides.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 13
+  },
+  {
+   "out": "img/tshirt-doorway.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a university classroom with rows of desks and a whiteboard. Scene: the yellow man stands in the open doorway on the left, embarrassed, shoulders raised, wearing an oversized white T-shirt over his yellow body with a big cheesy retro portrait of a smiling curly-haired singer printed on it. About ten white line-art students sit at the desks; most look at their notebooks, only two glance at him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 14
+  },
+  {
+   "out": "img/tiny-planet.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: outer space with small white line-art stars. Scene: the yellow man stands proudly on top of a tiny round planet in the centre of the frame, arms out. Around him, white line-art people, houses, cars and a clock orbit in a circle like moons, all revolving around him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 15
+  },
+  {
+   "out": "img/many-spotlights.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a huge dark empty floor seen from slightly above. Scene: wide shot, about twelve white line-art people stand spread out across the floor, each inside their own small white circle of spotlight, each looking down at themselves anxiously, none looking at each other. The yellow man stands among them in his own small spotlight, unnoticed.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 16
+  },
+  {
+   "out": "img/switch-off.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an empty theatre stage with closed curtains. Scene: the yellow man stands on the stage, relaxed and smiling, reaching up with one hand to pull a long cord hanging from a big round stage spotlight lamp above him, about to switch it off.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 17
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 1,
+ "jobs": [
+  {
+   "out": "img/tshirt-doorway.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a university classroom with rows of desks and a whiteboard. Scene: the yellow man stands in the open doorway on the left, embarrassed, shoulders raised, wearing an oversized white T-shirt over his yellow body with a big silly cartoon drawing of a heart with a goofy smiling face printed on it, drawn in the same thin white line art, no colour on the shirt. About ten white line-art students sit at the desks; most look at their notebooks, only two glance at him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 31
+  }
+ ]
+}
