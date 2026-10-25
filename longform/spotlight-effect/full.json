@@ -47,7 +47,8 @@
   },
   {
    "shot": 126,
-   "music": "../../reels/audio/music/out-of-this-world.mp3"
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "start": 117.26
   },
   {
    "shot": 137,

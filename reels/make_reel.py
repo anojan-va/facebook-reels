@@ -145,23 +145,41 @@ def music_bed(spec, base, starts, n):
     "music_cues": [{"shot": 0, "music": "tense.mp3", "start": 3.1, "volume": 1.0}, {"shot": 7, "music": "warm.mp3"}, ...]
     switches tracks at those shots' cuts with a short crossfade, so the music follows the narration's mood.
     A track that comes back resumes where it left off unless the cue gives "start". Without cues, "music" loops."""
-    def load(path, start, dur):
-        # The whole track, played from `start` and wrapping around its end (long videos resume tracks many times).
+    def load(path, start, dur, origin):
+        # Play from `start`; past the end of the track's full-level body (before its outro fade) loop back to
+        # `origin` (the track's first cue start) with a short crossfade, so long videos never hit an outro or silence.
         a = read_audio(path)
-        pos = int(start * SR) % max(len(a), 1)
-        a = np.concatenate([a[pos:], a[:pos]])
-        reps = int(np.ceil(dur * SR / max(len(a), 1))) + 1
-        return np.tile(a, (reps, 1))[: int(dur * SR)]
+        sec = a[: len(a) // SR * SR, 0].reshape(-1, SR)
+        db = 20 * np.log10(np.sqrt((sec ** 2).mean(axis=1)) + 1e-9)
+        o = min(int(origin), len(db) - 1)
+        med = np.median(db[o:])
+        body = [i for i in range(o, len(db)) if db[i] > med - 4]
+        end = (body[-1] + 1) * SR if body else len(a)
+        lo = int(origin * SR)
+        loop = a[lo:end]
+        xf = int(0.3 * SR)
+        if len(loop) > 2 * xf:   # crossfade the seam: blend the loop's tail into its head
+            head = loop[:xf].copy()
+            loop = loop[:-xf].copy()
+            loop[:xf] = head * np.linspace(0, 1, xf)[:, None] + a[end - xf:end] * np.linspace(1, 0, xf)[:, None]
+        pos = int(start * SR)
+        first = a[pos:end] if pos < end else loop[(pos - lo) % len(loop):]
+        out = [first]
+        n = int(dur * SR)
+        while sum(len(x) for x in out) < n:
+            out.append(loop)
+        return np.concatenate(out)[:n]
     cues = spec.get("music_cues") or [{"shot": 0, "music": spec["music"], "start": spec.get("music_start", 0)}]
     xf = int(0.25 * SR)
     bed = np.zeros((n + xf, 2), np.float32)
-    resume = {}
+    resume, origin = {}, {}
     for k, cue in enumerate(cues):
         path = (base / cue["music"]).resolve()
         t0 = 0.0 if k == 0 else starts[cue["shot"]]
         t1 = starts[cues[k + 1]["shot"]] if k + 1 < len(cues) else n / SR
         src = cue.get("start", resume.get(path, 0.0))
-        seg = load(path, src, t1 - t0 + xf / SR) * float(cue.get("volume", 1.0))
+        origin.setdefault(path, src)
+        seg = load(path, src, t1 - t0 + xf / SR, origin[path]) * float(cue.get("volume", 1.0))
         if k:                     # fade in over the cut
             seg[:xf] *= np.linspace(0, 1, xf)[:, None]
         if k + 1 < len(cues):     # fade out under the next track

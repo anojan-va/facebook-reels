@@ -170,7 +170,7 @@ CH3 = [
 ]
 
 CH4 = [
-    ("Trick number four. They judge you less harshly than you think.", CH(4, "LESS HARSH THAN YOU THINK", "@They"), {"chapter": True, "music": "tense"}),
+    ("Trick number four. They judge you less harshly than you think.", CH(4, "LESS HARSH THAN YOU THINK", "@They"), {"chapter": True, "music": "tense", "music_restart": True}),
     ("Let's say the worst actually happens.", K(("THE WORST", "red"), "HAPPENS", times=["@worst", "@happens"]), {}),
     ("You trip on the stairs in front of everyone.", I("c4-trip", (.45, .45), 1.0), {"punch": {"at": "@stairs", "zoom": 1.8, "focus": [.38, .4]}, "shake": ["@stairs"], "sfx": [{"name": "bass", "at": "@stairs", "gain": 0.6}]}),
     ("You forget someone's name right after they told you.", I("c4-name", (.5, .45), 1.0, to=[.45, .3], to_zoom=1.6, drift=0), {"sfx": [{"name": "pop", "at": "@name"}]}),
@@ -364,7 +364,7 @@ def main():
             m = sh.pop("music", None)
             if m:
                 cue = {"shot": len(shots), "music": TRACKS[m][0]}
-                if m not in used:
+                if m not in used or sh.pop("music_restart", False):
                     cue["start"] = TRACKS[m][1]
                     used.add(m)
                 cues.append(cue)

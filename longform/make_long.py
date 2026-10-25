@@ -102,7 +102,7 @@ def ease_back(x):
     return 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2
 
 
-@lru_cache(maxsize=4096)
+@lru_cache(maxsize=256)
 def text_layer(text, path, size, color=WHITE, glow=0, stroke=0, track=0):
     """RGBA numpy layer of one line of text; glow = blur radius of a coloured halo; stroke = black outline px."""
     f = ImageFont.truetype(path, size)
@@ -607,7 +607,7 @@ def phrases_for(words_abs, shot_of, shots):
     return out
 
 
-@lru_cache(maxsize=2048)
+@lru_cache(maxsize=48)
 def caption_layer(words, active):
     f = ImageFont.truetype(INTER, 66)
     sp = f.getlength(" ")
@@ -636,6 +636,7 @@ def main():
     ap.add_argument("--to", dest="t_to", type=float)
     ap.add_argument("--jobs", type=int, default=4, help="render this many chunks in parallel")
     ap.add_argument("--stills", action="store_true", help="QA: one frame from 70%% into every shot, as contact sheets")
+    ap.add_argument("--audio-only", action="store_true", help="rebuild the soundtrack and swap it into the existing render")
     ap.add_argument("--part", help=argparse.SUPPRESS)   # internal: render one chunk, video only, into this file
     args = ap.parse_args()
     spec_path = Path(args.spec).resolve()
@@ -778,6 +779,13 @@ def main():
         mix *= 0.98 / pk
     if not args.part:
         write_wav(work / "mix.wav", mix, af="loudnorm=I=-14:TP=-1.5:LRA=11")
+    if args.audio_only:
+        tmp = out.with_name(out.stem + "_newaudio.mp4")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(out), "-i", str(work / "mix.wav"), "-map", "0:v", "-map", "1:a",
+                        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", str(tmp)], check=True)
+        tmp.replace(out)
+        print(f"{out}  (new soundtrack)")
+        return
 
     # 4. Video, frame by frame.
     scale_out = 0.5 if args.preview else 1.0
