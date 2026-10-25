@@ -22,6 +22,7 @@ video.json (relative paths resolve against its folder):
     "shake": ["@word", 0.0],                                                          # camera shake hits
     "fx": ["vhs"] | [{"name": "light_off", "at": "@off"}],
     "overlays": [{"mg": "lower_third", "at": "@Cornell", "title": "...", "sub": "..."}, ...],
+                 # {"mg": "clip", "dir": "motion/x", "at": "@word"}: RGBA PNG sequence (Remotion/HyperFrames render)
     "captions": true,
     "sfx": ["whoosh", {"name": "pop", "at": "@word", "gain": 0.8}],                   # names: SFX table
     "amb": {"name": "crowd-murmur", "gain": 0.12},                                    # ambience bed under the shot
@@ -436,9 +437,32 @@ def ov_title(fr, t, d, p, ctx):
     mg_title(fr, t, d, p, ctx)
 
 
+@lru_cache(maxsize=4)
+def clip_files(d):
+    return sorted(Path(d).glob("*.png"))
+
+
+@lru_cache(maxsize=8)
+def clip_frame(f):
+    im = cv2.imread(str(f), cv2.IMREAD_UNCHANGED)
+    return np.ascontiguousarray(cv2.cvtColor(im, cv2.COLOR_BGRA2RGBA))
+
+
+def ov_clip(fr, t, d, p, ctx):
+    """Pre-rendered RGBA layer (PNG sequence from Remotion/HyperFrames, 1920x1080, 30 fps) played from its 'at'.
+    p: dir (folder of frames, relative to the spec), hold (keep the last frame if the shot outlasts the clip)."""
+    files = clip_files(p["_dir"])
+    i = int(t * FPS + 1e-6)
+    if i >= len(files):
+        if not p.get("hold"):
+            return
+        i = len(files) - 1
+    blit(fr, clip_frame(files[i]), W / 2, H / 2, alpha=p.get("alpha", 1.0))
+
+
 MG = {"kinetic": mg_kinetic, "title": mg_title, "year": mg_year, "grid": mg_grid, "bars": mg_bars,
       "list": mg_list, "chapter": mg_chapter, "versus": mg_versus, "recap": mg_recap}
-OV = {"lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic}
+OV = {"lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic, "clip": ov_clip}
 
 
 # ---------------------------------------------------------------- sources
@@ -643,6 +667,10 @@ def main():
     base = spec_path.parent
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
     shots = spec["shots"]
+    for sh in shots:
+        for ov in sh.get("overlays", []):
+            if ov["mg"] == "clip":
+                ov["_dir"] = str(base / ov["dir"])
     out = (base / spec["out"]).resolve()
     if args.preview:
         out = out.with_name(out.stem + "_preview.mp4")

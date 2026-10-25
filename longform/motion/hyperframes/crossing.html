@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #grid { position: absolute; inset: 0; background-image: linear-gradient(#ffffff0d 2px, transparent 2px), linear-gradient(90deg, #ffffff0d 2px, transparent 2px);
+    background-size: 80px 80px; }
+  #timer { left: 0; width: 1920px; top: 24px; text-align: center; font-size: 150px; letter-spacing: 6px; font-variant-numeric: tabular-nums; }
+  #tlab { left: 0; width: 1920px; top: 186px; text-align: center; font-size: 30px; color: #c9d3e8; }
+  .city { font-size: 30px; }
+  #dist { left: 0; width: 1920px; top: 380px; text-align: center; font-size: 40px; }
+  #under { left: 0; width: 1920px; top: 176px; text-align: center; font-size: 60px; letter-spacing: 6px; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="4.5" data-width="1920" data-height="1080">
+  <div id="grid"></div>
+  <svg class="abs" width="1920" height="1080" style="left:0;top:0">
+    <defs><filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <g transform="translate(96 110) scale(0.9)">
+    <path id="us" d="M 372 187 L 386 244 L 378 353 L 390 410 L 419 462 L 456 545 L 501 561 L 528 600 L 577 595 L 653 631 L 710 631 L 745 618 L 786 675 L 817 691 L 849 670 L 888 730 L 935 772 L 931 722 L 987 681 L 1005 673 L 1083 691 L 1095 657 L 1134 657 L 1185 675 L 1226 691 L 1235 730 L 1251 766 L 1280 790 L 1288 751 L 1276 707 L 1259 647 L 1267 616 L 1308 574 L 1331 561 L 1380 527 L 1370 483 L 1372 457 L 1392 434 L 1411 392 L 1452 379 L 1482 363 L 1493 356 L 1478 337 L 1489 309 L 1534 291 L 1554 280 L 1538 220 L 1509 213 L 1462 275 L 1392 275 L 1360 296 L 1306 319 L 1308 332 L 1237 361 L 1216 353 L 1239 327 L 1237 267 L 1194 236 L 1124 197 L 1091 197 L 976 171 L 407 171 Z" fill="#1a2233" stroke="#7f8fb0" stroke-width="4" stroke-linejoin="round"/>
+    <path id="route" d="M 504 560 Q 960 300 1411 387" fill="none" stroke="#ffd60a" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+    <circle cx="504" cy="560" r="12" fill="#fff"/>
+    <circle cx="1411" cy="387" r="12" fill="#fff"/>
+    <circle id="head" cx="504" cy="560" r="16" fill="#ff8a30" filter="url(#glow)"/>
+    </g>
+  </svg>
+  <div class="abs mont city" style="left:430px;top:640px">LOS ANGELES</div>
+  <div class="abs mont city" style="left:1290px;top:485px">NEW YORK</div>
+  <div id="timer" class="abs anton y">00:00</div>
+  <div id="tlab" class="abs mont">AT 20 KM PER SECOND</div>
+  <div id="dist" class="abs mont" style="opacity:0">3,940 KM</div>
+  <div id="under" class="abs anton y">UNDER 4 MINUTES</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const route = document.querySelector("#route");
+  const L = route.getTotalLength();
+  route.style.strokeDasharray = L;
+  const st = { p: 0 };
+  const draw = () => {
+    route.style.strokeDashoffset = L * (1 - st.p);
+    const pt = route.getPointAtLength(L * st.p);
+    const head = document.querySelector("#head");
+    head.setAttribute("cx", pt.x); head.setAttribute("cy", pt.y);
+    const secs = Math.round(197 * st.p);
+    document.querySelector("#timer").textContent = String(Math.floor(secs / 60)).padStart(2, "0") + ":" + String(secs % 60).padStart(2, "0");
+  };
+  draw();
+  tl.fromTo("#us", { opacity: 0, scale: 0.9, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.4, ease: "power3.out" }, 0)
+    .fromTo("#timer", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, 0.1)
+    .fromTo("#tlab", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 0.25)
+    .to("#dist", { opacity: 1, duration: 0.3 }, 1.2)
+    .to(st, { p: 1, duration: 2.2, ease: "power1.inOut", onUpdate: draw }, 0.4)
+    .to("#tlab", { opacity: 0, duration: 0.1 }, 2.6)
+    .fromTo("#under", { scale: 2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, 2.7)
+    .fromTo("#timer", { scale: 1.25 }, { scale: 1, duration: 0.25, ease: "power2.out" }, 2.62)
+    .to("#root", { scale: 1.04, duration: 4.5, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

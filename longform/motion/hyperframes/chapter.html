@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #label { width: 1920px; top: 170px; text-align: center; font-size: 50px; letter-spacing: 30px; }
+  #big { width: 1920px; top: 270px; text-align: center; font-size: 330px; letter-spacing: 8px; }
+  #sub { width: 1920px; top: 640px; text-align: center; }
+  #subbox { display: inline-block; border: 10px solid #eb3232; padding: 10px 40px; font-size: 96px; letter-spacing: 10px;
+    box-shadow: 0 0 30px rgba(235,50,50,.5); }
+  .bar { left: 0; width: 1920px; height: 6px; background: #ffd60a; box-shadow: 0 0 18px #ffd60a; }
+  #orbit { left: 0; top: 0; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="4.5" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <svg id="orbit" class="abs" width="1920" height="1080">
+    <ellipse cx="960" cy="520" rx="820" ry="300" fill="none" stroke="#ffffff22" stroke-width="3" stroke-dasharray="14 12"/>
+    <circle cx="1780" cy="520" r="16" fill="#4ea4ff"/>
+    <circle id="dot" cx="140" cy="520" r="10" fill="#ff8a30" style="filter: drop-shadow(0 0 12px #ff8a30)"/>
+  </svg>
+  <div id="bar1" class="abs bar" style="top:140px"></div>
+  <div id="label" class="abs mont">CHAPTER ONE</div>
+  <div id="big" class="abs anton y">24 HOURS</div>
+  <div id="sub" class="abs"><span style="display:inline-block;transform:rotate(-4deg)"><span id="subbox" class="anton r">TO IMPACT</span></span></div>
+  <div id="bar2" class="abs bar" style="top:840px"></div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#bar1", { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power3.out", transformOrigin: "left" }, 0)
+    .fromTo("#bar2", { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power3.out", transformOrigin: "right" }, 0)
+    .fromTo("#label", { opacity: 0, letterSpacing: "80px" }, { opacity: 1, letterSpacing: "30px", duration: 0.5, ease: "power3.out" }, 0.05)
+    .fromTo("#big", { scale: 1.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.22, ease: "power4.out" }, 0.85)
+    .fromTo("#subbox", { scale: 3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.18, ease: "power4.in" }, 1.75)
+    .fromTo("#root", { x: 0 }, { x: 12, duration: 0.04, yoyo: true, repeat: 5 }, 1.93)
+    .fromTo("#dot", { attr: { cx: 140 } }, { attr: { cx: 1700 }, duration: 4.5, ease: "power1.in" }, 0)
+    .to("#big", { scale: 1.05, duration: 3.4, ease: "none" }, 1.07);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

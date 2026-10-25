@@ -1,0 +1,17 @@
+@font-face { font-family: Anton; src: url(fonts/Anton-Regular.ttf); }
+@font-face { font-family: Mont; src: url(fonts/Montserrat-Black.ttf); font-weight: 100 900; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: #07080b; }
+#root { position: relative; width: 1920px; height: 1080px; overflow: hidden; color: #f5f5f5;
+  background: radial-gradient(ellipse at 50% 40%, #121722 0%, #07080b 70%); }
+.anton { font-family: Anton; text-transform: uppercase; line-height: 1; }
+.mont { font-family: Mont; font-weight: 800; text-transform: uppercase; letter-spacing: 8px; }
+.abs { position: absolute; }
+.stars { position: absolute; inset: 0; background-image:
+  radial-gradient(1.5px 1.5px at 12% 18%, #fff8 50%, transparent 51%), radial-gradient(1px 1px at 33% 72%, #fff6 50%, transparent 51%),
+  radial-gradient(1.5px 1.5px at 58% 12%, #fff7 50%, transparent 51%), radial-gradient(1px 1px at 81% 44%, #fff5 50%, transparent 51%),
+  radial-gradient(2px 2px at 91% 81%, #fff6 50%, transparent 51%), radial-gradient(1px 1px at 7% 63%, #fff5 50%, transparent 51%),
+  radial-gradient(1.5px 1.5px at 46% 38%, #fff4 50%, transparent 51%), radial-gradient(1px 1px at 70% 66%, #fff6 50%, transparent 51%);
+  background-size: 640px 360px; }
+.y { color: #ffd60a; text-shadow: 0 0 28px rgba(255,214,10,.55); }
+.r { color: #eb3232; }

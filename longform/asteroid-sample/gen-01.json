@@ -1,0 +1,77 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/asteroid-earth.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a gigantic dark cratered asteroid, rough rocky surface, fills the left half of the frame in deep space, the blue Earth small in the distance on the right, the sun rim-lighting the asteroid's edge, stars.",
+   "seed": 100
+  },
+  {
+   "out": "img/dino-fireball.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a herd of long-necked dinosaurs silhouetted in a prehistoric jungle at dusk, all looking up at a blazing fireball streaking across the sky with a long glowing trail.",
+   "seed": 101
+  },
+  {
+   "out": "img/rock-surface.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: extreme close-up of the surface of an asteroid tumbling through space, jagged grey rock, deep craters and boulders, hard sunlight and black shadows.",
+   "seed": 102
+  },
+  {
+   "out": "img/observatory.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a large white observatory dome at night on a mountain top, the dome slit open and the telescope pointing at a starry sky full of the Milky Way, a faint red light inside.",
+   "seed": 103
+  },
+  {
+   "out": "img/astronomer.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a tired astronomer in a dark control room at night, face lit by a computer monitor showing a black star field with a single bright dot circled in red and a curved orange trajectory line, she leans in shocked.",
+   "seed": 104
+  },
+  {
+   "out": "img/past-moon.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an enormous asteroid passing close to the grey cratered Moon in space, the asteroid in the foreground in sharp focus, motion streaks, Earth a small blue crescent far behind.",
+   "seed": 105
+  },
+  {
+   "out": "img/earth-target.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the planet Earth seen from orbit at night with glowing city lights, a thin glowing red targeting circle with crosshair lines drawn over one region of the planet, ominous.",
+   "seed": 106
+  },
+  {
+   "out": "img/empty-city.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a completely deserted city avenue at dawn, abandoned cars with open doors, papers blowing across the empty road, skyscrapers, eerie silence, cold blue light.",
+   "seed": 107
+  },
+  {
+   "out": "img/bunker.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a line of people with backpacks hurrying down a concrete stairwell into an underground bunker, red emergency lights, a heavy steel blast door open, motion blur.",
+   "seed": 108
+  },
+  {
+   "out": "img/mountain-road.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a long line of cars with headlights on driving up a winding mountain road at dusk, seen from above, the city glowing in the valley below.",
+   "seed": 109
+  },
+  {
+   "out": "img/new-star.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: silhouettes of a crowd of people standing on a hill at twilight looking up at an unusually bright white star in the sky above a city skyline, the star has a faint glow halo.",
+   "seed": 110
+  },
+  {
+   "out": "img/fireball-city.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a gigantic glowing asteroid entering the atmosphere above a big city skyline, a huge burning fireball with a long trail of fire and smoke, the whole sky orange, people tiny in the foreground.",
+   "seed": 111
+  },
+  {
+   "out": "img/dart.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a small boxy spacecraft with long solar panel wings flying toward a small grey rocky asteroid moonlet in deep space, the larger asteroid behind it, realistic NASA style.",
+   "seed": 112
+  },
+  {
+   "out": "img/wasteland.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the aftermath of a giant impact: a burned grey landscape under a dark ash-filled sky, a glowing red crater rim on the horizon, smoke and embers in the air.",
+   "seed": 113
+  }
+ ]
+}

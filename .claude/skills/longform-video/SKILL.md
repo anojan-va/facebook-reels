@@ -20,6 +20,23 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
 | — | "not fully AI images" | Mix: roughly 35% AI images, 35% stock video, 30% motion graphics |
 | — | "high user retention edit in audio and visuals" | Every cut has a transition SFX; every reveal has a graphic + hit |
 | 1 | "duration not exceeding 20 minutes, 10–20 is good" | Aim for ~12–14 min (≈1,900–2,200 words at this voice's ~2.8 w/s); check the total before rendering |
+| What-if sample | rejected a 3D/JavaScript-scene-animation version | No 3D/JS scene animation: stock + AI stills with Ken Burns/punch-ins + bold kinetic text, a cut every 2–3 s, full sound design |
+
+## "What if" videos (non-psychology, e.g. `asteroid-sample/`)
+
+- Voice: Gemini TTS voice **Algenib** (the user's preferred Chirp 3 HD voice name; Gemini has the same voice):
+  `tts.py script.txt voice-b.wav Algenib "as a fast-paced, energetic YouTube documentary narrator with a deep voice, urgent and dramatic, brisk pace with short pauses"` → ~3.1 w/s (172 words ≈ 55 s). The calm channel style ran 73 s for the same script.
+- Images: cinematic photoreal stills, no yellow man, no refs (`asteroid-sample/gen-01.json` has the style prefix).
+- Stock: only Mixkit works in the cloud unless a Pexels/Pixabay key is set (720p; the renderer upscales + grades).
+- Motion layers (`longform/motion/`, `npm ci` there, then `npx hyperframes browser ensure` once):
+  - **HyperFrames** (`motion/hyperframes/*.html`, GSAP, fonts in `assets/`): full-screen cards — size comparison,
+    chapter card, map/route with timer. Render `npx hyperframes render . -c card.html -o ...mp4 -q delivery`, use as a
+    shot with `{"video": "motion/card.mp4", "grade": false}`; make each card longer than its shot (clips loop).
+  - **Remotion** (`motion/remotion/src/Layers.tsx`): transparent overlays — TitleSlam, BigNumber (+ speed dial),
+    Countdown (T-MINUS HUD), Stamp, Reticle, Callout. Render as PNG sequences
+    (`--sequence --image-format=png --browser-executable=<hyperframes chrome-headless-shell> --public-dir=$PWD/public`)
+    and put them on a shot with the renderer's `{"mg": "clip", "dir": "motion/name", "at": "@word"}` overlay.
+  - Each video keeps a `motion.sh` that rebuilds its layers (renders are git-ignored).
 
 ## Pipeline
 

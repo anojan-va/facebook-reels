@@ -1,0 +1,12 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/mountain-road.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a long line of cars with headlights on driving up a winding mountain road at dusk, seen from above, the city glowing in the valley below.",
+   "seed": 200
+  }
+ ]
+}

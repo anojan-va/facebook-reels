@@ -27,3 +27,10 @@ longform/*/stock/cand/
 longform/*/voice-cand-*.wav
 longform/*/chapters/*.wav
 longform/*/chapters/*.log
+longform/*/voice-*.wav
+longform/*/stock/cand-*.log
+# Motion layers (HyperFrames / Remotion): deps and renders are rebuilt from source
+longform/motion/node_modules/
+longform/motion/hyperframes/out/
+longform/motion/hyperframes/.hyperframes/
+longform/*/motion/

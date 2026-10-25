@@ -1,0 +1,788 @@
+{
+ "out": "../output/asteroid-sample.mp4",
+ "audio": "voice-b.wav",
+ "speed": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865
+  },
+  {
+   "shot": 10,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "start": 117.26
+  }
+ ],
+ "music_volume": 0.4,
+ "fade_out": 1.2,
+ "progress": true,
+ "shots": [
+  {
+   "text": "What if a giant asteroid",
+   "v": {
+    "video": "stock/meteor-earth.mp4",
+    "start": 0.5,
+    "zoom": 1.2,
+    "drift": 0.12,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "punch": true,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "text": "was about to hit Earth?",
+   "v": {
+    "img": "img/asteroid-earth.jpg",
+    "focus": [
+     0.3,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "boom",
+     "at": "@Earth",
+     "gain": 0.6
+    }
+   ],
+   "shake": [
+    "@Earth"
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Not a small one.",
+   "v": {
+    "img": "img/rock-surface.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    "glitch-hit",
+    {
+     "name": "bass",
+     "at": "@small",
+     "gain": 0.7
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "A rock ten kilometres wide,",
+   "v": {
+    "video": "motion/size.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 0.95,
+     "gain": 0.7
+    },
+    {
+     "name": "sweep",
+     "at": 1.0,
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 1.25,
+     "gain": 0.7
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "the same size as the one that wiped out the dinosaurs.",
+   "v": {
+    "img": "img/dino-fireball.jpg",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.35
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    "whoosh",
+    {
+     "name": "boom",
+     "at": "@wiped",
+     "gain": 0.7
+    }
+   ],
+   "shake": [
+    "@wiped"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "In this video, we'll follow it step by step,",
+   "v": {
+    "video": "stock/meteor-storm.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.1,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "from the first warning",
+   "v": {
+    "video": "stock/control-room.mp4",
+    "start": 8.0,
+    "zoom": 1.15,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "glitch",
+    {
+     "name": "zap",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "to the world it leaves behind.",
+   "v": {
+    "img": "img/wasteland.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.25,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.0
+   },
+   "sfx": [
+    "tunnel"
+   ],
+   "in": "dip"
+  },
+  {
+   "text": "And by the end, you'll see why",
+   "v": {
+    "video": "stock/earth-night.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh-fast"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "space agencies are already practising for this exact day.",
+   "v": {
+    "img": "img/dart.jpg",
+    "focus": [
+     0.35,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/dart",
+     "at": "@agencies"
+    }
+   ],
+   "sfx": [
+    "sweep",
+    {
+     "name": "typing",
+     "at": "@agencies+0.35",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Chapter one. Twenty four hours to impact.",
+   "pause_before": 0.25,
+   "captions": false,
+   "v": {
+    "video": "motion/chapter.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": "@Twenty",
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": "@impact",
+     "gain": 0.8
+    }
+   ],
+   "in": "dip"
+  },
+  {
+   "text": "Telescopes spot it",
+   "v": {
+    "video": "stock/observatory.mp4",
+    "start": 1.5,
+    "zoom": 1.1,
+    "drift": 0.1,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh",
+    {
+     "name": "shutter",
+     "at": "@spot"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "far beyond the Moon,",
+   "v": {
+    "img": "img/past-moon.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    "whoosh2"
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "racing toward us at about twenty kilometres every second.",
+   "v": {
+    "video": "stock/meteor-3.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.15,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/speed",
+     "at": "@twenty-0.25"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": "@twenty"
+    },
+    {
+     "name": "tick",
+     "at": "@kilometres"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "That's fast enough",
+   "v": {
+    "video": "stock/map-point.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.1,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh-fast"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "to cross the entire United States in under four minutes.",
+   "v": {
+    "video": "motion/crossing.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "at": 0.4
+    },
+    {
+     "name": "whoosh",
+     "at": 1.2,
+     "gain": 0.6
+    },
+    {
+     "name": "impact",
+     "at": "@under",
+     "gain": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "With only one day left,",
+   "v": {
+    "img": "img/astronomer.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.68,
+     0.32
+    ],
+    "to_zoom": 1.5
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/t24",
+     "at": 0.0,
+     "alpha": 0.95
+    }
+   ],
+   "sfx": [
+    "glitch",
+    {
+     "name": "heartbeat",
+     "at": 0.2,
+     "gain": 0.8
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "there's no time to launch a spacecraft and push it away.",
+   "v": {
+    "video": "stock/rocket.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/notime",
+     "at": "@spacecraft"
+    }
+   ],
+   "music_fx": "muffle",
+   "sfx": [
+    "whoosh",
+    {
+     "name": "impact",
+     "at": "@spacecraft",
+     "gain": 0.8
+    }
+   ],
+   "shake": [
+    "@spacecraft"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "So the only question left",
+   "v": {
+    "video": "stock/telescope-man.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "is where it will land.",
+   "v": {
+    "video": "stock/earth-spin.mp4",
+    "start": 4.0,
+    "zoom": 1.0,
+    "drift": 0.25,
+    "focus": [
+     0.42,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/target",
+     "at": 0.0
+    }
+   ],
+   "voice_fx": {
+    "at": "@land",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "zap",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "name": "bass",
+     "at": "@land",
+     "gain": 0.8
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Cities empty overnight.",
+   "v": {
+    "img": "img/empty-city.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.25
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ],
+   "in": "dip"
+  },
+  {
+   "text": "Highways jam.",
+   "v": {
+    "video": "stock/traffic-jam.mp4",
+    "start": 2.0,
+    "zoom": 1.15,
+    "drift": 0.1,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "punch": {
+    "at": "@jam",
+    "zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "impact",
+     "at": "@jam",
+     "gain": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "People head for high ground,",
+   "v": {
+    "img": "img/mountain-road.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.35
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "and deep underground.",
+   "v": {
+    "img": "img/bunker.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.47,
+     0.45
+    ],
+    "to_zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "boom",
+     "at": "@underground",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "And then, in the final hour,",
+   "v": {
+    "video": "stock/city-skyline.mp4",
+    "start": 8.0,
+    "zoom": 1.15,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/t1",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    "glitch-hit",
+    {
+     "name": "heartbeat",
+     "at": "@final",
+     "gain": 0.9
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "a new star appears in the sky,",
+   "v": {
+    "img": "img/new-star.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.53,
+     0.35
+    ],
+    "to_zoom": 1.25
+   },
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "sparkle",
+     "at": "@star",
+     "gain": 0.8
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "and it's getting brighter.",
+   "v": {
+    "img": "img/new-star.jpg",
+    "focus": [
+     0.53,
+     0.3
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.53,
+     0.18
+    ],
+    "to_zoom": 2.6
+   },
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "@brighter+1.0"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Everyone on Earth is about to find out",
+   "v": {
+    "video": "stock/crowd-bridge.mp4",
+    "start": 8.0,
+    "zoom": 1.1,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.12
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "what ten kilometres of rock can do.",
+   "v": {
+    "img": "img/fireball-city.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.42
+    ],
+    "to_zoom": 1.35
+   },
+   "punch": {
+    "at": "@do",
+    "zoom": 1.5,
+    "focus": [
+     0.55,
+     0.42
+    ]
+   },
+   "shake": [
+    "@rock",
+    "@do"
+   ],
+   "sfx": [
+    {
+     "name": "boom",
+     "at": "@rock",
+     "gain": 0.8
+    },
+    {
+     "name": "impact",
+     "at": "@do"
+    },
+    {
+     "name": "bass",
+     "at": "@do"
+    }
+   ],
+   "in": "flash"
+  }
+ ]
+}

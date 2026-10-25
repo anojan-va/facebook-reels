@@ -1,0 +1,14 @@
+{
+  "name": "longform-motion",
+  "private": true,
+  "description": "HyperFrames (full-screen HTML/GSAP cards) and Remotion (transparent React overlays) for longform videos",
+  "scripts": {},
+  "dependencies": {
+    "@remotion/cli": "^4.0.538",
+    "gsap": "^3.12.5",
+    "hyperframes": "^0.8.199",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.538"
+  }
+}
