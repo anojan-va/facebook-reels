@@ -16,6 +16,7 @@ from pathlib import Path
 
 MODEL = "gemini-2.5-flash-preview-tts"
 CHANNEL_VOICE = "Charon"
+POLLI_MODEL = "google/gemini-3.8-flash-tts"   # fallback when the free Gemini quota is used up
 CHANNEL_STYLE = "calm, confident, conversational, slightly slow, like a friendly psychology explainer"
 
 
@@ -32,7 +33,12 @@ def speak(text: str, out: Path, voice=CHANNEL_VOICE, style=CHANNEL_STYLE):
         with urllib.request.urlopen(req, timeout=300) as r:
             data = json.loads(r.read())
     except urllib.error.HTTPError as e:
-        sys.exit(f"Gemini TTS HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:400]}")
+        msg = f"Gemini TTS HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:200]}"
+        if e.code not in (429, 500, 502, 503, 504):
+            sys.exit(msg)
+        # Free tier used up (10/day; failed 5xx calls count too) or upstream down: same voice through Pollinations.
+        print(msg.splitlines()[0], "-> Pollinations Gemini TTS fallback", file=sys.stderr)
+        return speak_polli(text, out, voice, style)
     part = next(p for p in data["candidates"][0]["content"]["parts"] if "inlineData" in p)["inlineData"]
     rate = part.get("mimeType", "").split("rate=")[-1] if "rate=" in part.get("mimeType", "") else "24000"
     pcm = base64.b64decode(part["data"])
@@ -42,6 +48,27 @@ def speak(text: str, out: Path, voice=CHANNEL_VOICE, style=CHANNEL_STYLE):
     print(out)
 
 
+def speak_polli(text: str, out: Path, voice=CHANNEL_VOICE, style=CHANNEL_STYLE):
+    """Gemini Flash TTS through Pollinations (paid, ~$0.02 per minute of speech). Key: $POLLINATIONS_KEY,
+    ~/.pollinations-key, or the cloud proxy. Same Charon voice, newer model: score it with voice_profile.py."""
+    kf = Path.home() / ".pollinations-key"
+    key = os.environ.get("POLLINATIONS_KEY") or (kf.read_text().strip() if kf.exists() else "")
+    body = {"model": POLLI_MODEL, "voice": voice, "input": text, "instructions": f"Say {style}", "response_format": "wav"}
+    req = urllib.request.Request("https://gen.pollinations.ai/v1/audio/speech", data=json.dumps(body).encode(), method="POST",
+                                 headers={"content-type": "application/json", **({"authorization": f"Bearer {key}"} if key else {})})
+    try:
+        with urllib.request.urlopen(req, timeout=600) as r:
+            wav = r.read()
+    except urllib.error.HTTPError as e:
+        sys.exit(f"Pollinations TTS HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:400]}")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "-", "-af", "highpass=f=80,loudnorm=I=-16:TP=-1.5:LRA=11",
+                    "-ar", "48000", "-ac", "2", str(out)], input=wav, check=True)
+    print(out)
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
-    speak(Path(args[0]).read_text(encoding="utf-8").strip(), Path(args[1]), *args[2:4])
+    if args and args[0] == "--polli":   # go straight to the Pollinations fallback
+        speak_polli(Path(args[1]).read_text(encoding="utf-8").strip(), Path(args[2]), *args[3:5])
+    else:
+        speak(Path(args[0]).read_text(encoding="utf-8").strip(), Path(args[1]), *args[2:4])

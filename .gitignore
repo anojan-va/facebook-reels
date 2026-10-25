@@ -25,3 +25,5 @@ longform/*/img/
 longform/*/stock/*.mp4
 longform/*/stock/cand/
 longform/*/voice-cand-*.wav
+longform/*/chapters/*.wav
+longform/*/chapters/*.log

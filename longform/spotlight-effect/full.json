@@ -1,0 +1,5620 @@
+{
+ "out": "../output/spotlight-effect-full.mp4",
+ "audio": [
+  "voice-cand-1.wav",
+  "chapters/ch1.wav",
+  "chapters/ch2.wav",
+  "chapters/ch3.wav",
+  "chapters/ch4.wav",
+  "chapters/ch5.wav",
+  "chapters/ch6.wav",
+  "chapters/ch7.wav"
+ ],
+ "take_gap": 0.5,
+ "speed": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865
+  },
+  {
+   "shot": 20,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "start": 13.63
+  },
+  {
+   "shot": 23,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "start": 117.26
+  },
+  {
+   "shot": 45,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "start": 1.6
+  },
+  {
+   "shot": 59,
+   "music": "../../reels/audio/music/echoes.mp3"
+  },
+  {
+   "shot": 80,
+   "music": "../../reels/audio/music/unforgiven.mp3"
+  },
+  {
+   "shot": 97,
+   "music": "../../reels/audio/music/fifth-of-february.mp3"
+  },
+  {
+   "shot": 126,
+   "music": "../../reels/audio/music/out-of-this-world.mp3"
+  },
+  {
+   "shot": 137,
+   "music": "../../reels/audio/music/echoes.mp3"
+  },
+  {
+   "shot": 144,
+   "music": "../../reels/audio/music/fifth-of-february.mp3"
+  },
+  {
+   "shot": 155,
+   "music": "../../reels/audio/music/echoes.mp3"
+  },
+  {
+   "shot": 181,
+   "music": "../../reels/audio/music/fifth-of-february.mp3"
+  },
+  {
+   "shot": 187,
+   "music": "../../reels/audio/music/unforgiven.mp3"
+  },
+  {
+   "shot": 213,
+   "music": "../../reels/audio/music/unforgiven.mp3"
+  },
+  {
+   "shot": 232,
+   "music": "../../reels/audio/music/echoes.mp3"
+  },
+  {
+   "shot": 240,
+   "music": "../../reels/audio/music/fifth-of-february.mp3"
+  }
+ ],
+ "music_volume": 0.36,
+ "fade_out": 2.0,
+ "progress": true,
+ "shots": [
+  {
+   "text": "Right now,",
+   "v": {
+    "video": "stock/eye.mp4",
+    "start": 1.0,
+    "zoom": 1.25,
+    "drift": 0.1
+   },
+   "sfx": [
+    "hook"
+   ],
+   "fx": [],
+   "punch": true
+  },
+  {
+   "text": "you probably think people are watching you.",
+   "in": "flash",
+   "v": {
+    "img": "img/crowd-stare.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.05
+   },
+   "punch": {
+    "at": "@watching",
+    "zoom": 2.0,
+    "focus": [
+     0.51,
+     0.3
+    ]
+   },
+   "shake": [
+    "@watching"
+   ],
+   "sfx": [
+    {
+     "name": "glass",
+     "at": "@watching"
+    }
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   }
+  },
+  {
+   "text": "Judging your outfit.",
+   "in": "whip",
+   "v": {
+    "video": "stock/judge.mp4",
+    "start": 0.3,
+    "zoom": 1.05,
+    "drift": 0.05
+   },
+   "overlays": [
+    {
+     "mg": "scan",
+     "at": 0.1,
+     "box": [
+      0.56,
+      0.12,
+      0.86,
+      0.97
+     ],
+     "label": "ANALYZING OUTFIT..."
+    }
+   ],
+   "sfx": [
+    "swoosh-fast",
+    {
+     "name": "zap",
+     "at": 0.15,
+     "gain": 0.6
+    },
+    {
+     "name": "typing",
+     "at": 0.3,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Replaying that awkward thing you said yesterday.",
+   "in": "glitch",
+   "v": {
+    "img": "img/bed-replay.jpg",
+    "focus": [
+     0.36,
+     0.6
+    ],
+    "zoom": 1.35,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.7,
+    "drift": 0
+   },
+   "fx": [
+    "vhs"
+   ],
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ REPLAY   YESTERDAY 11:47 PM",
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    "rewind"
+   ]
+  },
+  {
+   "text": "But here's the truth...",
+   "in": "glitch",
+   "captions": false,
+   "pause_before": 0.2,
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HERE'S",
+      "white"
+     ],
+     [
+      "THE TRUTH",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@truth"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    "glitch-hit",
+    {
+     "name": "bass",
+     "at": "@truth",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "they're not.",
+   "in": "zoom",
+   "v": {
+    "video": "stock/phones.mp4",
+    "start": 1.0,
+    "zoom": 1.12,
+    "drift": 0.06,
+    "focus": [
+     0.45,
+     0.5
+    ]
+   },
+   "voice_fx": {
+    "at": "@not",
+    "fx": "echo"
+   },
+   "shake": [
+    0.0
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "at": -0.05
+    },
+    {
+     "name": "boom",
+     "at": 0.0,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Psychologists call this the Spotlight Effect.",
+   "in": "whip",
+   "captions": false,
+   "v": {
+    "img": "img/stage-spotlight.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.15,
+    "drift": -0.12
+   },
+   "overlays": [
+    {
+     "mg": "title",
+     "at": "@spotlight",
+     "text": "THE SPOTLIGHT EFFECT",
+     "sub": "WHY YOU THINK EVERYONE IS WATCHING",
+     "y": 0.8,
+     "size": 120
+    }
+   ],
+   "sfx": [
+    "swoosh",
+    {
+     "name": "reveal",
+     "at": "@spotlight"
+    },
+    {
+     "name": "impact",
+     "at": "@spotlight",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In the year two thousand,",
+   "in": "dip",
+   "captions": false,
+   "pause_before": 0.25,
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 2000,
+    "roll": 1.0,
+    "label": "THE EXPERIMENT"
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "rewind",
+     "at": 0.05,
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.15
+    },
+    {
+     "name": "tick",
+     "at": 0.35
+    },
+    {
+     "name": "tick",
+     "at": 0.55
+    },
+    {
+     "name": "tick",
+     "at": 0.75
+    },
+    {
+     "name": "pop",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "text": "researchers at Cornell University",
+   "in": "flash",
+   "v": {
+    "video": "stock/campus.mp4",
+    "start": 2.0,
+    "zoom": 1.05,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "at": "@Cornell-0.1",
+     "title": "CORNELL UNIVERSITY",
+     "sub": "Gilovich, Medvec & Savitsky (2000)"
+    }
+   ],
+   "sfx": [
+    "shutter",
+    {
+     "name": "swoosh-fast",
+     "at": "@Cornell-0.1",
+     "gain": 0.7
+    }
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.08
+   }
+  },
+  {
+   "text": "asked students to walk into a room full of strangers",
+   "in": "whip",
+   "v": {
+    "video": "stock/room.mp4",
+    "start": 1.5,
+    "zoom": 1.05,
+    "drift": 0.08
+   },
+   "sfx": [
+    "swoosh-fast"
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.12
+   }
+  },
+  {
+   "text": "wearing a really embarrassing T-shirt.",
+   "in": "zoom",
+   "v": {
+    "img": "img/tshirt-doorway.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.04
+   },
+   "punch": {
+    "at": "@embarrassing",
+    "zoom": 2.1,
+    "focus": [
+     0.19,
+     0.36
+    ]
+   },
+   "shake": [
+    "@embarrassing"
+   ],
+   "sfx": [
+    "swoosh",
+    {
+     "name": "scratch",
+     "at": "@embarrassing"
+    }
+   ]
+  },
+  {
+   "text": "Afterwards, those students guessed that half the room had noticed.",
+   "in": "whip",
+   "v": {
+    "mg": "grid",
+    "label": "WHAT THEY GUESSED",
+    "lit": [
+     0,
+     10,
+     "@guessed",
+     "@noticed"
+    ],
+    "pct": [
+     0,
+     50,
+     "@guessed",
+     "@noticed"
+    ]
+   },
+   "sfx": [
+    "swoosh-fast",
+    {
+     "name": "pop",
+     "at": "@guessed"
+    },
+    {
+     "name": "pop",
+     "at": "@guessed+0.25"
+    },
+    {
+     "name": "pop",
+     "at": "@half"
+    },
+    {
+     "name": "pop",
+     "at": "@room"
+    },
+    {
+     "name": "pop",
+     "at": "@had"
+    },
+    {
+     "name": "correct",
+     "at": "@noticed",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The real number?",
+   "in": "cut",
+   "captions": false,
+   "music_fx": "muffle",
+   "v": {
+    "mg": "grid",
+    "label": "THE REAL NUMBER",
+    "lit": 0,
+    "question": true
+   },
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.05
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.5
+    },
+    {
+     "name": "riser",
+     "at": "@number+0.75",
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "text": "Only about twenty-three percent.",
+   "in": "flash",
+   "v": {
+    "mg": "grid",
+    "label": "WHAT REALLY HAPPENED",
+    "lit": [
+     0,
+     4.6,
+     0.0,
+     "@twenty"
+    ],
+    "pct": [
+     0,
+     23,
+     0.0,
+     "@twenty"
+    ]
+   },
+   "shake": [
+    "@twenty"
+   ],
+   "sfx": [
+    {
+     "name": "bass",
+     "at": "@twenty"
+    }
+   ],
+   "pause_before": 0.4
+  },
+  {
+   "text": "Less than one in four.",
+   "in": "whip",
+   "v": {
+    "mg": "bars",
+    "headline": "LESS THAN 1 IN 4",
+    "bars": [
+     [
+      "GUESSED",
+      50,
+      "grey"
+     ],
+     [
+      "REALITY",
+      23,
+      "yellow"
+     ]
+    ]
+   },
+   "sfx": [
+    "swoosh-fast",
+    {
+     "name": "pop",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": 0.45
+    },
+    {
+     "name": "sparkle",
+     "at": "@four"
+    }
+   ]
+  },
+  {
+   "text": "Your brain puts you at the centre of every scene,",
+   "in": "dip",
+   "pause_before": 0.25,
+   "v": {
+    "video": "stock/brain.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.08,
+    "focus": [
+     0.4,
+     0.5
+    ]
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "text": "because you are the centre of your own world.",
+   "in": "zoom",
+   "v": {
+    "img": "img/tiny-planet.jpg",
+    "focus": [
+     0.5,
+     0.48
+    ],
+    "zoom": 1.5,
+    "to_zoom": 1.0,
+    "drift": 0,
+    "spin": 4
+   },
+   "sfx": [
+    "tunnel",
+    {
+     "name": "sparkle",
+     "at": "@world"
+    }
+   ]
+  },
+  {
+   "text": "But everyone else is doing the exact same thing.",
+   "in": "whip",
+   "v": {
+    "video": "stock/crowd.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.14
+   }
+  },
+  {
+   "text": "They're too busy worrying about their own spotlight",
+   "in": "zoom",
+   "v": {
+    "img": "img/many-spotlights.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "sfx": [
+    "sweep",
+    {
+     "name": "heartbeat",
+     "at": "@worrying"
+    }
+   ]
+  },
+  {
+   "text": "to notice yours.",
+   "in": "whip",
+   "v": {
+    "video": "stock/selfie.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    "swoosh-fast",
+    {
+     "name": "shutter",
+     "at": "@yours"
+    }
+   ],
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   }
+  },
+  {
+   "text": "So in this video, I'll show you seven psychological tricks",
+   "in": "flash",
+   "captions": false,
+   "pause_before": 0.3,
+   "v": {
+    "mg": "list",
+    "headline": "7 PSYCHOLOGICAL TRICKS",
+    "n": 7,
+    "stagger": 0.14
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "pop",
+     "at": 0.3
+    },
+    {
+     "name": "pop",
+     "at": 0.44
+    },
+    {
+     "name": "pop",
+     "at": 0.58
+    },
+    {
+     "name": "pop",
+     "at": 0.72
+    },
+    {
+     "name": "pop",
+     "at": 0.86
+    },
+    {
+     "name": "pop",
+     "at": 1.0
+    },
+    {
+     "name": "pop",
+     "at": 1.14
+    }
+   ]
+  },
+  {
+   "text": "to switch that spotlight off.",
+   "in": "whip",
+   "v": {
+    "img": "img/switch-off.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0.06
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@off"
+    }
+   ],
+   "sfx": [
+    "swoosh",
+    {
+     "name": "switch",
+     "at": "@off"
+    }
+   ]
+  },
+  {
+   "text": "And we're starting with the one that almost everyone gets completely wrong.",
+   "in": "glitch",
+   "pause_before": 0.25,
+   "v": {
+    "mg": "chapter",
+    "label": "TRICK",
+    "text": "#1",
+    "stamp": "MOST PEOPLE GET THIS WRONG",
+    "stamp_at": "@completely"
+   },
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0
+    },
+    {
+     "name": "wrong",
+     "at": "@completely"
+    },
+    {
+     "name": "boom",
+     "at": "@wrong",
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "text": "Trick number one. Stop trying to hide your nerves.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "STOP HIDING",
+      "white"
+     ],
+     [
+      "YOUR NERVES",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@hide"
+    ]
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Picture this.",
+   "v": {
+    "video": "stock/nervous-2.mp4",
+    "start": 0.5,
+    "zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You're about to give a presentation.",
+   "v": {
+    "img": "img/c1-podium.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your heart is pounding,",
+   "v": {
+    "img": "img/c1-podium.jpg",
+    "focus": [
+     0.5,
+     0.36
+    ],
+    "zoom": 2.2
+   },
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.1
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.55
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "your hands are sweating,",
+   "v": {
+    "video": "stock/nervous-1.mp4",
+    "start": 1.0,
+    "zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "your voice feels shaky,",
+   "v": {
+    "video": "stock/audience-applause-0.mp4",
+    "start": 2.0,
+    "zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and you're sure everyone in the room can see it.",
+   "v": {
+    "img": "img/crowd-stare.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@see",
+    "zoom": 1.9,
+    "focus": [
+     0.51,
+     0.3
+    ]
+   },
+   "shake": [
+    "@see"
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@see"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "It feels like your anxiety is written all over your face.",
+   "v": {
+    "img": "img/c1-glass-head.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.2,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.9,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Psychologists call this the illusion of transparency.",
+   "v": {
+    "img": "img/c1-glass-head.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.05
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "ILLUSION OF TRANSPARENCY",
+     "at": "@illusion",
+     "y": 0.8,
+     "size": 120,
+     "sub": "YOUR FEELINGS FEEL VISIBLE"
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@illusion"
+    },
+    {
+     "name": "impact",
+     "at": "@illusion",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "In one study at Cornell,",
+   "v": {
+    "video": "stock/job-interview-2.mp4",
+    "start": 0.3,
+    "zoom": 1.1
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "GILOVICH, SAVITSKY & MEDVEC",
+     "sub": "Cornell University (1998)",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "people told lies",
+   "v": {
+    "img": "img/c1-liar.jpg",
+    "focus": [
+     0.3,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "while a group of observers watched",
+   "v": {
+    "img": "img/c1-liar.jpg",
+    "focus": [
+     0.78,
+     0.45
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and tried to catch them.",
+   "v": {
+    "video": "stock/job-interview-2.mp4",
+    "start": 2.5,
+    "zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "scan",
+     "box": [
+      0.15,
+      0.1,
+      0.6,
+      0.9
+     ],
+     "label": "DETECTING LIES...",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The liars guessed that about half of the observers would see right through them.",
+   "v": {
+    "mg": "grid",
+    "label": "LIARS GUESSED THEY'D BE CAUGHT BY",
+    "lit": [
+     0,
+     10,
+     "@guessed",
+     "@half"
+    ],
+    "pct": [
+     0,
+     50,
+     "@guessed",
+     "@half"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@guessed"
+    },
+    {
+     "name": "pop",
+     "at": "@about"
+    },
+    {
+     "name": "pop",
+     "at": "@half"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "In reality, only about a quarter did.",
+   "v": {
+    "mg": "grid",
+    "label": "ACTUALLY CAUGHT THEM",
+    "lit": [
+     0,
+     5,
+     0.0,
+     "@quarter"
+    ],
+    "pct": [
+     0,
+     25,
+     0.0,
+     "@quarter"
+    ]
+   },
+   "in": "flash",
+   "shake": [
+    "@quarter"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@quarter"
+    }
+   ]
+  },
+  {
+   "text": "Your inner storm is mostly invisible.",
+   "v": {
+    "img": "img/c1-glass-head.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "punch": {
+    "at": "@invisible",
+    "zoom": 2.1,
+    "focus": [
+     0.5,
+     0.28
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@invisible"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And here's the part that almost everyone gets wrong.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE PART",
+      "white"
+     ],
+     [
+      "EVERYONE GETS WRONG",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@everyone"
+    ]
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@wrong",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When we feel nervous, we try harder to hide it.",
+   "v": {
+    "img": "img/c1-stiff.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "We tense up,",
+   "v": {
+    "img": "img/c1-stiff.jpg",
+    "focus": [
+     0.4,
+     0.3
+    ],
+    "zoom": 1.9
+   },
+   "shake": [
+    0.05
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "we avoid eye contact,",
+   "v": {
+    "video": "stock/nervous-1.mp4",
+    "start": 6.0,
+    "zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "we rehearse every single word in our head.",
+   "v": {
+    "img": "img/c1-podium.jpg",
+    "focus": [
+     0.5,
+     0.27
+    ],
+    "zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "typing",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "And that actually makes us look more awkward, not less.",
+   "v": {
+    "img": "img/c1-stiff.jpg",
+    "focus": [
+     0.65,
+     0.45
+    ],
+    "zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": "@awkward",
+     "gain": 0.4
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "So the researchers tried something different.",
+   "v": {
+    "video": "stock/office-4.mp4",
+    "start": 2.0,
+    "zoom": 1.1
+   },
+   "pause_before": 0.25,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Before a group of nervous people gave a speech,",
+   "v": {
+    "video": "stock/audience-applause-0.mp4",
+    "start": 6.0,
+    "zoom": 1.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "they simply told them about the illusion of transparency.",
+   "v": {
+    "video": "stock/therapy-1.mp4",
+    "start": 1.0,
+    "zoom": 1.1
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "SAVITSKY & GILOVICH",
+     "sub": "Journal of Experimental Social Psychology (2003)",
+     "at": 0.1
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "That's it.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THAT'S IT.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "No breathing exercises. No pep talk.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NO BREATHING EXERCISES",
+      "red"
+     ],
+     [
+      "NO PEP TALK",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@pep"
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.35
+    },
+    {
+     "name": "wrong",
+     "at": "@pep",
+     "gain": 0.35
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Just the truth: your nerves are far less visible than you think.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "YOUR NERVES ARE",
+      "white"
+     ],
+     [
+      "FAR LESS VISIBLE",
+      "yellow"
+     ],
+     [
+      "THAN YOU THINK",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@far",
+     "@than"
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@far"
+    },
+    {
+     "name": "pop",
+     "at": "@than"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Those speakers felt calmer,",
+   "v": {
+    "img": "img/c1-calm.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the audience rated their speeches as better and more composed.",
+   "v": {
+    "video": "stock/audience-applause-2.mp4",
+    "start": 3.0,
+    "zoom": 1.1
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "correct",
+     "at": "@composed",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "So the next time your heart starts racing,",
+   "v": {
+    "img": "img/c1-podium.jpg",
+    "focus": [
+     0.5,
+     0.36
+    ],
+    "zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.2
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.7
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "remind yourself: they can't see what I feel.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THEY CAN'T SEE",
+      "white"
+     ],
+     [
+      "WHAT I FEEL",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@what"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@what"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Just knowing that switches half the spotlight off.",
+   "v": {
+    "img": "img/switch-off.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@off"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@off"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "But the next trick goes even further,",
+   "v": {
+    "img": "img/c2-listen.jpg",
+    "focus": [
+     0.55,
+     0.4
+    ],
+    "zoom": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "NEXT:  TRICK #2",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "because it doesn't just calm you down.",
+   "v": {
+    "video": "stock/conversation-3.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It makes people like you more.",
+   "v": {
+    "video": "stock/laughing-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@more"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Trick number two. Point the spotlight outward.",
+   "v": {
+    "mg": "chapter",
+    "label": "TRICK",
+    "text": "#2",
+    "sub": "POINT THE SPOTLIGHT OUTWARD",
+    "sub_at": "@Point"
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@Point",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Here's what happens inside an anxious brain",
+   "v": {
+    "video": "stock/brain.mp4",
+    "start": 12.0,
+    "zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "at a party,",
+   "v": {
+    "video": "stock/party-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.12
+   },
+   "in": "cut"
+  },
+  {
+   "text": "a date,",
+   "v": {
+    "video": "stock/first-date-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "or a job interview.",
+   "v": {
+    "video": "stock/job-interview-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Your attention turns inward.",
+   "v": {
+    "img": "img/c2-camera.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You start watching yourself like a security camera.",
+   "v": {
+    "img": "img/c2-camera.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "punch": {
+    "at": "@security",
+    "zoom": 2.3,
+    "focus": [
+     0.56,
+     0.32
+    ]
+   },
+   "sfx": [
+    {
+     "name": "shutter",
+     "at": "@camera"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "How do I sound?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HOW DO I SOUND?",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "What are my hands doing?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WHAT ARE MY",
+      "white"
+     ],
+     [
+      "HANDS DOING?",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     0.0
+    ]
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Is my face going red?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IS MY FACE",
+      "white"
+     ],
+     [
+      "GOING RED?",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     0.0
+    ]
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Did that joke land?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "DID THAT",
+      "white"
+     ],
+     [
+      "JOKE LAND?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     0.0
+    ]
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Psychologists who study social anxiety call this self-focused attention,",
+   "v": {
+    "img": "img/c2-camera.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.15
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "SELF-FOCUSED ATTENTION",
+     "at": "@self",
+     "y": 0.8,
+     "size": 120
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@self"
+    },
+    {
+     "name": "impact",
+     "at": "@self",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "and it's the fuel that keeps the spotlight burning.",
+   "v": {
+    "img": "img/stage-spotlight.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The more you watch yourself, the more awkward you feel.",
+   "v": {
+    "img": "img/c2-wheel.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And the more awkward you feel, the more you watch yourself.",
+   "v": {
+    "img": "img/c2-wheel.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.6,
+    "spin": 8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "It's a loop.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT'S A LOOP",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.05,
+     "gain": 0.6
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Imagine two people at the same party.",
+   "v": {
+    "img": "img/c2-corner.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The first one spends the whole night thinking about how they look.",
+   "v": {
+    "img": "img/c2-corner.jpg",
+    "focus": [
+     0.25,
+     0.5
+    ],
+    "zoom": 1.8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The second one spends the night",
+   "v": {
+    "img": "img/c2-corner.jpg",
+    "focus": [
+     0.72,
+     0.5
+    ],
+    "zoom": 1.8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "trying to find out one interesting thing about every person they meet.",
+   "v": {
+    "video": "stock/conversation-2.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Guess which one goes home feeling awkward?",
+   "v": {
+    "img": "img/c2-corner.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.25,
+     0.45
+    ],
+    "to_zoom": 2.2,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.3
+    },
+    {
+     "name": "tick",
+     "at": 0.8
+    },
+    {
+     "name": "tick",
+     "at": 1.3
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "The way out is surprisingly simple.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE WAY OUT",
+      "white"
+     ],
+     [
+      "SURPRISINGLY SIMPLE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@surprisingly"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Give your attention a job somewhere else.",
+   "v": {
+    "img": "img/c2-flashlight.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Get curious about the other person.",
+   "v": {
+    "img": "img/c2-listen.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "What are they really saying?",
+   "v": {
+    "video": "stock/listening-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "What do they care about?",
+   "v": {
+    "video": "stock/conversation-3.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "What's one question you could ask that nobody else would think of?",
+   "v": {
+    "img": "img/c2-listen.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.05
+   },
+   "punch": {
+    "at": "@question",
+    "zoom": 2.0,
+    "focus": [
+     0.62,
+     0.2
+    ]
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@question"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Your brain can't fully focus on two things at once.",
+   "v": {
+    "video": "stock/brain.mp4",
+    "start": 20.0,
+    "zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every bit of attention you give to them",
+   "v": {
+    "img": "img/c2-flashlight.jpg",
+    "focus": [
+     0.7,
+     0.5
+    ],
+    "zoom": 1.6
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "is attention taken away from your own spotlight.",
+   "v": {
+    "img": "img/many-spotlights.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And there's a bonus.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "BONUS",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.05
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Researchers at Harvard found that people who ask more questions,",
+   "v": {
+    "video": "stock/college-students-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "HUANG ET AL.",
+     "sub": "Harvard University (2017)",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "especially follow-up questions,",
+   "v": {
+    "video": "stock/conversation-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "are rated as more likeable.",
+   "v": {
+    "video": "stock/laughing-1.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@likeable"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "So the trick that calms you down",
+   "v": {
+    "img": "img/c2-listen.jpg",
+    "focus": [
+     0.55,
+     0.4
+    ],
+    "zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "also makes you better company.",
+   "v": {
+    "video": "stock/party-3.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@company"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Now, what about the moments when you really do mess up?",
+   "v": {
+    "img": "img/tshirt-doorway.jpg",
+    "focus": [
+     0.2,
+     0.4
+    ],
+    "zoom": 1.6
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That's where trick number three comes in.",
+   "v": {
+    "video": "stock/cinema-1.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "shutter",
+     "at": "@three"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Trick number three. Your mistakes look braver from the outside.",
+   "v": {
+    "mg": "chapter",
+    "label": "TRICK",
+    "text": "#3",
+    "sub": "MISTAKES LOOK BRAVER",
+    "sub_at": "@Your"
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@Your",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Imagine you have to admit you made a big mistake at work.",
+   "v": {
+    "img": "img/c3-confess.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.35,
+     0.35
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Or tell someone you have feelings for them.",
+   "v": {
+    "img": "img/c3-flowers.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Or ask for help when you're struggling.",
+   "v": {
+    "video": "stock/couple-park-7.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In your head, it feels like weakness.",
+   "v": {
+    "img": "img/c3-mirror.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.1
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Like you're exposing every flaw you have.",
+   "v": {
+    "img": "img/c3-mirror.jpg",
+    "focus": [
+     0.65,
+     0.4
+    ],
+    "zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "zap",
+     "at": 0.1
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "But in 2018,",
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 2018,
+    "roll": 0.6,
+    "label": "GERMANY"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.05,
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 0.6
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "researchers in Germany tested exactly this.",
+   "v": {
+    "video": "stock/college-students-3.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "BRUK, SCHOLL & BLESS",
+     "sub": "University of Mannheim (2018)",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "They asked people to imagine themselves in vulnerable moments like these,",
+   "v": {
+    "video": "stock/therapy-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and then imagine someone else in the very same situation.",
+   "v": {
+    "img": "img/c3-admire.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "When it was them, they saw weakness and embarrassment.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "YOU SEE",
+     "WEAKNESS"
+    ],
+    "right": [
+     "THEY SEE",
+     "COURAGE"
+    ],
+    "at": 999.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When it was someone else, they saw courage, honesty, and strength.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "YOU SEE",
+     "WEAKNESS"
+    ],
+    "right": [
+     "THEY SEE",
+     "COURAGE"
+    ],
+    "left_at": -1.0,
+    "at": "@courage"
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@courage"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The researchers called it the beautiful mess effect.",
+   "v": {
+    "img": "img/c3-admire.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.15
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "THE BEAUTIFUL MESS EFFECT",
+     "at": "@beautiful",
+     "y": 0.8,
+     "size": 120
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@beautiful"
+    },
+    {
+     "name": "impact",
+     "at": "@beautiful",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The same moment that feels like a mess from the inside",
+   "v": {
+    "img": "img/c3-mirror.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "looks beautiful from the outside.",
+   "v": {
+    "img": "img/c3-admire.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@beautiful"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Think about it.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THINK ABOUT IT",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When a friend tells you they're struggling,",
+   "v": {
+    "video": "stock/hug-2.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "do you think less of them?",
+   "v": {
+    "img": "img/c3-hug.jpg",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Or do you trust them more?",
+   "v": {
+    "video": "stock/hug-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most of us feel closer to people who admit their flaws.",
+   "v": {
+    "video": "stock/couple-park-7.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "We just forget that the same rule applies to us.",
+   "v": {
+    "img": "img/tiny-planet.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So when you're about to say, I was wrong,",
+   "v": {
+    "img": "img/c3-confess.jpg",
+    "focus": [
+     0.35,
+     0.3
+    ],
+    "zoom": 1.9
+   },
+   "in": "cut"
+  },
+  {
+   "text": "or I don't know,",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "I DON'T KNOW",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "or I need help,",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "I NEED HELP",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "remember that the person watching you isn't seeing a fool.",
+   "v": {
+    "img": "img/c3-admire.jpg",
+    "focus": [
+     0.75,
+     0.45
+    ],
+    "zoom": 1.6
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "They're seeing someone brave enough to be real.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "BRAVE ENOUGH",
+      "yellow"
+     ],
+     [
+      "TO BE REAL",
+      "white"
+     ]
+    ],
+    "times": [
+     "@brave",
+     "@real"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@real"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "And that's usually the most memorable thing in the room.",
+   "v": {
+    "video": "stock/therapy-1.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But what if the mistake is actually embarrassing?",
+   "v": {
+    "img": "img/tshirt-doorway.jpg",
+    "focus": [
+     0.2,
+     0.4
+    ],
+    "zoom": 1.6
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Like, really embarrassing?",
+   "v": {
+    "img": "img/c4-coffee.jpg",
+    "focus": [
+     0.48,
+     0.45
+    ],
+    "zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@really"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Trick number four. They judge you less harshly than you think.",
+   "v": {
+    "mg": "chapter",
+    "label": "TRICK",
+    "text": "#4",
+    "sub": "LESS HARSH THAN YOU THINK",
+    "sub_at": "@They"
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@They",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Let's say the worst actually happens.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE WORST",
+      "red"
+     ],
+     [
+      "HAPPENS",
+      "white"
+     ]
+    ],
+    "times": [
+     "@worst",
+     "@happens"
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "You trip on the stairs in front of everyone.",
+   "v": {
+    "img": "img/c4-trip.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@stairs",
+    "zoom": 1.8,
+    "focus": [
+     0.38,
+     0.4
+    ]
+   },
+   "shake": [
+    "@stairs"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@stairs",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "You forget someone's name right after they told you.",
+   "v": {
+    "img": "img/c4-name.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.45,
+     0.3
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@name"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "You spill coffee on your shirt",
+   "v": {
+    "img": "img/c4-coffee.jpg",
+    "focus": [
+     0.48,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "punch": {
+    "at": "@coffee",
+    "zoom": 1.8,
+    "focus": [
+     0.48,
+     0.6
+    ]
+   },
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@coffee"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "just before a meeting.",
+   "v": {
+    "video": "stock/office-4.mp4",
+    "start": 5.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Surely now, people are judging you.",
+   "v": {
+    "img": "img/crowd-stare.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.15
+   },
+   "punch": {
+    "at": "@judging",
+    "zoom": 1.9,
+    "focus": [
+     0.51,
+     0.3
+    ]
+   },
+   "shake": [
+    "@judging"
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Researchers at Cornell tested this too.",
+   "v": {
+    "video": "stock/campus.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "SAVITSKY, EPLEY & GILOVICH",
+     "sub": "Cornell University (2001)",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "They had people fail at a task in front of others,",
+   "v": {
+    "video": "stock/college-students-3.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and then predict how harshly those observers would rate them.",
+   "v": {
+    "video": "stock/job-interview-2.mp4",
+    "start": 1.5,
+    "zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Again and again, people expected to be judged far more severely than they actually were.",
+   "v": {
+    "mg": "bars",
+    "headline": "HOW HARSHLY YOU'RE JUDGED",
+    "values": false,
+    "bars": [
+     [
+      "EXPECTED",
+      85,
+      "grey"
+     ],
+     [
+      "ACTUAL",
+      40,
+      "yellow"
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": 0.45
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Why does this happen?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WHY?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Because when it's you, the blunder is the whole story.",
+   "v": {
+    "img": "img/c4-cinema.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You see it in high definition,",
+   "v": {
+    "img": "img/c4-cinema.jpg",
+    "focus": [
+     0.7,
+     0.25
+    ],
+    "zoom": 2.0
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "HD  1080p",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "and you replay it again and again.",
+   "v": {
+    "img": "img/c4-cinema.jpg",
+    "focus": [
+     0.6,
+     0.3
+    ],
+    "zoom": 1.4
+   },
+   "fx": [
+    "vhs"
+   ],
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ REPLAY  x47",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    "rewind"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "But the people watching see it as one tiny moment in a much bigger picture.",
+   "v": {
+    "img": "img/c4-wall.jpg",
+    "focus": [
+     0.72,
+     0.62
+    ],
+    "zoom": 2.4,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.0,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "at": 0.5
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "They know you're more than one mistake,",
+   "v": {
+    "video": "stock/laughing-3.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "because they make mistakes too.",
+   "v": {
+    "video": "stock/coffee-spill-0.mp4",
+    "start": 7.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "In fact, a classic study on the pratfall effect found",
+   "v": {
+    "img": "img/c4-coffee.jpg",
+    "focus": [
+     0.48,
+     0.45
+    ],
+    "zoom": 1.05
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "THE PRATFALL EFFECT",
+     "at": "@pratfall",
+     "y": 0.8,
+     "size": 120
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@pratfall"
+    },
+    {
+     "name": "impact",
+     "at": "@pratfall",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "that when a competent person spilled coffee on themselves,",
+   "v": {
+    "video": "stock/coffee-spill-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "ARONSON, WILLERMAN & FLOYD",
+     "sub": "Psychonomic Science (1966)",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "people actually liked them more.",
+   "v": {
+    "video": "stock/laughing-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@liked"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "The mistake made them seem more human.",
+   "v": {
+    "img": "img/c4-coffee.jpg",
+    "focus": [
+     0.48,
+     0.3
+    ],
+    "zoom": 1.6
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Perfect people feel distant.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "PERFECT PEOPLE",
+      "white"
+     ],
+     [
+      "FEEL DISTANT",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@distant"
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Slightly clumsy people feel real.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SLIGHTLY CLUMSY",
+      "white"
+     ],
+     [
+      "FEEL REAL",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@real"
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@real"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "So the next time you mess up, don't spiral.",
+   "v": {
+    "img": "img/c2-wheel.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.3,
+    "spin": 10
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Laugh, fix it, and move on.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "LAUGH.",
+      "white"
+     ],
+     [
+      "FIX IT.",
+      "white"
+     ],
+     [
+      "MOVE ON.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@fix",
+     "@move"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@fix"
+    },
+    {
+     "name": "pop",
+     "at": "@move"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Because that's exactly what everyone else will do.",
+   "v": {
+    "video": "stock/street-walking-0.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And trick number five might change how you see",
+   "v": {
+    "img": "img/c5-talk.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "every conversation you've ever had.",
+   "v": {
+    "video": "stock/conversation-2.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Trick number five. Assume they liked you more.",
+   "v": {
+    "mg": "chapter",
+    "label": "TRICK",
+    "text": "#5",
+    "sub": "ASSUME THEY LIKED YOU MORE",
+    "sub_at": "@Assume"
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@Assume",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Think about the last time you met someone new.",
+   "v": {
+    "video": "stock/first-date-0.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "On the way home, did you replay the conversation?",
+   "v": {
+    "img": "img/c5-walk.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.6,
+     0.25
+    ],
+    "to_zoom": 1.7,
+    "drift": 0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Did you wonder if you talked too much,",
+   "v": {
+    "video": "stock/conversation-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "or said something weird,",
+   "v": {
+    "img": "img/bed-replay.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.5
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "or if they were just being polite?",
+   "v": {
+    "video": "stock/first-date-0.mp4",
+    "start": 8.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You're not alone. Almost everyone does this.",
+   "v": {
+    "video": "stock/street-walking-5.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Your brain replays the tape,",
+   "v": {
+    "img": "img/c5-walk.jpg",
+    "focus": [
+     0.6,
+     0.22
+    ],
+    "zoom": 2.0
+   },
+   "fx": [
+    "vhs"
+   ],
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ REPLAY",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    "rewind"
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "looking for every tiny mistake,",
+   "v": {
+    "video": "stock/brain.mp4",
+    "start": 30.0,
+    "zoom": 1.1
+   },
+   "overlays": [
+    {
+     "mg": "scan",
+     "box": [
+      0.25,
+      0.15,
+      0.75,
+      0.85
+     ],
+     "label": "SEARCHING FOR MISTAKES...",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and it always finds something.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT ALWAYS",
+      "white"
+     ],
+     [
+      "FINDS SOMETHING",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@finds"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@finds",
+     "gain": 0.5
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "In 2018,",
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 2018,
+    "roll": 0.6,
+    "label": "THE CONVERSATION STUDY"
+   },
+   "sfx": [
+    {
+     "name": "rewind",
+     "at": 0.05,
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 0.6
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "researchers paired up strangers for a short conversation.",
+   "v": {
+    "video": "stock/conversation-3.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "BOOTHBY, COONEY, SANDSTROM & CLARK",
+     "sub": "Psychological Science (2018)",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Afterwards, they asked each person two questions.",
+   "v": {
+    "img": "img/c5-talk.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "How much did you like your partner?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HOW MUCH DID YOU",
+      "white"
+     ],
+     [
+      "LIKE THEM?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@like"
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And how much do you think your partner liked you?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HOW MUCH DID",
+      "white"
+     ],
+     [
+      "THEY LIKE YOU?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@liked"
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "The results were almost the same every time.",
+   "v": {
+    "video": "stock/college-students-6.mp4",
+    "start": 5.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "People liked their partner more than they believed their partner liked them.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "WHAT YOU GUESS",
+     "LESS"
+    ],
+    "right": [
+     "WHAT THEY FELT",
+     "MORE"
+    ],
+    "at": "@believed"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@believed"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "The researchers called this the liking gap.",
+   "v": {
+    "img": "img/c5-spotlights.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "THE LIKING GAP",
+     "at": "@liking",
+     "y": 0.8,
+     "size": 120
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@liking"
+    },
+    {
+     "name": "impact",
+     "at": "@liking",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And it didn't disappear quickly.",
+   "v": {
+    "video": "stock/night-walk-7.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In one study, it lasted for months between new college roommates.",
+   "v": {
+    "img": "img/c5-roommates.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.1
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "LASTED FOR MONTHS",
+     "at": "@months",
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Here's why.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HERE'S WHY",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "While you're busy criticising your own performance,",
+   "v": {
+    "img": "img/c5-spotlights.jpg",
+    "focus": [
+     0.38,
+     0.45
+    ],
+    "zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "the other person is busy criticising theirs.",
+   "v": {
+    "img": "img/c5-spotlights.jpg",
+    "focus": [
+     0.67,
+     0.45
+    ],
+    "zoom": 1.8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Neither of you is paying much attention",
+   "v": {
+    "video": "stock/conversation-5.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "to the other person's little mistakes.",
+   "v": {
+    "img": "img/c5-spotlights.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You're both standing in your own spotlight.",
+   "v": {
+    "img": "img/many-spotlights.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": -0.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "So here's the trick.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE TRICK",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "After any conversation,",
+   "v": {
+    "video": "stock/conversation-2.mp4",
+    "start": 5.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "assume you were liked more than you think.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "YOU WERE LIKED",
+      "white"
+     ],
+     [
+      "MORE THAN YOU THINK",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@more"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@more"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Statistically, you probably were.",
+   "v": {
+    "video": "stock/laughing-3.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "correct",
+     "at": "@probably",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And the next trick is about something",
+   "v": {
+    "video": "stock/morning-coffee-7.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "you might worry about every single morning.",
+   "v": {
+    "img": "img/c6-hair.jpg",
+    "focus": [
+     0.6,
+     0.35
+    ],
+    "zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Trick number six. Nobody is tracking your bad days.",
+   "v": {
+    "mg": "chapter",
+    "label": "TRICK",
+    "text": "#6",
+    "sub": "NOBODY TRACKS YOUR BAD DAYS",
+    "sub_at": "@Nobody"
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@Nobody",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Some mornings you wake up and everything feels off.",
+   "v": {
+    "video": "stock/morning-coffee-7.mp4",
+    "start": 5.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your hair won't sit right.",
+   "v": {
+    "img": "img/c6-hair.jpg",
+    "focus": [
+     0.62,
+     0.3
+    ],
+    "zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": 0.15
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Your skin looks tired.",
+   "v": {
+    "video": "stock/mirror-5.mp4",
+    "start": 1.0,
+    "zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your outfit feels wrong.",
+   "v": {
+    "video": "stock/mirror-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "scan",
+     "box": [
+      0.55,
+      0.08,
+      0.82,
+      0.95
+     ],
+     "label": "OUTFIT CHECK...",
+     "at": 0.1
+    }
+   ],
+   "sfx": [
+    {
+     "name": "typing",
+     "at": 0.2,
+     "gain": 0.5
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "And you're sure everyone will notice that today is a bad day.",
+   "v": {
+    "img": "img/c6-street.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.5,
+     0.25
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But in another study, the same Cornell team",
+   "v": {
+    "video": "stock/campus.mp4",
+    "start": 10.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "GILOVICH, KRUGER & MEDVEC",
+     "sub": "Cornell University (2002)",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "asked people to predict how much others would notice",
+   "v": {
+    "video": "stock/college-students-3.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "the ups and downs in their appearance from one day to the next.",
+   "v": {
+    "img": "img/c6-calendar.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.0,
+    "drift": 0.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And once again, people consistently overestimated it.",
+   "v": {
+    "mg": "bars",
+    "headline": "OVERESTIMATED",
+    "values": false,
+    "bars": [
+     [
+      "PREDICTED",
+      80,
+      "grey"
+     ],
+     [
+      "NOTICED",
+      30,
+      "yellow"
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": 0.45
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Other people simply don't keep a record of how you looked yesterday.",
+   "v": {
+    "img": "img/c6-calendar.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Here's a quick test.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "QUICK TEST",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.7
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Think of three people you saw yesterday.",
+   "v": {
+    "mg": "grid",
+    "label": "3 PEOPLE YOU SAW YESTERDAY",
+    "cols": 3,
+    "rows": 1,
+    "h": 330,
+    "cy": 0.42,
+    "lit": 0
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    },
+    {
+     "name": "pop",
+     "at": 0.25
+    },
+    {
+     "name": "pop",
+     "at": 0.4
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Can you remember what any of them were wearing?",
+   "v": {
+    "mg": "grid",
+    "label": "WHAT WERE THEY WEARING?",
+    "cols": 3,
+    "rows": 1,
+    "h": 330,
+    "cy": 0.42,
+    "lit": 0,
+    "question": true
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.1
+    }
+   ]
+  },
+  {
+   "text": "Exactly how their hair looked?",
+   "v": {
+    "video": "stock/street-walking-0.mp4",
+    "start": 10.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Probably not.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "PROBABLY NOT.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Even close friends rarely notice.",
+   "v": {
+    "video": "stock/laughing-4.mp4",
+    "start": 7.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your partner might not even realise you got a haircut.",
+   "v": {
+    "video": "stock/first-date-0.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@haircut"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "And that's with you paying attention to the world.",
+   "v": {
+    "video": "stock/street-walking-5.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Now imagine how little they remember about you.",
+   "v": {
+    "img": "img/c7-world.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your best days and your worst days blur together",
+   "v": {
+    "img": "img/c6-calendar.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.2,
+    "drift": -0.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "into one ordinary picture in other people's minds.",
+   "v": {
+    "img": "img/c4-wall.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "So stop treating every bad hair day like a public event.",
+   "v": {
+    "img": "img/c6-street.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.5
+   },
+   "punch": {
+    "at": "@public",
+    "zoom": 2.0,
+    "focus": [
+     0.5,
+     0.25
+    ]
+   },
+   "in": "cut"
+  },
+  {
+   "text": "To everyone else, it's just a normal Tuesday.",
+   "v": {
+    "img": "img/c6-cafe.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "TUESDAY  8:14 AM",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "And that brings us to the last trick.",
+   "v": {
+    "video": "stock/cinema-1.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's the strangest one, and it's also the most powerful.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE STRANGEST",
+      "white"
+     ],
+     [
+      "THE MOST POWERFUL",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@most"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "riser",
+     "at": "@powerful+0.6",
+     "gain": 0.7
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Trick number seven. Embarrass yourself on purpose.",
+   "v": {
+    "mg": "chapter",
+    "label": "TRICK",
+    "text": "#7",
+    "sub": "EMBARRASS YOURSELF ON PURPOSE",
+    "sub_at": "@Embarrass"
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@Embarrass",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "This sounds crazy,",
+   "v": {
+    "img": "img/tshirt-doorway.jpg",
+    "focus": [
+     0.2,
+     0.35
+    ],
+    "zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": 0.1
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "but it's one of the most famous exercises in therapy.",
+   "v": {
+    "video": "stock/therapy-1.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The psychologist Albert Ellis created something he called",
+   "v": {
+    "video": "stock/therapy-6.mp4",
+    "start": 0.5,
+    "zoom": 1.1
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "ALBERT ELLIS",
+     "sub": "Psychologist, founder of REBT",
+     "at": "@Albert"
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "at": "@Albert",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "a shame attacking exercise.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SHAME-ATTACKING",
+      "yellow"
+     ],
+     [
+      "EXERCISE",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@exercise"
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You deliberately do something mildly embarrassing in public.",
+   "v": {
+    "img": "img/tshirt-doorway.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Nothing harmful, nothing rude, just a little bit odd.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOTHING HARMFUL",
+      "white"
+     ],
+     [
+      "NOTHING RUDE",
+      "white"
+     ],
+     [
+      "JUST A LITTLE ODD",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@rude-0.4",
+     "@just"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@rude-0.4"
+    },
+    {
+     "name": "pop",
+     "at": "@just"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Ask a shop assistant what year it is.",
+   "v": {
+    "img": "img/c7-shop.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "punch": {
+    "at": "@year",
+    "zoom": 1.5,
+    "focus": [
+     0.5,
+     0.42
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@year"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Wear two different socks.",
+   "v": {
+    "video": "stock/socks-2.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Walk a banana on a lead down the street.",
+   "v": {
+    "img": "img/c7-banana.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.55,
+     0.65
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@banana"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Why would anyone do this?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WHY?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Because your brain learns from evidence, not from logic.",
+   "v": {
+    "img": "img/c7-brain.jpg",
+    "focus": [
+     0.62,
+     0.5
+    ],
+    "zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    },
+    {
+     "name": "correct",
+     "at": "@evidence",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "You can tell yourself a thousand times that nobody cares,",
+   "v": {
+    "video": "stock/nervous-1.mp4",
+    "start": 3.0,
+    "zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "but your fear only shrinks when you see it with your own eyes.",
+   "v": {
+    "video": "stock/eye.mp4",
+    "start": 3.0,
+    "zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You do the awkward thing,",
+   "v": {
+    "img": "img/c7-banana.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.6
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the world keeps turning.",
+   "v": {
+    "img": "img/c7-world.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "spin": 3
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.12
+   },
+   "in": "cut"
+  },
+  {
+   "text": "People glance for a second,",
+   "v": {
+    "video": "stock/street-walking-0.mp4",
+    "start": 15.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and then they go back to their phones.",
+   "v": {
+    "video": "stock/phone-street-2.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Do it a few times, and the spotlight starts to lose its power over you.",
+   "v": {
+    "img": "img/switch-off.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@lose"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@lose"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "So let's recap.",
+   "v": {
+    "mg": "recap",
+    "items": [
+     "STOP HIDING YOUR NERVES",
+     "POINT ATTENTION OUTWARD",
+     "MISTAKES LOOK BRAVER",
+     "JUDGED LESS HARSHLY",
+     "LIKED MORE THAN YOU THINK",
+     "NOBODY TRACKS BAD DAYS",
+     "EMBARRASS YOURSELF ON PURPOSE"
+    ],
+    "times": [
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Stop hiding your nerves.",
+   "v": {
+    "mg": "recap",
+    "items": [
+     "STOP HIDING YOUR NERVES",
+     "POINT ATTENTION OUTWARD",
+     "MISTAKES LOOK BRAVER",
+     "JUDGED LESS HARSHLY",
+     "LIKED MORE THAN YOU THINK",
+     "NOBODY TRACKS BAD DAYS",
+     "EMBARRASS YOURSELF ON PURPOSE"
+    ],
+    "times": [
+     0.05,
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Point your attention outward.",
+   "v": {
+    "mg": "recap",
+    "items": [
+     "STOP HIDING YOUR NERVES",
+     "POINT ATTENTION OUTWARD",
+     "MISTAKES LOOK BRAVER",
+     "JUDGED LESS HARSHLY",
+     "LIKED MORE THAN YOU THINK",
+     "NOBODY TRACKS BAD DAYS",
+     "EMBARRASS YOURSELF ON PURPOSE"
+    ],
+    "times": [
+     -1.0,
+     0.05,
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Remember that your mistakes look braver than they feel.",
+   "v": {
+    "mg": "recap",
+    "items": [
+     "STOP HIDING YOUR NERVES",
+     "POINT ATTENTION OUTWARD",
+     "MISTAKES LOOK BRAVER",
+     "JUDGED LESS HARSHLY",
+     "LIKED MORE THAN YOU THINK",
+     "NOBODY TRACKS BAD DAYS",
+     "EMBARRASS YOURSELF ON PURPOSE"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     0.05,
+     999.0,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You're judged less harshly than you fear.",
+   "v": {
+    "mg": "recap",
+    "items": [
+     "STOP HIDING YOUR NERVES",
+     "POINT ATTENTION OUTWARD",
+     "MISTAKES LOOK BRAVER",
+     "JUDGED LESS HARSHLY",
+     "LIKED MORE THAN YOU THINK",
+     "NOBODY TRACKS BAD DAYS",
+     "EMBARRASS YOURSELF ON PURPOSE"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     -1.0,
+     0.05,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You were probably liked more than you think.",
+   "v": {
+    "mg": "recap",
+    "items": [
+     "STOP HIDING YOUR NERVES",
+     "POINT ATTENTION OUTWARD",
+     "MISTAKES LOOK BRAVER",
+     "JUDGED LESS HARSHLY",
+     "LIKED MORE THAN YOU THINK",
+     "NOBODY TRACKS BAD DAYS",
+     "EMBARRASS YOURSELF ON PURPOSE"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     0.05,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Nobody tracks your bad days.",
+   "v": {
+    "mg": "recap",
+    "items": [
+     "STOP HIDING YOUR NERVES",
+     "POINT ATTENTION OUTWARD",
+     "MISTAKES LOOK BRAVER",
+     "JUDGED LESS HARSHLY",
+     "LIKED MORE THAN YOU THINK",
+     "NOBODY TRACKS BAD DAYS",
+     "EMBARRASS YOURSELF ON PURPOSE"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     0.05,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And when you're ready, embarrass yourself on purpose.",
+   "v": {
+    "mg": "recap",
+    "items": [
+     "STOP HIDING YOUR NERVES",
+     "POINT ATTENTION OUTWARD",
+     "MISTAKES LOOK BRAVER",
+     "JUDGED LESS HARSHLY",
+     "LIKED MORE THAN YOU THINK",
+     "NOBODY TRACKS BAD DAYS",
+     "EMBARRASS YOURSELF ON PURPOSE"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     0.05
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Because here's the truth we started with.",
+   "v": {
+    "img": "img/stage-spotlight.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.08
+   },
+   "pause_before": 0.3,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You are the centre of your own world.",
+   "v": {
+    "img": "img/tiny-planet.jpg",
+    "focus": [
+     0.5,
+     0.48
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "But in everyone else's world, you're a background character.",
+   "v": {
+    "img": "img/c7-extra.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And that's not sad.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THAT'S NOT SAD.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "It's freedom.",
+   "v": {
+    "img": "img/c7-free.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.05
+    }
+   ]
+  },
+  {
+   "text": "You can stop performing,",
+   "v": {
+    "video": "stock/freedom-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and start living.",
+   "v": {
+    "video": "stock/freedom-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "If this video helped you, send it to someone who overthinks everything.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SEND THIS TO SOMEONE",
+      "white"
+     ],
+     [
+      "WHO OVERTHINKS",
+      "yellow"
+     ],
+     [
+      "EVERYTHING",
+      "yellow"
+     ]
+    ],
+    "times": [
+     "@send",
+     "@who",
+     "@everything"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@send"
+    },
+    {
+     "name": "pop",
+     "at": "@who"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "And I'll see you in the next one.",
+   "v": {
+    "img": "img/c7-free.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": -0.12
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.7
+    }
+   ]
+  }
+ ]
+}

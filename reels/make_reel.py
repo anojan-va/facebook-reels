@@ -146,7 +146,10 @@ def music_bed(spec, base, starts, n):
     switches tracks at those shots' cuts with a short crossfade, so the music follows the narration's mood.
     A track that comes back resumes where it left off unless the cue gives "start". Without cues, "music" loops."""
     def load(path, start, dur):
-        a = read_audio(path, start=start)
+        # The whole track, played from `start` and wrapping around its end (long videos resume tracks many times).
+        a = read_audio(path)
+        pos = int(start * SR) % max(len(a), 1)
+        a = np.concatenate([a[pos:], a[:pos]])
         reps = int(np.ceil(dur * SR / max(len(a), 1))) + 1
         return np.tile(a, (reps, 1))[: int(dur * SR)]
     cues = spec.get("music_cues") or [{"shot": 0, "music": spec["music"], "start": spec.get("music_start", 0)}]

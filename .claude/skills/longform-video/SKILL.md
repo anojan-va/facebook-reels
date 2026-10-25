@@ -19,6 +19,7 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
 |---|---|---|
 | — | "not fully AI images" | Mix: roughly 35% AI images, 35% stock video, 30% motion graphics |
 | — | "high user retention edit in audio and visuals" | Every cut has a transition SFX; every reveal has a graphic + hit |
+| 1 | "duration not exceeding 20 minutes, 10–20 is good" | Aim for ~12–14 min (≈1,900–2,200 words at this voice's ~2.8 w/s); check the total before rendering |
 
 ## Pipeline
 
@@ -26,10 +27,13 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
    most people get wrong…") → promise ("7 tricks") → chapters (each opens with a chapter card, mini-hook, story or
    study, payoff) → re-hooks every ~60–90 s ("but that's not even the strangest part") → ending that loops back
    to the hook. Fact-check every study (author, year, numbers). Never invent statistics.
-2. **Voice**: `python3 ../../reels/tts.py script.txt voice-cand-1.wav` (Charon, channel style), score with
-   `reels/audio/voice_profile.py` (convert `voice-ref.m4a` to wav first in the cloud; ≤ 5 is fine).
-   Gemini TTS has a 10/day budget and a per-call length limit — for 20 min split the script **by chapter**
-   (≈ 300–450 words per call), same voice + style, then list all takes in order. Keep each chapter one take.
+2. **Voice**: one take per chapter: `python3 ../../reels/tts.py chapters/chN.txt chapters/chN.wav`, all takes listed
+   in order in `"audio"` (joined with `take_gap` 0.5 s). Score with `reels/audio/voice_profile.py` (convert
+   `voice-ref.m4a` to wav first in the cloud); chapters land at 3–8, keep the closest of any retakes.
+   The free Gemini quota is 10 requests/day and **failed 502 calls count too** (~250-word calls often 502).
+   When it runs out, `tts.py` falls back to the same Charon voice through Pollinations
+   (`google/gemini-3.8-flash-tts`, ≈ $0.02/min; force it with `tts.py --polli ...`). If a take scores > 8, retake it
+   with the "deep low relaxed voice" style. The voice runs ~2.6–2.9 words/s.
 3. **Word timings**: the renderer runs Whisper itself (cached in `<out>_work/whisper.json`).
    To plan shots first, transcribe with faster-whisper on a decoded array (see `make_long.py`; this VM's PyAV
    can't open files through faster-whisper).
@@ -43,7 +47,11 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
    Providers: Pexels (`PEXELS_API_KEY` env or network secret for `api.pexels.com`), Pixabay (`PIXABAY_API_KEY`),
    Mixkit (no key, 720p). Read a per-second strip of each clip to choose `start`. Stock is graded automatically
    (desaturated, contrasty, cool shadows) so it sits next to the black line-art.
-6. **Shot list** `video.json` — see the docstring of `make_long.py`. Editing grammar:
+6. **Shot list**: write `build.py` (copy `spotlight-effect/build.py`): per chapter a list of
+   `(text, visual, extras)` with helpers `I()` image, `V()` stock, `K()` kinetic text, `CH()` chapter card, `LT()`
+   study credit, `TITLE()`, `TAG()`, `SCAN()`, `R()` recap. It checks every shot text word-for-word against the
+   chapter scripts and adds transitions, transition SFX, graphic SFX, chapter openers and music cues by rule, then
+   writes `full.json` (schema: docstring of `make_long.py`). ~6–8 words per shot. Editing grammar:
    - **Hook**: stock close-up or the man, `sfx: ["hook"]`, `punch: true`, first 3 s never static.
    - **Abstract feeling** (anxiety, judging, thinking) → AI image with a camera move (`to`/`to_zoom`) or punch on
      the key word. **Real-world statement** → stock video. **Number, study, list, comparison** → motion graphic.
@@ -66,11 +74,13 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
    - `amb` crowd murmur under crowd/room stock at 0.08–0.14.
    - SFX names: everything in the reels table plus `switch`, `click`, `tick`, `typing`, `shutter`, `sweep`,
      `swoosh`, `swoosh-fast`, `trailer`, `reveal`, `boom`, `tunnel`, `glitch-hit`, `glass`, `zap`.
-8. **Render**: `python3 make_long.py <slug>/video.json --preview` (half-res, quick) → QA → full render
+   - Music: tracks loop around their end automatically (long videos resume tracks many times).
+8. **Render**: `python3 ../make_long.py full.json --stills` first (≈ 10 min incl. Whisper: one frame per shot
+   into `<out>_work/stills_NN.jpg`, 30 per sheet) → fix framing/dark clips/long static shots → full render
    (`--jobs 4` by default, ≈ 4–5 min per minute of video on this 4-core VM; a 20-min video ≈ 1.5 h — run it in the
    background). `--from/--to` renders one section.
-9. **QA** (before replying): frame from 70% into every shot on sheets; extra frames at each overlay/punch;
+9. **QA** (before replying): the stills sheets; total length in `timeline.json`; static shots > 4.5 s split;
    loudness ≈ −14 to −15 LUFS; quietest 0.1 s window > −40 dB; check muffle on `music.wav`.
-10. **Deliver**: copy to `deliveries/<slug>.mp4` (must be < 100 MB for GitHub: CRF 21 + light grain ≈ 1.1 MB/s,
-    so a 20-min video must be split into parts or delivered via another channel — tell the user), commit the
+10. **Deliver**: the 1080p master (≈ 1.1 MB/s) goes to the user with SendUserFile. GitHub only takes files < 100 MB,
+    so commit a 720p copy re-encoded to fit (`deliveries/<slug>-720p.mp4`, two-pass at ~1.1 Mbps video) and the
     video folder without `img/`, stock clips or wavs.

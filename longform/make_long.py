@@ -46,7 +46,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from scipy.signal import butter, sosfilt
 
-HERE = Path(__file__).parent
+HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "reels"))
 from make_reel import SFX as REEL_SFX, align, music_bed, norm, read_audio, write_wav  # noqa: E402
 from fonts import font  # noqa: E402
@@ -267,7 +267,7 @@ def mg_grid(fr, t, d, p, ctx):
     """2x10 people grid; p: lit (number or [from, to, "@a", "@b"]), label, pct (number or [from, to, "@a", "@b"]),
     "question": true shows a big pulsing '?'."""
     fr[:] = (8, 8, 10)
-    grid_people(fr, t, d, p, ctx, cy=H * 0.33)
+    grid_people(fr, t, d, p, ctx, cy=H * p.get("cy", 0.33), cols=p.get("cols", 10), rows=p.get("rows", 2), h=p.get("h", 150))
     if p.get("question"):
         fr[:] = (fr.astype(np.float32) * 0.3).astype(np.uint8)
         s = 1 + 0.06 * math.sin(t * 9)
@@ -304,7 +304,8 @@ def mg_bars(fr, t, d, p, ctx):
         blit(fr, lab, bx - 40 - lab.shape[1] / 2, y, alpha=min(1, max(0, (t - t0) / 0.2)))
         rect(fr, bx, y - 36, bx + bw, y + 36, (38, 38, 40), min(1, max(0, (t - t0) / 0.2)))
         rect(fr, bx, y - 36, bx + bw * val / 100 * g, y + 36, col, 1.0)
-        blit(fr, text_layer(f"{round(val * g)}%", ANTON, 84, col), bx + bw + 30, y, anchor="l", alpha=min(1, g * 3))
+        if p.get("values", True):
+            blit(fr, text_layer(f"{round(val * g)}%", ANTON, 84, col), bx + bw + 30, y, anchor="l", alpha=min(1, g * 3))
 
 
 def mg_list(fr, t, d, p, ctx):
@@ -346,6 +347,43 @@ def mg_chapter(fr, t, d, p, ctx):
             M = cv2.getRotationMatrix2D((box.shape[1] / 2, box.shape[0] / 2), 6, 1)
             box = cv2.warpAffine(box, M, (box.shape[1], box.shape[0]))
             blit(fr, box, W / 2, H * 0.70, scale=1 + 1.2 * (1 - ease_out(ts / 0.15)), alpha=min(1, ts / 0.06))
+    if p.get("sub"):
+        ts = t - ctx.at(p.get("sub_at", 0.35))
+        if ts > 0:
+            sub = text_layer(p["sub"], ANTON, 84, WHITE, track=4)
+            blit(fr, sub, W / 2, H * 0.70 + 30 * (1 - ease_out(ts / 0.25)), alpha=min(1, ts / 0.2))
+
+
+def mg_versus(fr, t, d, p, ctx):
+    """Two columns: p.left = [header, word] (grey), p.right = [header, word] (yellow), right side revealed at p.at."""
+    fr[:] = (8, 8, 10)
+    rect(fr, W / 2 - 2, H * 0.18, W / 2 + 2, H * 0.72, (60, 60, 60), min(1, t / 0.2))
+    for side, (hdr, word), col, t0 in ((-1, p["left"], (150, 150, 150), ctx.at(p.get("left_at", 0.0))),
+                                       (1, p["right"], YELLOW, ctx.at(p.get("at", 0.8)))):
+        lt = t - t0
+        if lt < 0:
+            continue
+        x = W / 2 + side * W * 0.24
+        blit(fr, text_layer(hdr, INTER_SB, 44, WHITE, track=10), x, H * 0.28, alpha=min(1, lt / 0.2))
+        w = text_layer(word, ANTON, 150, col, glow=16 if side > 0 else 0, track=4)
+        blit(fr, w, x, H * 0.48, scale=1 + 0.4 * (1 - ease_out(lt / 0.2)), alpha=min(1, lt / 0.08))
+
+
+def mg_recap(fr, t, d, p, ctx):
+    """Numbered list revealed item by item at p.times; the newest item is yellow."""
+    fr[:] = (8, 8, 10)
+    items = p["items"]
+    times = [ctx.at(x) for x in p["times"]]
+    blit(fr, text_layer(p.get("title", "RECAP"), ANTON, 90, YELLOW, glow=12, track=8), W / 2, H * 0.1, alpha=min(1, t / 0.2))
+    shown = [i for i, t0 in enumerate(times) if t >= t0]
+    for i in shown:
+        lt = t - times[i]
+        col = YELLOW if i == shown[-1] else WHITE
+        row, colx = i % 4, (0 if i < 4 else 1)
+        x = 170 + colx * 850
+        y = H * 0.26 + row * 125
+        blit(fr, text_layer(f"{i + 1}", ANTON, 80, col), x + 40 * (1 - ease_out(lt / 0.25)), y, anchor="l", alpha=min(1, lt / 0.15))
+        blit(fr, text_layer(items[i], INTER_SB, 40, col), x + 90 + 40 * (1 - ease_out(lt / 0.25)), y, anchor="l", alpha=min(1, lt / 0.15))
 
 
 # overlays (drawn on top of a shot)
@@ -399,7 +437,7 @@ def ov_title(fr, t, d, p, ctx):
 
 
 MG = {"kinetic": mg_kinetic, "title": mg_title, "year": mg_year, "grid": mg_grid, "bars": mg_bars,
-      "list": mg_list, "chapter": mg_chapter}
+      "list": mg_list, "chapter": mg_chapter, "versus": mg_versus, "recap": mg_recap}
 OV = {"lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic}
 
 
@@ -597,6 +635,7 @@ def main():
     ap.add_argument("--from", dest="t_from", type=float, default=0)
     ap.add_argument("--to", dest="t_to", type=float)
     ap.add_argument("--jobs", type=int, default=4, help="render this many chunks in parallel")
+    ap.add_argument("--stills", action="store_true", help="QA: one frame from 70%% into every shot, as contact sheets")
     ap.add_argument("--part", help=argparse.SUPPRESS)   # internal: render one chunk, video only, into this file
     args = ap.parse_args()
     spec_path = Path(args.spec).resolve()
@@ -612,15 +651,20 @@ def main():
 
     # 1. Voice + word timing (Whisper gets a decoded array; this PyAV build can't open files itself).
     run = lambda a: subprocess.run(a, check=True, capture_output=True)  # noqa: E731
-    run(["ffmpeg", "-y", "-v", "error", "-i", str(base / spec["audio"]), "-af",
-         f"aresample={SR},aformat=channel_layouts=stereo,atempo={spec.get('speed', 1.0)}", "-c:a", "pcm_s16le",
+    takes = spec["audio"] if isinstance(spec["audio"], list) else [spec["audio"]]
+    gap = spec.get("take_gap", 0.4)   # breath between takes (chapters)
+    ins = sum((["-i", str(base / a)] for a in takes), [])
+    graph = "".join(f"[{i}:a]aresample={SR},aformat=channel_layouts=stereo,apad=pad_dur={gap if i < len(takes) - 1 else 0}[a{i}];"
+                    for i in range(len(takes)))
+    graph += "".join(f"[a{i}]" for i in range(len(takes))) + f"concat=n={len(takes)}:v=0:a=1,atempo={spec.get('speed', 1.0)}[v]"
+    run(["ffmpeg", "-y", "-v", "error", *ins, "-filter_complex", graph, "-map", "[v]", "-c:a", "pcm_s16le",
          str(work / "voice_raw.wav")])
     voice = read_audio(work / "voice_raw.wav")
     from faster_whisper import WhisperModel
     mono16 = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", str(work / "voice_raw.wav"), "-ac", "1", "-ar",
                                            "16000", "-f", "f32le", "-"], capture_output=True).stdout, np.float32)
     cache = work / "whisper.json"
-    key = f"{(base / spec['audio']).stat().st_mtime}-{spec.get('speed', 1.0)}"
+    key = "|".join(f"{a}:{(base / a).stat().st_mtime}" for a in takes) + f"-{spec.get('speed', 1.0)}-{gap}"
     if cache.exists() and json.loads(cache.read_text()).get("key") == key:
         heard = [type("Wd", (), w) for w in json.loads(cache.read_text())["words"]]
     else:
@@ -740,7 +784,7 @@ def main():
     t_from = args.t_from
     t_to = min(args.t_to or total, total)
     n0, n1 = int(t_from * FPS), int(t_to * FPS)
-    if args.jobs > 1 and not args.part and n1 - n0 > 300:
+    if args.jobs > 1 and not args.part and not args.stills and n1 - n0 > 300:
         # Split the frames into chunks, render them in parallel child processes, then join and add the audio.
         bounds = [n0 + (n1 - n0) * k // args.jobs for k in range(args.jobs + 1)]
         parts = [work / f"part{k}.mp4" for k in range(args.jobs)]
@@ -763,7 +807,7 @@ def main():
         return
     if args.part:
         out = Path(args.part)
-    enc = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
+    enc = None if args.stills else subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                             "-i", "-", *([] if args.part else ["-ss", f"{t_from:.3f}", "-t", f"{t_to - t_from:.3f}", "-i", str(work / "mix.wav")]),
                             "-vf", f"scale={int(W * scale_out)}:{int(H * scale_out)}" if args.preview else "null",
                             "-c:v", "libx264", "-preset", "ultrafast" if args.preview else "medium",
@@ -844,8 +888,12 @@ def main():
         return fr
 
     TR = 4   # transition half-length in frames
+    todo = range(n0, n1)
+    if args.stills:
+        todo = [int((s_ + 0.7 * (e_ - s_)) * FPS) for s_, e_ in zip(starts, ends)]
+        tiles = []
     try:
-        for n in range(n0, n1):
+        for n in todo:
             T = n / FPS
             si = max(i for i in range(len(shots)) if starts[i] <= T + 1e-6)
             # transitions around cut si (in) and cut si+1 (out)
@@ -897,6 +945,15 @@ def main():
                     break
             if spec.get("progress"):
                 rect(fr, 0, H - 7, W * T / total, H, YELLOW, 0.9)
+            if args.stills:
+                tile = cv2.resize(fr, (384, 216), interpolation=cv2.INTER_AREA)
+                cv2.putText(tile, str(len(tiles) + 1), (6, 30), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 40, 40), 2)
+                tiles.append(tile)
+                for k in list(sources):
+                    if hasattr(sources[k], "close"):
+                        sources[k].close()
+                    del sources[k]
+                continue
             enc.stdin.write(fr.tobytes())
             for k in [k for k in sources if ends[k] < T - 1.0]:   # free finished sources
                 if hasattr(sources[k], "close"):
@@ -905,18 +962,27 @@ def main():
             if n % 300 == 0 and not args.part or args.part and (n - n0) % 600 == 0:
                 print(f"  frame {n}/{n1}  ({T:.1f}s)", flush=True)
     finally:
-        enc.stdin.close()
-        enc.wait()
+        if enc:
+            enc.stdin.close()
+            enc.wait()
         for s in sources.values():
             if hasattr(s, "close"):
                 s.close()
     if args.part:
         return
+    if args.stills:
+        for k in range(0, len(tiles), 30):
+            grp = tiles[k:k + 30] + [np.zeros_like(tiles[0])] * (30 - len(tiles[k:k + 30]))
+            sheet = np.vstack([np.hstack(grp[r * 5:(r + 1) * 5]) for r in range(6)])
+            path = work / f"stills_{k // 30:02d}.jpg"
+            cv2.imwrite(str(path), cv2.cvtColor(sheet, cv2.COLOR_RGB2BGR), [cv2.IMWRITE_JPEG_QUALITY, 80])
+            print(path)
     for i, (s, e) in enumerate(zip(starts, ends)):
         print(f"  shot {i + 1:2d}  {s:6.2f}s  +{e - s:4.2f}s  {shots[i]['text'][:50]}")
     (work / "timeline.json").write_text(json.dumps([{"start": round(s, 3), "dur": round(e - s, 3), "text": sh["text"]}
                                                     for s, e, sh in zip(starts, ends, shots)], indent=1))
-    print(f"{out}  ({total:.1f}s, {out.stat().st_size / 1e6:.1f} MB)")
+    if not args.stills:
+        print(f"{out}  ({total:.1f}s, {out.stat().st_size / 1e6:.1f} MB)")
 
 
 if __name__ == "__main__":

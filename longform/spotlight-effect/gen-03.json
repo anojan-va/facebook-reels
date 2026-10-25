@@ -1,0 +1,15 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 1,
+ "jobs": [
+  {
+   "out": "img/c7-extra.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a big film set with a movie camera on a dolly, studio lights and a director's chair. Scene: wide shot. In the bright centre foreground, two large white line-art actors perform a dramatic scene, a man and a woman facing each other. Far behind them, very small in the distant background near the back wall, the tiny yellow man walks past carrying a coffee cup, unnoticed by everyone. The yellow man is tiny, less than one tenth of the image height.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 777
+  }
+ ]
+}

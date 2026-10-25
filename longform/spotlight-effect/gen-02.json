@@ -1,0 +1,287 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 12,
+ "jobs": [
+  {
+   "out": "img/c1-podium.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a conference stage with a wooden podium and a large blank projection screen behind. Scene: the yellow man stands behind the podium gripping it, nervous, small white sweat drops flying from his head, a glowing white heart outline pounding on his chest. In the foreground, the backs of the heads of a seated audience in white line art.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 100
+  },
+  {
+   "out": "img/c1-glass-head.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a meeting room with a long table. Scene: the yellow man sits at the table; his head is a transparent glass dome with a small white storm cloud and lightning bolts inside it. Around the table five white line-art colleagues look down at their papers and laptops, not at him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 101
+  },
+  {
+   "out": "img/c1-liar.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a plain interview room with a single table and lamp. Scene: the yellow man sits on one side of the table smiling nervously, fingers crossed behind his back. On the other side sit three white line-art observers holding clipboards, squinting at him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 102
+  },
+  {
+   "out": "img/c1-stiff.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an office hallway. Scene: the yellow man stands stiff as a robot, arms rigid at his sides, eyes looking sideways to avoid eye contact, while three white line-art coworkers look at him with puzzled faces.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 103
+  },
+  {
+   "out": "img/c1-calm.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a conference stage with a wooden podium. Scene: the yellow man stands relaxed beside the podium, smiling and gesturing openly with one hand. The white line-art audience in the foreground smiles and claps.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 104
+  },
+  {
+   "out": "img/c2-camera.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a crowded house party with string lights and a sofa. Scene: the yellow man stands stiffly in the middle holding a drink while a small security camera mounted on his own shoulder points back at his face. White line-art guests chat around him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 105
+  },
+  {
+   "out": "img/c2-wheel.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: empty black space. Scene: the yellow man runs inside a giant hamster wheel whose inside is lined with mirrors showing his reflection, looking exhausted.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 106
+  },
+  {
+   "out": "img/c2-corner.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a lively party room. Scene: wide shot. On the left, the yellow man stands alone in the corner staring into a small hand mirror. On the right, a white line-art man laughs and talks with a group of four white line-art people.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 107
+  },
+  {
+   "out": "img/c2-listen.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cosy cafe with a small round table and two cups. Scene: the yellow man leans forward with a curious, interested smile, listening to the woman who talks animatedly with her hands. A small glowing yellow question mark floats above his head.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 108
+  },
+  {
+   "out": "img/c2-flashlight.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a dark open space. Scene: the yellow man holds a big flashlight and points its wide white beam at a group of five white line-art people who stand in the light smiling and talking; the yellow man stays outside the beam, relaxed.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 109
+  },
+  {
+   "out": "img/c3-confess.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a modern office with a desk and a window. Scene: the yellow man stands in front of his boss's desk, head lowered, hand on the back of his neck, admitting a mistake. A white line-art boss sits behind the desk listening calmly.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 110
+  },
+  {
+   "out": "img/c3-flowers.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a park path with trees and a bench. Scene: the yellow man nervously holds out a bunch of flowers to the woman, blushing, looking at the ground. The woman looks surprised and touched.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 111
+  },
+  {
+   "out": "img/c3-mirror.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a bathroom with a large mirror. Scene: the yellow man looks at the mirror, but his reflection is a tangled mess of white scribbles. He looks worried.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 112
+  },
+  {
+   "out": "img/c3-admire.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a small circle of chairs in a community room. Scene: the yellow man stands in the middle with open arms, speaking honestly, vulnerable. The white line-art people seated around him look at him with warm, admiring smiles, one hand on their hearts.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 113
+  },
+  {
+   "out": "img/c3-hug.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a living room with a sofa. Scene: on the sofa, the yellow man hugs a white line-art friend who is crying with tears, comforting them warmly.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 114
+  },
+  {
+   "out": "img/c4-trip.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a wide staircase in an office lobby. Scene: the yellow man trips on the stairs mid-fall, papers flying into the air around him, shocked face. In the background two white line-art people walk past, barely glancing.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 115
+  },
+  {
+   "out": "img/c4-coffee.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an office with desks. Scene: close up of the yellow man looking down in horror at a big coffee stain splashed across his white shirt, holding an empty cup. Behind him, out of focus, white line-art colleagues keep typing.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 116
+  },
+  {
+   "out": "img/c4-name.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a networking event with high tables. Scene: the yellow man shakes hands with a white line-art man, smiling awkwardly; a big glowing yellow question mark floats above the yellow man's head because he forgot the name.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 117
+  },
+  {
+   "out": "img/c4-cinema.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an empty cinema with rows of seats. Scene: the yellow man sits alone in the middle row eating popcorn nervously, watching a giant screen that shows a white line-art drawing of himself tripping on stairs.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 118
+  },
+  {
+   "out": "img/c4-wall.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a big gallery wall. Scene: a huge wall covered with dozens of small framed line-art pictures of the yellow man's life: him laughing, working, cooking, hugging a friend, riding a bike. Only one tiny frame in the corner shows him tripping. The yellow man stands small in front of the wall, looking at it.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 119
+  },
+  {
+   "out": "img/c5-walk.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a quiet city street at night with street lamps. Scene: the yellow man walks home alone, hands in his pockets, frowning. A white line-art thought bubble above him shows two small figures talking at a table.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 120
+  },
+  {
+   "out": "img/c5-talk.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a simple room with two chairs facing each other. Scene: the yellow man and the woman sit facing each other, talking and smiling politely, a little shy.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 121
+  },
+  {
+   "out": "img/c5-roommates.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a small college dorm room with bunk beds, a desk and posters drawn in line art. Scene: the yellow man sits on the lower bunk and a white line-art young man sits at the desk; they talk and laugh.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 122
+  },
+  {
+   "out": "img/c5-spotlights.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. A young woman drawn in white anime-style line art: long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a dark empty stage floor. Scene: the yellow man and the woman stand facing each other a few steps apart, each inside their own separate white circle of spotlight, each looking down at themselves worried, not at each other.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 123
+  },
+  {
+   "out": "img/c6-hair.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a small bathroom with a mirror and sink. Scene: the yellow man stares at the mirror in dismay; on his round bald head sits a messy tangle of white scribbled hair sticking out in all directions.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 124
+  },
+  {
+   "out": "img/c6-street.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a busy city sidewalk with shops. Scene: the yellow man walks self-consciously, hands covering a messy tuft of white scribbled hair on his head. All the white line-art people around him look at their phones or straight ahead, nobody looks at him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 125
+  },
+  {
+   "out": "img/c6-calendar.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a plain wall. Scene: a huge wall calendar grid of 30 squares with no numbers or text; inside every square is a tiny drawing of the same small yellow man, all looking almost identical. The real yellow man stands in front of it, scratching his head.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 126
+  },
+  {
+   "out": "img/c6-cafe.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a cafe window seat with a cup of coffee and a plant. Scene: the yellow man sits relaxed by the window, holding a coffee cup with both hands, calm and content, an ordinary morning.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 127
+  },
+  {
+   "out": "img/c7-banana.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a city sidewalk with shops and trees. Scene: the yellow man walks proudly down the street holding a dog lead attached to a banana that slides on the ground behind him. Two white line-art passers-by glance for a second; most others keep looking at their phones.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 128
+  },
+  {
+   "out": "img/c7-socks.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a plain floor. Scene: close up of the yellow man's legs and feet wearing two clearly different socks, one with white stripes and one with white polka dots, standing on a city pavement.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 129
+  },
+  {
+   "out": "img/c7-shop.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a small corner shop with shelves and a counter. Scene: the yellow man stands at the counter asking a question with a friendly smile; the white line-art shop assistant behind the counter looks confused, one eyebrow raised.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 130
+  },
+  {
+   "out": "img/c7-brain.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: pure black. Scene: no people. A large white line-art human brain in the centre with a big glowing yellow check mark in front of it and small white line-art evidence icons around it: a magnifying glass, a notebook, a camera.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 131
+  },
+  {
+   "out": "img/c7-world.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a very busy city crossing. Scene: the yellow man stands calm and still in the middle of the crossing while dozens of white line-art people stream past him in every direction with motion lines, nobody looking at him. He smiles.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 132
+  },
+  {
+   "out": "img/c7-extra.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: a big film set with a camera on a dolly, studio lights and a director's chair. Scene: in the foreground two white line-art actors perform a dramatic scene under the lights; far in the background, the small yellow man walks past as a background extra carrying a coffee, unnoticed.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 133
+  },
+  {
+   "out": "img/c7-free.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: an open hill with wide sky and simple sun rays drawn in white lines. Scene: the yellow man stands on top of the hill with both arms open wide, head tilted up, happy and free.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 134
+  }
+ ]
+}
