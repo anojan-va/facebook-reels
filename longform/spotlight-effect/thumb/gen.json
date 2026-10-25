@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "art-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, plain solid pure black background. On the right half of the image: a bright yellow round-headed cartoon stick figure man with a simple face, standing calm and confident with a small smug smile and arms crossed. Above his head hangs a big round white theatre spotlight lamp that has just been switched off, with a pull cord hanging down, a few small white sparkle marks around the lamp. The entire left half of the image is completely empty solid black. High contrast, minimal, very readable at small size. No text, no letters, no words anywhere.",
+   "seed": 500
+  },
+  {
+   "out": "art-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, plain solid pure black background. On the right half of the image: a bright yellow round-headed cartoon stick figure man with a simple face, standing calm and confident with a small smug smile and arms crossed. Above his head hangs a big round white theatre spotlight lamp that has just been switched off, with a pull cord hanging down, a few small white sparkle marks around the lamp. The entire left half of the image is completely empty solid black. High contrast, minimal, very readable at small size. No text, no letters, no words anywhere.",
+   "seed": 501
+  },
+  {
+   "out": "art-2.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, plain solid pure black background. On the right half of the image: a bright yellow round-headed cartoon stick figure man with a simple face, standing calm and confident with a small smug smile and arms crossed. Above his head hangs a big round white theatre spotlight lamp that has just been switched off, with a pull cord hanging down, a few small white sparkle marks around the lamp. The entire left half of the image is completely empty solid black. High contrast, minimal, very readable at small size. No text, no letters, no words anywhere.",
+   "seed": 502
+  }
+ ]
+}
