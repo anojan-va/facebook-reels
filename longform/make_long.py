@@ -103,7 +103,7 @@ def ease_back(x):
     return 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2
 
 
-@lru_cache(maxsize=256)
+@lru_cache(maxsize=48)   # big glowing layers are several MB each; 4 render jobs share the memory limit
 def text_layer(text, path, size, color=WHITE, glow=0, stroke=0, track=0):
     """RGBA numpy layer of one line of text; glow = blur radius of a coloured halo; stroke = black outline px."""
     f = ImageFont.truetype(path, size)
