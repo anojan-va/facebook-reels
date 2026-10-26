@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "art-a.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturated colours, glowing orange fire against deep teal-blue, dramatic rim light, sharp focus, simple bold composition with one clear subject, empty dark area on the left third for text. No text, letters, logos or watermarks. Horizontal 16:9. Scene: a colossal blazing asteroid on fire filling the upper right of the sky, about to smash into a modern city skyline at dusk, huge fiery trail, the whole sky glowing orange, tiny city lights below.",
+   "seed": 41
+  },
+  {
+   "out": "art-b.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturated colours, glowing orange fire against deep teal-blue, dramatic rim light, sharp focus, simple bold composition with one clear subject, empty dark area on the left third for text. No text, letters, logos or watermarks. Horizontal 16:9. Scene: close-up of a terrified young man's face lit bright orange from above, mouth open in shock, looking up, the reflection of a giant fireball in his wide eyes, dark teal background, on the right side of the frame.",
+   "seed": 42
+  },
+  {
+   "out": "art-c.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturated colours, glowing orange fire against deep teal-blue, dramatic rim light, sharp focus, simple bold composition with one clear subject, empty dark area on the left third for text. No text, letters, logos or watermarks. Horizontal 16:9. Scene: the planet Earth on the right side of the frame and a gigantic burning asteroid right next to it, almost touching, a bright flash where they meet, sparks and fire, black space.",
+   "seed": 43
+  }
+ ]
+}

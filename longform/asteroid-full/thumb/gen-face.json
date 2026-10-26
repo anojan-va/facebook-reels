@@ -1,0 +1,12 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "art-face.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturated colours, glowing orange fire against deep teal-blue, dramatic rim light, sharp focus, simple bold composition with one clear subject. No text, letters, logos or watermarks. Horizontal 16:9. Scene: head and shoulders of a terrified young man, full head visible with plenty of empty space above the hair, positioned in the lower middle of the frame, face lit bright orange from the upper right, mouth wide open in shock, eyes wide looking up and to the right, plain dark teal studio background.",
+   "seed": 51
+  }
+ ]
+}
