@@ -1,8 +1,7 @@
-"""Thumbnails for the asteroid what-if video (1280x720): AI art + rembg face cutout + bold text, arrow, glow.
-Usage: python3 make_thumb.py  ->  thumbnail-24-hours.jpg, thumbnail-earth.jpg"""
+"""Thumbnail for the asteroid what-if video (1280x720): AI art + bold text, arrow, glow. No people (user rule).
+Usage: python3 make_thumb.py  ->  thumbnail-24-hours.jpg"""
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageEnhance
-from rembg import remove, new_session
 
 W, H = 1280, 720
 ANTON = "../../fonts/Anton-Regular.ttf"
@@ -57,54 +56,24 @@ def grade(im):
     return Image.fromarray(np.clip(a * v, 0, 255).astype(np.uint8))
 
 
-sess = new_session("isnet-general-use")
-face = remove(Image.open("art-face.jpg").convert("RGB"), session=sess)
-a = np.asarray(face).copy()
-import cv2
-al = np.clip((a[..., 3].astype(np.float32) / 255 - 0.4) / 0.4, 0, 1)   # drop matte residue
-n, lab, st, _ = cv2.connectedComponentsWithStats((al > 0).astype(np.uint8))
-keep = 1 + int(np.argmax(st[1:, cv2.CC_STAT_AREA]))                    # keep only the person (largest blob)
-a[..., 3] = (al * (lab == keep) * 255).astype(np.uint8)
-face = Image.fromarray(a)
-face = face.crop(face.getbbox())
-
-
-def place_face(bg, height, x, glow=(255, 140, 30)):
-    f = face.resize((int(face.width * height / face.height), height), Image.LANCZOS)
-    P = 60                                            # pad so the glow is not clipped into a box at the layer edge
-    al = Image.new("L", (f.width + 2 * P, f.height + 2 * P), 0)
-    al.paste(f.split()[3], (P, P))
-    rim = Image.new("RGBA", al.size, (*glow, 0))
-    rim.putalpha(al.filter(ImageFilter.GaussianBlur(16)))
-    bg.alpha_composite(rim, (x + 6 - P, H - f.height - 2 - P)) if x + 6 - P >= 0 else \
-        bg.alpha_composite(rim.crop((P - x - 6, 0, rim.width, rim.height)), (0, H - f.height - 2 - P))
-    bg.alpha_composite(f, (x, H - f.height + 8))
-
-
 def tw(text, size, stroke=12):
     b = ImageFont.truetype(ANTON, size).getbbox(text, stroke_width=stroke)
     return b[2] - b[0], b[3]
 
 
-# --- A: fireball over the city (right), shocked face (bottom-left), "24 HOURS LEFT" right-aligned + arrow up to it
-bg = grade(cover("art-a.jpg", fx=0.85, fy=0.0, zoom=1.15)).convert("RGBA")
-place_face(bg, 470, -40)
-w1, h1 = tw("24 HOURS", 150)
-x1 = W - 30 - w1
-outlined(bg, (x1, 420), "24 HOURS", 150, YELLOW, glow=(255, 120, 0))
-fl = ImageFont.truetype(ANTON, 115)
-tx, ty = x1 + w1 - 330, 568
+# --- City: fireball over the city, no people. "24 HRS LEFT" on the left, red arrow to the asteroid.
+bg = grade(cover("art-a.jpg", fx=0.55, fy=0.0, zoom=1.12)).convert("RGBA")
+dark = Image.new("RGBA", (W, H), (0, 0, 0, 0))                     # darken the left for text contrast
+ImageDraw.Draw(dark).rectangle([0, 0, 520, H], fill=(0, 0, 0, 120))
+bg.alpha_composite(dark.filter(ImageFilter.GaussianBlur(90)))
+outlined(bg, (40, 10), "24", 300, YELLOW, glow=(255, 120, 0))
+outlined(bg, (44, 318), "HRS", 160, WHITE, stroke=11)
+fl = ImageFont.truetype(ANTON, 110)
+tx, ty = 62, 505
 bb = fl.getbbox("LEFT", stroke_width=7)
 d = ImageDraw.Draw(bg)
-d.rectangle([tx + bb[0] - 26, ty + bb[1] - 14, tx + bb[2] + 26, ty + bb[3] + 14], fill=(*RED, 255), outline=(0, 0, 0, 255), width=7)
-outlined(bg, (tx, ty), "LEFT", 115, WHITE, stroke=7)
-arrow(bg, (x1 + 60, 440), (x1 + 170, 300))
+d.rectangle([tx + bb[0] - 22, ty + bb[1] - 12, tx + bb[2] + 22, ty + bb[3] + 12], fill=(*RED, 255), outline=(0, 0, 0, 255), width=7)
+outlined(bg, (tx, ty), "LEFT", 110, WHITE, stroke=7)
+arrow(bg, (330, 300), (790, 230))
 bg.convert("RGB").save("thumbnail-24-hours.jpg", quality=92)
-
-# --- B: Earth being hit (right), shocked face (bottom-left), "WHAT IF?"
-bg = grade(cover("art-c.jpg", fx=1.0, fy=0.5, zoom=1.3)).convert("RGBA")
-place_face(bg, 470, -40)
-w1, _ = tw("WHAT IF?", 170)
-outlined(bg, (W - 30 - w1, 500), "WHAT IF?", 170, YELLOW, glow=(255, 120, 0))
-bg.convert("RGB").save("thumbnail-earth.jpg", quality=92)
 print("ok")

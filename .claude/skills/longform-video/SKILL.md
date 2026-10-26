@@ -20,6 +20,7 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
 | — | "not fully AI images" | Mix: roughly 35% AI images, 35% stock video, 30% motion graphics |
 | — | "high user retention edit in audio and visuals" | Every cut has a transition SFX; every reveal has a graphic + hit |
 | 1 | "duration not exceeding 20 minutes, 10–20 is good" | Aim for ~12–14 min (≈1,900–2,200 words at this voice's ~2.8 w/s); check the total before rendering |
+| What-if thumbnail | "do not add human or realistic person in thumbnail" | Thumbnails: no people or realistic faces. Use the subject itself (e.g. fireball over a city) + 2–3 huge words + red arrow (`asteroid-full/thumb/make_thumb.py`) |
 | What-if sample | rejected a 3D/JavaScript-scene-animation version | No 3D/JS scene animation: stock + AI stills with Ken Burns/punch-ins + bold kinetic text, a cut every 2–3 s, full sound design |
 
 ## "What if" videos (non-psychology, e.g. `asteroid-sample/`)
