@@ -1,0 +1,7448 @@
+{
+ "out": "../output/asteroid-full.mp4",
+ "audio": [
+  "chapters/ch1.wav",
+  "chapters/ch2a.wav",
+  "chapters/ch2b.wav",
+  "chapters/ch3a.wav",
+  "chapters/ch3b.wav",
+  "chapters/ch4a.wav",
+  "chapters/ch4b.wav",
+  "chapters/ch5a.wav",
+  "chapters/ch5b.wav",
+  "chapters/ch6a.wav",
+  "chapters/ch6b.wav",
+  "chapters/ch6c.wav"
+ ],
+ "take_gap": 0.5,
+ "speed": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865
+  },
+  {
+   "shot": 10,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "start": 117.26
+  },
+  {
+   "shot": 29,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56,
+   "start": 0.0
+  },
+  {
+   "shot": 74,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 112,
+   "music": "../../reels/audio/music/silent-descent.mp3",
+   "volume": 0.62,
+   "start": 0.0
+  },
+  {
+   "shot": 155,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 181,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15,
+   "start": 1.6
+  },
+  {
+   "shot": 211,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "volume": 1.0,
+   "start": 13.63
+  },
+  {
+   "shot": 274,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  }
+ ],
+ "music_volume": 0.38,
+ "fade_out": 2.5,
+ "progress": true,
+ "shots": [
+  {
+   "text": "What if a giant asteroid",
+   "v": {
+    "video": "stock/meteor-earth.mp4",
+    "start": 0.5,
+    "zoom": 1.2,
+    "drift": 0.12,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "punch": true,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "text": "was about to hit Earth?",
+   "v": {
+    "img": "img/asteroid-earth.jpg",
+    "focus": [
+     0.3,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "boom",
+     "at": "@Earth",
+     "gain": 0.6
+    }
+   ],
+   "shake": [
+    "@Earth"
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Not a small one.",
+   "v": {
+    "img": "img/rock-surface.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    "glitch-hit",
+    {
+     "name": "bass",
+     "at": "@small",
+     "gain": 0.7
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "A rock ten kilometres wide,",
+   "v": {
+    "video": "motion/size.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 0.95,
+     "gain": 0.7
+    },
+    {
+     "name": "sweep",
+     "at": 1.0,
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 1.25,
+     "gain": 0.7
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "the same size as the one that wiped out the dinosaurs.",
+   "v": {
+    "img": "img/dino-fireball.jpg",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.35
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    "whoosh",
+    {
+     "name": "boom",
+     "at": "@wiped",
+     "gain": 0.7
+    }
+   ],
+   "shake": [
+    "@wiped"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "In this video, we'll follow it step by step,",
+   "v": {
+    "video": "stock/meteor-storm.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.1,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "from the first warning",
+   "v": {
+    "video": "stock/control-room.mp4",
+    "start": 8.0,
+    "zoom": 1.15,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "glitch",
+    {
+     "name": "zap",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "to the world it leaves behind.",
+   "v": {
+    "img": "img/wasteland.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.25,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.0
+   },
+   "sfx": [
+    "tunnel"
+   ],
+   "in": "dip"
+  },
+  {
+   "text": "And by the end, you'll see why",
+   "v": {
+    "video": "stock/earth-night.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh-fast"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "space agencies are already practising for this exact day.",
+   "v": {
+    "img": "img/dart.jpg",
+    "focus": [
+     0.35,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/dart",
+     "at": "@agencies"
+    }
+   ],
+   "sfx": [
+    "sweep",
+    {
+     "name": "typing",
+     "at": "@agencies+0.35",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Chapter one. Twenty four hours to impact.",
+   "pause_before": 0.25,
+   "captions": false,
+   "v": {
+    "video": "motion/ch1.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": "@Twenty",
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": "@impact",
+     "gain": 0.8
+    }
+   ],
+   "in": "dip"
+  },
+  {
+   "text": "Telescopes spot it",
+   "v": {
+    "video": "stock/observatory.mp4",
+    "start": 1.5,
+    "zoom": 1.1,
+    "drift": 0.1,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh",
+    {
+     "name": "shutter",
+     "at": "@spot"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "far beyond the Moon,",
+   "v": {
+    "img": "img/past-moon.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    "whoosh2"
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "racing toward us at about twenty kilometres every second.",
+   "v": {
+    "video": "stock/meteor-3.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.15,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/speed",
+     "at": "@twenty-0.25"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": "@twenty"
+    },
+    {
+     "name": "tick",
+     "at": "@kilometres"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "That's fast enough",
+   "v": {
+    "video": "stock/map-point.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.1,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh-fast"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "to cross the entire United States in under four minutes.",
+   "v": {
+    "video": "motion/crossing.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "at": 0.4
+    },
+    {
+     "name": "whoosh",
+     "at": 1.2,
+     "gain": 0.6
+    },
+    {
+     "name": "impact",
+     "at": "@under",
+     "gain": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "With only one day left,",
+   "v": {
+    "img": "img/astronomer.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.68,
+     0.32
+    ],
+    "to_zoom": 1.5
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/t24",
+     "at": 0.0,
+     "alpha": 0.95
+    }
+   ],
+   "sfx": [
+    "glitch",
+    {
+     "name": "heartbeat",
+     "at": 0.2,
+     "gain": 0.8
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "there's no time to launch a spacecraft and push it away.",
+   "v": {
+    "video": "stock/rocket.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/notime",
+     "at": "@spacecraft"
+    }
+   ],
+   "music_fx": "muffle",
+   "sfx": [
+    "whoosh",
+    {
+     "name": "impact",
+     "at": "@spacecraft",
+     "gain": 0.8
+    }
+   ],
+   "shake": [
+    "@spacecraft"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "So the only question left",
+   "v": {
+    "video": "stock/telescope-man.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "is where it will land.",
+   "v": {
+    "video": "stock/earth-spin.mp4",
+    "start": 4.0,
+    "zoom": 1.0,
+    "drift": 0.25,
+    "focus": [
+     0.42,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/target",
+     "at": 0.0
+    }
+   ],
+   "voice_fx": {
+    "at": "@land",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "zap",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "name": "bass",
+     "at": "@land",
+     "gain": 0.8
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Cities empty overnight.",
+   "v": {
+    "img": "img/empty-city.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.25
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ],
+   "in": "dip"
+  },
+  {
+   "text": "Highways jam.",
+   "v": {
+    "video": "stock/traffic-jam.mp4",
+    "start": 2.0,
+    "zoom": 1.15,
+    "drift": 0.1,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "punch": {
+    "at": "@jam",
+    "zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "impact",
+     "at": "@jam",
+     "gain": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "People head for high ground,",
+   "v": {
+    "img": "img/mountain-road.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.35
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "and deep underground.",
+   "v": {
+    "img": "img/bunker.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.47,
+     0.45
+    ],
+    "to_zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "boom",
+     "at": "@underground",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "And then, in the final hour,",
+   "v": {
+    "video": "stock/city-skyline.mp4",
+    "start": 8.0,
+    "zoom": 1.15,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/t1",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    "glitch-hit",
+    {
+     "name": "heartbeat",
+     "at": "@final",
+     "gain": 0.9
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "a new star appears in the sky,",
+   "v": {
+    "img": "img/new-star.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.53,
+     0.35
+    ],
+    "to_zoom": 1.25
+   },
+   "sfx": [
+    "whoosh2",
+    {
+     "name": "sparkle",
+     "at": "@star",
+     "gain": 0.8
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "and it's getting brighter.",
+   "v": {
+    "img": "img/new-star.jpg",
+    "focus": [
+     0.53,
+     0.3
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.53,
+     0.18
+    ],
+    "to_zoom": 2.6
+   },
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "@brighter+1.0"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Everyone on Earth is about to find out",
+   "v": {
+    "video": "stock/crowd-bridge.mp4",
+    "start": 8.0,
+    "zoom": 1.1,
+    "drift": 0.08,
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "rate": 1.0
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.12
+   },
+   "sfx": [
+    "swoosh"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "what ten kilometres of rock can do.",
+   "v": {
+    "img": "img/fireball-city.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.42
+    ],
+    "to_zoom": 1.35
+   },
+   "punch": {
+    "at": "@do",
+    "zoom": 1.5,
+    "focus": [
+     0.55,
+     0.42
+    ]
+   },
+   "shake": [
+    "@rock",
+    "@do"
+   ],
+   "sfx": [
+    {
+     "name": "boom",
+     "at": "@rock",
+     "gain": 0.8
+    },
+    {
+     "name": "impact",
+     "at": "@do"
+    },
+    {
+     "name": "bass",
+     "at": "@do"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Chapter two. Impact.",
+   "v": {
+    "video": "motion/ch2.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The asteroid reaches the top of the atmosphere,",
+   "v": {
+    "img": "img/atmo-entry.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "trailer",
+     "at": 0.3
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "a hundred kilometres up.",
+   "v": {
+    "video": "stock/earth-spin.mp4",
+    "start": 2.0,
+    "zoom": 1.05,
+    "drift": 0.2
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/alt100",
+     "at": 0.0
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "At twenty kilometres every second,",
+   "v": {
+    "video": "stock/meteor-earth.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.12
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "it punches through all of that air in about five seconds.",
+   "v": {
+    "img": "img/plasma-trail.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/sec5",
+     "at": "@five-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": "@five"
+    }
+   ],
+   "shake": [
+    "@punches"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The air in front of it can't get out of the way.",
+   "v": {
+    "img": "img/shock-front.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": 0.2,
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "It gets squeezed so hard",
+   "v": {
+    "img": "img/shock-front.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 2.0
+   },
+   "shake": [
+    "@squeezed"
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "that it glows hotter than the surface of the Sun.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "SUN'S SURFACE",
+     "5,500 °C"
+    ],
+    "right": [
+     "THE AIR IN FRONT",
+     "HOTTER"
+    ],
+    "at": "@hotter"
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": 0.05
+    },
+    {
+     "name": "bass",
+     "at": "@hotter"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "For anyone looking up,",
+   "v": {
+    "img": "img/sky-split.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "the sky splits open with a blinding white light.",
+   "v": {
+    "img": "img/sky-split.jpg",
+    "focus": [
+     0.62,
+     0.3
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.62,
+     0.3
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@splits"
+    },
+    {
+     "name": "reveal",
+     "at": "@blinding"
+    }
+   ]
+  },
+  {
+   "text": "Let's say it comes down exactly where the dinosaur killer did,",
+   "v": {
+    "img": "img/earth-target.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/chicx",
+     "at": "@exactly"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "in a shallow sea off the coast of Mexico.",
+   "v": {
+    "video": "stock/turquoise.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "This rock is so big that when its front edge touches the seabed,",
+   "v": {
+    "video": "motion/jet.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": 0.75,
+     "gain": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "its back end is still about as high as a passenger jet flies.",
+   "v": {
+    "video": "stock/plane-clouds.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2",
+     "at": "@passenger"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "To an object this size, the ocean is barely a puddle.",
+   "v": {
+    "img": "img/asteroid-sea.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.47,
+     0.72
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In less than a second,",
+   "v": {
+    "video": "stock/hourglass.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "it releases about a hundred million megatons of energy.",
+   "v": {
+    "video": "stock/flames.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.1
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/megatons",
+     "at": "@hundred-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@megatons",
+     "gain": 0.7
+    }
+   ],
+   "shake": [
+    "@megatons"
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "That's billions of times the bomb that destroyed Hiroshima,",
+   "v": {
+    "img": "img/nuke-cloud.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@bomb",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "and more than ten thousand times",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "MORE THAN",
+      "white"
+     ],
+     [
+      "10,000 ×",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@ten"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": 0.05
+    },
+    {
+     "name": "bass",
+     "at": "@ten"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "every nuclear weapon on Earth put together.",
+   "v": {
+    "img": "img/nuke-cloud.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.7
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "EVERY NUCLEAR",
+       "white"
+      ],
+      [
+       "WEAPON ON EARTH",
+       "yellow"
+      ]
+     ],
+     "times": [
+      0.0,
+      "@weapon"
+     ],
+     "size": 120,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@weapon",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The asteroid doesn't just make a hole.",
+   "v": {
+    "img": "img/impact-flash.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": 0.0
+    }
+   ],
+   "shake": [
+    0.0
+   ]
+  },
+  {
+   "text": "It vaporises.",
+   "v": {
+    "video": "stock/fire.mp4",
+    "start": 3.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "shake": [
+    0.05
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So does the rock underneath it.",
+   "v": {
+    "img": "img/crater-rebound.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@rock",
+     "gain": 0.7
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "For a moment, the hole is around thirty kilometres deep,",
+   "v": {
+    "video": "motion/crater.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "more than three times the height of Mount Everest.",
+   "v": {
+    "img": "img/everest.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Then the walls collapse,",
+   "v": {
+    "img": "img/crater-rebound.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "shake": [
+    "@collapse"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@collapse",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "and the floor rebounds upward,",
+   "v": {
+    "img": "img/crater-rebound.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.35
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "like a drop of water splashing back out of a pond.",
+   "v": {
+    "video": "stock/water-drop.mp4",
+    "start": 0.5,
+    "zoom": 1.1,
+    "drift": 0.06,
+    "rate": 0.6
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@splashing"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Within minutes, the crater settles into a scar",
+   "v": {
+    "img": "img/crater-orbit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "about a hundred and eighty kilometres wide.",
+   "v": {
+    "img": "img/crater-orbit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.1
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/km180",
+     "at": "@hundred-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sweep",
+     "at": "@hundred"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "A column of molten rock and vapour blasts upward,",
+   "v": {
+    "img": "img/plume-space.jpg",
+    "focus": [
+     0.5,
+     0.7
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.35
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@blasts",
+     "gain": 0.7
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "right out of the atmosphere.",
+   "v": {
+    "img": "img/plume-space.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some of it reaches space.",
+   "v": {
+    "video": "stock/earth-planet.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.15
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "The ground shakes with an earthquake",
+   "v": {
+    "video": "stock/cracked-road.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "shake": [
+    0.1,
+    "@earthquake"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@earthquake",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "far stronger than anything ever recorded.",
+   "v": {
+    "img": "img/quake.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "STRONGEST EVER RECORDED",
+     "sub": "MAGNITUDE 9.5 · CHILE 1960",
+     "at": "@stronger",
+     "y": 0.66
+    }
+   ],
+   "shake": [
+    "@stronger"
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@stronger",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A blast wave races outward",
+   "v": {
+    "video": "stock/tree-car.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel",
+     "at": 0.0
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "with winds faster than any hurricane.",
+   "v": {
+    "video": "stock/hurricane.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.12
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Everything within hundreds of kilometres",
+   "v": {
+    "video": "stock/burnt.mp4",
+    "start": 2.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "is flattened, burned, or buried.",
+   "v": {
+    "img": "img/flattened-forest.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "FLATTENED.",
+       "white"
+      ],
+      [
+       "BURNED.",
+       "yellow"
+      ],
+      [
+       "BURIED.",
+       "red"
+      ]
+     ],
+     "times": [
+      "@flattened",
+      "@burned",
+      "@buried"
+     ],
+     "size": 120,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@flattened",
+     "gain": 0.5
+    },
+    {
+     "name": "impact",
+     "at": "@burned",
+     "gain": 0.5
+    },
+    {
+     "name": "impact",
+     "at": "@buried",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Further away, the ground jumps first.",
+   "v": {
+    "video": "stock/city-aerial.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "shake": [
+    "@jumps"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@jumps"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The sound of the impact arrives much later,",
+   "v": {
+    "video": "stock/lightning.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "as a roar louder than any thunder.",
+   "v": {
+    "video": "stock/storm-tree.mp4",
+    "start": 1.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@roar"
+    }
+   ],
+   "shake": [
+    "@roar"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "That's the first few minutes.",
+   "v": {
+    "img": "img/crater-orbit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "+ 00:05:00  AFTER IMPACT",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "But the crater isn't the real danger.",
+   "v": {
+    "img": "img/crater-orbit.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.8,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 2.2
+   },
+   "in": "glitch",
+   "music_fx": "muffle",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "What comes back down is.",
+   "v": {
+    "img": "img/debris-reentry.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": 0.0
+    }
+   ],
+   "voice_fx": {
+    "at": "@down",
+    "fx": "echo"
+   }
+  },
+  {
+   "text": "Chapter three. The sky catches fire.",
+   "v": {
+    "video": "motion/ch3.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Remember the debris that was blasted into space?",
+   "v": {
+    "img": "img/plume-space.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ REPLAY  T + 00:01:00",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "fx": [
+    "vhs"
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind"
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Gravity pulls it back.",
+   "v": {
+    "img": "img/debris-reentry.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Billions of tonnes of it.",
+   "v": {
+    "img": "img/debris-reentry.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.9
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "BILLIONS",
+       "yellow"
+      ],
+      [
+       "OF TONNES",
+       "white"
+      ]
+     ],
+     "times": [
+      "@Billions",
+      "@tonnes"
+     ],
+     "size": 130,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@Billions"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Over the next few hours,",
+   "v": {
+    "video": "stock/star-trails.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "T + 1 HOUR",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "it rains down all over the planet",
+   "v": {
+    "video": "stock/meteor-storm.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.12
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "as tiny glassy beads and burning rock.",
+   "v": {
+    "img": "img/spherules.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@glassy"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Every grain is a little shooting star.",
+   "v": {
+    "video": "stock/milky-way.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.1
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@shooting"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Even on the far side of the planet,",
+   "v": {
+    "video": "stock/earth-night.mp4",
+    "start": 12.0,
+    "zoom": 1.1,
+    "drift": 0.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "people look up and see the sky fill with meteors,",
+   "v": {
+    "img": "img/meteor-crowd.jpg",
+    "focus": [
+     0.5,
+     0.65
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.3
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "as if every star is falling at once.",
+   "v": {
+    "img": "img/meteor-crowd.jpg",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.25
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Trillions of them heat the upper atmosphere at the same time.",
+   "v": {
+    "img": "img/glowing-atmosphere.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "riser",
+     "at": "@same"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Some scientists think the whole sky glowed",
+   "v": {
+    "img": "img/oven-sky.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "like the inside of an oven,",
+   "v": {
+    "img": "img/oven-sky.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "hot enough to set fire to forests on the ground below.",
+   "v": {
+    "video": "stock/flames.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh",
+     "at": "@fire"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And we have evidence.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WE HAVE",
+      "white"
+     ],
+     [
+      "EVIDENCE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@evidence"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "shutter",
+     "at": "@evidence"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Geologists have found soot and those same tiny glass beads",
+   "v": {
+    "img": "img/kpg-layer.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.65,
+     0.45
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "in a thin layer of rock all around the world,",
+   "v": {
+    "img": "img/kpg-closeup.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.5
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "THE K–Pg BOUNDARY",
+     "sub": "A WORLDWIDE LAYER, 66 MILLION YEARS OLD",
+     "at": "@thin",
+     "y": 0.66
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@thin",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "laid down at the exact moment the dinosaurs disappeared.",
+   "v": {
+    "video": "stock/fossil.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Meanwhile, the ocean strikes back.",
+   "v": {
+    "video": "stock/swell.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@strikes",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The impact shoves trillions of tonnes of water aside,",
+   "v": {
+    "img": "img/water-pushed.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "and it comes rushing back in as a tsunami.",
+   "v": {
+    "img": "img/mega-wave.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.35
+    ],
+    "to_zoom": 1.3
+   },
+   "shake": [
+    "@tsunami"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@tsunami"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "In twenty twenty two, scientists simulated the dinosaur impact",
+   "v": {
+    "img": "img/sim-screen.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "RANGE ET AL. · 2022",
+     "sub": "AGU ADVANCES · CHICXULUB TSUNAMI MODEL",
+     "at": 0.2,
+     "y": 0.66
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.2,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "and found the first wave may have been around one and a half kilometres tall.",
+   "v": {
+    "video": "motion/wave.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh",
+     "at": 0.5
+    },
+    {
+     "name": "impact",
+     "at": 1.5,
+     "gain": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "In the open ocean, a tsunami can travel as fast as a jet airliner.",
+   "v": {
+    "video": "stock/plane-landing.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/kmh800",
+     "at": "@fast-0.2"
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Within two days, the waves had spread across most of the world's oceans,",
+   "v": {
+    "img": "img/tsunami-rings.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "T + 48 HOURS",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "some still many metres high",
+   "v": {
+    "video": "stock/lighthouse.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "when they reached coastlines on the other side of the planet.",
+   "v": {
+    "video": "stock/big-wave.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Now imagine that today.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOW IMAGINE",
+      "white"
+     ],
+     [
+      "THAT TODAY",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@today"
+    ],
+    "size": 150
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Coastal cities around the Gulf of Mexico disappear under water within hours.",
+   "v": {
+    "img": "img/city-tsunami.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.45
+    ],
+    "to_zoom": 1.35
+   },
+   "shake": [
+    "@disappear"
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@disappear",
+     "gain": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Planes are grounded.",
+   "v": {
+    "video": "stock/plane-gate.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Power grids fail.",
+   "v": {
+    "img": "img/blackout.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@fail"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@fail"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Satellites are hit by falling debris.",
+   "v": {
+    "img": "img/sat-hit.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@hit"
+    }
+   ],
+   "shake": [
+    "@hit"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "For most of the world, the news arrives in fragments,",
+   "v": {
+    "video": "stock/tv-static.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "fx": [
+    "vhs"
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "if it arrives at all.",
+   "v": {
+    "video": "stock/tv-static.mp4",
+    "start": 3.0,
+    "zoom": 1.3,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "fx": [
+    "vhs"
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And yet, the fire and the water are not what wiped out the dinosaurs.",
+   "v": {
+    "img": "img/dino-ash.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The real killer is quieter.",
+   "v": {
+    "img": "img/veiled-earth.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "music_fx": "muffle",
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's the dark.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT'S THE DARK",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 170
+   },
+   "in": "dip",
+   "voice_fx": {
+    "at": "@dark",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@dark",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Chapter four. The long night.",
+   "v": {
+    "video": "motion/ch4.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The impact threw something else into the sky.",
+   "v": {
+    "img": "img/ash-planet.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Dust, soot from the fires,",
+   "v": {
+    "video": "stock/burnt.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and hundreds of billions of tonnes of sulfur",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HUNDREDS OF BILLIONS",
+      "white"
+     ],
+     [
+      "OF TONNES",
+      "white"
+     ],
+     [
+      "OF SULFUR",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@tonnes",
+     "@sulfur"
+    ],
+    "size": 120
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": 0.05
+    },
+    {
+     "name": "pop",
+     "at": "@tonnes"
+    },
+    {
+     "name": "bass",
+     "at": "@sulfur"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "from the rocks it vaporised.",
+   "v": {
+    "img": "img/crater-orbit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "High in the atmosphere, that sulfur turns into tiny droplets",
+   "v": {
+    "img": "img/haze-orbit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "that reflect sunlight back into space.",
+   "v": {
+    "video": "stock/sun-darkclouds.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Within weeks, a veil wraps around the entire planet.",
+   "v": {
+    "img": "img/veiled-earth.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "T + 3 WEEKS",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sweep",
+     "at": "@veil"
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Midday starts to look like dusk.",
+   "v": {
+    "img": "img/dim-sun.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In some places, like night.",
+   "v": {
+    "img": "img/dim-sun.jpg",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.35
+    ],
+    "to_zoom": 1.7
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@night"
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Imagine stepping outside at noon and needing a torch to see.",
+   "v": {
+    "img": "img/torch-street.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@torch"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The air smells of smoke.",
+   "v": {
+    "video": "stock/smoke-dark.mp4",
+    "start": 4.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Snow starts falling in places that have never seen it,",
+   "v": {
+    "img": "img/ash-snow.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and it's grey with ash.",
+   "v": {
+    "img": "img/ash-snow.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.4
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Without sunlight, plants can't make food.",
+   "v": {
+    "img": "img/dead-plants.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Studies suggest photosynthesis almost stopped for a year or more.",
+   "v": {
+    "video": "stock/fern-close.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06,
+    "grade": true
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "PHOTOSYNTHESIS: NEARLY ZERO",
+     "sub": "FOR A YEAR OR MORE · BARDEEN ET AL. 2017",
+     "at": "@photosynthesis",
+     "y": 0.66
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@photosynthesis",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Then the cold arrives.",
+   "v": {
+    "video": "stock/frost.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@cold"
+    }
+   ]
+  },
+  {
+   "text": "Some climate models suggest the planet's average temperature dropped by more than twenty degrees Celsius,",
+   "v": {
+    "video": "motion/temp.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sweep",
+     "at": 0.4
+    },
+    {
+     "name": "bass",
+     "at": "@twenty"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "and stayed below freezing for years.",
+   "v": {
+    "video": "stock/ice-lake.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Tropical forests freeze.",
+   "v": {
+    "img": "img/frozen-jungle.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@freeze",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Rain turns acidic.",
+   "v": {
+    "video": "stock/rain-window.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In the oceans, the plankton die first,",
+   "v": {
+    "video": "stock/deep-rays.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "then the fish that eat them,",
+   "v": {
+    "video": "stock/fish-school.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "then everything that eats the fish.",
+   "v": {
+    "video": "stock/shark.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The whole food chain collapses from the bottom up.",
+   "v": {
+    "video": "motion/pyramid.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": 1.2,
+     "gain": 0.4
+    },
+    {
+     "name": "impact",
+     "at": 1.9,
+     "gain": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Now think about us.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOW THINK",
+      "white"
+     ],
+     [
+      "ABOUT US",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@about"
+    ],
+    "size": 150
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Our farms need sunlight just like the forests do.",
+   "v": {
+    "video": "stock/wheat.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "One cold, dark year means no harvest almost anywhere on Earth.",
+   "v": {
+    "img": "img/dead-crops.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/noharvest",
+     "at": "@harvest-0.1"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@harvest",
+     "gain": 0.7
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "And most countries only keep a few months of food in storage.",
+   "v": {
+    "video": "stock/shelves.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "A FEW MONTHS",
+       "yellow"
+      ],
+      [
+       "OF FOOD",
+       "white"
+      ]
+     ],
+     "times": [
+      "@few",
+      "@food"
+     ],
+     "size": 120,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So the people who make it through the first day",
+   "v": {
+    "img": "img/survivors-fire.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "face a much harder question.",
+   "v": {
+    "img": "img/survivors-fire.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "What do eight billion people eat when the Sun disappears?",
+   "v": {
+    "mg": "grid",
+    "label": "8,000,000,000 PEOPLE",
+    "lit": [
+     0,
+     20,
+     0.0,
+     "@billion"
+    ],
+    "question": false
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@eight"
+    },
+    {
+     "name": "bass",
+     "at": "@disappears"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Researchers who study global catastrophes have looked at this exact problem.",
+   "v": {
+    "video": "stock/lab.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Their answers sound strange, but they work.",
+   "v": {
+    "img": "img/mission-control.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Mushrooms grown on dead wood.",
+   "v": {
+    "video": "stock/mushrooms.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Greenhouses heated by power plants.",
+   "v": {
+    "video": "stock/greenhouses.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Even sugar made from leaves and sawdust.",
+   "v": {
+    "video": "stock/sawdust.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Survival would depend on how fast we could switch the whole world",
+   "v": {
+    "video": "stock/earth-spin.mp4",
+    "start": 8.0,
+    "zoom": 1.05,
+    "drift": 0.15
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "to food that doesn't need the Sun.",
+   "v": {
+    "video": "stock/mushrooms.mp4",
+    "start": 5.0,
+    "zoom": 1.3,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But if you could fast forward a few years,",
+   "v": {
+    "img": "img/sun-return.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "▶▶ FAST FORWARD  + 5 YEARS",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "fx": [
+    "vhs"
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind"
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "you'd see something unexpected.",
+   "v": {
+    "img": "img/mammal-dawn.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@unexpected"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Life doesn't end.",
+   "v": {
+    "img": "img/mammal-dawn.jpg",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.6
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It changes hands.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT CHANGES",
+      "white"
+     ],
+     [
+      "HANDS",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@hands"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@hands"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Chapter five. The world it leaves behind.",
+   "v": {
+    "video": "motion/ch5.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Slowly, the sky clears.",
+   "v": {
+    "video": "stock/sun-darkclouds.mp4",
+    "start": 5.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The sulfur rains out within a few years.",
+   "v": {
+    "video": "stock/rain-puddle.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The dust settles. Sunlight returns.",
+   "v": {
+    "img": "img/sun-return.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@Sunlight"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "But the climate swings the other way.",
+   "v": {
+    "video": "stock/dune.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "All the carbon dioxide released by the impact and the fires traps heat.",
+   "v": {
+    "video": "stock/smokestacks.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "One study found that after the cold, temperatures rose by about five degrees,",
+   "v": {
+    "img": "img/hot-earth.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "MACLEOD ET AL. · 2018",
+     "sub": "SCIENCE · FISH-TOOTH OXYGEN RECORD",
+     "at": 0.2,
+     "y": 0.66
+    },
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "+5 °C",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@five"
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.2,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "and stayed high for around a hundred thousand years.",
+   "v": {
+    "video": "stock/sun-orange.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "100,000 YEARS",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@hundred"
+     ],
+     "size": 140,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Sixty six million years ago,",
+   "v": {
+    "img": "img/dino-herd.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "66,000,000",
+       "yellow"
+      ],
+      [
+       "YEARS AGO",
+       "white"
+      ]
+     ],
+     "times": [
+      0.0,
+      "@years"
+     ],
+     "size": 140,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "when this really happened,",
+   "v": {
+    "img": "img/dino-fireball.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "about three quarters of all species on Earth disappeared.",
+   "v": {
+    "mg": "grid",
+    "label": "SPECIES THAT DISAPPEARED",
+    "lit": [
+     0,
+     15,
+     "@three",
+     "@species"
+    ],
+    "pct": [
+     0,
+     75,
+     "@three",
+     "@species"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@three"
+    },
+    {
+     "name": "bass",
+     "at": "@disappeared"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Not just the dinosaurs.",
+   "v": {
+    "img": "img/trex.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The giant sea reptiles.",
+   "v": {
+    "img": "img/mosasaur.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The flying pterosaurs.",
+   "v": {
+    "img": "img/pterosaur.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The ammonites,",
+   "v": {
+    "img": "img/ammonite.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "whose shells had filled the oceans for hundreds of millions of years.",
+   "v": {
+    "video": "stock/fossil.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So who survived?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WHO",
+      "white"
+     ],
+     [
+      "SURVIVED?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@survived"
+    ],
+    "size": 150
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The small ones.",
+   "v": {
+    "img": "img/mammal-burrow.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.45
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Animals that could burrow, hide,",
+   "v": {
+    "video": "stock/beetles.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "eat seeds, or live on dead things.",
+   "v": {
+    "img": "img/mammal-dawn.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Turtles.",
+   "v": {
+    "video": "stock/turtle.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Crocodiles.",
+   "v": {
+    "video": "stock/croc.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Frogs.",
+   "v": {
+    "video": "stock/frog.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Birds, the only dinosaurs that made it.",
+   "v": {
+    "video": "stock/gulls.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "BIRDS = LIVING DINOSAURS",
+     "sub": "THE ONLY BRANCH THAT SURVIVED",
+     "at": "@only",
+     "y": 0.66
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@only",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And small, furry mammals,",
+   "v": {
+    "img": "img/mammal-burrow.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "most of them tiny enough to hide in a hole in the ground.",
+   "v": {
+    "img": "img/mammal-burrow.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "With the giants gone, those mammals got their chance.",
+   "v": {
+    "img": "img/fern-land.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Over the next ten million years",
+   "v": {
+    "video": "stock/forest-top.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "▶▶ + 10,000,000 YEARS",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "they spread into every empty corner of the planet,",
+   "v": {
+    "video": "stock/jungle-falls.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and grew into whales,",
+   "v": {
+    "img": "img/whale.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "horses,",
+   "v": {
+    "video": "stock/horses.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "elephants,",
+   "v": {
+    "video": "stock/elephants.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and eventually, primates.",
+   "v": {
+    "video": "stock/monkey.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The plants came back too.",
+   "v": {
+    "video": "stock/fern-close.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In rock layers just above the impact,",
+   "v": {
+    "img": "img/kpg-closeup.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "fossil pollen suddenly gives way to fern spores.",
+   "v": {
+    "img": "img/spores.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "THE FERN SPIKE",
+     "sub": "FERN SPORES ABOVE THE IMPACT LAYER",
+     "at": "@fern",
+     "y": 0.66
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@fern",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Ferns were the first plants to cover the burned land.",
+   "v": {
+    "img": "img/fern-land.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In a strange way, we're only here",
+   "v": {
+    "video": "stock/crowd-bridge.mp4",
+    "start": 12.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "amb": {
+    "name": "crowd-murmur",
+    "gain": 0.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "because an asteroid cleared the stage.",
+   "v": {
+    "img": "img/dino-fireball.jpg",
+    "focus": [
+     0.6,
+     0.35
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.35
+    ],
+    "to_zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "But this time, the giants are us.",
+   "v": {
+    "video": "stock/city-aerial.mp4",
+    "start": 10.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "THE GIANTS",
+       "white"
+      ],
+      [
+       "ARE US",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@giants",
+      "@us"
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@us"
+    }
+   ]
+  },
+  {
+   "text": "We're big, we need a lot of food,",
+   "v": {
+    "video": "stock/traffic-lights.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and our whole civilisation depends on a stable climate.",
+   "v": {
+    "video": "stock/earth-night.mp4",
+    "start": 18.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A world after impact would have no global trade,",
+   "v": {
+    "video": "stock/port.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO TRADE",
+       "red"
+      ]
+     ],
+     "times": [
+      "@trade"
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@trade",
+     "gain": 0.4
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "no internet,",
+   "v": {
+    "video": "stock/servers.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO INTERNET",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "fx": [
+    {
+     "name": "light_off",
+     "at": 0.3
+    }
+   ],
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "and no supermarkets.",
+   "v": {
+    "video": "stock/shelves.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO SUPERMARKETS",
+       "red"
+      ]
+     ],
+     "times": [
+      "@supermarkets"
+     ],
+     "size": 140,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": "@supermarkets",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "What it would have is what we've saved.",
+   "v": {
+    "video": "stock/seeds.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Libraries.",
+   "v": {
+    "video": "stock/library.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Survivors with skills.",
+   "v": {
+    "video": "stock/carpenter.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And places like the Global Seed Vault in Norway,",
+   "v": {
+    "img": "img/seed-vault.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/vault",
+     "at": "@Global"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "buried inside a frozen mountain,",
+   "v": {
+    "img": "img/seed-vault.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.2
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "holding more than a million samples of the world's crops.",
+   "v": {
+    "video": "stock/seeds.mp4",
+    "start": 4.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "1,000,000+",
+       "yellow"
+      ],
+      [
+       "SEED SAMPLES",
+       "white"
+      ]
+     ],
+     "times": [
+      "@million",
+      "@samples"
+     ],
+     "size": 140,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The world it leaves behind",
+   "v": {
+    "img": "img/wasteland.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "is colder, darker and emptier,",
+   "v": {
+    "video": "stock/ice-lake.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and then, over thousands of years, green again.",
+   "v": {
+    "video": "stock/forest-autumn.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@green"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Which brings us back to the question from the very beginning.",
+   "v": {
+    "img": "img/asteroid-earth.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "fx": [
+    "vhs"
+   ],
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ REWIND  00:00:01",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind"
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "If this could happen,",
+   "v": {
+    "img": "img/impact-flash.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "why are space agencies so calm?",
+   "v": {
+    "img": "img/mission-control.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": "@calm"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Chapter six. How we stop it.",
+   "v": {
+    "video": "motion/ch6.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "First, the good news.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE GOOD",
+      "white"
+     ],
+     [
+      "NEWS",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@news"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "correct",
+     "at": "@news",
+     "gain": 0.5
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Asteroids this big are incredibly rare.",
+   "v": {
+    "img": "img/asteroid-belt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A rock ten kilometres wide hits Earth",
+   "v": {
+    "img": "img/asteroid-earth.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "roughly once every hundred million years.",
+   "v": {
+    "video": "stock/milky-way.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.1
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/myr100",
+     "at": 0.0
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "They're also the easiest to find.",
+   "v": {
+    "video": "stock/telescope-man.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "NASA says it has already found more than ninety percent",
+   "v": {
+    "img": "img/mission-control.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.4
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "of the near Earth asteroids bigger than one kilometre,",
+   "v": {
+    "mg": "bars",
+    "headline": "NEAR-EARTH ASTEROIDS OVER 1 KM",
+    "bars": [
+     [
+      "FOUND",
+      90,
+      "yellow"
+     ],
+     [
+      "STILL HIDDEN",
+      10,
+      "grey"
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sweep",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": 0.9
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "and none of them are on course to hit us for at least the next century.",
+   "v": {
+    "video": "stock/earth-spin.mp4",
+    "start": 12.0,
+    "zoom": 1.05,
+    "drift": 0.15
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/nothreat",
+     "at": "@none"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@none",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The real danger is the smaller ones.",
+   "v": {
+    "img": "img/small-asteroid.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A rock a few hundred metres wide wouldn't end the world,",
+   "v": {
+    "img": "img/small-asteroid.jpg",
+    "focus": [
+     0.4,
+     0.6
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.6
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "but it could wipe out a city, or an entire region.",
+   "v": {
+    "img": "img/city-impact.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/city",
+     "at": "@city-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": "@city",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And fewer than half of those have been found.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "FEWER THAN",
+      "white"
+     ],
+     [
+      "HALF FOUND",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@half"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@half"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "That's why the real weapon isn't a missile.",
+   "v": {
+    "video": "stock/rocket.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's time.",
+   "v": {
+    "video": "stock/hourglass.mp4",
+    "start": 3.0,
+    "zoom": 1.25,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "IT'S TIME",
+       "yellow"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.1
+    },
+    {
+     "name": "bass",
+     "at": "@time"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "If we spot an asteroid years or decades ahead,",
+   "v": {
+    "video": "stock/observatory.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "we don't need to blow it up.",
+   "v": {
+    "img": "img/nuke-asteroid.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@blow",
+     "gain": 0.4
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "We just need to nudge it.",
+   "v": {
+    "img": "img/miss.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@nudge"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "A push of just one centimetre per second, given ten years early,",
+   "v": {
+    "video": "motion/nudge.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh",
+     "at": 0.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "adds up to thousands of kilometres by the time it reaches us.",
+   "v": {
+    "video": "motion/nudge.mp4",
+    "start": 2.4,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "impact",
+     "at": "@thousands",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Enough to make it miss.",
+   "v": {
+    "img": "img/miss.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "There are a few ways to give that push.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "3 WAYS",
+      "white"
+     ],
+     [
+      "TO PUSH IT",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@push"
+    ],
+    "size": 150
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Crash a spacecraft into it.",
+   "v": {
+    "img": "img/dart-impact.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "01  KINETIC IMPACTOR",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@Crash",
+     "gain": 0.6
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Park a heavy spacecraft beside it",
+   "v": {
+    "img": "img/gravity-tractor.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "02  GRAVITY TRACTOR",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "and let gravity tug it off course, very slowly.",
+   "v": {
+    "img": "img/gravity-tractor.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Or, for a big one with little time, set off a nuclear device nearby,",
+   "v": {
+    "img": "img/nuke-asteroid.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "03  NUCLEAR DEFLECTION",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@nuclear",
+     "gain": 0.6
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "to blast vapour off one side and shove it away.",
+   "v": {
+    "img": "img/nuke-asteroid.jpg",
+    "focus": [
+     0.62,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.62,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "shake": [
+    "@blast"
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In twenty twenty two, NASA tested exactly that.",
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 2022,
+    "roll": 0.8,
+    "label": "NASA · DART MISSION"
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "A spacecraft called DART flew eleven million kilometres",
+   "v": {
+    "img": "img/dart.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/dart",
+     "at": "@DART"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and slammed into a small asteroid moon called Dimorphos",
+   "v": {
+    "img": "img/dart-impact.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@slammed"
+    }
+   ],
+   "shake": [
+    "@slammed"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "at about six kilometres per second.",
+   "v": {
+    "img": "img/dimorphos-ejecta.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/kms6",
+     "at": 0.0
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It worked.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT WORKED.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 170
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "correct",
+     "at": 0.1,
+     "gain": 0.6
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "The impact changed the moon's orbit by thirty two minutes.",
+   "v": {
+    "video": "motion/dart.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 1.2,
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 1.9
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "For the first time ever,",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "FIRST TIME",
+      "white"
+     ],
+     [
+      "EVER",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@ever"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@ever"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "humans changed the path of a natural object in space.",
+   "v": {
+    "img": "img/dimorphos-ejecta.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And Europe's Hera spacecraft is on its way there right now,",
+   "v": {
+    "img": "img/hera.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/hera",
+     "at": "@Hera"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "to study the crash site up close.",
+   "v": {
+    "img": "img/hera.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Meanwhile, the hunt is getting faster.",
+   "v": {
+    "video": "stock/milky-way.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The new Vera Rubin Observatory in Chile",
+   "v": {
+    "img": "img/rubin.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/rubin",
+     "at": "@Vera"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "is scanning the whole southern sky every few nights.",
+   "v": {
+    "video": "stock/stars.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.1
+   },
+   "overlays": [
+    {
+     "mg": "scan",
+     "box": [
+      0.2,
+      0.15,
+      0.8,
+      0.7
+     ],
+     "label": "SCANNING SOUTHERN SKY...",
+     "at": 0.1
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "typing",
+     "at": 0.3,
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And NASA is building a space telescope called NEO Surveyor,",
+   "v": {
+    "img": "img/neo-surveyor.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/neos",
+     "at": "@NEO"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "made for one job:",
+   "v": {
+    "img": "img/neo-surveyor.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "finding dangerous asteroids before they find us.",
+   "v": {
+    "img": "img/small-asteroid.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "scan",
+     "box": [
+      0.3,
+      0.3,
+      0.62,
+      0.8
+     ],
+     "label": "TARGET ACQUIRED",
+     "at": 0.1
+    }
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "The system is already being tested for real.",
+   "v": {
+    "img": "img/mission-control.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In early twenty twenty five,",
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 2025,
+    "roll": 0.5,
+    "label": "EARLY 2025"
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "a newly found asteroid called twenty twenty four Y R four",
+   "v": {
+    "img": "img/small-asteroid.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/yr4",
+     "at": "@asteroid"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "briefly had about a three percent chance",
+   "v": {
+    "video": "stock/earth-spin.mp4",
+    "start": 15.0,
+    "zoom": 1.05,
+    "drift": 0.1
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/pct3",
+     "at": "@three-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.1
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "of hitting Earth in twenty thirty two.",
+   "v": {
+    "img": "img/earth-target.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Telescopes around the world tracked it,",
+   "v": {
+    "video": "stock/telescope-man.mp4",
+    "start": 10.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and within weeks, the threat was ruled out.",
+   "v": {
+    "img": "img/miss.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/ruledout",
+     "at": "@ruled-0.1"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@ruled",
+     "gain": 0.6
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "And on the thirteenth of April, twenty twenty nine,",
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 2029,
+    "roll": 0.8,
+    "label": "13 APRIL"
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "an asteroid called Apophis, longer than three football fields,",
+   "v": {
+    "img": "img/apophis.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/apophis",
+     "at": "@Apophis"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "will pass closer to Earth than many of our satellites.",
+   "v": {
+    "video": "stock/iss.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "An impact has already been ruled out,",
+   "v": {
+    "img": "img/apophis.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "so instead of a threat, it's a free science lesson,",
+   "v": {
+    "video": "stock/lab.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and NASA is sending a spacecraft to meet it.",
+   "v": {
+    "img": "img/hera.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/osiris",
+     "at": "@NASA"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And every couple of years, space agencies and emergency planners sit down together",
+   "v": {
+    "video": "stock/meeting.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/drill",
+     "at": 0.4
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and run drills for a fake asteroid, step by step,",
+   "v": {
+    "video": "stock/control-room.mp4",
+    "start": 10.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "from the first warning to the evacuation.",
+   "v": {
+    "img": "img/mountain-road.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So, what if a giant asteroid was about to hit Earth?",
+   "v": {
+    "img": "img/asteroid-earth.jpg",
+    "focus": [
+     0.3,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "dip",
+   "pause_before": 0.3,
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.3
+    }
+   ],
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "With only one day of warning,",
+   "v": {
+    "img": "img/astronomer.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.4
+    ],
+    "to_zoom": 1.5
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/t24",
+     "at": 0.0,
+     "alpha": 0.95
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.2
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "there would be nothing we could do.",
+   "v": {
+    "video": "stock/rocket.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/notime",
+     "at": "@nothing"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@nothing",
+     "gain": 0.7
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "But that's exactly why people are watching the sky every single night.",
+   "v": {
+    "img": "img/night-watch.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So that if that day ever comes,",
+   "v": {
+    "video": "stock/observatory.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "we'll see it decades early,",
+   "v": {
+    "img": "img/rubin.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and give it a gentle push.",
+   "v": {
+    "img": "img/dart.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@push"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "The dinosaurs never saw it coming.",
+   "v": {
+    "img": "img/dino-fireball.jpg",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.35
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@coming",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "We will.",
+   "v": {
+    "img": "img/night-watch.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.0
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/wewill",
+     "at": 0.0,
+     "hold": true
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@will"
+    }
+   ],
+   "voice_fx": {
+    "at": "@will",
+    "fx": "echo"
+   },
+   "in": "zoom"
+  }
+ ]
+}

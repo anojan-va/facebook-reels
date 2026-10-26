@@ -1,0 +1,17 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/miss.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: one single blue planet Earth on the right side of the frame, and a grey asteroid on the left flying past it at a safe distance, a thin glowing curved line showing its path bending away from the planet, deep space, stars. Only one planet in the image.",
+   "seed": 901
+  },
+  {
+   "out": "img/seed-vault.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a narrow tall angular concrete entrance building wedge jutting out of a snow-covered Arctic mountainside at blue twilight, a strip of glowing turquoise light art on its front face, footprints in the snow, remote and cold.",
+   "seed": 902
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 110px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+.blk { left: 560px; width: 800px; height: 150px; text-align: center; line-height: 150px; font-size: 64px; border-radius: 10px; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">THE FOOD CHAIN</div>
+  <div id="b3" class="abs anton blk" style="top:300px;left:760px;width:400px;background:#3b4560">PREDATORS</div>
+  <div id="b2" class="abs anton blk" style="top:470px;left:660px;width:600px;background:#2f5d73">FISH</div>
+  <div id="b1" class="abs anton blk" style="top:640px;background:#2e7a4f">PLANKTON</div>
+  <div id="end" class="abs anton r" style="left:0;width:1920px;top:450px;text-align:center;font-size:200px;opacity:0">COLLAPSE</div>
+  <div id="x" class="abs anton r" style="left:0;width:1920px;top:620px;text-align:center;font-size:190px;opacity:0">✕</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#b1", { y: 300, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "back.out(1.4)" }, 0.1)
+    .fromTo("#b2", { y: 300, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "back.out(1.4)" }, 0.25)
+    .fromTo("#b3", { y: 300, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "back.out(1.4)" }, 0.4)
+    .to("#b1", { backgroundColor: "#8a1f1f", duration: 0.2 }, 1.2)
+    .fromTo("#x", { scale: 2.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.18, ease: "power4.in" }, 1.2)
+    .to("#b1", { y: 500, rotation: 8, opacity: 0, duration: 0.6, ease: "power2.in" }, 1.9)
+    .to("#b2", { y: 560, rotation: -10, opacity: 0, duration: 0.7, ease: "power2.in" }, 2.1)
+    .to("#b3", { y: 700, rotation: 14, opacity: 0, duration: 0.8, ease: "power2.in" }, 2.3)
+    .to("#x", { opacity: 0, duration: 0.3 }, 2.0)
+    .fromTo("#end", { scale: 2.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, 2.8)
+    .fromTo("#root", { y: 0 }, { y: 10, duration: 0.05, yoyo: true, repeat: 7 }, 1.9)
+    .to("#root", { scale: 1.04, duration: 5, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/atmo-entry.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: seen from low Earth orbit, a huge dark asteroid hitting the top of the blue atmosphere, a bright orange glowing shock layer forming on its front, the curve of the Earth below.",
+   "seed": 300
+  },
+  {
+   "out": "img/plasma-trail.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a giant blazing fireball plunging steeply down through the sky toward the sea, white-hot core, long trail of fire and smoke, clouds parting.",
+   "seed": 301
+  },
+  {
+   "out": "img/shock-front.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: extreme close-up of the front face of an asteroid entering the atmosphere, the air in front compressed into a blinding white-yellow glowing plasma cap, rock cracking.",
+   "seed": 302
+  },
+  {
+   "out": "img/sky-split.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: people on a tropical beach at dusk shielding their eyes as a blinding white streak of light splits the sky above the ocean, long shadows.",
+   "seed": 303
+  },
+  {
+   "out": "img/shallow-sea.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: aerial view of a calm shallow turquoise tropical sea over white sand near a jungle coastline, Yucatan-like, morning light.",
+   "seed": 304
+  },
+  {
+   "out": "img/asteroid-sea.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: low angle over a calm ocean, a colossal glowing asteroid a few kilometres above the water, so big that it dwarfs a tiny cargo ship below, the sea glowing orange.",
+   "seed": 305
+  },
+  {
+   "out": "img/nuke-cloud.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a huge atomic mushroom cloud rising over an empty desert test site at dawn, orange fireball inside, seen from far away.",
+   "seed": 306
+  },
+  {
+   "out": "img/impact-flash.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: seen from a distant coast, an unimaginably bright white-orange explosion on the sea horizon, a dome of fire rising, the whole sky lit up, silhouettes of palm trees.",
+   "seed": 307
+  },
+  {
+   "out": "img/crater-rebound.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a gigantic fresh impact crater seen from high above, glowing molten rock, its centre rising up into a mountain of molten rock, steam and smoke everywhere.",
+   "seed": 308
+  },
+  {
+   "out": "img/everest.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: Mount Everest at sunrise, sharp snowy summit glowing orange above a sea of clouds, epic scale.",
+   "seed": 309
+  },
+  {
+   "out": "img/crater-orbit.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: view from orbit of a huge circular smoking crater on the coast of a continent, about the width of a country, glowing red rim, smoke spreading over the ocean.",
+   "seed": 310
+  },
+  {
+   "out": "img/plume-space.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: view from space of a towering column of fire, molten rock and vapour blasting up out of the Earth's atmosphere into black space, debris spraying out in all directions.",
+   "seed": 311
+  },
+  {
+   "out": "img/quake.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a highway splitting apart in a violent earthquake, the ground cracking open, cars tilting, dust in the air, dramatic low angle.",
+   "seed": 312
+  },
+  {
+   "out": "img/flattened-forest.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a vast forest flattened by a blast wave, millions of trees knocked down pointing the same direction, some on fire, smoky orange sky.",
+   "seed": 313
+  },
+  {
+   "out": "img/debris-reentry.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: view from orbit of the night side of Earth covered by thousands of glowing orange streaks of falling debris entering the atmosphere everywhere at once.",
+   "seed": 314
+  },
+  {
+   "out": "img/spherules.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: macro close-up of tiny glassy beads and spheres of molten glass, some glowing orange, scattered on dark rock, shallow depth of field.",
+   "seed": 315
+  },
+  {
+   "out": "img/meteor-crowd.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: silhouettes of a crowd on a city rooftop at night looking up at a sky completely filled with hundreds of bright meteors streaking down.",
+   "seed": 316
+  },
+  {
+   "out": "img/glowing-atmosphere.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the curved limb of the Earth from space, the whole upper atmosphere glowing a deep angry red-orange, like the planet is heating up.",
+   "seed": 317
+  },
+  {
+   "out": "img/oven-sky.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a dense forest under a sky glowing deep orange like the inside of an oven, heat haze, the first flames starting in the tree tops.",
+   "seed": 318
+  },
+  {
+   "out": "img/kpg-layer.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a geologist in a field jacket kneeling at a tall cliff of sedimentary rock layers, pointing at one thin dark band in the rock, golden hour.",
+   "seed": 319
+  },
+  {
+   "out": "img/kpg-closeup.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: close-up of layered sedimentary rock with one thin dark grey-black clay band between pale limestone layers, a rock hammer for scale.",
+   "seed": 320
+  },
+  {
+   "out": "img/water-pushed.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: aerial view of a huge ring of ocean water being pushed outward from a glowing impact point, a wall of water hundreds of metres tall, steam.",
+   "seed": 321
+  },
+  {
+   "out": "img/mega-wave.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a colossal tsunami wave hundreds of metres tall towering over a small tropical coastline, the wave dark and churning, tiny palm trees.",
+   "seed": 322
+  },
+  {
+   "out": "img/sim-screen.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: scientists in a dark research lab looking at a large screen showing a colourful computer simulation of ocean waves spreading in rings across a world map.",
+   "seed": 323
+  },
+  {
+   "out": "img/tsunami-rings.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: Earth seen from space with giant concentric rings of disturbed ocean waves spreading across the Atlantic and Gulf of Mexico from one point.",
+   "seed": 324
+  },
+  {
+   "out": "img/city-tsunami.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a giant tsunami wave crashing into a coastal city skyline with palm trees, water flooding the streets, dark stormy sky.",
+   "seed": 325
+  },
+  {
+   "out": "img/blackout.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a big city skyline at night as the electricity fails, half of the buildings already dark, the last lights going out, eerie.",
+   "seed": 326
+  },
+  {
+   "out": "img/sat-hit.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a communications satellite in orbit being hit by glowing debris fragments, solar panel shattering, Earth below.",
+   "seed": 327
+  },
+  {
+   "out": "img/dino-ash.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: dinosaurs standing in a grey ash-covered forest under a dark sky, ash falling like snow, gloomy.",
+   "seed": 328
+  },
+  {
+   "out": "img/ash-planet.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: view from orbit of a huge dark brown cloud of ash and smoke spreading over the whole planet, covering continents.",
+   "seed": 329
+  },
+  {
+   "out": "img/haze-orbit.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the Earth from space wrapped in a pale grey-yellow haze, the sun reflecting off the haze, the surface barely visible.",
+   "seed": 330
+  },
+  {
+   "out": "img/veiled-earth.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a dim grey Earth from space completely covered by a thick veil of grey clouds, gloomy, the sun a faint disc behind.",
+   "seed": 331
+  },
+  {
+   "out": "img/dim-sun.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a modern city street at midday under a dark brown sky, the sun a faint dim red disc, streetlights on, people looking up.",
+   "seed": 332
+  },
+  {
+   "out": "img/torch-street.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a person in a jacket walking down an empty city street in near darkness at noon holding a flashlight, smoke in the air.",
+   "seed": 333
+  },
+  {
+   "out": "img/ash-snow.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: grey ash-coloured snow falling on palm trees and a tropical beach, an eerie grey landscape, cold.",
+   "seed": 334
+  },
+  {
+   "out": "img/dead-plants.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a field of wilting brown plants and dying crops under a dark grey sky, frost forming on the leaves.",
+   "seed": 335
+  },
+  {
+   "out": "img/frozen-jungle.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a tropical rainforest frozen solid, ice and frost covering huge leaves and vines, grey light.",
+   "seed": 336
+  },
+  {
+   "out": "img/food-chain.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: underwater ocean scene in murky dark water, dead fish drifting, very little light, sad.",
+   "seed": 337
+  },
+  {
+   "out": "img/dead-crops.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a huge farm field with dead frozen wheat under a dark brown sky, a lone tractor parked, snow.",
+   "seed": 338
+  },
+  {
+   "out": "img/survivors-fire.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a small group of people huddled around a fire barrel in a dark ruined city street, wearing coats and masks, ash falling.",
+   "seed": 339
+  },
+  {
+   "out": "img/mammal-dawn.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a small furry early mammal like a shrew standing on a burned log in a charred forest at dawn, first sunlight, hopeful.",
+   "seed": 340
+  },
+  {
+   "out": "img/sun-return.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a burned grey landscape as thick clouds part and golden sunlight beams down for the first time, hopeful.",
+   "seed": 341
+  },
+  {
+   "out": "img/hot-earth.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a cracked dry hot landscape under a hazy orange sky, heat haze, the sun glaring.",
+   "seed": 342
+  },
+  {
+   "out": "img/dino-herd.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a herd of dinosaurs walking across a sunny prehistoric plain with volcanoes in the distance, sixty six million years ago, peaceful.",
+   "seed": 343
+  },
+  {
+   "out": "img/trex.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a tyrannosaurus rex silhouetted against a burning orange sky, roaring, ash falling.",
+   "seed": 344
+  },
+  {
+   "out": "img/mosasaur.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a giant mosasaur marine reptile swimming in deep blue prehistoric ocean, sunbeams from above.",
+   "seed": 345
+  },
+  {
+   "out": "img/pterosaur.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a flock of large pterosaurs flying over a prehistoric coastline at sunset.",
+   "seed": 346
+  },
+  {
+   "out": "img/ammonite.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: large spiral ammonite shells swimming in a prehistoric ocean, tentacles visible, soft blue light.",
+   "seed": 347
+  },
+  {
+   "out": "img/mammal-burrow.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a small furry early mammal peeking out of a burrow hole in the ground in a ruined forest, close-up, eyes glinting.",
+   "seed": 348
+  },
+  {
+   "out": "img/spores.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: microscope view of fern spores and pollen grains, scientific micrograph look, in warm amber light.",
+   "seed": 349
+  },
+  {
+   "out": "img/fern-land.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a burned black landscape covered by a carpet of bright green young ferns, morning mist, sunlight.",
+   "seed": 350
+  },
+  {
+   "out": "img/seed-vault.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the Svalbard Global Seed Vault entrance, a narrow concrete wedge sticking out of a snowy Arctic mountain at twilight, glowing light on the front.",
+   "seed": 351
+  },
+  {
+   "out": "img/mission-control.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a calm modern space agency mission control room at night, rows of people at computer screens showing star maps and orbits, big screen on the wall.",
+   "seed": 352
+  },
+  {
+   "out": "img/asteroid-belt.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a field of many asteroids of different sizes floating in deep space, sunlight, a few small ones in the foreground.",
+   "seed": 353
+  },
+  {
+   "out": "img/small-asteroid.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a potato-shaped asteroid a few hundred metres across tumbling in space, sunlit, with Earth far behind.",
+   "seed": 354
+  },
+  {
+   "out": "img/city-impact.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a small asteroid streaking down toward a big modern city at sunset, a bright trail in the sky, people on the streets below.",
+   "seed": 355
+  },
+  {
+   "out": "img/miss.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an asteroid safely passing beside the Earth in space, missing it, the blue planet in the background, a curved trajectory.",
+   "seed": 356
+  },
+  {
+   "out": "img/gravity-tractor.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a large spacecraft hovering close beside a big grey asteroid in space, its thrusters glowing gently, no contact, the sun behind.",
+   "seed": 357
+  },
+  {
+   "out": "img/nuke-asteroid.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a bright nuclear flash exploding in space just beside a large asteroid, vapour blasting off the asteroid's surface on one side.",
+   "seed": 358
+  },
+  {
+   "out": "img/dart-impact.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: close-up of a small boxy spacecraft about to crash into the boulder-covered surface of a small asteroid moon, the last moment before impact.",
+   "seed": 359
+  },
+  {
+   "out": "img/dimorphos-ejecta.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a small asteroid moon in space with a long bright tail of dust and debris streaming away from it after a spacecraft impact, a bigger asteroid nearby.",
+   "seed": 360
+  },
+  {
+   "out": "img/hera.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a European spacecraft with two square solar panel wings flying through deep space toward a pair of asteroids, one large and one small.",
+   "seed": 361
+  },
+  {
+   "out": "img/rubin.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a large modern observatory building with a big white dome on a mountain top in Chile at night under the Milky Way, a green laser-free sky.",
+   "seed": 362
+  },
+  {
+   "out": "img/neo-surveyor.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a sleek infrared space telescope with a sun shield floating in deep space, sunlight on its shield, stars behind.",
+   "seed": 363
+  },
+  {
+   "out": "img/apophis.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a large asteroid passing very close to Earth, closer than satellites in orbit, a small satellite in the foreground, the blue planet huge behind.",
+   "seed": 364
+  },
+  {
+   "out": "img/night-watch.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and orange highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronomer silhouetted at a telescope on a hill under a starry night sky, the Milky Way overhead, a city glowing far away.",
+   "seed": 365
+  }
+ ]
+}

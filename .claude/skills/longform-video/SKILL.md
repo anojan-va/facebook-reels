@@ -37,6 +37,16 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
     (`--sequence --image-format=png --browser-executable=<hyperframes chrome-headless-shell> --public-dir=$PWD/public`)
     and put them on a shot with the renderer's `{"mg": "clip", "dir": "motion/name", "at": "@word"}` overlay.
   - Each video keeps a `motion.sh` that rebuilds its layers (renders are git-ignored).
+- Full video (`asteroid-full/`, 11 min): `build.py` reuses the approved sample's shots for the intro and adds chapter
+  lists; chapter cards are `chapter.html` rendered with `--variables` (label/big/sub/size). Render every HyperFrames
+  card at least as long as its longest shot (6 s): a stock/card clip shorter than its shot loops back to frame 0.
+  A second shot on the same card continues it with `"start"` (seconds into the card).
+  `npx hyperframes render . -c card.html` prints "No index.html found" but still renders the card.
+- Gemini TTS: a 429 right after a run of calls can be the 3-per-minute limit (wait 60 s), not the daily one.
+  The Pollinations fallback's Algenib is a different-sounding voice (median pitch ~145 Hz against ~105 Hz for
+  Gemini Algenib): never mix it into a Gemini-voiced video; wait for the daily reset (07:00 UTC) instead.
+- Music levels: trapanomics and silent-descent are ~5 dB louder than echoes/out-of-this-world: cue them with
+  `"volume"` 0.56 / 0.62 (fifth-of-february 1.15).
 
 ## Pipeline
 

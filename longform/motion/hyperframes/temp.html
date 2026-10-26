@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 110px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+#axis { left: 220px; top: 220px; width: 6px; height: 560px; background: #c9d3e8; }
+  #zero { left: 220px; top: 300px; width: 1500px; height: 3px; background: #ffffff55; }
+  #freeze { left: 220px; top: 560px; width: 1500px; height: 3px; background: #4ea4ff99; }
+  #flab { left: 1500px; top: 520px; color: #4ea4ff; }
+  #vlab { left: 1100px; top: 640px; font-size: 120px; white-space: nowrap; }
+  #ylab { left: 230px; top: 790px; width: 1500px; text-align: center; color: #c9d3e8; }
+  #src { left: 230px; top: 250px; color: #c9d3e8; font-size: 26px; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">GLOBAL TEMPERATURE</div>
+  <div id="axis" class="abs"></div><div id="zero" class="abs"></div><div id="freeze" class="abs"></div>
+  <div id="flab" class="abs mont lab">BELOW FREEZING</div>
+  <div id="src" class="abs mont">CLIMATE MODEL · BRUGGER ET AL. 2017</div>
+  <svg class="abs" width="1920" height="1080" style="left:0;top:0">
+    <path id="line" d="M 226 300 L 330 300 C 380 300 400 720 470 740 C 700 760 900 700 1100 600 C 1300 500 1500 360 1720 320" fill="none" stroke="#ff8a30" stroke-width="10" stroke-linecap="round" style="filter: drop-shadow(0 0 12px #ff8a30)"/>
+  </svg>
+  <div id="vlab" class="abs anton y">−20 °C+</div>
+  <div id="ylab" class="abs mont lab">IMPACT &nbsp;→&nbsp; YEARS AFTER</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const line = document.querySelector("#line"); const L = line.getTotalLength();
+  line.style.strokeDasharray = L; line.style.strokeDashoffset = L;
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo(["#axis", "#zero", "#freeze", "#ylab", "#src"], { opacity: 0 }, { opacity: 1, duration: 0.3 }, 0.1)
+    .fromTo("#line", { strokeDashoffset: L }, { strokeDashoffset: 0, duration: 3.2, ease: "power1.inOut" }, 0.4)
+    .fromTo("#vlab", { scale: 2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, 1.0)
+    .fromTo("#flab", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 1.2)
+    .to("#root", { scale: 1.04, duration: 5, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

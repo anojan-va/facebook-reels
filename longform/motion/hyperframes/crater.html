@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 110px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+#ground { left: 0; width: 1920px; top: 380px; height: 6px; background: #c9d3e8; }
+  #depth { left: 1450px; top: 386px; width: 6px; height: 600px; background: #ffd60a; box-shadow: 0 0 14px #ffd60a; transform-origin: top; }
+  #dlab { left: 1490px; top: 620px; font-size: 130px; white-space: nowrap; }
+  #evlab { left: 230px; top: 410px; width: 400px; text-align: center; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">A HOLE 30 KM DEEP</div>
+  <svg class="abs" width="1920" height="1080" style="left:0;top:80px">
+    <defs><radialGradient id="g" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#ff7a1a"/><stop offset="0.6" stop-color="#7a2008"/><stop offset="1" stop-color="#1a0602"/></radialGradient></defs>
+    <path id="bowl" d="M 760 303 Q 1100 1500 1440 303 Z" fill="url(#g)" stroke="#ff9a40" stroke-width="5"/>
+    <polygon id="mt" points="330,303 430,180 455,200 495,127 540,190 560,175 630,303" fill="#2a3142" stroke="#c9d3e8" stroke-width="4"/>
+  </svg>
+  <div id="ground" class="abs"></div>
+  <div id="depth" class="abs"></div>
+  <div id="dlab" class="abs anton y">30 KM</div>
+  <div id="evlab" class="abs mont lab">MOUNT EVEREST<br/><span style="color:#c9d3e8">8.8 KM</span></div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#mt", { y: 200, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "back.out(1.4)" }, 0.1)
+    .fromTo("#evlab", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 0.35)
+    .fromTo("#bowl", { scaleY: 0, transformOrigin: "50% 0%" }, { scaleY: 1, duration: 0.7, ease: "power3.out" }, 0.4)
+    .fromTo("#root", { x: 0 }, { x: 12, duration: 0.05, yoyo: true, repeat: 5 }, 0.45)
+    .fromTo("#depth", { scaleY: 0 }, { scaleY: 1, duration: 0.6, ease: "power2.out" }, 0.9)
+    .fromTo("#dlab", { scale: 2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, 1.4)
+    .fromTo("#mt", { scale: 1, transformOrigin: "50% 100%" }, { scale: 1, duration: 0.1 }, 2)
+    .to("#root", { scale: 1.04, duration: 5, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

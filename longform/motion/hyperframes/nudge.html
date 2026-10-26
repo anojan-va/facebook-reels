@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 110px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+#earth { left: 1560px; top: 400px; width: 220px; height: 220px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #7fc4ff, #1e5fa8 55%, #0a2240); box-shadow: 0 0 60px #4ea4ff88; }
+  #calc { left: 0; width: 1920px; top: 640px; text-align: center; font-size: 44px; }
+  #km { left: 0; width: 1920px; top: 700px; text-align: center; font-size: 110px; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">A TINY NUDGE</div>
+  <div id="earth" class="abs"></div>
+  <svg class="abs" width="1920" height="1080" style="left:0;top:0">
+    <path id="p1" d="M 160 510 L 1560 510" fill="none" stroke="#ffffff55" stroke-width="5" stroke-dasharray="18 14"/>
+    <path id="p2" d="M 160 510 Q 900 500 1660 250" fill="none" stroke="#ffd60a" stroke-width="7" style="filter: drop-shadow(0 0 10px #ffd60a)"/>
+    <circle id="ast" cx="160" cy="510" r="22" fill="#8a8a8a" stroke="#ddd" stroke-width="3"/>
+    <circle id="push" cx="160" cy="510" r="40" fill="none" stroke="#ff8a30" stroke-width="6"/>
+  </svg>
+  <div id="calc" class="abs mont">1 CM PER SECOND &nbsp;×&nbsp; 10 YEARS</div>
+  <div id="km" class="abs anton y">≈ 3,000 KM</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const p2 = document.querySelector("#p2"); const L2 = p2.getTotalLength();
+  p2.style.strokeDasharray = L2; p2.style.strokeDashoffset = L2;
+  const st = { p: 0 };
+  const mv = () => { const pt = p2.getPointAtLength(L2 * st.p); const a = document.querySelector("#ast"); a.setAttribute("cx", pt.x); a.setAttribute("cy", pt.y); };
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#earth", { scale: 0 }, { scale: 1, duration: 0.4, ease: "back.out(1.5)" }, 0.1)
+    .fromTo("#p1", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 0.2)
+    .fromTo("#push", { scale: 0.2, opacity: 1, transformOrigin: "160px 510px" }, { scale: 2.5, opacity: 0, duration: 0.5, ease: "power2.out" }, 0.6)
+    .fromTo("#calc", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3 }, 0.7)
+    .fromTo("#p2", { strokeDashoffset: L2 }, { strokeDashoffset: 0, duration: 2.4, ease: "power1.inOut" }, 0.9)
+    .to(st, { p: 1, duration: 2.4, ease: "power1.inOut", onUpdate: mv }, 0.9)
+    .fromTo("#km", { scale: 2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, 2.2)
+    .to("#root", { scale: 1.04, duration: 5, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>
