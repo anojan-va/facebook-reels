@@ -34,3 +34,7 @@ longform/motion/node_modules/
 longform/motion/hyperframes/out/
 longform/motion/hyperframes/.hyperframes/
 longform/*/motion/
+longform/fx-test/*.png
+longform/fx-test/*.mp4
+longform/fx-test/*.wav
+longform/fx-test/qa.jpg

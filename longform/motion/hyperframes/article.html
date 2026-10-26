@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 40%, #2a2622 0%, #0b0a09 75%); perspective: 1600px; }
+  #page { left: 360px; top: 90px; width: 1200px; height: 1300px; background: #f1ede4; box-shadow: 0 40px 120px #000c;
+    transform-origin: 50% 30%; padding: 50px 70px; color: #1b1b1b; font-family: Georgia, serif; }
+  #mast { font-size: 64px; text-align: center; border-bottom: 4px double #222; padding-bottom: 14px; letter-spacing: 2px; }
+  #date { font-family: Mont; font-weight: 700; font-size: 18px; letter-spacing: 4px; text-align: center; margin: 12px 0 30px; color: #555; }
+  #hl { position: relative; font-size: 76px; line-height: 1.12; font-weight: 700; }
+  .mark { position: absolute; left: -10px; height: 74px; background: #ffe14a; mix-blend-mode: multiply; transform-origin: left; }
+  #sub { font-size: 30px; color: #444; margin-top: 24px; font-style: italic; }
+  .col { font-size: 22px; line-height: 1.55; color: #444; margin-top: 26px; column-count: 2; column-gap: 50px; text-align: justify; }
+  #photo { margin-top: 26px; height: 300px; background: url(assets/article-photo.jpg) center/cover; filter: grayscale(1) contrast(1.1); }
+  #vig { left: 0; top: 0; width: 1920px; height: 1080px; background: radial-gradient(ellipse at 50% 45%, transparent 45%, #000a 100%); }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="4.5" data-width="1920" data-height="1080">
+  <div id="page" class="abs">
+    <div id="mast">The Morning Ledger</div>
+    <div id="date">FICTIONAL EDITION · FOR ILLUSTRATION ONLY</div>
+    <div id="hl">
+      <div id="m1" class="mark" style="top:8px;width:1075px"></div>
+      <div id="m2" class="mark" style="top:93px;width:1000px"></div>
+      <span style="position:relative">Astronomers track giant asteroid on a collision course with Earth</span>
+    </div>
+    <div id="sub">Impact expected within 24 hours, officials say</div>
+    <div class="col">Observatories on three continents confirmed the object overnight. Emergency services have begun moving residents away from coastlines while agencies calculate where it will land. Officials urged calm as the final hours begin.</div>
+    <div id="photo"></div>
+  </div>
+  <div id="vig" class="abs"></div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#page", { rotationX: 32, rotationZ: -9, y: 160, scale: 0.92 }, { rotationX: 18, rotationZ: -4, y: 60, scale: 1.12, duration: 4.5, ease: "power1.out" }, 0)
+    .fromTo("#m1", { scaleX: 0 }, { scaleX: 1, duration: 0.55, ease: "power2.inOut" }, 1.2)
+    .fromTo("#m2", { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power2.inOut" }, 1.75);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>
