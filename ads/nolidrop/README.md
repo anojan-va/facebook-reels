@@ -7,7 +7,7 @@ No stock footage: motion graphics, rebuilt app UI, the brand mascot (Noli) and A
 |---|---|---|---|---|
 | 1 "The Receipt" | `ad1.py` | sunny cyan/white, Fredoka, splash transitions | Zephyr, polished/upbeat | `gear` |
 | 2 "Your Brain on Green Water" | `ad2.py` | night pool, neon, Bebas Neue, glitch/ripple; grade flips at the Drop | Orus, punchy | `infected-vibes` → `dirty-thinkin` at the Drop |
-| 3 UGC "Don't go to the pool store yet" | `ad3.py` | creator selfies + POV phone (green screen keyed), Inter Black word captions | Leda, casual | `sounds-good` |
+| 3 UGC "Don't go to the pool store yet" | `ad3.py` | AI video: Nano Banana Pro keyframes (`storyboard.py`) animated with Kling 3.0 (`video.py`), app UI keyed per frame, Inter Black word captions | Leda, casual | `sounds-good` |
 
 Shared: the signature **Drop** (Noli splashes in, the ripple clears the water), the line "Don't guess. Noli knows.",
 and an end card modelled on the brand's official vertical ad (logo, "No more pool headaches.", Play badge, Noli + Home screen).
@@ -28,3 +28,14 @@ features (water analysis, PRIORITY #1 order, I have a problem, Start-up, Winteri
 
 Gotchas: Montserrat-Black renders hollow in PIL (reversed contours) → use Inter Black; Klein copies a reference image's
 composition, which is how `bg-pool-blue` matches `bg-pool-green` for the ripple reveal.
+
+## User feedback (never repeat)
+
+| Ad | What the user said | Rule |
+|---|---|---|
+| 1 | "$124 …" voice broke mid-sentence | Never trim pauses by Whisper word ends (they can be early): `prepare_voice` only removes samples from truly silent runs |
+| 1 | Music too loud, especially at the end | Music ~0.34 under VO (`duck` 0.36) and `tail_gain` ≈ 0.55 on the end card |
+| 1 | "Knife"-like sound (`sparkle` shing) on "Noli knows" and "Get it on Google Play" | Use the `wink` eye-blink bell for Noli/wink moments and the store CTA; avoid `sparkle` in ads |
+| 3 | Wanted real AI video for the UGC ad | Storyboard first with the best image model, user approves, then image-to-video (Kling 3.0 std ≈ 0.34 pollen per 4 s clip) |
+
+Ad 3 v1 (stills + motion, superseded) is `ad3_motion.py`.

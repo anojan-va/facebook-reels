@@ -331,10 +331,10 @@ shots = [
                                                    {"name": "type", "at": 0.39}, {"name": "type", "at": 0.56},
                                                    {"name": "impact", "at": 0.8, "gain": 0.9}]),
     dict(w=1, scene=s_still_green, tr="glitch", cap=False, sfx=[{"name": "wrong", "at": 0.6}]),
-    dict(w=7, scene=s_guess, tr="whip", sfx=[{"name": "ui-pop", "at": 0.1 + 0.16 * i} for i in range(4)]),
+    dict(w=7, scene=s_guess, tr="whip", sfx=[{"name": "swoosh", "at": -0.22, "gain": 0.7}] + [{"name": "ui-pop", "at": 0.1 + 0.16 * i} for i in range(4)]),
     dict(w=11, scene=s_buy, tr="zoom", sfx=[{"name": "key", "at": 0.11 * i} for i in range(5)]),
     dict(w=14, scene=s_drop, tr="whip", cap=False, sfx=[{"name": "riser", "at": 0.3, "gain": 0.6}, {"name": "splash", "at": 0.36},
-                                                        {"name": "bloop", "at": 0.8}, {"name": "sparkle", "at": 1.0}]),
+                                                        {"name": "bloop", "at": 0.8}, {"name": "bubble", "at": 1.0, "gain": 0.6}]),
     dict(w=16, scene=s_values, tr="splash", cap_y=1640, sfx=[{"name": "tap", "at": 0.45 + 0.13 * i} for i in range(5)]),
     dict(w=20, scene=s_spots, tr="zoom", cap_y=1640, sfx=[{"name": "ui-pop", "at": 0.3}, {"name": "ui-pop", "at": 0.5}]),
     dict(w=24, scene=s_priority, tr="whip", cap_y=1640, sfx=[{"name": "ding", "at": 0.35}]),
@@ -342,9 +342,9 @@ shots = [
     dict(w=35, scene=s_strike, tr="whip", cap_y=1560, sfx=[{"name": "scratch", "at": 0.2, "gain": 0.5}, {"name": "select", "at": 0.5},
                                                           {"name": "select", "at": 0.82}]),
     dict(w=42, scene=s_dont_guess, tr="flash", cap=False, sfx=[{"name": "pop", "at": 0.05}]),
-    dict(w=44, scene=s_knows, tr="zoom", cap=False, sfx=[{"name": "sparkle", "at": 0.3}, {"name": "bloop", "at": 0.05}]),
+    dict(w=44, scene=s_knows, tr="zoom", cap=False, sfx=[{"name": "wink", "at": 0.36}, {"name": "bloop", "at": 0.05}]),
     dict(w=46, scene=end_card, tr="splash", cap=False, dur=2.6 + 1.7,
-         sfx=[{"name": "bloop", "at": 0.2}, {"name": "ding", "at": 0.65}, {"name": "sparkle", "at": 0.9}]),
+         sfx=[{"name": "bloop", "at": 0.2}, {"name": "wink", "at": 0.66}, {"name": "bubble", "at": 2.98, "gain": 0.5}]),
 ]
 # the end card lasts from "NoliDrop" to 2.6 s after "Play": dur is measured from its start (fixed below)
 
@@ -352,7 +352,7 @@ if __name__ == "__main__":
     import sys
     spec = dict(name="nolidrop-ad-1", voice="ad1/voice-1.wav", max_gap=0.4, shots=shots, caption=cap, post=post,
                 extra={16: 0.5}, fixes={"NOLI.": "Noli.", "NOLI": "Noli", "Noly": "Noli", "Noly.": "Noli.", "drop.": "Drop.", "$124,": "$124.80…"},
-                music=[{"t": 0.0, "file": "music/gear.mp3", "start": 1.16, "vol": 1.0}], music_volume=0.42, duck=0.4)
+                music=[{"t": 0.0, "file": "music/gear.mp3", "start": 1.16, "vol": 1.0}], music_volume=0.34, duck=0.36, tail_gain=0.55)
     # end card length: from its start to 2.6 s after the last word
     voice, words = K.prepare_voice(spec["voice"], K.HERE / "work" / spec["name"], spec["max_gap"], 1.0, spec["fixes"], spec["extra"])
     shots[-1]["dur"] = words[-1][2] + 2.6 - (words[46][1] - 0.06)

@@ -2,7 +2,7 @@
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import adkit as K
-from ad3 import sticker
+from ad3_motion import sticker
 
 PANELS = [
     ("1", "0.0–2.4 s", "K1", None, "“Okay pool owners, don't go to the pool store yet.”", "Handheld selfie, she talks to camera, points down at the green pool; jump-cut punch-in on 'yet'."),
@@ -38,7 +38,7 @@ def panel_img(key, ui):
         sc = K.ui_results(1.0, focus_priority=True)
         return Image.fromarray(K.screen_zoom(sc, K.SW / 2, 1000, 1.05).astype(np.uint8))
     if key is None and ui == "end":
-        import ad3
+        import ad3_motion as ad3
         return Image.fromarray(np.clip(ad3.end_card(2.0, 3.0, {}, {}), 0, 255).astype(np.uint8))
     path = f"storyboard/{key}.jpg"
     if ui:

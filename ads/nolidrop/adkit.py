@@ -41,6 +41,7 @@ SFX.update({   # name: (file, peak s into file, pre, post, gain) -- the peak lan
     "select":   (_S / "select-click.mp3", 0.07, 0.07, 0.22, 0.8),
     "type":     (_S / "typewriter.mp3", 0.15, 0.01, 0.11, 0.7),
     "key":      (_S / "atm-key.mp3", 0.01, 0.01, 0.22, 0.7),
+    "wink":     (_S / "wink-bell.mp3", 0.24, 0.2, 0.8, 0.7),   # cartoon eye-blink bell "ting"
 })
 F = HERE / "fonts"
 FREDOKA, NUNITO, BEBAS, OSWALD = str(F / "Fredoka-Bold.ttf"), str(F / "Nunito-Black.ttf"), str(F / "BebasNeue.ttf"), str(F / "Oswald-Bold.ttf")
@@ -956,11 +957,33 @@ def prepare_voice(wav, work, max_gap=0.3, speed=1.0, fixes=None, extra=None):
         if i:
             gap = s - words[i - 1][2]
             if gap > max_gap:
-                cut0 = words[i - 1][2] + max_gap / 2
-                cut1 = s - max_gap / 2
-                pieces.append(voice[int(cursor * SR):int(cut0 * SR)])
-                cursor = cut1
-                shift += cut1 - cut0
+                # Whisper word ends can be early (a trailing "dollars..." gets cut), so only remove samples from the
+                # longest truly silent run inside the pause, keeping max_gap of it
+                a0, a1 = int(words[i - 1][2] * SR), int(s * SR)
+                hop = int(0.01 * SR)
+                seg = voice[a0:a1].mean(axis=1)
+                nf = len(seg) // hop
+                if nf > 0:
+                    db = 20 * np.log10(np.sqrt((seg[:nf * hop].reshape(nf, hop) ** 2).mean(axis=1)) + 1e-9)
+                    quiet = db < db.max() - 32 if db.max() > -60 else np.ones(nf, bool)
+                    best, run, start = (0, 0), 0, 0
+                    for j, q in enumerate(list(quiet) + [False]):
+                        if q:
+                            if run == 0:
+                                start = j
+                            run += 1
+                        else:
+                            if run > best[1] - best[0]:
+                                best = (start, start + run)
+                            run = 0
+                    r0, r1 = (words[i - 1][2] + best[0] * 0.01, words[i - 1][2] + best[1] * 0.01)
+                    extra_sil = (r1 - r0) - max_gap
+                    if extra_sil > 0.02:
+                        cut0 = r0 + max_gap / 2
+                        cut1 = cut0 + extra_sil
+                        pieces.append(voice[int(cursor * SR):int(cut0 * SR)])
+                        cursor = cut1
+                        shift += cut1 - cut0
             if extra and i in extra:   # breathing room before this word (signature moments)
                 cut = (words[i - 1][2] + s) / 2
                 if cut > cursor:
@@ -1105,6 +1128,12 @@ def render(spec):
         g[i] = spec.get("duck", 0.38) if lvl > 0.02 else 1.0
     g = np.convolve(g, np.ones(10) / 10, "same")
     gain = np.concatenate([np.repeat(g, hop), np.ones(n - len(g) * hop)])
+    tail = int((words[-1][2] + 0.15) * SR)   # end card: music stays lower after the last word
+    tg = spec.get("tail_gain", 1.0)
+    if tg != 1.0 and tail < n:
+        ramp = min(int(0.4 * SR), n - tail)
+        gain[tail:tail + ramp] *= np.linspace(1, tg, ramp)
+        gain[tail + ramp:] *= tg
     fo = int(spec.get("music_fade", 0.8) * SR)
     end_i = int(total * SR)
     gain[end_i - fo:end_i] *= np.linspace(1, 0, fo)
