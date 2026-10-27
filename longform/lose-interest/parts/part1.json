@@ -1,0 +1,934 @@
+{
+ "out": "../../output/lose-interest/part1.mp4",
+ "audio": "p1.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 30.0
+  },
+  {
+   "shot": 33,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 20.0
+  }
+ ],
+ "music_volume": 0.34,
+ "style": {
+  "grade": "warm",
+  "captions": "pill",
+  "caption_y": 0.85,
+  "vignette": 0.3,
+  "grain": 3
+ },
+ "shots": [
+  {
+   "text": "You know that feeling.",
+   "v": {
+    "img": "../img/li-phone-waiting.jpg",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "zoom": 1.3,
+    "drift": 0.06
+   },
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "text": "You text someone, and the replies keep getting shorter. \"lol.\" \"nice.\" A thumbs up. Then nothing.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Hey! Saturday still on?",
+      "me",
+      0.1
+     ],
+     [
+      "lol",
+      "them",
+      "@lol"
+     ],
+     [
+      "So are we going?",
+      "me",
+      "@nice-0.6"
+     ],
+     [
+      "nice",
+      "them",
+      "@nice"
+     ],
+     [
+      "👍",
+      "them",
+      "@thumbs"
+     ],
+     [
+      "Hello?",
+      "me",
+      "@Then"
+     ]
+    ],
+    "title": "Jake",
+    "status": "Read 9:42 PM",
+    "status_at": "@nothing"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": "@lol"
+    },
+    {
+     "name": "pop",
+     "at": "@nice"
+    },
+    {
+     "name": "pop",
+     "at": "@thumbs"
+    },
+    {
+     "name": "heartbeat",
+     "at": "@nothing"
+    }
+   ],
+   "in": "slide"
+  },
+  {
+   "text": "Plans that used to happen every weekend just... stop happening.",
+   "v": {
+    "video": "../stock/friends-dinner-5.mp4",
+    "start": 2.0,
+    "zoom": 1.1
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The group chat keeps going, but somehow without you.",
+   "v": {
+    "img": "../img/li-groupchat.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.35,
+     0.4
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Nobody's mad at you. There was no fight.",
+   "v": {
+    "video": "../stock/lonely-5.mp4",
+    "start": 3.0,
+    "zoom": 1.1
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "People just slowly lose interest,",
+   "v": {
+    "img": "../img/li-drift.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "and you're left wondering what you did wrong.",
+   "v": {
+    "video": "../stock/waiting-1.mp4",
+    "start": 2.0,
+    "zoom": 1.15
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And the worst part is, nobody will ever tell you.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "NOBODY WILL",
+     "EVER TELL YOU"
+    ],
+    "mark": [
+     "EVER TELL YOU"
+    ],
+    "times": [
+     0.0,
+     "@ever"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Nobody says, \"You talk about yourself too much,\"",
+   "v": {
+    "img": "../img/li-dinner.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "or \"You're always on your phone when we hang out.\"",
+   "v": {
+    "img": "../img/li-cafe-phone.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "They just quietly drift away,",
+   "v": {
+    "img": "../img/li-leave.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and you never get the chance to fix it.",
+   "v": {
+    "video": "../stock/sad-woman-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "So in this video, I'm going to tell you",
+   "v": {
+    "video": "../stock/texting-7.mp4",
+    "start": 2.0,
+    "zoom": 1.3
+   },
+   "in": "cut"
+  },
+  {
+   "text": "what nobody will say to your face.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "WHAT NOBODY",
+     "WILL SAY TO",
+     "YOUR FACE"
+    ],
+    "mark": [
+     "YOUR FACE"
+    ],
+    "times": [
+     0.0,
+     "@will",
+     "@your"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Seven reasons people lose interest in you, backed by real psychology, and what to do about each one.",
+   "v": {
+    "mg": "list",
+    "headline": "7 REASONS THEY LOSE INTEREST",
+    "n": 7,
+    "stagger": 0.16
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 0.3
+    },
+    {
+     "name": "pop",
+     "at": 0.45999999999999996
+    },
+    {
+     "name": "pop",
+     "at": 0.62
+    },
+    {
+     "name": "pop",
+     "at": 0.78
+    },
+    {
+     "name": "pop",
+     "at": 0.94
+    },
+    {
+     "name": "pop",
+     "at": 1.1
+    },
+    {
+     "name": "pop",
+     "at": 1.26
+    }
+   ],
+   "in": "zoom",
+   "captions": false
+  },
+  {
+   "text": "Some of them are going to sting.",
+   "v": {
+    "img": "../img/li-mirror.jpg",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "One of them, I was doing for years without noticing.",
+   "v": {
+    "img": "../img/li-recording.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And the last one is the reason most people never figure any of this out.",
+   "v": {
+    "img": "../img/li-empty.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "If you've ever felt forgotten by people you care about,",
+   "v": {
+    "video": "../stock/lonely-1.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "stay with me until the end.",
+   "v": {
+    "video": "../stock/texting-7.mp4",
+    "start": 7.0,
+    "zoom": 1.25
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I know this feeling well.",
+   "v": {
+    "video": "../stock/rain-window-1.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.35,
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "A few years ago I had a friend I'll call Michael.",
+   "v": {
+    "img": "../img/li-bench.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "MICHAEL",
+     "sub": "Name changed",
+     "at": "@Michael"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@Michael",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "We talked every single day.",
+   "v": {
+    "video": "../stock/video-call-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Texts, memes at 2 AM, plans every weekend.",
+   "v": {
+    "video": "../stock/group-of-friends-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And then, slowly, it stopped.",
+   "v": {
+    "img": "../img/li-drift.jpg",
+    "focus": [
+     0.75,
+     0.4
+    ],
+    "zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "No fight. No drama.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NO FIGHT.",
+      "white"
+     ],
+     [
+      "NO DRAMA.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@drama"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "His replies got shorter. \"Haha.\" \"Nice.\" Then a thumbs up. Then nothing.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Dinner this week?",
+      "me",
+      0.1
+     ],
+     [
+      "Haha",
+      "them",
+      "@haha"
+     ],
+     [
+      "So... Thursday?",
+      "me",
+      "@nice-0.5"
+     ],
+     [
+      "Nice",
+      "them",
+      "@nice"
+     ],
+     [
+      "👍",
+      "them",
+      "@thumbs"
+     ],
+     [
+      "Michael?",
+      "me",
+      "@nothing-0.3"
+     ]
+    ],
+    "title": "Michael"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": "@haha"
+    },
+    {
+     "name": "pop",
+     "at": "@nice"
+    },
+    {
+     "name": "pop",
+     "at": "@thumbs"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "I remember staring at the little \"Read 9:42 PM\" under my last message,",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Dinner this week?",
+      "me",
+      -1.0
+     ],
+     [
+      "Haha",
+      "them",
+      -1.0
+     ],
+     [
+      "So... Thursday?",
+      "me",
+      -1.0
+     ],
+     [
+      "Nice",
+      "them",
+      -1.0
+     ],
+     [
+      "👍",
+      "them",
+      -1.0
+     ],
+     [
+      "Michael?",
+      "me",
+      -1.0
+     ]
+    ],
+    "title": "Michael",
+    "status": "Read 9:42 PM",
+    "status_at": "@read"
+   },
+   "in": "cut",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "@read"
+    },
+    {
+     "name": "heartbeat",
+     "at": "@read+0.45"
+    }
+   ]
+  },
+  {
+   "text": "thinking: what did I do?",
+   "v": {
+    "img": "../img/li-phone-waiting.jpg",
+    "focus": [
+     0.55,
+     0.3
+    ],
+    "zoom": 1.8
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "For a long time I told myself it was him.",
+   "v": {
+    "video": "../stock/waiting-4.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Then it happened again, with someone else.",
+   "v": {
+    "video": "../stock/bar-friends-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And that's when I had to admit something uncomfortable.",
+   "v": {
+    "img": "../img/li-mirror.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "When it keeps happening, the common factor is you.",
+   "v": {
+    "img": "../img/li-mirror.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.05
+   },
+   "punch": {
+    "at": "@you",
+    "zoom": 2.0,
+    "focus": [
+     0.62,
+     0.45
+    ]
+   },
+   "shake": [
+    "@you"
+   ],
+   "sfx": [
+    {
+     "name": "bass",
+     "at": "@you",
+     "gain": 0.7
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "So I went looking for answers. Not the \"just be yourself\" kind.",
+   "v": {
+    "img": "../img/li-research.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "pause_before": 0.25,
+   "in": "cut"
+  },
+  {
+   "text": "Real research on why people drift away from us.",
+   "v": {
+    "img": "../img/li-research.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And what I found changed the way I talk to people.",
+   "v": {
+    "video": "../stock/coffee-shop-4.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Here's the first thing I had to accept.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THE FIRST THING",
+     "I HAD TO ACCEPT"
+    ],
+    "mark": [
+     "I HAD TO ACCEPT"
+    ],
+    "times": [
+     0.0,
+     "@had"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "People don't lose interest in you all at once.",
+   "v": {
+    "img": "../img/li-drift.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "They lose it in tiny moments you don't even notice.",
+   "v": {
+    "video": "../stock/bored-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "A conversation where they leave feeling a little worse than when they arrived.",
+   "v": {
+    "img": "../img/li-heavy.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Then another one.",
+   "v": {
+    "video": "../stock/bored-2.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Nobody leaves a person. They leave a feeling.",
+   "v": {
+    "mg": "quote",
+    "text": "Nobody leaves a person. They leave a feeling.",
+    "end": "@feeling",
+    "width": 26
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "reveal",
+     "at": "@feeling"
+    }
+   ],
+   "in": "slide",
+   "captions": false
+  },
+  {
+   "text": "And honestly, I think most of us create that feeling",
+   "v": {
+    "video": "../stock/friends-dinner-2.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "without ever realising it.",
+   "v": {
+    "img": "../img/li-cafe-phone.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": -0.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  }
+ ]
+}

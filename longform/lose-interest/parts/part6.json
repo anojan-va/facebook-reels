@@ -1,0 +1,721 @@
+{
+ "out": "../../output/lose-interest/part6.mp4",
+ "audio": "p6.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 30.0
+  },
+  {
+   "shot": 16,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 30.0
+  },
+  {
+   "shot": 20,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 20.0
+  },
+  {
+   "shot": 29,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 70.0
+  }
+ ],
+ "music_volume": 0.34,
+ "style": {
+  "grade": "warm",
+  "captions": "pill",
+  "caption_y": 0.85,
+  "vignette": 0.3,
+  "grain": 3,
+  "chip": {
+   "text": "REASONS 5 & 6 / 7",
+   "from": 3.0
+  }
+ },
+ "shots": [
+  {
+   "text": "The fifth reason is what you bring into the room emotionally.",
+   "v": {
+    "mg": "reason",
+    "num": "05",
+    "title": [
+     "YOUR",
+     "ENERGY"
+    ],
+    "title_at": 0.5
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": 0.5,
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Emotions are contagious.",
+   "v": {
+    "img": "../img/li-raincloud.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Psychologists call it emotional contagion.",
+   "v": {
+    "img": "../img/li-raincloud.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "EMOTIONAL CONTAGION",
+     "at": "@emotional",
+     "y": 0.78,
+     "size": 120
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@emotional"
+    },
+    {
+     "name": "impact",
+     "at": "@emotional",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Without realising it, we copy the expressions,",
+   "v": {
+    "video": "../stock/bar-friends-6.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "the tone and the mood of the people around us.",
+   "v": {
+    "video": "../stock/friends-dinner-5.mp4",
+    "start": 7.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "So if every conversation with you starts with a complaint,",
+   "v": {
+    "img": "../img/li-raincloud.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "the other person walks away carrying a little of that weight.",
+   "v": {
+    "img": "../img/li-heavy.jpg",
+    "focus": [
+     0.35,
+     0.5
+    ],
+    "zoom": 1.3
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I'm not saying fake being happy.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "DON'T FAKE IT.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Real friends should be able to share the heavy stuff,",
+   "v": {
+    "video": "../../spotlight-effect/stock/hug-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "and if you're going through a hard time, talk about it.",
+   "v": {
+    "video": "../stock/sad-woman-1.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "But there's a difference between going through something and making negativity your personality.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "GOING THROUGH",
+     "SOMETHING"
+    ],
+    "right": [
+     "NEGATIVITY AS YOUR",
+     "PERSONALITY"
+    ],
+    "at": "@negativity",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "wrong",
+     "at": "@personality",
+     "gain": 0.4
+    }
+   ],
+   "in": "slide",
+   "captions": false
+  },
+  {
+   "text": "If people have to brace themselves before they call you,",
+   "v": {
+    "video": "../stock/waiting-1.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "something needs to change.",
+   "v": {
+    "img": "../img/li-mirror.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "I had a phase where every catch-up started with what was wrong with my job.",
+   "v": {
+    "img": "../img/li-raincloud.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "pause_before": 0.25,
+   "in": "cut"
+  },
+  {
+   "text": "One day a friend said, half joking, \"So what's the disaster this week?\"",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "So what's the disaster this week?",
+      "them",
+      "@disaster"
+     ]
+    ],
+    "title": "Emma"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": "@disaster"
+    }
+   ],
+   "in": "slide"
+  },
+  {
+   "text": "It was funny. It also hurt, because she was right.",
+   "v": {
+    "video": "../stock/lonely-1.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Try this.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "TRY THIS.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Next time you meet someone, open with something good.",
+   "v": {
+    "img": "../img/li-sunny.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Something small that made you laugh, something you're looking forward to.",
+   "v": {
+    "video": "../stock/bar-friends-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "It changes the temperature of the whole conversation.",
+   "v": {
+    "img": "../img/li-sunny.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The sixth reason is about how conversations end, and almost nobody thinks about it.",
+   "v": {
+    "mg": "reason",
+    "num": "06",
+    "title": [
+     "HOW IT",
+     "ENDS"
+    ],
+    "title_at": 0.6
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": 0.6,
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The Nobel Prize-winning psychologist Daniel Kahneman",
+   "v": {
+    "img": "../img/li-research.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "DANIEL KAHNEMAN",
+     "sub": "Nobel Prize in Economics (2002)",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "described something called the peak-end rule.",
+   "v": {
+    "img": "../img/li-laugh.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "THE PEAK-END RULE",
+     "at": "@peakend",
+     "y": 0.78,
+     "size": 120
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@peakend"
+    },
+    {
+     "name": "impact",
+     "at": "@peakend",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "When we remember an experience, we don't remember every minute of it.",
+   "v": {
+    "video": "../stock/group-of-friends-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "We mostly remember the most intense moment, and how it ended.",
+   "v": {
+    "mg": "curve",
+    "title": "WHAT WE REMEMBER",
+    "draw": 2.0,
+    "peak_at": "@intense",
+    "end_at": "@ended"
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "That means the last few minutes of a conversation matter far more than you think.",
+   "v": {
+    "img": "../img/li-laugh.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.1
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "If you drag it out until there's nothing left to say,",
+   "v": {
+    "img": "../img/li-watch.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "until you're both checking the time,",
+   "v": {
+    "video": "../stock/wrist-watch-2.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.7
+    }
+   ],
+   "in": "blur"
+  },
+  {
+   "text": "that awkward fade is what they remember.",
+   "v": {
+    "mg": "curve",
+    "title": "WHAT THEY REMEMBER",
+    "draw": 1.2,
+    "end_low": true,
+    "peak_at": 0.6,
+    "end_at": "@remember"
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "This is the one I changed first, and it worked almost immediately.",
+   "v": {
+    "video": "../stock/video-call-6.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "I started leaving on a high.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "LEAVE ON",
+     "A HIGH"
+    ],
+    "mark": [
+     "A HIGH"
+    ],
+    "times": [
+     0.0,
+     "@high"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When we're laughing and the energy is good,",
+   "v": {
+    "img": "../img/li-laugh.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "that's when I say, \"I have to go, but this was great.\"",
+   "v": {
+    "img": "../img/li-goodbye.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "It feels rude at first. It isn't.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "FEELS RUDE?",
+      "white"
+     ],
+     [
+      "IT ISN'T.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@isn"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "It makes them want the next conversation.",
+   "v": {
+    "video": "../stock/goodbye-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  }
+ ]
+}

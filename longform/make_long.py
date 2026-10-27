@@ -49,7 +49,7 @@ from scipy.signal import butter, sosfilt
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "reels"))
 from make_reel import SFX as REEL_SFX, align, music_bed, norm, read_audio, write_wav  # noqa: E402
-from fonts import font  # noqa: E402
+from fonts import emoji_image, font  # noqa: E402
 
 W, H, FPS, SR = 1920, 1080, 30, 44100
 LEAD, TAIL = 0.12, 1.2
@@ -436,8 +436,178 @@ def ov_title(fr, t, d, p, ctx):
     mg_title(fr, t, d, p, ctx)
 
 
+@lru_cache(maxsize=64)
+def bubble_layer(text, mine, emoji=False):
+    """One chat bubble as RGBA (iMessage-like: mine = blue on the right, theirs = grey on the left)."""
+    f = ImageFont.truetype(INTER_SB, 44)
+    lines, cur = [], ""
+    for word in text.split():           # wrap long messages at ~22 characters
+        if cur and len(cur) + 1 + len(word) > 22:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = (cur + " " + word).strip()
+    lines.append(cur)
+    tw = int(max(f.getlength(ln) for ln in lines))
+    pad_x, pad_y = 34, 22
+    asc, desc = f.getmetrics()
+    lh = asc + desc + 6
+    w, h = tw + pad_x * 2, lh * len(lines) + pad_y * 2 - 6
+    s4 = 2
+    im = Image.new("RGBA", (w * s4, h * s4), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    col = (10, 132, 255, 255) if mine else (58, 58, 62, 255)
+    d.rounded_rectangle([0, 0, w * s4 - 1, h * s4 - 1], radius=min(h, 2 * (asc + desc + pad_y * 2 - 6) // 2) * s4 // 2, fill=col)
+    im = im.resize((w, h), Image.Resampling.LANCZOS)
+    if text and ord(text[0]) > 0x2000:   # an emoji message: colour glyph instead of text
+        em = emoji_image(text, 56)
+        im = Image.new("RGBA", (em.width + 60, em.height + 40), (0, 0, 0, 0))
+        ImageDraw.Draw(im).rounded_rectangle([0, 0, im.width - 1, im.height - 1], radius=im.height // 2,
+                                             fill=(10, 132, 255, 255) if mine else (58, 58, 62, 255))
+        im.alpha_composite(em, (30, 20))
+        return np.asarray(im)
+    for i, ln in enumerate(lines):
+        ImageDraw.Draw(im).text((pad_x, pad_y + i * lh), ln, font=f, fill=(255, 255, 255, 255))
+    return np.asarray(im)
+
+
+def mg_curve(fr, t, d, p, ctx):
+    """Emotional curve of an experience drawn left to right over p.draw seconds; dots + labels at the peak and the end.
+    p.end_low = true draws an awkward fading ending instead of a high one."""
+    fr[:] = (12, 12, 14)
+    x0, x1, yb = 260, W - 260, H * 0.68
+    cv2.line(fr, (x0, int(yb)), (x1, int(yb)), (90, 90, 90), 3)
+    blit(fr, text_layer(p.get("title", "WHAT THEY REMEMBER"), INTER_SB, 44, WHITE, track=8), W / 2, H * 0.12, alpha=min(1, t / 0.2))
+    xs = np.linspace(0, 1, 200)
+    end = 0.15 if p.get("end_low") else 0.8
+    ys = 0.35 + 0.12 * np.sin(xs * 9) + 0.5 * np.exp(-((xs - 0.45) / 0.07) ** 2) + (end - 0.35) * np.clip((xs - 0.8) / 0.2, 0, 1)
+    k = ease_io(t / p.get("draw", 1.6))
+    n = max(2, int(len(xs) * k))
+    pts = np.stack([x0 + xs[:n] * (x1 - x0), yb - ys[:n] * 420], axis=1).astype(np.int32)
+    cv2.polylines(fr, [pts], False, YELLOW, 8, cv2.LINE_AA)
+    peak_i, end_i = int(0.45 * 199), 199
+    for idx, label, at in ((peak_i, "PEAK", p.get("peak_at", 0.8)), (end_i, "END", p.get("end_at", 1.6))):
+        ta = t - ctx.at(at)
+        if n > idx and ta > 0:
+            cx, cy = int(x0 + xs[idx] * (x1 - x0)), int(yb - ys[idx] * 420)
+            cv2.circle(fr, (cx, cy), int(18 * min(1, ta / 0.2) + 4), WHITE, -1, cv2.LINE_AA)
+            blit(fr, text_layer(label, ANTON, 70, RED if (label == "END" and p.get("end_low")) else YELLOW), cx, cy - 70, alpha=min(1, ta / 0.2))
+
+
+def mg_chat(fr, t, d, p, ctx):
+    """Phone chat thread: p.messages = [[text, "me"|"them", "@word"|seconds], ...]; p.status = text under the last
+    message of mine (e.g. "Read 9:42 PM") shown at p.status_at; p.title = contact name."""
+    fr[:] = (12, 12, 14)
+    pw, ph = 760, 1000
+    x0, y0 = W / 2 - pw / 2, H / 2 - ph / 2 + 60
+    rect(fr, x0 - 14, y0 - 14, x0 + pw + 14, y0 + ph + 14, (40, 40, 44), 1.0)      # phone body
+    rect(fr, x0, y0, x0 + pw, y0 + ph, (0, 0, 0), 1.0)                                # screen
+    rect(fr, x0, y0, x0 + pw, y0 + 110, (22, 22, 24), 1.0)                            # header
+    cv2.circle(fr, (int(W / 2), int(y0 + 42)), 26, (90, 90, 96), -1)
+    blit(fr, text_layer(p.get("title", "Michael"), INTER_SB, 28, WHITE), W / 2, y0 + 88)
+    msgs = [(m[0], m[1] == "me", ctx.at(m[2])) for m in p["messages"]]
+    shown = [(txt, mine, t0) for txt, mine, t0 in msgs if t >= t0]
+    y = y0 + 150
+    bottom = y0 + ph - 40
+    layers = [(bubble_layer(txt, mine), mine, t0) for txt, mine, t0 in shown]
+    total_h = sum(l.shape[0] + 18 for l, _, _ in layers)
+    y = max(y0 + 150, bottom - total_h) if total_h > bottom - y - 60 else y
+    for lay, mine, t0 in layers:
+        k = ease_back((t - t0) / 0.25)
+        cx = x0 + pw - 30 - lay.shape[1] / 2 if mine else x0 + 30 + lay.shape[1] / 2
+        blit(fr, lay, cx, y + lay.shape[0] / 2, scale=0.6 + 0.4 * k, alpha=min(1, (t - t0) / 0.1))
+        y += lay.shape[0] + 18
+    if p.get("status") and t >= ctx.at(p.get("status_at", 999.0)):
+        st = text_layer(p["status"], INTER_SB, 26, (150, 150, 155))
+        blit(fr, st, x0 + pw - 30 - st.shape[1] / 2, y + 6, alpha=min(1, (t - ctx.at(p["status_at"])) / 0.2))
+
+
+def mg_marker(fr, t, d, p, ctx):
+    """Lines of text; words listed in p.mark get a yellow highlighter stroke swiped behind them at p.times[i]."""
+    fr[:] = tuple(p.get("bg", (14, 14, 16)))
+    lines = p["lines"]
+    times = [ctx.at(x) for x in p.get("times", [0.0] * len(lines))]
+    size = p.get("size", 120)
+    gap = size * 1.35
+    y0 = H * 0.45 - gap * (len(lines) - 1) / 2
+    for k, (txt, t0) in enumerate(zip(lines, times)):
+        lt = t - t0
+        if lt < 0:
+            continue
+        marked = txt in p.get("mark", [])
+        lay = text_layer(txt, ANTON, size, (15, 15, 15) if marked else WHITE, track=3)
+        y = y0 + gap * k
+        if marked:
+            sw = ease_out(lt / 0.35)
+            lw = lay.shape[1] + 40
+            rect(fr, W / 2 - lw / 2, y - size * 0.45, W / 2 - lw / 2 + lw * sw, y + size * 0.5, YELLOW, 1.0)
+            if sw < 0.98:   # text shows only over the stroke while it swipes in
+                continue
+        blit(fr, lay, W / 2, y + 20 * (1 - ease_out(lt / 0.2)), alpha=min(1, lt / 0.12))
+
+
+def mg_quote(fr, t, d, p, ctx):
+    """Quote card: big yellow quote mark, the line typed out word by word, optional attribution."""
+    fr[:] = (14, 14, 16)
+    blit(fr, text_layer("\u201c", ANTON, 300, YELLOW, glow=12), W * 0.16, H * 0.3, alpha=min(1, t / 0.2))
+    words = p["text"].split()
+    t_end = ctx.at(p.get("end", d * 0.7))
+    n = max(1, int(len(words) * min(1, t / max(t_end, 0.1)) + 0.999))
+    lines, cur = [], ""
+    for w in words[:n]:
+        if len(cur) + len(w) > p.get("width", 26):
+            lines.append(cur)
+            cur = w
+        else:
+            cur = (cur + " " + w).strip()
+    lines.append(cur)
+    for k, ln in enumerate(lines):
+        blit(fr, text_layer(ln, ANTON, 96, WHITE, track=2), W * 0.2, H * 0.36 + k * 120, anchor="l")
+    if p.get("by") and t > t_end:
+        blit(fr, text_layer(p["by"], INTER_SB, 38, YELLOW, track=6), W * 0.2, H * 0.36 + len(lines) * 120 + 30,
+             anchor="l", alpha=min(1, (t - t_end) / 0.3))
+
+
+def mg_reason(fr, t, d, p, ctx):
+    """Chapter card variant: 'REASON' label and a huge number on the left, title lines slide in on the right."""
+    fr[:] = (10, 10, 12)
+    k = ease_out(t / 0.4)
+    blit(fr, text_layer(p.get("label", "REASON"), INTER_SB, 46, YELLOW, track=14), 200, H * 0.28, anchor="l", alpha=min(1, t / 0.2))
+    blit(fr, text_layer(p["num"], ANTON, 380, YELLOW, glow=18), 190 - 120 * (1 - k), H * 0.53, anchor="l", alpha=min(1, t / 0.15))
+    rect(fr, 760, H * 0.3, 768, H * 0.3 + H * 0.46 * k, WHITE, 0.85)
+    t0 = ctx.at(p.get("title_at", 0.3))
+    for i, ln in enumerate(p["title"]):
+        lt = t - t0 - i * 0.12
+        if lt < 0:
+            continue
+        col = YELLOW if i == len(p["title"]) - 1 and p.get("last_yellow", True) else WHITE
+        blit(fr, text_layer(ln, ANTON, 110, col, track=3), 830 + 60 * (1 - ease_out(lt / 0.3)), H * 0.38 + i * 130,
+             anchor="l", alpha=min(1, lt / 0.15))
+
+
+def mg_checklist(fr, t, d, p, ctx):
+    """Checklist recap: items with boxes; item i appears and gets ticked at p.times[i] (-1 = already done)."""
+    fr[:] = (12, 12, 14)
+    blit(fr, text_layer(p.get("title", "THE FIX"), ANTON, 90, YELLOW, glow=10, track=6), W / 2, H * 0.1, alpha=min(1, t / 0.2))
+    times = [ctx.at(x) for x in p["times"]]
+    for i, (item, t0) in enumerate(zip(p["items"], times)):
+        lt = t - t0
+        if lt < 0:
+            continue
+        y = H * 0.24 + i * 102
+        x = W * 0.25
+        a = min(1, lt / 0.15)
+        cv2.rectangle(fr, (int(x - 30), int(y - 30)), (int(x + 30), int(y + 30)), (200, 200, 200), 4)
+        if lt > 0.15:
+            cv2.line(fr, (int(x - 18), int(y)), (int(x - 4), int(y + 16)), YELLOW, 8)
+            cv2.line(fr, (int(x - 4), int(y + 16)), (int(x + 24), int(y - 20)), YELLOW, 8)
+        blit(fr, text_layer(item, INTER_SB, 50, YELLOW if lt < 1.0 and t0 >= 0 else WHITE), x + 60, y, anchor="l", alpha=a)
+
+
 MG = {"kinetic": mg_kinetic, "title": mg_title, "year": mg_year, "grid": mg_grid, "bars": mg_bars,
-      "list": mg_list, "chapter": mg_chapter, "versus": mg_versus, "recap": mg_recap}
+      "list": mg_list, "chapter": mg_chapter, "versus": mg_versus, "recap": mg_recap,
+      "chat": mg_chat, "marker": mg_marker, "quote": mg_quote, "reason": mg_reason, "checklist": mg_checklist,
+      "curve": mg_curve}
 OV = {"lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic}
 
 
@@ -479,7 +649,11 @@ def warp(im, fx, fy, z, rot=0.0, shake=(0, 0)):
     return cv2.warpAffine(im, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
 
 
-GRADE = "eq=saturation=0.62:contrast=1.12:brightness=-0.035:gamma=0.95,colorbalance=rs=-0.04:bs=0.05:rh=0.03:gh=0.01"
+GRADES = {   # stock-footage looks, picked per video with "style": {"grade": ...}
+    "cool": "eq=saturation=0.62:contrast=1.12:brightness=-0.035:gamma=0.95,colorbalance=rs=-0.04:bs=0.05:rh=0.03:gh=0.01",
+    "warm": "eq=saturation=0.72:contrast=1.1:brightness=-0.03:gamma=0.96,colorbalance=rs=0.05:gs=0.01:bs=-0.04:rh=0.06:bh=-0.05,curves=all='0/0.04 0.5/0.48 1/0.96'",
+}
+STYLE = {"grade": "cool", "captions": "phrase", "caption_y": 0.86, "vignette": 0.38, "grain": 4, "chip": None}
 
 
 class VideoSource:
@@ -488,7 +662,7 @@ class VideoSource:
         self.v, self.dur = v, dur
         rate = v.get("rate", 1.0)
         vf = (f"setpts=PTS/{rate},fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
-              + (GRADE if v.get("grade", True) else "null"))
+              + (GRADES[STYLE["grade"]] if v.get("grade", True) else "null"))
         self.p = subprocess.Popen(["ffmpeg", "-v", "error", "-stream_loop", "-1", "-ss", str(v.get("start", 0)), "-i", str(path),
                                    "-t", f"{dur + 1.5:.3f}", "-vf", vf, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                                   stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
@@ -609,6 +783,8 @@ def phrases_for(words_abs, shot_of, shots):
 
 @lru_cache(maxsize=48)
 def caption_layer(words, active):
+    if STYLE["captions"] == "pill":
+        return caption_pill(words, active)
     f = ImageFont.truetype(INTER, 66)
     sp = f.getlength(" ")
     ws = [f.getlength(w) for w in words]
@@ -627,6 +803,26 @@ def caption_layer(words, active):
     return np.asarray(Image.alpha_composite(sh, im))
 
 
+def caption_pill(words, active):
+    """Caption variant: bold white words, the spoken word inside a yellow rounded box in black type."""
+    f = ImageFont.truetype(INTER, 62)
+    sp = f.getlength(" ") + 6
+    ws = [f.getlength(w.upper()) for w in words]
+    asc, desc = f.getmetrics()
+    h = asc + desc
+    im = Image.new("RGBA", (int(sum(ws) + sp * len(words)) + 80, h + 50), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    x = 40
+    for k, (w, wl) in enumerate(zip(words, ws)):
+        if k == active:
+            d.rounded_rectangle([x - 14, 14, x + wl + 14, 14 + h + 14], radius=16, fill=(*YELLOW, 255))
+            d.text((x, 20), w.upper(), font=f, fill=(10, 10, 10, 255))
+        else:
+            d.text((x, 20), w.upper(), font=f, fill=(255, 255, 255, 255), stroke_width=6, stroke_fill=(0, 0, 0, 255))
+        x += wl + sp
+    return np.asarray(im)
+
+
 # ---------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
@@ -642,6 +838,7 @@ def main():
     spec_path = Path(args.spec).resolve()
     base = spec_path.parent
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
+    STYLE.update(spec.get("style", {}))
     shots = spec["shots"]
     out = (base / spec["out"]).resolve()
     if args.preview:
@@ -691,7 +888,7 @@ def main():
             pts.append(raw_starts[si])
             gaps.append(d)
             cursor = cut
-    pieces += [voice[cursor:], np.zeros((int(TAIL * SR), 2), np.float32)]
+    pieces += [voice[cursor:], np.zeros((int(spec.get("tail", TAIL) * SR), 2), np.float32)]
     voice = np.concatenate(pieces)
     total = len(voice) / SR
 
@@ -745,7 +942,7 @@ def main():
         gain_f = np.convolve(gain_f, np.ones(8) / 8, "same")
         gain = np.repeat(gain_f, hop)
         gain = np.concatenate([gain, np.full(len(music) - len(gain), 1.0)])
-        fo = int(2.0 * SR)
+        fo = int(spec.get("music_fade", 2.0) * SR)
         gain[-fo:] *= np.linspace(1, 0, fo)
         mix += music * gain[:, None] * spec.get("music_volume", 0.35)
     for si, sh in enumerate(shots):
@@ -824,10 +1021,10 @@ def main():
                             str(out)], stdin=subprocess.PIPE)
     # grain + vignette
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
-    vig = 1 - 0.38 * (((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2) ** 1.2
+    vig = 1 - STYLE["vignette"] * (((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2) ** 1.2
     vig = np.clip(vig, 0.45, 1)[..., None].astype(np.float32)
     rng = np.random.default_rng(3)
-    grain = [cv2.resize(rng.normal(0, 4, (H // 2, W // 2)).astype(np.float32), (W, H))[..., None] for _ in range(6)]
+    grain = [cv2.resize(rng.normal(0, STYLE["grain"], (H // 2, W // 2)).astype(np.float32), (W, H))[..., None] for _ in range(6)]
 
     words_abs = [(script[i], times[i][0], times[i][1]) for i in range(len(script))]
     phr = phrases_for(words_abs, owner, shots)
@@ -931,6 +1128,15 @@ def main():
                     fr = (base_fr.astype(np.float32) * (1 - w) + 255 * w).astype(np.uint8)
                 elif kind == "glitch":
                     fr = fx_glitch(A if p < 0.5 else B, T, 1 - abs(p - 0.5) * 1.6)
+                elif kind == "slide":     # B pushes A up out of frame
+                    off = int(H * ease_io(p))
+                    fr = np.vstack([A[off:], B[:off]]) if off else A.copy()
+                    fr = motion_blur(fr, 90 * math.sin(math.pi * p), axis=0)
+                elif kind == "blur":      # blurred dissolve
+                    w = ease_io(p)
+                    mix_ = (A.astype(np.float32) * (1 - w) + B.astype(np.float32) * w).astype(np.uint8)
+                    k = int(2 + 40 * math.sin(math.pi * p)) | 1
+                    fr = cv2.GaussianBlur(mix_, (k, k), 0)
                 elif kind == "dip":
                     base_fr = A if p < 0.5 else B
                     fr = (base_fr.astype(np.float32) * abs(p - 0.5) * 2).astype(np.uint8)
@@ -949,10 +1155,16 @@ def main():
                     act = max([j for j, wi in enumerate(ph) if words_abs[wi][1] <= T + 0.03] or [0])
                     lay = caption_layer(tuple(re.sub(r"[{}]", "", words_abs[wi][0]) for wi in ph), act)
                     pop = 1 + 0.12 * (1 - ease_out((T - s) / 0.12))
-                    blit(fr, lay, W / 2, H * 0.86, scale=pop)
+                    blit(fr, lay, W / 2, H * STYLE["caption_y"], scale=pop)
                     break
             if spec.get("progress"):
                 rect(fr, 0, H - 7, W * T / total, H, YELLOW, 0.9)
+            if STYLE["chip"] and T > STYLE["chip"].get("from", 0):
+                chip = text_layer(STYLE["chip"]["text"], INTER_SB, 30, (20, 20, 20), track=4)
+                cw = chip.shape[1] + 36
+                a = min(1, (T - STYLE["chip"].get("from", 0)) / 0.3)
+                rect(fr, W - 60 - cw, 44, W - 60, 96, YELLOW, 0.92 * a)
+                blit(fr, chip, W - 60 - cw / 2, 70, alpha=a)
             if args.stills:
                 tile = cv2.resize(fr, (384, 216), interpolation=cv2.INTER_AREA)
                 cv2.putText(tile, str(len(tiles) + 1), (6, 30), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 40, 40), 2)

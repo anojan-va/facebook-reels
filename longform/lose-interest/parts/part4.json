@@ -1,0 +1,557 @@
+{
+ "out": "../../output/lose-interest/part4.mp4",
+ "audio": "p4.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 20.0
+  },
+  {
+   "shot": 19,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 30.0
+  }
+ ],
+ "music_volume": 0.34,
+ "style": {
+  "grade": "warm",
+  "captions": "pill",
+  "caption_y": 0.85,
+  "vignette": 0.3,
+  "grain": 3,
+  "chip": {
+   "text": "REASON 3 / 7",
+   "from": 3.0
+  }
+ },
+ "shots": [
+  {
+   "text": "The third reason is harder to see,",
+   "v": {
+    "mg": "reason",
+    "num": "03",
+    "title": [
+     "BEING",
+     "PREDICTABLE"
+    ],
+    "title_at": 0.5
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": 0.5,
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "because you can be a great listener and still lose people.",
+   "v": {
+    "img": "../img/li-listen.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.07
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "It happens when you become completely predictable.",
+   "v": {
+    "img": "../img/li-same-cafe.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@predictable",
+    "zoom": 1.5,
+    "focus": [
+     0.62,
+     0.2
+    ]
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": "@predictable"
+    },
+    {
+     "name": "tick",
+     "at": "@predictable+0.5"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "The psychologist Arthur Aron has a theory about why we're drawn to certain people.",
+   "v": {
+    "video": "../stock/group-of-friends-0.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "ARTHUR ARON",
+     "sub": "Psychologist · Stony Brook University",
+     "at": 0.1
+    }
+   ],
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "He calls it self-expansion.",
+   "v": {
+    "img": "../img/li-door-world.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "SELF-EXPANSION",
+     "at": "@self",
+     "y": 0.78,
+     "size": 120
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    },
+    {
+     "name": "reveal",
+     "at": "@self"
+    },
+    {
+     "name": "impact",
+     "at": "@self",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "We like people who make our world bigger,",
+   "v": {
+    "img": "../img/li-door-world.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "who bring new ideas, new places and new experiences into our lives.",
+   "v": {
+    "video": "../stock/travel-adventure-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And when someone stops doing that, the interest fades,",
+   "v": {
+    "img": "../img/li-same-cafe.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": -0.08
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "even when nothing is wrong.",
+   "v": {
+    "video": "../stock/lonely-5.mp4",
+    "start": 8.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Aron and his colleagues tested this with married couples.",
+   "v": {
+    "video": "../../spotlight-effect/stock/first-date-0.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Some couples spent time each week doing new, exciting activities together.",
+   "v": {
+    "img": "../img/li-coaster.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Others did pleasant but familiar things.",
+   "v": {
+    "video": "../stock/bored-5.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "After ten weeks, the couples who tried new things were more satisfied with their relationship.",
+   "v": {
+    "mg": "bars",
+    "headline": "SATISFACTION AFTER 10 WEEKS",
+    "values": false,
+    "bars": [
+     [
+      "FAMILIAR",
+      50,
+      "grey"
+     ],
+     [
+      "NEW THINGS",
+      82,
+      "yellow"
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": 0.45
+    }
+   ],
+   "in": "slide",
+   "captions": false
+  },
+  {
+   "text": "I think this is why so many friendships die in the",
+   "v": {
+    "video": "../stock/bored-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "same-place, same-food, same-complaints loop.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "SAME PLACE.",
+     "SAME FOOD.",
+     "SAME COMPLAINTS."
+    ],
+    "mark": [
+     "SAME COMPLAINTS."
+    ],
+    "times": [
+     "@sameplace",
+     "@samefood",
+     "@samecomplaints"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You meet at the same cafe,",
+   "v": {
+    "video": "../stock/coffee-shop-1.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "tell the same stories about the same people,",
+   "v": {
+    "img": "../img/li-same-cafe.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "and you both leave a little bored.",
+   "v": {
+    "video": "../stock/bored-2.mp4",
+    "start": 5.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Not of each other. Of the routine you've become together.",
+   "v": {
+    "video": "../stock/friends-dinner-2.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The fix isn't to become a different person.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE FIX",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "It's to bring something new to the table.",
+   "v": {
+    "img": "../img/li-book.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "A book you're reading.",
+   "v": {
+    "video": "../stock/reading-book-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "A strange fact you learned.",
+   "v": {
+    "img": "../img/li-brain.jpg",
+    "focus": [
+     0.49,
+     0.42
+    ],
+    "zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    },
+    {
+     "name": "sparkle",
+     "at": 0.1
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "A plan you've never tried.",
+   "v": {
+    "video": "../stock/hiking-7.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Ask, \"Have you ever wanted to try...?\"",
+   "v": {
+    "mg": "quote",
+    "text": "Have you ever wanted to try...?",
+    "end": "@try",
+    "width": 26
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When new experiences happen with you,",
+   "v": {
+    "video": "../stock/rollercoaster-4.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "people start to connect that feeling of excitement with you.",
+   "v": {
+    "img": "../img/li-coaster.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  }
+ ]
+}

@@ -19,6 +19,8 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
 |---|---|---|
 | — | "not fully AI images" | Mix: roughly 35% AI images, 35% stock video, 30% motion graphics |
 | — | "high user retention edit in audio and visuals" | Every cut has a transition SFX; every reveal has a graphic + hit |
+| 2 | "do not have exactly same editing style … keep some variations" | Every video gets its own `style` (grade, captions, chip/progress) and its own mix of transitions and graphics; never copy the previous video's build.py rules unchanged |
+| 2 | "do not render everything as 1 video … split it 5-8 parts at the end of a paragraph" | Render part by part (one spec + one voice take per part, split only at paragraph ends), user reviews parts, then `merge.py` |
 | 1 | "duration not exceeding 20 minutes, 10–20 is good" | Aim for ~12–14 min (≈1,900–2,200 words at this voice's ~2.8 w/s); check the total before rendering |
 
 ## Pipeline
@@ -84,3 +86,21 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
 10. **Deliver**: the 1080p master (≈ 1.1 MB/s) goes to the user with SendUserFile. GitHub only takes files < 100 MB,
     so commit a 720p copy re-encoded to fit (`deliveries/<slug>-720p.mp4`, two-pass at ~1.1 Mbps video) and the
     video folder without `img/`, stock clips or wavs.
+
+## Part-by-part workflow (since video 2, "Why People Lose Interest in You")
+
+- Script lives in a Claude Doc the user edits; read the final text from the doc, then split it into 5–8
+  `parts/pN.txt` at paragraph ends (hook+story, then one part per reason or pair of reasons).
+- One TTS take per part (`tts.py --polli`, run the calls ONE AT A TIME — parallel calls fail), retake any part > 10.
+- `build.py` writes `parts/partN.json` (own audio, `tail` 0.45 s and `music_fade` 0.5 s except the last part,
+  `fade_out` only on the last). Stills QA per part, render per part (`make_long.py partN.json`), the user reviews.
+- A change → edit that part's shots (or text + voice), re-render only that part.
+- `python3 merge.py final.mp4 part1.mp4 … part7.mp4` joins them with a 0.4 s dip through black and writes the
+  chat copy (`-send`, < 400 MB) and the git copy (`-720p`, < 100 MB).
+
+## Style options in make_long.py (pick a different combination per video)
+
+`"style": {"grade": "cool"|"warm", "captions": "phrase"|"pill", "caption_y": 0.86, "vignette": 0.38, "grain": 4,
+"chip": {"text": "REASON 2 / 7", "from": 3.0}}`; `"progress": true` for a progress bar instead of a chip.
+Transitions: `cut whip zoom flash glitch dip slide blur`. Graphics: `kinetic title year grid bars list chapter versus
+recap chat marker quote reason checklist curve` (+ overlays `lower_third scan tag title`).

@@ -1,0 +1,452 @@
+{
+ "out": "../../output/lose-interest/part3.mp4",
+ "audio": "p3.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 30.0
+  },
+  {
+   "shot": 17,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 30.0
+  }
+ ],
+ "music_volume": 0.34,
+ "style": {
+  "grade": "warm",
+  "captions": "pill",
+  "caption_y": 0.85,
+  "vignette": 0.3,
+  "grain": 3,
+  "chip": {
+   "text": "REASON 2 / 7",
+   "from": 3.0
+  }
+ },
+ "shots": [
+  {
+   "text": "Okay. The second thing, and there's a good chance you're doing it right now.",
+   "v": {
+    "mg": "reason",
+    "num": "02",
+    "title": [
+     "YOUR",
+     "PHONE"
+    ],
+    "title_at": "@right"
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@right",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Your phone.",
+   "v": {
+    "video": "../stock/texting-2.mp4",
+    "start": 2.0,
+    "zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.6
+    },
+    {
+     "name": "zap",
+     "at": 0.05
+    }
+   ]
+  },
+  {
+   "text": "In 2012, two researchers in England, Andrew Przybylski and Netta Weinstein,",
+   "v": {
+    "video": "../stock/coffee-shop-4.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "PRZYBYLSKI & WEINSTEIN",
+     "sub": "University of Essex (2012)",
+     "at": 0.1
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "had pairs of strangers sit down and talk.",
+   "v": {
+    "video": "../stock/bar-friends-6.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "For some pairs, a phone was simply lying nearby.",
+   "v": {
+    "img": "../img/li-phone-table.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Not ringing. Not being used. Just there.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT RINGING.",
+      "white"
+     ],
+     [
+      "NOT BEING USED.",
+      "white"
+     ],
+     [
+      "JUST THERE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@being",
+     "@just"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The pairs with the phone in view felt less close to each other and trusted each other less.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "NO PHONE",
+     "CLOSER"
+    ],
+    "right": [
+     "PHONE IN VIEW",
+     "LESS TRUST"
+    ],
+    "at": "@trusted",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "wrong",
+     "at": "@trusted",
+     "gain": 0.4
+    }
+   ],
+   "in": "zoom",
+   "captions": false
+  },
+  {
+   "text": "Just because a phone was on the table.",
+   "v": {
+    "img": "../img/li-phone-table.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "glass",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "I think this is the quietest relationship killer of our time.",
+   "v": {
+    "mg": "quote",
+    "text": "The quietest relationship killer of our time.",
+    "end": "@time",
+    "width": 26
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Every time you glance at your screen in the middle of someone's sentence,",
+   "v": {
+    "img": "../img/li-cafe-phone.jpg",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.4,
+     0.35
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "you send a tiny message: something else might be more interesting than you.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "SOMETHING ELSE",
+     "IS MORE",
+     "INTERESTING",
+     "THAN YOU"
+    ],
+    "mark": [
+     "INTERESTING"
+    ],
+    "times": [
+     0.0,
+     "@more",
+     "@interesting",
+     "@than"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "They won't say anything.",
+   "v": {
+    "video": "../stock/sad-woman-0.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "They'll just stop telling you the good stuff.",
+   "v": {
+    "img": "../img/li-cafe-phone.jpg",
+    "focus": [
+     0.75,
+     0.4
+    ],
+    "zoom": 1.7
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "A friend once stopped in the middle of a story",
+   "v": {
+    "video": "../stock/coffee-shop-1.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "and said, \"Go on, reply to it, I'll wait.\"",
+   "v": {
+    "mg": "quote",
+    "text": "Go on, reply to it. I'll wait.",
+    "end": "@wait",
+    "width": 26
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "She was smiling.",
+   "v": {
+    "video": "../stock/coffee-shop-4.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "But she never finished that story, and I still don't know how it ended.",
+   "v": {
+    "video": "../stock/rain-window-1.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "So put it away.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "PUT IT AWAY.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Not face down on the table. Away.",
+   "v": {
+    "img": "../img/li-phone-table.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "click",
+     "at": "@away"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "In your pocket, in your bag.",
+   "v": {
+    "img": "../img/li-pocket.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "It's the cheapest way there is to make someone feel important.",
+   "v": {
+    "video": "../stock/bar-friends-5.mp4",
+    "start": 8.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    },
+    {
+     "name": "sparkle",
+     "at": "@important"
+    }
+   ],
+   "in": "blur"
+  }
+ ]
+}

@@ -1,0 +1,809 @@
+{
+ "out": "../../output/lose-interest/part2.mp4",
+ "audio": "p2.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 20.0
+  },
+  {
+   "shot": 26,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 70.0
+  }
+ ],
+ "music_volume": 0.34,
+ "style": {
+  "grade": "warm",
+  "captions": "pill",
+  "caption_y": 0.85,
+  "vignette": 0.3,
+  "grain": 3,
+  "chip": {
+   "text": "REASON 1 / 7",
+   "from": 3.0
+  }
+ },
+ "shots": [
+  {
+   "text": "Let's start with the most common one.",
+   "v": {
+    "mg": "reason",
+    "num": "01",
+    "title": [
+     "THE MOST",
+     "COMMON ONE"
+    ],
+    "title_at": 0.35
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": 0.35,
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "A sociologist called Charles Derber studied everyday conversations,",
+   "v": {
+    "video": "../stock/friends-dinner-5.mp4",
+    "start": 5.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "CHARLES DERBER",
+     "sub": "Sociologist · The Pursuit of Attention (1979)",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "at dinner tables, at work, between friends.",
+   "v": {
+    "video": "../stock/coffee-shop-4.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "He noticed that people constantly pull the conversation back to themselves.",
+   "v": {
+    "img": "../img/li-dinner.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "He called it conversational narcissism.",
+   "v": {
+    "img": "../img/li-dinner.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.05
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "CONVERSATIONAL NARCISSISM",
+     "at": "@conversational",
+     "y": 0.78,
+     "size": 120
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@conversational"
+    },
+    {
+     "name": "impact",
+     "at": "@conversational",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And it's sneaky, because it doesn't look selfish. It looks like relating.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "IT DOESN'T LOOK SELFISH",
+     "IT LOOKS LIKE",
+     "RELATING"
+    ],
+    "mark": [
+     "RELATING"
+    ],
+    "times": [
+     0.0,
+     "@looks",
+     "@relating"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Your friend says, \"I'm so tired, work has been crazy this week.\"",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "So tired. Work is crazy this week",
+      "them",
+      0.3
+     ]
+    ],
+    "title": "Sarah"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 0.3
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "And you say, \"Tell me about it, my boss kept me until nine yesterday.\"",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "So tired. Work is crazy this week",
+      "them",
+      -1.0
+     ],
+     [
+      "Tell me about it!",
+      "me",
+      "@tell"
+     ],
+     [
+      "My boss kept me till 9 yesterday",
+      "me",
+      "@boss"
+     ]
+    ],
+    "title": "Sarah"
+   },
+   "in": "cut",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@tell"
+    },
+    {
+     "name": "pop",
+     "at": "@boss"
+    }
+   ]
+  },
+  {
+   "text": "You think you're connecting. You're showing you understand.",
+   "v": {
+    "video": "../stock/bar-friends-5.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "But what you actually did was take the spotlight.",
+   "v": {
+    "img": "../img/li-mic.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@spotlight",
+    "zoom": 1.6,
+    "focus": [
+     0.6,
+     0.45
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    },
+    {
+     "name": "scratch",
+     "at": "@spotlight"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Derber called that a shift response.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "SHIFT RESPONSE",
+     "ME, ME, ME"
+    ],
+    "right": [
+     "SUPPORT RESPONSE",
+     "TELL ME MORE"
+    ],
+    "at": 999.0,
+    "left_at": 0.0
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The other option is a support response: \"Crazy how? What happened?\"",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "SHIFT RESPONSE",
+     "ME, ME, ME"
+    ],
+    "right": [
+     "SUPPORT RESPONSE",
+     "TELL ME MORE"
+    ],
+    "at": "@support",
+    "left_at": -1.0
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@support"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "That one keeps the spotlight on them.",
+   "v": {
+    "img": "../img/li-listen.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "When I first read about this,",
+   "v": {
+    "img": "../img/li-research.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.3
+   },
+   "pause_before": 0.25,
+   "in": "cut"
+  },
+  {
+   "text": "I recorded myself on a call with a friend, just to check.",
+   "v": {
+    "img": "../img/li-recording.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Then I counted.",
+   "v": {
+    "img": "../img/li-recording.jpg",
+    "focus": [
+     0.62,
+     0.72
+    ],
+    "zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "typing",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "I pulled the conversation back to me eleven times in twenty minutes.",
+   "v": {
+    "mg": "year",
+    "from": 0,
+    "to": 11,
+    "roll": 2.4,
+    "label": "TIMES IN 20 MINUTES"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "tick",
+     "at": 0.25
+    },
+    {
+     "name": "tick",
+     "at": 0.45
+    },
+    {
+     "name": "tick",
+     "at": 0.65
+    },
+    {
+     "name": "tick",
+     "at": 0.8500000000000001
+    },
+    {
+     "name": "tick",
+     "at": 1.05
+    },
+    {
+     "name": "tick",
+     "at": 1.25
+    },
+    {
+     "name": "tick",
+     "at": 1.4500000000000002
+    },
+    {
+     "name": "tick",
+     "at": 1.6500000000000001
+    },
+    {
+     "name": "tick",
+     "at": 1.85
+    },
+    {
+     "name": "tick",
+     "at": 2.05
+    },
+    {
+     "name": "tick",
+     "at": 2.25
+    }
+   ],
+   "in": "slide"
+  },
+  {
+   "text": "Eleven.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "ELEVEN.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "cut",
+   "shake": [
+    0.05
+   ],
+   "sfx": [
+    {
+     "name": "bass",
+     "at": 0.0,
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I wanted to disappear.",
+   "v": {
+    "img": "../img/li-empty.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.4
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And there's a reason this hurts more than you'd think.",
+   "v": {
+    "video": "../stock/sad-woman-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "In 2012, two Harvard neuroscientists, Diana Tamir and Jason Mitchell,",
+   "v": {
+    "video": "../../spotlight-effect/stock/brain.mp4",
+    "start": 6.0,
+    "zoom": 1.15
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "TAMIR & MITCHELL",
+     "sub": "Harvard University · PNAS (2012)",
+     "at": 0.1
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "scanned people's brains while they talked about themselves.",
+   "v": {
+    "img": "../img/li-brain.jpg",
+    "focus": [
+     0.49,
+     0.42
+    ],
+    "zoom": 1.0,
+    "drift": 0.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The brain's reward system lit up, the same system that responds to food and money.",
+   "v": {
+    "img": "../img/li-brain.jpg",
+    "focus": [
+     0.49,
+     0.42
+    ],
+    "zoom": 1.1
+   },
+   "punch": {
+    "at": "@lit",
+    "zoom": 1.8,
+    "focus": [
+     0.49,
+     0.42
+    ]
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@lit"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "People were even willing to give up real money just to keep talking about themselves.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THEY GAVE UP",
+     "REAL MONEY",
+     "TO TALK ABOUT",
+     "THEMSELVES"
+    ],
+    "mark": [
+     "REAL MONEY"
+    ],
+    "times": [
+     0.0,
+     "@real",
+     "@keep",
+     "@themselves"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "So when you take someone's turn to talk, you're not just being rude.",
+   "v": {
+    "video": "../stock/bored-5.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "You're taking away something their brain actually enjoys.",
+   "v": {
+    "img": "../img/li-brain.jpg",
+    "focus": [
+     0.49,
+     0.42
+    ],
+    "zoom": 1.0,
+    "drift": -0.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The fix sounds simple, but it takes practice.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THE FIX"
+    ],
+    "mark": [
+     "THE FIX"
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When someone tells you something,",
+   "v": {
+    "video": "../stock/coffee-shop-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "ask one more question before you say anything about yourself.",
+   "v": {
+    "img": "../img/li-listen.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.47,
+     0.3
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Just one.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "JUST ONE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Researchers at Harvard found",
+   "v": {
+    "video": "../stock/bar-friends-5.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "HUANG ET AL.",
+     "sub": "Harvard Business School (2017)",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "that people who ask follow-up questions are rated as more likeable.",
+   "v": {
+    "video": "../stock/coffee-shop-4.mp4",
+    "start": 8.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Not the people with the best stories.",
+   "v": {
+    "img": "../img/li-dinner.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.6
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The people who ask the second question.",
+   "v": {
+    "img": "../img/li-listen.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@second"
+    }
+   ],
+   "in": "cut"
+  }
+ ]
+}

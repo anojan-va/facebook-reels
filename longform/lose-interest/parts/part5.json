@@ -1,0 +1,558 @@
+{
+ "out": "../../output/lose-interest/part5.mp4",
+ "audio": "p5.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 70.0
+  }
+ ],
+ "music_volume": 0.34,
+ "style": {
+  "grade": "warm",
+  "captions": "pill",
+  "caption_y": 0.85,
+  "vignette": 0.3,
+  "grain": 3,
+  "chip": {
+   "text": "REASON 4 / 7",
+   "from": 3.0
+  }
+ },
+ "shots": [
+  {
+   "text": "The fourth reason is one I see everywhere, especially in dating.",
+   "v": {
+    "mg": "reason",
+    "num": "04",
+    "title": [
+     "BEING TOO",
+     "AVAILABLE"
+    ],
+    "title_at": 0.5
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": 0.5,
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Being too available.",
+   "v": {
+    "img": "../img/li-instant.jpg",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": 1.2
+   },
+   "punch": {
+    "at": "@available",
+    "zoom": 1.7,
+    "focus": [
+     0.45,
+     0.3
+    ]
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "I'm not talking about playing games. I hate games.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT PLAYING GAMES.",
+      "white"
+     ],
+     [
+      "I HATE GAMES.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@hate"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "But there's a difference between being kind and being instantly, completely, always available.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "BEING KIND",
+     "VS.",
+     "ALWAYS AVAILABLE"
+    ],
+    "mark": [
+     "ALWAYS AVAILABLE"
+    ],
+    "times": [
+     "@kind",
+     "@instantly",
+     "@always"
+    ]
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "In 2011, researchers Erin Whitchurch, Timothy Wilson and Daniel Gilbert",
+   "v": {
+    "video": "../stock/texting-7.mp4",
+    "start": 4.0,
+    "zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "WHITCHURCH, WILSON & GILBERT",
+     "sub": "Psychological Science (2011)",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "showed women the profiles of men who had supposedly looked at their profile too.",
+   "v": {
+    "img": "../img/li-wonder.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Some were told the men liked them a lot.",
+   "v": {
+    "mg": "checklist",
+    "title": "WHAT THEY WERE TOLD",
+    "items": [
+     "HE LIKES YOU A LOT",
+     "HE LIKES YOU AN AVERAGE AMOUNT",
+     "NOBODY KNOWS"
+    ],
+    "times": [
+     0.05,
+     999.0,
+     999.0
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "in": "slide",
+   "captions": false
+  },
+  {
+   "text": "Some were told the men liked them an average amount.",
+   "v": {
+    "mg": "checklist",
+    "title": "WHAT THEY WERE TOLD",
+    "items": [
+     "HE LIKES YOU A LOT",
+     "HE LIKES YOU AN AVERAGE AMOUNT",
+     "NOBODY KNOWS"
+    ],
+    "times": [
+     -1.0,
+     0.05,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And some were told nobody knew how much the men liked them.",
+   "v": {
+    "mg": "checklist",
+    "title": "WHAT THEY WERE TOLD",
+    "items": [
+     "HE LIKES YOU A LOT",
+     "HE LIKES YOU AN AVERAGE AMOUNT",
+     "NOBODY KNOWS"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     0.05
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Guess which men they thought about most, and found most attractive?",
+   "v": {
+    "img": "../img/li-wonder.jpg",
+    "focus": [
+     0.5,
+     0.2
+    ],
+    "zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "riser",
+     "at": "@attractive+0.5",
+     "gain": 0.7
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "The uncertain ones.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE UNCERTAIN ONES.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "shake": [
+    0.05
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "bass",
+     "at": 0.0,
+     "gain": 0.7
+    }
+   ],
+   "in": "slide",
+   "captions": false
+  },
+  {
+   "text": "A little uncertainty keeps the mind busy.",
+   "v": {
+    "img": "../img/li-wonder.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "When everything is guaranteed, the brain stops paying attention.",
+   "v": {
+    "video": "../stock/bored-2.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "I learned this the embarrassing way.",
+   "v": {
+    "img": "../img/li-instant.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "pause_before": 0.25,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "I used to reply within seconds,",
+   "v": {
+    "video": "../stock/typing-phone-2.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    },
+    {
+     "name": "typing",
+     "at": 0.1,
+     "gain": 0.6
+    }
+   ],
+   "in": "blur"
+  },
+  {
+   "text": "cancel my own plans the moment someone texted,",
+   "v": {
+    "img": "../img/li-cancel.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "and agree with everything.",
+   "v": {
+    "img": "../img/li-instant.jpg",
+    "focus": [
+     0.45,
+     0.27
+    ],
+    "zoom": 1.9
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I thought I was being a good friend.",
+   "v": {
+    "video": "../stock/waiting-4.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "In reality, I had no life of my own to bring into the friendship.",
+   "v": {
+    "img": "../img/li-empty.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And people could feel it.",
+   "v": {
+    "video": "../stock/sad-woman-0.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "So have a life that doesn't revolve around anyone.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "HAVE A LIFE",
+     "THAT'S YOURS"
+    ],
+    "mark": [
+     "THAT'S YOURS"
+    ],
+    "times": [
+     0.0,
+     "@revolve"
+    ]
+   },
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Your own hobbies,",
+   "v": {
+    "video": "../stock/guitar-7.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "your own goals,",
+   "v": {
+    "video": "../stock/gym-workout-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "your own friends.",
+   "v": {
+    "video": "../stock/group-of-friends-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Not to look busy. To actually be interesting.",
+   "v": {
+    "img": "../img/li-guitar.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.1
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "When you have somewhere to be, people want to know where you're going.",
+   "v": {
+    "img": "../img/li-going-out.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.62,
+     0.6
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "cut"
+  }
+ ]
+}

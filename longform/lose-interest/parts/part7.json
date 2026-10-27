@@ -1,0 +1,889 @@
+{
+ "out": "../../output/lose-interest/part7.mp4",
+ "audio": "p7.wav",
+ "speed": 1.0,
+ "tail": 2.0,
+ "music_fade": 2.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/silent-descent.mp3",
+   "start": 20.0
+  },
+  {
+   "shot": 15,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 30.0
+  }
+ ],
+ "music_volume": 0.34,
+ "fade_out": 2.0,
+ "style": {
+  "grade": "warm",
+  "captions": "pill",
+  "caption_y": 0.85,
+  "vignette": 0.3,
+  "grain": 3,
+  "chip": {
+   "text": "REASON 7 / 7",
+   "from": 3.0
+  }
+ },
+ "shots": [
+  {
+   "text": "And the last reason is the one nobody talks about. The one that fixed it for me.",
+   "v": {
+    "mg": "reason",
+    "num": "07",
+    "title": [
+     "THE ONE",
+     "NOBODY",
+     "TALKS ABOUT"
+    ],
+    "title_at": 0.5
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "trailer",
+     "at": 0.0,
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": 0.5,
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Sometimes people lose interest in you because you lost interest in yourself.",
+   "v": {
+    "mg": "quote",
+    "text": "Sometimes people lose interest in you because you lost interest in yourself.",
+    "end": "@yourself",
+    "width": 30
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "boom",
+     "at": "@yourself",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom",
+   "captions": false
+  },
+  {
+   "text": "When Michael drifted away, I was in the worst year of my life.",
+   "v": {
+    "img": "../img/li-empty.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "I'd stopped going to the gym,",
+   "v": {
+    "img": "../img/li-couch.jpg",
+    "focus": [
+     0.2,
+     0.75
+    ],
+    "zoom": 1.8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "stopped reading,",
+   "v": {
+    "img": "../img/li-couch.jpg",
+    "focus": [
+     0.8,
+     0.72
+    ],
+    "zoom": 1.8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "stopped doing anything that excited me.",
+   "v": {
+    "img": "../img/li-couch.jpg",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": 1.3
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I wasn't growing, so I had nothing new to share.",
+   "v": {
+    "video": "../stock/lonely-5.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "I was just waiting for other people to make me feel better.",
+   "v": {
+    "video": "../stock/waiting-1.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And when you hand that job to someone else,",
+   "v": {
+    "img": "../img/li-burden.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "it slowly becomes a burden for them.",
+   "v": {
+    "video": "../stock/sad-woman-1.mp4",
+    "start": 9.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "I genuinely believe this is the root of almost everything else in this video.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THE ROOT OF",
+     "EVERYTHING"
+    ],
+    "mark": [
+     "EVERYTHING"
+    ],
+    "times": [
+     0.0,
+     "@everything"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When you feel empty, you talk about yourself because you need the validation.",
+   "v": {
+    "img": "../img/li-dinner.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.5
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "You check your phone because the moment isn't enough.",
+   "v": {
+    "img": "../img/li-cafe-phone.jpg",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You cling to people because you're scared of being alone.",
+   "v": {
+    "img": "../img/li-burden.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You complain because nothing feels like it's going right.",
+   "v": {
+    "img": "../img/li-raincloud.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.5
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And here's the part that gave me hope.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THE PART THAT",
+     "GAVE ME HOPE"
+    ],
+    "mark": [
+     "GAVE ME HOPE"
+    ],
+    "times": [
+     0.0,
+     "@gave"
+    ]
+   },
+   "pause_before": 0.3,
+   "in": "slide",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Research on what's called the liking gap, by Erica Boothby and her colleagues,",
+   "v": {
+    "video": "../stock/bar-friends-5.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "BOOTHBY, COONEY, SANDSTROM & CLARK",
+     "sub": "Psychological Science (2018)",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "found that after a conversation, people consistently underestimate how much the other person liked them.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "WHAT YOU THINK",
+     "A LITTLE"
+    ],
+    "right": [
+     "WHAT THEY FELT",
+     "A LOT"
+    ],
+    "at": "@liked",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "reveal",
+     "at": "@liked"
+    }
+   ],
+   "in": "slide",
+   "captions": false
+  },
+  {
+   "text": "So part of the problem isn't even real.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT'S NOT",
+      "white"
+     ],
+     [
+      "EVEN REAL.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@real"
+    ]
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "We walk away convinced we were boring,",
+   "v": {
+    "img": "../img/li-goodbye.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "when the other person actually enjoyed it.",
+   "v": {
+    "video": "../stock/goodbye-0.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "So here's what I want you to take from this.",
+   "v": {
+    "video": "../../spotlight-effect/stock/sunrise-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "cut"
+  },
+  {
+   "text": "You don't need to become a different person to keep people interested.",
+   "v": {
+    "img": "../img/li-mirror.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "You need to come back to yourself.",
+   "v": {
+    "img": "../img/li-grow.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@yourself"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Listen more than you talk, and ask that second question.",
+   "v": {
+    "mg": "checklist",
+    "title": "THE FIX",
+    "items": [
+     "ASK THE SECOND QUESTION",
+     "PUT YOUR PHONE AWAY",
+     "BRING SOMETHING NEW",
+     "HAVE A LIFE OF YOUR OWN",
+     "BRING LIGHTNESS INTO THE ROOM",
+     "LEAVE WHILE IT'S GOOD",
+     "KEEP GROWING"
+    ],
+    "times": [
+     0.05,
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "in": "slide",
+   "captions": false
+  },
+  {
+   "text": "Put your phone away.",
+   "v": {
+    "mg": "checklist",
+    "title": "THE FIX",
+    "items": [
+     "ASK THE SECOND QUESTION",
+     "PUT YOUR PHONE AWAY",
+     "BRING SOMETHING NEW",
+     "HAVE A LIFE OF YOUR OWN",
+     "BRING LIGHTNESS INTO THE ROOM",
+     "LEAVE WHILE IT'S GOOD",
+     "KEEP GROWING"
+    ],
+    "times": [
+     -1.0,
+     0.05,
+     999.0,
+     999.0,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Bring something new into people's lives.",
+   "v": {
+    "mg": "checklist",
+    "title": "THE FIX",
+    "items": [
+     "ASK THE SECOND QUESTION",
+     "PUT YOUR PHONE AWAY",
+     "BRING SOMETHING NEW",
+     "HAVE A LIFE OF YOUR OWN",
+     "BRING LIGHTNESS INTO THE ROOM",
+     "LEAVE WHILE IT'S GOOD",
+     "KEEP GROWING"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     0.05,
+     999.0,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Have a life of your own.",
+   "v": {
+    "mg": "checklist",
+    "title": "THE FIX",
+    "items": [
+     "ASK THE SECOND QUESTION",
+     "PUT YOUR PHONE AWAY",
+     "BRING SOMETHING NEW",
+     "HAVE A LIFE OF YOUR OWN",
+     "BRING LIGHTNESS INTO THE ROOM",
+     "LEAVE WHILE IT'S GOOD",
+     "KEEP GROWING"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     -1.0,
+     0.05,
+     999.0,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Bring a little lightness into the room.",
+   "v": {
+    "mg": "checklist",
+    "title": "THE FIX",
+    "items": [
+     "ASK THE SECOND QUESTION",
+     "PUT YOUR PHONE AWAY",
+     "BRING SOMETHING NEW",
+     "HAVE A LIFE OF YOUR OWN",
+     "BRING LIGHTNESS INTO THE ROOM",
+     "LEAVE WHILE IT'S GOOD",
+     "KEEP GROWING"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     0.05,
+     999.0,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Leave while it's good.",
+   "v": {
+    "mg": "checklist",
+    "title": "THE FIX",
+    "items": [
+     "ASK THE SECOND QUESTION",
+     "PUT YOUR PHONE AWAY",
+     "BRING SOMETHING NEW",
+     "HAVE A LIFE OF YOUR OWN",
+     "BRING LIGHTNESS INTO THE ROOM",
+     "LEAVE WHILE IT'S GOOD",
+     "KEEP GROWING"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     0.05,
+     999.0
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And keep growing, so you always have something to share.",
+   "v": {
+    "mg": "checklist",
+    "title": "THE FIX",
+    "items": [
+     "ASK THE SECOND QUESTION",
+     "PUT YOUR PHONE AWAY",
+     "BRING SOMETHING NEW",
+     "HAVE A LIFE OF YOUR OWN",
+     "BRING LIGHTNESS INTO THE ROOM",
+     "LEAVE WHILE IT'S GOOD",
+     "KEEP GROWING"
+    ],
+    "times": [
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     0.05
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "As for Michael, we're talking again.",
+   "v": {
+    "img": "../img/li-bench.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "pause_before": 0.3,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "It took two years,",
+   "v": {
+    "video": "../stock/group-of-friends-0.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "and it started with me asking him a question and actually listening to the answer.",
+   "v": {
+    "img": "../img/li-bench.jpg",
+    "focus": [
+     0.42,
+     0.42
+    ],
+    "zoom": 1.5,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "People don't lose interest in you because you're not enough.",
+   "v": {
+    "video": "../stock/hiking-7.mp4",
+    "start": 5.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "They lose interest when you stop showing up as yourself.",
+   "v": {
+    "img": "../img/li-grow.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.5
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "So show up.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "SHOW UP."
+    ],
+    "mark": [
+     "SHOW UP."
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "shake": [
+    0.05
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "bass",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "slide",
+   "captions": false
+  },
+  {
+   "text": "And if this video made you think of someone you've drifted away from,",
+   "v": {
+    "img": "../img/li-drift.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "pause_before": 0.3,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "maybe send them a message today.",
+   "v": {
+    "img": "../img/li-text.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You never know who's been waiting for it.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Hey! Been thinking about you. Coffee this week?",
+      "me",
+      0.1
+     ],
+     [
+      "Yes!! I'd love that",
+      "them",
+      "@waiting"
+     ]
+    ],
+    "title": "Michael"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 0.1
+    },
+    {
+     "name": "sparkle",
+     "at": "@waiting"
+    }
+   ],
+   "in": "slide"
+  }
+ ]
+}
