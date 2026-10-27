@@ -19,6 +19,7 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
 |---|---|---|
 | — | "not fully AI images" | Mix: roughly 35% AI images, 35% stock video, 30% motion graphics |
 | — | "high user retention edit in audio and visuals" | Every cut has a transition SFX; every reveal has a graphic + hit |
+| 2 | Girl with 3 arms in "I have to go" (li-goodbye) slipped through QA | Before ANY render, open EVERY image at full size (one or two per view, never only small contact sheets) and count each person's arms, hands, legs and heads; reject extra/missing/duplicated limbs. Prompts with people say "correct anatomy: exactly two arms, two hands, two legs" |
 | 2 | "do not have exactly same editing style … keep some variations" | Every video gets its own `style` (grade, captions, chip/progress) and its own mix of transitions and graphics; never copy the previous video's build.py rules unchanged |
 | 2 | "do not render everything as 1 video … split it 5-8 parts at the end of a paragraph" | Render part by part (one spec + one voice take per part, split only at paragraph ends), user reviews parts, then `merge.py` |
 | 1 | "duration not exceeding 20 minutes, 10–20 is good" | Aim for ~12–14 min (≈1,900–2,200 words at this voice's ~2.8 w/s); check the total before rendering |

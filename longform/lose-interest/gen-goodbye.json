@@ -1,0 +1,31 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 1,
+ "jobs": [
+  {
+   "out": "img/li-goodbye-v0.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: outside a bar at night under a street lamp. Scene: the yellow man waves goodbye cheerfully with his right hand while walking away; his left arm hangs relaxed at his side. On the right, the woman laughs and waves back with ONE raised hand; her other arm rests down by her side. Correct anatomy: every person has exactly two arms, two hands and two legs, no extra limbs, no duplicated hands.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 4100
+  },
+  {
+   "out": "img/li-goodbye-v1.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: outside a bar at night under a street lamp. Scene: the yellow man waves goodbye cheerfully with his right hand while walking away; his left arm hangs relaxed at his side. On the right, the woman laughs and waves back with ONE raised hand; her other arm rests down by her side. Correct anatomy: every person has exactly two arms, two hands and two legs, no extra limbs, no duplicated hands.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 4101
+  },
+  {
+   "out": "img/li-goodbye-v2.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow. Setting: outside a bar at night under a street lamp. Scene: the yellow man waves goodbye cheerfully with his right hand while walking away; his left arm hangs relaxed at his side. On the right, the woman laughs and waves back with ONE raised hand; her other arm rests down by her side. Correct anatomy: every person has exactly two arms, two hands and two legs, no extra limbs, no duplicated hands.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 4102
+  }
+ ]
+}

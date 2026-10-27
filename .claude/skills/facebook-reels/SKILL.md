@@ -26,6 +26,7 @@ voice takes, img/, reel.json). Reuse the newest reel folder as a template — `r
 | — | Channel voice | Must sound like reel 1's opening voice |
 | 4 | Voice slowed to 0.93× | Never slow below 1.0×; short script = short reel, say so |
 | 4 | 5 phone screens, two in a row | ≤ 3 object/phone screens, never adjacent |
+| long 2 | Girl with 3 arms in "I have to go" (li-goodbye) slipped through QA | Before ANY render, open EVERY image at full size (one or two per view, never only small contact sheets) and count each person's arms, hands, legs and heads; reject extra/missing/duplicated limbs. Prompts with people say "correct anatomy: exactly two arms, two hands, two legs" |
 | 4 | Confident trap, then "Silent Descent", on a mistake/fix dating script | Music must follow the mood **per section** (`music_cues`) |
 
 ## Where you are running
@@ -117,7 +118,7 @@ secret or allowlist is missing — tell the user which, don't work around it.
   ✗ ✓; glow = text layer blurred 14 px + 5 px under the sharp text). See `reels/mirror-trick/` for the code.
   **Keep text out of the caption band (frame y 0.42–0.58)**: put titles/graphics in the upper third, or shift the
   image up in PIL. For a two-item card, make a first version with only item 1 and reveal item 2 on the next shot.
-- **Review every image** on a gridded contact sheet (red 10% grid, label in the corner). Reject: wrong location,
+- **Review every image** on a gridded contact sheet (red 10% grid, label in the corner) AND at full size for anatomy (count arms, hands, legs on every person). Reject: extra or missing limbs, wrong location,
   extra characters, man not yellow, garbled text, wrong emotion. Regenerate rejects with a new seed and fixed refs.
   Move rejects to `img/rejected/`.
 - Budget ~15–20 images: story beats in the main setting + ~5–8 in other locations (street, office, crosswalk,
