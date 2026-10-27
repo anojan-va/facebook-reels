@@ -29,3 +29,10 @@ longform/*/chapters/*.wav
 longform/*/chapters/*.log
 longform/*/parts/*.wav
 longform/*/parts/*.log
+# Ads: generated media stays local (images, sprites, voice takes, work files, renders, music candidates)
+ads/*/img/
+ads/*/sprites/
+ads/*/work/
+ads/*/output/
+ads/*/music_cand/
+ads/*/ad*/*.wav

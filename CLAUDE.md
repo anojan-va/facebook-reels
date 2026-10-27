@@ -13,3 +13,9 @@ analysis scripts in `reels/audio/`, one folder per reel, finished videos in `ree
 When the user asks for a long video (or a sample of one), use the **`longform-video` skill**
 (`.claude/skills/longform-video/SKILL.md`): AI line-art + stock video + motion graphics, renderer `longform/make_long.py`,
 stock search `longform/stock.py`, sample project `longform/spotlight-effect/`.
+
+# Video ads (9:16 paid social)
+
+App/product ads live in `ads/<brand>/` (first: `ads/nolidrop/`, see its README). Shared renderer `ads/nolidrop/adkit.py`
+(motion graphics, rebuilt app UI, mascot sprites, green-screen phone keying, captions, ducked music, SFX, −14 LUFS).
+No stock footage for ads. Show concepts/scripts to the user before spending on voice and images.

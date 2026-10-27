@@ -1,0 +1,23 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/bg-pool-blue.jpg",
+   "refs": [
+    "img/bg-pool-green.jpg"
+   ],
+   "seed": 3,
+   "prompt": "Exactly the same swimming pool, same camera angle, same stone coping, same grass and composition as the reference image, but now the water is perfectly crystal-clear bright turquoise blue with sunlit caustic light patterns on the pale pool floor, no algae, no leaves, no debris. Photorealistic, top-down drone view, sunny. No text."
+  },
+  {
+   "out": "img/u-wink2.jpg",
+   "prompt": "Photorealistic smartphone photo, natural and casual, like a frame from a TikTok video filmed on an iPhone. A friendly woman in her late 20s with shoulder-length wavy light-brown hair, sunglasses pushed up on her head, a white tank top and a thin gold necklace, in her sunny backyard by her swimming pool in golden-hour light. Correct anatomy: exactly two arms, two hands, five fingers on each hand. Vertical 9:16. No text. Selfie angle at arm's length, she gives a clear playful one-eye wink: her left eye is closed and her right eye is wide open looking into the camera, a cheeky half smile, the pool behind her is sparkling clear blue.",
+   "seed": 7,
+   "refs": [
+    "img/u-hook.jpg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/u-wink.jpg",
+   "prompt": "Photorealistic smartphone photo, natural and casual, like a frame from a TikTok video filmed on an iPhone. A friendly woman in her late 20s with shoulder-length wavy light-brown hair, sunglasses pushed up on her head, a white tank top and a thin gold necklace, in her sunny backyard by her swimming pool in golden-hour light. Correct anatomy: exactly two arms, two hands, five fingers on each hand. Vertical 9:16. No text. Selfie angle at arm's length, she winks at the camera with a playful smile, the pool behind her is sparkling clear blue.",
+   "seed": 1,
+   "refs": [
+    "img/u-hook.jpg"
+   ]
+  },
+  {
+   "out": "img/u-talk.jpg",
+   "prompt": "Photorealistic smartphone photo, natural and casual, like a frame from a TikTok video filmed on an iPhone. A friendly woman in her late 20s with shoulder-length wavy light-brown hair, sunglasses pushed up on her head, a white tank top and a thin gold necklace, in her sunny backyard by her swimming pool in golden-hour light. Correct anatomy: exactly two arms, two hands, five fingers on each hand. Vertical 9:16. No text. Selfie angle at arm's length, she talks to the camera enthusiastically, eyebrows raised, a hand gesturing near her chin, the pool behind her.",
+   "seed": 1,
+   "refs": [
+    "img/u-hook.jpg"
+   ]
+  }
+ ]
+}
