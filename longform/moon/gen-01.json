@@ -1,0 +1,247 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/moon-city.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a huge bright full moon rising behind a modern city skyline at night, glowing silver light on the buildings and a river.",
+   "seed": 500
+  },
+  {
+   "out": "img/moon-vanish.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a night sky above a city skyline where the full moon has just vanished, a faint fading ring of silver light and glowing dust where it was, eerie.",
+   "seed": 501
+  },
+  {
+   "out": "img/dark-land.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a vast countryside at night with no moon, almost pitch black, only the faint shapes of hills and a lone tree under countless stars.",
+   "seed": 502
+  },
+  {
+   "out": "img/milky-way-desert.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: an incredibly bright Milky Way arching over a desert canyon on a moonless night, thousands of stars, deep blue and purple sky.",
+   "seed": 503
+  },
+  {
+   "out": "img/earth-moon.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the Earth and the Moon together in space, the Moon in the foreground lit by the sun, the blue Earth behind it, realistic NASA style.",
+   "seed": 504
+  },
+  {
+   "out": "img/earth-alone.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the planet Earth alone in black space, no moon anywhere, lonely, sunlight from one side.",
+   "seed": 505
+  },
+  {
+   "out": "img/night-beach.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a dark beach at night, gentle waves washing up on the sand, the water strangely low, footprints, stars above, no moon.",
+   "seed": 506
+  },
+  {
+   "out": "img/tidal-bulge.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the Earth seen from space with its oceans visibly stretched into an oval bulge toward a bright moon, glowing blue water, scientific illustration feel.",
+   "seed": 507
+  },
+  {
+   "out": "img/fundy-low.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a harbour at low tide with fishing boats resting on wet mud far below a tall wooden pier, huge cliffs, Bay of Fundy, golden light.",
+   "seed": 508
+  },
+  {
+   "out": "img/fundy-high.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the same kind of harbour at high tide with fishing boats floating at the top of a tall wooden pier, water lapping the dock, evening light.",
+   "seed": 509
+  },
+  {
+   "out": "img/tidal-dam.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a long concrete tidal power dam across a river estuary, water rushing through its sluices, foam and spray, overcast sky.",
+   "seed": 510
+  },
+  {
+   "out": "img/deep-ocean.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the dark deep ocean seen from below, slow swirling currents carrying glowing particles, faint blue light from far above.",
+   "seed": 511
+  },
+  {
+   "out": "img/rock-pool.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a rocky tide pool at low tide filled with orange sea stars, purple sea urchins, anemones and mussels, sunlight sparkling on the water.",
+   "seed": 512
+  },
+  {
+   "out": "img/mudflat-birds.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: thousands of shorebirds feeding on a shining wet mudflat at low tide, sunset reflection, flock lifting off.",
+   "seed": 513
+  },
+  {
+   "out": "img/coral-spawn.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a coral reef at night releasing millions of tiny pink and orange egg bundles that float up through the water like an underwater snowstorm, moonlight from above.",
+   "seed": 514
+  },
+  {
+   "out": "img/reef-moon.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: underwater view looking up from a coral reef at night, a bright full moon shining through the rippling ocean surface, silver light rays.",
+   "seed": 515
+  },
+  {
+   "out": "img/grunion.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: hundreds of small silver fish wriggling on wet sand at the edge of the waves on a beach at night under a full moon, sparkling.",
+   "seed": 516
+  },
+  {
+   "out": "img/horseshoe-crabs.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: hundreds of horseshoe crabs crawling onto a sandy beach at the waterline at dusk, wet shells shining, waves.",
+   "seed": 517
+  },
+  {
+   "out": "img/red-knot.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a flock of red knot shorebirds with rusty orange breasts feeding on a beach among horseshoe crab eggs, close-up, dawn light.",
+   "seed": 518
+  },
+  {
+   "out": "img/dung-beetle.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: close-up of a dung beetle rolling a ball across the African savanna sand at night, lit by soft moonlight, stars above.",
+   "seed": 519
+  },
+  {
+   "out": "img/lions-night.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: two lionesses stalking through tall grass in the African savanna on a very dark night, eyes glowing, only starlight.",
+   "seed": 520
+  },
+  {
+   "out": "img/zebra-night.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a herd of zebras standing alert on a dark savanna at night, nervous, starlight, mist.",
+   "seed": 521
+  },
+  {
+   "out": "img/arctic-plankton.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: under the Arctic sea ice during the polar night, clouds of tiny glowing zooplankton rising through dark blue water, a faint moon above the ice.",
+   "seed": 522
+  },
+  {
+   "out": "img/earth-tilt.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the Earth in space visibly tilted on its axis with a thin glowing line through the poles, the sun bright on one side, dramatic.",
+   "seed": 523
+  },
+  {
+   "out": "img/summer-winter.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a split landscape: the left half a bright green summer meadow, the right half the same meadow deep in snow, one tree in the middle.",
+   "seed": 524
+  },
+  {
+   "out": "img/endless-summer.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a scorching cracked landscape under a blinding sun, heat haze, dry dead trees, orange sky.",
+   "seed": 525
+  },
+  {
+   "out": "img/polar-night.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: an icy arctic landscape in endless polar night, dark blue, snow blowing, a faint glow on the horizon, aurora.",
+   "seed": 526
+  },
+  {
+   "out": "img/ice-age.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a huge glacier advancing over a forest valley, ice cliffs and snow, cold blue light, epic scale.",
+   "seed": 527
+  },
+  {
+   "out": "img/mars-tilt.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the planet Mars from space, visibly tilted, with large white polar ice caps, its two tiny moons nearby, dark space.",
+   "seed": 528
+  },
+  {
+   "out": "img/mars-ice.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the surface of Mars with layered ice deposits and frost on red dunes, pale pink sky.",
+   "seed": 529
+  },
+  {
+   "out": "img/young-earth.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the young Earth four billion years ago covered by oceans and volcanoes, an enormous moon very close and huge in the sky above the sea, giant waves.",
+   "seed": 530
+  },
+  {
+   "out": "img/giant-tide.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a colossal tide wave sweeping over a primordial volcanic coastline under a gigantic close moon, steam, ancient Earth.",
+   "seed": 531
+  },
+  {
+   "out": "img/retroreflector.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a small square panel of mirror prisms sitting on the grey dusty surface of the Moon, the black sky and blue Earth behind it, Apollo style.",
+   "seed": 532
+  },
+  {
+   "out": "img/laser-moon.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a bright green laser beam shooting from an observatory dome into the night sky toward the full moon, stars.",
+   "seed": 533
+  },
+  {
+   "out": "img/spin-storms.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the Earth seen from space covered in huge swirling hurricanes and violent storms, lightning flashes, a very windy world.",
+   "seed": 534
+  },
+  {
+   "out": "img/eclipse.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a total solar eclipse, the black disc of the moon covering the sun with a glowing white corona, over a silhouetted mountain range.",
+   "seed": 535
+  },
+  {
+   "out": "img/blood-moon.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a deep red blood moon during a total lunar eclipse above a dark forest and lake, reflection on the water.",
+   "seed": 536
+  },
+  {
+   "out": "img/lanterns.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: thousands of glowing paper lanterns floating up into the night sky over a river under a full moon, warm light, no people visible.",
+   "seed": 537
+  },
+  {
+   "out": "img/calendar-moon.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: an old stone carved lunar calendar wheel with moon phases, lit by candlelight in a dark temple, ancient.",
+   "seed": 538
+  },
+  {
+   "out": "img/theia.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a Mars-sized planet smashing into the young molten Earth, a gigantic explosion of glowing debris and magma spraying into space.",
+   "seed": 539
+  },
+  {
+   "out": "img/debris-ring.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a glowing ring of molten debris orbiting the young Earth after a giant impact, slowly clumping together into a new moon.",
+   "seed": 540
+  },
+  {
+   "out": "img/tide-pools-life.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: ancient rocky coastline with shallow tide pools glowing with green slime and mineral crusts, a huge moon rising on the horizon, early Earth.",
+   "seed": 541
+  },
+  {
+   "out": "img/asteroid-moon.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a small asteroid flying past the Moon toward the Earth in space, the Moon not blocking it, realistic.",
+   "seed": 542
+  },
+  {
+   "out": "img/moon-drift.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the Moon very slowly moving away from the Earth in space, a faint dotted path between them, cinematic.",
+   "seed": 543
+  },
+  {
+   "out": "img/moon-small-eclipse.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: an annular solar eclipse with a thin bright ring of the sun around the dark moon, which is too small to cover it, over the ocean.",
+   "seed": 544
+  },
+  {
+   "out": "img/moonrise-ocean.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: a huge golden full moon rising over a calm ocean at dusk, a shining path of light on the water, peaceful and beautiful.",
+   "seed": 545
+  },
+  {
+   "out": "img/phases.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: the phases of the Moon arranged in a curved line across a black starry sky, from crescent to full to crescent, glowing.",
+   "seed": 546
+  },
+  {
+   "out": "img/owl-night.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic lighting, high detail, moody colour grade with deep blacks, teal shadows and warm highlights, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. No people, no text, letters, logos or watermarks anywhere. Scene: an owl perched on a branch in a dark forest at night, eyes glowing, no moonlight, only starlight.",
+   "seed": 547
+  }
+ ]
+}

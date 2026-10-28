@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 104px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+  .earth { border-radius: 50%; background: radial-gradient(circle at 35% 35%, #7fc4ff, #1e5fa8 55%, #0a2240); box-shadow: 0 0 60px #4ea4ff77; }
+  .moon { border-radius: 50%; background: radial-gradient(circle at 35% 30%, #f2f2f2, #a9a9a9 55%, #4a4a4a); box-shadow: 0 0 40px #ffffff44; }
+#sun { left: 1180px; top: 240px; width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, #fff6c8, #ffb02e 55%, #ff6a00); box-shadow: 0 0 140px #ff9a2e; }
+  #m { left: 220px; top: 500px; width: 80px; height: 80px; }
+  #eye { left: 100px; top: 525px; font-size: 30px; }
+  #l1 { left: 0; width: 1920px; top: 780px; text-align: center; font-size: 60px; }
+  #corona { left: 1180px; top: 240px; width: 600px; height: 600px; border-radius: 50%; background: #050505; box-shadow: 0 0 90px 30px #fff8, 0 0 20px 6px #fff; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">A PERFECT COINCIDENCE</div>
+  <div id="sun" class="abs"></div>
+  <div id="corona" class="abs"></div>
+  <svg class="abs" width="1920" height="1080" style="left:0;top:0">
+    <line id="ray1" x1="150" y1="540" x2="1480" y2="240" stroke="#ffffff55" stroke-width="3" stroke-dasharray="12 10"/>
+    <line id="ray2" x1="150" y1="540" x2="1480" y2="840" stroke="#ffffff55" stroke-width="3" stroke-dasharray="12 10"/>
+  </svg>
+  <div id="m" class="abs moon"></div>
+  <div id="l1" class="abs anton"><span class="y">400×</span> WIDER &nbsp;·&nbsp; <span class="y">400×</span> FARTHER</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#sun", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "power3.out" }, 0.1)
+    .fromTo(["#ray1", "#ray2"], { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0.6)
+    .fromTo("#m", { y: -300, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: "power2.out" }, 0.8)
+    .fromTo("#l1", { opacity: 0, scale: 1.4 }, { opacity: 1, scale: 1, duration: 0.3, ease: "power4.out" }, 1.4)
+    .fromTo("#sun", { scale: 1 }, { scale: 1.05, duration: 0.8, yoyo: true, repeat: 3, ease: "sine.inOut" }, 2.2)
+    .to("#root", { scale: 1.04, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

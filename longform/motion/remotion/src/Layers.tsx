@@ -73,7 +73,7 @@ export const BigNumber: React.FC<{ to: number; unit: string; sub?: string; y?: n
       <div style={{ position: "absolute", top: y * 1080 - 150, width: 1920, textAlign: "center",
         transform: `scale(${interpolate(enter, [0, 1], [0.6, 1]) * pop})` }}>
         <span style={{ ...anton, fontSize: 230, color: done ? YELLOW : "white", textShadow: `${shadow}${done ? ", 0 0 40px rgba(255,214,10,0.6)" : ""}` }}>
-          {(to * k).toFixed(decimals)}
+          {(to * k).toLocaleString("en-US", { minimumFractionDigits: decimals, maximumFractionDigits: decimals })}
         </span>
         <span style={{ ...anton, fontSize: 90, color: "white", marginLeft: 18, textShadow: shadow }}>{unit}</span>
       </div>

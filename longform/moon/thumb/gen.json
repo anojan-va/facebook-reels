@@ -1,0 +1,17 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "art-a.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast, glowing silver-white moonlight against deep teal-blue night, dramatic, sharp focus, simple bold composition with one clear subject on the right half, empty dark area on the left third for text. No people, no text, letters, logos or watermarks. Horizontal 16:9. Scene: a giant bright full moon on the right side of the sky breaking apart and dissolving into glowing dust and fragments, half of it already gone, above a dark ocean with a huge silver reflection.",
+   "seed": 61
+  },
+  {
+   "out": "art-b.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast, glowing silver-white moonlight against deep teal-blue night, dramatic, sharp focus, simple bold composition with one clear subject on the right half, empty dark area on the left third for text. No people, no text, letters, logos or watermarks. Horizontal 16:9. Scene: the Earth in space on the right side with the Moon next to it shattering into thousands of glowing pieces drifting away, dramatic sunlight, black space.",
+   "seed": 62
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 104px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+  .earth { border-radius: 50%; background: radial-gradient(circle at 35% 35%, #7fc4ff, #1e5fa8 55%, #0a2240); box-shadow: 0 0 60px #4ea4ff77; }
+  .moon { border-radius: 50%; background: radial-gradient(circle at 35% 30%, #f2f2f2, #a9a9a9 55%, #4a4a4a); box-shadow: 0 0 40px #ffffff44; }
+#e { left: 760px; top: 300px; width: 400px; height: 400px; }
+  #axis { left: 957px; top: 180px; width: 6px; height: 640px; background: #ffd60a; box-shadow: 0 0 14px #ffd60a; transform-origin: 50% 50%; }
+  #deg { left: 1300px; top: 430px; font-size: 140px; white-space: nowrap; }
+  #lab { left: 0; width: 1920px; top: 800px; text-align: center; font-size: 40px; }
+  #lab2 { left: 0; width: 1920px; top: 800px; text-align: center; font-size: 40px; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">EARTH'S TILT</div>
+  <div id="e" class="abs earth"></div>
+  <div id="axis" class="abs"></div>
+  <div id="deg" class="abs anton y">23.5°</div>
+  <div id="lab" class="abs mont">WITH THE MOON: 22° – 24.5°, EVERY 41,000 YEARS</div>
+  <div id="lab2" class="abs mont r">WITHOUT IT: BIGGER, SLOWER SWINGS</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const st = { a: 23.5 };
+  const deg = document.querySelector("#deg"), ax = document.querySelector("#axis"), e = document.querySelector("#e");
+  const upd = () => { deg.textContent = st.a.toFixed(1) + "°"; ax.style.transform = "rotate(" + st.a + "deg)"; e.style.transform = "rotate(" + st.a + "deg)"; };
+  upd();
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#lab", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 0.3)
+    .to(st, { a: 22.1, duration: 0.9, ease: "sine.inOut", onUpdate: upd }, 0.4)
+    .to(st, { a: 24.5, duration: 1.0, ease: "sine.inOut", onUpdate: upd }, 1.3)
+    .to(st, { a: 23.5, duration: 0.8, ease: "sine.inOut", onUpdate: upd }, 2.3)
+    .to("#lab", { opacity: 0, duration: 0.2 }, 3.1)
+    .to("#lab2", { opacity: 1, duration: 0.2 }, 3.2)
+    .to(st, { a: 10, duration: 0.7, ease: "power2.inOut", onUpdate: upd }, 3.2)
+    .to(st, { a: 45, duration: 1.0, ease: "power2.inOut", onUpdate: upd }, 3.9)
+    .to(st, { a: 30, duration: 0.8, ease: "power2.inOut", onUpdate: upd }, 4.95)
+    .to("#deg", { color: "#eb3232", duration: 0.2 }, 3.2)
+    .to("#root", { scale: 1.04, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

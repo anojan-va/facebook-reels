@@ -1,0 +1,5254 @@
+{
+ "out": "../output/moon-full.mp4",
+ "audio": [
+  "chapters/take1.wav",
+  "chapters/take2.wav",
+  "chapters/take3.wav",
+  "chapters/take4.wav",
+  "chapters/take5.wav",
+  "chapters/take6.wav",
+  "chapters/take7.wav",
+  "chapters/take8.wav",
+  "chapters/take9.wav"
+ ],
+ "take_gap": 0.4,
+ "speed": 0.94,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865,
+   "volume": 1.0
+  },
+  {
+   "shot": 19,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0,
+   "start": 117.26
+  },
+  {
+   "shot": 41,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 73,
+   "music": "../../reels/audio/music/silent-descent.mp3",
+   "volume": 0.62,
+   "start": 0.0
+  },
+  {
+   "shot": 108,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 145,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 176,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "volume": 1.0,
+   "start": 13.63
+  },
+  {
+   "shot": 209,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15,
+   "start": 1.6
+  }
+ ],
+ "music_volume": 0.38,
+ "fade_out": 2.5,
+ "progress": true,
+ "shots": [
+  {
+   "text": "What if, tonight,",
+   "v": {
+    "video": "stock/moon-glow.mp4",
+    "start": 1.0,
+    "zoom": 1.25,
+    "drift": 0.12
+   },
+   "punch": true,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "text": "the Moon simply disappeared?",
+   "v": {
+    "img": "img/moon-city.jpg",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.47,
+     0.3
+    ],
+    "to_zoom": 1.6
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@disappeared",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "No explosion.",
+   "v": {
+    "img": "img/moon-vanish.jpg",
+    "focus": [
+     0.45,
+     0.3
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.3
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit"
+    }
+   ]
+  },
+  {
+   "text": "No warning.",
+   "v": {
+    "video": "stock/moon-cloud.mp4",
+    "start": 1.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch"
+    }
+   ]
+  },
+  {
+   "text": "One moment it's there,",
+   "v": {
+    "img": "img/moon-city.jpg",
+    "focus": [
+     0.47,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.47,
+     0.4
+    ],
+    "to_zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the next, the sky is empty.",
+   "v": {
+    "img": "img/moon-vanish.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "flash",
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@empty"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@empty"
+    }
+   ]
+  },
+  {
+   "text": "It sounds harmless.",
+   "v": {
+    "video": "stock/sky-trees.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The Moon is just a light in the sky, right?",
+   "v": {
+    "video": "stock/moon-trees.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": "@right"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "But that rock has been quietly holding our world together",
+   "v": {
+    "img": "img/earth-moon.jpg",
+    "focus": [
+     0.4,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "music_fx": "muffle",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "for billions of years.",
+   "v": {
+    "video": "stock/earth-night.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It moves our oceans,",
+   "v": {
+    "video": "stock/waves-aerial.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "text": "steadies our planet,",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "sets the clock for countless animals,",
+   "v": {
+    "img": "img/coral-spawn.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and it even shaped the length of your day.",
+   "v": {
+    "video": "stock/clock.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": "@length"
+    },
+    {
+     "name": "tick",
+     "at": "@day"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "In this video, we'll follow what happens step by step,",
+   "v": {
+    "video": "stock/sky-milky.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.1
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "from the first night without it,",
+   "v": {
+    "img": "img/dark-land.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "to the strange, wobbling world it would leave behind.",
+   "v": {
+    "video": "motion/tilt.mp4",
+    "start": 3.2,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And by the end, you'll see why some scientists think",
+   "v": {
+    "img": "img/young-earth.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "we might not even be here without it.",
+   "v": {
+    "img": "img/tide-pools-life.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@here",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Chapter one. The first night.",
+   "v": {
+    "video": "motion/ch1.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's a clear night, and the Moon is full.",
+   "v": {
+    "video": "stock/moon-glow.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then, in an instant, it's gone.",
+   "v": {
+    "img": "img/moon-vanish.jpg",
+    "focus": [
+     0.45,
+     0.3
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.3
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "flash",
+   "shake": [
+    "@gone"
+   ],
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@gone"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@gone"
+    }
+   ]
+  },
+  {
+   "text": "The first thing you notice is the dark.",
+   "v": {
+    "img": "img/dark-land.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.0
+   },
+   "voice_fx": {
+    "at": "@dark",
+    "fx": "echo"
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A full Moon lights the ground",
+   "v": {
+    "video": "stock/moon-forest.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "around a hundred times brighter than starlight alone.",
+   "v": {
+    "video": "stock/moon-trees.mp4",
+    "start": 2.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/x100",
+     "at": "@hundred-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@hundred"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Now every night is as dark as a new Moon night, forever.",
+   "v": {
+    "video": "stock/sky-dusk.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@forever"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Astronomers would actually love it.",
+   "v": {
+    "video": "stock/observatory.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "With no moonlight washing out the sky,",
+   "v": {
+    "video": "stock/stars.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "the Milky Way would shine on every clear night of the year.",
+   "v": {
+    "img": "img/milky-way-desert.jpg",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.25
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@Milky"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "But something else changes right away, and you can't see it.",
+   "v": {
+    "video": "stock/earth-planet.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.12
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The Moon's gravity is gone.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE MOON'S GRAVITY",
+      "white"
+     ],
+     [
+      "IS GONE",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@gone"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@gone"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Earth and the Moon don't simply travel around the Sun side by side.",
+   "v": {
+    "img": "img/earth-moon.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "They swing around a shared balance point,",
+   "v": {
+    "video": "motion/bary.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": 1.0
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "about four thousand seven hundred kilometres from Earth's centre.",
+   "v": {
+    "video": "motion/bary.mp4",
+    "start": 1.7,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Without the Moon, that dance stops,",
+   "v": {
+    "img": "img/earth-alone.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and Earth settles into a slightly different path around the Sun.",
+   "v": {
+    "video": "stock/earth-turn.mp4",
+    "start": 1.0,
+    "zoom": 1.05,
+    "drift": 0.15
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The change is tiny, and you wouldn't feel a thing.",
+   "v": {
+    "img": "img/earth-alone.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "There's no earthquake, no flood, no sudden end of the world.",
+   "v": {
+    "video": "stock/sea-sunset.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO EARTHQUAKE",
+       "white"
+      ],
+      [
+       "NO FLOOD",
+       "white"
+      ],
+      [
+       "NO END",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@earthquake",
+      "@flood",
+      "@sudden"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@earthquake"
+    },
+    {
+     "name": "pop",
+     "at": "@flood"
+    },
+    {
+     "name": "pop",
+     "at": "@sudden"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "But at the next high tide,",
+   "v": {
+    "img": "img/night-beach.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "the ocean doesn't come as far up the beach as it should.",
+   "v": {
+    "video": "stock/tide-beach.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And that's where the trouble begins.",
+   "v": {
+    "video": "stock/tide-flat.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@trouble",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Chapter two. The tides fall.",
+   "v": {
+    "video": "motion/ch2.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Twice a day, all around the world, the oceans rise and fall.",
+   "v": {
+    "video": "stock/tide-rocks.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most of that is the Moon.",
+   "v": {
+    "video": "stock/moon-big.mp4",
+    "start": 2.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@Moon"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Its gravity pulls on the side of Earth facing it a little harder than on the far side,",
+   "v": {
+    "img": "img/tidal-bulge.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "stretching our oceans into two bulges.",
+   "v": {
+    "video": "motion/bulge.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sweep",
+     "at": 0.3
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "As Earth spins through them, we get high tide and low tide.",
+   "v": {
+    "img": "img/fundy-high.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The Sun makes tides too, but they're less than half as strong.",
+   "v": {
+    "mg": "bars",
+    "headline": "TIDAL PULL",
+    "bars": [
+     [
+      "MOON",
+      100,
+      "yellow"
+     ],
+     [
+      "SUN",
+      46,
+      "grey"
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sweep",
+     "at": 0.2
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "So without the Moon, only the Sun's tides are left.",
+   "v": {
+    "video": "motion/bulge.mp4",
+    "start": 3.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut"
+  },
+  {
+   "text": "They'd be less than half the size we're used to,",
+   "v": {
+    "video": "stock/tide-town.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and they'd look almost the same every day of the month.",
+   "v": {
+    "img": "img/phases.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "No more spring tides. No more king tides.",
+   "v": {
+    "video": "stock/swell.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/nospring",
+     "at": "@spring"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@spring",
+     "gain": 0.7
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "In Canada's Bay of Fundy, home of the highest tides on Earth,",
+   "v": {
+    "img": "img/fundy-low.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/fundy",
+     "at": "@Bay"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "the water can rise and fall by about sixteen metres.",
+   "v": {
+    "img": "img/fundy-high.jpg",
+    "focus": [
+     0.4,
+     0.6
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.6
+    ],
+    "to_zoom": 1.5
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/m16",
+     "at": "@sixteen-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That show would shrink to a fraction of its size.",
+   "v": {
+    "img": "img/fundy-low.jpg",
+    "focus": [
+     0.4,
+     0.65
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.65
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Tidal power plants, like La Rance in France,",
+   "v": {
+    "img": "img/tidal-dam.jpg",
+    "focus": [
+     0.55,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/rance",
+     "at": "@Rance"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "which has been making electricity from the tides since nineteen sixty six,",
+   "v": {
+    "img": "img/tidal-dam.jpg",
+    "focus": [
+     0.65,
+     0.6
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.65,
+     0.6
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "would lose most of their energy.",
+   "v": {
+    "img": "img/tidal-dam.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@lose"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The bigger change happens underwater.",
+   "v": {
+    "video": "stock/deep-rays.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Tides don't just move water up and down a beach.",
+   "v": {
+    "video": "stock/foam.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "As they slosh across the ocean floor, they help stir the deep sea,",
+   "v": {
+    "img": "img/deep-ocean.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "mixing heat and nutrients through the oceans.",
+   "v": {
+    "video": "stock/fish-blue.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Weaker tides mean a calmer, more layered ocean,",
+   "v": {
+    "video": "stock/sun-path.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and over time, that could shift ocean currents and the climates that depend on them.",
+   "v": {
+    "video": "stock/hurricane-space.mp4",
+    "start": 1.0,
+    "zoom": 1.05,
+    "drift": 0.12
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And along every coastline, a whole world is about to shrink.",
+   "v": {
+    "video": "stock/cliffs.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The intertidal zone, the strip of shore that floods and drains every day,",
+   "v": {
+    "img": "img/rock-pool.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "THE INTERTIDAL ZONE",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "is home to crabs,",
+   "v": {
+    "video": "stock/crab.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "mussels, sea stars,",
+   "v": {
+    "video": "stock/starfish.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "barnacles and countless birds that feed there at low tide.",
+   "v": {
+    "img": "img/mudflat-birds.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "With smaller tides, that strip gets narrower,",
+   "v": {
+    "video": "stock/tide-birds.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and much of the life squeezed into it loses its home.",
+   "v": {
+    "img": "img/rock-pool.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But for some animals, losing the Moon means losing something even more important.",
+   "v": {
+    "video": "stock/moon-cloud2.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Their calendar.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THEIR CALENDAR",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 170
+   },
+   "in": "flash",
+   "voice_fx": {
+    "at": "@calendar",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@calendar"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Chapter three. The animals that lose their clock.",
+   "v": {
+    "video": "motion/ch3.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every year, a few nights after a full Moon in late spring,",
+   "v": {
+    "img": "img/reef-moon.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "the Great Barrier Reef does something incredible.",
+   "v": {
+    "video": "stock/coral.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/reef",
+     "at": "@Great"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "More than a hundred kinds of coral",
+   "v": {
+    "video": "stock/coral.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/coral100",
+     "at": "@hundred-0.2"
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "release their eggs and sperm at almost the same moment,",
+   "v": {
+    "img": "img/coral-spawn.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.35
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "filling the water like an underwater snowstorm.",
+   "v": {
+    "img": "img/coral-spawn.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@snowstorm"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Corals have no eyes, but they can sense moonlight.",
+   "v": {
+    "video": "stock/coral2.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Scientists think the changing light of the Moon helps them pick the right night.",
+   "v": {
+    "img": "img/reef-moon.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Without the Moon, that signal disappears.",
+   "v": {
+    "img": "img/reef-moon.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.2
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@disappears"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@disappears"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Spawning could drift out of sync,",
+   "v": {
+    "video": "stock/reef-fish.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and when corals spawn at different times, far fewer eggs meet.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "FAR FEWER",
+      "white"
+     ],
+     [
+      "EGGS MEET",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@eggs"
+    ],
+    "size": 150
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "On the beaches of California, little silver fish called grunion",
+   "v": {
+    "img": "img/grunion.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/grunion",
+     "at": "@grunion"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "wait for the highest tides after a full or new Moon.",
+   "v": {
+    "video": "stock/moon-glow.mp4",
+    "start": 2.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then they ride the waves up onto the sand to lay their eggs.",
+   "v": {
+    "img": "img/grunion.jpg",
+    "focus": [
+     0.4,
+     0.7
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.7
+    ],
+    "to_zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@ride"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "About ten days later, the next big tides wash the hatchlings out to sea.",
+   "v": {
+    "video": "stock/waves-aerial.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "+ 10 DAYS",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "With tiny tides that barely change, that perfect timing is gone.",
+   "v": {
+    "video": "stock/tide-sunset.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In Delaware Bay, horseshoe crabs,",
+   "v": {
+    "img": "img/horseshoe-crabs.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/delaware",
+     "at": "@Delaware"
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "animals older than the dinosaurs,",
+   "v": {
+    "img": "img/horseshoe-crabs.jpg",
+    "focus": [
+     0.45,
+     0.65
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.65
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "crawl ashore by the hundreds of thousands to spawn on the high tides of late spring,",
+   "v": {
+    "video": "stock/hermit.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "with the biggest crowds around new and full Moons.",
+   "v": {
+    "img": "img/phases.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Their eggs feed migrating birds like the red knot,",
+   "v": {
+    "img": "img/red-knot.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "which flies thousands of kilometres and stops here to refuel.",
+   "v": {
+    "video": "stock/birds-sky.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Break the crabs' timing, and you break the birds' journey too.",
+   "v": {
+    "img": "img/red-knot.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@Break"
+    }
+   ]
+  },
+  {
+   "text": "And it's not just the ocean.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT JUST",
+      "white"
+     ],
+     [
+      "THE OCEAN",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@ocean"
+    ],
+    "size": 150
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Dung beetles in Africa use polarised moonlight",
+   "v": {
+    "img": "img/dung-beetle.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/beetle",
+     "at": "@Dung"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "to roll their dung balls in a straight line at night.",
+   "v": {
+    "video": "stock/beetles.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Predators follow the Moon, too.",
+   "v": {
+    "img": "img/owl-night.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Lions in Tanzania catch more prey on the darkest nights, when there's little moonlight.",
+   "v": {
+    "img": "img/lions-night.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/lions",
+     "at": "@Lions"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So for lions, a moonless world might be a better world.",
+   "v": {
+    "video": "stock/lion-face.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "For the animals they hunt, it's a nightmare.",
+   "v": {
+    "img": "img/zebra-night.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@nightmare",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Even tiny animals in the Arctic Ocean,",
+   "v": {
+    "video": "stock/jellyfish.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "during the months-long polar night, move up and down through the water following the Moon.",
+   "v": {
+    "img": "img/arctic-plankton.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/arctic",
+     "at": "@polar"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Take the Moon away, and one of the oldest clocks on Earth stops ticking.",
+   "v": {
+    "video": "stock/clock.mp4",
+    "start": 3.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@stops"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "But the biggest change of all would take much longer to arrive.",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "music_fx": "muffle",
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Our seasons.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "OUR SEASONS",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 170
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@seasons"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Chapter four. Wobbling seasons.",
+   "v": {
+    "video": "motion/ch4.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Earth is tilted.",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Right now, its axis leans by about twenty three and a half degrees,",
+   "v": {
+    "video": "motion/tilt.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and that tilt is the reason we have seasons.",
+   "v": {
+    "img": "img/summer-winter.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "When your half of the planet leans toward the Sun, it's summer.",
+   "v": {
+    "video": "stock/meadow.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "When it leans away, it's winter.",
+   "v": {
+    "video": "stock/snow-trees.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That tilt isn't perfectly fixed.",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Today it rocks gently between about twenty two and twenty four and a half degrees,",
+   "v": {
+    "video": "motion/tilt.mp4",
+    "start": 0.3,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "over a cycle of about forty one thousand years.",
+   "v": {
+    "video": "stock/sky-milky.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/yr41k",
+     "at": "@forty-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Part of the reason it stays so steady is the Moon.",
+   "v": {
+    "video": "stock/moon-glow.mp4",
+    "start": 3.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Its gravity tugs on Earth's bulging middle",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and keeps our planet spinning like a steady top.",
+   "v": {
+    "video": "stock/globe.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Without the Moon, the pulls from the other planets",
+   "v": {
+    "img": "img/earth-alone.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "would have far more say over our tilt.",
+   "v": {
+    "video": "stock/sky-milky.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In the nineteen nineties, scientists ran simulations",
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 1993,
+    "roll": 0.8,
+    "label": "THE SIMULATIONS"
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "suggesting that a Moonless Earth could tip chaotically,",
+   "v": {
+    "video": "motion/tilt.mp4",
+    "start": 3.2,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/laskar",
+     "at": 0.3
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "anywhere from almost upright to more than eighty degrees.",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "0° → 80°+",
+       "red"
+      ]
+     ],
+     "times": [
+      "@eighty"
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "shake": [
+    "@eighty"
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Newer studies found the swings would probably be smaller and slower than feared,",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/lissauer",
+     "at": "@Newer"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "perhaps ten to twenty degrees, playing out over hundreds of millions of years.",
+   "v": {
+    "video": "stock/sky-dusk.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "10–20°",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@ten"
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But even that is enough to change everything.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "ENOUGH TO",
+      "white"
+     ],
+     [
+      "CHANGE EVERYTHING",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@change"
+    ],
+    "size": 150
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Imagine Earth tilted at just ten degrees.",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "10°",
+       "yellow"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 200,
+     "dy": -120,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Seasons would almost vanish.",
+   "v": {
+    "video": "stock/grass.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Summer and winter would feel nearly the same.",
+   "v": {
+    "img": "img/summer-winter.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Now tilt it to forty five degrees.",
+   "v": {
+    "img": "img/earth-tilt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "flash",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "45°",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 200,
+     "dy": -120,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "shake": [
+    "@forty"
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Summers would be scorching,",
+   "v": {
+    "img": "img/endless-summer.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "winters brutal,",
+   "v": {
+    "video": "stock/snow.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and huge parts of the planet would spend months in darkness",
+   "v": {
+    "img": "img/polar-night.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "or in constant daylight.",
+   "v": {
+    "video": "stock/sun-blaze.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Ice ages could come and go in new patterns,",
+   "v": {
+    "img": "img/ice-age.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and whole ecosystems would have to move, adapt, or die out.",
+   "v": {
+    "video": "stock/forest-top.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "MOVE.",
+       "white"
+      ],
+      [
+       "ADAPT.",
+       "yellow"
+      ],
+      [
+       "OR DIE OUT.",
+       "red"
+      ]
+     ],
+     "times": [
+      "@move",
+      "@adapt",
+      "@die"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@move"
+    },
+    {
+     "name": "pop",
+     "at": "@adapt"
+    },
+    {
+     "name": "bass",
+     "at": "@die"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Mars is a warning.",
+   "v": {
+    "img": "img/mars-tilt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@warning",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Its two tiny moons are far too small to steady it,",
+   "v": {
+    "img": "img/mars-tilt.jpg",
+    "focus": [
+     0.3,
+     0.3
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.3,
+     0.3
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and over millions of years its tilt has swung wildly,",
+   "v": {
+    "img": "img/mars-tilt.jpg",
+    "focus": [
+     0.6,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "shake": [
+    "@wildly"
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "possibly beyond sixty degrees.",
+   "v": {
+    "img": "img/mars-ice.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "60°+",
+       "red"
+      ]
+     ],
+     "times": [
+      "@sixty"
+     ],
+     "size": 190,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That's one reason Mars has gone through climate swings unlike anything we know.",
+   "v": {
+    "img": "img/mars-ice.jpg",
+    "focus": [
+     0.6,
+     0.55
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.55
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But the Moon doesn't just steady how Earth leans.",
+   "v": {
+    "video": "stock/moon-cloud.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It also controls how fast it spins.",
+   "v": {
+    "video": "stock/earth-turn.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@spins"
+    }
+   ]
+  },
+  {
+   "text": "Chapter five. The length of a day.",
+   "v": {
+    "video": "motion/ch5.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Here's something strange.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SOMETHING",
+      "white"
+     ],
+     [
+      "STRANGE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@strange"
+    ],
+    "size": 150
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "A day on Earth hasn't always been twenty four hours long.",
+   "v": {
+    "video": "stock/sunrise.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "24 H?",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@twenty"
+     ],
+     "size": 180,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "As the tides drag against the ocean floor,",
+   "v": {
+    "video": "stock/foam.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "they act like a very slow brake on Earth's spin.",
+   "v": {
+    "video": "stock/globe.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every century, our day gets about two thousandths of a second longer.",
+   "v": {
+    "video": "stock/hourglass.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/ms2",
+     "at": "@two-0.2"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It doesn't sound like much.",
+   "v": {
+    "video": "stock/clock.mp4",
+    "start": 5.0,
+    "zoom": 1.25,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But over hundreds of millions of years, it adds up.",
+   "v": {
+    "video": "stock/sky-milky.mp4",
+    "start": 5.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "When the dinosaurs lived, a day was about twenty three and a half hours,",
+   "v": {
+    "video": "motion/daylength.mp4",
+    "start": 1.2,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and a year had around three hundred and seventy days.",
+   "v": {
+    "img": "img/young-earth.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/d370",
+     "at": "@three-0.2"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "One study of ancient rocks found that one point four billion years ago,",
+   "v": {
+    "img": "img/giant-tide.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/meyers",
+     "at": 0.3
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "a day lasted only about eighteen and a half hours.",
+   "v": {
+    "video": "motion/daylength.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And that energy doesn't just disappear.",
+   "v": {
+    "video": "stock/waves-aerial.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "As Earth slows down, the Moon gets pushed farther away.",
+   "v": {
+    "img": "img/moon-drift.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2",
+     "at": "@pushed"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Every year, it drifts about three point eight centimetres further from us.",
+   "v": {
+    "img": "img/earth-moon.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/cm38",
+     "at": "@three-0.2"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "We know this precisely because Apollo astronauts left mirrors on the Moon,",
+   "v": {
+    "img": "img/retroreflector.jpg",
+    "focus": [
+     0.4,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.55
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/apollo",
+     "at": "@Apollo"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and scientists still bounce lasers off them today.",
+   "v": {
+    "img": "img/laser-moon.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": "@lasers",
+     "gain": 0.6
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "So what happens when the Moon is gone?",
+   "v": {
+    "img": "img/moon-vanish.jpg",
+    "focus": [
+     0.45,
+     0.35
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.35
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit"
+    }
+   ]
+  },
+  {
+   "text": "The biggest brake on Earth's spin disappears.",
+   "v": {
+    "video": "stock/earth-planet.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.15
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@disappears"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The Sun's tides would still slow us down, but far more gently.",
+   "v": {
+    "video": "stock/sun-blaze.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Our days would almost stop getting longer,",
+   "v": {
+    "video": "stock/sky-trees.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and twenty four hours would stay twenty four hours for a very, very long time.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "24 HOURS",
+      "yellow"
+     ],
+     [
+      "FOR A VERY, VERY",
+      "white"
+     ],
+     [
+      "LONG TIME",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@very",
+     "@long"
+    ],
+    "size": 140
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "That sounds like good news.",
+   "v": {
+    "video": "stock/meadow.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But it makes you wonder what kind of world we'd have",
+   "v": {
+    "img": "img/earth-alone.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "if the Moon had never been there at all.",
+   "v": {
+    "video": "stock/moon-cloud.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some scientists think that without the Moon slowing it down,",
+   "v": {
+    "video": "stock/globe.mp4",
+    "start": 5.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Earth could be spinning much faster today, with days far shorter than ours.",
+   "v": {
+    "video": "stock/earth-turn.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06,
+    "rate": 1.6
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh",
+     "at": "@faster"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "A faster spin could mean stronger winds,",
+   "v": {
+    "video": "stock/reeds.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "wilder storms,",
+   "v": {
+    "video": "stock/storm.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "shake": [
+    0.1
+   ]
+  },
+  {
+   "text": "and a very different climate.",
+   "v": {
+    "img": "img/spin-storms.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@different",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Which brings us to the biggest question of all.",
+   "v": {
+    "video": "stock/moon-cloud2.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Chapter six. A world without a Moon.",
+   "v": {
+    "video": "motion/ch6.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Think about all the things that would quietly disappear.",
+   "v": {
+    "video": "stock/sky-dusk.mp4",
+    "start": 5.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "No more solar eclipses.",
+   "v": {
+    "img": "img/eclipse.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/noeclipse",
+     "at": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": 0.25,
+     "gain": 0.7
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The Moon is about four hundred times smaller than the Sun,",
+   "v": {
+    "video": "motion/eclipse400.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "but also about four hundred times closer,",
+   "v": {
+    "video": "motion/eclipse400.mp4",
+    "start": 1.4,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "so it fits almost perfectly over it.",
+   "v": {
+    "img": "img/eclipse.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Without it, the sky's greatest show is gone forever.",
+   "v": {
+    "img": "img/eclipse.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.0
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@gone"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "No more lunar eclipses. No more blood Moons.",
+   "v": {
+    "img": "img/blood-moon.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@blood"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Our calendars would lose their anchor too.",
+   "v": {
+    "img": "img/calendar-moon.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The word month comes from Moon,",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "MONTH",
+      "white"
+     ],
+     [
+      "← MOON",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@Moon"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@Moon"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "and Ramadan, Easter, Passover,",
+   "v": {
+    "video": "stock/red-lanterns.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Diwali and Lunar New Year are all timed by its phases.",
+   "v": {
+    "img": "img/lanterns.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But some scientists think the Moon's biggest gift came long before any of that.",
+   "v": {
+    "img": "img/young-earth.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "About four and a half billion years ago,",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "4.5 BILLION",
+      "yellow"
+     ],
+     [
+      "YEARS AGO",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@billion"
+    ],
+    "size": 170
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "a planet roughly the size of Mars is thought to have smashed into the young Earth.",
+   "v": {
+    "img": "img/theia.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/theia",
+     "at": "@planet"
+    }
+   ],
+   "shake": [
+    "@smashed"
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@smashed"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "The debris came together to form the Moon.",
+   "v": {
+    "img": "img/debris-ring.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Back then, the Moon was much closer, and its tides were enormous.",
+   "v": {
+    "img": "img/giant-tide.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "shake": [
+    "@enormous"
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some researchers think those tides,",
+   "v": {
+    "img": "img/giant-tide.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "flooding and drying coastal pools again and again,",
+   "v": {
+    "img": "img/tide-pools-life.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "could have helped the first building blocks of life come together.",
+   "v": {
+    "img": "img/tide-pools-life.jpg",
+    "focus": [
+     0.5,
+     0.7
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.7
+    ],
+    "to_zoom": 1.9
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@life"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Others think the Moon's steadying pull",
+   "v": {
+    "img": "img/earth-moon.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "gave life billions of years of fairly stable seasons to evolve.",
+   "v": {
+    "video": "stock/blossom.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Nobody knows for sure.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOBODY",
+      "white"
+     ],
+     [
+      "KNOWS FOR SURE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@knows"
+    ],
+    "size": 150
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "But it's possible that without the Moon, we wouldn't be here to miss it.",
+   "v": {
+    "video": "stock/sky-milky.mp4",
+    "start": 8.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "voice_fx": {
+    "at": "@miss",
+    "fx": "echo"
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And here's a myth worth busting.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "MYTH",
+      "white"
+     ],
+     [
+      "BUSTED",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@busting"
+    ],
+    "size": 150
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Many people believe the Moon shields us from asteroids.",
+   "v": {
+    "img": "img/asteroid-moon.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It doesn't.",
+   "v": {
+    "img": "img/asteroid-moon.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/myth",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": 0.05
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "It's far too small and too far away to block more than a tiny fraction of them.",
+   "v": {
+    "video": "stock/earth-night.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So, what if the Moon disappeared?",
+   "v": {
+    "img": "img/moon-city.jpg",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.47,
+     0.3
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "dip",
+   "pause_before": 0.3,
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The first night would be strangely beautiful, full of stars.",
+   "v": {
+    "img": "img/milky-way-desert.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But slowly, the tides would shrink,",
+   "v": {
+    "video": "stock/tide-sunset.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "the animals would lose their clock,",
+   "v": {
+    "img": "img/coral-spawn.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and over millions of years, our seasons could start to wobble.",
+   "v": {
+    "video": "motion/tilt.mp4",
+    "start": 3.2,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The good news?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE GOOD",
+      "white"
+     ],
+     [
+      "NEWS?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@news"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "correct",
+     "at": "@news",
+     "gain": 0.5
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "The Moon isn't going anywhere.",
+   "v": {
+    "video": "stock/moon-glow.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's drifting away by just a few centimetres a year.",
+   "v": {
+    "img": "img/moon-drift.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In about six hundred million years, it will look too small to cover the Sun,",
+   "v": {
+    "img": "img/moon-small-eclipse.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/myr600",
+     "at": "@six-0.2"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the last total solar eclipse on Earth will happen.",
+   "v": {
+    "img": "img/eclipse.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So next time you see the Moon, take a second look.",
+   "v": {
+    "img": "img/moonrise-ocean.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's been holding our world together all along.",
+   "v": {
+    "img": "img/earth-moon.jpg",
+    "focus": [
+     0.4,
+     0.55
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.55
+    ],
+    "to_zoom": 1.0
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/together",
+     "at": 0.2,
+     "hold": true
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@together"
+    }
+   ],
+   "in": "whip"
+  }
+ ]
+}
