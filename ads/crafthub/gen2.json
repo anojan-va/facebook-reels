@@ -1,0 +1,24 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/p-person1-sad.jpg",
+   "refs": [
+    "img/p-person1.jpg"
+   ],
+   "seed": 2,
+   "size": "1152x1152",
+   "prompt": "Keep this exact paper cut-out character and style, same hair, clothes, colours and paper texture, but now she looks lonely and a little sad, small frown, eyes looking down, shoulders slightly slumped. Pure plain white background, no text."
+  },
+  {
+   "out": "img/p-person1-laugh.jpg",
+   "refs": [
+    "img/p-person1.jpg"
+   ],
+   "seed": 3,
+   "size": "1152x1152",
+   "prompt": "Keep this exact paper cut-out character and style, same hair, clothes, colours and paper texture, but now she is laughing happily with eyes closed and one hand raised in a wave. Pure plain white background, no text."
+  }
+ ]
+}

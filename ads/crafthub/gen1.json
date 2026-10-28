@@ -1,0 +1,96 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "workers": 8,
+ "jobs": [
+  {
+   "out": "img/o-mug.jpg",
+   "prompt": "Studio product photo of a handmade wheel-thrown ceramic mug with a glossy terracotta glaze dripping over a raw sand-coloured clay base, slightly imperfect handmade shape, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/o-lino.jpg",
+   "prompt": "Studio product photo of a handmade lino-cut printed Christmas card showing a deep green pine tree print on cream paper, with a small wooden lino carving tool and a rubber ink roller next to it, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/o-wine-clay.jpg",
+   "prompt": "Studio product photo of a glass of red wine next to a small handmade unglazed clay bowl with fingerprints in the clay, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/o-hoop.jpg",
+   "prompt": "Studio product photo of a wooden embroidery hoop with colourful hand-stitched wildflowers in terracotta, mustard and sage green thread on cream linen, a needle with thread hanging from it, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/o-wallet.jpg",
+   "prompt": "Studio product photo of a handmade tan leather card wallet with visible white saddle stitching, slightly open, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/o-tea.jpg",
+   "prompt": "Studio product photo of two cosy ceramic tea mugs side by side with a ball of mustard yarn, a paintbrush and a few coloured paper scraps, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/o-wonky.jpg",
+   "prompt": "Studio product photo of a cute, very lopsided and wonky handmade clay mug with an uneven rim and a crooked handle, glazed sage green, charming beginner pottery, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/o-yarn.jpg",
+   "prompt": "Studio product photo of a ball of chunky terracotta wool yarn with two wooden knitting needles, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/o-palette.jpg",
+   "prompt": "Studio product photo of a small watercolour paint palette with a paintbrush, isolated on a pure plain white background, soft natural daylight, a soft subtle shadow under it, centred, sharp focus, realistic textures, no text, no logos, no people, no hands.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/p-tower.jpg",
+   "prompt": "Layered paper cut-out craft illustration of the Berlin TV tower (Fernsehturm) standing tall, simple iconic silhouette with its round sphere, made of textured coloured craft paper with visible cut edges, paper layers and small drop shadows between layers, flat colours in terracotta, cream, sage green, mustard and deep green, on a pure plain white background, centred, no text.",
+   "size": "1152x2048",
+   "seed": 1
+  },
+  {
+   "out": "img/p-table.jpg",
+   "prompt": "Top-down view of a long rectangular wooden craft table seen exactly from above, warm oak wood with visible grain, completely empty, flat even lighting, on a pure plain white background, no chairs, no people, no objects, no text.",
+   "size": "1152x2048",
+   "seed": 1
+  },
+  {
+   "out": "img/p-person1.jpg",
+   "prompt": "Layered paper cut-out craft illustration of a friendly young woman with curly dark hair in a claw clip and a mustard yellow cardigan over a terracotta top, waist up, facing the viewer, smiling warmly, made of textured coloured craft paper with visible cut edges, paper layers and small drop shadows between layers, flat colours in terracotta, cream, sage green, mustard and deep green, on a pure plain white background, centred, no text.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/p-person2.jpg",
+   "prompt": "Layered paper cut-out craft illustration of a friendly young man with a short beard and a mustard beanie, waist up, facing the viewer, smiling warmly, made of textured coloured craft paper with visible cut edges, paper layers and small drop shadows between layers, flat colours in terracotta, cream, sage green, mustard and deep green, on a pure plain white background, centred, no text.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/p-person3.jpg",
+   "prompt": "Layered paper cut-out craft illustration of a cheerful young woman wearing a sage green hijab and a terracotta sweater, waist up, facing the viewer, smiling warmly, made of textured coloured craft paper with visible cut edges, paper layers and small drop shadows between layers, flat colours in terracotta, cream, sage green, mustard and deep green, on a pure plain white background, centred, no text.",
+   "size": "1152x1152",
+   "seed": 1
+  },
+  {
+   "out": "img/p-person4.jpg",
+   "prompt": "Layered paper cut-out craft illustration of a smiling older man with grey hair, round glasses and a deep green knit vest, waist up, facing the viewer, smiling warmly, made of textured coloured craft paper with visible cut edges, paper layers and small drop shadows between layers, flat colours in terracotta, cream, sage green, mustard and deep green, on a pure plain white background, centred, no text.",
+   "size": "1152x1152",
+   "seed": 1
+  }
+ ]
+}
