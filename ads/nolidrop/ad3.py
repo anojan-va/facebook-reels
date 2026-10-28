@@ -15,9 +15,14 @@ from ad3_motion import emoji, end_card, num_badge, pill, scribble, sticker
 CLIP_FPS = 24
 
 
+NFRAMES = {}
+
+
 @lru_cache(maxsize=64)
 def clip_frame(cid, n):
-    n = int(min(max(n, 0), 96))
+    if cid not in NFRAMES:
+        NFRAMES[cid] = len(list((K.HERE / "work" / "clips" / cid).glob("*.jpg")))
+    n = int(min(max(n, 0), NFRAMES[cid] - 1))
     im = cv2.imread(str(K.HERE / "work" / "clips" / cid / f"{n + 1:03d}.jpg"))[..., ::-1]
     return np.ascontiguousarray(im)
 
@@ -73,14 +78,48 @@ def video(cid, ct, z=1.0, fx=0.5, fy=0.5, screen=None, rot=0.0, shake=0.6, t=0.0
     return out, quad
 
 
+# ------------------------------------------------------------------ lip sync (Google Omni talking shots)
+# Phrase spans in each Omni clip (s), fitted to maximise the correlation between the clip's speech envelope and our
+# voice's (grid search ±0.24 s around the hand-measured spans; corr 0.60-0.92); word ranges index our voice's words.
+OMNI = {
+    "A1": ("OA-hook", (0, 2), (0.27, 1.14)),     # "Okay, pool owners,"
+    "A2": ("OA-hook", (3, 9), (2.01, 3.34)),     # "don't go to the pool store yet."
+    "B1": ("OB-steps", (38, 39), (1.21, 1.46)),  # "Step one."
+    "B2": ("OB-steps", (40, 41), (2.27, 2.78)),  # "Step two."
+    "C1": ("OC-knows", (42, 43), (0.74, 1.16)),  # "Don't guess."
+    "C2": ("OC-knows", (44, 45), (1.93, 2.40)),  # "Noli knows."
+}
+
+
+def lipsync_time(ctx, phrases, t_abs):
+    """Clip time for ad time t_abs: each phrase of our voice is mapped onto the same phrase in the clip (the clip
+    plays 0.8-1.2x inside a phrase so mouth start/end land on the words); outside, it runs at 1x from the nearest
+    phrase; between two phrases of one shot it interpolates."""
+    spans = []
+    for p in phrases:
+        cid, (w0, w1), (o0, o1) = OMNI[p]
+        spans.append((ctx["words"][w0][1], ctx["words"][w1][2], o0, o1))
+    for i, (a0, a1, o0, o1) in enumerate(spans):
+        if t_abs < a0:
+            if i == 0:
+                return o0 - (a0 - t_abs)
+            pa0, pa1, po0, po1 = spans[i - 1]
+            return po1 + (t_abs - pa1) * (o0 - po1) / max(a0 - pa1, 1e-3)
+        if t_abs <= a1:
+            return o0 + (t_abs - a0) * (o1 - o0) / max(a1 - a0, 1e-3)
+    a0, a1, o0, o1 = spans[-1]
+    return o1 + (t_abs - a1)
+
+
 # ------------------------------------------------------------------ scenes
 def s_hook(t, d, a, ctx):
-    fr, _ = video("K1", 0.15 + t, 1.0, 0.5, 0.45)
+    fr, _ = video("OA-hook", lipsync_time(ctx, ["A1"], ctx["starts"][0] + t), 1.0, 0.5, 0.45)
     return fr
 
 
 def s_hook2(t, d, a, ctx):
-    fr, _ = video("K1", 1.15 + t * 0.9, 1.32, 0.42, 0.33)
+    # jump cut over her pause: straight onto "don't go to the pool store yet", punched in
+    fr, _ = video("OA-hook", lipsync_time(ctx, ["A2"], ctx["starts"][1] + t), 1.3, 0.47, 0.33)
     p = (t - 0.15) / 0.25
     if p > 0:
         K.paste(fr, emoji("✋", 170), K.W * 0.82, 360, K.ease_back(p, 2.5), rot=-10)
@@ -147,22 +186,22 @@ def s_fix_first(t, d, a, ctx):
 
 
 def s_steps(t, d, a, ctx):
-    # the clip shows one finger, then two at ~2.9 s: map it so "two" lands on the spoken word
-    two_at = ctx["words"][40][1] - ctx["starts"][8] + 0.1
-    ct = 2.9 - two_at + t
-    fr, _ = video("K6", ct, 1.12, 0.5, 0.36)
-    for i in range(2):
-        at = 0.05 if i == 0 else two_at
-        p = (t - at) / 0.22
+    """'Step one' / 'Step two' as two jump-cut shots (her pause between them is cut out)."""
+    si = a["si"]
+    two = a["n"] == 2
+    fr, _ = video("OB-steps", lipsync_time(ctx, ["B2" if two else "B1"], ctx["starts"][si] + t), 1.22 if two else 1.08,
+                  0.5, 0.36)
+    for i in range(a["n"]):
+        p = 1.0 if (two and i == 0) else (t - 0.05) / 0.22
         if p > 0:
             K.paste(fr, num_badge(str(i + 1)), K.W * (0.16 + i * 0.2), 330, K.ease_back(p, 2.6) * 0.8, rot=(-1) ** i * 8)
     return fr
 
 
 def s_knows(t, d, a, ctx):
-    # the wink in the clip (~2.2 s) lands on "knows"
-    knows = ctx["words"][45][1] - ctx["starts"][9]
-    fr, q = video("K7", 2.2 - knows + t, 1.05, 0.5, 0.42, K.ui_home())
+    si = a["si"]
+    knows = ctx["words"][45][2] - ctx["starts"][si]
+    fr, q = video("OC-knows", lipsync_time(ctx, ["C1", "C2"], ctx["starts"][si] + t), 1.05, 0.5, 0.42, K.ui_home())
     p = (t - knows - 0.05) / 0.35
     if p > 0:
         K.paste(fr, sticker("sprites/noli-thumbsup.png"), K.W * 0.22, K.H * 0.86, 0.42 * K.spring(p), rot=-8 + 3 * math.sin(t * 6),
@@ -186,8 +225,9 @@ shots = [
     dict(w=21, scene=s_type, tr="whip", sfx=[{"name": "tap", "at": 0.2 + 0.14 * i} for i in range(6)]),
     dict(w=27, scene=s_whats_off, tr="zoom", cap_y=1700, sfx=[{"name": "select", "at": 0.25}]),
     dict(w=33, scene=s_fix_first, cap_y=1700, sfx=[J, {"name": "pop", "at": 0.35}, {"name": "ding", "at": 0.15, "gain": 0.6}]),
-    dict(w=38, scene=s_steps, tr="whip", sfx=[{"name": "pop", "at": 0.05}, {"name": "pop", "at": 0.75}]),
-    dict(w=42, scene=s_knows, sfx=[J, {"name": "wink", "at": 1.17}, {"name": "bloop", "at": 1.25}]),
+    dict(w=38, scene=s_steps, a={"si": 8, "n": 1}, tr="whip", sfx=[{"name": "pop", "at": 0.05}]),
+    dict(w=40, scene=s_steps, a={"si": 9, "n": 2}, sfx=[J, {"name": "pop", "at": 0.05}]),
+    dict(w=42, scene=s_knows, a={"si": 10}, sfx=[J]),   # wink bell + bloop placed on her wink in __main__
     dict(w=46, scene=end_card, tr="slide", cap_y=1760, dur=3.0, sfx=[{"name": "pop", "at": 0.2}, {"name": "wink", "at": 0.45}]),
 ]
 
@@ -198,4 +238,10 @@ if __name__ == "__main__":
                 tail_gain=0.6)
     voice, words = K.prepare_voice(spec["voice"], K.HERE / "work" / spec["name"], spec["max_gap"], 1.0, spec["fixes"])
     shots[-1]["dur"] = words[-1][2] + 1.9 - (words[46][1] - 0.06)
+    # her wink in the Omni clip peaks ~2.0 s, inside "Noli knows" (C2 1.69-2.48 s): put the bell on it
+    a0, a1 = words[44][1], words[45][2]
+    o0, o1 = OMNI["C2"][2]
+    wink_abs = a0 + (2.0 - o0) * (a1 - a0) / (o1 - o0)
+    s10 = words[42][1] - 0.06
+    shots[10]["sfx"] += [{"name": "wink", "at": wink_abs - s10}, {"name": "bloop", "at": a1 - s10 + 0.12}]
     K.render(spec)

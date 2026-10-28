@@ -36,6 +36,7 @@ composition, which is how `bg-pool-blue` matches `bg-pool-green` for the ripple 
 | 1 | "$124 …" voice broke mid-sentence | Never trim pauses by Whisper word ends (they can be early): `prepare_voice` only removes samples from truly silent runs |
 | 1 | Music too loud, especially at the end | Music ~0.34 under VO (`duck` 0.36) and `tail_gain` ≈ 0.55 on the end card |
 | 1 | "Knife"-like sound (`sparkle` shing) on "Noli knows" and "Get it on Google Play" | Use the `wink` eye-blink bell for Noli/wink moments and the store CTA; avoid `sparkle` in ads |
+| 3 | Lips didn't match the voice (Kling clips) | Talking shots come from Google Omni (user-made, `omni/`, prompts in `deliveries/nolidrop-ad-3-omni/`); our voice is kept and each phrase of the clip is time-mapped onto it (`OMNI` spans in `ad3.py`, fitted by envelope correlation, 0.7–0.8) with jump cuts over her pauses |
 | 3 | Wanted real AI video for the UGC ad | Storyboard first with the best image model, user approves, then image-to-video (Kling 3.0 std ≈ 0.34 pollen per 4 s clip) |
 
 Ad 3 v1 (stills + motion, superseded) is `ad3_motion.py`.
