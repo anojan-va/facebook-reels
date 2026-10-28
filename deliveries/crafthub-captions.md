@@ -23,3 +23,11 @@ Come alone. Leave with friends (and a slightly wonky mug).
 Tag the friend you'd bring 👇 · thecrafthub.de
 
 #berlin #makingfriendsinberlin #expatsinberlin #berlincommunity #craftnight #potteryberlin #thingstodoinberlin #berlinlife #handmade #creativecommunity
+
+## Reel 3 — "POV: I went to a craft night alone" (UGC)
+POV: you moved to Berlin and wanted new friends 😬➡️🏺
+Went to a craft night alone, left with new friends (and a very wonky mug).
+Craft & Connect nights from €10 · no experience needed · mostly in English.
+Who would you bring? 👇 · thecrafthub.de
+
+#berlin #makingfriendsinberlin #expatsinberlin #potteryberlin #craftnight #thingstodoinberlin #berlinlife #pov #handmade #creativecommunity

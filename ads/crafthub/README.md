@@ -7,7 +7,7 @@ deep green #1f3b2c, terracotta #d45541; fonts Annie Use Your Telescope / Archite
 |---|---|---|---|
 | 1 "Berlin, you need a new hobby" | `reel1.py` | six real workshops as a scrapbook countdown, comment-a-number CTA | `okay` from 15.28 s |
 | 2 "Making friends in Berlin is hard" | `reel2.py` | paper-cut strangers become friends at a craft table + membership checklist | `happy-home` from 11.28 s |
-| 3 UGC "POV: I went to a craft night alone" | (Omni clips by the user) | storyboard + prompts in the chat / concepts | - |
+| 3 UGC "POV: I went to a craft night alone" | `reel3.py` | edit of the user's 5 Google Omni clips (`omni/`, not in git): her own lip-synced audio, jump cuts over pauses, word captions, paper sticker labels, end card | `happy-home` from 30 s, low |
 
 Look (`craftkit.py`, on top of `../nolidrop/adkit.py`): paper texture that boils, torn photo cards, washi tape,
 handwritten labels, self-drawing doodles (ticks, hearts, stars, stitches), paper-cut people, stop-motion on twos with jitter,
