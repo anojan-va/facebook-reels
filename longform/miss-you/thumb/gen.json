@@ -1,0 +1,37 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "art-walkaway-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a bright yellow round-headed cartoon stick figure walks away confidently with a small smile, hands in pockets, while behind him a plain white round-headed cartoon stick figure reaches one hand toward him with big sad longing eyes. The entire left half of the image is empty solid black.",
+   "seed": 1300
+  },
+  {
+   "out": "art-walkaway-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a bright yellow round-headed cartoon stick figure walks away confidently with a small smile, hands in pockets, while behind him a plain white round-headed cartoon stick figure reaches one hand toward him with big sad longing eyes. The entire left half of the image is empty solid black.",
+   "seed": 1301
+  },
+  {
+   "out": "art-phone-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure white background. On the right half: a plain white round-headed cartoon stick figure with thick black outline hugs a big smartphone to its chest with both arms, eyes closed, a small pink heart and a tear, missing someone; on the phone screen is a tiny yellow round face. The entire left half of the image is empty solid white.",
+   "seed": 1310
+  },
+  {
+   "out": "art-phone-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure white background. On the right half: a plain white round-headed cartoon stick figure with thick black outline hugs a big smartphone to its chest with both arms, eyes closed, a small pink heart and a tear, missing someone; on the phone screen is a tiny yellow round face. The entire left half of the image is empty solid white.",
+   "seed": 1311
+  },
+  {
+   "out": "art-empty-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure sits on a simple sofa looking sadly at the empty seat next to it, where a glowing yellow dotted outline of a round-headed stick figure shows where someone used to sit. The entire left half of the image is empty solid black.",
+   "seed": 1320
+  },
+  {
+   "out": "art-empty-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure sits on a simple sofa looking sadly at the empty seat next to it, where a glowing yellow dotted outline of a round-headed stick figure shows where someone used to sit. The entire left half of the image is empty solid black.",
+   "seed": 1321
+  }
+ ]
+}
