@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "art-c.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast, saturated deep blue and teal night, dramatic, sharp focus, simple bold composition. No people, no moon anywhere, no text, letters, logos or watermarks. Horizontal 16:9. Scene: a dark stormy ocean at night with huge waves crashing against a lighthouse on rocks on the left, an empty clear starry sky on the right with no moon, eerie, cold blue light.",
+   "seed": 71
+  },
+  {
+   "out": "art-d.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast, saturated deep blue and teal night, dramatic, sharp focus, simple bold composition. No people, no moon anywhere, no text, letters, logos or watermarks. Horizontal 16:9. Scene: the planet Earth seen from space on the left side, lit by the sun, the right side of the frame is empty black space with faint stars, lonely, cinematic.",
+   "seed": 72
+  },
+  {
+   "out": "art-e.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast, saturated deep blue and teal night, dramatic, sharp focus, simple bold composition. No people, no moon anywhere, no text, letters, logos or watermarks. Horizontal 16:9. Scene: a calm dark ocean horizon at night under a huge starry sky full of the Milky Way, the sky completely empty of any moon, a faint glow on the horizon, still water reflecting stars.",
+   "seed": 73
+  }
+ ]
+}

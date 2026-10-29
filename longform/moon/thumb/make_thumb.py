@@ -1,5 +1,5 @@
 """Thumbnail for the Moon what-if video (1280x720): AI art + bold text, arrow, glow. No people (user rule).
-Usage: python3 make_thumb.py  ->  thumbnail-no-moon.jpg"""
+Usage: python3 make_thumb.py  ->  thumbnail-no-moon.jpg (v1), thumbnail-moon-gone.jpg (v2)"""
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageEnhance
 
@@ -76,4 +76,30 @@ d.rectangle([tx + bb[0] - 22, ty + bb[1] - 12, tx + bb[2] + 22, ty + bb[3] + 12]
 outlined(bg, (tx, ty), "WHAT NOW?", 100, WHITE, stroke=7)
 arrow(bg, (330, 250), (760, 230))
 bg.convert("RGB").save("thumbnail-no-moon.jpg", quality=92)
+
+# --- v2: Earth alone (left), glowing dashed outline where the Moon should be (right) + "MISSING" tag, "THE MOON IS GONE".
+bg = grade(cover("art-d.jpg", fx=0.2, fy=0.5, zoom=1.05)).convert("RGBA")
+cx, cy, r = 1020, 190, 135
+ring = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+dr = ImageDraw.Draw(ring)
+for k in range(28):                                   # dashed circle
+    a0 = k * 360 / 28
+    dr.arc([cx - r, cy - r, cx + r, cy + r], a0, a0 + 7, fill=(255, 255, 255, 255), width=9)
+glow = ring.filter(ImageFilter.GaussianBlur(10))
+bg.alpha_composite(glow); bg.alpha_composite(glow); bg.alpha_composite(ring)
+fq = ImageFont.truetype(ANTON, 170)
+outlined(bg, (cx - fq.getlength("?") / 2 - 6, cy - 132), "?", 170, WHITE, stroke=8)
+ft = ImageFont.truetype(ANTON, 62)
+tb = ft.getbbox("MISSING", stroke_width=5)
+tx, ty = cx - (tb[2] - tb[0]) / 2, cy + r + 18
+d = ImageDraw.Draw(bg)
+d.rectangle([tx + tb[0] - 16, ty + tb[1] - 8, tx + tb[2] + 16, ty + tb[3] + 8], fill=(*RED, 255), outline=(0, 0, 0, 255), width=6)
+outlined(bg, (tx, ty), "MISSING", 62, WHITE, stroke=5)
+f1 = ImageFont.truetype(ANTON, 130)
+x1 = W - 40 - f1.getbbox("THE MOON", stroke_width=10)[2]
+outlined(bg, (x1, 405), "THE MOON", 130, WHITE, stroke=10)
+x2 = W - 40 - f1.getbbox("IS GONE", stroke_width=10)[2]
+outlined(bg, (x2, 545), "IS GONE", 130, YELLOW, glow=(255, 160, 0), stroke=10)
+arrow(bg, (560, 170), (860, 175))
+bg.convert("RGB").save("thumbnail-moon-gone.jpg", quality=92)
 print("ok")
