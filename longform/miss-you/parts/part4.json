@@ -1,0 +1,389 @@
+{
+ "out": "../../output/miss-you/part4.mp4",
+ "audio": "p4.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 45.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "bw",
+  "captions": "punch",
+  "caption_y": 0.84,
+  "vignette": 0.42,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "The third thing I learned is about the moments themselves.",
+   "v": {
+    "mg": "lesson",
+    "num": "03",
+    "title": [
+     "LEAVE",
+     "MEMORIES"
+    ],
+    "title_at": 0.7
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "at": 0.0,
+     "gain": 0.6
+    },
+    {
+     "name": "boom",
+     "at": 0.7,
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Because when someone misses you, they don't miss you in general. They miss specific moments.",
+   "v": {
+    "video": "../stock/couple-walking-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "The way you laughed at that terrible movie together.",
+   "v": {
+    "img": "../img/m-movie.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The song you always played in the car.",
+   "v": {
+    "img": "../img/m-car-song.jpg",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The stupid inside joke that nobody else gets.",
+   "v": {
+    "video": "../stock/couple-laughing-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "The way you always order the same dessert and then steal theirs.",
+   "v": {
+    "img": "../img/m-dessert.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@steal"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Nobody has ever said, \"I really miss how available he was.\"",
+   "v": {
+    "mg": "quote",
+    "text": "\"I really miss how available he was.\"",
+    "end": "@was",
+    "width": 26
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "scratch",
+     "at": "@was+0.2"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "They say, \"I miss how he made me laugh.\" \"I miss our Sunday pancakes.\"",
+   "v": {
+    "mg": "polaroid",
+    "items": [
+     [
+      "/home/user/facebook-reels/longform/miss-you/img/m-laugh.jpg",
+      "how he made me laugh",
+      "@laugh-0.6"
+     ],
+     [
+      "/home/user/facebook-reels/longform/miss-you/img/m-pancakes.jpg",
+      "Sunday pancakes",
+      "@sunday"
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "name": "shutter",
+     "at": "@laugh-0.6"
+    },
+    {
+     "name": "shutter",
+     "at": "@sunday"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Moments. Always moments.",
+   "v": {
+    "mg": "polaroid",
+    "items": [
+     [
+      "/home/user/facebook-reels/longform/miss-you/img/m-movie.jpg",
+      "that terrible movie",
+      -1.0
+     ],
+     [
+      "/home/user/facebook-reels/longform/miss-you/img/m-car-song.jpg",
+      "our song",
+      0.05
+     ],
+     [
+      "/home/user/facebook-reels/longform/miss-you/img/m-dessert.jpg",
+      "stolen dessert",
+      "@always"
+     ]
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "shutter",
+     "at": 0.05
+    },
+    {
+     "name": "shutter",
+     "at": "@always"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I really believe the people we miss most are the ones who leave little pieces of themselves in our everyday lives.",
+   "v": {
+    "video": "../stock/couple-walking-2.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "So when they hear that song, they think of you.",
+   "v": {
+    "img": "../img/m-coffee-shop.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "When they walk past that diner, they think of you.",
+   "v": {
+    "video": "../stock/diner-1.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "That's not manipulation.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT MANIPULATION.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "That's just what happens when you actually share your life with someone.",
+   "v": {
+    "video": "../stock/couple-laughing-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "So stop trying to be impressive and start trying to be memorable.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "STOP BEING",
+     "IMPRESSIVE"
+    ],
+    "right": [
+     "START BEING",
+     "MEMORABLE"
+    ],
+    "at": "@memorable",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "reveal",
+     "at": "@memorable"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "Do something new together.",
+   "v": {
+    "video": "../stock/road-trip-2.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Start a tiny ritual.",
+   "v": {
+    "img": "../img/m-pancakes.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Give them a story they'll want to tell later.",
+   "v": {
+    "video": "../stock/campfire-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "One great evening does more than a hundred \"good morning\" texts.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "100 TEXTS",
+     "MORNINGS"
+    ],
+    "right": [
+     "ONE GREAT",
+     "EVENING"
+    ],
+    "at": "@than",
+    "left_at": 0.0
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  }
+ ]
+}

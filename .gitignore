@@ -29,3 +29,5 @@ longform/*/chapters/*.wav
 longform/*/chapters/*.log
 longform/*/parts/*.wav
 longform/*/parts/*.log
+longform/*/parts/old/
+longform/*/parts/takes/

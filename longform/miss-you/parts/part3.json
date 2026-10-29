@@ -1,0 +1,751 @@
+{
+ "out": "../../output/miss-you/part3.mp4",
+ "audio": "p3.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 110.0
+  },
+  {
+   "shot": 21,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 45.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "bw",
+  "captions": "punch",
+  "caption_y": 0.84,
+  "vignette": 0.42,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "And that brings me to the second thing, the one that actually made the difference.",
+   "v": {
+    "mg": "lesson",
+    "num": "02",
+    "title": [
+     "BE WORTH",
+     "MISSING"
+    ],
+    "title_at": 0.7
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "at": 0.0,
+     "gain": 0.6
+    },
+    {
+     "name": "boom",
+     "at": 0.7,
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "People don't miss you because you're gone.",
+   "v": {
+    "img": "../img/m-empty-outline.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "They miss you because of what's missing when you're gone.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THEY MISS",
+     "WHAT'S MISSING"
+    ],
+    "mark": [
+     "WHAT'S MISSING"
+    ],
+    "times": [
+     0.0,
+     "@what's"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Think about that for a second.",
+   "v": {
+    "video": "../stock/sad-man-6.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "If someone spends a weekend without you, what exactly are they losing?",
+   "v": {
+    "img": "../img/m-empty-outline.jpg",
+    "focus": [
+     0.75,
+     0.45
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "If the honest answer is \"someone who agrees with everything and is always free,\" there's nothing to miss.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "ALWAYS FREE",
+     "NOTHING TO MISS"
+    ],
+    "right": [
+     "FULL LIFE",
+     "WORTH MISSING"
+    ],
+    "at": 999.0,
+    "left_at": 0.0
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "But if you're the person who makes them laugh until it hurts,",
+   "v": {
+    "img": "../img/m-laugh.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "who notices when they're quiet,",
+   "v": {
+    "video": "../stock/couple-coffee-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "who drags them into some ridiculous adventure,",
+   "v": {
+    "video": "../stock/road-trip-2.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "that's a real hole when you're not there.",
+   "v": {
+    "img": "../img/m-empty-outline.jpg",
+    "focus": [
+     0.72,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": -0.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "So the question isn't \"How do I make them miss me?\"",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT \"HOW DO I MAKE",
+      "white"
+     ],
+     [
+      "THEM MISS ME?\"",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@them"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The question is \"What am I bringing that's worth missing?\"",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "WHAT AM I BRINGING",
+     "THAT'S WORTH",
+     "MISSING?"
+    ],
+    "mark": [
+     "MISSING?"
+    ],
+    "times": [
+     0.0,
+     "@that's",
+     "@missing"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@worth"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "And this is where most people get it backwards.",
+   "v": {
+    "img": "../img/m-juggle.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "pause_before": 0.25,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "They try to make themselves more available, when what they actually need is to make themselves more alive.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "MORE",
+     "AVAILABLE"
+    ],
+    "right": [
+     "MORE",
+     "ALIVE"
+    ],
+    "at": "@alive",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "reveal",
+     "at": "@alive"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "A life of your own.",
+   "v": {
+    "img": "../img/m-hobbies.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Your own friends,",
+   "v": {
+    "video": "../stock/friends-laughing-3.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "your own plans,",
+   "v": {
+    "video": "../stock/road-trip-7.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "your own weird hobbies,",
+   "v": {
+    "video": "../stock/climbing-2.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "the gym,",
+   "v": {
+    "img": "../img/m-gym.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.3
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "the guitar you never finish learning.",
+   "v": {
+    "img": "../img/m-hobbies.jpg",
+    "focus": [
+     0.2,
+     0.25
+    ],
+    "zoom": 2.2
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Not to look busy. To actually be someone with a world worth stepping into.",
+   "v": {
+    "img": "../img/m-hobbies.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": -0.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The funniest part is that when I finally started living like this,",
+   "v": {
+    "video": "../stock/climbing-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "pause_before": 0.3,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "I wasn't even trying to make anyone miss me.",
+   "v": {
+    "img": "../img/m-calm-bench.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "I joined a Thursday night climbing group because a friend dragged me.",
+   "v": {
+    "img": "../img/m-climb.jpg",
+    "focus": [
+     0.75,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.79,
+     0.4
+    ],
+    "to_zoom": 1.7,
+    "drift": 0
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "And three weeks in, the girl I'd just started seeing said,",
+   "v": {
+    "video": "../stock/couple-coffee-1.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "\"Wait, you're not free Thursday? What do you even do there?\"",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Dinner Thursday?",
+      "them",
+      0.1
+     ],
+     [
+      "Can't, climbing night 🧗",
+      "me",
+      "@thursday"
+     ],
+     [
+      "Wait what?? What do you even do there? 😂",
+      "them",
+      "@even"
+     ]
+    ],
+    "title": "Mia"
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": 0.1
+    },
+    {
+     "name": "pop",
+     "at": "@thursday"
+    },
+    {
+     "name": "pop",
+     "at": "@even"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "She was curious.",
+   "v": {
+    "img": "../img/m-curious.jpg",
+    "focus": [
+     0.35,
+     0.4
+    ],
+    "zoom": 1.3
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "For the first time, someone was curious about my life instead of just expecting me to be in theirs.",
+   "v": {
+    "img": "../img/m-curious.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "There's a principle psychologists talk about called scarcity.",
+   "v": {
+    "video": "../stock/bus-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "SCARCITY",
+     "at": "@scarcity",
+     "y": 0.78,
+     "size": 120
+    }
+   ],
+   "pause_before": 0.25,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    },
+    {
+     "name": "reveal",
+     "at": "@scarcity"
+    },
+    {
+     "name": "impact",
+     "at": "@scarcity",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Robert Cialdini wrote about it years ago.",
+   "v": {
+    "video": "../stock/diner-1.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "ROBERT CIALDINI",
+     "sub": "Influence: The Psychology of Persuasion (1984)",
+     "at": 0.1
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "We value things more when they're a little harder to get.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HARDER TO GET",
+      "white"
+     ],
+     [
+      "= MORE VALUE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@harder+0.4"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "But here's how I see it.",
+   "v": {
+    "video": "../stock/sad-man-3.mp4",
+    "start": 5.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Scarcity is ugly when you fake it.",
+   "v": {
+    "img": "../img/m-chess.jpg",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": "@fake",
+     "gain": 0.4
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "It's magnetic when it's real.",
+   "v": {
+    "img": "../img/m-climb.jpg",
+    "focus": [
+     0.78,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@real"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "When you genuinely have a full life, your time becomes valuable on its own.",
+   "v": {
+    "video": "../stock/running-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "You don't have to pretend.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NO PRETENDING.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  }
+ ]
+}

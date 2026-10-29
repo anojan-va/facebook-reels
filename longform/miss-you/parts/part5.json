@@ -1,0 +1,381 @@
+{
+ "out": "../../output/miss-you/part5.mp4",
+ "audio": "p5.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 60.0
+  },
+  {
+   "shot": 11,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 110.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "bw",
+  "captions": "punch",
+  "caption_y": 0.84,
+  "vignette": 0.42,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "And there's one more piece to this that changed everything for me. How you leave.",
+   "v": {
+    "mg": "lesson",
+    "num": "04",
+    "title": [
+     "HOW YOU",
+     "LEAVE"
+    ],
+    "title_at": 0.7
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "at": 0.0,
+     "gain": 0.6
+    },
+    {
+     "name": "boom",
+     "at": 0.7,
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "There's a well-known effect in psychology called the Zeigarnik effect.",
+   "v": {
+    "img": "../img/m-tv-question.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "THE ZEIGARNIK EFFECT",
+     "at": "@zeigarnik",
+     "y": 0.78,
+     "size": 120
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    },
+    {
+     "name": "reveal",
+     "at": "@zeigarnik"
+    },
+    {
+     "name": "impact",
+     "at": "@zeigarnik",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Our minds keep coming back to things that feel unfinished.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "UNFINISHED THINGS",
+     "STAY IN",
+     "YOUR HEAD"
+    ],
+    "mark": [
+     "UNFINISHED THINGS"
+    ],
+    "times": [
+     0.0,
+     "@back",
+     "@unfinished"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "An interrupted story sticks in your head longer than one that's wrapped up neatly.",
+   "v": {
+    "img": "../img/m-tv-question.jpg",
+    "focus": [
+     0.75,
+     0.4
+    ],
+    "zoom": 1.6
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "It's why TV shows end on cliffhangers.",
+   "v": {
+    "video": "../stock/movie-night-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    },
+    {
+     "name": "riser",
+     "at": "@cliffhangers",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "And it works with people too, in a much more innocent way.",
+   "v": {
+    "video": "../stock/couple-laughing-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I used to be the guy who stayed until the very end.",
+   "v": {
+    "img": "../img/m-closing-bar.jpg",
+    "focus": [
+     0.35,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "pause_before": 0.3,
+   "in": "cut"
+  },
+  {
+   "text": "The last one at the bar,",
+   "v": {
+    "img": "../img/m-closing-bar.jpg",
+    "focus": [
+     0.25,
+     0.55
+    ],
+    "zoom": 1.7
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "the last text of the night,",
+   "v": {
+    "img": "../img/m-texts-first.jpg",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "the phone call that went on until both of us were yawning.",
+   "v": {
+    "img": "../img/m-yawn-call.jpg",
+    "focus": [
+     0.35,
+     0.55
+    ],
+    "zoom": 1.2
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "And every conversation slowly ran out of gas.",
+   "v": {
+    "video": "../stock/sad-man-2.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Now I do the opposite.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE OPPOSITE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When we're laughing, when the energy is at its best,",
+   "v": {
+    "img": "../img/m-laugh.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "that's when I say, \"I have to go, but tell me the rest of that story tomorrow.\"",
+   "v": {
+    "img": "../img/m-wave-cafe.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And they always do.",
+   "v": {
+    "video": "../stock/phone-notification-0.mp4",
+    "start": 4.0,
+    "zoom": 1.15
+   },
+   "overlays": [
+    {
+     "mg": "notify",
+     "title": "Mia",
+     "text": "Ok so where was I... 😂",
+     "at": 0.15
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": 0.15,
+     "gain": 1.2
+    }
+   ]
+  },
+  {
+   "text": "Because now there's something to come back to.",
+   "v": {
+    "img": "../img/m-wave-cafe.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Leave while it's good.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "LEAVE WHILE",
+     "IT'S GOOD"
+    ],
+    "mark": [
+     "IT'S GOOD"
+    ],
+    "times": [
+     0.0,
+     "@good"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "sparkle",
+     "at": "@good"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "Leave them wanting the next conversation, not relieved that this one is finally over.",
+   "v": {
+    "mg": "curve",
+    "title": "HOW THEY REMEMBER IT",
+    "draw": 2.2,
+    "peak_at": "@wanting",
+    "end_at": "@relieved"
+   },
+   "in": "cut",
+   "captions": false
+  }
+ ]
+}

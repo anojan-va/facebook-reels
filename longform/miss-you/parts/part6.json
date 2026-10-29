@@ -1,0 +1,573 @@
+{
+ "out": "../../output/miss-you/part6.mp4",
+ "audio": "p6.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 60.0
+  },
+  {
+   "shot": 12,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 45.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "bw",
+  "captions": "punch",
+  "caption_y": 0.84,
+  "vignette": 0.42,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "Now let's talk about the hardest part. What do you do when they pull away?",
+   "v": {
+    "mg": "lesson",
+    "num": "05",
+    "title": [
+     "WHEN THEY",
+     "PULL AWAY"
+    ],
+    "title_at": 0.7
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "at": 0.0,
+     "gain": 0.6
+    },
+    {
+     "name": "boom",
+     "at": 0.7,
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "This is where most of us lose it.",
+   "v": {
+    "video": "../stock/sad-man-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "They take longer to reply, and the panic kicks in.",
+   "v": {
+    "img": "../img/m-staring.jpg",
+    "focus": [
+     0.55,
+     0.4
+    ],
+    "zoom": 1.0
+   },
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "@panic"
+    },
+    {
+     "name": "heartbeat",
+     "at": "@panic+0.45"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "You double text. Then triple text. You ask, \"Is everything okay?\" three different ways.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Hey?",
+      "me",
+      "@double"
+     ],
+     [
+      "Did you get my message?",
+      "me",
+      "@triple"
+     ],
+     [
+      "Is everything okay?",
+      "me",
+      "@okay"
+     ],
+     [
+      "Are we good?",
+      "me",
+      "@three"
+     ],
+     [
+      "Did I do something?",
+      "me",
+      "@different"
+     ]
+    ],
+    "title": "Emma"
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": "@double"
+    },
+    {
+     "name": "pop",
+     "at": "@triple"
+    },
+    {
+     "name": "pop",
+     "at": "@okay"
+    },
+    {
+     "name": "pop",
+     "at": "@three"
+    },
+    {
+     "name": "pop",
+     "at": "@different"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "You start analysing every emoji like it's a secret code.",
+   "v": {
+    "img": "../img/m-pacing.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "overlays": [
+    {
+     "mg": "scan",
+     "box": [
+      0.42,
+      0.25,
+      0.62,
+      0.8
+     ],
+     "label": "DECODING EMOJI...",
+     "at": 0.2
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "I know that feeling in my chest.",
+   "v": {
+    "video": "../stock/sad-man-6.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "But chasing someone who's pulling away is like running after a bus that's already left.",
+   "v": {
+    "img": "../img/m-bus.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.6,
+     0.45
+    ],
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You look desperate, you get out of breath,",
+   "v": {
+    "img": "../img/m-bus.jpg",
+    "focus": [
+     0.45,
+     0.35
+    ],
+    "zoom": 1.8
+   },
+   "shake": [
+    "@desperate"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "and the bus doesn't stop anyway.",
+   "v": {
+    "video": "../stock/bus-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "And pulling away isn't always about you.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT'S NOT ALWAYS",
+      "white"
+     ],
+     [
+      "ABOUT YOU.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@about"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Sometimes people are stressed, busy, or going through something they haven't told anyone.",
+   "v": {
+    "video": "../stock/night-phone-call-4.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Your panic turns their quiet week into a problem they now have to manage.",
+   "v": {
+    "img": "../img/m-pacing.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "What works is the opposite.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE OPPOSITE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Stay calm. Stay kind.",
+   "v": {
+    "img": "../img/m-calm-bench.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Say something simple and honest, once.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SIMPLE.",
+      "white"
+     ],
+     [
+      "HONEST.",
+      "white"
+     ],
+     [
+      "ONCE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     "@simple",
+     "@honest",
+     "@once"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Something like, \"Hey, I've noticed we've been a bit distant. No pressure, I'm here if you want to talk.\"",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Hey, I've noticed we've been a bit distant. No pressure, I'm here if you want to talk 🙂",
+      "me",
+      0.6
+     ]
+    ],
+    "title": "Emma"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.6
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "And then go live your life. Really live it.",
+   "v": {
+    "img": "../img/m-road.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.07
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Go to the gym,",
+   "v": {
+    "img": "../img/m-gym.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.2
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "call your friends,",
+   "v": {
+    "video": "../stock/friends-laughing-3.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "finish that project.",
+   "v": {
+    "img": "../img/m-hobbies.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "The first time I actually did this, I expected it to backfire.",
+   "v": {
+    "video": "../stock/sad-man-2.mp4",
+    "start": 8.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "pause_before": 0.3,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Instead, she called me two days later and said,",
+   "v": {
+    "video": "../stock/night-phone-call-1.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "overlays": [
+    {
+     "mg": "notify",
+     "title": "Emma",
+     "text": "Incoming call...",
+     "at": "@called"
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@called",
+     "gain": 1.2
+    }
+   ]
+  },
+  {
+   "text": "\"You're different lately. In a good way.\"",
+   "v": {
+    "mg": "quote",
+    "text": "\"You're different lately. In a good way.\"",
+    "end": "@way",
+    "width": 26
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "sparkle",
+     "at": "@way"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "I hadn't changed anything about how I felt about her.",
+   "v": {
+    "video": "../stock/couple-walking-3.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "I'd just stopped begging the relationship to prove itself every hour.",
+   "v": {
+    "img": "../img/m-puppet.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  }
+ ]
+}

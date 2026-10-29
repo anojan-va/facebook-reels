@@ -1,0 +1,563 @@
+{
+ "out": "../../output/miss-you/part2.mp4",
+ "audio": "p2.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 60.0
+  },
+  {
+   "shot": 11,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 45.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "bw",
+  "captions": "punch",
+  "caption_y": 0.84,
+  "vignette": 0.42,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "And here's the first thing I learned, and it sounds obvious, but almost nobody lives by it.",
+   "v": {
+    "mg": "lesson",
+    "num": "01",
+    "title": [
+     "YOU CAN'T MISS",
+     "WHO NEVER LEAVES"
+    ],
+    "title_at": 0.7
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "at": 0.0,
+     "gain": 0.6
+    },
+    {
+     "name": "boom",
+     "at": 0.7,
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You cannot miss someone who never leaves.",
+   "v": {
+    "mg": "quote",
+    "text": "You cannot miss someone who never leaves.",
+    "end": "@leaves",
+    "width": 26
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Missing someone needs a gap. A little distance.",
+   "v": {
+    "img": "../img/m-bridge.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": -0.1
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "A moment where you're not there, and they notice.",
+   "v": {
+    "img": "../img/m-empty-outline.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.72,
+     0.45
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Now, that does not mean you should disappear on purpose.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "DON'T DISAPPEAR",
+      "white"
+     ],
+     [
+      "ON PURPOSE",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@purpose"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "That's the game, and games are just anxiety wearing a costume.",
+   "v": {
+    "img": "../img/m-mask.jpg",
+    "focus": [
+     0.4,
+     0.35
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@costume",
+    "zoom": 1.7,
+    "focus": [
+     0.4,
+     0.3
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "If you go silent to punish someone or to test them, they can feel it.",
+   "v": {
+    "img": "../img/m-chess.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "It makes you look insecure, not interesting.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "INSECURE",
+     "SILENCE"
+    ],
+    "right": [
+     "INTERESTING",
+     "A LIFE"
+    ],
+    "at": "@interesting",
+    "left_at": 0.0
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I've watched friends do this.",
+   "v": {
+    "video": "../stock/friends-laughing-7.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "They go silent for three days, then check their phone every five minutes to see if the other person noticed.",
+   "v": {
+    "img": "../img/m-chain.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": "@five"
+    },
+    {
+     "name": "tick",
+     "at": "@five+0.4"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "That's not space. That's a hostage situation with your own phone.",
+   "v": {
+    "img": "../img/m-chain.jpg",
+    "focus": [
+     0.55,
+     0.75
+    ],
+    "zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "zap",
+     "at": "@hostage"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "The real version is simpler.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE REAL VERSION",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You stop filling every gap yourself.",
+   "v": {
+    "img": "../img/m-texts-first.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "You let a conversation end without sending one more message.",
+   "v": {
+    "img": "../img/m-phone-down.jpg",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You let them text first sometimes.",
+   "v": {
+    "video": "../stock/phone-notification-0.mp4",
+    "start": 3.0,
+    "zoom": 1.15
+   },
+   "overlays": [
+    {
+     "mg": "notify",
+     "title": "Emma",
+     "text": "Hey! Was thinking about you 😊",
+     "at": 0.4
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": 0.4,
+     "gain": 1.2
+    }
+   ]
+  },
+  {
+   "text": "Not as a tactic.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT A TACTIC.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Just because you trust that the connection doesn't need you to hold it up every single second.",
+   "v": {
+    "img": "../img/m-calm-bench.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.07
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "After Emma, I made a rule for myself.",
+   "v": {
+    "video": "../stock/sad-man-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "pause_before": 0.3,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "If I'd sent the last two messages, I'd wait.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "How was your trip?",
+      "me",
+      0.1
+     ],
+     [
+      "Send me a photo!",
+      "me",
+      "@two"
+     ]
+    ],
+    "title": "Sam"
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": 0.1
+    },
+    {
+     "name": "pop",
+     "at": "@two"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "Not to win anything.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT TO WIN.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Just to see what happened when I stopped carrying the whole conversation.",
+   "v": {
+    "img": "../img/m-juggle.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "And honestly, the first few times were terrifying.",
+   "v": {
+    "video": "../stock/night-phone-call-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "I'd stare at my phone like it owed me money.",
+   "v": {
+    "img": "../img/m-staring.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@owed",
+    "zoom": 1.8,
+    "focus": [
+     0.6,
+     0.35
+    ]
+   },
+   "in": "cut"
+  },
+  {
+   "text": "But something changed.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SOMETHING CHANGED.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The people who cared started showing up.",
+   "v": {
+    "video": "../stock/friends-laughing-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "notify",
+     "title": "Sam",
+     "text": "Coffee this week?",
+     "at": 0.5
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": 0.5,
+     "gain": 1.2
+    }
+   ]
+  },
+  {
+   "text": "And the ones who didn't... well, I finally had my answer.",
+   "v": {
+    "img": "../img/m-road.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "cut"
+  }
+ ]
+}

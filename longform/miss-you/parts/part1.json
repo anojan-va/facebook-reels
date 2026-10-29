@@ -1,0 +1,912 @@
+{
+ "out": "../../output/miss-you/part1.mp4",
+ "audio": "p1.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 60.0
+  },
+  {
+   "shot": 19,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 60.0
+  },
+  {
+   "shot": 25,
+   "music": "../../../reels/audio/music/silent-descent.mp3",
+   "start": 40.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "bw",
+  "captions": "punch",
+  "caption_y": 0.84,
+  "vignette": 0.42,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "Here's a strange truth.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "A STRANGE TRUTH",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "sfx": [
+    "hook"
+   ],
+   "shake": [
+    0.05
+   ],
+   "captions": false
+  },
+  {
+   "text": "The more you try to make someone miss you,",
+   "v": {
+    "img": "../img/m-juggle.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "the less they actually do.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THE LESS THEY",
+     "ACTUALLY DO"
+    ],
+    "mark": [
+     "ACTUALLY DO"
+    ],
+    "times": [
+     0.0,
+     "@actually"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "bass",
+     "at": "@do",
+     "gain": 0.6
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "You've been there.",
+   "v": {
+    "video": "../stock/sad-man-3.mp4",
+    "start": 2.0,
+    "zoom": 1.15
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "You're the one who texts first. Every time.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Morning! ☀️",
+      "me",
+      0.2
+     ],
+     [
+      "How did the meeting go?",
+      "me",
+      "@first"
+     ],
+     [
+      "Still on for tonight?",
+      "me",
+      "@every"
+     ],
+     [
+      "Hello?",
+      "me",
+      "@time"
+     ]
+    ],
+    "title": "Jordan"
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": "@first"
+    },
+    {
+     "name": "pop",
+     "at": "@every"
+    },
+    {
+     "name": "pop",
+     "at": "@time"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "You're the one who plans, who checks in, who remembers the little things.",
+   "v": {
+    "img": "../img/m-juggle.jpg",
+    "focus": [
+     0.6,
+     0.3
+    ],
+    "zoom": 1.8
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "And if you stopped, just for a week,",
+   "v": {
+    "video": "../stock/phone-notification-0.mp4",
+    "start": 1.0,
+    "zoom": 1.1
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "you're scared of what you'd find out.",
+   "v": {
+    "img": "../img/m-staring.jpg",
+    "focus": [
+     0.55,
+     0.4
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "@scared"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "That they wouldn't even notice.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THEY WOULDN'T",
+      "white"
+     ],
+     [
+      "EVEN NOTICE",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@even"
+    ]
+   },
+   "shake": [
+    "@notice"
+   ],
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "boom",
+     "at": "@notice",
+     "gain": 0.6
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "So you look it up. How to make someone miss you.",
+   "v": {
+    "video": "../stock/night-phone-call-1.mp4",
+    "start": 2.0,
+    "zoom": 1.15
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "And everything you find is a game.",
+   "v": {
+    "img": "../img/m-chess.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@game",
+    "zoom": 1.7,
+    "focus": [
+     0.38,
+     0.3
+    ]
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Wait three hours before you reply.",
+   "v": {
+    "mg": "year",
+    "from": 0,
+    "to": 3,
+    "roll": 0.8,
+    "label": "HOURS BEFORE YOU REPLY"
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.5
+    },
+    {
+     "name": "tick",
+     "at": 0.8
+    }
+   ],
+   "in": "iris"
+  },
+  {
+   "text": "Post a picture where you look happy without them.",
+   "v": {
+    "img": "../img/m-mask.jpg",
+    "focus": [
+     0.45,
+     0.35
+    ],
+    "zoom": 1.2
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    },
+    {
+     "name": "shutter",
+     "at": "@picture"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Go cold. Make them jealous.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "GO COLD.",
+      "white"
+     ],
+     [
+      "MAKE THEM JEALOUS.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@make"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Disappear and see if they chase you.",
+   "v": {
+    "img": "../img/m-bus.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "I tried most of those.",
+   "v": {
+    "video": "../stock/sad-man-2.mp4",
+    "start": 3.0,
+    "zoom": 1.15
+   },
+   "pause_before": 0.25,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "And I'm going to save you the trouble: they work for about two days.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THEY WORK FOR",
+     "ABOUT TWO DAYS"
+    ],
+    "mark": [
+     "ABOUT TWO DAYS"
+    ],
+    "times": [
+     0.0,
+     "@about"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Then you're back where you started,",
+   "v": {
+    "img": "../img/m-staring.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "except now you're also exhausted from pretending.",
+   "v": {
+    "img": "../img/m-mask.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": -0.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "So in this video, I'm not going to give you tricks.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NO TRICKS.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I'm going to tell you what actually makes someone miss you,",
+   "v": {
+    "img": "../img/m-empty-outline.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.07
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "the real reasons people feel your absence,",
+   "v": {
+    "img": "../img/m-empty-outline.jpg",
+    "focus": [
+     0.78,
+     0.45
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and how to become that person without playing a single game.",
+   "v": {
+    "img": "../img/m-road.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And at the end, I'll tell you the one thing nobody wants to hear about this topic.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THE ONE THING",
+     "NOBODY WANTS",
+     "TO HEAR"
+    ],
+    "mark": [
+     "NOBODY WANTS"
+    ],
+    "times": [
+     0.0,
+     "@nobody",
+     "@hear"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "It's the part that finally set me free.",
+   "v": {
+    "video": "../stock/road-trip-7.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "A few years ago I was seeing someone I'll call Emma.",
+   "v": {
+    "video": "../stock/couple-walking-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    {
+     "name": "letterbox",
+     "anim": true
+    }
+   ],
+   "in": "iris",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "And I was all in.",
+   "v": {
+    "img": "../img/m-door-coffee.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Good morning texts every day. I replied in seconds.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Good morning beautiful ☀️",
+      "me",
+      0.2
+     ],
+     [
+      "Have a great day!",
+      "me",
+      "@every"
+     ],
+     [
+      "hey",
+      "them",
+      "@replied"
+     ],
+     [
+      "Hey!! What's up? 😊",
+      "me",
+      "@seconds"
+     ]
+    ],
+    "title": "Emma"
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": "@every"
+    },
+    {
+     "name": "pop",
+     "at": "@replied"
+    },
+    {
+     "name": "pop",
+     "at": "@seconds"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "I cancelled plans with my friends whenever she was free.",
+   "v": {
+    "img": "../img/m-cancel-friends.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "I thought that's what love looked like. Being there. Always.",
+   "v": {
+    "img": "../img/m-door-coffee.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.6
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "And slowly, I watched her get bored.",
+   "v": {
+    "img": "../img/m-bored-emma.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Not mean. Not cold. Just... less interested.",
+   "v": {
+    "video": "../stock/couple-bored-1.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Her replies got lazier. She stopped asking about my day.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "How was your day? 😊",
+      "me",
+      0.2
+     ],
+     [
+      "fine",
+      "them",
+      "@lazier"
+     ],
+     [
+      "Mine was crazy, so...",
+      "me",
+      "@stopped"
+     ],
+     [
+      "👍",
+      "them",
+      "@day"
+     ]
+    ],
+    "title": "Emma"
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    },
+    {
+     "name": "pop",
+     "at": "@lazier"
+    },
+    {
+     "name": "pop",
+     "at": "@day"
+    }
+   ],
+   "in": "iris",
+   "captions": false
+  },
+  {
+   "text": "And one night she said something I'll never forget.",
+   "v": {
+    "img": "../img/m-bored-emma.jpg",
+    "focus": [
+     0.65,
+     0.3
+    ],
+    "zoom": 1.8
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    },
+    {
+     "name": "heartbeat",
+     "at": "@never"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "She said, \"I always know exactly where you are.\"",
+   "v": {
+    "mg": "quote",
+    "text": "\"I always know exactly where you are.\"",
+    "end": "@are",
+    "width": 26
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "She meant it kindly. But it hit me like a slap.",
+   "v": {
+    "img": "../img/m-bored-emma.jpg",
+    "focus": [
+     0.45,
+     0.3
+    ],
+    "zoom": 1.9
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "shake": [
+    "@slap"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.55
+    },
+    {
+     "name": "glass",
+     "at": "@slap"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Because she was right. There was no space for her to miss me.",
+   "v": {
+    "img": "../img/m-bridge.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "I had made myself so available that I'd become furniture.",
+   "v": {
+    "img": "../img/m-bored-emma.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.1
+   },
+   "fx": [
+    "letterbox"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Nice furniture. But furniture.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NICE FURNITURE.",
+      "white"
+     ],
+     [
+      "BUT FURNITURE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@but"
+    ]
+   },
+   "in": "iris",
+   "sfx": [
+    {
+     "name": "reveal",
+     "gain": 0.55
+    }
+   ],
+   "captions": false
+  }
+ ]
+}
