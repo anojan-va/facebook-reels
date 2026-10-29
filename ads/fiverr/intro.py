@@ -35,19 +35,101 @@ CYAN = (40, 210, 255)
 WHITE = (255, 255, 255)
 GREY = (170, 172, 190)
 
-# music: the track's full-level section, offset so the drop (music 16.30 s) lands on output 4.28 s
-MUSIC, OFF = HERE / "music" / "m126.mp3", 12.02
-BEATS = [b - OFF for b in json.load(open(HERE / "music" / "m126.beats.json"))["beats"] if b - OFF > -0.01]
+# music: offset so the track's first full-level beat (music 16.30 s) is the drop on beat 12 (output 6.42 s)
+MUSIC, DROP_I = HERE / "music" / "m126.mp3", 12
+_mb = json.load(open(HERE / "music" / "m126.beats.json"))["beats"]
+_k = min(range(len(_mb)), key=lambda i: abs(_mb[i] - 16.30))
+OFF = _mb[_k - DROP_I] - 0.15
+BEATS = [b - OFF for b in _mb[_k - DROP_I:]]
 
 
 def beat(i):
     return BEATS[i]
 
 
-DROP = beat(8)                      # 4.28
-SV = [beat(16 + 4 * i) for i in range(6)]   # five service scenes, one bar each
-PROOF, END = beat(36), beat(44)
-TOTAL = END + 5.0
+DROP = beat(DROP_I)
+SV = [beat(DROP_I + 6 + 4 * i) for i in range(6)]   # name wall 6 beats, then five service scenes of one bar
+PROOF, END = SV[5], beat(DROP_I + 34)
+TOTAL = END + 4.4
+PSTEP = (beat(1) - beat(0)) * 2.5    # proof ticks, spaced for the voice
+
+# voice-over: one Gemini take (vo/voice-alnilam.wav, vo/script.txt) cut into phrases placed only where words sell;
+# the services showreel stays music-only. name -> (phrase numbers in the take, output time; a string = set below)
+VO_TAKE, VO_SPEED = "vo/voice-alnilam.wav", 1.2
+VO_FASTER = {"scroll": 1.04, "sales": 1.1}   # extra tempo so the hook lands before the drop
+VO_PLAN = {"scroll": ([0], beat(3) + 0.25), "sales": ([1], "after:scroll"), "mano": ([2], DROP + 0.4),
+           "detail": ([4], SV[4] + 0.1), "fast": ([5], PROOF + 0.05), "eye": ([6], PROOF + 0.05 + PSTEP),
+           "clear": ([7], PROOF + 0.05 + 2 * PSTEP), "brand": ([8], END + 0.1), "msg": ([9], "button")}
+
+
+def _db(x, hop=441):
+    m = x.mean(axis=1)
+    nf = len(m) // hop
+    return 20 * np.log10(np.sqrt((m[:nf * hop].reshape(nf, hop) ** 2).mean(axis=1)) + 1e-9)
+
+
+def _runs(q, min_len):
+    out, start = [], None
+    for j, x in enumerate(list(q) + [False]):
+        if x and start is None:
+            start = j
+        elif not x and start is not None:
+            if j - start >= min_len:
+                out.append((start, j))
+            start = None
+    return out
+
+
+def _vo():
+    """Cut the take into phrases at its silences (Whisper word times drift on this take, silences don't), squeeze
+    pauses inside a phrase, and map the phrase's words onto it. -> {name: [start time, audio Nx2, [(word, s, e)]]}"""
+    K.HERE = HERE
+    voice, words = K.prepare_voice(VO_TAKE, WORK / "vo", 99.0, VO_SPEED)
+    db = _db(voice)
+    sil = _runs(db < db.max() - 42, 35)                     # >= 0.35 s = between lines
+    edges = [0] + [x for r_ in sil for x in r_] + [len(db)]
+    segs = [(edges[i] / 100, edges[i + 1] / 100) for i in range(0, len(edges) - 1, 2)]
+    segs = [(a, b) for a, b in segs if b - a > 0.2]
+    out = {}
+    for name, (seg_ids, at) in VO_PLAN.items():
+        a, b = segs[seg_ids[0]][0], segs[seg_ids[-1]][1]
+        lead = np.where(db[int(a * 100):int(b * 100)] > db.max() - 42)[0]
+        a = a + lead[0] / 100 if len(lead) else a
+        a, b = max(a - 0.03, 0), min(b + 0.1, len(voice) / SR)
+        clip_ = voice[int(a * SR):int(b * SR)]
+        d2 = _db(clip_)
+        keep, cur = [], 0                                    # pauses inside the phrase -> 0.12 s
+        for r0, r1 in _runs(d2 < d2.max() - 28, 14):
+            if r0 == 0 or r1 >= len(d2) - 2:
+                continue
+            keep.append(clip_[cur * 441:(r0 + 6) * 441])
+            cur = r1 - 6
+        keep.append(clip_[cur * 441:])
+        f = int(0.008 * SR)
+        for k_ in range(len(keep)):
+            if k_:
+                keep[k_][:f] *= np.linspace(0, 1, f)[:, None]
+            if k_ < len(keep) - 1:
+                keep[k_][-f:] *= np.linspace(1, 0, f)[:, None]
+        clip_ = np.concatenate(keep)
+        if name in VO_FASTER:
+            write_wav(WORK / "vo" / "tmp.wav", clip_)
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(WORK / "vo" / "tmp.wav"), "-af", f"atempo={VO_FASTER[name]}",
+                            str(WORK / "vo" / "tmp2.wav")], check=True)
+            clip_ = read_audio(WORK / "vo" / "tmp2.wav")
+        ws = [w for w in words if a <= w[2] - 0.01 <= b]
+        w0, w1 = ws[0][1], ws[-1][2]
+        L = len(clip_) / SR - 0.12   # words spread linearly over the phrase (good to ~0.1 s for pops)
+        out[name] = [at, clip_, [(w, 0.02 + (s_ - w0) / (w1 - w0) * L, 0.02 + (e_ - w0) / (w1 - w0) * L) for w, s_, e_ in ws]]
+    out["sales"][0] = out["scroll"][0] + len(out["scroll"][1]) / SR + 0.1
+    out["msg"][0] = 0.0   # placed after "...stand out." below
+    for v in out.values():
+        v[2] = [(w, v[0] + ws_, v[0] + we) for w, ws_, we in v[2]]
+    return out
+
+
+END_OUT = None   # set after VO load: when MANO + the button come in (after "...stand out.")
+
 
 # sample-ad excerpts: name -> (file, start s, length s); extracted to work/clips/<name>/NNN.jpg at 608x1080
 CLIPS = {
@@ -218,7 +300,7 @@ def word_pop(fr, s, x, y, size, t, t0, color=WHITE, font=BLACK, anchor="l", dur=
     return w
 
 
-def line_pop(fr, words, x, y, size, t, t0, gap=0.07, colors=None, font=BLACK, anchor="c", space=0.28, out_t=None):
+def line_pop(fr, words, x, y, size, t, t0, gap=0.07, colors=None, font=BLACK, anchor="c", space=0.28, out_t=None, times=None):
     """A row of words popping in one after another; returns the total width."""
     ims = [txt(w, size, font=font) for w in words]
     ws = [im.shape[1] - 2 * (10) for im in ims]
@@ -226,7 +308,7 @@ def line_pop(fr, words, x, y, size, t, t0, gap=0.07, colors=None, font=BLACK, an
     xx = x - total / 2 if anchor == "c" else x
     for i, w in enumerate(words):
         c = (colors or {}).get(i, WHITE)
-        word_pop(fr, w, xx - 10, y, size, t, t0 + i * gap, c, font, out_t=out_t)
+        word_pop(fr, w, xx - 10, y, size, t, times[i] - 0.04 if times else t0 + i * gap, c, font, out_t=out_t)
         xx += ws[i] + size * space
     return total
 
@@ -339,18 +421,19 @@ def s_hook(t):
             K.paste(fr, im, W / 2, H / 2 - 230 + i * 230 - (1 - ease_o(clamp(k))) * 120, 1.0, alpha=clamp(k * 3) * (0.35 if i < 2 and t > beat(i + 1) else 1))
     if t >= stop:
         k = (t - stop) / 0.25
-        out = clamp((t - beat(4)) / 0.15)
+        out = clamp((t - VO["scroll"][2][0][1] + 0.05) / 0.15)
         im = txt("STOP.", 330, LIME, glow_=18)
         K.paste(fr, im, W / 2, H / 2, 1.25 - 0.25 * ease_back(clamp(k), 2.2), alpha=clamp(k * 4) * (1 - out))
         flash(fr, t, stop, 0.18, 0.6)
         if t < stop + 0.25:
             chroma(fr, 18 * (1 - k))
     # promise, word by word on half beats
-    if t >= beat(4) + 0.08:
-        line_pop(fr, ["Videos", "that", "stop", "the", "scroll"], W / 2, H / 2 - 70, 112, t, beat(4) + 0.1, gap=0.12,
-                 colors={2: LIME, 4: LIME})
-        line_pop(fr, ["and", "get", "views", "&", "sales."], W / 2, H / 2 + 70, 112, t, beat(5) + 0.2, gap=0.12,
-                 colors={2: PINK, 4: PINK})
+    if t >= VO["scroll"][2][0][1] - 0.1:
+        line_pop(fr, ["Videos", "that", "stop", "the", "scroll"], W / 2, H / 2 - 70, 112, t, 0,
+                 colors={2: LIME, 4: LIME}, times=[w[1] for w in VO["scroll"][2]])
+        sw = [w[1] for w in VO["sales"][2]]   # "and get you sales" -> "and get views & sales."
+        line_pop(fr, ["and", "get", "views", "&", "sales."], W / 2, H / 2 + 70, 112, t, 0,
+                 colors={2: PINK, 4: PINK}, times=[sw[0], sw[1], sw[2], sw[2] + 0.12, sw[3]])
     return fr
 
 
@@ -375,9 +458,10 @@ def s_wall(t):
     # dark band behind the title
     top = np.linspace(1, 0, 420, dtype=np.float32)[:, None, None]
     fr[:420] = fr[:420] * (1 - top * 0.75)
-    word_pop(fr, "Hi, I'm", W / 2 - 230, 150, 96, t, DROP + 0.08, GREY, XB, anchor="c")
-    word_pop(fr, "MANO", W / 2 + 190, 140, 150, t, DROP + 0.22, LIME, BLACK, anchor="c", glow_=10)
-    k = (t - beat(11)) / 0.4
+    mw = VO["mano"][2]
+    word_pop(fr, "Hi, I'm", W / 2 - 230, 150, 96, t, mw[0][1] - 0.04, GREY, XB, anchor="c")
+    word_pop(fr, "MANO", W / 2 + 190, 140, 150, t, mw[2][1] - 0.04, LIME, BLACK, anchor="c", glow_=10)
+    k = (t - beat(DROP_I + 3)) / 0.4
     if k > 0:
         im = txt("SOCIAL MEDIA VIDEO CREATOR", 46, WHITE, SB, track=10)
         bar_reveal(fr, W / 2 - im.shape[1] / 2 + 6, 236, im.shape[1] - 12, 4, k, PINK)
@@ -519,7 +603,7 @@ def s_proof(t):
     fr *= 0.42
     bb = beat(37) - beat(36)
     for j, (a, b, c) in enumerate(PROOF_ITEMS):
-        tj = PROOF + 0.05 + j * bb * 2
+        tj = PROOF + 0.05 + j * PSTEP
         y = 330 + j * 200
         pop_in(fr, check_icon(110, c), 520, y, t, tj, 0.3)
         w = word_pop(fr, a, 610, y, 104, t, tj + 0.06, WHITE, BLACK)
@@ -532,9 +616,10 @@ def s_end(t):
     lt = t - END
     fr = bg(t, cols=(LIME, VIOLET, PINK), amt=0.9)
     hb = (beat(1) - beat(0)) / 2
-    out = END + 1.9
-    line_pop(fr, ["Let's", "make", "your", "brand"], W / 2, H / 2 - 80, 120, t, END + 0.05, gap=hb, out_t=out)
-    line_pop(fr, ["stand", "out."], W / 2, H / 2 + 70, 150, t, END + 0.05 + 4 * hb, gap=hb, colors={0: LIME, 1: LIME}, out_t=out)
+    out = END_OUT
+    bw = [w[1] for w in VO["brand"][2]]
+    line_pop(fr, ["Let's", "make", "your", "brand"], W / 2, H / 2 - 80, 120, t, 0, out_t=out, times=bw[:4])
+    line_pop(fr, ["stand", "out."], W / 2, H / 2 + 70, 150, t, 0, colors={0: LIME, 1: LIME}, out_t=out, times=bw[4:])
     if t >= out:
         k = t - out
         im = txt("MANO", 220, WHITE, BLACK, track=14)
@@ -643,11 +728,28 @@ def build_audio():
     m[:d] = out * g[:, None]
     fo = int(1.6 * SR)
     m[-fo:] *= np.linspace(1, 0, fo)[:, None] ** 1.5
-    mix = m * 0.8
+    # voice phrases (light compression + presence), music ducked under each one
+    vo = np.zeros((n, 2), np.float32)
+    duck = np.ones(n, np.float32)
+    for at, a, _w in VO.values():
+        s0 = int(at * SR)
+        e = min(s0 + len(a), n)
+        vo[s0:e] += a[:e - s0]
+        duck[max(s0 - int(0.06 * SR), 0):min(e + int(0.15 * SR), n)] = 0.32
+    k = int(0.12 * SR)
+    duck = np.convolve(duck, np.ones(k) / k, "same").astype(np.float32)
+    write_wav(WORK / "vo_raw.wav", vo)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(WORK / "vo_raw.wav"), "-af",
+                    "highpass=f=70,equalizer=f=120:t=q:w=1:g=2,equalizer=f=3500:t=q:w=1.2:g=2.5,"
+                    "acompressor=threshold=-22dB:ratio=3:attack=5:release=90:makeup=3", str(WORK / "vo_fx.wav")], check=True)
+    vo = read_audio(WORK / "vo_fx.wav")[:n]
+    vo = np.concatenate([vo, np.zeros((n - len(vo), 2), np.float32)]) if len(vo) < n else vo
+    vo *= 0.55 / max(np.abs(vo).max(), 1e-6)
+    mix = m * 0.8 * duck[:, None] + vo * 1.25
     sfx = [("swoosh-fast", beat(0), 0.5), ("swoosh-fast", beat(1), 0.55), ("swoosh-fast", beat(2), 0.6),
-           ("bass", beat(3), 1.0), ("glitch-hit", beat(3), 0.45), ("swoosh", beat(4) + 0.1, 0.4), ("swoosh", beat(5) + 0.2, 0.4),
+           ("bass", beat(3), 1.0), ("glitch-hit", beat(3), 0.45), 
            ("riser", DROP, 1.2), ("impact", DROP, 1.0), ("boom", DROP, 0.5), ("whoosh", DROP + 0.05, 0.5),
-           ("pop", DROP + 0.08, 0.5), ("pop", DROP + 0.22, 0.6), ("swoosh", beat(11), 0.5)]
+           ("pop", VO["mano"][2][2][1], 0.5), ("swoosh", beat(DROP_I + 3), 0.5)]
     for i in range(5):
         sfx += [("swoosh-fast", SV[i], 0.8), ("pop", SV[i] + 0.12, 0.45)]
     hb = (beat(1) - beat(0)) / 2
@@ -655,8 +757,8 @@ def build_audio():
         sfx += [("ui-pop", SV[0] + 0.45 + ci * hb, 0.55), ("ui-pop", SV[4] + 0.4 + ci * hb, 0.55)]
     sfx += [("tick", SV[2] + 0.7, 0.8), ("pop", SV[3] + 0.75, 0.5)]
     bb = beat(37) - beat(36)
-    sfx += [("tunnel", PROOF, 0.6)] + [("confirm", PROOF + 0.05 + j * bb * 2, 0.6) for j in range(3)]
-    out_t = END + 1.9
+    sfx += [("tunnel", PROOF, 0.6)] + [("confirm", PROOF + 0.05 + j * PSTEP, 0.6) for j in range(3)]
+    out_t = END_OUT
     sfx += [("swoosh-fast", END, 0.7), ("whoosh", out_t, 0.6), ("bass", out_t, 0.7), ("pop", out_t + 0.45, 0.6),
             ("tap", out_t + 1.45, 1.0), ("ding", out_t + 1.5, 0.8)]
     for name, at, gg in sfx:
@@ -672,12 +774,22 @@ def build_audio():
     pk = np.abs(mix).max()
     if pk > 0.98:
         mix *= 0.98 / pk
-    WORK.mkdir(exist_ok=True)
-    write_wav(WORK / "music.wav", m)
+    write_wav(WORK / "music.wav", m * duck[:, None])
     write_wav(WORK / "mix.wav", mix, af="loudnorm=I=-14:TP=-1.5:LRA=11")
 
 
+WORK.mkdir(exist_ok=True)
+VO = _vo() if (HERE / VO_TAKE).exists() else None
+END_OUT = VO["brand"][0] + len(VO["brand"][1]) / SR + 0.05 if VO else END + 1.9
+if VO:
+    _m = END_OUT + 0.35
+    VO["msg"][0] = _m
+    VO["msg"][2] = [(w, s - VO["msg"][2][0][1] + _m, e - VO["msg"][2][0][1] + _m) for w, s, e in VO["msg"][2]]
+    TOTAL = max(TOTAL, _m + len(VO["msg"][1]) / SR + 1.0)
+
 if __name__ == "__main__":
+    for k_, v_ in VO.items():
+        print(f"  VO {k_:7s} {v_[0]:6.2f} - {v_[0] + len(v_[1]) / SR:6.2f}  {' '.join(w[0] for w in v_[2])}")
     print(f"drop {DROP:.2f} services {[round(x, 2) for x in SV]} proof {PROOF:.2f} end {END:.2f} total {TOTAL:.2f}")
     if "--extract" in sys.argv:
         extract()
