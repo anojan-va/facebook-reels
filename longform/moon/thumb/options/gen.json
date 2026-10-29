@@ -1,0 +1,37 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 6,
+ "jobs": [
+  {
+   "out": "a-before.jpg",
+   "prompt": "Cinematic photo, No people, no text, letters, logos or watermarks. Horizontal 16:9. a quiet coastal town at night seen from a hill, a huge bright full moon in the sky above the sea lighting everything silver, calm and beautiful, centred composition.",
+   "seed": 81
+  },
+  {
+   "out": "a-after.jpg",
+   "prompt": "Cinematic photo, No people, no text, letters, logos or watermarks. Horizontal 16:9. the same quiet coastal town at night seen from a hill, NO moon in the sky, the sky pitch black with only faint stars, the sea dark and the town barely visible, eerie, centred composition.",
+   "seed": 81
+  },
+  {
+   "out": "b-poster.jpg",
+   "prompt": "Minimalist cinematic film poster photograph, No people, no text, letters, logos or watermarks. Horizontal 16:9. a vast empty dark blue night sky over a perfectly flat calm ocean, one tiny lone sailboat far away, a faint thin ring of light in the sky where the moon used to be, huge negative space, elegant and haunting.",
+   "seed": 82
+  },
+  {
+   "out": "c-cartoon.jpg",
+   "prompt": "Flat vector illustration in the style of a colourful science explainer cartoon (bold flat shapes, vibrant purple, teal, orange and yellow palette, soft gradients, cute), No people, no text, letters, logos or watermarks. Horizontal 16:9. a cute cartoon planet Earth with a worried face looking at an empty dotted circle in space where its moon friend used to be, stars and small planets around, playful.",
+   "seed": 83
+  },
+  {
+   "out": "d-wave.jpg",
+   "prompt": "Hyper-detailed cinematic photo, No people, no text, letters, logos or watermarks. Horizontal 16:9. a colossal wall of ocean water rising over a coastal city skyline at night, the sky above completely empty and black with no moon, city lights reflecting in the wave, terrifying scale, cold blue tones with warm city lights.",
+   "seed": 84
+  },
+  {
+   "out": "e-diagram.jpg",
+   "prompt": "Clean dark scientific illustration, No people, no text, letters, logos or watermarks. Horizontal 16:9. the planet Earth large in the centre against black space, strongly tilted sideways on its axis, a glowing thin orange axis line through the poles, faint circular orbit guide lines, NASA-style render, lots of empty space on the right.",
+   "seed": 85
+  }
+ ]
+}
