@@ -604,11 +604,85 @@ def mg_checklist(fr, t, d, p, ctx):
         blit(fr, text_layer(item, INTER_SB, 50, YELLOW if lt < 1.0 and t0 >= 0 else WHITE), x + 60, y, anchor="l", alpha=a)
 
 
+CAVEAT = str(HERE / "fonts" / "Caveat-Bold.ttf")
+
+
+def mg_lesson(fr, t, d, p, ctx):
+    """Inverted chapter card: white page, 'LESSON' label, big black number, title lines, yellow marker bar."""
+    fr[:] = (246, 244, 238)
+    k = ease_out(t / 0.35)
+    blit(fr, text_layer(p.get("label", "LESSON"), INTER_SB, 44, (40, 40, 40), track=14), W / 2, H * 0.17, alpha=min(1, t / 0.2))
+    num = text_layer(p["num"], ANTON, 300, (15, 15, 15))
+    blit(fr, num, W / 2, H * 0.42, scale=1.25 - 0.25 * k, alpha=min(1, t / 0.12))
+    t0 = ctx.at(p.get("title_at", 0.35))
+    for i, ln in enumerate(p["title"]):
+        lt = t - t0 - i * 0.15
+        if lt < 0:
+            continue
+        lay = text_layer(ln, ANTON, 92, (15, 15, 15), track=3)
+        y = H * 0.7 + i * 104
+        if i == len(p["title"]) - 1:
+            sw = ease_out(lt / 0.3)
+            rect(fr, W / 2 - lay.shape[1] / 2 - 10, y - 30, W / 2 - lay.shape[1] / 2 - 10 + (lay.shape[1] + 20) * sw, y + 44, YELLOW, 1.0)
+        blit(fr, lay, W / 2, y, alpha=min(1, lt / 0.15))
+
+
+@lru_cache(maxsize=16)
+def polaroid_layer(path, caption, rot):
+    im = Image.open(path).convert("RGB")
+    w, h = im.size
+    side = min(w, h)
+    im = im.crop(((w - side) // 2, (h - side) // 2, (w + side) // 2, (h + side) // 2)).resize((560, 560), Image.Resampling.LANCZOS)
+    card = Image.new("RGBA", (620, 760), (250, 248, 242, 255))
+    card.paste(im, (30, 30))
+    f = ImageFont.truetype(CAVEAT, 64)
+    try:
+        f.set_variation_by_axes([700])
+    except Exception:
+        pass
+    ImageDraw.Draw(card).text((310, 680), caption, font=f, fill=(30, 30, 30, 255), anchor="mm")
+    shadow = Image.new("RGBA", (700, 840), (0, 0, 0, 0))
+    ImageDraw.Draw(shadow).rectangle([50, 50, 650, 790], fill=(0, 0, 0, 150))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(18))
+    shadow.alpha_composite(card, (40, 40))
+    return np.asarray(shadow.rotate(rot, expand=True, resample=Image.Resampling.BICUBIC))
+
+
+def mg_polaroid(fr, t, d, p, ctx):
+    """Memory card: up to three polaroids (image + handwritten caption) dropped onto a dark table one by one."""
+    fr[:] = (20, 18, 16)
+    items = p["items"]   # [[abs image path, caption, "@word"|seconds], ...]
+    n = len(items)
+    for i, (img, cap, at) in enumerate(items):
+        lt = t - ctx.at(at)
+        if lt < 0:
+            continue
+        rot = [-7, 5, -3][i % 3]
+        lay = polaroid_layer(img, cap, rot)
+        x = W / 2 + (i - (n - 1) / 2) * 520
+        k = ease_back(lt / 0.35)
+        blit(fr, lay, x, H * 0.5 - 60 * (1 - k), scale=0.72 * (1.25 - 0.25 * k), alpha=min(1, lt / 0.12))
+
+
+def ov_notify(fr, t, d, p, ctx):
+    """iPhone-style notification banner sliding down from the top: app icon, sender, message."""
+    k = ease_back(t / 0.4)
+    out = ease_io((t - (d - 0.3)) / 0.3)
+    y0 = -160 + 210 * k - 210 * out
+    x0, bw, bh = W / 2 - 430, 860, 140
+    rect(fr, x0, y0, x0 + bw, y0 + bh, (40, 40, 44), 0.92)
+    rect(fr, x0 + 24, y0 + 30, x0 + 104, y0 + 110, (52, 199, 89), 1.0)
+    blit(fr, text_layer("\u2709", font("symbol"), 46, WHITE), x0 + 64, y0 + 68)
+    blit(fr, text_layer(p.get("title", "Messages"), INTER_SB, 34, WHITE), x0 + 128, y0 + 48, anchor="l")
+    blit(fr, text_layer(p["text"], INTER_SB, 32, (200, 200, 205)), x0 + 128, y0 + 96, anchor="l")
+    blit(fr, text_layer("now", INTER_SB, 26, (150, 150, 155)), x0 + bw - 70, y0 + 48)
+
+
 MG = {"kinetic": mg_kinetic, "title": mg_title, "year": mg_year, "grid": mg_grid, "bars": mg_bars,
       "list": mg_list, "chapter": mg_chapter, "versus": mg_versus, "recap": mg_recap,
       "chat": mg_chat, "marker": mg_marker, "quote": mg_quote, "reason": mg_reason, "checklist": mg_checklist,
-      "curve": mg_curve}
-OV = {"lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic}
+      "curve": mg_curve, "lesson": mg_lesson, "polaroid": mg_polaroid}
+OV = {"notify": ov_notify, "lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic}
 
 
 # ---------------------------------------------------------------- sources
@@ -651,6 +725,7 @@ def warp(im, fx, fy, z, rot=0.0, shake=(0, 0)):
 
 GRADES = {   # stock-footage looks, picked per video with "style": {"grade": ...}
     "cool": "eq=saturation=0.62:contrast=1.12:brightness=-0.035:gamma=0.95,colorbalance=rs=-0.04:bs=0.05:rh=0.03:gh=0.01",
+    "bw": "hue=s=0.05,eq=contrast=1.2:brightness=-0.035:gamma=0.94,curves=all='0/0.03 0.5/0.46 1/0.95'",
     "warm": "eq=saturation=0.72:contrast=1.1:brightness=-0.03:gamma=0.96,colorbalance=rs=0.05:gs=0.01:bs=-0.04:rh=0.06:bh=-0.05,curves=all='0/0.04 0.5/0.48 1/0.96'",
 }
 STYLE = {"grade": "cool", "captions": "phrase", "caption_y": 0.86, "vignette": 0.38, "grain": 4, "chip": None}
@@ -785,6 +860,8 @@ def phrases_for(words_abs, shot_of, shots):
 def caption_layer(words, active):
     if STYLE["captions"] == "pill":
         return caption_pill(words, active)
+    if STYLE["captions"] == "punch":
+        return caption_punch(words, active)
     f = ImageFont.truetype(INTER, 66)
     sp = f.getlength(" ")
     ws = [f.getlength(w) for w in words]
@@ -801,6 +878,25 @@ def caption_layer(words, active):
         x += wl + sp
     sh = sh.filter(ImageFilter.GaussianBlur(6))
     return np.asarray(Image.alpha_composite(sh, im))
+
+
+def caption_punch(words, active):
+    """Caption variant: tall condensed caps; the spoken word is yellow and 20% bigger, no box."""
+    base, big = 78, 94
+    fs, fb = ImageFont.truetype(ANTON, base), ImageFont.truetype(ANTON, big)
+    up = [w.upper() for w in words]
+    ws = [(fb if k == active else fs).getlength(w) for k, w in enumerate(up)]
+    sp = fs.getlength(" ")
+    asc, desc = fb.getmetrics()
+    im = Image.new("RGBA", (int(sum(ws) + sp * len(up)) + 80, asc + desc + 40), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    x = 40
+    for k, (w, wl) in enumerate(zip(up, ws)):
+        f = fb if k == active else fs
+        y = 16 if k == active else 16 + (big - base) * 0.8
+        d.text((x, y), w, font=f, fill=(*(YELLOW if k == active else WHITE), 255), stroke_width=6, stroke_fill=(0, 0, 0, 255))
+        x += wl + sp
+    return np.asarray(im)
 
 
 def caption_pill(words, active):
@@ -1080,6 +1176,12 @@ def main():
             fx = {"name": fx} if isinstance(fx, str) else fx
             if fx["name"] == "vhs":
                 fr = fx_vhs(fr, T)
+            elif fx["name"] == "letterbox":   # cinematic bars for story moments
+                k = ease_out(t / 0.35) if fx.get("anim") else 1.0
+                bh = int(H * 0.11 * k)
+                if bh:
+                    fr[:bh] = 0
+                    fr[H - bh:] = 0
             elif fx["name"] == "light_off":
                 ta = t - ctxs[si].at(fx["at"])
                 if ta > 0:
@@ -1128,6 +1230,17 @@ def main():
                     fr = (base_fr.astype(np.float32) * (1 - w) + 255 * w).astype(np.uint8)
                 elif kind == "glitch":
                     fr = fx_glitch(A if p < 0.5 else B, T, 1 - abs(p - 0.5) * 1.6)
+                elif kind == "iris":      # B opens from a growing circle in the centre
+                    r = int(ease_io(p) * math.hypot(W, H) / 2)
+                    mask = np.zeros((H, W), np.uint8)
+                    cv2.circle(mask, (W // 2, H // 2), max(r, 1), 255, -1, cv2.LINE_AA)
+                    m = (mask.astype(np.float32) / 255)[..., None]
+                    fr = (A.astype(np.float32) * (1 - m) + B.astype(np.float32) * m).astype(np.uint8)
+                    cv2.circle(fr, (W // 2, H // 2), max(r, 1), YELLOW, 6, cv2.LINE_AA)
+                elif kind == "push":      # B pushes A out to the left
+                    off = int(W * ease_io(p))
+                    fr = np.hstack([A[:, off:], B[:, :off]]) if off else A.copy()
+                    fr = motion_blur(fr, 120 * math.sin(math.pi * p))
                 elif kind == "slide":     # B pushes A up out of frame
                     off = int(H * ease_io(p))
                     fr = np.vstack([A[off:], B[:off]]) if off else A.copy()
