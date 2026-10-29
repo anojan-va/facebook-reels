@@ -1,0 +1,27 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "torn.jpg",
+   "prompt": "Hyper-detailed cinematic photo, extremely high contrast, No people, no text, letters, logos or watermarks. Horizontal 16:9. the night sky above a calm sea is torn open like paper, a jagged ripped hole in the sky showing pure black emptiness where the moon used to be, glowing edges of the tear, debris of sky fragments floating, surreal and dramatic.",
+   "seed": 91
+  },
+  {
+   "out": "bigmoon.jpg",
+   "prompt": "Hyper-detailed cinematic photo, extremely high contrast, No people, no text, letters, logos or watermarks. Horizontal 16:9. an enormous detailed full moon filling most of the frame, bright white craters, pure black background, perfectly sharp.",
+   "seed": 92
+  },
+  {
+   "out": "stranded.jpg",
+   "prompt": "Hyper-detailed cinematic photo, extremely high contrast, No people, no text, letters, logos or watermarks. Horizontal 16:9. dozens of fishing boats stranded tilted on dry cracked mud of an empty harbour, the sea far away, a dark night sky with no moon, harbour lights, eerie and dramatic, cold blue and orange tones.",
+   "seed": 93
+  },
+  {
+   "out": "nightsky.jpg",
+   "prompt": "Cinematic photo, No people, no text, letters, logos or watermarks. Horizontal 16:9. a dark night sky over a quiet city skyline, deep blue tones, a few stars, the sky completely empty of any moon, soft city glow at the bottom.",
+   "seed": 94
+  }
+ ]
+}
