@@ -1,0 +1,15 @@
+script 363 words, heard 366
+Traceback (most recent call last):
+  File "/home/user/facebook-reels/longform/cant-let-go/parts/draft/../../../make_long.py", line 1417, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/facebook-reels/longform/cant-let-go/parts/draft/../../../make_long.py", line 1145, in main
+    cues.append((c["name"], abs_at(si, c.get("at", 0.0)), float(c.get("gain", 1.0))))
+                            ~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/facebook-reels/longform/cant-let-go/parts/draft/../../../make_long.py", line 1089, in abs_at
+    return starts[si] + ctxs[si].at(x)
+                        ~~~~~~~~~~~^^^
+  File "/home/user/facebook-reels/longform/cant-let-go/parts/draft/../../../make_long.py", line 851, in at
+    key, off = norm(m.group(1)), float(m.group(2) or 0)
+                    ^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'

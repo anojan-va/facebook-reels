@@ -68,10 +68,10 @@
    "v": {
     "img": "../img/c-movie-edit.jpg",
     "focus": [
-     0.45,
-     0.9
+     0.5,
+     0.75
     ],
-    "zoom": 2.0
+    "zoom": 1.5
    },
    "sfx": [
     {
@@ -335,7 +335,7 @@
   {
    "text": "As long as you're still thinking about them, there's a tiny part of you that believes it might still happen.",
    "v": {
-    "video": "../stock/insomnia-2.mp4",
+    "video": "../stock/sad-woman-3.mp4",
     "start": 2.0,
     "zoom": 1.08
    },

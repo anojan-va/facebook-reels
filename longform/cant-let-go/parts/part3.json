@@ -152,9 +152,12 @@
   {
    "text": "So that 2 AM feeling?",
    "v": {
-    "video": "../stock/insomnia-1.mp4",
-    "start": 2.0,
-    "zoom": 1.08
+    "img": "../img/c-2am.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2
    },
    "in": "blur",
    "sfx": [
@@ -272,8 +275,8 @@
   {
    "text": "When I understood this, I stopped hating myself.",
    "v": {
-    "video": "../stock/rain-5.mp4",
-    "start": 6.0,
+    "video": "../stock/sunrise-1.mp4",
+    "start": 4.0,
     "zoom": 1.08
    },
    "pause_before": 0.3,
@@ -331,10 +334,10 @@
    "v": {
     "img": "../img/c-kitchen-floor.jpg",
     "focus": [
-     0.6,
-     0.3
+     0.58,
+     0.4
     ],
-    "zoom": 1.8
+    "zoom": 1.5
    },
    "in": "blur",
    "sfx": [

@@ -134,7 +134,7 @@
     ],
     "right": [
      "FULL LIFE",
-     "NO ROOM LEFT"
+     "NO ROOM"
     ],
     "at": "@empty",
     "left_at": 0.0
@@ -206,7 +206,7 @@
   {
    "text": "Somewhere around mile nine,",
    "v": {
-    "video": "../stock/running-5.mp4",
+    "video": "../stock/marathon-0.mp4",
     "start": 2.0,
     "zoom": 1.08
    },

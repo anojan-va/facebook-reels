@@ -46,9 +46,9 @@
   {
    "text": "You should be asleep.",
    "v": {
-    "video": "../stock/insomnia-0.mp4",
+    "video": "../stock/insomnia-2.mp4",
     "start": 1.0,
-    "zoom": 1.15
+    "zoom": 1.1
    },
    "in": "blur",
    "sfx": [
@@ -104,14 +104,20 @@
       "white"
      ],
      [
-      "WHAT YOU SHOULD HAVE SAID.",
+      "WHAT YOU SHOULD",
+      "yellow"
+     ],
+     [
+      "HAVE SAID.",
       "yellow"
      ]
     ],
     "times": [
      0.0,
+     "@should",
      "@should"
-    ]
+    ],
+    "size": 140
    },
    "in": "spin",
    "sfx": [
@@ -125,8 +131,8 @@
   {
    "text": "The way they looked at you that one time.",
    "v": {
-    "video": "../stock/sad-woman-3.mp4",
-    "start": 2.0,
+    "video": "../stock/sad-woman-0.mp4",
+    "start": 3.0,
     "zoom": 1.08
    },
    "in": "blur",
@@ -256,12 +262,9 @@
   {
    "text": "And part of you feels a little bit crazy.",
    "v": {
-    "img": "../img/c-crazy.jpg",
-    "focus": [
-     0.5,
-     0.3
-    ],
-    "zoom": 1.6
+    "video": "../stock/night-bed-phone-5.mp4",
+    "start": 2.0,
+    "zoom": 1.15
    },
    "in": "blur",
    "sfx": [
@@ -507,7 +510,7 @@
      [
       "always 😂",
       "me",
-      "@late-night"
+      "@late"
      ],
      [
       "ok that joke again 💀",
@@ -533,7 +536,7 @@
     },
     {
      "name": "pop",
-     "at": "@late-night"
+     "at": "@late"
     },
     {
      "name": "pop",
@@ -697,10 +700,16 @@
    "v": {
     "img": "../img/c-friends-look.jpg",
     "focus": [
-     0.7,
+     0.5,
      0.45
     ],
-    "zoom": 1.4
+    "zoom": 1.0,
+    "to": [
+     0.7,
+     0.4
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
    },
    "in": "cut"
   },
@@ -753,7 +762,7 @@
      "???"
     ],
     "at": 999.0,
-    "left_at": 0.0
+    "left_at": "@five"
    },
    "in": "spin",
    "sfx": [
@@ -803,8 +812,8 @@
   {
    "text": "It took me a long time to understand what was actually going on.",
    "v": {
-    "video": "../stock/rain-5.mp4",
-    "start": 2.0,
+    "video": "../stock/rain-4.mp4",
+    "start": 6.0,
     "zoom": 1.08
    },
    "in": "zoom",

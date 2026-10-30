@@ -31,3 +31,5 @@ longform/*/parts/*.wav
 longform/*/parts/*.log
 longform/*/parts/old/
 longform/*/parts/takes/
+longform/*/parts/draft/*.wav
+longform/output/
