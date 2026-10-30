@@ -1,0 +1,331 @@
+{
+ "out": "../../output/cant-let-go/part4.mp4",
+ "audio": "p4.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 100.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "night",
+  "captions": "underline",
+  "caption_y": 0.86,
+  "vignette": 0.5,
+  "grain": 4
+ },
+ "shots": [
+  {
+   "text": "But understanding it is only half of it.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "UNDERSTANDING IT",
+      "white"
+     ],
+     [
+      "IS ONLY HALF",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@only"
+    ]
+   },
+   "captions": false
+  },
+  {
+   "text": "You also need to know what keeps it going.",
+   "v": {
+    "video": "../stock/scrolling-phone-7.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Because there are a few things almost all of us do that feed the obsession without realising it.",
+   "v": {
+    "img": "../img/c-loop.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2,
+    "spin": 6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The first one is checking.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "#1",
+     "CHECKING"
+    ],
+    "mark": [
+     "CHECKING"
+    ],
+    "times": [
+     0.0,
+     "@checking"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Their profile, their stories, their last seen, the old photos.",
+   "v": {
+    "video": "../stock/scrolling-phone-2.mp4",
+    "start": 2.0,
+    "zoom": 1.15
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Every time you look, you give your brain a tiny hit of the very thing it's craving.",
+   "v": {
+    "img": "../img/c-brain-crave.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "sfx": [
+    {
+     "name": "zap",
+     "at": "@hit"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "It's like trying to quit sugar while keeping a jar of cookies on your desk and opening it \"just to look\".",
+   "v": {
+    "img": "../img/c-cookie-jar.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.75,
+     0.6
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I know people say \"just block them\", and I used to think that was childish.",
+   "v": {
+    "video": "../stock/night-bed-phone-5.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "It's not.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT'S NOT.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Blocking or muting isn't about them.",
+   "v": {
+    "img": "../img/c-block.jpg",
+    "focus": [
+     0.65,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "It's about protecting your own brain while it heals.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "PROTECTING",
+     "YOUR OWN BRAIN"
+    ],
+    "mark": [
+     "YOUR OWN BRAIN"
+    ],
+    "times": [
+     0.0,
+     "@own"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You can always unblock later, when it doesn't hurt anymore.",
+   "v": {
+    "video": "../stock/walking-park-0.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And funny enough, by then, you usually won't even want to.",
+   "v": {
+    "img": "../img/c-tuesday.jpg",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And while you're at it, archive the chat.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Lena",
+      "them",
+      -1.0
+     ]
+    ],
+    "title": "Archived"
+   },
+   "overlays": [
+    {
+     "mg": "notify",
+     "title": "Messages",
+     "text": "Chat archived",
+     "at": 0.3
+    }
+   ],
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "pop",
+     "at": 0.3,
+     "gain": 1.2
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Move the photos into a folder you don't open.",
+   "v": {
+    "video": "../stock/old-photos-2.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Not because the memories don't matter,",
+   "v": {
+    "img": "../img/c-last-page.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "but because you can't heal a wound you keep pressing on.",
+   "v": {
+    "mg": "quote",
+    "text": "You can't heal a wound you keep pressing on.",
+    "end": "@on",
+    "width": 26
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  }
+ ]
+}

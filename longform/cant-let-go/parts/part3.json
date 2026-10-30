@@ -1,0 +1,450 @@
+{
+ "out": "../../output/cant-let-go/part3.mp4",
+ "audio": "p3.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 40.0
+  },
+  {
+   "shot": 11,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 10.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "night",
+  "captions": "underline",
+  "caption_y": 0.86,
+  "vignette": 0.5,
+  "grain": 4
+ },
+ "shots": [
+  {
+   "text": "And here's the second piece. The one that really changed how I saw myself.",
+   "v": {
+    "img": "../img/c-puzzle.jpg",
+    "focus": [
+     0.65,
+     0.5
+    ],
+    "zoom": 1.4
+   }
+  },
+  {
+   "text": "The anthropologist Helen Fisher did something fascinating.",
+   "v": {
+    "video": "../stock/night-bed-phone-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "HELEN FISHER",
+     "sub": "Anthropologist · Rutgers University",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "She put people who had just been rejected in love into a brain scanner,",
+   "v": {
+    "img": "../img/c-scanner.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and showed them a photo of the person who left them.",
+   "v": {
+    "img": "../img/c-scanner.jpg",
+    "focus": [
+     0.74,
+     0.2
+    ],
+    "zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "shutter",
+     "at": "@photo"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "And the areas that lit up were the same reward and craving areas you see in addiction.",
+   "v": {
+    "img": "../img/c-brain-crave.jpg",
+    "focus": [
+     0.35,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@reward",
+    "zoom": 1.9,
+    "focus": [
+     0.25,
+     0.5
+    ]
+   },
+   "sfx": [
+    {
+     "name": "zap",
+     "at": "@reward"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "The same system involved in craving a drug.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THE SAME SYSTEM",
+     "AS A",
+     "DRUG"
+    ],
+    "mark": [
+     "DRUG"
+    ],
+    "times": [
+     0.0,
+     "@craving",
+     "@drug"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "So that 2 AM feeling?",
+   "v": {
+    "video": "../stock/insomnia-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "That pull to check their profile one more time?",
+   "v": {
+    "img": "../img/c-hook.jpg",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.6,
+     0.3
+    ],
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "That's not you being weak. That's withdrawal.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "NOT",
+     "WEAKNESS"
+    ],
+    "right": [
+     "IT'S",
+     "WITHDRAWAL"
+    ],
+    "at": "@withdrawal",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "boom",
+     "at": "@withdrawal",
+     "gain": 0.6
+    }
+   ],
+   "in": "spin",
+   "captions": false
+  },
+  {
+   "text": "Your brain got used to a reward, the texts, the attention, the excitement,",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "good morning ☀️",
+      "them",
+      0.1
+     ],
+     [
+      "you're the best 😊",
+      "them",
+      "@attention"
+     ],
+     [
+      "call me later?",
+      "them",
+      "@excitement"
+     ]
+    ],
+    "title": "Lena"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1
+    },
+    {
+     "name": "pop",
+     "at": "@attention"
+    },
+    {
+     "name": "pop",
+     "at": "@excitement"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "and now it's craving it like anything else it's hooked on.",
+   "v": {
+    "img": "../img/c-hook.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "When I understood this, I stopped hating myself.",
+   "v": {
+    "video": "../stock/rain-5.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.3,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "I remember sitting on my kitchen floor at midnight, holding my phone,",
+   "v": {
+    "img": "../img/c-kitchen-floor.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "about to send her another \"Hey, how have you been?\"",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "Hey, how have you been?",
+      "me",
+      0.6
+     ]
+    ],
+    "title": "Lena"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "typing",
+     "at": 0.1,
+     "gain": 0.6
+    }
+   ],
+   "in": "spin",
+   "captions": false
+  },
+  {
+   "text": "And for the first time, instead of thinking \"I'm so pathetic,\"",
+   "v": {
+    "img": "../img/c-kitchen-floor.jpg",
+    "focus": [
+     0.6,
+     0.3
+    ],
+    "zoom": 1.8
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "I thought, \"Oh. This is a craving. It'll pass in ten minutes.\"",
+   "v": {
+    "mg": "timer",
+    "seconds": 600,
+    "label": "THE CRAVING",
+    "end_label": "PASSED"
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.55
+    },
+    {
+     "name": "tick",
+     "at": 0.8999999999999999
+    },
+    {
+     "name": "tick",
+     "at": 1.2499999999999998
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And it did.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "AND IT DID.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.1
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "I put the phone down, made some tea,",
+   "v": {
+    "img": "../img/c-tea.jpg",
+    "focus": [
+     0.55,
+     0.55
+    ],
+    "zoom": 1.1
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "and the wave went past.",
+   "v": {
+    "img": "../img/c-wave.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": -0.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "That was the first time I felt like I had any control at all.",
+   "v": {
+    "video": "../stock/tea-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  }
+ ]
+}

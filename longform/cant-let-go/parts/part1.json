@@ -1,0 +1,839 @@
+{
+ "out": "../../output/cant-let-go/part1.mp4",
+ "audio": "p1.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/silent-descent.mp3",
+   "start": 30.0
+  },
+  {
+   "shot": 13,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 100.0
+  },
+  {
+   "shot": 20,
+   "music": "../../../reels/audio/music/silent-descent.mp3"
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "night",
+  "captions": "underline",
+  "caption_y": 0.86,
+  "vignette": 0.5,
+  "grain": 4
+ },
+ "shots": [
+  {
+   "text": "It's 2 AM.",
+   "v": {
+    "mg": "year",
+    "from": 0,
+    "to": 2,
+    "roll": 0.5,
+    "label": "AM"
+   },
+   "sfx": [
+    "hook"
+   ],
+   "captions": false
+  },
+  {
+   "text": "You should be asleep.",
+   "v": {
+    "video": "../stock/insomnia-0.mp4",
+    "start": 1.0,
+    "zoom": 1.15
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "But you're lying there, replaying the same conversation for the fortieth time.",
+   "v": {
+    "img": "../img/c-2am.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.4,
+     0.2
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ REPLAY  x40",
+     "at": "@replaying",
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "rewind",
+     "at": "@replaying",
+     "gain": 0.6
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "What they said. What you should have said.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WHAT THEY SAID.",
+      "white"
+     ],
+     [
+      "WHAT YOU SHOULD HAVE SAID.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@should"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The way they looked at you that one time.",
+   "v": {
+    "video": "../stock/sad-woman-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "You've told yourself a hundred times to stop thinking about them.",
+   "v": {
+    "img": "../img/c-crazy.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And somehow, telling yourself to stop just makes it louder.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "TELLING YOURSELF TO STOP",
+     "MAKES IT",
+     "LOUDER"
+    ],
+    "mark": [
+     "LOUDER"
+    ],
+    "times": [
+     0.0,
+     "@makes",
+     "@louder"
+    ]
+   },
+   "shake": [
+    "@louder"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "boom",
+     "at": "@louder",
+     "gain": 0.6
+    }
+   ],
+   "in": "spin",
+   "captions": false
+  },
+  {
+   "text": "You check their profile.",
+   "v": {
+    "video": "../stock/night-bed-phone-1.mp4",
+    "start": 2.0,
+    "zoom": 1.15
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "You don't even want to. Your thumb just does it.",
+   "v": {
+    "img": "../img/c-thumb.jpg",
+    "focus": [
+     0.6,
+     0.55
+    ],
+    "zoom": 1.0
+   },
+   "punch": {
+    "at": "@thumb",
+    "zoom": 1.8,
+    "focus": [
+     0.65,
+     0.6
+    ]
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You read old messages you already know by heart.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "haha you're ridiculous 😂",
+      "them",
+      -1.0
+     ],
+     [
+      "Same time tomorrow?",
+      "me",
+      -1.0
+     ],
+     [
+      "obviously 😊",
+      "them",
+      -1.0
+     ]
+    ],
+    "title": "Lena"
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And part of you feels a little bit crazy.",
+   "v": {
+    "img": "../img/c-crazy.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.6
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Because it's been weeks. Maybe months.",
+   "v": {
+    "mg": "timer",
+    "seconds": 5400,
+    "label": "WEEKS. MONTHS.",
+    "end_label": "STILL HERE"
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.55
+    },
+    {
+     "name": "tick",
+     "at": 0.8999999999999999
+    },
+    {
+     "name": "tick",
+     "at": 1.2499999999999998
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Why is this one person still living in your head?",
+   "v": {
+    "img": "../img/c-loop.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "spin": -6
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    },
+    {
+     "name": "heartbeat",
+     "at": "@living"
+    }
+   ],
+   "in": "blur"
+  },
+  {
+   "text": "Here's what I want you to know before we go any further.",
+   "v": {
+    "video": "../stock/rain-4.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "You're not crazy. You're not weak.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "YOU'RE NOT CRAZY.",
+      "white"
+     ],
+     [
+      "YOU'RE NOT WEAK.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@weak-0.4"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Your brain is doing exactly what it was built to do.",
+   "v": {
+    "img": "../img/c-brain-crave.jpg",
+    "focus": [
+     0.35,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And once you understand why, you can finally start to turn the volume down.",
+   "v": {
+    "img": "../img/c-volume.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I'm going to show you how I did it,",
+   "v": {
+    "video": "../stock/walking-park-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "including the one mistake that kept me stuck for almost a year.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THE ONE MISTAKE",
+     "THAT KEPT ME STUCK",
+     "FOR A YEAR"
+    ],
+    "mark": [
+     "THE ONE MISTAKE"
+    ],
+    "times": [
+     0.0,
+     "@kept",
+     "@almost"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Stay with me, because the last part is the one that actually set me free.",
+   "v": {
+    "video": "../stock/sunrise-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A few years ago, there was someone I'll call Lena.",
+   "v": {
+    "img": "../img/c-latenight.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "blur",
+   "pause_before": 0.35,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "We were never even officially together. That's the embarrassing part.",
+   "v": {
+    "video": "../stock/sad-woman-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Three months of late-night talks, inside jokes, almost-dates.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "you up?",
+      "them",
+      0.1
+     ],
+     [
+      "always 😂",
+      "me",
+      "@late-night"
+     ],
+     [
+      "ok that joke again 💀",
+      "them",
+      "@inside"
+     ],
+     [
+      "coffee saturday?",
+      "me",
+      "@almost"
+     ]
+    ],
+    "title": "Lena"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "pop",
+     "at": 0.1
+    },
+    {
+     "name": "pop",
+     "at": "@late-night"
+    },
+    {
+     "name": "pop",
+     "at": "@inside"
+    },
+    {
+     "name": "pop",
+     "at": "@almost"
+    }
+   ],
+   "in": "spin",
+   "captions": false
+  },
+  {
+   "text": "And then one day she just... stopped.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "coffee saturday?",
+      "me",
+      -1.0
+     ],
+     [
+      "hey?",
+      "me",
+      0.3
+     ]
+    ],
+    "title": "Lena",
+    "status": "Read 11:04 PM",
+    "status_at": "@stopped"
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "@stopped"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "No fight. No explanation.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NO FIGHT.",
+      "white"
+     ],
+     [
+      "NO EXPLANATION.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@no+0.4"
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "She started seeing someone else, and that was it.",
+   "v": {
+    "img": "../img/c-she-leaves.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And I couldn't let it go.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "I COULDN'T",
+     "LET IT GO"
+    ],
+    "mark": [
+     "LET IT GO"
+    ],
+    "times": [
+     0.0,
+     "@let"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I'd be at work, in the middle of a meeting,",
+   "v": {
+    "video": "../stock/office-meeting-7.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "and suddenly I was thinking about something she said in August.",
+   "v": {
+    "img": "../img/c-meeting.jpg",
+    "focus": [
+     0.6,
+     0.3
+    ],
+    "zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I'd hear a song in a supermarket and my whole day was gone.",
+   "v": {
+    "video": "../stock/supermarket-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "My friends were patient for about two weeks.",
+   "v": {
+    "video": "../stock/friends-talking-5.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Then they started giving me that look. You know the one.",
+   "v": {
+    "img": "../img/c-friends-look.jpg",
+    "focus": [
+     0.7,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "\"Are we really talking about her again?\"",
+   "v": {
+    "mg": "quote",
+    "text": "\"Are we really talking about her again?\"",
+    "end": "@again",
+    "width": 26
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "What made it worse was that I didn't understand it.",
+   "v": {
+    "img": "../img/c-shame.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "pause_before": 0.25,
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "If we'd been together for five years, sure, that would make sense.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "5 YEARS",
+     "MAKES SENSE"
+    ],
+    "right": [
+     "3 MONTHS",
+     "???"
+    ],
+    "at": 999.0,
+    "left_at": 0.0
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "But three months? I felt pathetic.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "5 YEARS",
+     "MAKES SENSE"
+    ],
+    "right": [
+     "3 MONTHS",
+     "???"
+    ],
+    "at": "@three",
+    "left_at": -1.0
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "And that shame made me think about her even more.",
+   "v": {
+    "img": "../img/c-shame.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "It took me a long time to understand what was actually going on.",
+   "v": {
+    "video": "../stock/rain-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And the first piece of the puzzle was something I learned almost by accident.",
+   "v": {
+    "img": "../img/c-puzzle.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@puzzle"
+    }
+   ],
+   "in": "cut"
+  }
+ ]
+}

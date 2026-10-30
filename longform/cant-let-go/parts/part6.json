@@ -1,0 +1,538 @@
+{
+ "out": "../../output/cant-let-go/part6.mp4",
+ "audio": "p6.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 10.0
+  },
+  {
+   "shot": 12,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 40.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "night",
+  "captions": "underline",
+  "caption_y": 0.86,
+  "vignette": 0.5,
+  "grain": 4
+ },
+ "shots": [
+  {
+   "text": "So how do you actually let go?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SO HOW DO YOU",
+      "white"
+     ],
+     [
+      "ACTUALLY LET GO?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@actually"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "@go+0.4",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Here's what I learned, and this is the part I wish someone had told me at the start.",
+   "v": {
+    "video": "../stock/sunrise-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "You have to close the loop yourself.",
+   "v": {
+    "mg": "loop",
+    "text": "CLOSE IT",
+    "labels": []
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "reveal",
+     "at": "@close"
+    }
+   ],
+   "in": "spin",
+   "captions": false
+  },
+  {
+   "text": "You will probably never get the explanation you want.",
+   "v": {
+    "video": "../stock/rain-4.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "They might not even know why they left.",
+   "v": {
+    "img": "../img/c-she-leaves.jpg",
+    "focus": [
+     0.75,
+     0.5
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "So stop waiting for them to give you an ending, and write it yourself.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "WRITE THE",
+     "ENDING",
+     "YOURSELF"
+    ],
+    "mark": [
+     "ENDING"
+    ],
+    "times": [
+     0.0,
+     "@ending",
+     "@yourself"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I did this literally. I wrote Lena a letter. Three pages.",
+   "v": {
+    "img": "../img/c-letter.jpg",
+    "focus": [
+     0.55,
+     0.55
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "pause_before": 0.25,
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Everything I never said. What I felt, what hurt, what I was grateful for, and that I was done waiting.",
+   "v": {
+    "video": "../stock/writing-letter-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And then I didn't send it.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "I DIDN'T",
+      "white"
+     ],
+     [
+      "SEND IT.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@send"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I read it out loud once, and I deleted it.",
+   "v": {
+    "img": "../img/c-read-aloud.jpg",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": 1.1
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    },
+    {
+     "name": "glitch-hit",
+     "at": "@deleted",
+     "gain": 0.5
+    }
+   ],
+   "in": "blur"
+  },
+  {
+   "text": "It sounds dramatic, but something in my chest unclenched that night.",
+   "v": {
+    "video": "../stock/tea-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "For the first time, the story had a last page.",
+   "v": {
+    "img": "../img/c-last-page.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": -0.1
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@last"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "The second thing is to give the craving somewhere else to go.",
+   "v": {
+    "mg": "timer",
+    "seconds": 600,
+    "label": "WHEN IT HITS",
+    "end_label": "MOVE"
+   },
+   "pause_before": 0.25,
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.55
+    },
+    {
+     "name": "tick",
+     "at": 0.8999999999999999
+    },
+    {
+     "name": "tick",
+     "at": 1.2499999999999998
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "When the urge to check hits, have a plan ready.",
+   "v": {
+    "video": "../stock/night-bed-phone-1.mp4",
+    "start": 4.0,
+    "zoom": 1.2
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Go for a walk.",
+   "v": {
+    "video": "../stock/walking-park-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Call a friend.",
+   "v": {
+    "video": "../stock/friends-talking-5.mp4",
+    "start": 9.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Do ten push-ups.",
+   "v": {
+    "img": "../img/c-pushups.jpg",
+    "focus": [
+     0.4,
+     0.55
+    ],
+    "zoom": 1.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Anything that moves your body and gets you out of that loop.",
+   "v": {
+    "video": "../stock/running-3.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Your brain needs new rewards, not just the absence of the old one.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "NOT",
+     "LESS OF THEM"
+    ],
+    "right": [
+     "MORE",
+     "NEW REWARDS"
+    ],
+    "at": "@rewards",
+    "left_at": 0.0
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The third is to stop fighting the thoughts.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "STOP FIGHTING",
+      "white"
+     ],
+     [
+      "THE THOUGHTS",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@thoughts"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "This sounds backwards, but trying not to think about someone is like trying not to think about a pink elephant.",
+   "v": {
+    "img": "../img/c-elephant.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.75,
+     0.4
+    ],
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "The harder you push, the louder it gets.",
+   "v": {
+    "img": "../img/c-crazy.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.5
+   },
+   "shake": [
+    "@louder"
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "So when they pop into your head, just notice it.",
+   "v": {
+    "video": "../stock/tea-1.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "\"There's that thought again.\"",
+   "v": {
+    "mg": "quote",
+    "text": "\"There's that thought again.\"",
+    "end": "@again",
+    "width": 26
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Let it pass like a car going by.",
+   "v": {
+    "img": "../img/c-car-passing.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0.07
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Don't chase it, and don't slam the door on it either.",
+   "v": {
+    "img": "../img/c-car-passing.jpg",
+    "focus": [
+     0.25,
+     0.5
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Some days it'll pass a hundred times. That's fine.",
+   "v": {
+    "video": "../stock/rain-5.mp4",
+    "start": 9.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Every time you let it go by without following it, the road gets a little quieter.",
+   "v": {
+    "img": "../img/c-car-passing.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": -0.1
+   },
+   "in": "cut"
+  }
+ ]
+}

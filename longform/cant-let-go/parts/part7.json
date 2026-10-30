@@ -1,0 +1,637 @@
+{
+ "out": "../../output/cant-let-go/part7.mp4",
+ "audio": "p7.wav",
+ "speed": 1.0,
+ "tail": 2.0,
+ "music_fade": 2.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 10.0
+  },
+  {
+   "shot": 5,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 40.0
+  },
+  {
+   "shot": 11,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3"
+  }
+ ],
+ "music_volume": 0.33,
+ "fade_out": 2.0,
+ "style": {
+  "grade": "night",
+  "captions": "underline",
+  "caption_y": 0.86,
+  "vignette": 0.5,
+  "grain": 4
+ },
+ "shots": [
+  {
+   "text": "And the last thing, the one that actually set me free.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE ONE THAT",
+      "white"
+     ],
+     [
+      "SET ME FREE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@set"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "boom",
+     "at": "@free",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Fill the space they left with your own life.",
+   "v": {
+    "img": "../img/c-empty-room.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Not with a new person straight away. With yourself.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT A NEW PERSON.",
+      "white"
+     ],
+     [
+      "YOURSELF.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@yourself"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Your friends, your goals, the hobbies you dropped when you were busy waiting for a reply.",
+   "v": {
+    "img": "../img/c-full-room.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Because the real reason someone takes over your mind is that there's too much empty room in it.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "EMPTY ROOM",
+     "THEY MOVE IN"
+    ],
+    "right": [
+     "FULL LIFE",
+     "NO ROOM LEFT"
+    ],
+    "at": "@empty",
+    "left_at": 0.0
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "For me it was running.",
+   "v": {
+    "video": "../stock/running-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.3,
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "I started because I couldn't sleep, and I needed to be tired.",
+   "v": {
+    "img": "../img/c-run-night.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.07
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Three months later, I signed up for my first half marathon.",
+   "v": {
+    "video": "../stock/marathon-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "HALF MARATHON  13.1 MI",
+     "at": "@half",
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Somewhere around mile nine,",
+   "v": {
+    "video": "../stock/running-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "MILE 9",
+     "at": 0.1,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "I realised I hadn't thought about Lena all day. Not once.",
+   "v": {
+    "img": "../img/c-finish.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I wasn't trying not to. There just wasn't room anymore.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THERE WASN'T",
+     "ROOM ANYMORE"
+    ],
+    "mark": [
+     "ROOM ANYMORE"
+    ],
+    "times": [
+     0.0,
+     "@room"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "sparkle",
+     "at": "@anymore"
+    }
+   ],
+   "in": "spin",
+   "captions": false
+  },
+  {
+   "text": "And here's the thing nobody tells you about getting over someone.",
+   "v": {
+    "video": "../stock/sunrise-4.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "You don't wake up one day and decide it's over.",
+   "v": {
+    "img": "../img/c-sleep.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You just notice, one random Tuesday, that they weren't the first thing you thought about this morning.",
+   "v": {
+    "img": "../img/c-tuesday.jpg",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And then it's a week.",
+   "v": {
+    "mg": "timer",
+    "seconds": 10080,
+    "label": "ONE WEEK",
+    "end_label": "FREE"
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.55
+    },
+    {
+     "name": "tick",
+     "at": 0.8999999999999999
+    },
+    {
+     "name": "tick",
+     "at": 1.2499999999999998
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And then you hear that song in the supermarket, and you smile, and you keep walking.",
+   "v": {
+    "img": "../img/c-smile-walk.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "That smile is how you know.",
+   "v": {
+    "video": "../stock/supermarket-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Not that you forgot them.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT THAT YOU",
+      "white"
+     ],
+     [
+      "FORGOT THEM.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@forgot"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "That they finally became a memory instead of a wound.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "NOT A",
+     "WOUND"
+    ],
+    "right": [
+     "A",
+     "MEMORY"
+    ],
+    "at": "@memory",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@memory"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "So if you're lying awake tonight thinking about someone, be gentle with yourself.",
+   "v": {
+    "img": "../img/c-2am.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "pause_before": 0.3,
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Your brain isn't broken. It's healing.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOT BROKEN.",
+      "white"
+     ],
+     [
+      "HEALING.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@healing"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Close the loop.",
+   "v": {
+    "mg": "checklist",
+    "title": "HOW TO LET GO",
+    "items": [
+     "CLOSE THE LOOP",
+     "STOP FEEDING THE CRAVING",
+     "LET THE THOUGHTS PASS",
+     "BUILD A FULL LIFE"
+    ],
+    "times": [
+     0.05,
+     999,
+     999,
+     999
+    ]
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Stop feeding the craving.",
+   "v": {
+    "mg": "checklist",
+    "title": "HOW TO LET GO",
+    "items": [
+     "CLOSE THE LOOP",
+     "STOP FEEDING THE CRAVING",
+     "LET THE THOUGHTS PASS",
+     "BUILD A FULL LIFE"
+    ],
+    "times": [
+     -1,
+     0.05,
+     999,
+     999
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Let the thoughts pass.",
+   "v": {
+    "mg": "checklist",
+    "title": "HOW TO LET GO",
+    "items": [
+     "CLOSE THE LOOP",
+     "STOP FEEDING THE CRAVING",
+     "LET THE THOUGHTS PASS",
+     "BUILD A FULL LIFE"
+    ],
+    "times": [
+     -1,
+     -1,
+     0.05,
+     999
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And build a life so full that one day, there's simply no room left for someone who chose not to stay.",
+   "v": {
+    "mg": "checklist",
+    "title": "HOW TO LET GO",
+    "items": [
+     "CLOSE THE LOOP",
+     "STOP FEEDING THE CRAVING",
+     "LET THE THOUGHTS PASS",
+     "BUILD A FULL LIFE"
+    ],
+    "times": [
+     -1,
+     -1,
+     -1,
+     0.05
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "If this helped you, send it to someone who's been stuck on someone for way too long.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SEND THIS TO SOMEONE",
+      "white"
+     ],
+     [
+      "WHO CAN'T LET GO",
+      "yellow"
+     ]
+    ],
+    "times": [
+     "@send",
+     "@stuck"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@send"
+    },
+    {
+     "name": "pop",
+     "at": "@stuck"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "They need to hear that they're not crazy. And I'll see you in the next one.",
+   "v": {
+    "img": "../img/c-smile-walk.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.2,
+    "drift": -0.12
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  }
+ ]
+}

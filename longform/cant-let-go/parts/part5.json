@@ -1,0 +1,401 @@
+{
+ "out": "../../output/cant-let-go/part5.mp4",
+ "audio": "p5.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 100.0
+  },
+  {
+   "shot": 14,
+   "music": "../../../reels/audio/music/silent-descent.mp3",
+   "start": 30.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "night",
+  "captions": "underline",
+  "caption_y": 0.86,
+  "vignette": 0.5,
+  "grain": 4
+ },
+ "shots": [
+  {
+   "text": "The second thing is the fantasy.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "#2",
+     "THE FANTASY"
+    ],
+    "mark": [
+     "THE FANTASY"
+    ],
+    "times": [
+     0.0,
+     "@fantasy"
+    ]
+   },
+   "captions": false
+  },
+  {
+   "text": "When someone leaves, our mind edits the movie.",
+   "v": {
+    "img": "../img/c-movie-edit.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "It cuts out the arguments, the times they didn't reply, the way you never quite felt secure.",
+   "v": {
+    "img": "../img/c-movie-edit.jpg",
+    "focus": [
+     0.45,
+     0.9
+    ],
+    "zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@cuts"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "And it keeps the highlights. The best night, the best kiss, the best conversation.",
+   "v": {
+    "video": "../stock/sad-woman-3.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "So you're not actually missing them.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "YOU'RE NOT",
+      "white"
+     ],
+     [
+      "MISSING THEM.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@missing"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You're missing a trailer your brain put together.",
+   "v": {
+    "img": "../img/c-trailer.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.55,
+     0.35
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And nobody can compete with a trailer.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "NOBODY CAN",
+     "COMPETE WITH",
+     "A TRAILER"
+    ],
+    "mark": [
+     "A TRAILER"
+    ],
+    "times": [
+     0.0,
+     "@compete",
+     "@trailer"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Not the next person you date, and honestly, not even the real version of them.",
+   "v": {
+    "video": "../stock/sad-woman-6.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A friend of mine gave me a weird piece of advice that worked.",
+   "v": {
+    "video": "../stock/friends-talking-5.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "cut"
+  },
+  {
+   "text": "She said, write down every single time she made you feel small, anxious, or ignored. Every one.",
+   "v": {
+    "video": "../stock/writing-letter-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I thought it was petty.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "PETTY?",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "But when I read that list a week later,",
+   "v": {
+    "img": "../img/c-list.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "I realised I'd spent most of those three months waiting for a text.",
+   "v": {
+    "mg": "chat",
+    "messages": [
+     [
+      "hey :)",
+      "me",
+      -1.0
+     ],
+     [
+      "you there?",
+      "me",
+      0.3
+     ]
+    ],
+    "title": "Lena",
+    "status": "Delivered",
+    "status_at": "@waiting"
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The relationship I was grieving mostly existed in my head.",
+   "v": {
+    "mg": "quote",
+    "text": "The relationship I was grieving mostly existed in my head.",
+    "end": "@head",
+    "width": 30
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "The third thing is the most painful one to admit.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "#3",
+     "HOLDING ON"
+    ],
+    "mark": [
+     "HOLDING ON"
+    ],
+    "times": [
+     0.0,
+     "@painful"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Sometimes we hold on because letting go means admitting it's really over.",
+   "v": {
+    "img": "../img/c-candle.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "As long as you're still thinking about them, there's a tiny part of you that believes it might still happen.",
+   "v": {
+    "video": "../stock/insomnia-2.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "The thinking feels like hope.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE THINKING",
+      "white"
+     ],
+     [
+      "FEELS LIKE HOPE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@feels"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And giving it up feels like losing them a second time.",
+   "v": {
+    "img": "../img/c-candle.jpg",
+    "focus": [
+     0.57,
+     0.4
+    ],
+    "zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    },
+    {
+     "name": "heartbeat",
+     "at": "@second"
+    }
+   ],
+   "in": "blur"
+  }
+ ]
+}

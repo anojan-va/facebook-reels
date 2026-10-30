@@ -1,0 +1,405 @@
+{
+ "out": "../../output/cant-let-go/part2.mp4",
+ "audio": "p2.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 100.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "night",
+  "captions": "underline",
+  "caption_y": 0.86,
+  "vignette": 0.5,
+  "grain": 4
+ },
+ "shots": [
+  {
+   "text": "There's an old idea in psychology called the Zeigarnik effect.",
+   "v": {
+    "mg": "loop",
+    "text": "OPEN LOOP",
+    "labels": [
+     "what if",
+     "why",
+     "one more time"
+    ]
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "THE ZEIGARNIK EFFECT",
+     "at": "@zeigarnik",
+     "y": 0.86,
+     "size": 120
+    }
+   ],
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@zeigarnik"
+    },
+    {
+     "name": "impact",
+     "at": "@zeigarnik",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Back in the 1920s, a psychologist named Bluma Zeigarnik",
+   "v": {
+    "video": "../stock/restaurant-order-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "BLUMA ZEIGARNIK",
+     "sub": "Psychologist, Berlin (1927)",
+     "at": 0.1
+    }
+   ],
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    },
+    {
+     "name": "swoosh-fast",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "noticed that waiters could remember every detail of an order that hadn't been paid yet.",
+   "v": {
+    "img": "../img/c-waiter.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.6,
+     0.25
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "But the moment the bill was settled, the order vanished from their memory.",
+   "v": {
+    "mg": "receipt",
+    "paid_at": "@settled"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "bass",
+     "at": "@settled",
+     "gain": 0.6
+    }
+   ],
+   "in": "spin",
+   "captions": false
+  },
+  {
+   "text": "Our minds hold on to things that are unfinished. Open loops.",
+   "v": {
+    "mg": "loop",
+    "text": "UNFINISHED",
+    "labels": []
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "It's the same reason a song you only hear half of gets stuck in your head all day.",
+   "v": {
+    "video": "../stock/song-headphones-2.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And when I read that, I almost laughed.",
+   "v": {
+    "video": "../stock/walking-park-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "cut"
+  },
+  {
+   "text": "Because that was exactly it.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THAT WAS IT.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Lena wasn't stuck in my head because she was the love of my life.",
+   "v": {
+    "img": "../img/c-latenight.jpg",
+    "focus": [
+     0.65,
+     0.45
+    ],
+    "zoom": 1.6
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "She was stuck because the story never ended.",
+   "v": {
+    "mg": "quote",
+    "text": "She was stuck because the story never ended.",
+    "end": "@ended",
+    "width": 26
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "There was no last conversation. No explanation. No goodbye.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NO LAST CONVERSATION.",
+      "white"
+     ],
+     [
+      "NO EXPLANATION.",
+      "white"
+     ],
+     [
+      "NO GOODBYE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@explanation",
+     "@goodbye"
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "My brain was like that waiter, standing there holding an unpaid bill,",
+   "v": {
+    "img": "../img/c-unpaid.jpg",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": 1.1,
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "refusing to let go until someone settled it.",
+   "v": {
+    "mg": "receipt",
+    "status": "UNPAID",
+    "paid_at": 999.0
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I really believe this is why the \"almost\" relationships hurt the most.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "WHY \"ALMOST\"",
+     "HURTS THE MOST"
+    ],
+    "mark": [
+     "HURTS THE MOST"
+    ],
+    "times": [
+     0.0,
+     "@hurt"
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "The situationships. The person who disappeared. The one you never got to say everything to.",
+   "v": {
+    "video": "../stock/sad-woman-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "blur",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "It's not that they mattered more.",
+   "v": {
+    "video": "../stock/rain-4.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "It's that the ending never happened, so your mind keeps trying to write it.",
+   "v": {
+    "img": "../img/c-rewrite.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Over and over, every night, a different version.",
+   "v": {
+    "img": "../img/c-rewrite.jpg",
+    "focus": [
+     0.75,
+     0.7
+    ],
+    "zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "typing",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "What if I'd said this. What if she'd said that.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WHAT IF I'D SAID THIS.",
+      "white"
+     ],
+     [
+      "WHAT IF SHE'D SAID THAT.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@she'd"
+    ]
+   },
+   "in": "spin",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Your brain isn't remembering. It's trying to finish.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "NOT",
+     "REMEMBERING"
+    ],
+    "right": [
+     "IT'S",
+     "FINISHING"
+    ],
+    "at": "@finish",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@finish"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  }
+ ]
+}

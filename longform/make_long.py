@@ -678,10 +678,75 @@ def ov_notify(fr, t, d, p, ctx):
     blit(fr, text_layer("now", INTER_SB, 26, (150, 150, 155)), x0 + bw - 70, y0 + 48)
 
 
+def mg_loop(fr, t, d, p, ctx):
+    """A circular arrow spinning around a centre word ("OPEN LOOP"); small labels orbit on the ring."""
+    fr[:] = (8, 10, 18)
+    cx, cy, r = W // 2, int(H * 0.45), 300
+    a0 = (t * 70) % 360
+    cv2.ellipse(fr, (cx, cy), (r, r), a0, 0, 300, YELLOW, 10, cv2.LINE_AA)
+    ang = math.radians(a0 + 300)
+    tip = (int(cx + r * math.cos(ang)), int(cy + r * math.sin(ang)))
+    tang = ang + math.pi / 2              # direction of travel along the ring
+    base = (tip[0] - 50 * math.cos(tang), tip[1] - 50 * math.sin(tang))
+    pts = np.array([(int(tip[0] + 18 * math.cos(tang)), int(tip[1] + 18 * math.sin(tang))),
+                    (int(base[0] + 34 * math.cos(ang)), int(base[1] + 34 * math.sin(ang))),
+                    (int(base[0] - 34 * math.cos(ang)), int(base[1] - 34 * math.sin(ang)))], np.int32)
+    cv2.fillPoly(fr, [pts], YELLOW, cv2.LINE_AA)
+    blit(fr, text_layer(p.get("text", "OPEN LOOP"), ANTON, 110, WHITE, track=4), cx, cy, scale=1 + 0.03 * math.sin(t * 4), alpha=min(1, t / 0.2))
+    for i, lab in enumerate(p.get("labels", [])):
+        a = math.radians(a0 * 0.5 + i * 360 / max(1, len(p["labels"])))
+        blit(fr, text_layer(lab, INTER_SB, 34, (190, 200, 220), track=4), cx + (r + 110) * math.cos(a), cy + (r + 70) * math.sin(a), alpha=min(1, t / 0.4))
+
+
+def mg_receipt(fr, t, d, p, ctx):
+    """A restaurant receipt slides up; at p.paid_at a red PAID stamp slams on and the receipt fades."""
+    fr[:] = (10, 10, 14)
+    k = ease_out(t / 0.4)
+    rw, rh = 460, 640
+    x0, y0 = W / 2 - rw / 2, H * 0.5 - rh / 2 + 120 * (1 - k)
+    tp = ctx.at(p.get("paid_at", 999.0))
+    fade = 1 - 0.6 * ease_io((t - tp - 0.6) / 0.6) if t > tp else 1.0
+    rect(fr, x0, y0, x0 + rw, y0 + rh, (238, 236, 228), 0.97 * fade)
+    blit(fr, text_layer(p.get("title", "TABLE 7"), INTER_SB, 40, (30, 30, 30), track=6), W / 2, y0 + 60, alpha=fade)
+    for i, (item, price) in enumerate(p.get("items", [["Late-night talks", "\u221e"], ["Inside jokes", "12"], ["Almost-dates", "3"], ["Closure", "?"]])):
+        y = y0 + 150 + i * 70
+        blit(fr, text_layer(item, INTER_SB, 30, (40, 40, 40)), x0 + 40, y, anchor="l", alpha=fade)
+        pl = text_layer(price, INTER_SB, 30, (40, 40, 40))
+        blit(fr, pl, x0 + rw - 40 - pl.shape[1] / 2, y, alpha=fade)
+    rect(fr, x0 + 30, y0 + rh - 150, x0 + rw - 30, y0 + rh - 146, (60, 60, 60), fade)
+    blit(fr, text_layer(p.get("status", "UNPAID"), ANTON, 70, RED), W / 2, y0 + rh - 85, alpha=fade if t < tp else 0)
+    if t > tp:
+        ts = t - tp
+        st = text_layer("PAID", ANTON, 160, (40, 170, 70), track=10)
+        pad = 20
+        box = np.zeros((st.shape[0] + pad * 2, st.shape[1] + pad * 2, 4), np.uint8)
+        cv2.rectangle(box, (4, 4), (box.shape[1] - 5, box.shape[0] - 5), (40, 170, 70, 255), 10)
+        box[pad:pad + st.shape[0], pad:pad + st.shape[1]] = np.maximum(box[pad:pad + st.shape[0], pad:pad + st.shape[1]], st)
+        M = cv2.getRotationMatrix2D((box.shape[1] / 2, box.shape[0] / 2), -12, 1)
+        box = cv2.warpAffine(box, M, (box.shape[1], box.shape[0]))
+        blit(fr, box, W / 2, y0 + rh * 0.62, scale=1 + 1.4 * (1 - ease_out(ts / 0.15)), alpha=min(1, ts / 0.06))
+
+
+def mg_timer(fr, t, d, p, ctx):
+    """Countdown ring: p.start minutes counting down fast, label underneath; ends on p.end_label in yellow."""
+    fr[:] = (8, 10, 18)
+    total = p.get("seconds", 600)
+    run = p.get("run", max(d - 0.6, 0.5))
+    k = ease_io(t / run)
+    left = total * (1 - k)
+    cx, cy, r = W // 2, int(H * 0.44), 250
+    cv2.circle(fr, (cx, cy), r, (45, 50, 70), 14, cv2.LINE_AA)
+    if k < 1:
+        cv2.ellipse(fr, (cx, cy), (r, r), -90, 0, 360 * (1 - k), YELLOW, 14, cv2.LINE_AA)
+    txt = f"{int(left) // 60:02d}:{int(left) % 60:02d}" if k < 1 else p.get("end_label", "PASSED")
+    blit(fr, text_layer(txt, ANTON, 150, YELLOW if k >= 1 else WHITE, glow=14 if k >= 1 else 0), cx, cy)
+    blit(fr, text_layer(p.get("label", "THE CRAVING"), INTER_SB, 44, (190, 200, 220), track=10), cx, cy + r + 80, alpha=min(1, t / 0.3))
+
+
 MG = {"kinetic": mg_kinetic, "title": mg_title, "year": mg_year, "grid": mg_grid, "bars": mg_bars,
       "list": mg_list, "chapter": mg_chapter, "versus": mg_versus, "recap": mg_recap,
       "chat": mg_chat, "marker": mg_marker, "quote": mg_quote, "reason": mg_reason, "checklist": mg_checklist,
-      "curve": mg_curve, "lesson": mg_lesson, "polaroid": mg_polaroid}
+      "curve": mg_curve, "lesson": mg_lesson, "polaroid": mg_polaroid, "loop": mg_loop, "receipt": mg_receipt, "timer": mg_timer}
 OV = {"notify": ov_notify, "lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic}
 
 
@@ -725,6 +790,7 @@ def warp(im, fx, fy, z, rot=0.0, shake=(0, 0)):
 
 GRADES = {   # stock-footage looks, picked per video with "style": {"grade": ...}
     "cool": "eq=saturation=0.62:contrast=1.12:brightness=-0.035:gamma=0.95,colorbalance=rs=-0.04:bs=0.05:rh=0.03:gh=0.01",
+    "night": "eq=saturation=0.45:contrast=1.12:brightness=-0.05:gamma=0.92,colorbalance=rs=-0.08:gs=-0.02:bs=0.12:rm=-0.05:bm=0.06,curves=all='0/0.03 0.5/0.45 1/0.94'",
     "bw": "hue=s=0.05,eq=contrast=1.2:brightness=-0.035:gamma=0.94,curves=all='0/0.03 0.5/0.46 1/0.95'",
     "warm": "eq=saturation=0.72:contrast=1.1:brightness=-0.03:gamma=0.96,colorbalance=rs=0.05:gs=0.01:bs=-0.04:rh=0.06:bh=-0.05,curves=all='0/0.04 0.5/0.48 1/0.96'",
 }
@@ -862,6 +928,8 @@ def caption_layer(words, active):
         return caption_pill(words, active)
     if STYLE["captions"] == "punch":
         return caption_punch(words, active)
+    if STYLE["captions"] == "underline":
+        return caption_underline(words, active)
     f = ImageFont.truetype(INTER, 66)
     sp = f.getlength(" ")
     ws = [f.getlength(w) for w in words]
@@ -878,6 +946,26 @@ def caption_layer(words, active):
         x += wl + sp
     sh = sh.filter(ImageFilter.GaussianBlur(6))
     return np.asarray(Image.alpha_composite(sh, im))
+
+
+def caption_underline(words, active):
+    """Caption variant: lowercase, soft dark plate behind the phrase, yellow underline under the spoken word."""
+    f = ImageFont.truetype(INTER_SB, 60)
+    low = [w.lower() for w in words]
+    sp = f.getlength(" ")
+    ws = [f.getlength(w) for w in low]
+    asc, desc = f.getmetrics()
+    tw = int(sum(ws) + sp * (len(low) - 1))
+    im = Image.new("RGBA", (tw + 100, asc + desc + 60), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([20, 8, tw + 80, asc + desc + 44], radius=22, fill=(0, 0, 0, 150))
+    x = 50
+    for k, (w, wl) in enumerate(zip(low, ws)):
+        d.text((x, 18), w, font=f, fill=(255, 255, 255, 255))
+        if k == active:
+            d.rounded_rectangle([x, asc + desc + 22, x + wl, asc + desc + 30], radius=4, fill=(*YELLOW, 255))
+        x += wl + sp
+    return np.asarray(im)
 
 
 def caption_punch(words, active):
@@ -1230,6 +1318,13 @@ def main():
                     fr = (base_fr.astype(np.float32) * (1 - w) + 255 * w).astype(np.uint8)
                 elif kind == "glitch":
                     fr = fx_glitch(A if p < 0.5 else B, T, 1 - abs(p - 0.5) * 1.6)
+                elif kind == "spin":      # rotate + zoom through the cut
+                    base_fr = A if p < 0.5 else B
+                    ang = (p - 0.5) * 40
+                    z = 1 + 0.35 * math.sin(math.pi * p)
+                    M = cv2.getRotationMatrix2D((W / 2, H / 2), ang, z)
+                    fr = cv2.warpAffine(base_fr, M, (W, H), borderMode=cv2.BORDER_REFLECT)
+                    fr = zoom_blur(fr, 0.12 * math.sin(math.pi * p))
                 elif kind == "iris":      # B opens from a growing circle in the centre
                     r = int(ease_io(p) * math.hypot(W, H) / 2)
                     mask = np.zeros((H, W), np.uint8)
