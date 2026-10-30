@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/orbits.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a clean space illustration of the solar system seen from above: a bright yellow Sun in the centre, a small blue Earth on a thin glowing circular orbit line on the left side, a small red Mars on a larger orbit line on the far right side opposite the Earth, black space, stars.",
+   "seed": 801
+  },
+  {
+   "out": "img/earth-heavy.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes with the helmet off seen only from behind, slumped heavily in a recovery chair on the deck of a ship at sea, blue ocean and blue sky, helpers in blue uniforms beside them, sunny.",
+   "seed": 802
+  },
+  {
+   "out": "img/rover-trip.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a pressurised Mars rover driving across a red desert toward an enormous, extremely wide and very gently sloping shield volcano that fills the whole horizon like a low endless hill, under a butterscotch sky, epic road trip.",
+   "seed": 803
+  }
+ ]
+}

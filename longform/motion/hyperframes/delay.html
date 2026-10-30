@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 40%, #2a1610 0%, #0b0706 75%); }
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 104px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+  .earth { border-radius: 50%; background: radial-gradient(circle at 35% 35%, #7fc4ff, #1e5fa8 55%, #0a2240); box-shadow: 0 0 60px #4ea4ff77; }
+  .mars { border-radius: 50%; background: radial-gradient(circle at 35% 35%, #ffb27a, #c4521f 55%, #4a1606); box-shadow: 0 0 60px #ff7a3a77; }
+#e { left: 180px; top: 400px; width: 240px; height: 240px; }
+  #m { left: 1560px; top: 440px; width: 170px; height: 170px; }
+  #msg { left: 440px; top: 470px; font-size: 40px; padding: 18px 30px; background: #fff; color: #222; border-radius: 30px; }
+  #clk { left: 0; width: 1920px; top: 680px; text-align: center; font-size: 130px; font-variant-numeric: tabular-nums; }
+  #lab { left: 0; width: 1920px; top: 830px; text-align: center; font-size: 32px; color: #ffb27a; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">CALLING MOM</div>
+  <svg class="abs" width="1920" height="1080" style="left:0;top:0"><line x1="430" y1="520" x2="1550" y2="520" stroke="#ffffff33" stroke-width="4" stroke-dasharray="14 12"/></svg>
+  <div id="e" class="abs earth"></div>
+  <div id="m" class="abs mars"></div>
+  <div id="msg" class="abs mont">"HI MOM!"</div>
+  <div id="clk" class="abs anton y">0 MIN</div>
+  <div id="lab" class="abs mont">ONE WAY: ABOUT 3 TO 22 MINUTES</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const s = { t: 0 };
+  const u = () => { document.querySelector("#clk").textContent = Math.round(s.t) + " MIN"; };
+  u();
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#msg", { x: 1000, opacity: 0 }, { x: 1000, opacity: 1, duration: 0.2 }, 0.3)
+    .to("#msg", { x: 0, duration: 3.6, ease: "none" }, 0.6)
+    .to(s, { t: 20, duration: 3.6, ease: "none", onUpdate: u }, 0.6)
+    .fromTo("#lab", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 1.0)
+    .fromTo("#e", { scale: 1 }, { scale: 1.15, duration: 0.2, yoyo: true, repeat: 1 }, 4.2)
+    .to("#root", { scale: 1.04, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

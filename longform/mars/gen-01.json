@@ -1,0 +1,287 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/contract.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: close-up of a gloved hand happily tapping a big glowing green button on a tablet screen covered in tiny unreadable fine print, a red Mars poster blurred behind.",
+   "seed": 700
+  },
+  {
+   "out": "img/launch.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a huge rocket launching at night, enormous bright flames and smoke clouds lighting up the launch pad, seen from far away.",
+   "seed": 701
+  },
+  {
+   "out": "img/g-force.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face strapped tightly into a cockpit seat during launch, body pushed back hard into the seat, cockpit shaking, dramatic light.",
+   "seed": 702
+  },
+  {
+   "out": "img/earth-window.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: view through a round spaceship window of the Earth shrinking in the distance, a small blue marble in black space.",
+   "seed": 703
+  },
+  {
+   "out": "img/cramped.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: inside a cramped cylindrical spaceship cabin full of floating objects, a tablet, a sock, a pen, and an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face floating upside down, messy and funny.",
+   "seed": 704
+  },
+  {
+   "out": "img/recycler.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a complex water recycling machine inside a spaceship with tubes and a glowing clean water tank, clinical white light.",
+   "seed": 705
+  },
+  {
+   "out": "img/coffee.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a silver coffee drink pouch with a straw floating in zero gravity inside a spaceship, a small floating coffee bubble next to it, close-up.",
+   "seed": 706
+  },
+  {
+   "out": "img/space-treadmill.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face without helmet visible only from behind, running on a treadmill inside a spaceship, held down by bungee cords to the hips, funny.",
+   "seed": 707
+  },
+  {
+   "out": "img/mars-window.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: view through a spaceship window of the red planet Mars getting big, filling half the window, sunlight on its surface.",
+   "seed": 708
+  },
+  {
+   "out": "img/entry.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a landing capsule plunging through the thin Martian atmosphere, glowing orange plasma around the heat shield, red planet below.",
+   "seed": 709
+  },
+  {
+   "out": "img/parachute.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a landing capsule hanging under a huge orange and white parachute above the red canyons of Mars, dramatic sky.",
+   "seed": 710
+  },
+  {
+   "out": "img/touchdown.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a spacecraft touching down on Mars with its rocket engines firing, huge clouds of red dust blasting outward.",
+   "seed": 711
+  },
+  {
+   "out": "img/jump.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face jumping incredibly high above the red Martian ground with arms in the air, joyful, dusty landscape below, butterscotch sky.",
+   "seed": 712
+  },
+  {
+   "out": "img/piggyback.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face carrying another astronaut piggyback across the Martian desert like it weighs nothing, playful.",
+   "seed": 713
+  },
+  {
+   "out": "img/faceplant.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face who has tripped and fallen face first into soft red Martian dust, arms and legs sticking out, comedic, another astronaut nearby.",
+   "seed": 714
+  },
+  {
+   "out": "img/airlock.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a heavy round airlock door inside a Mars habitat with warning lights and a small window showing the red desert outside.",
+   "seed": 715
+  },
+  {
+   "out": "img/frost-helmet.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: close-up of a gold astronaut visor covered in thin frost and red dust, a cold blue Martian night reflected in it.",
+   "seed": 716
+  },
+  {
+   "out": "img/mars-plain.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a wide Martian landscape with rocks, dunes and distant mountains under a dusty butterscotch-orange sky, empty and beautiful.",
+   "seed": 717
+  },
+  {
+   "out": "img/blue-sunset.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a sunset on Mars, a small pale sun near the horizon surrounded by an eerie blue glow, the rest of the sky dusty brown, red rocks.",
+   "seed": 718
+  },
+  {
+   "out": "img/selfie.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face holding up a camera to take a photo of the blue Martian sunset, silhouette, beautiful.",
+   "seed": 719
+  },
+  {
+   "out": "img/hab-outside.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a small white inflatable dome habitat with solar panels and a rover parked next to it on the red plains of Mars, cosy lights in its windows at dusk.",
+   "seed": 720
+  },
+  {
+   "out": "img/hab-inside.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: inside a cramped but cosy Mars habitat, bunk beds, screens, plants and cables everywhere, warm lights, a red desert visible through a small window.",
+   "seed": 721
+  },
+  {
+   "out": "img/moxie.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a small gold box-shaped scientific instrument the size of a lunchbox mounted inside a Mars rover, red dust around, macro photo.",
+   "seed": 722
+  },
+  {
+   "out": "img/space-dog.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a tiny cute small dog wearing a miniature spacesuit and clear helmet, sitting proudly on red Martian sand, very funny.",
+   "seed": 723
+  },
+  {
+   "out": "img/greenhouse.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a Martian greenhouse with rows of green lettuce and leafy plants under glowing pink and purple LED lights, the red desert outside the window.",
+   "seed": 724
+  },
+  {
+   "out": "img/potatoes.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: close-up of fresh potatoes growing in clear hydroponic water tubes with white roots under pink grow lights, futuristic farm.",
+   "seed": 725
+  },
+  {
+   "out": "img/soil-lab.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a lab table in a Mars habitat with jars of red soil being washed through filters, test tubes, warning stickers without text.",
+   "seed": 726
+  },
+  {
+   "out": "img/dusty-suit.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face completely covered head to toe in red Martian dust, standing in an airlock, dust falling off, comedic.",
+   "seed": 727
+  },
+  {
+   "out": "img/dust-airlock.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the floor of a habitat airlock covered with red dust and footprints, a brush and a small vacuum cleaner, funny and messy.",
+   "seed": 728
+  },
+  {
+   "out": "img/sol-sunrise.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: sunrise over the Martian horizon, a small pale sun rising over red hills, long shadows, peaceful morning.",
+   "seed": 729
+  },
+  {
+   "out": "img/two-moons.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the night sky of Mars with two small irregular potato-shaped moons, one larger and brighter, over a dark red horizon, stars.",
+   "seed": 730
+  },
+  {
+   "out": "img/phobos.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the potato-shaped Martian moon Phobos close up in space, grooved grey surface, the red planet Mars huge behind it.",
+   "seed": 731
+  },
+  {
+   "out": "img/phobos-ring.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a thin bright ring of debris circling the planet Mars in space, the remains of a broken moon, beautiful.",
+   "seed": 732
+  },
+  {
+   "out": "img/laptop.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face sitting inside a habitat typing on a laptop with a small spinning loading circle on screen, waiting impatiently, chin on hand, comedic.",
+   "seed": 733
+  },
+  {
+   "out": "img/dish.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a large white radio dish antenna on Mars pointing at the sky, a bright blue star (Earth) above it, dusk.",
+   "seed": 734
+  },
+  {
+   "out": "img/radiation.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the planet Mars in space hit by streams of glowing cosmic radiation particles from the sun, no magnetic shield, scientific illustration.",
+   "seed": 735
+  },
+  {
+   "out": "img/underground.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a cosy habitat built inside a Martian lava tube cave, lights glowing, rocky ceiling above, safe from radiation.",
+   "seed": 736
+  },
+  {
+   "out": "img/storm-coming.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a gigantic brown dust storm wall rolling across the Martian plains toward a small habitat dome, dramatic and scary.",
+   "seed": 737
+  },
+  {
+   "out": "img/rover-dust.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a six-wheeled Mars rover covered in thick red dust with dusty solar panels, sitting alone in a dim brown dust storm.",
+   "seed": 738
+  },
+  {
+   "out": "img/breeze.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face standing casually in a Martian dust storm, dust swirling around, completely unbothered, one hand on hip, funny.",
+   "seed": 739
+  },
+  {
+   "out": "img/dark-panels.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: solar panels on Mars buried in red dust under a dark brown sky, a small status light glowing red.",
+   "seed": 740
+  },
+  {
+   "out": "img/cards.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a group of astronauts in casual jumpsuits seen from behind playing cards around a small table inside a habitat during a dust storm, lamp light, cosy.",
+   "seed": 741
+  },
+  {
+   "out": "img/mars500.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a row of connected sealed metal modules of a spaceship simulator inside a big warehouse, long corridor, fluorescent light.",
+   "seed": 742
+  },
+  {
+   "out": "img/party.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: inside a Mars habitat decorated for a party with balloons, paper streamers and a small cake, and a single red rock placed on a pedestal as the guest of honour, funny.",
+   "seed": 743
+  },
+  {
+   "out": "img/mars-treadmill.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face running on a treadmill in a Mars habitat held down by bungee cords, sweating, determined.",
+   "seed": 744
+  },
+  {
+   "out": "img/earth-dot.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face sitting alone on top of a red hill at dusk, looking up at a tiny bright blue dot in the dark sky, which is Earth, emotional, wide shot.",
+   "seed": 745
+  },
+  {
+   "out": "img/rover-trip.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a pressurised Mars rover driving across a vast red desert toward a gigantic gently sloping volcano on the horizon, epic road trip.",
+   "seed": 746
+  },
+  {
+   "out": "img/olympus-orbit.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the giant volcano Olympus Mons seen from orbit above Mars, a huge shield volcano with a caldera at the top, sharp cliffs around its edge.",
+   "seed": 747
+  },
+  {
+   "out": "img/olympus-top.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face standing on a wide flat plain that is the summit of a giant volcano, the horizon curving away, it looks like an ordinary flat hill, funny.",
+   "seed": 748
+  },
+  {
+   "out": "img/packing.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face happily dragging a suitcase across the Martian sand toward a waiting spaceship, comedic.",
+   "seed": 749
+  },
+  {
+   "out": "img/mission-control.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a mission control room on Earth with big screens showing Mars and orbit lines, a red warning glow, dramatic.",
+   "seed": 750
+  },
+  {
+   "out": "img/orbits.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: the Sun with Earth and Mars on their orbits, Mars far on the other side of the Sun from Earth, glowing orbit lines, space illustration.",
+   "seed": 751
+  },
+  {
+   "out": "img/unpacking.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face sitting sadly on a suitcase on the red Martian sand while the spaceship stays closed, comedic.",
+   "seed": 752
+  },
+  {
+   "out": "img/return.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: a space capsule floating in the ocean on Earth after splashdown under white parachutes, recovery boats nearby, sunny.",
+   "seed": 753
+  },
+  {
+   "out": "img/earth-heavy.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face without helmet seen from behind, struggling to stand up in a recovery chair on Earth, helped by medical staff, heavy, sunny.",
+   "seed": 754
+  },
+  {
+   "out": "img/final-sunset.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, warm Martian orange and teal, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks anywhere. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor that hides the face standing on a red ridge watching a blue Martian sunset, silhouette, the habitat lights behind, peaceful and epic.",
+   "seed": 755
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 40%, #2a1610 0%, #0b0706 75%); }
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 104px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+  .earth { border-radius: 50%; background: radial-gradient(circle at 35% 35%, #7fc4ff, #1e5fa8 55%, #0a2240); box-shadow: 0 0 60px #4ea4ff77; }
+  .mars { border-radius: 50%; background: radial-gradient(circle at 35% 35%, #ffb27a, #c4521f 55%, #4a1606); box-shadow: 0 0 60px #ff7a3a77; }
+.scale { top: 160px; width: 560px; height: 560px; }
+  .dial { position: absolute; left: 60px; top: 60px; width: 440px; height: 440px; border-radius: 50%; background: #f2efe8; border: 14px solid #333; }
+  .needle { position: absolute; left: 276px; top: 120px; width: 8px; height: 170px; background: #e23; transform-origin: 50% 160px; border-radius: 4px; }
+  .num { position: absolute; left: 0; width: 560px; top: 520px; text-align: center; font-size: 110px; color: #f2f2f2; }
+  .pl { position: absolute; left: 0; width: 560px; top: 640px; text-align: center; font-size: 40px; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">YOUR WEIGHT</div>
+  <div class="abs scale" style="left:300px"><div class="dial"></div><div id="n1" class="needle"></div><div id="k1" class="num anton">0 KG</div><div class="pl mont" style="color:#7fc4ff">EARTH</div></div>
+  <div class="abs scale" style="left:1060px"><div class="dial"></div><div id="n2" class="needle"></div><div id="k2" class="num anton" style="color:#c4521f">0 KG</div><div class="pl mont" style="color:#ff9a5a">MARS · 38% GRAVITY</div></div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const s = { a: 0, b: 0 };
+  const u = () => { document.querySelector("#n1").style.transform = "rotate(" + (s.a * 3) + "deg)"; document.querySelector("#n2").style.transform = "rotate(" + (s.b * 3) + "deg)";
+    document.querySelector("#k1").textContent = Math.round(s.a) + " KG"; document.querySelector("#k2").textContent = Math.round(s.b) + " KG"; };
+  u();
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .to(s, { a: 70, duration: 0.9, ease: "elastic.out(1, 0.5)", onUpdate: u }, 0.3)
+    .to(s, { b: 27, duration: 0.9, ease: "elastic.out(1, 0.5)", onUpdate: u }, 1.4)
+    .to("#root", { scale: 1.04, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

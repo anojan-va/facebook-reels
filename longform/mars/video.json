@@ -1,0 +1,6167 @@
+{
+ "out": "../output/mars-full.mp4",
+ "audio": [
+  "chapters/take1.wav",
+  "chapters/take2.wav",
+  "chapters/take3.wav",
+  "chapters/take4.wav",
+  "chapters/take5.wav",
+  "chapters/take6.wav",
+  "chapters/take7.wav",
+  "chapters/take8.wav",
+  "chapters/take9.wav"
+ ],
+ "take_gap": 0.4,
+ "speed": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865,
+   "volume": 1.0
+  },
+  {
+   "shot": 10,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15,
+   "start": 1.6
+  },
+  {
+   "shot": 16,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56,
+   "start": 0.0
+  },
+  {
+   "shot": 41,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 46,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0,
+   "start": 117.26
+  },
+  {
+   "shot": 54,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 65,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 78,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 88,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 130,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 146,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 155,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 167,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 174,
+   "music": "../../reels/audio/music/silent-descent.mp3",
+   "volume": 0.62,
+   "start": 0.0
+  },
+  {
+   "shot": 179,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 188,
+   "music": "../../reels/audio/music/silent-descent.mp3",
+   "volume": 0.62
+  },
+  {
+   "shot": 197,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 198,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "volume": 1.0,
+   "start": 13.63
+  },
+  {
+   "shot": 210,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 226,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 229,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  }
+ ],
+ "music_volume": 0.38,
+ "fade_out": 2.5,
+ "progress": true,
+ "shots": [
+  {
+   "text": "Congratulations.",
+   "v": {
+    "video": "stock/balloons.mp4",
+    "start": 1.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "punch": true,
+   "sfx": [
+    "hook",
+    {
+     "name": "sparkle",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "text": "You just signed up to live on Mars for one whole year.",
+   "v": {
+    "video": "stock/mars-globe.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.12
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@Mars",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "You clicked \"I agree\" without reading the terms and conditions.",
+   "v": {
+    "img": "img/contract.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.65
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@agree"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Classic you.",
+   "v": {
+    "img": "img/contract.jpg",
+    "focus": [
+     0.5,
+     0.65
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.65
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/classic",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Don't worry. I read them.",
+   "v": {
+    "video": "stock/suitcase-pack.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And I'm going to walk you through every single day of it,",
+   "v": {
+    "video": "stock/mars-astros.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "the beautiful parts,",
+   "v": {
+    "img": "img/blue-sunset.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle"
+    }
+   ]
+  },
+  {
+   "text": "the terrifying parts,",
+   "v": {
+    "img": "img/storm-coming.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "shake": [
+    0.1
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the part where you find out what a \"year\" on Mars actually means.",
+   "v": {
+    "video": "motion/year.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Spoiler: it's not what you think.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SPOILER:",
+      "white"
+     ],
+     [
+      "IT'S NOT WHAT YOU THINK",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@not"
+    ],
+    "size": 120
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "at": 0.0
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Oh, and a few house rules before we leave.",
+   "v": {
+    "img": "img/hab-inside.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "No pets.",
+   "v": {
+    "img": "img/space-dog.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO PETS",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "No pizza delivery.",
+   "v": {
+    "video": "stock/mars-base.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO PIZZA DELIVERY",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 130,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "And no complaining.",
+   "v": {
+    "img": "img/hab-outside.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO COMPLAINING",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 130,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "Okay, complaining is allowed.",
+   "v": {
+    "img": "img/mars-plain.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Nobody can hear you anyway.",
+   "v": {
+    "img": "img/mars-plain.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "voice_fx": {
+    "at": "@anyway",
+    "fx": "echo"
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Day zero. Launch day.",
+   "v": {
+    "video": "motion/ch1.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You're strapped into a seat on top of a rocket",
+   "v": {
+    "img": "img/g-force.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "that is basically a skyscraper full of fuel.",
+   "v": {
+    "img": "img/launch.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.35
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@fuel",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Someone counts down from ten.",
+   "v": {
+    "video": "stock/shuttle-launch2.mp4",
+    "start": 0.5,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.2
+    },
+    {
+     "name": "tick",
+     "at": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 1.2
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Your heart counts down faster.",
+   "v": {
+    "img": "img/g-force.jpg",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.35
+    ],
+    "to_zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.1
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.5
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.9
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Then it feels like an elephant sits on your chest.",
+   "v": {
+    "video": "stock/shuttle-launch.mp4",
+    "start": 2.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "shake": [
+    0.1,
+    "@elephant"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@elephant"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "A friendly elephant.",
+   "v": {
+    "img": "img/g-force.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@friendly"
+    }
+   ]
+  },
+  {
+   "text": "But still an elephant.",
+   "v": {
+    "img": "img/g-force.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.8,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 2.2
+   },
+   "in": "cut",
+   "shake": [
+    0.05
+   ]
+  },
+  {
+   "text": "Eight minutes later, you're in space.",
+   "v": {
+    "video": "stock/iss.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "+ 00:08:00",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Congratulations again.",
+   "v": {
+    "video": "stock/balloons.mp4",
+    "start": 4.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle"
+    }
+   ]
+  },
+  {
+   "text": "Now the boring part starts.",
+   "v": {
+    "img": "img/cramped.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@boring",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Because Mars is not next door.",
+   "v": {
+    "video": "stock/mars-globe2.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Depending on where the planets are, the trip takes around seven months.",
+   "v": {
+    "img": "img/orbits.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/months7",
+     "at": "@seven-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Seven months in a spaceship the size of a small apartment,",
+   "v": {
+    "img": "img/cramped.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "with the same few people, the same food, and the same smell.",
+   "v": {
+    "video": "stock/iss2.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "SAME PEOPLE.",
+       "white"
+      ],
+      [
+       "SAME FOOD.",
+       "white"
+      ],
+      [
+       "SAME SMELL.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@people",
+      "@food",
+      "@smell"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@people"
+    },
+    {
+     "name": "pop",
+     "at": "@food"
+    },
+    {
+     "name": "wrong",
+     "at": "@smell",
+     "gain": 0.4
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Your water? Recycled.",
+   "v": {
+    "img": "img/recycler.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": "@Recycled"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "On the space station, almost all of the water, including sweat and urine,",
+   "v": {
+    "video": "stock/iss.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "gets cleaned and turned back into drinking water.",
+   "v": {
+    "img": "img/recycler.jpg",
+    "focus": [
+     0.55,
+     0.55
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.55
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So yes.",
+   "v": {
+    "img": "img/coffee.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Today's coffee is yesterday's coffee.",
+   "v": {
+    "img": "img/coffee.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.9
+   },
+   "punch": {
+    "at": "@yesterday",
+    "zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@yesterday",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Don't think about it too much.",
+   "v": {
+    "video": "stock/coffee-pour.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You float.",
+   "v": {
+    "video": "stock/spacewalk.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You exercise for two hours a day so your muscles don't melt.",
+   "v": {
+    "img": "img/space-treadmill.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You watch every movie you downloaded.",
+   "v": {
+    "img": "img/laptop.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Twice.",
+   "v": {
+    "img": "img/laptop.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.7,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "And Earth slowly shrinks behind you,",
+   "v": {
+    "img": "img/earth-window.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "from a big blue marble, to a bright blue dot, to just another star.",
+   "v": {
+    "video": "stock/earth-planet.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then one morning, a red dot outside the window starts getting bigger.",
+   "v": {
+    "img": "img/mars-window.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And bigger.",
+   "v": {
+    "img": "img/mars-window.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "riser",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "text": "It's time to land.",
+   "v": {
+    "video": "stock/mars-globe.mp4",
+    "start": 6.0,
+    "zoom": 1.3,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@land"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Day one. Welcome to Mars.",
+   "v": {
+    "video": "motion/ch2.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Landing on Mars has been called seven minutes of terror.",
+   "v": {
+    "img": "img/entry.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "7 MINUTES OF TERROR",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "You hit the atmosphere at thousands of kilometres an hour,",
+   "v": {
+    "img": "img/entry.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "shake": [
+    "@atmosphere"
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and you have to stop completely before you hit the ground.",
+   "v": {
+    "video": "stock/mars-canyon.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.15
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Heat shield.",
+   "v": {
+    "img": "img/entry.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "impact",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Parachute.",
+   "v": {
+    "img": "img/parachute.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "whoosh2"
+    }
+   ]
+  },
+  {
+   "text": "Rockets.",
+   "v": {
+    "img": "img/touchdown.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "boom",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Thud.",
+   "v": {
+    "img": "img/touchdown.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut",
+   "shake": [
+    0.0
+   ],
+   "sfx": [
+    {
+     "name": "impact"
+    }
+   ]
+  },
+  {
+   "text": "You made it.",
+   "v": {
+    "video": "stock/mars-haze.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "correct",
+     "at": 0.2,
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And the first thing you notice is that you feel amazing.",
+   "v": {
+    "img": "img/jump.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Mars has only about thirty eight percent of Earth's gravity.",
+   "v": {
+    "video": "stock/mars-astros.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/g38",
+     "at": "@thirty-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "If you weigh seventy kilos at home, here you feel like you weigh about twenty seven.",
+   "v": {
+    "video": "motion/weight.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You could jump almost three times higher.",
+   "v": {
+    "img": "img/jump.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.25
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh",
+     "at": "@jump"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "You could carry your friend like a backpack.",
+   "v": {
+    "img": "img/piggyback.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You will absolutely try both on day one.",
+   "v": {
+    "img": "img/piggyback.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@both"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Your first walk outside won't look like a brave astronaut.",
+   "v": {
+    "video": "stock/moonwalk.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It will look like a toddler on a trampoline.",
+   "v": {
+    "img": "img/faceplant.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.35
+   },
+   "punch": {
+    "at": "@trampoline",
+    "zoom": 1.7,
+    "focus": [
+     0.45,
+     0.6
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@trampoline",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "That's normal.",
+   "v": {
+    "img": "img/faceplant.jpg",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": 1.7,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.6
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The Apollo astronauts on the Moon fell over all the time too.",
+   "v": {
+    "video": "stock/moonwalk.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then you look outside, and you remember why you can't just open the door.",
+   "v": {
+    "img": "img/airlock.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The air on Mars is about ninety five percent carbon dioxide,",
+   "v": {
+    "video": "stock/mars-haze.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/co2",
+     "at": "@ninety-0.2"
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and it's incredibly thin.",
+   "v": {
+    "img": "img/mars-plain.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Less than one percent of the air pressure we have on Earth.",
+   "v": {
+    "video": "stock/red-rocks.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/pressure",
+     "at": "@one-0.2"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So here's your first rule of Mars.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "RULE",
+      "white"
+     ],
+     [
+      "NUMBER ONE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@first"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@rule"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Never, ever take your helmet off.",
+   "v": {
+    "img": "img/frost-helmet.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/helmet",
+     "at": "@helmet-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@helmet"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "If you did, you'd have about fifteen seconds before you passed out.",
+   "v": {
+    "img": "img/frost-helmet.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/sec15",
+     "at": "@fifteen-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.2
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The saliva on your tongue would start to boil.",
+   "v": {
+    "video": "stock/red-dust.mp4",
+    "start": 1.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Not because it's hot, but because the pressure is so low.",
+   "v": {
+    "img": "img/mars-plain.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And it is not hot.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT IS",
+      "white"
+     ],
+     [
+      "NOT HOT",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@not"
+    ],
+    "size": 150
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The average temperature on Mars is around minus sixty degrees Celsius.",
+   "v": {
+    "video": "stock/mars-canyon.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/minus60",
+     "at": "@minus-0.2"
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "On a nice summer afternoon near the equator, it can reach twenty degrees.",
+   "v": {
+    "img": "img/sol-sunrise.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "+20 °C",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@twenty"
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That same night, it drops to minus seventy.",
+   "v": {
+    "img": "img/frost-helmet.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "flash",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "−70 °C",
+       "white"
+      ]
+     ],
+     "times": [
+      "@minus"
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So the forecast for your first day:",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "TODAY'S",
+      "white"
+     ],
+     [
+      "FORECAST",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@forecast"
+    ],
+    "size": 150
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "sunny, with a chance of instant death.",
+   "v": {
+    "img": "img/mars-plain.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "SUNNY ☀",
+       "white"
+      ],
+      [
+       "CHANCE OF INSTANT DEATH",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0,
+      "@chance"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@death",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "But then you look up, and you forget all of that for a second.",
+   "v": {
+    "video": "stock/dune-crest.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The sky is not blue.",
+   "v": {
+    "img": "img/mars-plain.jpg",
+    "focus": [
+     0.5,
+     0.2
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.2
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's a dusty, butterscotch kind of orange.",
+   "v": {
+    "video": "stock/mars-haze.mp4",
+    "start": 7.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And when the sun sets, the sky around it turns blue.",
+   "v": {
+    "img": "img/blue-sunset.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/sunset",
+     "at": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@blue"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Mars has blue sunsets.",
+   "v": {
+    "img": "img/blue-sunset.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.9
+   },
+   "voice_fx": {
+    "at": "@sunsets",
+    "fx": "echo"
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You're the first person in your family to see one.",
+   "v": {
+    "img": "img/final-sunset.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Take a picture.",
+   "v": {
+    "img": "img/selfie.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "shutter",
+     "at": "@picture"
+    }
+   ]
+  },
+  {
+   "text": "Nobody back home will believe you.",
+   "v": {
+    "img": "img/selfie.jpg",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.4
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Week one. Your new home.",
+   "v": {
+    "video": "motion/ch3.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your house is called a habitat.",
+   "v": {
+    "img": "img/hab-outside.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "YOUR HOUSE",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Think of a tiny, very expensive tent that is trying very hard to keep you alive.",
+   "v": {
+    "img": "img/hab-inside.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It holds the air you breathe, the water you drink,",
+   "v": {
+    "img": "img/hab-inside.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.4
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the warmth that stops you from becoming a popsicle.",
+   "v": {
+    "img": "img/frost-helmet.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@popsicle",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "So where does the oxygen come from?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WHERE DOES THE",
+      "white"
+     ],
+     [
+      "OXYGEN",
+      "yellow"
+     ],
+     [
+      "COME FROM?",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@oxygen",
+     "@come"
+    ],
+    "size": 130
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Mars has plenty of oxygen.",
+   "v": {
+    "video": "stock/mars-globe2.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's just stuck inside carbon dioxide.",
+   "v": {
+    "video": "stock/red-dust.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So you split it.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "CO₂",
+      "white"
+     ],
+     [
+      "→  C + O₂",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@split"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": "@split",
+     "gain": 0.6
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "NASA already tested this.",
+   "v": {
+    "video": "stock/mars-base.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A machine called MOXIE, about the size of a lunchbox,",
+   "v": {
+    "img": "img/moxie.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/moxie",
+     "at": "@MOXIE"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "rode to Mars on the Perseverance rover and pulled oxygen out of the Martian air.",
+   "v": {
+    "img": "img/rover-dust.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In total, it made about a hundred and twenty two grams.",
+   "v": {
+    "img": "img/moxie.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.7
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/g122",
+     "at": "@hundred-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "NASA said that's roughly what a small dog breathes in ten hours.",
+   "v": {
+    "img": "img/space-dog.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@dog"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "So the technology works.",
+   "v": {
+    "video": "stock/mars-base.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "correct",
+     "at": "@works",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "You just need a much bigger machine.",
+   "v": {
+    "img": "img/moxie.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Or a much smaller dog.",
+   "v": {
+    "img": "img/space-dog.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.7,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 2.1
+   },
+   "in": "cut",
+   "punch": {
+    "at": "@smaller",
+    "zoom": 2.4
+   },
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@dog",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Next problem. Food.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NEXT PROBLEM:",
+      "white"
+     ],
+     [
+      "FOOD",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@Food"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@Food"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "You'll be growing some of it yourself, in a greenhouse with special lights.",
+   "v": {
+    "img": "img/greenhouse.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Lettuce, radishes, and yes, potatoes.",
+   "v": {
+    "img": "img/potatoes.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@potatoes"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "But you can't just plant them in Martian dirt.",
+   "v": {
+    "video": "stock/red-rocks.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The soil contains chemicals called perchlorates, which are toxic to humans.",
+   "v": {
+    "img": "img/soil-lab.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/toxic",
+     "at": "@toxic-0.2"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You'd have to wash the soil first, or grow everything in water.",
+   "v": {
+    "img": "img/potatoes.jpg",
+    "focus": [
+     0.6,
+     0.6
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.6
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Farming on Mars is less \"peaceful countryside\"",
+   "v": {
+    "video": "stock/lettuce-wash.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and more \"chemistry exam you can eat.\"",
+   "v": {
+    "img": "img/soil-lab.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@chemistry",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And then there's the dust.",
+   "v": {
+    "video": "stock/red-dust.mp4",
+    "start": 6.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@dust"
+    }
+   ]
+  },
+  {
+   "text": "Martian dust is finer than flour, it's a little bit toxic, and it sticks to everything.",
+   "v": {
+    "video": "stock/dust-gold.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your suit.",
+   "v": {
+    "img": "img/dusty-suit.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Your boots.",
+   "v": {
+    "img": "img/dusty-suit.jpg",
+    "focus": [
+     0.5,
+     0.85
+    ],
+    "zoom": 1.8,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.85
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Your hair.",
+   "v": {
+    "img": "img/dusty-suit.jpg",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": 2.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.25
+    ],
+    "to_zoom": 2.2
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Your soul.",
+   "v": {
+    "img": "img/dusty-suit.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 2.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 3.0
+   },
+   "in": "cut",
+   "voice_fx": {
+    "at": "@soul",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "bass"
+    }
+   ]
+  },
+  {
+   "text": "You will clean the airlock every single day,",
+   "v": {
+    "img": "img/dust-airlock.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and you will still find red dust in places you didn't know you had.",
+   "v": {
+    "img": "img/dust-airlock.jpg",
+    "focus": [
+     0.35,
+     0.6
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.35,
+     0.6
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And showers? Water is far too precious.",
+   "v": {
+    "video": "stock/lettuce-wash.mp4",
+    "start": 5.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You get a quick wipe with a wet cloth.",
+   "v": {
+    "img": "img/hab-inside.jpg",
+    "focus": [
+     0.4,
+     0.6
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.6
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your crew will smell you before they see you.",
+   "v": {
+    "img": "img/cards.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@smell",
+     "gain": 0.4
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "And you will smell them.",
+   "v": {
+    "img": "img/cards.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Teamwork.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "TEAMWORK.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 180
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "correct",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "By the end of week one, you've learned three things.",
+   "v": {
+    "img": "img/hab-outside.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Breathing is a team effort.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "1.",
+      "white"
+     ],
+     [
+      "BREATHING = TEAM EFFORT",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     0.1
+    ],
+    "size": 120
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Potatoes are precious.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "2.",
+      "white"
+     ],
+     [
+      "POTATOES = PRECIOUS",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     0.1
+    ],
+    "size": 120
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And the dust always wins.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "3.",
+      "white"
+     ],
+     [
+      "THE DUST ALWAYS WINS",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     0.1
+    ],
+    "size": 120
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "bass",
+     "at": "@wins"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Month three. The weird new normal.",
+   "v": {
+    "video": "motion/ch4.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "By now you've noticed your days are a little longer.",
+   "v": {
+    "img": "img/sol-sunrise.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A day on Mars is called a sol, and it lasts twenty four hours and thirty nine minutes.",
+   "v": {
+    "video": "motion/sol.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That doesn't sound like much.",
+   "v": {
+    "video": "stock/clock2.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But every single day, you get almost forty extra minutes.",
+   "v": {
+    "video": "motion/sol.mp4",
+    "start": 2.4,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut"
+  },
+  {
+   "text": "On Mars, you can finally hit snooze without feeling guilty.",
+   "v": {
+    "img": "img/hab-inside.jpg",
+    "focus": [
+     0.35,
+     0.55
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.35,
+     0.55
+    ],
+    "to_zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@snooze"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "At night, you look up and see not one moon, but two.",
+   "v": {
+    "img": "img/two-moons.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@one"
+    },
+    {
+     "name": "pop",
+     "at": "@two"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Phobos and Deimos.",
+   "v": {
+    "img": "img/two-moons.jpg",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.35
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/moons",
+     "at": 0.1
+    }
+   ]
+  },
+  {
+   "text": "They're tiny, potato shaped rocks.",
+   "v": {
+    "img": "img/phobos.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@potato"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And Phobos is so fast that it rises in the west,",
+   "v": {
+    "video": "stock/star-trails.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "races across the sky, and sets in the east, about twice every sol.",
+   "v": {
+    "video": "stock/milkyway2.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.15
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@races"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Even the moon here is in a hurry.",
+   "v": {
+    "img": "img/phobos.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And it won't last forever.",
+   "v": {
+    "img": "img/phobos.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Phobos is slowly spiralling down toward Mars.",
+   "v": {
+    "video": "stock/mars-globe.mp4",
+    "start": 3.0,
+    "zoom": 1.2,
+    "drift": 0.15
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In tens of millions of years, it will be ripped apart,",
+   "v": {
+    "img": "img/phobos-ring.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@ripped",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "and it may turn into a ring around the planet.",
+   "v": {
+    "img": "img/phobos-ring.jpg",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You try to call your mom.",
+   "v": {
+    "img": "img/laptop.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Bad idea.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "BAD IDEA.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 180
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "wrong",
+     "gain": 0.4
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Radio signals between Earth and Mars take anywhere from about three to twenty two minutes, one way.",
+   "v": {
+    "video": "motion/delay.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "cut"
+  },
+  {
+   "text": "So you say, \"Hi mom!\" and then you wait.",
+   "v": {
+    "img": "img/laptop.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And wait.",
+   "v": {
+    "img": "img/laptop.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 2.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.4
+    ],
+    "to_zoom": 2.2
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "tick",
+     "at": 0.1
+    },
+    {
+     "name": "tick",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Twenty minutes later, you hear, \"Hi sweetie, can you hear me?\"",
+   "v": {
+    "img": "img/dish.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "+ 00:20:00",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Video calls are impossible.",
+   "v": {
+    "video": "stock/dish-vla.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "VIDEO CALLS",
+       "white"
+      ],
+      [
+       "IMPOSSIBLE",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0,
+      "@impossible"
+     ],
+     "size": 120,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Texting is the only way.",
+   "v": {
+    "img": "img/laptop.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You are now basically sending letters, but faster.",
+   "v": {
+    "video": "stock/star-trails.mp4",
+    "start": 5.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And then there's something you can't see at all. Radiation.",
+   "v": {
+    "img": "img/radiation.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": "@Radiation",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Mars has no global magnetic field and a very thin atmosphere,",
+   "v": {
+    "video": "stock/mars-globe2.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "so far more radiation reaches the ground than on Earth.",
+   "v": {
+    "img": "img/radiation.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "NASA's Curiosity rover measured it.",
+   "v": {
+    "img": "img/rover-dust.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/curiosity",
+     "at": 0.1
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every day on the surface, you get roughly as much radiation as dozens of chest X rays.",
+   "v": {
+    "video": "stock/xray-lungs.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That's why the smart move is to live underground,",
+   "v": {
+    "img": "img/underground.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "or to cover your habitat with a thick blanket of Martian soil.",
+   "v": {
+    "img": "img/hab-outside.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then one day, the sky turns brown.",
+   "v": {
+    "img": "img/storm-coming.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@brown",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A dust storm is coming.",
+   "v": {
+    "img": "img/storm-coming.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "shake": [
+    "@storm"
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some of them grow so big they cover the entire planet for weeks.",
+   "v": {
+    "video": "stock/mars-globe.mp4",
+    "start": 9.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In twenty eighteen, one of those storms blocked out so much sunlight",
+   "v": {
+    "img": "img/dark-panels.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/opportunity",
+     "at": 0.2
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "that NASA's Opportunity rover ran out of power, and it never woke up again.",
+   "v": {
+    "img": "img/rover-dust.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 1.8
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@never"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@never"
+    }
+   ],
+   "voice_fx": {
+    "at": "@again",
+    "fx": "echo"
+   },
+   "in": "whip"
+  },
+  {
+   "text": "But here's a myth worth busting.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "MYTH",
+      "white"
+     ],
+     [
+      "BUSTED",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@busting"
+    ],
+    "size": 150
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit"
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "In movies, Mars storms blow astronauts off their feet.",
+   "v": {
+    "img": "img/storm-coming.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In real life, the air is so thin that even a fast wind would feel like a gentle breeze.",
+   "v": {
+    "img": "img/breeze.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/myth",
+     "at": "@gentle-0.3"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@gentle",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The real danger isn't the wind. It's the darkness.",
+   "v": {
+    "img": "img/dark-panels.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@darkness"
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your solar panels go dark, and your power starts to drop.",
+   "v": {
+    "img": "img/dark-panels.jpg",
+    "focus": [
+     0.55,
+     0.6
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.6
+    ],
+    "to_zoom": 1.9
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@dark"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "So you turn off everything you don't need, you wrap yourself in a blanket,",
+   "v": {
+    "img": "img/hab-inside.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and you wait it out with your crew, playing the same card game for the hundredth time.",
+   "v": {
+    "img": "img/cards.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Month seven. The loneliness hits.",
+   "v": {
+    "video": "motion/ch5.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Scientists actually tested this.",
+   "v": {
+    "video": "stock/control-room2.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In a project called Mars five hundred,",
+   "v": {
+    "img": "img/mars500.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/mars500",
+     "at": 0.1
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "six men lived sealed inside a fake spaceship in Moscow for five hundred and twenty days.",
+   "v": {
+    "img": "img/mars500.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/days520",
+     "at": "@five-0.2"
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some of them started sleeping more, moving less, and drifting onto their own schedules.",
+   "v": {
+    "video": "stock/clock2.mp4",
+    "start": 4.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So you make rules.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SO YOU MAKE",
+      "white"
+     ],
+     [
+      "RULES",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@rules"
+    ],
+    "size": 150
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Exercise every day.",
+   "v": {
+    "img": "img/mars-treadmill.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Eat together.",
+   "v": {
+    "img": "img/cards.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Celebrate everything.",
+   "v": {
+    "video": "stock/balloons.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle"
+    }
+   ]
+  },
+  {
+   "text": "Somebody's birthday? Party.",
+   "v": {
+    "video": "stock/candles.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "PARTY!",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@Party"
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Tuesday? Party.",
+   "v": {
+    "video": "stock/cake.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "PARTY!",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@Party"
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Found a nice rock? Party.",
+   "v": {
+    "img": "img/party.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "PARTY!",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@Party"
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "punch": {
+    "at": "@rock",
+    "zoom": 1.8,
+    "focus": [
+     0.53,
+     0.6
+    ]
+   }
+  },
+  {
+   "text": "Someone always cheats at cards.",
+   "v": {
+    "video": "stock/cards-deal.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And on Mars, there's nowhere to storm off to.",
+   "v": {
+    "img": "img/mars-plain.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@storm",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Your body is changing too.",
+   "v": {
+    "img": "img/mars-treadmill.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In lower gravity, your muscles and bones don't have to work as hard, so they slowly get weaker.",
+   "v": {
+    "video": "stock/xray-lungs.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "On the space station, astronauts can lose about one percent of the bone in their hips and legs every month if they don't exercise.",
+   "v": {
+    "video": "stock/iss2.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/pct1",
+     "at": "@one-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So you run on the treadmill. A lot.",
+   "v": {
+    "img": "img/mars-treadmill.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Strapped down with bungee cords, so you don't bounce off it.",
+   "v": {
+    "img": "img/space-treadmill.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.7
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@bounce"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Then, one clear evening, you climb a hill and look up, and there it is.",
+   "v": {
+    "img": "img/earth-dot.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A tiny bright dot in the sky. That's Earth.",
+   "v": {
+    "img": "img/earth-dot.jpg",
+    "focus": [
+     0.45,
+     0.2
+    ],
+    "zoom": 2.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.2
+    ],
+    "to_zoom": 2.6
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@Earth"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Everyone you've ever known is on that dot.",
+   "v": {
+    "img": "img/earth-dot.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.0
+   },
+   "music_fx": "muffle",
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And for a moment, it's very quiet.",
+   "v": {
+    "video": "stock/milkyway2.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then your crewmate says, \"Hey, the potatoes are ready,\" and life goes on.",
+   "v": {
+    "img": "img/potatoes.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@potatoes"
+    }
+   ]
+  },
+  {
+   "text": "Month ten. The big trip.",
+   "v": {
+    "video": "motion/ch6.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You've been saving up for this.",
+   "v": {
+    "img": "img/hab-outside.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A road trip to the biggest volcano in the solar system.",
+   "v": {
+    "img": "img/rover-trip.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh",
+     "at": "@road"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Olympus Mons.",
+   "v": {
+    "img": "img/olympus-orbit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/olympus",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "boom",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "It's about twenty two kilometres tall, roughly two and a half times the height of Mount Everest,",
+   "v": {
+    "video": "motion/olympus.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and about as wide as the state of Arizona.",
+   "v": {
+    "img": "img/olympus-orbit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Here's the funny part.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HERE'S THE",
+      "white"
+     ],
+     [
+      "FUNNY PART",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@funny"
+    ],
+    "size": 150
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "It's so wide and the slope is so gentle that if you stood on top,",
+   "v": {
+    "img": "img/olympus-top.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "you might not even realise you're on a mountain.",
+   "v": {
+    "img": "img/olympus-top.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The edges would be hidden beyond the horizon.",
+   "v": {
+    "video": "stock/dune-crest.mp4",
+    "start": 3.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The tallest mountain in the solar system, and it looks like a really long hill.",
+   "v": {
+    "img": "img/olympus-top.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@hill",
+     "gain": 0.5
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Classic Mars.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "CLASSIC",
+      "white"
+     ],
+     [
+      "MARS.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@Mars"
+    ],
+    "size": 150
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Day three hundred and sixty five. Your year is finally up.",
+   "v": {
+    "video": "motion/ch7.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You pack your bags.",
+   "v": {
+    "video": "stock/suitcase-pack.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You say goodbye to the potatoes.",
+   "v": {
+    "img": "img/potatoes.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@goodbye"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "You walk to the ship.",
+   "v": {
+    "img": "img/packing.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And mission control says, \"Where do you think you're going?\"",
+   "v": {
+    "img": "img/mission-control.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/nope",
+     "at": "@Where"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@Where",
+     "gain": 0.6
+    }
+   ],
+   "music_fx": "muffle",
+   "in": "zoom"
+  },
+  {
+   "text": "Remember the terms and conditions? Here's the fine print.",
+   "v": {
+    "img": "img/contract.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "glitch",
+   "fx": [
+    "vhs"
+   ],
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ REWIND  DAY 0",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind"
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "A year on Mars is not three hundred and sixty five days.",
+   "v": {
+    "video": "motion/year.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It takes Mars six hundred and eighty seven Earth days to go around the Sun.",
+   "v": {
+    "video": "motion/year.mp4",
+    "start": 2.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "bass",
+     "at": "@six"
+    }
+   ]
+  },
+  {
+   "text": "So technically, you're only halfway through your Martian year.",
+   "v": {
+    "img": "img/unpacking.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "punch": {
+    "at": "@halfway",
+    "zoom": 1.8,
+    "focus": [
+     0.35,
+     0.55
+    ]
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And even if you wanted to leave, you can't just go.",
+   "v": {
+    "img": "img/packing.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Earth and Mars have to line up for the trip home,",
+   "v": {
+    "img": "img/orbits.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and that only happens about once every twenty six months.",
+   "v": {
+    "img": "img/orbits.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/m26",
+     "at": "@twenty-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Missions in the real plans often stay on Mars for well over a year,",
+   "v": {
+    "video": "stock/mars-base.mp4",
+    "start": 9.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "just waiting for the planets to come back into position.",
+   "v": {
+    "video": "stock/hourglass.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So you put the bags down.",
+   "v": {
+    "img": "img/unpacking.jpg",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.6
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You say hello again to the potatoes.",
+   "v": {
+    "img": "img/potatoes.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 2.0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@hello"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "When you finally do fly home, Earth's gravity hits you like a ton of bricks.",
+   "v": {
+    "img": "img/return.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "shake": [
+    "@ton"
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@ton"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "You feel almost three times heavier, because you basically are.",
+   "v": {
+    "img": "img/earth-heavy.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You'll wobble, you'll be tired, and you'll need weeks to get your strength back.",
+   "v": {
+    "img": "img/earth-heavy.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But you'll also be one of the only humans who ever watched a blue sunset on another planet.",
+   "v": {
+    "img": "img/final-sunset.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@blue"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "So, what if you lived on Mars for a year?",
+   "v": {
+    "video": "stock/mars-globe.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "dip",
+   "pause_before": 0.3,
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You'd breathe recycled air,",
+   "v": {
+    "img": "img/recycler.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "eat very careful potatoes,",
+   "v": {
+    "img": "img/potatoes.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut"
+  },
+  {
+   "text": "wait twenty minutes for your mom to say hi,",
+   "v": {
+    "img": "img/laptop.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and fight dust every single day.",
+   "v": {
+    "img": "img/dusty-suit.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And honestly? You'd probably want to go back.",
+   "v": {
+    "img": "img/final-sunset.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Just read the terms and conditions first.",
+   "v": {
+    "img": "img/contract.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.4
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/readit",
+     "at": 0.1,
+     "hold": true
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@read"
+    },
+    {
+     "name": "bass",
+     "at": "@first"
+    }
+   ],
+   "in": "zoom"
+  }
+ ]
+}

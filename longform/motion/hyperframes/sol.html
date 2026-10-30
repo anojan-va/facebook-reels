@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 40%, #2a1610 0%, #0b0706 75%); }
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 104px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+  .earth { border-radius: 50%; background: radial-gradient(circle at 35% 35%, #7fc4ff, #1e5fa8 55%, #0a2240); box-shadow: 0 0 60px #4ea4ff77; }
+  .mars { border-radius: 50%; background: radial-gradient(circle at 35% 35%, #ffb27a, #c4521f 55%, #4a1606); box-shadow: 0 0 60px #ff7a3a77; }
+#t1 { left: 0; width: 1920px; top: 330px; text-align: center; font-size: 240px; font-variant-numeric: tabular-nums; }
+  #lab { left: 0; width: 1920px; top: 640px; text-align: center; font-size: 44px; }
+  #bonus { left: 0; width: 1920px; top: 740px; text-align: center; font-size: 90px; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">ONE MARS DAY = ONE SOL</div>
+  <div id="t1" class="abs anton">24:00:00</div>
+  <div id="lab" class="abs mont" style="color:#ffb27a">HOURS · MINUTES · SECONDS</div>
+  <div id="bonus" class="abs anton y">+ 39 MIN FREE, EVERY DAY</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const s = { m: 0 };
+  const u = () => { const tot = Math.round(s.m); const mm = Math.floor(tot / 60), ss = tot % 60;
+    document.querySelector("#t1").textContent = "24:" + String(mm).padStart(2, "0") + ":" + String(ss).padStart(2, "0"); };
+  u();
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#t1", { scale: 1.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3 }, 0.2)
+    .to(s, { m: 39 * 60 + 35, duration: 1.6, ease: "power2.out", onUpdate: u }, 0.9)
+    .to("#t1", { color: "#ffd60a", duration: 0.2 }, 2.5)
+    .fromTo("#bonus", { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.out" }, 2.6)
+    .to("#root", { scale: 1.04, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>
