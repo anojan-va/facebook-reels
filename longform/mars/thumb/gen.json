@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "art-a.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturation, vivid orange Mars against teal sky, sharp focus, simple bold composition, one clear subject. No people's faces, no text, letters, logos or watermarks. Horizontal 16:9. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor hiding the face on the right half of the frame, holding a very long paper receipt-like contract scroll that unrolls all the way to the red ground and across the Martian sand, comedic, bright Mars landscape.",
+   "seed": 901
+  },
+  {
+   "out": "art-b.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturation, vivid orange Mars against teal sky, sharp focus, simple bold composition, one clear subject. No people's faces, no text, letters, logos or watermarks. Horizontal 16:9. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor hiding the face sitting alone on a suitcase on the red Martian desert on the right side of the frame, chin on hand, bored, a tiny bright blue dot (Earth) in the butterscotch sky, funny and lonely.",
+   "seed": 902
+  },
+  {
+   "out": "art-c.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturation, vivid orange Mars against teal sky, sharp focus, simple bold composition, one clear subject. No people's faces, no text, letters, logos or watermarks. Horizontal 16:9. Scene: an astronaut in a bulky white spacesuit with orange stripes and a reflective gold visor hiding the face on the right side of the frame, holding up a single potato like a trophy, standing in front of a small glowing greenhouse dome on red Mars, comedic, dramatic sky.",
+   "seed": 903
+  }
+ ]
+}
