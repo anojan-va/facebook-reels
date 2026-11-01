@@ -1,0 +1,4678 @@
+{
+ "out": "../output/humans-full.mp4",
+ "audio": [
+  "chapters/take1.wav",
+  "chapters/take2.wav",
+  "chapters/take3.wav",
+  "chapters/take4.wav",
+  "chapters/take5.wav",
+  "chapters/take6.wav",
+  "chapters/take7.wav",
+  "chapters/take8.wav",
+  "chapters/take9.wav"
+ ],
+ "take_gap": 0.4,
+ "speed": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865,
+   "volume": 1.0
+  },
+  {
+   "shot": 16,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0,
+   "start": 117.26
+  },
+  {
+   "shot": 43,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 53,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 64,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15,
+   "start": 1.6
+  },
+  {
+   "shot": 67,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 77,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 103,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 113,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "volume": 1.0,
+   "start": 13.63
+  },
+  {
+   "shot": 124,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 130,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 138,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 141,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 154,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 167,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 179,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  }
+ ],
+ "music_volume": 0.38,
+ "fade_out": 2.5,
+ "progress": true,
+ "shots": [
+  {
+   "text": "What if, tomorrow morning,",
+   "v": {
+    "img": "img/empty-times.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.25
+   },
+   "punch": true,
+   "sfx": [
+    "hook"
+   ]
+  },
+  {
+   "text": "every human on Earth simply disappeared?",
+   "v": {
+    "video": "stock/empty-aerial.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@disappeared",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "No war.",
+   "v": {
+    "video": "stock/empty-boulevard.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "impact",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "No disease.",
+   "v": {
+    "img": "img/empty-office.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "impact",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "No warning.",
+   "v": {
+    "img": "img/traffic-light.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "impact",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Eight billion people, gone in an instant.",
+   "v": {
+    "video": "motion/population.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": 2.3
+    }
+   ],
+   "music_fx": "muffle",
+   "in": "flash"
+  },
+  {
+   "text": "Every car, every office, every bed, suddenly empty.",
+   "v": {
+    "img": "img/empty-office.jpg",
+    "focus": [
+     0.4,
+     0.55
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.55
+    ],
+    "to_zoom": 1.7
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/nobody",
+     "at": "@empty-0.3"
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The cities are still there.",
+   "v": {
+    "video": "stock/city-lights.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The lights are still on.",
+   "v": {
+    "video": "stock/city-grid.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Somewhere, a coffee machine is still dripping into a cup nobody will drink.",
+   "v": {
+    "img": "img/coffee.jpg",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.55
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So what happens next?",
+   "v": {
+    "video": "stock/fog-towers.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "How long would it take for the planet to erase us?",
+   "v": {
+    "img": "img/jungle-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2",
+     "at": "@erase"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "In this video, we'll fast forward through time.",
+   "v": {
+    "video": "motion/tl0.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "One hour. One year. One century. Ten thousand years.",
+   "v": {
+    "video": "motion/tl5.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tick",
+     "at": "@hour"
+    },
+    {
+     "name": "tick",
+     "at": "@year"
+    },
+    {
+     "name": "tick",
+     "at": "@century"
+    },
+    {
+     "name": "bass",
+     "at": "@Ten"
+    }
+   ]
+  },
+  {
+   "text": "And by the end, you'll find out which of our creations would survive the longest.",
+   "v": {
+    "img": "img/pyramids.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The answer is not what most people expect.",
+   "v": {
+    "img": "img/moon-footprint.jpg",
+    "focus": [
+     0.45,
+     0.65
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.65
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@expect"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Plus one hour.",
+   "v": {
+    "video": "motion/ch1.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "At first, almost nothing changes.",
+   "v": {
+    "img": "img/empty-times.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/hour",
+     "at": 0.0,
+     "alpha": 0.9
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Traffic lights keep switching from red to green",
+   "v": {
+    "video": "stock/traffic-red.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "for cars that will never move again.",
+   "v": {
+    "img": "img/traffic-light.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Planes that were in the air are now flying on autopilot.",
+   "v": {
+    "img": "img/cockpit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Without pilots, they keep going until the fuel runs out,",
+   "v": {
+    "img": "img/cockpit.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": "@fuel"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "and then they come down.",
+   "v": {
+    "video": "stock/earth-planet.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@down",
+     "gain": 0.5
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Inside power plants, nobody is watching the screens,",
+   "v": {
+    "img": "img/control-room.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "nobody is shovelling in coal, nobody is checking the gas.",
+   "v": {
+    "video": "stock/factory-smoke.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Within hours, the first power stations start shutting themselves down.",
+   "v": {
+    "video": "stock/plant-river.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@down"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@down"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "All over the world, phones start ringing with nobody to answer.",
+   "v": {
+    "img": "img/phones.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Messages pile up, unread.",
+   "v": {
+    "img": "img/phones.jpg",
+    "focus": [
+     0.55,
+     0.6
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.6
+    ],
+    "to_zoom": 1.9
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": 0.2
+    },
+    {
+     "name": "pop",
+     "at": 0.5
+    },
+    {
+     "name": "pop",
+     "at": 0.8
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Automatic emails keep sending reminders about meetings that will never happen.",
+   "v": {
+    "img": "img/empty-office.jpg",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.4
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "For a little while, the internet keeps talking to itself.",
+   "v": {
+    "video": "stock/city-lights2.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Plus one day.",
+   "v": {
+    "video": "motion/tl1.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    },
+    {
+     "name": "tick",
+     "at": 1.1
+    }
+   ]
+  },
+  {
+   "text": "One by one, the lights go out.",
+   "v": {
+    "img": "img/city-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@out"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@out"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Cities that glowed for a hundred years go dark.",
+   "v": {
+    "video": "stock/city-grid.mp4",
+    "start": 4.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@dark"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some places last a little longer.",
+   "v": {
+    "img": "img/solar-farm.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Solar panels keep humming in the sun.",
+   "v": {
+    "img": "img/solar-farm.jpg",
+    "focus": [
+     0.4,
+     0.6
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.6
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Hydroelectric dams can run on their own for weeks or even months,",
+   "v": {
+    "img": "img/dam.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "until something clogs or breaks.",
+   "v": {
+    "img": "img/dam.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.8
+   },
+   "shake": [
+    "@breaks"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@breaks",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "But from space, the night side of Earth looks the way it did before Thomas Edison.",
+   "v": {
+    "img": "img/earth-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "voice_fx": {
+    "at": "@Edison",
+    "fx": "echo"
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And deep under New York City, something is starting to happen.",
+   "v": {
+    "video": "stock/subway-empty.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every day, pumps under New York pull millions of litres of groundwater out of the subway tunnels.",
+   "v": {
+    "img": "img/subway-flood.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/nyc",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "text": "Without electricity, those pumps stop.",
+   "v": {
+    "img": "img/subway-flood.jpg",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@stop"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@stop"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Some engineers estimate that within a day or two, parts of the subway would start to flood.",
+   "v": {
+    "img": "img/subway-flood.jpg",
+    "focus": [
+     0.55,
+     0.7
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.7
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The city's foundations are quietly filling with water, and nobody is there to notice.",
+   "v": {
+    "video": "stock/flood-marsh.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Plus one week.",
+   "v": {
+    "video": "motion/ch2.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Now the real danger begins.",
+   "v": {
+    "img": "img/nuclear.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@danger"
+    }
+   ]
+  },
+  {
+   "text": "There are around four hundred nuclear reactors on Earth.",
+   "v": {
+    "video": "stock/tower-top.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/reactors",
+     "at": "@four-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most of them are built to shut down automatically.",
+   "v": {
+    "img": "img/control-room.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But even a sleeping reactor needs cooling, and so does its used fuel.",
+   "v": {
+    "img": "img/spent-pool.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Backup generators keep the water flowing for a while.",
+   "v": {
+    "img": "img/spent-pool.jpg",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.6
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then the diesel runs out.",
+   "v": {
+    "img": "img/control-room.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.9
+   },
+   "fx": [
+    {
+     "name": "light_off",
+     "at": "@out"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@out"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Some experts warn that, without people, cooling pools could boil dry,",
+   "v": {
+    "img": "img/spent-pool.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and some reactors could overheat, release radiation, or catch fire.",
+   "v": {
+    "img": "img/nuclear.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.7
+   },
+   "shake": [
+    "@fire"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@fire",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "It sounds like the end of the world.",
+   "v": {
+    "video": "stock/smoke-dark.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But we already know what happens next, because it already happened once.",
+   "v": {
+    "video": "stock/tower-overgrown.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In nineteen eighty six, the Chernobyl disaster forced people to abandon the land around the plant.",
+   "v": {
+    "mg": "year",
+    "from": 2026,
+    "to": 1986,
+    "roll": 0.9,
+    "label": "CHERNOBYL"
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Decades later, the exclusion zone is full of wolves,",
+   "v": {
+    "img": "img/chernobyl-wolves.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/chernobyl",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "elk, lynx, wild boar, and even wild horses.",
+   "v": {
+    "img": "img/przewalski.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Radiation is bad for animals.",
+   "v": {
+    "video": "stock/horses-wild.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But, it turns out, humans were worse.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HUMANS WERE",
+      "white"
+     ],
+     [
+      "WORSE",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@worse"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@worse"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Plus one month.",
+   "v": {
+    "video": "motion/tl2.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    }
+   ]
+  },
+  {
+   "text": "Our pets are on their own now.",
+   "v": {
+    "video": "stock/dog-grass.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "There are hundreds of millions of pet dogs on Earth.",
+   "v": {
+    "video": "stock/dog-run.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/dogs",
+     "at": "@hundreds-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Many small or very pampered breeds won't make it.",
+   "v": {
+    "img": "img/dog-pack.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The tough ones form packs and go wild.",
+   "v": {
+    "img": "img/dog-pack.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh",
+     "at": "@wild"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Cats are fine.",
+   "v": {
+    "img": "img/cat-throne.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Cats were always fine.",
+   "v": {
+    "video": "stock/cat-sit.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "They have been practising for this their whole lives.",
+   "v": {
+    "img": "img/cat-throne.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 2.1
+   },
+   "punch": {
+    "at": "@whole",
+    "zoom": 2.4
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@practising",
+     "gain": 0.4
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "In zoos, it's a race against time.",
+   "v": {
+    "video": "stock/zebras.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some animals escape through broken fences and wander into the empty streets.",
+   "v": {
+    "video": "stock/zebra-herd.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Imagine a zebra trotting down a motorway,",
+   "v": {
+    "img": "img/zebra-highway.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "or a flock of parrots taking over a shopping mall.",
+   "v": {
+    "img": "img/parrots-mall.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@parrots"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "On farms, it's harder.",
+   "v": {
+    "img": "img/farm-cows.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "There are around a billion cattle",
+   "v": {
+    "video": "stock/cows-field.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/cows",
+     "at": "@billion-0.2"
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and more than twenty billion chickens, and most of them were fed by us.",
+   "v": {
+    "video": "stock/hens.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/chickens",
+     "at": "@twenty-0.2"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some break out. Many don't.",
+   "v": {
+    "img": "img/chickens.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And some creatures don't survive at all, because they only ever lived on us.",
+   "v": {
+    "video": "stock/moss-forest.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Human head lice, for example. When we go, they go.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "HUMAN HEAD LICE",
+      "white"
+     ],
+     [
+      "EXTINCT",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@go"
+    ],
+    "size": 130
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@go",
+     "gain": 0.4
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Plus one year.",
+   "v": {
+    "video": "motion/ch3.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Look closely at any city.",
+   "v": {
+    "video": "stock/empty-road.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Thin green lines are cracking through the pavement.",
+   "v": {
+    "img": "img/cracked-street.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every winter, water seeps into those cracks, freezes, and expands,",
+   "v": {
+    "img": "img/frost-crack.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@freezes",
+     "gain": 0.4
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "prying the concrete apart a little more.",
+   "v": {
+    "video": "stock/road-crack.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every spring, plants move into the gaps.",
+   "v": {
+    "img": "img/cracked-street.jpg",
+    "focus": [
+     0.55,
+     0.55
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.55
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "With nobody mowing, lawns turn into meadows.",
+   "v": {
+    "img": "img/meadow-lawn.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Leaves pile up in gutters, block the drains,",
+   "v": {
+    "video": "stock/rain-leaves.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the next heavy rain floods the streets.",
+   "v": {
+    "img": "img/flooded-street.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2",
+     "at": "@floods"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "City rats, which lived on our rubbish, start to go hungry.",
+   "v": {
+    "img": "img/rats.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Without restaurants and bins, there is a lot less to eat, and their numbers crash.",
+   "v": {
+    "img": "img/rats.jpg",
+    "focus": [
+     0.45,
+     0.65
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.65
+    ],
+    "to_zoom": 1.9
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@crash"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Meanwhile, the sky is changing.",
+   "v": {
+    "video": "stock/sky-dusk.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "With no factories and no traffic, the air gets cleaner surprisingly fast.",
+   "v": {
+    "video": "stock/fog-skyline.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And at night, without street lights, the stars come back.",
+   "v": {
+    "video": "stock/milky-way.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@stars"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "For the first time in a century, you could see the Milky Way from the middle of a big city.",
+   "v": {
+    "img": "img/clear-sky-city.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.25
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Up above, our satellites are still circling the Earth.",
+   "v": {
+    "img": "img/satellite.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some will keep working for years.",
+   "v": {
+    "video": "stock/iss.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then, one by one, they will slowly fall and burn up in the atmosphere.",
+   "v": {
+    "img": "img/sat-reentry.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh",
+     "at": "@burn"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Others are so high that they'll keep orbiting for a very long time.",
+   "v": {
+    "video": "stock/satellite-earth.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Plus ten years.",
+   "v": {
+    "video": "motion/tl2.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "+ 10 YEARS",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Wooden houses are in trouble.",
+   "v": {
+    "img": "img/house-rot.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Roofs start to leak, the water rots the beams, and the first ones collapse.",
+   "v": {
+    "video": "stock/house-ruin.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "shake": [
+    "@collapse"
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@collapse",
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "We know how this goes, too.",
+   "v": {
+    "img": "img/pripyat.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The abandoned city of Pripyat, near Chernobyl, was left empty in nineteen eighty six.",
+   "v": {
+    "img": "img/pripyat.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/pripyat",
+     "at": "@Pripyat"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Today, trees grow out of its buildings, moss covers its floors,",
+   "v": {
+    "video": "stock/ivy-wall.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and its famous fairground is being swallowed by forest.",
+   "v": {
+    "img": "img/ferris.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Back in our empty cities, fires are a growing danger.",
+   "v": {
+    "img": "img/city-fire.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A single lightning strike can now burn through whole neighbourhoods,",
+   "v": {
+    "video": "stock/lightning.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "shake": [
+    "@lightning"
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@lightning",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "because there are no firefighters left to stop it.",
+   "v": {
+    "video": "stock/wildfire.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And the ash makes the soil richer.",
+   "v": {
+    "video": "stock/ash.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The forest is coming.",
+   "v": {
+    "img": "img/jungle-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "voice_fx": {
+    "at": "@coming",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@forest"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And it isn't alone.",
+   "v": {
+    "video": "stock/refinery-aerial.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Oil refineries and chemical plants, with nobody to maintain them, slowly leak and corrode.",
+   "v": {
+    "img": "img/refinery-rust.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some of their tanks will rust through.",
+   "v": {
+    "video": "stock/rust-ship.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "For a while, the worst places will be toxic.",
+   "v": {
+    "img": "img/refinery-rust.jpg",
+    "focus": [
+     0.4,
+     0.55
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.55
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But even there, life slowly finds a way.",
+   "v": {
+    "video": "stock/fern-close.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@life"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Plus one hundred years.",
+   "v": {
+    "video": "motion/ch4.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A century without people, and the city is now a jungle with skyscrapers in it.",
+   "v": {
+    "img": "img/jungle-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.4
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Steel is strong, but steel rusts.",
+   "v": {
+    "img": "img/bridge-rust.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "For a hundred years, nobody has painted a single bridge.",
+   "v": {
+    "video": "stock/bridge-forest.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some experts think many steel bridges would collapse within a few centuries.",
+   "v": {
+    "img": "img/bridge-rust.jpg",
+    "focus": [
+     0.4,
+     0.6
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.6
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Big suspension bridges might fall even sooner, once their cables corrode.",
+   "v": {
+    "video": "stock/bridge-river.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "shake": [
+    "@fall"
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@fall",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Inside our tall buildings, the steel bars hidden in the concrete are rusting too.",
+   "v": {
+    "img": "img/concrete-rebar.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Rust takes up more space than steel, so it pushes the concrete apart from the inside.",
+   "v": {
+    "img": "img/concrete-rebar.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.45
+    ],
+    "to_zoom": 1.9
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "glass",
+     "at": "@pushes",
+     "gain": 0.4
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Bit by bit, the towers start to crumble.",
+   "v": {
+    "video": "stock/fog-spire.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most wooden houses are gone.",
+   "v": {
+    "video": "stock/house-window.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Our suburbs look like forests with a few brick chimneys poking out.",
+   "v": {
+    "img": "img/suburb-forest.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Animals have moved in everywhere.",
+   "v": {
+    "video": "stock/deer-forest.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Deer graze where shopping centres used to be.",
+   "v": {
+    "img": "img/deer-mall.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Bears and wolves return to places they haven't seen in centuries.",
+   "v": {
+    "img": "img/bear-street.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Elephants in Africa, no longer hunted, slowly spread back across their old lands.",
+   "v": {
+    "img": "img/elephants.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Fish return to rivers.",
+   "v": {
+    "video": "stock/waterfall.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Coral reefs, without our pollution and fishing boats, begin to recover in many places.",
+   "v": {
+    "img": "img/reef-recover.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@recover"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "But some of what we left behind won't go away so easily.",
+   "v": {
+    "video": "stock/smoke-dark.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Plastic doesn't really rot.",
+   "v": {
+    "img": "img/plastic-sea.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/notrace",
+     "at": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": 0.25,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "It breaks into smaller and smaller pieces that can last for centuries.",
+   "v": {
+    "img": "img/plastic-sea.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.45
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Our bottles, bags and toys are now a permanent part of the ocean.",
+   "v": {
+    "video": "stock/waves-aerial.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And the carbon dioxide we put into the air won't disappear quickly either.",
+   "v": {
+    "video": "stock/factory-smoke.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most of it will be absorbed by the oceans over centuries,",
+   "v": {
+    "video": "stock/deep-rays.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "but some of it will stay in the atmosphere for thousands of years.",
+   "v": {
+    "img": "img/earth-heal.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Even without us, the planet is still feeling our fever.",
+   "v": {
+    "video": "stock/sky-dusk.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "voice_fx": {
+    "at": "@fever",
+    "fx": "echo"
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Still, by now, the air is clean, the night is dark, and the noise is gone.",
+   "v": {
+    "img": "img/quiet-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "music_fx": "muffle",
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "No engines, no sirens, no music.",
+   "v": {
+    "video": "stock/forest-mist.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO ENGINES.",
+       "white"
+      ],
+      [
+       "NO SIRENS.",
+       "white"
+      ],
+      [
+       "NO MUSIC.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@engines",
+      "@sirens",
+      "@music"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "music_fx": "muffle",
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Only wind, rain, birdsong, and the occasional crash of a falling tower.",
+   "v": {
+    "video": "stock/rain-puddle2.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@crash",
+     "gain": 0.6
+    }
+   ],
+   "shake": [
+    "@crash"
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Plus one thousand years.",
+   "v": {
+    "video": "motion/tl4.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    },
+    {
+     "name": "tick",
+     "at": 1.1
+    }
+   ]
+  },
+  {
+   "text": "Most of our cities are now forests and swamps.",
+   "v": {
+    "video": "stock/forest-top.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "If you walked through New York, you would see hills covered in trees,",
+   "v": {
+    "img": "img/nyc-forest.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and every so often, a strange stone shape poking through the leaves.",
+   "v": {
+    "img": "img/nyc-forest.jpg",
+    "focus": [
+     0.7,
+     0.3
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.7,
+     0.3
+    ],
+    "to_zoom": 1.9
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@stone"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "That's because stone lasts far longer than steel or wood.",
+   "v": {
+    "img": "img/granite.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Granite, marble, and the hardest concrete hold out the longest.",
+   "v": {
+    "video": "motion/lasts.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Our roads are gone, buried under soil and roots.",
+   "v": {
+    "video": "stock/jungle-path.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Our dams have cracked and given way, and rivers have found their old paths again.",
+   "v": {
+    "img": "img/dam-broken.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Somewhere, a forgotten cellar still holds glass bottles, perfectly fine.",
+   "v": {
+    "img": "img/cellar-bottles.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Glass can last for an incredibly long time.",
+   "v": {
+    "img": "img/cellar-bottles.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.45
+    ],
+    "to_zoom": 1.9
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@glass"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Your phone? It's long gone.",
+   "v": {
+    "img": "img/phone-soil.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit"
+    }
+   ]
+  },
+  {
+   "text": "Its battery leaked, its circuits corroded, and its screen cracked under the soil.",
+   "v": {
+    "img": "img/phone-soil.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But its gold and copper are still down there, waiting.",
+   "v": {
+    "video": "stock/stream.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Plus ten thousand years.",
+   "v": {
+    "video": "motion/ch5.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Now we're talking about the age of the pyramids, doubled.",
+   "v": {
+    "video": "stock/pyramids-v.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The Great Pyramid of Giza is already about four and a half thousand years old.",
+   "v": {
+    "video": "stock/pyramid-v.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/pyramid",
+     "at": "@four-0.2"
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In ten thousand more, it's worn and weathered, but very likely still there.",
+   "v": {
+    "img": "img/pyramids.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Mount Rushmore is carved in granite,",
+   "v": {
+    "img": "img/granite.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.6
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/rushmore",
+     "at": 0.1
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "which erodes by only about an inch every ten thousand years.",
+   "v": {
+    "img": "img/granite.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/granite",
+     "at": "@inch-0.3"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The four faces will still be staring out over a world with nobody left to look back.",
+   "v": {
+    "img": "img/granite.jpg",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.4
+    ],
+    "to_zoom": 2.0
+   },
+   "voice_fx": {
+    "at": "@back",
+    "fx": "echo"
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Parts of the Great Wall of China, especially the sections made of stone, may also still be standing.",
+   "v": {
+    "img": "img/great-wall.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And our footprints on the Moon?",
+   "v": {
+    "img": "img/moon-footprint.jpg",
+    "focus": [
+     0.45,
+     0.65
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.65
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "There is no wind or rain up there.",
+   "v": {
+    "img": "img/moon-footprint.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.6
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/apollo",
+     "at": 0.1
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The footprints of the Apollo astronauts could last for millions of years.",
+   "v": {
+    "img": "img/moon-footprint.jpg",
+    "focus": [
+     0.45,
+     0.7
+    ],
+    "zoom": 1.8,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.7
+    ],
+    "to_zoom": 2.2
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@millions"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Out in space, the Voyager probes keep flying, each carrying a golden record of human music and voices.",
+   "v": {
+    "img": "img/voyager.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/voyager",
+     "at": "@Voyager"
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "They could drift between the stars for billions of years.",
+   "v": {
+    "video": "stock/sky-milky.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So, millions of years from now, would anyone know we were here?",
+   "v": {
+    "video": "motion/ch6.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Imagine a future scientist, maybe from a new species that evolved after us, digging into the rock.",
+   "v": {
+    "img": "img/rock-layers.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "They'd find a thin, strange layer.",
+   "v": {
+    "img": "img/rock-layers.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 1.9
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@layer"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Bits of concrete and plastic.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "CONCRETE.",
+      "white"
+     ],
+     [
+      "PLASTIC.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     "@concrete",
+     "@plastic"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@concrete"
+    },
+    {
+     "name": "pop",
+     "at": "@plastic"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Traces of radioactive elements from the nuclear tests of the nineteen fifties and sixties.",
+   "v": {
+    "video": "stock/tower-overgrown.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And an astonishing number of chicken bones.",
+   "v": {
+    "video": "stock/rooster.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@chicken",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Some geologists think that layer could be one of the clearest signs we ever existed.",
+   "v": {
+    "img": "img/rock-layers.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "They call this time the Anthropocene, the age of humans.",
+   "v": {
+    "video": "stock/earth-night.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/anthro",
+     "at": "@Anthropocene"
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Just one thin stripe in the rocks, that's it.",
+   "v": {
+    "img": "img/rock-layers.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.8,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 2.2
+   },
+   "voice_fx": {
+    "at": "@it",
+    "fx": "echo"
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And there's one more sign we left, travelling outward at the speed of light.",
+   "v": {
+    "video": "stock/radio-dish.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Our earliest radio and TV broadcasts are still racing through space.",
+   "v": {
+    "img": "img/radio-waves.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Today, they're about a hundred light years from Earth, and they'll never stop.",
+   "v": {
+    "video": "motion/radio.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So, what if all humans disappeared tomorrow?",
+   "v": {
+    "video": "stock/empty-aerial.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "dip",
+   "pause_before": 0.3,
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The lights would go out in a day.",
+   "v": {
+    "img": "img/city-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The cities would turn green in a century.",
+   "v": {
+    "img": "img/jungle-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most of our buildings would be gone in a few thousand years.",
+   "v": {
+    "img": "img/nyc-forest.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And the Earth would heal faster than you might think.",
+   "v": {
+    "img": "img/earth-heal.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The wolves would return,",
+   "v": {
+    "img": "img/chernobyl-wolves.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.6
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut"
+  },
+  {
+   "text": "the stars would come back,",
+   "v": {
+    "img": "img/clear-sky-city.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and the forests would take the cities.",
+   "v": {
+    "img": "img/final-forest.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But here's the strange part.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE STRANGE",
+      "white"
+     ],
+     [
+      "PART",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@part"
+    ],
+    "size": 150
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The planet doesn't need us to survive.",
+   "v": {
+    "img": "img/earth-heal.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It did perfectly fine for billions of years before we arrived.",
+   "v": {
+    "video": "stock/waterfall.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "We are the ones who need it.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WE NEED",
+      "white"
+     ],
+     [
+      "IT",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@need"
+    ],
+    "size": 190
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@need"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "So maybe the real question isn't what the world would do without us.",
+   "v": {
+    "img": "img/quiet-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's what we'll do with the world, while we're still here.",
+   "v": {
+    "img": "img/final-forest.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.35
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/ending",
+     "at": "@while-0.2"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@still"
+    }
+   ],
+   "in": "whip"
+  }
+ ]
+}

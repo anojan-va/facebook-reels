@@ -1,0 +1,12 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/granite.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a huge weathered grey granite mountain cliff rising above a wild pine forest, dramatic clouds, ancient and enduring, no carvings, no faces.",
+   "seed": 1101
+  }
+ ]
+}

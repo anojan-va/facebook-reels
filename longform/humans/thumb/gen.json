@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "art-a.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturation, vivid green nature against grey concrete, dramatic light, sharp focus, simple bold composition with one clear subject. Absolutely no people. No text, letters, logos or watermarks. Horizontal 16:9. Scene: split scene: the left half is a busy modern city skyline at golden hour, the right half is the exact same skyline completely overgrown by a dense green jungle with collapsed towers and vines, a sharp vertical seam between them.",
+   "seed": 1201
+  },
+  {
+   "out": "art-b.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturation, vivid green nature against grey concrete, dramatic light, sharp focus, simple bold composition with one clear subject. Absolutely no people. No text, letters, logos or watermarks. Horizontal 16:9. Scene: Times Square style city crossroads completely swallowed by green jungle, giant glowing billboards still lit but covered in vines, a deer standing in the middle of the street, misty morning light.",
+   "seed": 1202
+  },
+  {
+   "out": "art-c.jpg",
+   "prompt": "YouTube thumbnail art, hyper-detailed cinematic photo, extremely high contrast and saturation, vivid green nature against grey concrete, dramatic light, sharp focus, simple bold composition with one clear subject. Absolutely no people. No text, letters, logos or watermarks. Horizontal 16:9. Scene: the Statue of Liberty style colossal green statue half buried and covered in vines and trees in a jungle, birds flying, epic scale, far future.",
+   "seed": 1203
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 40%, #12201a 0%, #050807 75%); }
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 104px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+#e { left: 940px; top: 520px; width: 40px; height: 40px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #7fc4ff, #1e5fa8); box-shadow: 0 0 30px #4ea4ff; }
+  .ring { left: 960px; top: 540px; width: 0; height: 0; border: 3px solid #ffd60a88; border-radius: 50%; }
+  #lab { left: 0; width: 1920px; top: 760px; text-align: center; font-size: 90px; }
+  #sub { left: 0; width: 1920px; top: 720px; text-align: center; font-size: 30px; color: #9fd8b6; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">OUR RADIO SIGNALS</div>
+  <div class="abs ring r"></div><div class="abs ring r"></div><div class="abs ring r"></div><div class="abs ring r"></div>
+  <div id="e" class="abs"></div>
+  <div id="sub" class="abs mont">TRAVELLING AT THE SPEED OF LIGHT</div>
+  <div id="lab" class="abs anton y">~100 LIGHT YEARS</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0);
+  document.querySelectorAll(".r").forEach((r, i) => {
+    tl.fromTo(r, { width: 0, height: 0, x: 0, y: 0, opacity: 1 }, { width: 1100, height: 1100, x: -550, y: -550, opacity: 0.1, duration: 3.2, ease: "none" }, 0.3 + i * 0.8); });
+  tl.fromTo("#sub", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 1.0)
+    .fromTo("#lab", { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 1.6)
+    .to("#root", { scale: 1.04, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

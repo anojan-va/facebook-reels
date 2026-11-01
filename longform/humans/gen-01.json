@@ -1,0 +1,297 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/empty-times.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a huge city square like Times Square at dawn, completely empty, giant screens still glowing, cars stopped in the street with doors open, eerie silence.",
+   "seed": 1000
+  },
+  {
+   "out": "img/coffee.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a coffee machine in an empty office kitchen still dripping into a full cup, morning light, untouched pastry beside it.",
+   "seed": 1001
+  },
+  {
+   "out": "img/empty-office.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: an open-plan office with rows of glowing computer monitors and empty chairs, a jacket on a chair, papers on desks, early morning light.",
+   "seed": 1002
+  },
+  {
+   "out": "img/traffic-light.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a traffic light turning green over an empty highway intersection full of stopped cars at sunrise, eerie.",
+   "seed": 1003
+  },
+  {
+   "out": "img/cockpit.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: the cockpit of a passenger airliner flying above the clouds on autopilot with two empty pilot seats, instruments glowing, sunset outside.",
+   "seed": 1004
+  },
+  {
+   "out": "img/control-room.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a power plant control room with walls of glowing screens and warning lights blinking, all chairs empty.",
+   "seed": 1005
+  },
+  {
+   "out": "img/phones.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a desk with three smartphones lighting up with notifications and missed calls, in a dark empty apartment.",
+   "seed": 1006
+  },
+  {
+   "out": "img/city-dark.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a vast city at night seen from above with almost all the lights going out, only a few blocks still lit, eerie.",
+   "seed": 1007
+  },
+  {
+   "out": "img/earth-dark.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: the night side of the Earth from space with no city lights at all, only starlight and a thin blue atmosphere.",
+   "seed": 1008
+  },
+  {
+   "out": "img/solar-farm.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a large solar farm in a field, panels shining in the sun, no people, birds sitting on panels.",
+   "seed": 1009
+  },
+  {
+   "out": "img/dam.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a huge concrete hydroelectric dam with water rushing through it, overgrown edges, misty valley, no people.",
+   "seed": 1010
+  },
+  {
+   "out": "img/subway-flood.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a New York style subway tunnel slowly flooding with dark water, tracks submerged, a stopped train, dim emergency light.",
+   "seed": 1011
+  },
+  {
+   "out": "img/nuclear.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a nuclear power plant with two cooling towers at dusk, steam fading, warning lights, eerie and quiet.",
+   "seed": 1012
+  },
+  {
+   "out": "img/spent-pool.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a spent nuclear fuel pool glowing bright blue in a dark industrial hall, empty catwalks.",
+   "seed": 1013
+  },
+  {
+   "out": "img/chernobyl-wolves.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a pack of grey wolves walking through an abandoned overgrown Soviet town in autumn, crumbling apartment blocks.",
+   "seed": 1014
+  },
+  {
+   "out": "img/przewalski.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: wild Przewalski's horses grazing in front of an abandoned rusty building in a meadow, morning mist.",
+   "seed": 1015
+  },
+  {
+   "out": "img/dog-pack.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a pack of mixed dogs running together through an empty overgrown city street, wild and free.",
+   "seed": 1016
+  },
+  {
+   "out": "img/cat-throne.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a confident house cat sitting on top of an empty sofa in an abandoned living room, sunlight, looking unbothered.",
+   "seed": 1017
+  },
+  {
+   "out": "img/farm-cows.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: cattle standing in an overgrown field next to an empty farmhouse, gate wide open, golden hour.",
+   "seed": 1018
+  },
+  {
+   "out": "img/chickens.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: chickens wandering freely through an abandoned farmyard full of weeds, a broken fence.",
+   "seed": 1019
+  },
+  {
+   "out": "img/zebra-highway.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a zebra trotting down the middle of an empty city motorway with abandoned cars, morning light, surreal.",
+   "seed": 1020
+  },
+  {
+   "out": "img/parrots-mall.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a flock of colourful parrots flying through an empty shopping mall with glass ceiling, plants growing, surreal.",
+   "seed": 1021
+  },
+  {
+   "out": "img/cracked-street.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: close-up of a city street with green weeds and grass growing out of long cracks in the asphalt, morning dew.",
+   "seed": 1022
+  },
+  {
+   "out": "img/frost-crack.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: macro shot of ice crystals filling a crack in concrete, frost, cold blue light.",
+   "seed": 1023
+  },
+  {
+   "out": "img/meadow-lawn.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a suburban garden turned into a wild meadow with tall grass and flowers swallowing a swing set and a garden gnome.",
+   "seed": 1024
+  },
+  {
+   "out": "img/flooded-street.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a city street flooded after heavy rain, leaves clogging storm drains, abandoned cars in the water, overcast.",
+   "seed": 1025
+  },
+  {
+   "out": "img/rats.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a few rats sniffing around empty, clean rubbish bins in a dark alley, no food anywhere, night.",
+   "seed": 1026
+  },
+  {
+   "out": "img/clear-sky-city.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a city skyline under an incredibly clear starry night sky with the Milky Way overhead, all city lights off.",
+   "seed": 1027
+  },
+  {
+   "out": "img/satellite.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a satellite with solar panels orbiting high above Earth, sunlight glinting, quiet.",
+   "seed": 1028
+  },
+  {
+   "out": "img/sat-reentry.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a satellite breaking apart and burning up as it falls through the atmosphere, glowing streaks, seen from orbit.",
+   "seed": 1029
+  },
+  {
+   "out": "img/house-rot.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: an abandoned wooden suburban house with a collapsed roof, ivy and young trees growing through the windows.",
+   "seed": 1030
+  },
+  {
+   "out": "img/pripyat.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: an abandoned Soviet apartment block with trees growing on its roof and balconies, ivy covering walls, autumn.",
+   "seed": 1031
+  },
+  {
+   "out": "img/ferris.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a rusty abandoned yellow Ferris wheel in an overgrown fairground, birch trees growing all around, overcast.",
+   "seed": 1032
+  },
+  {
+   "out": "img/city-fire.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a wildfire burning through an empty overgrown city neighbourhood at night, orange glow on skyscrapers, no firefighters.",
+   "seed": 1033
+  },
+  {
+   "out": "img/refinery-rust.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: an abandoned oil refinery with rusting tanks and pipes leaking, weeds and young trees growing around it, overcast.",
+   "seed": 1034
+  },
+  {
+   "out": "img/jungle-city.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a modern city skyline swallowed by a dense jungle, vines hanging from skyscrapers, trees on every roof, mist, birds.",
+   "seed": 1035
+  },
+  {
+   "out": "img/bridge-rust.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a huge rusty steel suspension bridge with a broken cable and a collapsed section, overgrown with plants, river below.",
+   "seed": 1036
+  },
+  {
+   "out": "img/concrete-rebar.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: close-up of crumbling concrete on a building with rusty steel bars exposed, moss and fern growing.",
+   "seed": 1037
+  },
+  {
+   "out": "img/suburb-forest.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a suburb turned into a forest, only brick chimneys and a rusty car visible among tall trees.",
+   "seed": 1038
+  },
+  {
+   "out": "img/deer-mall.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: deer grazing in front of a ruined shopping centre swallowed by trees and grass, morning mist.",
+   "seed": 1039
+  },
+  {
+   "out": "img/bear-street.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a brown bear walking down an overgrown city street past rusty cars and cracked shop windows.",
+   "seed": 1040
+  },
+  {
+   "out": "img/elephants.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a herd of elephants crossing a wide savanna river at sunrise, peaceful.",
+   "seed": 1041
+  },
+  {
+   "out": "img/reef-recover.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a colourful healthy coral reef full of fish, sunbeams from the surface, crystal clear water.",
+   "seed": 1042
+  },
+  {
+   "out": "img/plastic-sea.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: plastic bottles and bags floating in the open ocean, underwater view, sunbeams, sad.",
+   "seed": 1043
+  },
+  {
+   "out": "img/quiet-city.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a peaceful overgrown city avenue with grass and young trees, birds flying, golden light, silent.",
+   "seed": 1044
+  },
+  {
+   "out": "img/nyc-forest.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a hilly forest with strange stone shapes and the corner of a stone skyscraper poking through the trees, a thousand years after people, mist.",
+   "seed": 1045
+  },
+  {
+   "out": "img/dam-broken.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a cracked and broken concrete dam with a river flowing freely through the gap, overgrown, wild valley.",
+   "seed": 1046
+  },
+  {
+   "out": "img/cellar-bottles.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a buried old cellar with intact glass bottles lit by a beam of light through roots, dust, mysterious.",
+   "seed": 1047
+  },
+  {
+   "out": "img/phone-soil.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a cracked smartphone half buried in soil and roots, corroded, macro, moss.",
+   "seed": 1048
+  },
+  {
+   "out": "img/pyramids.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: the Great Pyramids of Giza in a wild green landscape far in the future, weathered, no people, golden light.",
+   "seed": 1049
+  },
+  {
+   "out": "img/rushmore.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: Mount Rushmore carved granite faces surrounded by wild forest, weathered, dramatic sky, no people.",
+   "seed": 1050
+  },
+  {
+   "out": "img/great-wall.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a stone section of the Great Wall of China overgrown with trees, misty mountains, no people.",
+   "seed": 1051
+  },
+  {
+   "out": "img/moon-footprint.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a single astronaut boot print in grey lunar dust, sharp, with the black sky and blue Earth above.",
+   "seed": 1052
+  },
+  {
+   "out": "img/voyager.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: the Voyager space probe with its big dish antenna drifting through deep space, a golden record on its side, stars.",
+   "seed": 1053
+  },
+  {
+   "out": "img/rock-layers.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: a cliff of sedimentary rock layers with one thin dark band full of fragments of plastic, concrete and bones, a geologist's hammer for scale.",
+   "seed": 1054
+  },
+  {
+   "out": "img/radio-waves.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: the Earth in space with glowing circular radio waves rippling outward into the galaxy, beautiful scientific illustration.",
+   "seed": 1055
+  },
+  {
+   "out": "img/earth-heal.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: the Earth seen from space, bright blue and green, clean clear atmosphere, peaceful and healthy.",
+   "seed": 1056
+  },
+  {
+   "out": "img/final-forest.jpg",
+   "prompt": "Cinematic photorealistic film still, moody and beautiful, high detail, natural light, teal and amber colour grade, anamorphic lens, shallow depth of field. Horizontal 16:9 widescreen composition. Absolutely no people anywhere. No text, letters, logos or watermarks. Scene: sunrise over a vast forest with the faint outline of an old city skyline covered in trees, birds flying, hopeful.",
+   "seed": 1057
+  }
+ ]
+}

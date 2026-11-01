@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 40%, #12201a 0%, #050807 75%); }
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 104px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+#num { left: 0; width: 1920px; top: 380px; text-align: center; font-size: 210px; font-variant-numeric: tabular-nums; }
+  #lab { left: 0; width: 1920px; top: 640px; text-align: center; font-size: 44px; color: #9fd8b6; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+  <div id="head" class="abs anton">HUMANS ON EARTH</div>
+  <div id="num" class="abs anton">8,100,000,000</div>
+  <div id="lab" class="abs mont">AND THEN, IN ONE INSTANT...</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const s = { n: 8.1e9 };
+  const u = () => { document.querySelector("#num").textContent = Math.round(s.n).toLocaleString("en-US"); };
+  u();
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#num", { scale: 1.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3 }, 0.2)
+    .fromTo("#lab", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 0.8)
+    .to(s, { n: 0, duration: 0.6, ease: "power4.in", onUpdate: u }, 1.8)
+    .to("#num", { color: "#eb3232", duration: 0.1 }, 2.4)
+    .fromTo("#num", { scale: 1.25 }, { scale: 1, duration: 0.3, ease: "power2.out" }, 2.4)
+    .to("#lab", { opacity: 0, duration: 0.2 }, 2.4)
+    .to("#root", { scale: 1.04, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

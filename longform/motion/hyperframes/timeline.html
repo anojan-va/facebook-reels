@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" data-composition-variables='[{"id":"stop","type":"number","label":"Active stop","default":0}]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 40%, #12201a 0%, #050807 75%); }
+  #head { left: 0; width: 1920px; top: 50px; text-align: center; font-size: 104px; letter-spacing: 6px; }
+  .lab { font-size: 32px; }
+.stop { top: 520px; width: 240px; text-align: center; margin-left: -120px; }
+  .dot { width: 34px; height: 34px; border-radius: 50%; margin: 0 auto 26px; background: #2b3a33; border: 4px solid #9fd8b6; }
+  .t { font-size: 46px; color: #7f948a; }
+  #line { left: 200px; top: 535px; width: 1520px; height: 6px; background: #2b3a33; }
+  #fill { left: 200px; top: 535px; width: 1520px; height: 6px; background: #ffd60a; transform-origin: left; box-shadow: 0 0 14px #ffd60a; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div class="stars"></div>
+<!-- variables -->
+  <div id="head" class="abs anton">TIME WITHOUT HUMANS</div>
+  <div id="line" class="abs"></div><div id="fill" class="abs"></div>
+  <div class="abs stop" style="left:200px"><div class="dot"></div><div class="t anton">1 HOUR</div></div>
+  <div class="abs stop" style="left:504px"><div class="dot"></div><div class="t anton">1 DAY</div></div>
+  <div class="abs stop" style="left:808px"><div class="dot"></div><div class="t anton">1 YEAR</div></div>
+  <div class="abs stop" style="left:1112px"><div class="dot"></div><div class="t anton">100 YEARS</div></div>
+  <div class="abs stop" style="left:1416px"><div class="dot"></div><div class="t anton">1,000</div></div>
+  <div class="abs stop" style="left:1720px"><div class="dot"></div><div class="t anton">10,000</div></div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const V = window.__hyperframes.getVariables(); const k = V.stop;
+  const stops = document.querySelectorAll(".stop");
+  tl.fromTo("#head", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#fill", { scaleX: Math.max(0, k - 1) / 5 }, { scaleX: k / 5, duration: 0.9, ease: "power2.inOut" }, 0.3);
+  stops.forEach((s, i) => { if (i <= k) { tl.to(s.querySelector(".dot"), { backgroundColor: "#ffd60a", borderColor: "#ffd60a", duration: 0.2 }, i < k ? 0 : 1.1);
+    tl.to(s.querySelector(".t"), { color: i === k ? "#ffd60a" : "#ffffff", duration: 0.2 }, i < k ? 0 : 1.1); } });
+  tl.fromTo(stops[k], { scale: 1 }, { scale: 1.35, duration: 0.25, ease: "back.out(2)", transformOrigin: "50% 0%" }, 1.1)
+    .to("#root", { scale: 1.04, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>
