@@ -99,11 +99,13 @@ CH1 = [
 ]
 
 CH2 = [
-    ("Every day, pumps under New York pull millions of litres of groundwater out of the subway tunnels.", I("subway-flood", (.5, .5), 1.0, tz=1.3),
-     {"overlays": [RM("nyc", 0.3)]}),
+    ("Every day, pumps under New York pull millions of litres of groundwater", V("subway-empty", 4.0, 1.2), {"overlays": [RM("nyc", 0.3)]}),
+    ("out of the subway tunnels.", I("subway-flood", (.5, .5), 1.0, tz=1.3), {}),
     ("Without electricity, those pumps stop.", I("subway-flood", (.6, .5), 1.4, tz=1.6), {"fx": [{"name": "light_off", "at": "@stop"}], "sfx": [{"name": "switch", "at": "@stop"}]}),
-    ("Some engineers estimate that within a day or two, parts of the subway would start to flood.", I("subway-flood", (.55, .7), 1.6, tz=2.0), {}),
-    ("The city's foundations are quietly filling with water, and nobody is there to notice.", V("flood-marsh", 1.0, 1.1), {}),
+    ("Some engineers estimate that within a day or two,", V("flood-marsh", 3.0, 1.15), {}),
+    ("parts of the subway would start to flood.", I("subway-flood", (.55, .7), 1.6, tz=2.0), {}),
+    ("The city's foundations are quietly filling with water,", I("flooded-street", (.5, .6), 1.2, tz=1.5), {}),
+    ("and nobody is there to notice.", V("empty-boulevard", 4.0, 1.15), {}),
     ("Plus one week.", HF("ch2"), {"chapter": True, "music": "tense"}),
     ("Now the real danger begins.", I("nuclear", (.5, .5), 1.0, tz=1.25), {"in": "glitch", "sfx": [{"name": "bass", "at": "@danger"}]}),
     ("There are around four hundred nuclear reactors on Earth.", V("tower-top", 1.0, 1.15), {"overlays": [RM("reactors", "@four-0.2")]}),
@@ -165,7 +167,8 @@ CH3 = [
     ("Wooden houses are in trouble.", I("house-rot", (.5, .5), 1.0, tz=1.25), {}),
     ("Roofs start to leak, the water rots the beams, and the first ones collapse.", V("house-ruin", 1.0, 1.15), {"shake": ["@collapse"], "sfx": [{"name": "impact", "at": "@collapse", "gain": 0.6}]}),
     ("We know how this goes, too.", I("pripyat", (.5, .5), 1.2, tz=1.0), {}),
-    ("The abandoned city of Pripyat, near Chernobyl, was left empty in nineteen eighty six.", I("pripyat", (.5, .4), 1.0, tz=1.35), {"overlays": [RM("pripyat", "@Pripyat")]}),
+    ("The abandoned city of Pripyat, near Chernobyl,", I("pripyat", (.5, .4), 1.0, tz=1.35), {"overlays": [RM("pripyat", "@Pripyat")]}),
+    ("was left empty in nineteen eighty six.", V("ruin-wall", 1.0, 1.15), {}),
     ("Today, trees grow out of its buildings, moss covers its floors,", V("ivy-wall", 1.0, 1.15), {}),
     ("and its famous fairground is being swallowed by forest.", I("ferris", (.5, .5), 1.0, tz=1.3), {}),
     ("Back in our empty cities, fires are a growing danger.", I("city-fire", (.5, .5), 1.0, tz=1.3), {"in": "glitch", "music": "tense"}),
@@ -174,7 +177,8 @@ CH3 = [
     ("And the ash makes the soil richer.", V("ash", 1.0, 1.15), {}),
     ("The forest is coming.", I("jungle-city", (.5, .5), 1.0, tz=1.35), {"voice_fx": {"at": "@coming", "fx": "echo"}, "sfx": [{"name": "bass", "at": "@forest"}]}),
     ("And it isn't alone.", V("refinery-aerial", 1.0, 1.1), {"in": "glitch"}),
-    ("Oil refineries and chemical plants, with nobody to maintain them, slowly leak and corrode.", I("refinery-rust", (.5, .5), 1.0, tz=1.3), {}),
+    ("Oil refineries and chemical plants, with nobody to maintain them,", I("refinery-rust", (.5, .5), 1.0, tz=1.3), {}),
+    ("slowly leak and corrode.", V("rust-van", 1.0, 1.15), {}),
     ("Some of their tanks will rust through.", V("rust-ship", 1.0, 1.15), {}),
     ("For a while, the worst places will be toxic.", I("refinery-rust", (.4, .55), 1.5, tz=1.8), {}),
     ("But even there, life slowly finds a way.", V("fern-close", 1.0, 1.15), {"sfx": [{"name": "sparkle", "at": "@life"}]}),
@@ -209,7 +213,8 @@ CH4 = [
     ("Still, by now, the air is clean, the night is dark, and the noise is gone.", I("quiet-city", (.5, .5), 1.0, tz=1.3), {"music": "warm", "music_fx": "muffle"}),
     ("No engines, no sirens, no music.", V("forest-mist", 1.0, 1.1),
      {"overlays": [KO("NO ENGINES.", "NO SIRENS.", ("NO MUSIC.", "yellow"), times=["@engines", "@sirens", "@music"], size=110)], "captions": False, "music_fx": "muffle"}),
-    ("Only wind, rain, birdsong, and the occasional crash of a falling tower.", V("rain-puddle2", 1.0, 1.15), {"sfx": [{"name": "boom", "at": "@crash", "gain": 0.6}], "shake": ["@crash"]}),
+    ("Only wind, rain, birdsong,", V("rain-puddle2", 1.0, 1.15), {}),
+    ("and the occasional crash of a falling tower.", V("fog-spire", 3.0, 1.2), {"sfx": [{"name": "boom", "at": "@crash", "gain": 0.6}], "shake": ["@crash"]}),
 ]
 
 CH5 = [
@@ -230,21 +235,22 @@ CH5 = [
     ("Now we're talking about the age of the pyramids, doubled.", V("pyramids-v", 1.0, 1.1), {}),
     ("The Great Pyramid of Giza is already about four and a half thousand years old.", V("pyramid-v", 1.0, 1.15), {"overlays": [RM("pyramid", "@four-0.2")]}),
     ("In ten thousand more, it's worn and weathered, but very likely still there.", I("pyramids", (.5, .5), 1.0, tz=1.3), {}),
-    ("Mount Rushmore is carved in granite,", I("granite", (.5, .45), 1.3, tz=1.6), {"overlays": [RM("rushmore", 0.1)]}),
+    ("Mount Rushmore is carved in granite,", I("granite", (.5, .45), 1.3, tz=1.6), {}),
     ("which erodes by only about an inch every ten thousand years.", I("granite", (.5, .5), 1.0, tz=1.2), {"overlays": [RM("granite", "@inch-0.3")]}),
     ("The four faces will still be staring out over a world with nobody left to look back.", I("granite", (.4, .4), 1.6, tz=2.0), {"voice_fx": {"at": "@back", "fx": "echo"}}),
     ("Parts of the Great Wall of China, especially the sections made of stone, may also still be standing.", I("great-wall", (.5, .5), 1.0, tz=1.3), {}),
     ("And our footprints on the Moon?", I("moon-footprint", (.45, .65), 1.0, tz=1.4), {"in": "glitch"}),
     ("There is no wind or rain up there.", I("moon-footprint", (.5, .3), 1.4, tz=1.6), {"overlays": [RM("apollo", 0.1)]}),
     ("The footprints of the Apollo astronauts could last for millions of years.", I("moon-footprint", (.45, .7), 1.8, tz=2.2), {"sfx": [{"name": "bass", "at": "@millions"}]}),
-    ("Out in space, the Voyager probes keep flying, each carrying a golden record of human music and voices.", I("voyager", (.5, .5), 1.0, tz=1.35),
-     {"overlays": [RM("voyager", "@Voyager")]}),
+    ("Out in space, the Voyager probes keep flying,", I("voyager", (.5, .5), 1.0, tz=1.35), {"overlays": [RM("voyager", "@Voyager")]}),
+    ("each carrying a golden record of human music and voices.", I("voyager", (.62, .55), 1.6, tz=2.0), {"sfx": [{"name": "sparkle", "at": "@golden"}]}),
     ("They could drift between the stars for billions of years.", V("sky-milky", 1.0, 1.1), {}),
 ]
 
 CH6 = [
     ("So, millions of years from now, would anyone know we were here?", HF("ch6"), {"chapter": True, "music": "intrigue"}),
-    ("Imagine a future scientist, maybe from a new species that evolved after us, digging into the rock.", I("rock-layers", (.5, .5), 1.0, tz=1.3), {}),
+    ("Imagine a future scientist, maybe from a new species that evolved after us,", V("forest-mist", 3.0, 1.15), {}),
+    ("digging into the rock.", I("rock-layers", (.5, .5), 1.0, tz=1.3), {}),
     ("They'd find a thin, strange layer.", I("rock-layers", (.45, .55), 1.5, tz=1.9), {"sfx": [{"name": "reveal", "at": "@layer"}]}),
     ("Bits of concrete and plastic.", K("CONCRETE.", ("PLASTIC.", "yellow"), times=["@concrete", "@plastic"]), {"sfx": [{"name": "pop", "at": "@concrete"}, {"name": "pop", "at": "@plastic"}]}),
     ("Traces of radioactive elements from the nuclear tests of the nineteen fifties and sixties.", V("tower-overgrown", 3.0, 1.15), {}),
@@ -333,7 +339,7 @@ def main():
                     used.add(m)
                 cues.append(cue)
             shots.append(sh)
-    spec = {"out": "../output/humans-full.mp4", "audio": [f"chapters/take{i}.wav" for i in range(1, 10)], "take_gap": 0.4, "speed": 1.0,
+    spec = {"out": "../output/humans-full.mp4", "audio": [f"chapters/take{i}.wav" for i in range(1, 10)], "take_gap": 0.4, "speed": 0.95,
             "music_cues": cues, "music_volume": 0.38, "fade_out": 2.5, "progress": True, "shots": shots}
     (HERE / "video.json").write_text(json.dumps(spec, indent=1, ensure_ascii=False))
     n_img = sum(1 for s in shots if kind(s["v"]) == "img")
