@@ -1,0 +1,37 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "art-head-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure with tired worried eyes; inside a big see-through glass dome on its head sits a tiny bright yellow round-headed figure, waving. The entire left half of the image is empty solid black.",
+   "seed": 3100
+  },
+  {
+   "out": "art-head-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure with tired worried eyes; inside a big see-through glass dome on its head sits a tiny bright yellow round-headed figure, waving. The entire left half of the image is empty solid black.",
+   "seed": 3101
+  },
+  {
+   "out": "art-bed-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid dark navy blue background. On the right half: a plain white round-headed cartoon stick figure lies awake in bed at night, wide open tired eyes, holding a glowing phone above its face; above the bed floats a big thought bubble with a small yellow heart inside. The entire left half of the image is empty dark navy.",
+   "seed": 3110
+  },
+  {
+   "out": "art-bed-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid dark navy blue background. On the right half: a plain white round-headed cartoon stick figure lies awake in bed at night, wide open tired eyes, holding a glowing phone above its face; above the bed floats a big thought bubble with a small yellow heart inside. The entire left half of the image is empty dark navy.",
+   "seed": 3111
+  },
+  {
+   "out": "art-loop-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure sits hugging its knees, trapped inside a big glowing yellow circular arrow that spins around it, the figure's eyes sad. The entire left half of the image is empty solid black.",
+   "seed": 3120
+  },
+  {
+   "out": "art-loop-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure sits hugging its knees, trapped inside a big glowing yellow circular arrow that spins around it, the figure's eyes sad. The entire left half of the image is empty solid black.",
+   "seed": 3121
+  }
+ ]
+}
