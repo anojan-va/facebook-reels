@@ -1,0 +1,670 @@
+{
+ "out": "../../output/nice-ignored/part6.mp4",
+ "audio": "p6.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 90.0
+  },
+  {
+   "shot": 23,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 20.0
+  }
+ ],
+ "music_volume": 0.33,
+ "style": {
+  "grade": "film",
+  "captions": "karaoke",
+  "caption_y": 0.86,
+  "vignette": 0.36,
+  "grain": 6
+ },
+ "shots": [
+  {
+   "text": "So what do you actually do?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SO WHAT DO YOU",
+      "white"
+     ],
+     [
+      "ACTUALLY DO?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@actually"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "@do+0.4",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Because the answer is definitely not to become a jerk.",
+   "v": {
+    "img": "../img/n-jerk-mask.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "The first thing is to learn to say no.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "#1",
+     "LEARN TO SAY NO"
+    ],
+    "mark": [
+     "LEARN TO SAY NO"
+    ],
+    "times": [
+     0.0,
+     "@say"
+    ]
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Not rudely. Just honestly.",
+   "v": {
+    "video": "../stock/friends-pizza-2.mp4",
+    "start": 12.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "\"I can't this weekend.\" \"I'd rather not.\" \"That doesn't work for me.\"",
+   "v": {
+    "mg": "sticky",
+    "notes": [
+     "I can't this weekend",
+     "I'd rather not",
+     "That doesn't work for me"
+    ],
+    "times": [
+     0.1,
+     "@rather",
+     "@that"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "pop",
+     "at": 0.1
+    },
+    {
+     "name": "pop",
+     "at": "@rather"
+    },
+    {
+     "name": "pop",
+     "at": "@that"
+    }
+   ],
+   "in": "wipe",
+   "captions": false
+  },
+  {
+   "text": "You don't need a long explanation.",
+   "v": {
+    "video": "../stock/office-meeting-1.mp4",
+    "start": 14.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A clear no makes your yes worth something again.",
+   "v": {
+    "mg": "stamps",
+    "times": [
+     0.1,
+     "@yes"
+    ],
+    "word": "NO",
+    "label": "A CLEAR NO",
+    "label_at": "@worth"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "bass",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ],
+   "in": "wipe",
+   "captions": false
+  },
+  {
+   "text": "I'll never forget the first time I said no to my boss.",
+   "v": {
+    "video": "../stock/working-late-0.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "wipe",
+   "pause_before": 0.3,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "He asked me to take on another project, the third one that month,",
+   "v": {
+    "img": "../img/n-boss-no.jpg",
+    "focus": [
+     0.65,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "and I said, \"I can't do that well right now with what's already on my plate.\"",
+   "v": {
+    "img": "../img/n-boss-no.jpg",
+    "focus": [
+     0.35,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "My heart was pounding. I thought I'd get fired.",
+   "v": {
+    "video": "../stock/office-stress-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "@pounding"
+    },
+    {
+     "name": "heartbeat",
+     "at": "@pounding+0.45"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Instead, he nodded and said, \"Okay, that's fair.\"",
+   "v": {
+    "img": "../img/n-boss-nod.jpg",
+    "focus": [
+     0.35,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "sparkle",
+     "at": "@fair"
+    }
+   ],
+   "in": "wipe"
+  },
+  {
+   "text": "And two months later, a coworker I'll call Mark, who'd been saying yes to everything just like me, was still drowning in extra work.",
+   "v": {
+    "img": "../img/n-drowning.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "MARK",
+     "sub": "Name changed",
+     "at": "@Mark"
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "at": "@Mark",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "I was the one who got asked to lead the next team.",
+   "v": {
+    "img": "../img/n-lead.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.07
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@lead"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "The second thing is to stop apologising for existing.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "#2",
+     "STOP APOLOGISING"
+    ],
+    "mark": [
+     "STOP APOLOGISING"
+    ],
+    "times": [
+     0.0,
+     "@apologising"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Watch how many times you say sorry in a day.",
+   "v": {
+    "video": "../stock/sorry-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Sorry for asking. Sorry for being late by one minute. Sorry for having an opinion.",
+   "v": {
+    "img": "../img/n-sorry.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Every unnecessary sorry tells people you see yourself as a burden.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "EVERY SORRY SAYS",
+      "white"
+     ],
+     [
+      "I'M A BURDEN",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@burden"
+    ]
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The third thing is to let people be disappointed.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "#3",
+     "LET THEM BE",
+     "DISAPPOINTED"
+    ],
+    "mark": [
+     "DISAPPOINTED"
+    ],
+    "times": [
+     0.0,
+     "@let",
+     "@disappointed"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "This is the hardest one.",
+   "v": {
+    "img": "../img/n-disappointed.jpg",
+    "focus": [
+     0.7,
+     0.45
+    ],
+    "zoom": 1.5
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "As a nice person, you feel responsible for everyone's feelings.",
+   "v": {
+    "img": "../img/n-strings.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1
+   },
+   "in": "cut"
+  },
+  {
+   "text": "But other people's disappointment isn't an emergency. It's just a feeling.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "NOT AN",
+     "EMERGENCY"
+    ],
+    "right": [
+     "JUST A",
+     "FEELING"
+    ],
+    "at": "@feeling",
+    "left_at": 0.0
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "They'll survive it, and so will you.",
+   "v": {
+    "img": "../img/n-disappointed.jpg",
+    "focus": [
+     0.35,
+     0.45
+    ],
+    "zoom": 1.4
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And the fourth thing is to give from fullness, not from fear.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "#4",
+     "GIVE FROM",
+     "FULLNESS"
+    ],
+    "mark": [
+     "FULLNESS"
+    ],
+    "times": [
+     0.0,
+     "@give",
+     "@fullness"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Help people because you want to, not because you're scared they'll leave if you don't.",
+   "v": {
+    "img": "../img/n-cup-full.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "When your kindness is a choice, not a payment, people feel the difference straight away.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "A",
+     "PAYMENT"
+    ],
+    "right": [
+     "A",
+     "CHOICE"
+    ],
+    "at": "@choice",
+    "left_at": 0.0
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And here's a test I still use.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE TEST",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Before you say yes to something, ask yourself:",
+   "v": {
+    "video": "../stock/phone-night-3.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "would I still do this if they never found out it was me?",
+   "v": {
+    "mg": "quote",
+    "text": "Would I still do this if they never found out it was me?",
+    "end": "@me",
+    "width": 30
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "If the answer is yes, that's kindness.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "YES?",
+      "white"
+     ],
+     [
+      "THAT'S KINDNESS.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@kindness"
+    ]
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "If the answer is no, you're probably trying to buy their approval.",
+   "v": {
+    "img": "../img/n-bill.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  }
+ ]
+}

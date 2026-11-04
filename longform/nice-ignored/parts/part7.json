@@ -1,0 +1,578 @@
+{
+ "out": "../../output/nice-ignored/part7.mp4",
+ "audio": "p7.wav",
+ "speed": 1.0,
+ "tail": 2.0,
+ "music_fade": 2.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 20.0
+  },
+  {
+   "shot": 12,
+   "music": "../../../reels/audio/music/unforgiven.mp3",
+   "start": 90.0
+  },
+  {
+   "shot": 20,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3"
+  }
+ ],
+ "music_volume": 0.33,
+ "fade_out": 2.0,
+ "style": {
+  "grade": "film",
+  "captions": "karaoke",
+  "caption_y": 0.86,
+  "vignette": 0.36,
+  "grain": 6
+ },
+ "shots": [
+  {
+   "text": "Here's what happened when I started living like this.",
+   "v": {
+    "video": "../stock/confident-walk-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   }
+  },
+  {
+   "text": "I lost a few people.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "I LOST",
+      "white"
+     ],
+     [
+      "A FEW PEOPLE.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@few"
+    ]
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "The ones who only liked me because I was useful drifted away.",
+   "v": {
+    "video": "../stock/crowd-party-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And honestly, that hurt.",
+   "v": {
+    "img": "../img/n-car-night.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.4
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "But the people who stayed started treating me differently.",
+   "v": {
+    "video": "../stock/friends-pizza-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "They asked my opinion. They invited me first.",
+   "v": {
+    "img": "../img/n-pizza.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "They respected my time, because I finally respected it.",
+   "v": {
+    "mg": "gauge",
+    "title": "AFTER",
+    "bars": [
+     [
+      "LIKED",
+      80,
+      "yellow"
+     ],
+     [
+      "RESPECTED",
+      85,
+      "yellow"
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "sparkle",
+     "at": "@finally"
+    }
+   ],
+   "in": "wipe",
+   "captions": false
+  },
+  {
+   "text": "And years later, I ran into Chloe at a friend's wedding.",
+   "v": {
+    "video": "../stock/wedding-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "wipe",
+   "pause_before": 0.3,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "We talked for a while, and at one point she laughed and said,",
+   "v": {
+    "img": "../img/n-wedding.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "\"You're so different now. You actually tell me when I'm wrong.\"",
+   "v": {
+    "mg": "quote",
+    "text": "\"You're so different now. You actually tell me when I'm wrong.\"",
+    "end": "@wrong",
+    "width": 30
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "She meant it as a compliment.",
+   "v": {
+    "img": "../img/n-wedding.jpg",
+    "focus": [
+     0.7,
+     0.35
+    ],
+    "zoom": 1.6
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And for the first time, I realised I didn't need it to be.",
+   "v": {
+    "img": "../img/n-wedding.jpg",
+    "focus": [
+     0.45,
+     0.35
+    ],
+    "zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "So if you're a nice person who keeps getting ignored, I don't want you to stop being good.",
+   "v": {
+    "video": "../stock/confident-walk-1.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "cut"
+  },
+  {
+   "text": "The world needs good people.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE WORLD NEEDS",
+      "white"
+     ],
+     [
+      "GOOD PEOPLE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@good"
+    ]
+   },
+   "in": "wipe",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "I want you to stop being nice and start being kind.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "STOP BEING",
+     "NICE"
+    ],
+    "right": [
+     "START BEING",
+     "KIND"
+    ],
+    "at": "@kind",
+    "left_at": 0.0
+   },
+   "sfx": [
+    {
+     "name": "reveal",
+     "at": "@kind"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Have opinions.",
+   "v": {
+    "mg": "checklist",
+    "title": "BE KIND, NOT NICE",
+    "items": [
+     "HAVE OPINIONS",
+     "SAY NO",
+     "STOP APOLOGISING",
+     "LET PEOPLE BE DISAPPOINTED",
+     "GIVE BECAUSE YOU WANT TO"
+    ],
+    "times": [
+     0.05,
+     999,
+     999,
+     999,
+     999
+    ]
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Say no.",
+   "v": {
+    "mg": "checklist",
+    "title": "BE KIND, NOT NICE",
+    "items": [
+     "HAVE OPINIONS",
+     "SAY NO",
+     "STOP APOLOGISING",
+     "LET PEOPLE BE DISAPPOINTED",
+     "GIVE BECAUSE YOU WANT TO"
+    ],
+    "times": [
+     -1,
+     0.05,
+     999,
+     999,
+     999
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Stop apologising.",
+   "v": {
+    "mg": "checklist",
+    "title": "BE KIND, NOT NICE",
+    "items": [
+     "HAVE OPINIONS",
+     "SAY NO",
+     "STOP APOLOGISING",
+     "LET PEOPLE BE DISAPPOINTED",
+     "GIVE BECAUSE YOU WANT TO"
+    ],
+    "times": [
+     -1,
+     -1,
+     0.05,
+     999,
+     999
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Let people be disappointed.",
+   "v": {
+    "mg": "checklist",
+    "title": "BE KIND, NOT NICE",
+    "items": [
+     "HAVE OPINIONS",
+     "SAY NO",
+     "STOP APOLOGISING",
+     "LET PEOPLE BE DISAPPOINTED",
+     "GIVE BECAUSE YOU WANT TO"
+    ],
+    "times": [
+     -1,
+     -1,
+     -1,
+     0.05,
+     999
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And give because you want to, not because you need something back.",
+   "v": {
+    "mg": "checklist",
+    "title": "BE KIND, NOT NICE",
+    "items": [
+     "HAVE OPINIONS",
+     "SAY NO",
+     "STOP APOLOGISING",
+     "LET PEOPLE BE DISAPPOINTED",
+     "GIVE BECAUSE YOU WANT TO"
+    ],
+    "times": [
+     -1,
+     -1,
+     -1,
+     -1,
+     0.05
+    ]
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": 0.05
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You don't have to be less good. You just have to be more you.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "NOT LESS GOOD.",
+     "MORE YOU."
+    ],
+    "mark": [
+     "MORE YOU."
+    ],
+    "times": [
+     0.0,
+     "@more"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "The version of you with opinions, with limits, with a life of your own.",
+   "v": {
+    "img": "../img/n-spine.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.07
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "That person isn't less lovable.",
+   "v": {
+    "img": "../img/n-seen.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "That person is finally someone people can actually see.",
+   "v": {
+    "img": "../img/n-seen.jpg",
+    "focus": [
+     0.48,
+     0.35
+    ],
+    "zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@see"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "If this hit home, send it to the nicest person you know.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SEND THIS TO",
+      "white"
+     ],
+     [
+      "THE NICEST PERSON",
+      "yellow"
+     ],
+     [
+      "YOU KNOW",
+      "white"
+     ]
+    ],
+    "times": [
+     "@send",
+     "@nicest",
+     "@know"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.5
+    },
+    {
+     "name": "pop",
+     "at": "@send"
+    },
+    {
+     "name": "pop",
+     "at": "@nicest"
+    }
+   ],
+   "in": "wipe",
+   "captions": false
+  },
+  {
+   "text": "They probably need to hear it more than anyone. And I'll see you in the next one.",
+   "v": {
+    "video": "../stock/confident-walk-6.mp4",
+    "start": 6.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.5
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/n-boss-nod.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a manager's office. Scene: on the left, the boss, a white line-art man in a suit with dark hair, sits at his desk nodding with an understanding smile. On the right, the yellow man stands relaxed and relieved, smiling. Everyone except the yellow man is drawn ONLY in thin white outlines on black, with NO yellow on them at all. Exactly ONE yellow figure.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 14128
+  },
+  {
+   "out": "img/n-chloe-talk.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair. A young woman drawn ONLY in white line art on black (NOT yellow, no yellow on her at all): long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a cafe table. Scene: on the right, the woman talks excitedly with her hands about someone else. On the left, the yellow man sits listening politely with a patient smile, chin resting on one hand. Everyone except the yellow man is drawn ONLY in thin white outlines on black, with NO yellow on them at all. Exactly ONE yellow figure.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 14109
+  },
+  {
+   "out": "img/n-cup-full.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: plain black. Scene: the yellow man stands in the centre, smiling, pouring glowing liquid from a big pitcher held in both hands into a cup held out by a white line-art woman on the right; another white line-art man on the left holds a full cup and smiles. The three figures stand apart, not overlapping. Everyone except the yellow man is drawn ONLY in thin white outlines on black, with NO yellow on them at all. Exactly ONE yellow figure.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 14133
+  },
+  {
+   "out": "img/n-drowning.jpg",
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs.   Setting: an office. Scene: a white line-art man with short dark hair and a tie (NOT yellow) sits behind his desk buried under a huge mountain of papers and folders, only his stressed head and one hand visible. No yellow figure in this image at all, everything white line art on black.",
+   "refs": [],
+   "seed": 14129
+  },
+  {
+   "out": "img/n-airport.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an airport drop-off zone at dawn. Scene: the yellow man stands next to his car, holding a suitcase handle with one hand and stifling a yawn with his other hand; a white line-art woman stands beside him with a backpack. The car trunk is open. Everyone except the yellow man is drawn ONLY in thin white outlines on black, with NO yellow on them at all. Exactly ONE yellow figure.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 14107
+  },
+  {
+   "out": "img/n-wedding.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair. A young woman drawn ONLY in white line art on black (NOT yellow, no yellow on her at all): long hair in a high ponytail, fitted t-shirt, plaid skirt. Setting: a wedding reception with string lights and round tables. Scene: the yellow man and the woman stand facing each other holding drinks; she laughs warmly and he smiles back calmly and confidently, relaxed. Everyone except the yellow man is drawn ONLY in thin white outlines on black, with NO yellow on them at all. Exactly ONE yellow figure.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 14134
+  },
+  {
+   "out": "img/n-lead.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a meeting room with a whiteboard. Scene: the yellow man stands at the head of the table with a confident smile, pointing at the whiteboard, while four white line-art teammates listen with interest. Everyone except the yellow man is drawn ONLY in thin white outlines on black, with NO yellow on them at all. Exactly ONE yellow figure.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 14130
+  },
+  {
+   "out": "img/n-disappointed.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a living room. Scene: on the right, a white line-art friend with short hair stands with arms crossed and a pouting disappointed face. On the left, the yellow man stands calm and relaxed with his hands at his sides and a small kind smile. Everyone except the yellow man is drawn ONLY in thin white outlines on black, with NO yellow on them at all. Exactly ONE yellow figure.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 14132
+  }
+ ]
+}

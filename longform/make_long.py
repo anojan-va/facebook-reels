@@ -743,10 +743,89 @@ def mg_timer(fr, t, d, p, ctx):
     blit(fr, text_layer(p.get("label", "THE CRAVING"), INTER_SB, 44, (190, 200, 220), track=10), cx, cy + r + 80, alpha=min(1, t / 0.3))
 
 
+def mg_stamps(fr, t, d, p, ctx):
+    """A word stamped again and again at p.times (scattered, tilted, red ink), the newest one slamming in."""
+    fr[:] = tuple(p.get("bg", (238, 232, 220)))
+    rng = np.random.default_rng(7)
+    times = [ctx.at(x) for x in p["times"]]
+    for i, t0 in enumerate(times):
+        lt = t - t0
+        if lt < 0:
+            continue
+        x, y = rng.uniform(260, W - 260), rng.uniform(200, H * 0.58)
+        ang = rng.uniform(-18, 18)
+        st = text_layer(p.get("word", "YES"), ANTON, int(rng.uniform(130, 200)), tuple(p.get("color", RED)), track=6)
+        pad = 18
+        box = np.zeros((st.shape[0] + pad * 2, st.shape[1] + pad * 2, 4), np.uint8)
+        col = (*p.get("color", RED), 255)
+        cv2.rectangle(box, (4, 4), (box.shape[1] - 5, box.shape[0] - 5), col, 8)
+        box[pad:pad + st.shape[0], pad:pad + st.shape[1]] = np.maximum(box[pad:pad + st.shape[0], pad:pad + st.shape[1]], st)
+        M = cv2.getRotationMatrix2D((box.shape[1] / 2, box.shape[0] / 2), ang, 1)
+        box = cv2.warpAffine(box, M, (box.shape[1], box.shape[0]))
+        blit(fr, box, x, y, scale=1 + 1.3 * (1 - ease_out(lt / 0.12)), alpha=min(1, lt / 0.05) * 0.9)
+    if p.get("label") and t > ctx.at(p.get("label_at", 999.0)):
+        blit(fr, text_layer(p["label"], ANTON, 120, (20, 20, 20), track=4), W / 2, H * 0.82, alpha=min(1, (t - ctx.at(p["label_at"])) / 0.2))
+
+
+def mg_gauge(fr, t, d, p, ctx):
+    """Two vertical meters filling to their values: p.bars = [[label, value 0-100, color], ...]."""
+    fr[:] = (14, 13, 12)
+    if p.get("title"):
+        blit(fr, text_layer(p["title"], INTER_SB, 46, WHITE, track=10), W / 2, H * 0.1, alpha=min(1, t / 0.2))
+    n = len(p["bars"])
+    for i, (label, val, col) in enumerate(p["bars"]):
+        col = YELLOW if col == "yellow" else RED if col == "red" else (150, 150, 150)
+        cx = W / 2 + (i - (n - 1) / 2) * 420
+        top, bot, bw = H * 0.2, H * 0.72, 120
+        t0 = ctx.at(p.get("at", [0.2 + 0.3 * k for k in range(n)])[i]) if isinstance(p.get("at"), list) else 0.2 + 0.3 * i
+        k = ease_out((t - t0) / 0.9)
+        rect(fr, cx - bw / 2, top, cx + bw / 2, bot, (40, 38, 36), 1.0)
+        rect(fr, cx - bw / 2, bot - (bot - top) * val / 100 * k, cx + bw / 2, bot, col, 1.0)
+        blit(fr, text_layer(label, ANTON, 64, WHITE, track=4), cx, bot + 70)
+        if k > 0.05:
+            blit(fr, text_layer(f"{round(val * k)}%", ANTON, 56, col), cx, bot - (bot - top) * val / 100 * k - 45)
+
+
+def mg_sticky(fr, t, d, p, ctx):
+    """Yellow sticky notes popping onto a cork-dark board, each with a short handwritten line."""
+    fr[:] = (38, 30, 24)
+    notes = p["notes"]
+    times = [ctx.at(x) for x in p["times"]]
+    for i, (txt, t0) in enumerate(zip(notes, times)):
+        lt = t - t0
+        if lt < 0:
+            continue
+        cols = min(len(notes), 3)
+        x = W / 2 + ((i % cols) - (cols - 1) / 2) * 470
+        y = H * 0.32 + (i // cols) * 360
+        sw = 380
+        img = Image.new("RGBA", (sw + 40, sw + 40), (0, 0, 0, 0))
+        dd = ImageDraw.Draw(img)
+        dd.rectangle([30, 34, sw + 30, sw + 34], fill=(0, 0, 0, 120))
+        dd.rectangle([20, 20, sw + 20, sw + 20], fill=(255, 226, 90, 255))
+        fnt = ImageFont.truetype(CAVEAT, 64)
+        try:
+            fnt.set_variation_by_axes([700])
+        except Exception:
+            pass
+        words, lines, cur = txt.split(), [], ""
+        for w in words:
+            if len(cur) + len(w) > 12:
+                lines.append(cur); cur = w
+            else:
+                cur = (cur + " " + w).strip()
+        lines.append(cur)
+        for j, ln in enumerate(lines):
+            dd.text((sw / 2 + 20, 90 + j * 70), ln, font=fnt, fill=(40, 30, 20, 255), anchor="mm")
+        layer = np.asarray(img.rotate([-4, 3, -2, 5, -3, 2][i % 6], expand=True, resample=Image.Resampling.BICUBIC))
+        blit(fr, layer, x, y, scale=0.8 + 0.2 * ease_back(lt / 0.3), alpha=min(1, lt / 0.1))
+
+
 MG = {"kinetic": mg_kinetic, "title": mg_title, "year": mg_year, "grid": mg_grid, "bars": mg_bars,
       "list": mg_list, "chapter": mg_chapter, "versus": mg_versus, "recap": mg_recap,
       "chat": mg_chat, "marker": mg_marker, "quote": mg_quote, "reason": mg_reason, "checklist": mg_checklist,
-      "curve": mg_curve, "lesson": mg_lesson, "polaroid": mg_polaroid, "loop": mg_loop, "receipt": mg_receipt, "timer": mg_timer}
+      "curve": mg_curve, "lesson": mg_lesson, "polaroid": mg_polaroid, "loop": mg_loop, "receipt": mg_receipt, "timer": mg_timer,
+      "stamps": mg_stamps, "gauge": mg_gauge, "sticky": mg_sticky}
 OV = {"notify": ov_notify, "lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic}
 
 
@@ -790,6 +869,7 @@ def warp(im, fx, fy, z, rot=0.0, shake=(0, 0)):
 
 GRADES = {   # stock-footage looks, picked per video with "style": {"grade": ...}
     "cool": "eq=saturation=0.62:contrast=1.12:brightness=-0.035:gamma=0.95,colorbalance=rs=-0.04:bs=0.05:rh=0.03:gh=0.01",
+    "film": "eq=saturation=0.6:contrast=1.05:brightness=0.0:gamma=1.0,colorbalance=rs=0.08:gs=0.03:bs=-0.06:rh=0.05:bh=-0.04,curves=all='0/0.08 0.5/0.5 1/0.9'",
     "night": "eq=saturation=0.45:contrast=1.12:brightness=-0.05:gamma=0.92,colorbalance=rs=-0.08:gs=-0.02:bs=0.12:rm=-0.05:bm=0.06,curves=all='0/0.03 0.5/0.45 1/0.94'",
     "bw": "hue=s=0.05,eq=contrast=1.2:brightness=-0.035:gamma=0.94,curves=all='0/0.03 0.5/0.46 1/0.95'",
     "warm": "eq=saturation=0.72:contrast=1.1:brightness=-0.03:gamma=0.96,colorbalance=rs=0.05:gs=0.01:bs=-0.04:rh=0.06:bh=-0.05,curves=all='0/0.04 0.5/0.48 1/0.96'",
@@ -930,6 +1010,8 @@ def caption_layer(words, active):
         return caption_punch(words, active)
     if STYLE["captions"] == "underline":
         return caption_underline(words, active)
+    if STYLE["captions"] == "karaoke":
+        return caption_karaoke(words, active)
     f = ImageFont.truetype(INTER, 66)
     sp = f.getlength(" ")
     ws = [f.getlength(w) for w in words]
@@ -946,6 +1028,22 @@ def caption_layer(words, active):
         x += wl + sp
     sh = sh.filter(ImageFilter.GaussianBlur(6))
     return np.asarray(Image.alpha_composite(sh, im))
+
+
+def caption_karaoke(words, active):
+    """Caption variant: Title-case words; words already spoken are yellow, upcoming ones dim white, thin black outline."""
+    f = ImageFont.truetype(INTER, 64)
+    sp = f.getlength(" ")
+    ws = [f.getlength(w) for w in words]
+    asc, desc = f.getmetrics()
+    im = Image.new("RGBA", (int(sum(ws) + sp * len(words)) + 80, asc + desc + 40), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    x = 40
+    for k, (w, wl) in enumerate(zip(words, ws)):
+        col = (*YELLOW, 255) if k <= active else (235, 235, 235, 150)
+        d.text((x, 16), w, font=f, fill=col, stroke_width=5, stroke_fill=(0, 0, 0, 255))
+        x += wl + sp
+    return np.asarray(im)
 
 
 def caption_underline(words, active):
@@ -1318,6 +1416,13 @@ def main():
                     fr = (base_fr.astype(np.float32) * (1 - w) + 255 * w).astype(np.uint8)
                 elif kind == "glitch":
                     fr = fx_glitch(A if p < 0.5 else B, T, 1 - abs(p - 0.5) * 1.6)
+                elif kind == "wipe":      # diagonal wipe with a yellow edge line
+                    off = int((W + H * 0.4) * ease_io(p))
+                    xs = np.arange(W)[None, :] + np.arange(H)[:, None] * 0.4
+                    m = (xs < off)[..., None]
+                    fr = np.where(m, B, A).astype(np.uint8)
+                    edge = (np.abs(xs - off) < 6)
+                    fr[edge] = YELLOW
                 elif kind == "spin":      # rotate + zoom through the cut
                     base_fr = A if p < 0.5 else B
                     ang = (p - 0.5) * 40
