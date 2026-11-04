@@ -1,0 +1,47 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "v2-replay-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid bright red background. On the right half: a plain white round-headed cartoon stick figure sits on the floor hugging its knees, staring at an old TV that shows a small yellow round-headed figure waving goodbye, with a white rewind symbol of two triangles in the corner of the TV screen. The entire left half of the image is empty solid red.",
+   "seed": 4200
+  },
+  {
+   "out": "v2-replay-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid bright red background. On the right half: a plain white round-headed cartoon stick figure sits on the floor hugging its knees, staring at an old TV that shows a small yellow round-headed figure waving goodbye, with a white rewind symbol of two triangles in the corner of the TV screen. The entire left half of the image is empty solid red.",
+   "seed": 4201
+  },
+  {
+   "out": "v2-ghost-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure walks forward looking sad and tired, while a glowing see-through yellow ghost-like round-headed figure floats right behind its shoulder, hugging it. The entire left half of the image is empty solid black.",
+   "seed": 4210
+  },
+  {
+   "out": "v2-ghost-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure walks forward looking sad and tired, while a glowing see-through yellow ghost-like round-headed figure floats right behind its shoulder, hugging it. The entire left half of the image is empty solid black.",
+   "seed": 4211
+  },
+  {
+   "out": "v2-split-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Image split vertically into two halves with a straight line. Left half dark navy night: a plain white round-headed cartoon stick figure lies awake in bed crying, holding a phone. Right half bright sunny yellow morning: the same white figure stands smiling with arms open wide, the phone dropped on the floor. Flat colours, very simple.",
+   "seed": 4220
+  },
+  {
+   "out": "v2-split-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Image split vertically into two halves with a straight line. Left half dark navy night: a plain white round-headed cartoon stick figure lies awake in bed crying, holding a phone. Right half bright sunny yellow morning: the same white figure stands smiling with arms open wide, the phone dropped on the floor. Flat colours, very simple.",
+   "seed": 4221
+  },
+  {
+   "out": "v2-face-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure white background. On the right half: a huge close-up of a plain white round cartoon face with thick black outline, eyes wide open with dark tired circles, a tiny yellow round-headed figure reflected in each pupil. The entire left half of the image is empty solid white.",
+   "seed": 4230
+  },
+  {
+   "out": "v2-face-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure white background. On the right half: a huge close-up of a plain white round cartoon face with thick black outline, eyes wide open with dark tired circles, a tiny yellow round-headed figure reflected in each pupil. The entire left half of the image is empty solid white.",
+   "seed": 4231
+  }
+ ]
+}
