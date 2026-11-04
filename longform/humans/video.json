@@ -396,7 +396,7 @@
   {
    "text": "One hour. One year. One century. Ten thousand years.",
    "v": {
-    "video": "motion/tl5.mp4",
+    "video": "motion/tl8.mp4",
     "start": 0.0,
     "zoom": 1.0,
     "drift": 0.0,
@@ -840,7 +840,7 @@
     },
     {
      "name": "tick",
-     "at": 1.1
+     "at": 0.65
     }
    ]
   },
@@ -1606,7 +1606,7 @@
   {
    "text": "Plus one month.",
    "v": {
-    "video": "motion/tl2.mp4",
+    "video": "motion/tl3.mp4",
     "start": 0.0,
     "zoom": 1.0,
     "drift": 0.0,
@@ -2429,7 +2429,7 @@
   {
    "text": "Plus ten years.",
    "v": {
-    "video": "motion/tl2.mp4",
+    "video": "motion/tl5.mp4",
     "start": 0.0,
     "zoom": 1.0,
     "drift": 0.0,
@@ -2437,17 +2437,6 @@
    },
    "in": "dip",
    "captions": false,
-   "overlays": [
-    {
-     "mg": "tag",
-     "text": "+ 10 YEARS",
-     "at": 0.0,
-     "pos": [
-      0.04,
-      0.08
-     ]
-    }
-   ],
    "sfx": [
     {
      "name": "tunnel",
@@ -2455,11 +2444,6 @@
     },
     {
      "name": "tunnel"
-    },
-    {
-     "name": "click",
-     "at": 0.0,
-     "gain": 0.6
     }
    ]
   },
@@ -3517,7 +3501,7 @@
   {
    "text": "Plus one thousand years.",
    "v": {
-    "video": "motion/tl4.mp4",
+    "video": "motion/tl7.mp4",
     "start": 0.0,
     "zoom": 1.0,
     "drift": 0.0,
@@ -3535,7 +3519,7 @@
     },
     {
      "name": "tick",
-     "at": 1.1
+     "at": 0.65
     }
    ]
   },
