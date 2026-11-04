@@ -1,0 +1,404 @@
+{
+ "airport-bag": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/woman-walking-slowly-towards-a-terminal-27760/",
+  "id": "mixkit-27760",
+  "file": "https://assets.mixkit.co/videos/27760/27760-720.mp4"
+ },
+ "airport-plane": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/flight-getting-ready-for-departure-4065/",
+  "id": "mixkit-4065",
+  "file": "https://assets.mixkit.co/videos/4065/4065-720.mp4"
+ },
+ "airport-desk": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/checking-in-at-the-airport-counter-23976/",
+  "id": "mixkit-23976",
+  "file": "https://assets.mixkit.co/videos/23976/23976-720.mp4"
+ },
+ "airport-night": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/dusk-from-the-boarding-area-of-an-airport-36351/",
+  "id": "mixkit-36351",
+  "file": "https://assets.mixkit.co/videos/36351/36351-720.mp4"
+ },
+ "alarm-hand": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/a-young-man-turns-off-the-alarm-clock-by-the-50753/",
+  "id": "mixkit-50753",
+  "file": "https://assets.mixkit.co/videos/50753/50753-720.mp4"
+ },
+ "clock-close": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/metal-bells-alarm-clock-39834/",
+  "id": "mixkit-39834",
+  "file": "https://assets.mixkit.co/videos/39834/39834-720.mp4"
+ },
+ "boardgame": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/friends-playing-catan-sitting-at-a-table-5333/",
+  "id": "mixkit-5333",
+  "file": "https://assets.mixkit.co/videos/5333/5333-720.mp4"
+ },
+ "chess-kids": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/bored-kids-playing-chess-4762/",
+  "id": "mixkit-4762",
+  "file": "https://assets.mixkit.co/videos/4762/4762-720.mp4"
+ },
+ "servers": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/server-room-cables-7890/",
+  "id": "mixkit-7890",
+  "file": "https://assets.mixkit.co/videos/7890/7890-720.mp4"
+ },
+ "netcables": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/close-up-of-fiber-optics-in-a-server-room-47050/",
+  "id": "mixkit-47050",
+  "file": "https://assets.mixkit.co/videos/47050/47050-720.mp4"
+ },
+ "datacenter": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/server-room-under-attack-23159/",
+  "id": "mixkit-23159",
+  "file": "https://assets.mixkit.co/videos/23159/23159-720.mp4"
+ },
+ "server-walk": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/thief-in-server-room-being-recorded-by-a-camera-23/",
+  "id": "mixkit-23498",
+  "file": "https://assets.mixkit.co/videos/23498/23498-720.mp4"
+ },
+ "card-term": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/using-a-card-machine-at-the-counter-21780/",
+  "id": "mixkit-21780",
+  "file": "https://assets.mixkit.co/videos/21780/21780-720.mp4"
+ },
+ "card-term2": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/using-a-bank-terminal-during-a-card-payment-6367/",
+  "id": "mixkit-6367",
+  "file": "https://assets.mixkit.co/videos/6367/6367-720.mp4"
+ },
+ "coins": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/hands-of-a-man-counting-coins-close-up-view-18263/",
+  "id": "mixkit-18263",
+  "file": "https://assets.mixkit.co/videos/18263/18263-720.mp4"
+ },
+ "wallet": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/person-realizes-that-they-no-longer-have-money-in-/",
+  "id": "mixkit-18299",
+  "file": "https://assets.mixkit.co/videos/18299/18299-720.mp4"
+ },
+ "city-aerial": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/movement-in-a-city-at-night-in-an-aerial-shot-4234/",
+  "id": "mixkit-42343",
+  "file": "https://assets.mixkit.co/videos/42343/42343-720.mp4"
+ },
+ "city-street": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/city-street-traffic-by-night-6754/",
+  "id": "mixkit-6754",
+  "file": "https://assets.mixkit.co/videos/6754/6754-720.mp4"
+ },
+ "cinema-phones": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/people-watching-a-movie-in-a-theater-while-using-p/",
+  "id": "mixkit-people-watching-a-movie-in-a-theater-while-using-p",
+  "file": "https://assets.mixkit.co/active_storage/video_items/100300/1722634345/100300-video-720.mp4"
+ },
+ "biscuit": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/smiling-dog-1552/",
+  "id": "mixkit-1552",
+  "file": "https://assets.mixkit.co/videos/1552/1552-720.mp4"
+ },
+ "dog-close": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/panting-dog-1548/",
+  "id": "mixkit-1548",
+  "file": "https://assets.mixkit.co/videos/1548/1548-720.mp4"
+ },
+ "dog-run": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/young-corgi-chasing-after-a-tennis-ball-in-the-par/",
+  "id": "mixkit-45868",
+  "file": "https://assets.mixkit.co/videos/45868/45868-720.mp4"
+ },
+ "fiber": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/optic-fiber-glowing-blue-in-a-black-background-148/",
+  "id": "mixkit-14887",
+  "file": "https://assets.mixkit.co/videos/14887/14887-720.mp4"
+ },
+ "trawler": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/3d-fishing-boat-sailing-in-the-open-sea-under-the-/",
+  "id": "mixkit-33941",
+  "file": "https://assets.mixkit.co/videos/33941/33941-720.mp4"
+ },
+ "ship-dusk": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/3d-fishing-boat-sailing-in-the-sea-at-sunset-33920/",
+  "id": "mixkit-33920",
+  "file": "https://assets.mixkit.co/videos/33920/33920-720.mp4"
+ },
+ "flashlight": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/scared-young-woman-in-a-haunted-house-44295/",
+  "id": "mixkit-44295",
+  "file": "https://assets.mixkit.co/videos/44295/44295-720.mp4"
+ },
+ "fuel": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/mans-hand-taking-the-fuel-nozzle-at-the-gas-statio/",
+  "id": "mixkit-31961",
+  "file": "https://assets.mixkit.co/videos/31961/31961-720.mp4"
+ },
+ "hosp-corridor": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/staff-in-a-maternity-hospital-24876/",
+  "id": "mixkit-24876",
+  "file": "https://assets.mixkit.co/videos/24876/24876-720.mp4"
+ },
+ "clipboard": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/doctor-writing-on-a-medical-record-17469/",
+  "id": "mixkit-17469",
+  "file": "https://assets.mixkit.co/videos/17469/17469-720.mp4"
+ },
+ "monitor": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/close-up-of-a-heart-rate-monitor-46365/",
+  "id": "mixkit-46365",
+  "file": "https://assets.mixkit.co/videos/46365/46365-720.mp4"
+ },
+ "kids-run": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/little-boy-and-girl-running-through-the-grass-on-a/",
+  "id": "mixkit-48169",
+  "file": "https://assets.mixkit.co/videos/48169/48169-720.mp4"
+ },
+ "kids-fountain": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/children-playing-with-a-dancing-fountain-3469/",
+  "id": "mixkit-3469",
+  "file": "https://assets.mixkit.co/videos/3469/3469-720.mp4"
+ },
+ "typing": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/typing-on-a-laptop-close-up-1781/",
+  "id": "mixkit-1781",
+  "file": "https://assets.mixkit.co/videos/1781/1781-720.mp4"
+ },
+ "library": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/students-having-fun-in-the-library-with-the-books-/",
+  "id": "mixkit-25250",
+  "file": "https://assets.mixkit.co/videos/25250/25250-720.mp4"
+ },
+ "library-read": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/woman-focused-on-research-in-library-with-books-88/",
+  "id": "mixkit-8860",
+  "file": "https://assets.mixkit.co/videos/8860/8860-720.mp4"
+ },
+ "shelves": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/old-book-library-3d-rendering-18797/",
+  "id": "mixkit-18797",
+  "file": "https://assets.mixkit.co/videos/18797/18797-720.mp4"
+ },
+ "office-bored": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/bored-young-office-workers-in-an-office-4607/",
+  "id": "mixkit-4607",
+  "file": "https://assets.mixkit.co/videos/4607/4607-720.mp4"
+ },
+ "office-party": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/office-workers-partying-and-dancing-4612/",
+  "id": "mixkit-4612",
+  "file": "https://assets.mixkit.co/videos/4612/4612-720.mp4"
+ },
+ "yawn": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/male-office-worker-yawning-portrait-33743/",
+  "id": "mixkit-33743",
+  "file": "https://assets.mixkit.co/videos/33743/33743-720.mp4"
+ },
+ "map-finger": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/people-sitting-on-the-street-reviewing-a-map-toget/",
+  "id": "mixkit-21622",
+  "file": "https://assets.mixkit.co/videos/21622/21622-720.mp4"
+ },
+ "sleep-phone": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/girl-is-awakened-by-messages-that-arrive-on-her-ce/",
+  "id": "mixkit-39780",
+  "file": "https://assets.mixkit.co/videos/39780/39780-720.mp4"
+ },
+ "radio-dial": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/vintage-analog-radio-device-31957/",
+  "id": "mixkit-31957",
+  "file": "https://assets.mixkit.co/videos/31957/31957-720.mp4"
+ },
+ "radio-vintage": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/turning-on-an-old-vintage-radio-43370/",
+  "id": "mixkit-43370",
+  "file": "https://assets.mixkit.co/videos/43370/43370-720.mp4"
+ },
+ "book-read": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/blonde-woman-reading-a-book-4948/",
+  "id": "mixkit-4948",
+  "file": "https://assets.mixkit.co/videos/4948/4948-720.mp4"
+ },
+ "book-knee": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/hipster-reading-a-book-next-to-a-bicycle-1723/",
+  "id": "mixkit-1723",
+  "file": "https://assets.mixkit.co/videos/1723/1723-720.mp4"
+ },
+ "shark": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/aquarium-filled-with-sharks-22044/",
+  "id": "mixkit-22044",
+  "file": "https://assets.mixkit.co/videos/22044/22044-720.mp4"
+ },
+ "shark2": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/looking-up-as-a-shark-swims-across-22047/",
+  "id": "mixkit-22047",
+  "file": "https://assets.mixkit.co/videos/22047/22047-720.mp4"
+ },
+ "sleep": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/woman-sleeping-in-her-bed-in-dim-blue-light-33550/",
+  "id": "mixkit-33550",
+  "file": "https://assets.mixkit.co/videos/33550/33550-720.mp4"
+ },
+ "phone-scroll": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/hands-of-a-person-searching-a-map-on-his-cell-2160/",
+  "id": "mixkit-21605",
+  "file": "https://assets.mixkit.co/videos/21605/21605-720.mp4"
+ },
+ "phone-bed": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/a-man-lying-on-the-bed-scrolling-on-his-phone-1316/",
+  "id": "mixkit-13168",
+  "file": "https://assets.mixkit.co/videos/13168/13168-720.mp4"
+ },
+ "phone-car": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/young-male-driver-scrolling-on-his-smartphone-3644/",
+  "id": "mixkit-36441",
+  "file": "https://assets.mixkit.co/videos/36441/36441-720.mp4"
+ },
+ "phone-breakfast": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/a-young-man-scrolling-his-mobile-phone-while-enjoy/",
+  "id": "mixkit-50771",
+  "file": "https://assets.mixkit.co/videos/50771/50771-720.mp4"
+ },
+ "stocks-down": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/profit-on-the-stock-market-47012/",
+  "id": "mixkit-47012",
+  "file": "https://assets.mixkit.co/videos/47012/47012-720.mp4"
+ },
+ "stocks-screen": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/the-stock-market-trend-on-screen-9607/",
+  "id": "mixkit-9607",
+  "file": "https://assets.mixkit.co/videos/9607/9607-720.mp4"
+ },
+ "stocks-board": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/stock-subscription-data-in-a-real-time-screen-4779/",
+  "id": "mixkit-47796",
+  "file": "https://assets.mixkit.co/videos/47796/47796-720.mp4"
+ },
+ "sunrise": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/beautiful-aerial-shot-of-the-german-city-at-sunris/",
+  "id": "mixkit-27118",
+  "file": "https://assets.mixkit.co/videos/27118/27118-720.mp4"
+ },
+ "supermarket": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/young-woman-looking-for-discounts-at-the-supermark/",
+  "id": "mixkit-49137",
+  "file": "https://assets.mixkit.co/videos/49137/49137-720.mp4"
+ },
+ "super-fridge": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/man-chooses-products-from-supermarket-refrigerator/",
+  "id": "mixkit-49350",
+  "file": "https://assets.mixkit.co/videos/49350/49350-720.mp4"
+ },
+ "tv-remote": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/tv-remote-control-changing-channels-14648/",
+  "id": "mixkit-14648",
+  "file": "https://assets.mixkit.co/videos/14648/14648-720.mp4"
+ },
+ "tv-static": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/tv-static-playing-on-a-tv-screen-in-a-dark-46291/",
+  "id": "mixkit-46291",
+  "file": "https://assets.mixkit.co/videos/46291/46291-720.mp4"
+ },
+ "reporter": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/news-reporter-live-on-the-street-14044/",
+  "id": "mixkit-14044",
+  "file": "https://assets.mixkit.co/videos/14044/14044-720.mp4"
+ },
+ "toaster": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/person-making-toast-898/",
+  "id": "mixkit-898",
+  "file": "https://assets.mixkit.co/videos/898/898-720.mp4"
+ },
+ "toast-butter": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/woman-spreading-butter-on-toast-28983/",
+  "id": "mixkit-28983",
+  "file": "https://assets.mixkit.co/videos/28983/28983-720.mp4"
+ },
+ "traffic": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/traffic-jam-on-a-highway-taken-from-above-36371/",
+  "id": "mixkit-36371",
+  "file": "https://assets.mixkit.co/videos/36371/36371-720.mp4"
+ },
+ "typing-keys": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/hands-typing-on-computer-keyboard-17695/",
+  "id": "mixkit-17695",
+  "file": "https://assets.mixkit.co/videos/17695/17695-720.mp4"
+ },
+ "ocean-rays": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/diving-through-a-reef-12816/",
+  "id": "mixkit-12816",
+  "file": "https://assets.mixkit.co/videos/12816/12816-720.mp4"
+ },
+ "ocean-fish": {
+  "provider": "mixkit",
+  "page": "https://mixkit.co/free-stock-video/school-of-fish-swimming-4291/",
+  "id": "mixkit-4291",
+  "file": "https://assets.mixkit.co/videos/4291/4291-720.mp4"
+ }
+}

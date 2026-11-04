@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 45%, #1a1d26 0%, #06070a 75%); }
+  #phone { left: 700px; top: 70px; width: 520px; height: 940px; border-radius: 64px; background: #0d0f14; border: 10px solid #2a2e38; box-shadow: 0 40px 120px #000; overflow: hidden; }
+  .n { position: absolute; left: 22px; width: 456px; height: 104px; border-radius: 26px; background: #262a35ee; padding: 18px 22px; }
+  .n b { display: block; font: 800 22px Mont, sans-serif; color: #fff; letter-spacing: 1px; }
+  .n i { display: block; font: 500 20px Mont, sans-serif; font-style: normal; color: #aab; margin-top: 8px; letter-spacing: 1px; }
+  .ic { position: absolute; right: 22px; top: 30px; width: 44px; height: 44px; border-radius: 12px; }
+  #cnt { left: 1270px; top: 380px; font-size: 220px; }
+  #cntl { left: 1280px; top: 620px; font-size: 40px; color: #c8ccd6; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="8" data-width="1920" data-height="1080">
+  <div id="phone" class="abs"></div>
+  <div id="cnt" class="abs anton y">0</div>
+  <div id="cntl" class="abs mont">NOTIFICATIONS</div>
+</div>
+<script>
+  const msgs = [["GROUP CHAT","is your internet down too?"],["EMAIL","URGENT: sorry for the delay"],["BANK","Payment failed"],["GROUP CHAT","hello??"],
+    ["NEWS","Internet back after 7 days"],["DELIVERY","Your parcel is on its way"],["GROUP CHAT","is your internet down too?"],["APP STORE","34 updates available"],
+    ["CALENDAR","You missed 11 meetings"],["GROUP CHAT","is your internet down too?"],["PHOTOS","Uploading 4,212 items"],["EMAIL","RE: RE: RE: URGENT"]];
+  const ph = document.getElementById("phone"), cols = ["#ffd60a","#eb3232","#4ea4ff","#46d17a"];
+  const els = [];
+  for (let k = 0; k < 40; k++) { const [t, s] = msgs[k % msgs.length]; const d = document.createElement("div"); d.className = "n";
+    d.innerHTML = `<b>${t}</b><i>${s}</i><div class="ic" style="background:${cols[k % 4]}"></div>`; ph.appendChild(d); els.push(d); }
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#phone", { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, 0);
+  // each new notification slides in at the top and pushes the stack down, faster and faster
+  let t = 0.3, gap = 0.45;
+  els.forEach((d, k) => { tl.set(d, { y: -130, opacity: 0 }, 0);
+    tl.to(d, { y: 70, opacity: 1, duration: 0.18, ease: "power2.out" }, t);
+    for (let j = k + 1; j < els.length; j++) { /* pushes handled below */ }
+    t += gap; gap = Math.max(0.08, gap * 0.86); });
+  // push older ones down each time a newer arrives
+  let tt = 0.3, gg = 0.45;
+  els.forEach((d, k) => { for (let j = 0; j < k; j++) tl.to(els[j], { y: `+=118`, duration: 0.18, ease: "power2.out" }, tt);
+    tt += gg; gg = Math.max(0.08, gg * 0.86); });
+  const c = { v: 0 }, cnt = document.getElementById("cnt");
+  tl.to(c, { v: 900, duration: 5.5, ease: "power2.in", onUpdate: () => { cnt.textContent = Math.round(c.v) + (c.v > 899 ? "+" : ""); } }, 0.3)
+    .fromTo("#phone", { x: 0 }, { x: 6, duration: 0.04, yoyo: true, repeat: 40, ease: "none" }, 4.0)
+    .fromTo("#root", { scale: 1 }, { scale: 1.06, duration: 8, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

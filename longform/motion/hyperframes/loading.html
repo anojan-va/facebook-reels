@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-composition-variables='[{"id":"msg","type":"string","label":"Message","default":"NO INTERNET CONNECTION"}]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 45%, #1a1d26 0%, #06070a 75%); }
+  #phone { left: 700px; top: 70px; width: 520px; height: 940px; border-radius: 64px; background: #0d0f14; border: 10px solid #2a2e38;
+           box-shadow: 0 40px 120px #000, inset 0 0 0 2px #444a; }
+  #notch { left: 885px; top: 92px; width: 150px; height: 34px; border-radius: 20px; background: #000; }
+  #spin { left: 900px; top: 400px; width: 120px; height: 120px; border-radius: 50%; border: 12px solid #2c3140; border-top-color: #ffd60a; }
+  #msg { left: 720px; width: 480px; top: 580px; text-align: center; font-size: 30px; color: #c8ccd6; letter-spacing: 4px; line-height: 1.3; }
+  #bars { left: 1080px; top: 140px; font-size: 28px; color: #eb3232; }
+  #big { left: 0; width: 1920px; top: 900px; text-align: center; font-size: 0px; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="8" data-width="1920" data-height="1080">
+  <div id="phone" class="abs"></div><div id="notch" class="abs"></div>
+  <div id="bars" class="abs mont">✕</div>
+  <div id="spin" class="abs"></div>
+  <div id="msg" class="abs mont"></div>
+</div>
+<script>
+  const V = window.__hyperframes.getVariables();
+  document.getElementById("msg").textContent = V.msg || "";
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#phone,#notch,#bars", { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, 0)
+    .to("#spin", { rotation: 360 * 8, duration: 8, ease: "none" }, 0)
+    .fromTo("#msg", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 0.6)
+    .to("#msg", { opacity: 0.35, duration: 0.5, yoyo: true, repeat: 9, ease: "sine.inOut" }, 1.0)
+    .fromTo("#root", { scale: 1 }, { scale: 1.08, duration: 8, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

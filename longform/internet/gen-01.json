@@ -1,0 +1,392 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/bed-alarm.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, sitting up in a messy bed at sunrise, hair sticking up, squinting sleepily at a ringing retro twin-bell alarm clock on the nightstand, warm morning light.",
+   "seed": 900
+  },
+  {
+   "out": "img/grab-phone.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: close-up of a sleepy hand in a mustard-yellow hoodie sleeve grabbing a smartphone from a nightstand in the morning, glowing blank screen.",
+   "seed": 901
+  },
+  {
+   "out": "img/cat-table.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a fluffy orange cat mid-air falling off the edge of a kitchen table with a surprised face, a knocked-over cup, frozen motion, funny.",
+   "seed": 902
+  },
+  {
+   "out": "img/router-stare.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, kneeling and staring intensely at a small white wifi router with blinking green lights on a shelf, face lit by the tiny lights, comically suspicious expression.",
+   "seed": 903
+  },
+  {
+   "out": "img/router.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: close-up of a small white home wifi router with antennas and tiny blinking orange warning lights, dark living room, shallow depth of field.",
+   "seed": 904
+  },
+  {
+   "out": "img/earth-dark.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: planet Earth seen from space at night with all city lights going dark in a wave across the continents, a few lights remaining, dramatic and eerie.",
+   "seed": 905
+  },
+  {
+   "out": "img/panic.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, in a living room with hands on his head in comic panic, mouth open, holding a phone with a blank screen, exaggerated expression.",
+   "seed": 906
+  },
+  {
+   "out": "img/rules.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a chalkboard in a cozy room with three big red X marks drawn on it next to doodles of a play button, a shopping cart and a magnifying glass, no words.",
+   "seed": 907
+  },
+  {
+   "out": "img/shrug.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, doing a big exaggerated shrug with palms up, bewildered smile, standing in a bright kitchen.",
+   "seed": 908
+  },
+  {
+   "out": "img/caveman.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a friendly caveman in furs sitting by a campfire in a cave, scratching his head and staring at a rock as if it were a phone, funny, warm firelight.",
+   "seed": 909
+  },
+  {
+   "out": "img/empty-aisle.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a supermarket aisle with completely empty shelves, a single abandoned shopping trolley, flickering fluorescent lights, slightly ominous.",
+   "seed": 910
+  },
+  {
+   "out": "img/speaker.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a round smart speaker on a kitchen counter glowing with a sad red ring of light, morning kitchen, coffee mug next to it.",
+   "seed": 911
+  },
+  {
+   "out": "img/platform.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, standing on a crowded train platform holding up a phone with a blank screen, everyone around looking confused at the empty tracks.",
+   "seed": 912
+  },
+  {
+   "out": "img/retro-platform.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a 1980s train platform with commuters in big 80s hairstyles and shoulder-pad suits reading newspapers, faded film look, nostalgic.",
+   "seed": 913
+  },
+  {
+   "out": "img/real-cloud.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a fluffy white cumulus cloud floating in a blue sky with a few office folders and papers drifting inside it, surreal and funny.",
+   "seed": 914
+  },
+  {
+   "out": "img/meeting.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: twelve office workers sitting around a conference table in an office, all staring blankly at a dark switched-off screen, one man pointing at the power cable, funny.",
+   "seed": 915
+  },
+  {
+   "out": "img/wallet-empty.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: close-up of hands opening an empty leather wallet with nothing inside except a moth flying out, funny, shallow depth of field.",
+   "seed": 916
+  },
+  {
+   "out": "img/coin-receipt.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a single small coin and a crumpled faded paper receipt lying in an open palm, close-up, warm light, blank receipt.",
+   "seed": 917
+  },
+  {
+   "out": "img/pocket.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: close-up of a jeans pocket with the outline of a smartphone, a hand reaching toward it, motion blur suggesting a buzz, dramatic light.",
+   "seed": 918
+  },
+  {
+   "out": "img/brain.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a glowing translucent human brain with tiny sparks and little phone-shaped light flickers inside it, dark background, playful science look.",
+   "seed": 919
+  },
+  {
+   "out": "img/withdrawal.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, curled up on a sofa hugging a dark switched-off smartphone like a teddy bear, sad puppy face, dim lamp light, funny.",
+   "seed": 920
+  },
+  {
+   "out": "img/sofa.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, flopped on a sofa with a TV remote, a dark television in front of him, evening lamp light, bored.",
+   "seed": 921
+  },
+  {
+   "out": "img/antenna.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: an old metal TV antenna on a rooftop against a sunset sky, birds on the wires, nostalgic.",
+   "seed": 922
+  },
+  {
+   "out": "img/awake-bed.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, lying wide awake in bed at night with eyes open, staring at the ceiling, blue moonlight, the clock shows early evening light outside.",
+   "seed": 923
+  },
+  {
+   "out": "img/fence.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: two neighbours talking excitedly over a wooden garden fence in a suburban backyard, one holding a coffee mug, the other a garden hose, morning light.",
+   "seed": 924
+  },
+  {
+   "out": "img/warehouse.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a huge modern warehouse with endless shelves of cardboard boxes and stopped conveyor belts, workers looking at dark tablets, dramatic light.",
+   "seed": 925
+  },
+  {
+   "out": "img/truck-data.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a big lorry driving on a highway at dusk with glowing streams of blue data lines flowing from it into the sky, cinematic.",
+   "seed": 926
+  },
+  {
+   "out": "img/empty-bread.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: an empty bakery shelf in a supermarket with only crumbs and a single price clip left, close-up.",
+   "seed": 927
+  },
+  {
+   "out": "img/empty-water.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: empty supermarket shelves where bottled water used to be, one dented bottle lying on its side.",
+   "seed": 928
+  },
+  {
+   "out": "img/toilet-paper.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: one single toilet paper roll on an empty supermarket shelf lit by a dramatic spotlight, like a precious treasure, funny.",
+   "seed": 929
+  },
+  {
+   "out": "img/van.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a delivery driver sitting in a parked white van holding a parcel and looking confused at a blank phone, city street.",
+   "seed": 930
+  },
+  {
+   "out": "img/parcel-puppy.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a cardboard parcel with little legs drawn on it sitting on a roundabout road, a delivery van circling it, playful surreal, sunny.",
+   "seed": 931
+  },
+  {
+   "out": "img/fuel-queue.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a very long queue of cars stretching around the block to a petrol station, people standing outside waving cash, sunny afternoon.",
+   "seed": 932
+  },
+  {
+   "out": "img/bank.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: inside a bank hall with a long queue of people, the clerks shrugging behind the counter with dark computer screens.",
+   "seed": 933
+  },
+  {
+   "out": "img/atm.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a cash machine on a city wall with a black dead screen, a man in a mustard-yellow hoodie tapping it, rain on the pavement.",
+   "seed": 934
+  },
+  {
+   "out": "img/departures.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: an airport departures hall with a giant flight board full of red blocks, crowds of travellers sitting on suitcases, stranded.",
+   "seed": 935
+  },
+  {
+   "out": "img/lights-on.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, in his kitchen joyfully flicking a light switch on, warm light bulb glowing, relieved smile.",
+   "seed": 936
+  },
+  {
+   "out": "img/grid-control.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a power grid control room with big glowing wall screens of electric lines and engineers at consoles, calm and lit, no text.",
+   "seed": 937
+  },
+  {
+   "out": "img/toast-hero.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a perfect golden slice of toast rising out of a chrome toaster in slow motion with crumbs flying and heavenly glowing light, epic, funny.",
+   "seed": 938
+  },
+  {
+   "out": "img/door-out.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, opening his front door and peering out nervously at a big city street, holding a dark phone.",
+   "seed": 939
+  },
+  {
+   "out": "img/lost-street.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, standing at a busy city crossroads, turning around confused, holding a phone, people passing by, golden hour.",
+   "seed": 940
+  },
+  {
+   "out": "img/satellite.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a GPS satellite with golden solar panels orbiting high above Earth, sun flare, cinematic.",
+   "seed": 941
+  },
+  {
+   "out": "img/blue-dot.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: close-up of a smartphone screen showing only a small glowing blue location dot in the middle of a completely empty grey screen, held in a hand.",
+   "seed": 942
+  },
+  {
+   "out": "img/map-wild.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, wrestling with a gigantic unfolded paper road map that covers his whole body on a pavement, funny, bright day.",
+   "seed": 943
+  },
+  {
+   "out": "img/map-tangle.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a hopelessly crumpled and tangled paper map stuffed into a car's glovebox, close-up, funny.",
+   "seed": 944
+  },
+  {
+   "out": "img/neighbours.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a group of neighbours of different ages chatting and laughing together on a sunny suburban street, someone carrying a plate of cookies.",
+   "seed": 945
+  },
+  {
+   "out": "img/nametag.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: close-up of neighbours shaking hands on a front porch, one wearing a blank sticky name tag, friendly smiles.",
+   "seed": 946
+  },
+  {
+   "out": "img/radio-crowd.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a crowd of neighbours gathered around an old portable radio on a garden wall, leaning in to listen, an older woman proudly holding it, warm evening.",
+   "seed": 947
+  },
+  {
+   "out": "img/library-queue.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a long queue of excited people stretching out of the doors of a public library, holding books, sunny day.",
+   "seed": 948
+  },
+  {
+   "out": "img/librarian.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a joyful older librarian with glasses standing behind a busy library desk, arms raised in triumph, a crowd of readers, warm light.",
+   "seed": 949
+  },
+  {
+   "out": "img/board-flip.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a family at a dining table, a board game board flying in the air with pieces scattering, everyone shocked, funny frozen moment.",
+   "seed": 950
+  },
+  {
+   "out": "img/kids-stick.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: kids playing in a park with a ball and a stick, two of them arguing with hands on hips, others laughing, golden afternoon.",
+   "seed": 951
+  },
+  {
+   "out": "img/cafe-hello.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, nervously walking up to a smiling woman in a cafe, giving an awkward little wave, warm cafe light, funny.",
+   "seed": 952
+  },
+  {
+   "out": "img/hospital-paper.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a hospital ward desk covered in paper charts and clipboards, a nurse writing with a pen, calm and organised, warm light.",
+   "seed": 953
+  },
+  {
+   "out": "img/ceiling.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: top-down view of a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, lying in bed at night staring at the ceiling, wide awake, blue light.",
+   "seed": 954
+  },
+  {
+   "out": "img/thoughts.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, lying in bed at night surrounded by glowing floating thought bubbles of random objects, a cat, a pizza, a clock, surreal.",
+   "seed": 955
+  },
+  {
+   "out": "img/seabed-cable.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a thin armoured internet cable lying across the dark deep ocean floor, rays of light from far above, small fish nearby.",
+   "seed": 956
+  },
+  {
+   "out": "img/cable-map.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a dark stylised world globe with glowing yellow lines of undersea cables connecting the continents across the oceans, no text.",
+   "seed": 957
+  },
+  {
+   "out": "img/shark-cable.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a shark underwater biting curiously on a thin black undersea cable, deep blue ocean, funny.",
+   "seed": 958
+  },
+  {
+   "out": "img/cairo-night.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: Cairo skyline at night with the Nile river, many buildings dark, a few lights, quiet, cinematic.",
+   "seed": 959
+  },
+  {
+   "out": "img/badge-door.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: close-up of a hand holding an office badge against a glass door card reader with a red light, the door stays locked.",
+   "seed": 960
+  },
+  {
+   "out": "img/locked-out.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: an engineer with a laptop sitting on the pavement outside a big glass office building at night, locked out, funny and frustrated.",
+   "seed": 961
+  },
+  {
+   "out": "img/retro-computer.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a big 1969 room-sized computer with blinking lights, tape reels and a green screen terminal, engineers in white shirts, vintage film look.",
+   "seed": 962
+  },
+  {
+   "out": "img/gossip.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: three neighbours whispering secrets to each other over a garden fence with dramatic wide eyes, funny.",
+   "seed": 963
+  },
+  {
+   "out": "img/ufo.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a flying saucer hovering over a suburban town at dusk unplugging a giant cable, comic sci-fi.",
+   "seed": 964
+  },
+  {
+   "out": "img/solar-storm.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a huge solar flare erupting from the sun toward Earth, vivid orange plasma, space.",
+   "seed": 965
+  },
+  {
+   "out": "img/uncle.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a smug middle-aged uncle in a cardigan holding court at a garden barbecue, pointing confidently, family rolling their eyes, funny.",
+   "seed": 966
+  },
+  {
+   "out": "img/window-morning.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, standing at a sunny window in the morning with a cup of coffee, calm and relaxed, soft light.",
+   "seed": 967
+  },
+  {
+   "out": "img/reach-phone.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, reaching for a smartphone on a table and stopping his hand halfway, thoughtful, warm light.",
+   "seed": 968
+  },
+  {
+   "out": "img/calm.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, sitting peacefully on a park bench with eyes closed and a small smile, trees, golden light.",
+   "seed": 969
+  },
+  {
+   "out": "img/newsstand.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a street newsstand with stacks of folded newspapers and people buying them, morning city street, blank headlines.",
+   "seed": 970
+  },
+  {
+   "out": "img/phone-lit.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: close-up of a smartphone on a table suddenly lighting up brightly, glowing, dramatic light rays.",
+   "seed": 971
+  },
+  {
+   "out": "img/phone-egg.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a fried egg sizzling directly on top of a glowing smartphone screen, steam rising, kitchen, funny.",
+   "seed": 972
+  },
+  {
+   "out": "img/upload.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a smartphone surrounded by hundreds of floating glowing photo thumbnails flying up into the sky like birds, surreal.",
+   "seed": 973
+  },
+  {
+   "out": "img/stadium.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a huge roaring stadium crowd with lights and confetti, overwhelming noise, energetic.",
+   "seed": 974
+  },
+  {
+   "out": "img/street-phones.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a city street where everyone is walking while looking down at their phones, faces lit by screens, one dog looking up.",
+   "seed": 975
+  },
+  {
+   "out": "img/phone-door.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a young man in his late twenties with short curly dark hair, wearing a mustard-yellow hoodie, standing in a hallway holding a phone, looking toward the open front door where a happy border collie dog waits with a leash in its mouth.",
+   "seed": 976
+  }
+ ]
+}

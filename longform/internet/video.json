@@ -1,0 +1,6668 @@
+{
+ "out": "../output/internet-full.mp4",
+ "audio": [
+  "chapters/take1.wav",
+  "chapters/take2a.wav",
+  "chapters/take2b.wav",
+  "chapters/take3a.wav",
+  "chapters/take3b.wav",
+  "chapters/take4a.wav",
+  "chapters/take4b.wav",
+  "chapters/take5.wav",
+  "chapters/take6.wav",
+  "chapters/take7.wav",
+  "chapters/take8a.wav",
+  "chapters/take8b.wav",
+  "chapters/take9a.wav",
+  "chapters/take9b.wav"
+ ],
+ "take_gap": 0.4,
+ "speed": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865,
+   "volume": 1.0
+  },
+  {
+   "shot": 15,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0,
+   "start": 117.26
+  },
+  {
+   "shot": 22,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56,
+   "start": 0.0
+  },
+  {
+   "shot": 31,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 35,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56
+  },
+  {
+   "shot": 48,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15,
+   "start": 1.6
+  },
+  {
+   "shot": 67,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 76,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 86,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 115,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 120,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 125,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56
+  },
+  {
+   "shot": 141,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 163,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 172,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 188,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 194,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56
+  },
+  {
+   "shot": 202,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 211,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 228,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 231,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56
+  },
+  {
+   "shot": 247,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 252,
+   "music": "../../reels/audio/music/silent-descent.mp3",
+   "volume": 0.62,
+   "start": 0.0
+  }
+ ],
+ "music_volume": 0.38,
+ "fade_out": 2.5,
+ "progress": true,
+ "shots": [
+  {
+   "text": "It's seven in the morning.",
+   "v": {
+    "video": "stock/sunrise.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.1
+   },
+   "punch": true,
+   "sfx": [
+    "hook",
+    {
+     "name": "tick",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "text": "Your alarm goes off.",
+   "v": {
+    "video": "stock/alarm-hand.mp4",
+    "start": 0.5,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.1
+    },
+    {
+     "name": "tick",
+     "at": 0.25
+    },
+    {
+     "name": "tick",
+     "at": 0.4
+    },
+    {
+     "name": "tick",
+     "at": 0.55
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Good news: the alarm still works.",
+   "v": {
+    "img": "img/bed-alarm.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "correct",
+     "at": "@works",
+     "gain": 0.4
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "You grab your phone, still half asleep,",
+   "v": {
+    "img": "img/grab-phone.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and open it like you do every single morning.",
+   "v": {
+    "video": "stock/phone-bed.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And nothing loads.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "music_fx": "muffle",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit",
+     "at": "@loads",
+     "gain": 0.5
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "No messages. No news. No videos of cats falling off tables.",
+   "v": {
+    "img": "img/cat-table.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO MESSAGES",
+       "red"
+      ],
+      [
+       "NO NEWS",
+       "red"
+      ],
+      [
+       "NO CATS",
+       "red"
+      ]
+     ],
+     "times": [
+      "@messages",
+      "@news",
+      "@cats"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@messages",
+     "gain": 0.35
+    },
+    {
+     "name": "wrong",
+     "at": "@news",
+     "gain": 0.35
+    },
+    {
+     "name": "wrong",
+     "at": "@cats",
+     "gain": 0.35
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Just a little spinning circle.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 2.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Spinning. And spinning.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 4.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "tick",
+     "at": 0.1
+    },
+    {
+     "name": "tick",
+     "at": "@spinning"
+    }
+   ]
+  },
+  {
+   "text": "So you do what every expert does.",
+   "v": {
+    "img": "img/router-stare.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You turn the Wi-Fi off, and on again.",
+   "v": {
+    "img": "img/router.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@off"
+    },
+    {
+     "name": "switch",
+     "at": "@on"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Nothing.",
+   "v": {
+    "img": "img/router.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NOTHING.",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 170,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "scratch",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "You restart the router.",
+   "v": {
+    "video": "stock/netcables.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@restart"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "You stare at its tiny blinking lights like they owe you money.",
+   "v": {
+    "img": "img/router-stare.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "punch": {
+    "at": "@money",
+    "zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@money"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Still nothing.",
+   "v": {
+    "img": "img/router.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.9,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 2.1
+   },
+   "in": "cut",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "STILL NOTHING.",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "text": "Here's what you don't know yet.",
+   "v": {
+    "video": "stock/city-aerial.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "riser",
+     "at": 0.2,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "It's not your router. It's not your phone company.",
+   "v": {
+    "img": "img/router.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's everyone.",
+   "v": {
+    "video": "stock/cinema-phones.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "punch": true,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@everyone"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The entire internet, everywhere on Earth, just went dark.",
+   "v": {
+    "img": "img/earth-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/title",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@dark",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "And it's going to stay dark for one whole week.",
+   "v": {
+    "video": "motion/dweek.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.3
+    },
+    {
+     "name": "tick",
+     "at": 0.9
+    },
+    {
+     "name": "tick",
+     "at": 1.5
+    },
+    {
+     "name": "bass",
+     "at": 2.6
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Five and a half billion people",
+   "v": {
+    "video": "stock/city-street.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/users",
+     "at": "@Five-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "just lost the thing they touch first every morning.",
+   "v": {
+    "video": "stock/phone-scroll.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Don't panic.",
+   "v": {
+    "img": "img/panic.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Okay, panic a little.",
+   "v": {
+    "img": "img/panic.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@panic",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "But I'm going to walk you through every day of it.",
+   "v": {
+    "video": "motion/dweek.mp4",
+    "start": 1.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Oh, and a few ground rules before we start.",
+   "v": {
+    "img": "img/rules.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "No streaming.",
+   "v": {
+    "img": "img/rules.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO STREAMING",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "No online shopping.",
+   "v": {
+    "video": "stock/card-term2.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO ONLINE SHOPPING",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 130,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "No looking things up.",
+   "v": {
+    "video": "stock/typing-keys.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO LOOKING THINGS UP",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 120,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "If you don't know something, you'll just have to not know it.",
+   "v": {
+    "img": "img/shrug.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Like our ancestors did.",
+   "v": {
+    "img": "img/caveman.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@ancestors"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "The funny parts,",
+   "v": {
+    "img": "img/cat-table.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "the scary parts,",
+   "v": {
+    "img": "img/empty-aisle.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "shake": [
+    0.1
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the moment on day seven when you realise the hardest part isn't losing the internet.",
+   "v": {
+    "video": "motion/notifs.mp4",
+    "start": 1.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "THE HARDEST PART ISN'T",
+       "white"
+      ],
+      [
+       "LOSING IT",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@hardest",
+      "@losing"
+     ],
+     "size": 110,
+     "dy": 330,
+     "at": 0.0
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's getting it back.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT'S",
+      "white"
+     ],
+     [
+      "GETTING IT BACK",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@getting"
+    ],
+    "size": 150
+   },
+   "voice_fx": {
+    "at": "@back",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "at": 0.0
+    },
+    {
+     "name": "bass",
+     "at": "@back"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Day one.",
+   "v": {
+    "video": "motion/ch1.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "By eight o'clock, you've checked your phone fourteen times.",
+   "v": {
+    "video": "stock/phone-breakfast.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "08:00 · CHECKS: 14",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "It's still dead.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 1.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You check it again.",
+   "v": {
+    "video": "stock/phone-scroll.mp4",
+    "start": 3.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Just in case.",
+   "v": {
+    "img": "img/grab-phone.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "You walk into the kitchen and ask the smart speaker what's going on.",
+   "v": {
+    "img": "img/speaker.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It says sorry, it's having trouble connecting.",
+   "v": {
+    "img": "img/speaker.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "\"SORRY, I'M HAVING TROUBLE CONNECTING\"",
+       "yellow"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 70,
+     "dy": 300,
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": "@trouble",
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "text": "Yeah, buddy. We all are.",
+   "v": {
+    "img": "img/speaker.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.9,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 2.1
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@all",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "You head to work.",
+   "v": {
+    "video": "stock/traffic.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Or you try to.",
+   "v": {
+    "video": "stock/traffic.mp4",
+    "start": 4.0,
+    "zoom": 1.4,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Your train app is blank,",
+   "v": {
+    "img": "img/platform.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "so you just stand on the platform and wait,",
+   "v": {
+    "img": "img/platform.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut"
+  },
+  {
+   "text": "like it's nineteen eighty five.",
+   "v": {
+    "img": "img/retro-platform.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ 1985",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.0,
+     "gain": 0.5
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "At the office, nobody can do anything.",
+   "v": {
+    "video": "stock/office-bored.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Email is gone.",
+   "v": {
+    "video": "stock/typing.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "EMAIL: GONE",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 140,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "text": "The chat app is gone.",
+   "v": {
+    "video": "stock/typing-keys.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "CHAT: GONE",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 140,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "text": "The cloud, where every file you've ever made lives,",
+   "v": {
+    "video": "stock/datacenter.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "is basically a real cloud now.",
+   "v": {
+    "img": "img/real-cloud.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@real"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Pretty, far away, and no use to anyone.",
+   "v": {
+    "img": "img/real-cloud.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Your boss calls a meeting to discuss the situation.",
+   "v": {
+    "img": "img/meeting.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The meeting is just twelve people saying,",
+   "v": {
+    "img": "img/meeting.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut"
+  },
+  {
+   "text": "has anyone tried turning it off and on again?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "\"HAS ANYONE TRIED",
+      "white"
+     ],
+     [
+      "TURNING IT OFF AND ON AGAIN?\"",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@turning"
+    ],
+    "size": 110
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@off"
+    },
+    {
+     "name": "switch",
+     "at": "@on"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Lunch time.",
+   "v": {
+    "video": "stock/toast-butter.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "dip",
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You tap your card at the sandwich shop.",
+   "v": {
+    "video": "stock/card-term.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@tap"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Declined.",
+   "v": {
+    "video": "stock/card-term.mp4",
+    "start": 4.0,
+    "zoom": 1.4,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/declined",
+     "at": 0.0
+    }
+   ],
+   "shake": [
+    0.05
+   ],
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05
+    }
+   ]
+  },
+  {
+   "text": "Not because you're broke.",
+   "v": {
+    "img": "img/wallet-empty.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Well, not only because you're broke.",
+   "v": {
+    "img": "img/wallet-empty.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@only",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "The card machine can't reach your bank.",
+   "v": {
+    "video": "stock/card-term2.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And cash?",
+   "v": {
+    "video": "stock/wallet.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "When was the last time you carried cash?",
+   "v": {
+    "img": "img/wallet-empty.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Exactly.",
+   "v": {
+    "img": "img/wallet-empty.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.8,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You have one coin and a gym receipt.",
+   "v": {
+    "img": "img/coin-receipt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@coin"
+    },
+    {
+     "name": "pop",
+     "at": "@receipt"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Then something weird happens.",
+   "v": {
+    "img": "img/pocket.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "riser",
+     "at": 0.2,
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Your pocket buzzes.",
+   "v": {
+    "img": "img/pocket.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.55
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut",
+   "shake": [
+    0.0,
+    0.15,
+    0.3
+   ],
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "You grab your phone.",
+   "v": {
+    "video": "stock/phone-car.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Nothing. No message.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 3.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Your brain just made it up.",
+   "v": {
+    "img": "img/brain.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit",
+     "at": "@made",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "That's called phantom vibration, and it's real.",
+   "v": {
+    "img": "img/pocket.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "PHANTOM VIBRATION",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "In one study, almost nine out of ten college students said they'd felt it.",
+   "v": {
+    "video": "stock/library-read.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/phantom",
+     "at": "@nine-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Welcome to withdrawal.",
+   "v": {
+    "img": "img/withdrawal.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "voice_fx": {
+    "at": "@withdrawal",
+    "fx": "echo"
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's only day one.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT'S ONLY",
+      "white"
+     ],
+     [
+      "DAY ONE",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@day"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@day"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "That evening, you get home and flop on the sofa, ready to watch your show.",
+   "v": {
+    "img": "img/sofa.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Except your show lives on the internet.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 5.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So does your music. So do your games.",
+   "v": {
+    "img": "img/sofa.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "NO MUSIC",
+       "red"
+      ],
+      [
+       "NO GAMES",
+       "red"
+      ]
+     ],
+     "times": [
+      "@music",
+      "@games"
+     ],
+     "size": 120,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@music",
+     "gain": 0.35
+    },
+    {
+     "name": "wrong",
+     "at": "@games",
+     "gain": 0.35
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "You find the old TV remote and switch to regular TV,",
+   "v": {
+    "video": "stock/tv-remote.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@switch"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "which still comes through the air.",
+   "v": {
+    "img": "img/antenna.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every channel is showing the same thing.",
+   "v": {
+    "video": "stock/tv-static.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@channel"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "People in suits, explaining that nobody knows what's going on.",
+   "v": {
+    "video": "stock/reporter.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You go to bed at nine.",
+   "v": {
+    "video": "stock/sleep.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "21:00",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Not because you're tired.",
+   "v": {
+    "img": "img/awake-bed.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Because there's literally nothing else to do.",
+   "v": {
+    "img": "img/awake-bed.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "tick",
+     "at": "@nothing"
+    }
+   ]
+  },
+  {
+   "text": "Day two. Things get serious.",
+   "v": {
+    "video": "motion/ch2.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Overnight, the news finally reaches you,",
+   "v": {
+    "video": "stock/city-aerial.mp4",
+    "start": 8.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "through the oldest social network in the world.",
+   "v": {
+    "img": "img/fence.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "THE OLDEST SOCIAL NETWORK",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Your neighbour, shouting over the fence.",
+   "v": {
+    "img": "img/fence.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "punch": {
+    "at": "@shouting",
+    "zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@shouting"
+    }
+   ]
+  },
+  {
+   "text": "Here's the problem.",
+   "v": {
+    "img": "img/warehouse.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.15
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Almost everything you buy now travels on information before it travels on a truck.",
+   "v": {
+    "img": "img/truck-data.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Shops order food through computers.",
+   "v": {
+    "video": "stock/supermarket.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Warehouses track every box online.",
+   "v": {
+    "img": "img/warehouse.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Trucks get their routes the same way.",
+   "v": {
+    "video": "stock/traffic.mp4",
+    "start": 2.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And most supermarkets only keep a few days of stock on the shelves.",
+   "v": {
+    "video": "stock/super-fridge.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "A FEW DAYS OF STOCK",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "So by day two, the shelves start looking like the end of a party.",
+   "v": {
+    "img": "img/empty-aisle.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Bread, gone.",
+   "v": {
+    "img": "img/empty-bread.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "BREAD: GONE",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "text": "Water, gone.",
+   "v": {
+    "img": "img/empty-water.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.1,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "WATER: GONE",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "text": "Toilet paper?",
+   "v": {
+    "img": "img/toilet-paper.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "music_fx": "muffle"
+  },
+  {
+   "text": "You already know.",
+   "v": {
+    "img": "img/toilet-paper.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "bass",
+     "at": 0.0
+    },
+    {
+     "name": "scratch",
+     "at": 0.1,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "Delivery drivers sit in their vans with no addresses.",
+   "v": {
+    "img": "img/van.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Somewhere, your parcel is just driving around in circles, like a lost puppy.",
+   "v": {
+    "img": "img/parcel-puppy.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@puppy"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "At the petrol station, the card readers are down too.",
+   "v": {
+    "video": "stock/fuel.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The queue for cash only fuel goes around the block.",
+   "v": {
+    "img": "img/fuel-queue.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.7,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "CASH ONLY",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The banks are open, but they can't do much.",
+   "v": {
+    "img": "img/bank.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The cash machines outside are offline.",
+   "v": {
+    "img": "img/atm.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/offline",
+     "at": 0.2
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": 0.25,
+     "gain": 0.4
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And in some countries, like Sweden, cash is so rare that lots of shops don't even take it anymore.",
+   "v": {
+    "video": "stock/coins.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/sweden",
+     "at": 0.3
+    }
+   ],
+   "captions": false,
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "At the airport, the planes can still fly.",
+   "v": {
+    "video": "stock/airport-plane.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But booking, check in, and flight planning all run on networks.",
+   "v": {
+    "video": "stock/airport-desk.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "BOOKING.",
+       "white"
+      ],
+      [
+       "CHECK IN.",
+       "white"
+      ],
+      [
+       "FLIGHT PLANNING.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@booking",
+      "@check",
+      "@flight"
+     ],
+     "size": 100,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@booking"
+    },
+    {
+     "name": "pop",
+     "at": "@check"
+    },
+    {
+     "name": "pop",
+     "at": "@flight"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "In July twenty twenty four, one bad software update grounded thousands of flights around the world.",
+   "v": {
+    "img": "img/departures.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/crowdstrike",
+     "at": "@July-0.1"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And the internet was still on that day.",
+   "v": {
+    "video": "stock/airport-bag.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Stock markets shut down.",
+   "v": {
+    "video": "stock/stocks-down.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@shut",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "In twenty fifteen, a computer glitch froze the New York Stock Exchange for almost four hours.",
+   "v": {
+    "video": "stock/stocks-board.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/nyse",
+     "at": "@twenty-0.1"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Now imagine a week.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOW IMAGINE",
+      "white"
+     ],
+     [
+      "A WEEK",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@week"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@week"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "But here's the good news.",
+   "v": {
+    "img": "img/lights-on.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Your lights are still on.",
+   "v": {
+    "img": "img/lights-on.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "switch",
+     "at": "@lights"
+    }
+   ]
+  },
+  {
+   "text": "Power grids run on their own control systems, separate from the public internet.",
+   "v": {
+    "img": "img/grid-control.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So your fridge keeps humming, your taps still run, and you can still make toast.",
+   "v": {
+    "video": "stock/toaster.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You've never been so grateful for toast.",
+   "v": {
+    "img": "img/toast-hero.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "punch": {
+    "at": "@toast",
+    "zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@toast"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Still, by the end of day two, one thing is clear.",
+   "v": {
+    "video": "stock/city-street.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "This isn't a funny little outage anymore.",
+   "v": {
+    "img": "img/earth-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "glitch",
+   "shake": [
+    0.1
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And tomorrow, you're going to have to do something you haven't done in years.",
+   "v": {
+    "img": "img/door-out.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Find your way somewhere. Alone.",
+   "v": {
+    "img": "img/lost-street.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Without your phone telling you where to go.",
+   "v": {
+    "img": "img/lost-street.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "riser",
+     "at": 0.3,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Day three.",
+   "v": {
+    "video": "motion/ch3.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You want to visit your friend across town.",
+   "v": {
+    "video": "stock/city-aerial.mp4",
+    "start": 14.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Easy. You open the map app.",
+   "v": {
+    "video": "stock/phone-scroll.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And here's a fun fact.",
+   "v": {
+    "img": "img/satellite.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Your phone still knows exactly where you are.",
+   "v": {
+    "img": "img/blue-dot.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/gps",
+     "at": 0.2
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "GPS comes from satellites, not the internet.",
+   "v": {
+    "img": "img/satellite.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.4
+    ],
+    "to_zoom": 1.5
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "GPS = SATELLITES",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "So you get a little blue dot, in the middle of a completely blank screen.",
+   "v": {
+    "img": "img/blue-dot.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You know where you are.",
+   "v": {
+    "img": "img/lost-street.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You just don't know where anything else is.",
+   "v": {
+    "img": "img/lost-street.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.0
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@anything",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "So you do something wild.",
+   "v": {
+    "img": "img/map-wild.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You buy a paper map.",
+   "v": {
+    "video": "stock/map-finger.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "correct",
+     "at": "@map",
+     "gain": 0.4
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "At a petrol station. With your one coin.",
+   "v": {
+    "img": "img/coin-receipt.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@coin"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "It takes twenty minutes to unfold",
+   "v": {
+    "img": "img/map-wild.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the rest of your life to fold back up.",
+   "v": {
+    "img": "img/map-tangle.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "punch": {
+    "at": "@life",
+    "zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@life",
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Day four.",
+   "v": {
+    "video": "motion/d4.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.3,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    },
+    {
+     "name": "tick",
+     "at": 0.65
+    }
+   ]
+  },
+  {
+   "text": "Your phone is now the world's most expensive flashlight.",
+   "v": {
+    "video": "stock/flashlight.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "$1,000 FLASHLIGHT",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And slowly, something strange happens.",
+   "v": {
+    "video": "stock/kids-fountain.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "People start talking to each other.",
+   "v": {
+    "img": "img/neighbours.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "On purpose.",
+   "v": {
+    "img": "img/neighbours.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "In real life.",
+   "v": {
+    "img": "img/neighbours.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.7,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.45
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Your neighbours, who you've only ever nodded at, turn out to have names.",
+   "v": {
+    "img": "img/nametag.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "One of them has a radio.",
+   "v": {
+    "video": "stock/radio-vintage.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch",
+     "at": 0.2,
+     "gain": 0.3
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Suddenly, she's the most popular person on the street.",
+   "v": {
+    "img": "img/radio-crowd.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@popular"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "At the library, there's a queue.",
+   "v": {
+    "video": "stock/shelves.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A queue! For books!",
+   "v": {
+    "img": "img/library-queue.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "cut",
+   "punch": {
+    "at": "@books",
+    "zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@queue"
+    },
+    {
+     "name": "pop",
+     "at": "@books"
+    }
+   ]
+  },
+  {
+   "text": "The librarian looks like she's waited her whole life for this moment.",
+   "v": {
+    "img": "img/librarian.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Families drag out board games nobody has played in years.",
+   "v": {
+    "video": "stock/boardgame.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Someone flips the board.",
+   "v": {
+    "img": "img/board-flip.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "shake": [
+    "@flips"
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@flips",
+     "gain": 0.6
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "The game is over.",
+   "v": {
+    "img": "img/board-flip.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Some traditions never change.",
+   "v": {
+    "video": "stock/chess-kids.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Kids go outside.",
+   "v": {
+    "video": "stock/kids-run.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Like, outside outside.",
+   "v": {
+    "video": "stock/kids-run.mp4",
+    "start": 8.0,
+    "zoom": 1.25,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "They invent a game with a ball and a stick, and argue about the rules for three hours.",
+   "v": {
+    "img": "img/kids-stick.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And dating?",
+   "v": {
+    "img": "img/cafe-hello.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.15
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Dating apps are gone.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 6.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut"
+  },
+  {
+   "text": "If you like someone, you have to walk up to them and say hello.",
+   "v": {
+    "img": "img/cafe-hello.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.45
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "With your actual mouth.",
+   "v": {
+    "img": "img/cafe-hello.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.7,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.45
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@mouth"
+    }
+   ]
+  },
+  {
+   "text": "Terrifying.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "TERRIFYING.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 200
+   },
+   "shake": [
+    0.0
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": 0.0,
+     "gain": 0.5
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Meanwhile, hospitals switch to their backup plans.",
+   "v": {
+    "video": "stock/hosp-corridor.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Paper charts, pens, and runners carrying notes down the hall.",
+   "v": {
+    "video": "stock/clipboard.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "PAPER CHARTS.",
+       "white"
+      ],
+      [
+       "PENS.",
+       "white"
+      ],
+      [
+       "RUNNERS.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@Paper",
+      "@pens",
+      "@runners"
+     ],
+     "size": 100,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Slower, but they keep working.",
+   "v": {
+    "video": "stock/monitor.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.2,
+     "gain": 0.4
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Because hospitals plan for days exactly like this.",
+   "v": {
+    "img": "img/hospital-paper.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That night, you lie in bed and stare at the ceiling.",
+   "v": {
+    "img": "img/ceiling.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "No scrolling. No last quick video.",
+   "v": {
+    "img": "img/ceiling.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Just you and your thoughts.",
+   "v": {
+    "img": "img/ceiling.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "music_fx": "muffle"
+  },
+  {
+   "text": "It turns out your thoughts are kind of loud.",
+   "v": {
+    "img": "img/thoughts.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@loud"
+    }
+   ],
+   "voice_fx": {
+    "at": "@loud",
+    "fx": "echo"
+   },
+   "in": "whip"
+  },
+  {
+   "text": "Who knew?",
+   "v": {
+    "img": "img/thoughts.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Day five.",
+   "v": {
+    "video": "motion/ch4.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "By now, everyone is asking the same question.",
+   "v": {
+    "img": "img/radio-crowd.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "How does the whole internet just break?",
+   "v": {
+    "img": "img/earth-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit",
+     "at": "@break",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "And to answer that, we need to look at where it actually lives.",
+   "v": {
+    "video": "stock/server-walk.mp4",
+    "start": 2.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Because the internet isn't in the sky.",
+   "v": {
+    "img": "img/real-cloud.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's mostly at the bottom of the ocean.",
+   "v": {
+    "video": "stock/ocean-rays.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "whoosh2",
+     "at": 0.0
+    },
+    {
+     "name": "bass",
+     "at": "@ocean"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Hundreds of cables, some as thin as a garden hose,",
+   "v": {
+    "img": "img/seabed-cable.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "AS THIN AS A GARDEN HOSE",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "carry almost all the data that moves between continents.",
+   "v": {
+    "img": "img/cable-map.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And they break all the time.",
+   "v": {
+    "video": "stock/fiber.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Around one hundred and fifty to two hundred times a year.",
+   "v": {
+    "img": "img/seabed-cable.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/faults",
+     "at": "@one-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Mostly because of ship anchors and fishing nets.",
+   "v": {
+    "video": "stock/trawler.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "SHIP ANCHORS.",
+       "white"
+      ],
+      [
+       "FISHING NETS.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@anchors",
+      "@fishing"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And yes, sharks have bitten them too.",
+   "v": {
+    "video": "stock/shark.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@bitten",
+     "gain": 0.5
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Nobody knows why.",
+   "v": {
+    "img": "img/shark-cable.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Maybe they just wanted Wi-Fi.",
+   "v": {
+    "img": "img/shark-cable.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": 0.9,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Taking the whole internet down at once is incredibly hard.",
+   "v": {
+    "video": "stock/datacenter.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It was designed to route around damage.",
+   "v": {
+    "img": "img/cable-map.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But smaller blackouts have happened.",
+   "v": {
+    "video": "stock/city-street.mp4",
+    "start": 12.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In twenty eleven, Egypt switched off its internet for about five days.",
+   "v": {
+    "img": "img/cairo-night.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/egypt",
+     "at": "@twenty-0.1"
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And in twenty twenty one, Facebook, Instagram and WhatsApp vanished for about six hours,",
+   "v": {
+    "video": "motion/loading-6h.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/fb2021",
+     "at": "@twenty-0.1"
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "because of one bad configuration change.",
+   "v": {
+    "video": "stock/typing.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "typing",
+     "at": 0.0
+    },
+    {
+     "name": "glitch-hit",
+     "at": "@change",
+     "gain": 0.4
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Some engineers reportedly struggled to get into their own buildings,",
+   "v": {
+    "img": "img/badge-door.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "because the door badges needed the network too.",
+   "v": {
+    "img": "img/badge-door.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 1.9
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/locked",
+     "at": "@badges"
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@badges",
+     "gain": 0.4
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Imagine being locked out of the building,",
+   "v": {
+    "img": "img/locked-out.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "while trying to fix the thing that locked you out.",
+   "v": {
+    "img": "img/locked-out.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@locked",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "And fun fact.",
+   "v": {
+    "video": "stock/clock-close.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.0,
+     "gain": 0.5
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "The very first internet message, in nineteen sixty nine, was supposed to be the word login.",
+   "v": {
+    "video": "motion/lo.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ 1969",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "The system crashed after two letters.",
+   "v": {
+    "video": "motion/lo.mp4",
+    "start": 1.6,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "at": 0.7
+    }
+   ],
+   "shake": [
+    0.75
+   ]
+  },
+  {
+   "text": "So the first message ever sent on the internet was just, L O.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE FIRST MESSAGE EVER:",
+      "white"
+     ],
+     [
+      "\"LO\"",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     2.2
+    ],
+    "size": 190
+   },
+   "sfx": [
+    {
+     "name": "bass",
+     "at": 2.2
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "The internet has been crashing since day one.",
+   "v": {
+    "img": "img/retro-computer.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Today, it just has a lot more people watching.",
+   "v": {
+    "video": "stock/cinema-phones.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Day five, evening.",
+   "v": {
+    "video": "motion/d5.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.3,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    },
+    {
+     "name": "tick",
+     "at": 0.65
+    }
+   ]
+  },
+  {
+   "text": "Without the internet, rumours travel the old way. Mouth to mouth.",
+   "v": {
+    "img": "img/gossip.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your uncle says it was aliens.",
+   "v": {
+    "img": "img/ufo.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": "@aliens"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Your aunt says it was a solar storm.",
+   "v": {
+    "img": "img/solar-storm.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@storm",
+     "gain": 0.4
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Your cousin says a shark did it.",
+   "v": {
+    "video": "stock/shark2.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@shark"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "For the first time in years, nobody can prove anybody wrong.",
+   "v": {
+    "img": "img/gossip.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your uncle is having the best week of his life.",
+   "v": {
+    "img": "img/uncle.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "punch": {
+    "at": "@best",
+    "zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@best"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "The government reads updates on the radio, twice a day.",
+   "v": {
+    "video": "stock/radio-dial.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And for once, the whole country is listening to the same thing at the same time.",
+   "v": {
+    "img": "img/radio-crowd.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.4
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Day six.",
+   "v": {
+    "video": "motion/ch5.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Something has changed.",
+   "v": {
+    "video": "stock/sunrise.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And it's you.",
+   "v": {
+    "img": "img/window-morning.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@you"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "You slept eight hours.",
+   "v": {
+    "video": "stock/sleep-phone.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "SLEEP: 8 HRS",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Nobody kept you up scrolling at two in the morning.",
+   "v": {
+    "video": "stock/phone-bed.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "02:00",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "You read half a book.",
+   "v": {
+    "video": "stock/book-read.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You learned your neighbour's dog's name.",
+   "v": {
+    "video": "stock/dog-close.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's Biscuit.",
+   "v": {
+    "video": "stock/biscuit.mp4",
+    "start": 1.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "BISCUIT",
+       "yellow"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 180,
+     "dy": 260,
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "pop"
+    }
+   ]
+  },
+  {
+   "text": "Biscuit is a good boy.",
+   "v": {
+    "video": "stock/biscuit.mp4",
+    "start": 8.0,
+    "zoom": 1.3,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@good"
+    }
+   ]
+  },
+  {
+   "text": "You still reach for your phone sometimes.",
+   "v": {
+    "img": "img/reach-phone.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But now, you notice yourself doing it.",
+   "v": {
+    "img": "img/reach-phone.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Your brain feels quieter.",
+   "v": {
+    "img": "img/calm.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Like someone finally turned down a radio you didn't know was playing.",
+   "v": {
+    "video": "stock/radio-dial.mp4",
+    "start": 8.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And here's the funny thing.",
+   "v": {
+    "img": "img/calm.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You don't know what's trending.",
+   "v": {
+    "img": "img/newsstand.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You don't know who's angry about what.",
+   "v": {
+    "img": "img/newsstand.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And the world still turned.",
+   "v": {
+    "video": "stock/city-aerial.mp4",
+    "start": 18.0,
+    "zoom": 1.1,
+    "drift": 0.12
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Day seven.",
+   "v": {
+    "video": "motion/d7.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.3,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    },
+    {
+     "name": "tick",
+     "at": 0.65
+    }
+   ]
+  },
+  {
+   "text": "At three in the afternoon, your phone buzzes.",
+   "v": {
+    "img": "img/pocket.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "15:00",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "shake": [
+    "@buzzes"
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "heartbeat",
+     "at": "@buzzes",
+     "gain": 0.6
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "And this time, it's real.",
+   "v": {
+    "img": "img/phone-lit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "music_fx": "muffle",
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The internet is back.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE INTERNET",
+      "white"
+     ],
+     [
+      "IS BACK",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@back"
+    ],
+    "size": 180
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@back"
+    },
+    {
+     "name": "boom",
+     "at": "@back",
+     "gain": 0.5
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "And then it buzzes again. And again. And again.",
+   "v": {
+    "video": "motion/notifs.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "captions": false,
+   "in": "cut"
+  },
+  {
+   "text": "Every message, every email, every notification from the last seven days arrives at once.",
+   "v": {
+    "video": "motion/notifs.mp4",
+    "start": 3.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Your phone gets so hot you could fry an egg on it.",
+   "v": {
+    "img": "img/phone-egg.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "punch": {
+    "at": "@egg",
+    "zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@egg",
+     "gain": 0.4
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Remember, the world normally sends hundreds of billions of emails every day.",
+   "v": {
+    "video": "stock/typing-keys.mp4",
+    "start": 10.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "HUNDREDS OF BILLIONS",
+       "yellow"
+      ],
+      [
+       "OF EMAILS A DAY",
+       "white"
+      ]
+     ],
+     "times": [
+      "@hundreds",
+      "@emails"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And everyone, everywhere, is trying to log back in at the same moment.",
+   "v": {
+    "video": "stock/cinema-phones.mp4",
+    "start": 8.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So the internet comes back, and immediately falls over again.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 1.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "glitch",
+   "shake": [
+    "@falls"
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit",
+     "at": "@falls"
+    }
+   ]
+  },
+  {
+   "text": "Classic internet.",
+   "v": {
+    "img": "img/earth-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut",
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/classic",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Your boss emails.",
+   "v": {
+    "video": "stock/office-party.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Subject line: urgent, sorry for the delay.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SUBJECT:",
+      "white"
+     ],
+     [
+      "URGENT, SORRY FOR THE DELAY",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@urgent"
+    ],
+    "size": 110
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "typing",
+     "at": 0.0
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Your apps all need updates.",
+   "v": {
+    "video": "stock/phone-scroll.mp4",
+    "start": 2.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "34 UPDATES",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Your group chat has nine hundred unread messages,",
+   "v": {
+    "video": "motion/notifs.mp4",
+    "start": 5.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "and every one of them says, is your internet down too?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "\"IS YOUR INTERNET",
+      "white"
+     ],
+     [
+      "DOWN TOO?\"",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@down"
+    ],
+    "size": 150
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@down"
+    }
+   ],
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Your photos start uploading.",
+   "v": {
+    "img": "img/upload.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "All of them.",
+   "v": {
+    "img": "img/upload.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Including the forty blurry pictures you took of your neighbour's radio.",
+   "v": {
+    "video": "stock/radio-vintage.mp4",
+    "start": 4.0,
+    "zoom": 1.3,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "shutter",
+     "at": 0.1
+    },
+    {
+     "name": "shutter",
+     "at": 0.4
+    },
+    {
+     "name": "shutter",
+     "at": 0.7
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "You open your favourite app, and for a second, it feels amazing.",
+   "v": {
+    "video": "stock/phone-breakfast.mp4",
+    "start": 4.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The noise rushes back in, like walking out of a quiet room into a stadium.",
+   "v": {
+    "img": "img/stadium.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "riser",
+     "at": 0.2,
+     "gain": 0.6
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Then you look up, and notice something.",
+   "v": {
+    "img": "img/street-phones.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.15
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The street is quiet again.",
+   "v": {
+    "img": "img/street-phones.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Everyone is looking down at their phones. Just like before.",
+   "v": {
+    "video": "stock/cinema-phones.mp4",
+    "start": 1.0,
+    "zoom": 1.25,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And this is the hardest part.",
+   "v": {
+    "img": "img/reach-phone.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Not losing the internet.",
+   "v": {
+    "video": "motion/loading.mp4",
+    "start": 2.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Getting it back, and deciding how much of your life to give it.",
+   "v": {
+    "img": "img/phone-door.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "voice_fx": {
+    "at": "@life",
+    "fx": "echo"
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So, the internet is back on.",
+   "v": {
+    "video": "stock/city-street.mp4",
+    "start": 18.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "You're holding your phone.",
+   "v": {
+    "img": "img/phone-door.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Biscuit is waiting at the door.",
+   "v": {
+    "video": "stock/dog-run.mp4",
+    "start": 0.5,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "What do you do first?",
+   "v": {
+    "video": "stock/biscuit.mp4",
+    "start": 4.0,
+    "zoom": 1.25,
+    "drift": 0.06
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/ending",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@first"
+    }
+   ],
+   "in": "zoom"
+  }
+ ]
+}
