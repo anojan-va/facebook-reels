@@ -1,0 +1,12 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/empty-water.jpg",
+   "prompt": "Cinematic photorealistic film still, playful and slightly funny tone, vivid colours, teal and warm orange grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens blank or abstract. Scene: a supermarket drinks aisle where every shelf is completely bare and empty, no bottles anywhere on the shelves, only one single dented plastic water bottle lying on the floor in the foreground, flickering lights, eerie and funny.",
+   "seed": 1977
+  }
+ ]
+}
