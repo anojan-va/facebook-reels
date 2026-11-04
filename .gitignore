@@ -39,3 +39,4 @@ longform/fx-test/*.mp4
 longform/fx-test/*.wav
 longform/fx-test/qa.jpg
 longform/*/chapters/*.wav
+longform/*/*.log
