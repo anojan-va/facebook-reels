@@ -10,7 +10,13 @@ CH=$(ls -d /root/.cache/hyperframes/chrome/chrome-headless-shell/*/chrome-headle
 if [ "${1:-hf}" = hf ] || [ -z "$1" ]; then
   cd "$M/hyperframes"
   for c in population lasts radio; do npx hyperframes render . -c $c.html -o "$O/$c.mp4" -q delivery --quiet >/dev/null; done
-  for k in 0 1 2 3 4 5; do npx hyperframes render . -c timeline.html -o "$O/tl$k.mp4" -q delivery --quiet --variables "{\"stop\":$k}" >/dev/null; done
+  T() { npx hyperframes render . -c timeline.html -o "$O/$1.mp4" -q delivery --quiet --variables "$2" >/dev/null; }
+  T tl0 '{"stop":0,"from":0,"label":""}'
+  T tl8 '{"stop":8,"from":0,"dur":2.6,"label":""}'
+  T tl1 '{"stop":1,"label":"+ 1 DAY"}'
+  T tl3 '{"stop":3,"label":"+ 1 MONTH"}'
+  T tl5 '{"stop":5,"label":"+ 10 YEARS"}'
+  T tl7 '{"stop":7,"label":"+ 1,000 YEARS"}'
   V() { npx hyperframes render . -c chapter.html -o "$O/$1.mp4" -q delivery --quiet --variables "$2" >/dev/null; }
   V ch1 '{"label":"+ 1 HOUR","big":"LIGHTS ON","sub":"NOBODY HOME","size":330}'
   V ch2 '{"label":"+ 1 WEEK","big":"MELTDOWN?","sub":"NOBODY WATCHING","size":300}'
