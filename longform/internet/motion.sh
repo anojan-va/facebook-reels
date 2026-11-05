@@ -22,7 +22,7 @@ if [ "${1:-hf}" = hf ] || [ -z "$1" ]; then
   V ch1 '{"label":"DAY 1","big":"WITHDRAWAL","sub":"NO SIGNAL","size":300}'
   V ch2 '{"label":"DAY 2","big":"EMPTY SHELVES","sub":"CASH ONLY","size":270}'
   V ch3 '{"label":"DAY 3","big":"LOST","sub":"NO MAPS","size":360}'
-  V ch4 '{"label":"DAY 5","big":"WHO BROKE IT?","sub":"FOLLOW THE CABLES","size":270}'
+  V ch4 '{"label":"DAY 5","big":"WHO BROKE IT?","sub":"FOLLOW THE CABLES","size":200}'
   V ch5 '{"label":"DAY 6","big":"QUIET","sub":"SOMETHING CHANGED","size":340}'
 fi
 if [ "${1:-rm}" = rm ] || [ -z "$1" ]; then
