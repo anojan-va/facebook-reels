@@ -7,6 +7,7 @@ import time
 from pathlib import Path
 
 C = Path(__file__).parent / "chapters"
+strikes = 0
 budget = int(sys.argv[1]) if len(sys.argv) > 1 else 10
 
 
@@ -20,9 +21,15 @@ def rec(stem):
     r = subprocess.run([sys.executable, "tts_gemini.py", f"chapters/{stem}.txt", f"chapters/{stem}.wav"], cwd=C.parent,
                        capture_output=True, text=True)
     print(stem, "OK" if r.returncode == 0 else "FAIL " + (r.stdout + r.stderr).strip().splitlines()[0][:80], flush=True)
+    global strikes
     if "429" in r.stdout + r.stderr:
-        budget = 0
-    time.sleep(25)
+        strikes += 1
+        if strikes >= 2:
+            budget = 0
+        time.sleep(70)
+    else:
+        strikes = 0
+    time.sleep(40)
     return r.returncode == 0
 
 
