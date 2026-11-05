@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "thumb/art-a.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic and eye-catching YouTube thumbnail art, vivid saturated colours, strong contrast, high detail. Horizontal 16:9. No people, no hands, no faces. No text, letters, numbers, logos or watermarks anywhere. Scene: a giant glowing smartphone standing upright in front of a dark city skyline at night where every building light is switched off, the phone screen is cracked and glowing red, sparks, dramatic.",
+   "seed": 5100
+  },
+  {
+   "out": "thumb/art-b.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic and eye-catching YouTube thumbnail art, vivid saturated colours, strong contrast, high detail. Horizontal 16:9. No people, no hands, no faces. No text, letters, numbers, logos or watermarks anywhere. Scene: planet Earth floating in space with a giant black power cable and plug pulled out of it, the plug dangling with blue sparks, half of the planet's city lights going dark, epic.",
+   "seed": 5101
+  },
+  {
+   "out": "thumb/art-c.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic and eye-catching YouTube thumbnail art, vivid saturated colours, strong contrast, high detail. Horizontal 16:9. No people, no hands, no faces. No text, letters, numbers, logos or watermarks anywhere. Scene: a single toilet paper roll on a completely empty supermarket shelf lit by a dramatic golden spotlight, all other shelves bare and dark, eerie and funny.",
+   "seed": 5102
+  }
+ ]
+}
