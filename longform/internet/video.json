@@ -2,8 +2,7 @@
  "out": "../output/internet-full.mp4",
  "audio": [
   "chapters/take1.wav",
-  "chapters/take2a.wav",
-  "chapters/take2b.wav",
+  "chapters/take2.wav",
   "chapters/take3a.wav",
   "chapters/take3b.wav",
   "chapters/take4a.wav",
