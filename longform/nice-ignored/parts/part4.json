@@ -11,7 +11,7 @@
    "start": 140.0
   },
   {
-   "shot": 11,
+   "shot": 12,
    "music": "../../../reels/audio/music/unforgiven.mp3",
    "start": 90.0
   }
@@ -121,7 +121,7 @@
    "in": "cut"
   },
   {
-   "text": "If someone praises everything you do, their praise becomes background noise.",
+   "text": "If someone praises everything you do,",
    "v": {
     "img": "../img/n-coins.jpg",
     "focus": [
@@ -137,6 +137,24 @@
     "drift": 0
    },
    "in": "cut"
+  },
+  {
+   "text": "their praise becomes background noise.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-coins.jpg",
+    "focus": [
+     0.55,
+     0.6
+    ],
+    "zoom": 1.25
+   }
   },
   {
    "text": "I used to compliment everyone, all the time.",
@@ -283,7 +301,7 @@
    "captions": false
   },
   {
-   "text": "You'll be amazed how much more weight your words carry when they're not handed out like free samples.",
+   "text": "You'll be amazed how much more weight your words",
    "v": {
     "img": "../img/n-coins.jpg",
     "focus": [
@@ -303,6 +321,24 @@
     }
    ],
    "in": "flash"
+  },
+  {
+   "text": "carry when they're not handed out like free samples.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-coins.jpg",
+    "focus": [
+     0.43,
+     0.45
+    ],
+    "zoom": 1.38
+   }
   }
  ]
 }

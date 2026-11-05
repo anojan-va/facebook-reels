@@ -109,7 +109,7 @@
    ]
   },
   {
-   "text": "Some players were secretly programmed to be extremely generous, giving a lot and taking almost nothing.",
+   "text": "Some players were secretly programmed to be extremely generous,",
    "v": {
     "img": "../img/n-game-table.jpg",
     "focus": [
@@ -119,6 +119,24 @@
     "zoom": 1.6
    },
    "in": "cut"
+  },
+  {
+   "text": "giving a lot and taking almost nothing.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-game-table.jpg",
+    "focus": [
+     0.3,
+     0.45
+    ],
+    "zoom": 1.23
+   }
   },
   {
    "text": "You'd think everyone would love them.",
@@ -216,7 +234,7 @@
    "captions": false
   },
   {
-   "text": "When I read that, I thought about every time I'd done too much for someone who barely knew me.",
+   "text": "When I read that,",
    "v": {
     "img": "../img/n-soup.jpg",
     "focus": [
@@ -233,6 +251,24 @@
      "gain": 0.5
     }
    ]
+  },
+  {
+   "text": "I thought about every time I'd done too much for someone who barely knew me.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-soup.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.6
+   }
   },
   {
    "text": "I thought I was being lovely. They were probably wondering what I wanted.",
@@ -287,7 +323,7 @@
    ]
   },
   {
-   "text": "I was giving with an invisible bill attached, and getting quietly angry when nobody paid it.",
+   "text": "I was giving with an invisible bill attached,",
    "v": {
     "img": "../img/n-bill.jpg",
     "focus": [
@@ -309,6 +345,24 @@
      "gain": 0.5
     }
    ]
+  },
+  {
+   "text": "and getting quietly angry when nobody paid it.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-bill.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.25
+   }
   },
   {
    "text": "A lot of nice people do this without realising.",
@@ -381,7 +435,7 @@
    "in": "flash"
   },
   {
-   "text": "So when it isn't honoured, you feel used, and they have no idea why you're upset.",
+   "text": "So when it isn't honoured, you feel used,",
    "v": {
     "img": "../img/n-contract.jpg",
     "focus": [
@@ -393,13 +447,46 @@
    "in": "cut"
   },
   {
-   "text": "I spent years feeling like the world owed me for all the favours I'd done.",
+   "text": "and they have no idea why you're upset.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-contract.jpg",
+    "focus": [
+     0.75,
+     0.4
+    ],
+    "zoom": 1.23
+   }
+  },
+  {
+   "text": "I spent years feeling like the world",
    "v": {
     "video": "../stock/working-late-5.mp4",
     "start": 2.0,
     "zoom": 1.08
    },
    "in": "cut"
+  },
+  {
+   "text": "owed me for all the favours I'd done.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "video": "../stock/working-late-5.mp4",
+    "start": 4.19,
+    "zoom": 1.24
+   }
   },
   {
    "text": "The truth is, nobody asked me to do most of them.",

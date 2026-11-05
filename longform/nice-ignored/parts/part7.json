@@ -11,12 +11,12 @@
    "start": 20.0
   },
   {
-   "shot": 12,
+   "shot": 13,
    "music": "../../../reels/audio/music/unforgiven.mp3",
    "start": 90.0
   },
   {
-   "shot": 20,
+   "shot": 22,
    "music": "../../../reels/audio/music/fifth-of-february.mp3"
   }
  ],
@@ -229,7 +229,7 @@
    ]
   },
   {
-   "text": "And for the first time, I realised I didn't need it to be.",
+   "text": "And for the first time,",
    "v": {
     "img": "../img/n-wedding.jpg",
     "focus": [
@@ -241,7 +241,25 @@
    "in": "cut"
   },
   {
-   "text": "So if you're a nice person who keeps getting ignored, I don't want you to stop being good.",
+   "text": "I realised I didn't need it to be.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-wedding.jpg",
+    "focus": [
+     0.45,
+     0.35
+    ],
+    "zoom": 1.23
+   }
+  },
+  {
+   "text": "So if you're a nice person who keeps getting ignored,",
    "v": {
     "video": "../stock/confident-walk-1.mp4",
     "start": 6.0,
@@ -249,6 +267,21 @@
    },
    "pause_before": 0.25,
    "in": "cut"
+  },
+  {
+   "text": "I don't want you to stop being good.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "video": "../stock/confident-walk-1.mp4",
+    "start": 9.08,
+    "zoom": 1.24
+   }
   },
   {
    "text": "The world needs good people.",
@@ -468,7 +501,7 @@
    "captions": false
   },
   {
-   "text": "The version of you with opinions, with limits, with a life of your own.",
+   "text": "The version of you with opinions,",
    "v": {
     "img": "../img/n-spine.jpg",
     "focus": [
@@ -487,6 +520,24 @@
    ]
   },
   {
+   "text": "with limits, with a life of your own.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-spine.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.25
+   }
+  },
+  {
    "text": "That person isn't less lovable.",
    "v": {
     "img": "../img/n-seen.jpg",
@@ -501,7 +552,7 @@
    "in": "cut"
   },
   {
-   "text": "That person is finally someone people can actually see.",
+   "text": "That person is finally",
    "v": {
     "img": "../img/n-seen.jpg",
     "focus": [
@@ -510,13 +561,30 @@
     ],
     "zoom": 1.5
    },
+   "sfx": [],
+   "in": "cut"
+  },
+  {
+   "text": "someone people can actually see.",
+   "in": "cut",
    "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    },
     {
      "name": "sparkle",
      "at": "@see"
     }
    ],
-   "in": "cut"
+   "v": {
+    "img": "../img/n-seen.jpg",
+    "focus": [
+     0.48,
+     0.35
+    ],
+    "zoom": 1.15
+   }
   },
   {
    "text": "If this hit home, send it to the nicest person you know.",

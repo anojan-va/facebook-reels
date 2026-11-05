@@ -96,6 +96,12 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
 - `build.py` writes `parts/partN.json` (own audio, `tail` 0.45 s and `music_fade` 0.5 s except the last part,
   `fade_out` only on the last). Stills QA per part, render per part (`make_long.py partN.json`), the user reviews.
 - A change → edit that part's shots (or text + voice), re-render only that part.
+- The real voice runs slower than a placeholder draft voice, so shots get longer: after the real takes are in and
+  Whisper has run once, re-split image/stock shots > 4.6 s (`split_long()` in `nice-ignored/build.py`: cut at the
+  phrase break nearest the middle, second half punches in ×1.25 on the same image or ×1.15 on the same stock clip;
+  zoom OUT instead when the shot is already ≥ 1.45). Check the punch-ins on the stills: no heads cut off.
+- A take that stays a little high after the retakes allowed (quota gone) can be lowered with
+  `rubberband=pitch=0.93:formant=preserved`; re-score it and say so to the user.
 - `python3 merge.py final.mp4 part1.mp4 … part7.mp4` joins them with a 0.4 s dip through black and writes the
   chat copy (`-send`, < 400 MB) and the git copy (`-720p`, < 100 MB).
 

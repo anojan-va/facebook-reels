@@ -11,7 +11,7 @@
    "start": 140.0
   },
   {
-   "shot": 20,
+   "shot": 23,
    "music": "../../../reels/audio/music/silent-descent.mp3",
    "start": 50.0
   }
@@ -26,7 +26,7 @@
  },
  "shots": [
   {
-   "text": "The third thing is about edges. Nice people often have no shape.",
+   "text": "The third thing is about edges.",
    "v": {
     "img": "../img/n-invisible.jpg",
     "focus": [
@@ -40,6 +40,24 @@
     ],
     "to_zoom": 1.0,
     "drift": 0
+   }
+  },
+  {
+   "text": "Nice people often have no shape.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-invisible.jpg",
+    "focus": [
+     0.3,
+     0.45
+    ],
+    "zoom": 1.6
    }
   },
   {
@@ -265,7 +283,7 @@
    "captions": false
   },
   {
-   "text": "It sounds tiny, but it's a muscle, and every time you use it, you become a little more visible.",
+   "text": "It sounds tiny, but it's a muscle,",
    "v": {
     "img": "../img/n-seen.jpg",
     "focus": [
@@ -281,6 +299,24 @@
      "gain": 0.5
     }
    ]
+  },
+  {
+   "text": "and every time you use it, you become a little more visible.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-seen.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.5
+   }
   },
   {
    "text": "There's a well-known idea in psychology from Susan Fiske and her colleagues.",
@@ -308,7 +344,7 @@
    ]
   },
   {
-   "text": "When we meet someone, we judge them on two things: warmth and competence.",
+   "text": "When we meet someone,",
    "v": {
     "img": "../img/n-two-axis.jpg",
     "focus": [
@@ -318,20 +354,22 @@
     "zoom": 1.0
    },
    "captions": false,
-   "overlays": [
-    {
-     "mg": "title",
-     "text": "WARMTH + COMPETENCE",
-     "at": "@warmth",
-     "y": 0.8,
-     "size": 120
-    }
-   ],
+   "overlays": [],
    "in": "wipe",
    "sfx": [
     {
      "name": "swoosh",
      "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "we judge them on two things: warmth and competence.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
     },
     {
      "name": "reveal",
@@ -342,7 +380,25 @@
      "at": "@warmth",
      "gain": 0.6
     }
-   ]
+   ],
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "WARMTH + COMPETENCE",
+     "at": "@warmth",
+     "y": 0.8,
+     "size": 120
+    }
+   ],
+   "v": {
+    "img": "../img/n-two-axis.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.25
+   },
+   "captions": false
   },
   {
    "text": "Are they on my side? And are they capable?",

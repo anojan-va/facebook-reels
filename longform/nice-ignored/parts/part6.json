@@ -11,7 +11,7 @@
    "start": 90.0
   },
   {
-   "shot": 23,
+   "shot": 24,
    "music": "../../../reels/audio/music/fifth-of-february.mp3",
    "start": 20.0
   }
@@ -276,7 +276,7 @@
    "in": "wipe"
   },
   {
-   "text": "And two months later, a coworker I'll call Mark, who'd been saying yes to everything just like me, was still drowning in extra work.",
+   "text": "And two months later, a coworker I'll call Mark,",
    "v": {
     "img": "../img/n-drowning.jpg",
     "focus": [
@@ -303,6 +303,24 @@
      "gain": 0.5
     }
    ]
+  },
+  {
+   "text": "who'd been saying yes to everything just like me, was still drowning in extra work.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-drowning.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.25
+   }
   },
   {
    "text": "I was the one who got asked to lead the next team.",

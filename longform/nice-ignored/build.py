@@ -302,6 +302,58 @@ def auto(shots):
     return out
 
 
+def split_long(shots, n, limit=4.6):
+    """Real voice runs slower than the draft: recut image/stock shots longer than `limit` s (durations from the last
+    render's timeline.json) at the phrase break nearest the middle; the second half punches in on the same picture."""
+    wj = HERE.parent / "output" / "nice-ignored" / f"part{n}_work" / "whisper.json"
+    if not wj.exists():
+        return shots
+    ws_t = [w["start"] for w in json.loads(wj.read_text())["words"]]
+    counts = [len(words(sh["text"])) for sh in shots]
+    scale = len(ws_t) / sum(counts)
+    starts, c = [], 0
+    for k in counts:
+        starts.append(ws_t[min(len(ws_t) - 1, round(c * scale))])
+        c += k
+    ends = starts[1:] + [ws_t[-1] + 0.6]
+    durs = {sh["text"]: e - b for sh, b, e in zip(shots, starts, ends)}
+    out = []
+    for sh in shots:
+        d, k = durs.get(sh["text"], 0), kind(sh["v"])
+        ws = sh["text"].split()
+        if d <= limit or k == "mg" or len(ws) < 6:
+            out.append(sh)
+            continue
+        mid = len(ws) / 2
+        cand = [i for i in range(2, len(ws) - 2) if ws[i - 1][-1] in ",.?!;:"] or list(range(2, len(ws) - 2))
+        cut = min(cand, key=lambda i: abs(i - mid) - (0.6 if ws[i - 1][-1] in ",.?!;:" else 0))
+        first, second = " ".join(ws[:cut]), " ".join(ws[cut:])
+        tail = set(words(second))
+        a, b = dict(sh, text=first), {"text": second, "in": "cut",
+                                      "sfx": [{"name": "swoosh-fast", "gain": 0.3}]}
+        for key in ("sfx", "overlays", "shake"):
+            items = sh.get(key, [])
+            mv = [x for x in items if isinstance(x.get("at") if isinstance(x, dict) else x, str)
+                  and re.sub(r"[+\-][\d.]+$", "", (x["at"] if isinstance(x, dict) else x))[1:].lower() in tail]
+            if items:
+                a[key] = [x for x in items if x not in mv]
+            if mv:
+                b[key] = b.get(key, []) + mv
+        v = dict(sh["v"])
+        if k == "img":
+            v.pop("to", None), v.pop("to_zoom", None), v.pop("drift", None)
+            z = v.get("zoom", 1.1)
+            v["zoom"] = round(z / 1.3, 2) if z >= 1.45 else round(min(1.6, z * 1.25), 2)
+        else:
+            v.update(start=round(v.get("start", 1.0) + d * cut / len(ws), 2), zoom=round(v.get("zoom", 1.08) * 1.15, 2))
+        b["v"] = v
+        for key in ("captions",):
+            if key in sh:
+                b[key] = sh[key]
+        out += [a, b]
+    return out
+
+
 def words(s):
     return [re.sub(r"[^a-z0-9']", "", w.lower()) for w in s.split()]
 
@@ -314,7 +366,7 @@ def main():
         if want != got:
             i = next(i for i, (a, b) in enumerate(zip(want + ["<end>"], got + ["<end>"])) if a != b)
             raise SystemExit(f"part {n}: shot text differs at word {i}: script {want[i:i + 6]} vs shots {got[i:i + 6]}")
-        shots = auto([{"text": t, "v": v, **ex} for t, v, ex in part])
+        shots = split_long(auto([{"text": t, "v": v, **ex} for t, v, ex in part]), n)
         cues, used = [], set()
         for i, sh in enumerate(shots):
             m = sh.pop("music", None)

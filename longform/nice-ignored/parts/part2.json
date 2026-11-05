@@ -11,7 +11,7 @@
    "start": 140.0
   },
   {
-   "shot": 13,
+   "shot": 16,
    "music": "../../../reels/audio/music/fifth-of-february.mp3",
    "start": 20.0
   }
@@ -34,7 +34,7 @@
    }
   },
   {
-   "text": "And the first thing I had to learn was that there's a difference between being nice and being kind.",
+   "text": "And the first thing I had to learn was",
    "v": {
     "img": "../img/n-two-doors.jpg",
     "focus": [
@@ -52,6 +52,24 @@
      "gain": 0.5
     }
    ]
+  },
+  {
+   "text": "that there's a difference between being nice and being kind.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-two-doors.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.25
+   }
   },
   {
    "text": "Nice is about being liked. Kind is about doing good.",
@@ -82,7 +100,7 @@
    "captions": false
   },
   {
-   "text": "They look the same from the outside, but they come from completely different places.",
+   "text": "They look the same from the outside,",
    "v": {
     "img": "../img/n-two-doors.jpg",
     "focus": [
@@ -98,6 +116,24 @@
      "gain": 0.5
     }
    ]
+  },
+  {
+   "text": "but they come from completely different places.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-two-doors.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.5
+   }
   },
   {
    "text": "When I was being nice, I wasn't really thinking about the other person.",
@@ -236,7 +272,7 @@
    "captions": false
   },
   {
-   "text": "Like talking to someone who's always waiting for your reaction before they decide how to feel.",
+   "text": "Like talking to someone who's always waiting for",
    "v": {
     "img": "../img/n-mirror-people.jpg",
     "focus": [
@@ -252,6 +288,24 @@
      "gain": 0.5
     }
    ]
+  },
+  {
+   "text": "your reaction before they decide how to feel.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-mirror-people.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.6
+   }
   },
   {
    "text": "Kindness is different.",
@@ -282,7 +336,7 @@
    "captions": false
   },
   {
-   "text": "A kind person helps you because they want to, and says no when they need to.",
+   "text": "A kind person helps you because they want to,",
    "v": {
     "img": "../img/n-boss-no.jpg",
     "focus": [
@@ -299,6 +353,24 @@
      "gain": 0.5
     }
    ]
+  },
+  {
+   "text": "and says no when they need to.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-boss-no.jpg",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": 1.25
+   }
   },
   {
    "text": "A kind person tells you the truth even when it's uncomfortable.",

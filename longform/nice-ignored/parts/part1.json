@@ -16,7 +16,7 @@
    "start": 140.0
   },
   {
-   "shot": 18,
+   "shot": 19,
    "music": "../../../reels/audio/music/fifth-of-february.mp3",
    "start": 20.0
   }
@@ -373,7 +373,7 @@
    ]
   },
   {
-   "text": "It's not what you think, and you definitely don't have to become a jerk.",
+   "text": "It's not what you think,",
    "v": {
     "img": "../img/n-jerk-mask.jpg",
     "focus": [
@@ -382,13 +382,30 @@
     ],
     "zoom": 1.1
    },
+   "sfx": [],
+   "in": "cut"
+  },
+  {
+   "text": "and you definitely don't have to become a jerk.",
+   "in": "cut",
    "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    },
     {
      "name": "scratch",
      "at": "@jerk"
     }
    ],
-   "in": "cut"
+   "v": {
+    "img": "../img/n-jerk-mask.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.38
+   }
   },
   {
    "text": "For most of my twenties, I was the nice guy.",
@@ -407,7 +424,7 @@
    ]
   },
   {
-   "text": "Not in a fake way. I genuinely wanted everyone to be happy.",
+   "text": "Not in a fake way.",
    "v": {
     "img": "../img/n-yes-everyone.jpg",
     "focus": [
@@ -425,6 +442,24 @@
    ]
   },
   {
+   "text": "I genuinely wanted everyone to be happy.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/n-yes-everyone.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.25
+   }
+  },
+  {
    "text": "If a friend needed a ride to the airport at five in the morning, I was there.",
    "v": {
     "img": "../img/n-airport.jpg",
@@ -438,7 +473,7 @@
    "in": "cut"
   },
   {
-   "text": "If someone at work needed help, I said yes before they even finished the question.",
+   "text": "If someone at work needed help,",
    "v": {
     "img": "../img/n-yes-everyone.jpg",
     "focus": [
@@ -447,13 +482,30 @@
     ],
     "zoom": 1.6
    },
+   "sfx": [],
+   "in": "cut"
+  },
+  {
+   "text": "I said yes before they even finished the question.",
+   "in": "cut",
    "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    },
     {
      "name": "pop",
      "at": "@yes"
     }
    ],
-   "in": "cut"
+   "v": {
+    "img": "../img/n-yes-everyone.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.23
+   }
   },
   {
    "text": "And there was a girl I'll call Chloe.",
