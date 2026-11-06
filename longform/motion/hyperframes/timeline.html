@@ -27,7 +27,8 @@
 <script>
   const V = window.__hyperframes.getVariables();
   const SETS = {years: [["1","HOUR"],["1","DAY"],["1","WEEK"],["1","MONTH"],["1","YEAR"],["10","YEARS"],["100","YEARS"],["1,000","YEARS"],["10,000","YEARS"]],
-                days: [["DAY","1"],["DAY","2"],["DAY","3"],["DAY","4"],["DAY","5"],["DAY","6"],["DAY","7"]]};
+                days: [["DAY","1"],["DAY","2"],["DAY","3"],["DAY","4"],["DAY","5"],["DAY","6"],["DAY","7"]],
+                oil: [["1","HOUR"],["1","DAY"],["1","WEEK"],["1","MONTH"],["1","YEAR"],["10","YEARS"]]};
   const STOPS = SETS[V.set] || SETS.years;
   document.getElementById("head").textContent = V.head || "TIME WITHOUT HUMANS";
   const N = STOPS.length - 1;

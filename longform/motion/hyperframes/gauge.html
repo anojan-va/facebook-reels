@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<link rel="stylesheet" href="assets/common.css" />
+<style>
+  #root { background: radial-gradient(ellipse at 50% 55%, #1d1a14 0%, #050505 75%); }
+  #dial { left: 560px; top: 180px; width: 800px; height: 800px; border-radius: 50%; border: 14px solid #2e2a22;
+          background: radial-gradient(circle at 50% 50%, #15130f 0%, #0a0908 70%); box-shadow: 0 0 80px #000, inset 0 0 60px #000; }
+  .tk { left: 956px; top: 230px; width: 8px; height: 60px; background: #d8d2c4; transform-origin: 4px 350px; }
+  #E { left: 640px; top: 560px; font-size: 110px; color: #eb3232; }
+  #F { left: 1200px; top: 560px; font-size: 110px; color: #d8d2c4; }
+  #needle { left: 950px; top: 260px; width: 20px; height: 330px; background: linear-gradient(#ff5a2a, #b21e0a); border-radius: 10px;
+            transform-origin: 10px 320px; box-shadow: 0 0 20px #ff5a2a88; }
+  #hub { left: 920px; top: 540px; width: 80px; height: 80px; border-radius: 50%; background: #2e2a22; border: 6px solid #4a443a; }
+  #lamp { left: 905px; top: 700px; width: 110px; height: 110px; border-radius: 50%; background: #3a1206; }
+  #lab { left: 0; width: 1920px; top: 60px; text-align: center; font-size: 96px; letter-spacing: 6px; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+  <div id="lab" class="abs anton">EVERY TANK ON EARTH</div>
+  <div id="dial" class="abs"></div>
+  <div id="E" class="abs anton">E</div><div id="F" class="abs anton">F</div>
+  <div id="needle" class="abs"></div><div id="hub" class="abs"></div>
+  <div id="lamp" class="abs"></div>
+</div>
+<script>
+  const root = document.getElementById("root");
+  for (let a = -60; a <= 60; a += 15) { const t = document.createElement("div"); t.className = "abs tk"; t.style.transform = `rotate(${a}deg)`; root.insertBefore(t, document.getElementById("E")); }
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#lab", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power4.out" }, 0)
+    .fromTo("#needle", { rotation: 58 }, { rotation: 52, duration: 0.6, ease: "sine.inOut" }, 0)
+    .to("#needle", { rotation: -64, duration: 0.55, ease: "power4.in" }, 0.8)
+    .to("#needle", { rotation: -58, duration: 0.25, ease: "back.out(3)" }, 1.35)
+    .to("#lamp", { backgroundColor: "#ff3a12", boxShadow: "0 0 60px #ff3a12", duration: 0.08, repeat: 15, yoyo: true }, 1.4)
+    .to("#E", { scale: 1.25, textShadow: "0 0 30px #eb3232", duration: 0.2, yoyo: true, repeat: 7 }, 1.4)
+    .fromTo("#root", { scale: 1 }, { scale: 1.06, duration: 6, ease: "none" }, 0);
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

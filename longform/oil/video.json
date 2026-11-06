@@ -1,0 +1,5671 @@
+{
+ "out": "../output/oil-full.mp4",
+ "audio": [
+  "chapters/take1.wav",
+  "chapters/take2.wav",
+  "chapters/take3a.wav",
+  "chapters/take3b.wav",
+  "chapters/take4a.wav",
+  "chapters/take4b.wav",
+  "chapters/take5a.wav",
+  "chapters/take5b.wav",
+  "chapters/take6a.wav",
+  "chapters/take6b.wav",
+  "chapters/take7a.wav",
+  "chapters/take7b.wav",
+  "chapters/take8a.wav",
+  "chapters/take8b.wav",
+  "chapters/take9a.wav",
+  "chapters/take9b.wav",
+  "chapters/take10a.wav",
+  "chapters/take10b.wav"
+ ],
+ "take_gap": 0.4,
+ "speed": 1.0,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "start": 162.865,
+   "volume": 1.0
+  },
+  {
+   "shot": 14,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0,
+   "start": 117.26
+  },
+  {
+   "shot": 24,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 30,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 63,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 73,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 80,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56,
+   "start": 0.0
+  },
+  {
+   "shot": 85,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 105,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 119,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 123,
+   "music": "../../reels/audio/music/out-of-this-world.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 140,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 154,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15,
+   "start": 1.6
+  },
+  {
+   "shot": 156,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 168,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "volume": 1.0,
+   "start": 13.63
+  },
+  {
+   "shot": 176,
+   "music": "../../reels/audio/music/unforgiven.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 180,
+   "music": "../../reels/audio/music/echoes.mp3",
+   "volume": 1.0
+  },
+  {
+   "shot": 183,
+   "music": "../../reels/audio/music/trapanomics.mp3",
+   "volume": 0.56
+  },
+  {
+   "shot": 200,
+   "music": "../../reels/audio/music/fifth-of-february.mp3",
+   "volume": 1.15
+  },
+  {
+   "shot": 211,
+   "music": "../../reels/audio/music/silent-descent.mp3",
+   "volume": 0.62,
+   "start": 0.0
+  }
+ ],
+ "music_volume": 0.38,
+ "fade_out": 2.5,
+ "progress": true,
+ "shots": [
+  {
+   "text": "It's midnight.",
+   "v": {
+    "video": "stock/city-night.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.1
+   },
+   "punch": true,
+   "sfx": [
+    "hook",
+    {
+     "name": "tick",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "text": "And every drop of oil on Earth just vanished.",
+   "v": {
+    "img": "img/oil-vanish.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/gone",
+     "at": "@vanished-0.1"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "boom",
+     "at": "@vanished",
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Not running low.",
+   "v": {
+    "video": "motion/gauge.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Not getting expensive.",
+   "v": {
+    "video": "motion/gauge.mp4",
+    "start": 0.9,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Gone.",
+   "v": {
+    "video": "motion/gauge.mp4",
+    "start": 1.5,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "shake": [
+    0.05
+   ],
+   "sfx": [
+    {
+     "name": "bass",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "text": "The crude oil deep underground.",
+   "v": {
+    "video": "stock/pumpjack.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The giant tanks at every port.",
+   "v": {
+    "video": "stock/refinery.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The fuel in every truck, every ship, every plane.",
+   "v": {
+    "video": "stock/container-ocean.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "EVERY TRUCK.",
+       "white"
+      ],
+      [
+       "EVERY SHIP.",
+       "white"
+      ],
+      [
+       "EVERY PLANE.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@truck",
+      "@ship",
+      "@plane"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@truck"
+    },
+    {
+     "name": "pop",
+     "at": "@ship"
+    },
+    {
+     "name": "pop",
+     "at": "@plane"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And the petrol in your car, parked outside right now.",
+   "v": {
+    "img": "img/car-tank-empty.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "All of it, gone in an instant.",
+   "v": {
+    "img": "img/car-tank-empty.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.45,
+     0.55
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "music_fx": "muffle",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "at": "@instant",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "No warning. No countdown.",
+   "v": {
+    "img": "img/oil-vanish.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Just one quiet second, and the world's most important liquid stops existing.",
+   "v": {
+    "img": "img/oil-drop.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "voice_fx": {
+    "at": "@existing",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@liquid"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Right now, around one and a half billion vehicles are sitting on the world's roads.",
+   "v": {
+    "video": "stock/traffic.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/cars",
+     "at": "@one-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Tonight, almost all of them just became very expensive sculptures.",
+   "v": {
+    "img": "img/highway-stopped.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "scratch",
+     "at": "@sculptures",
+     "gain": 0.4
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And here's the scary part.",
+   "v": {
+    "video": "stock/highway.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "riser",
+     "at": 0.1,
+     "gain": 0.6
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Oil isn't just fuel.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "OIL ISN'T",
+      "white"
+     ],
+     [
+      "JUST FUEL",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@just"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@fuel"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "It's hiding in your clothes, your medicine, your phone, and even the food on your plate.",
+   "v": {
+    "img": "img/plastic-world.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "CLOTHES.",
+       "white"
+      ],
+      [
+       "MEDICINE.",
+       "white"
+      ],
+      [
+       "PHONE.",
+       "white"
+      ],
+      [
+       "FOOD.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@clothes",
+      "@medicine",
+      "@phone",
+      "@food"
+     ],
+     "size": 100,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@clothes"
+    },
+    {
+     "name": "pop",
+     "at": "@medicine"
+    },
+    {
+     "name": "pop",
+     "at": "@phone"
+    },
+    {
+     "name": "pop",
+     "at": "@food"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "The world burns through about one hundred million barrels of oil every single day.",
+   "v": {
+    "img": "img/barrels.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/barrels",
+     "at": "@one-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That's enough to fill around six thousand Olympic swimming pools.",
+   "v": {
+    "img": "img/oil-pool.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/pools",
+     "at": "@six-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every day.",
+   "v": {
+    "img": "img/oil-pool.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "impact",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "So what happens when the tap shuts off, all at once?",
+   "v": {
+    "img": "img/valve.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@shuts"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Do we lose our cars?",
+   "v": {
+    "video": "stock/traffic.mp4",
+    "start": 4.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Our food?",
+   "v": {
+    "video": "stock/supermarket.mp4",
+    "start": 1.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Our cities?",
+   "v": {
+    "video": "stock/skyline.mp4",
+    "start": 1.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "bass"
+    }
+   ]
+  },
+  {
+   "text": "And the weirdest part is that some things wouldn't change at all.",
+   "v": {
+    "img": "img/lights-on.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "While others would fall apart in just a few hours.",
+   "v": {
+    "img": "img/highway-stopped.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "glitch",
+   "shake": [
+    0.1
+   ],
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In this video, we'll fast forward through time.",
+   "v": {
+    "video": "motion/tl0.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "One hour. One day. One week. One month. One year. And ten years.",
+   "v": {
+    "video": "motion/tlall.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "cut",
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tick",
+     "at": "@hour"
+    },
+    {
+     "name": "tick",
+     "at": "@day"
+    },
+    {
+     "name": "tick",
+     "at": "@week"
+    },
+    {
+     "name": "tick",
+     "at": "@month"
+    },
+    {
+     "name": "tick",
+     "at": "@year"
+    },
+    {
+     "name": "bass",
+     "at": "@ten"
+    }
+   ]
+  },
+  {
+   "text": "And by the end, you'll see why the thing that saves us",
+   "v": {
+    "video": "stock/powerlines.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "might already be plugged into your wall.",
+   "v": {
+    "img": "img/wall-plug.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@plugged"
+    },
+    {
+     "name": "reveal",
+     "at": "@wall"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Plus one hour.",
+   "v": {
+    "video": "motion/ch1.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's dark, and the first problem is in the sky.",
+   "v": {
+    "video": "stock/plane.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "At any moment, thousands of planes are in the air.",
+   "v": {
+    "img": "img/planes-sky.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Their tanks are suddenly empty.",
+   "v": {
+    "img": "img/cockpit.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit",
+     "at": "@empty",
+     "gain": 0.5
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Every jet engine goes silent.",
+   "v": {
+    "img": "img/engine-off.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "music_fx": "muffle",
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But here's something most people don't know.",
+   "v": {
+    "img": "img/plane-glide.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.15
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": 0.0
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "A big airliner doesn't fall like a rock.",
+   "v": {
+    "img": "img/plane-glide.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "cut"
+  },
+  {
+   "text": "It glides.",
+   "v": {
+    "img": "img/plane-glide.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.4,
+     0.45
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "whoosh2",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "text": "In nineteen eighty three, an Air Canada jet ran out of fuel at forty one thousand feet,",
+   "v": {
+    "img": "img/gimli-cruise.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/gimli",
+     "at": "@nineteen-0.1"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "because of a mistake with the fuel calculation.",
+   "v": {
+    "img": "img/fuel-calc.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@mistake",
+     "gain": 0.4
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "The crew glided it down and landed safely on an old air base.",
+   "v": {
+    "img": "img/gimli.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@landed",
+     "gain": 0.5
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "It became known as the Gimli Glider.",
+   "v": {
+    "img": "img/gimli.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "THE GIMLI GLIDER",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Tonight, thousands of pilots need their own Gimli moment.",
+   "v": {
+    "img": "img/cockpit.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Not all of them will find a runway in time.",
+   "v": {
+    "img": "img/runway-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "music_fx": "muffle",
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "On the ground, highways turn into parking lots.",
+   "v": {
+    "video": "stock/highway.mp4",
+    "start": 4.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@parking"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Cars roll to a stop wherever they are.",
+   "v": {
+    "img": "img/highway-stopped.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Headlights stay on for a while, then the batteries start to die.",
+   "v": {
+    "img": "img/headlights.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Ambulances stop in the middle of the road.",
+   "v": {
+    "img": "img/ambulance-stopped.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Fire engines can't leave the station.",
+   "v": {
+    "img": "img/fire-station.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Police cars sit where they were parked.",
+   "v": {
+    "img": "img/police-parked.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Millions of people walk home in the dark, leaving their cars behind.",
+   "v": {
+    "img": "img/walk-home.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Some of them are hundreds of kilometres from home.",
+   "v": {
+    "video": "stock/walking.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "HOME: 300 KM",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "At sea, around fifty thousand big cargo ships suddenly lose power.",
+   "v": {
+    "video": "stock/cargo-ship.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/ships",
+     "at": "@fifty-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "They drift in the dark, carrying the world's food, fuel and phones.",
+   "v": {
+    "img": "img/ship-drift.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Many freight trains stop too.",
+   "v": {
+    "img": "img/freight-train.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In a lot of the world, the big locomotives that pull them run on diesel.",
+   "v": {
+    "img": "img/freight-train.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And in hospitals, the lights flicker.",
+   "v": {
+    "video": "stock/hosp-corridor.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "shake": [
+    0.2
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "zap",
+     "at": "@flicker"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Most of the power still comes from the grid.",
+   "v": {
+    "video": "stock/powerlines.mp4",
+    "start": 5.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But the backup generators?",
+   "v": {
+    "img": "img/generator.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most of them run on diesel.",
+   "v": {
+    "img": "img/generator.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "bass"
+    }
+   ]
+  },
+  {
+   "text": "So the first night already has a rule.",
+   "v": {
+    "img": "img/night-city-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "If something has a fuel tank, it just stopped.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IF IT HAS A FUEL TANK,",
+      "white"
+     ],
+     [
+      "IT JUST STOPPED.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@stopped"
+    ],
+    "size": 130
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@stopped"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "And by morning, the whole world is about to find out what else oil was quietly doing.",
+   "v": {
+    "video": "stock/city-night.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "riser",
+     "at": 1.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Plus one day.",
+   "v": {
+    "video": "motion/ch2.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The sun comes up on a very strange world.",
+   "v": {
+    "video": "stock/skyline.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Here's the first surprise.",
+   "v": {
+    "img": "img/lights-on.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "In most countries, the lights are still on.",
+   "v": {
+    "video": "stock/powerlines.mp4",
+    "start": 8.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@lights"
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Oil makes only a tiny slice of the world's electricity, around three percent.",
+   "v": {
+    "img": "img/power-plant.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/elec",
+     "at": "@three-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most power comes from coal, gas, nuclear, water, wind and sun.",
+   "v": {
+    "video": "stock/wind.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "COAL · GAS · NUCLEAR",
+       "white"
+      ],
+      [
+       "WATER · WIND · SUN",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@coal",
+      "@water"
+     ],
+     "size": 90,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So your fridge still hums.",
+   "v": {
+    "img": "img/fridge.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your phone still charges.",
+   "v": {
+    "video": "stock/phone.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And the internet still works.",
+   "v": {
+    "img": "img/phone-news.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Everyone can watch the chaos live.",
+   "v": {
+    "img": "img/phone-news.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut"
+  },
+  {
+   "text": "But try to go anywhere.",
+   "v": {
+    "video": "stock/traffic.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Petrol stations are empty.",
+   "v": {
+    "video": "stock/fuel.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "EMPTY",
+       "red"
+      ]
+     ],
+     "times": [
+      0.0
+     ],
+     "size": 150,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": 0.05,
+     "gain": 0.35
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Buses are parked.",
+   "v": {
+    "img": "img/bus-depot.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Taxis are gone.",
+   "v": {
+    "img": "img/taxi-rank.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Schools close, because the school buses can't run.",
+   "v": {
+    "img": "img/school-bus.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Offices empty out, because nobody can get there.",
+   "v": {
+    "img": "img/empty-office.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Millions of people work from home, if they still have a job.",
+   "v": {
+    "video": "stock/phone.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The new kings of the road are bicycles, electric scooters,",
+   "v": {
+    "video": "stock/bike.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the tens of millions of electric cars on Earth.",
+   "v": {
+    "video": "stock/ev-charge.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "For the first time ever, the guy with the electric car",
+   "v": {
+    "img": "img/ev-hero.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "is the most popular person in the neighbourhood.",
+   "v": {
+    "img": "img/ev-hero.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.45
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "sparkle",
+     "at": "@popular"
+    }
+   ]
+  },
+  {
+   "text": "Electric trains still run, and they're packed like never before.",
+   "v": {
+    "img": "img/packed-train.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "At airports, the departure boards turn red.",
+   "v": {
+    "img": "img/departures-red.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "On a normal day, around one hundred thousand flights take off around the world.",
+   "v": {
+    "video": "stock/airport.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/flights",
+     "at": "@one-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Today, almost none do.",
+   "v": {
+    "img": "img/empty-runway.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And what about the emergency oil?",
+   "v": {
+    "video": "stock/refinery.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Many countries store huge amounts for exactly this kind of crisis.",
+   "v": {
+    "img": "img/tank-farm.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The United States keeps its reserve in giant salt caves under the ground.",
+   "v": {
+    "img": "img/salt-cave.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/spr",
+     "at": "@United-0.1"
+    }
+   ],
+   "captions": false,
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But in our scenario, every drop vanished.",
+   "v": {
+    "img": "img/salt-cave.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Those caves are just empty holes now.",
+   "v": {
+    "img": "img/salt-cave-empty.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "voice_fx": {
+    "at": "@holes",
+    "fx": "echo"
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But the real problem isn't people.",
+   "v": {
+    "video": "stock/walking.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's stuff.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT'S STUFF.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 200
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": 0.0
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Almost everything you buy reached you on a truck, a ship, or a plane.",
+   "v": {
+    "video": "stock/port.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And more than nine tenths of the energy for all that transport comes from oil.",
+   "v": {
+    "video": "stock/container-ocean.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/transport",
+     "at": "@nine"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So on day one, the trucks that deliver food to supermarkets don't come.",
+   "v": {
+    "img": "img/loading-dock.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most stores only keep a few days of food on the shelves.",
+   "v": {
+    "video": "stock/supermarket.mp4",
+    "start": 5.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "A FEW DAYS OF FOOD",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And everyone knows it.",
+   "v": {
+    "img": "img/panic-shop.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.15
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So everyone goes shopping. At the same time.",
+   "v": {
+    "img": "img/panic-shop.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut",
+   "shake": [
+    "@same"
+   ],
+   "sfx": [
+    {
+     "name": "impact",
+     "at": "@same",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "Bread. Rice. Pasta. Canned food. Bottled water. Gone by lunchtime.",
+   "v": {
+    "img": "img/empty-shelves.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "BREAD. RICE. PASTA.",
+       "white"
+      ],
+      [
+       "GONE BY LUNCHTIME.",
+       "red"
+      ]
+     ],
+     "times": [
+      "@Bread",
+      "@Gone"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": "@Bread"
+    },
+    {
+     "name": "tick",
+     "at": "@Rice"
+    },
+    {
+     "name": "tick",
+     "at": "@Pasta"
+    },
+    {
+     "name": "wrong",
+     "at": "@Gone",
+     "gain": 0.4
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And people who live far from the shops have a new problem.",
+   "v": {
+    "img": "img/long-walk.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The nearest supermarket used to be a ten minute drive.",
+   "v": {
+    "img": "img/long-walk.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "10 MIN DRIVE",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Now it's a three hour walk.",
+   "v": {
+    "img": "img/long-walk.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.7,
+    "drift": 0,
+    "to": [
+     0.55,
+     0.5
+    ],
+    "to_zoom": 2.0
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "3 HOUR WALK",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "scratch",
+     "at": "@three",
+     "gain": 0.4
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Plus one week.",
+   "v": {
+    "video": "motion/ch3.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Seven days without oil. And the cracks are everywhere.",
+   "v": {
+    "img": "img/city-hungry.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The shelves are empty, and they're not filling back up.",
+   "v": {
+    "img": "img/empty-shelves.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Cities are the hardest hit.",
+   "v": {
+    "video": "stock/skyline.mp4",
+    "start": 10.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A big city can't feed itself.",
+   "v": {
+    "img": "img/city-hungry.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Its food comes from farms hundreds or even thousands of kilometres away.",
+   "v": {
+    "video": "stock/harvest.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Without trucks, fresh food rots in fields and warehouses,",
+   "v": {
+    "img": "img/rotting-farm.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "while people in cities go hungry.",
+   "v": {
+    "img": "img/food-queue.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Governments start rationing,",
+   "v": {
+    "img": "img/army-ration.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/rationed",
+     "at": 0.1
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and the army uses its last vehicles that still move.",
+   "v": {
+    "img": "img/army-ration.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Rubbish starts piling up on the streets, because garbage trucks run on diesel too.",
+   "v": {
+    "video": "stock/garbage.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "After a few days, cities start to smell.",
+   "v": {
+    "img": "img/garbage-street.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "wrong",
+     "at": "@smell",
+     "gain": 0.4
+    }
+   ],
+   "in": "glitch"
+  },
+  {
+   "text": "Fire brigades and ambulances share the few electric vehicles that exist.",
+   "v": {
+    "img": "img/electric-ambulance.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Doctors and nurses cycle to work.",
+   "v": {
+    "img": "img/nurse-bike.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Then we discover how much of our world is made of oil.",
+   "v": {
+    "img": "img/plastic-world.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": "@made"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Plastic is made almost entirely from oil and gas.",
+   "v": {
+    "video": "stock/bottles.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Packaging. Bottles. Phone cases. Car parts.",
+   "v": {
+    "img": "img/plastic-world.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.5,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.8
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "PACKAGING.",
+       "white"
+      ],
+      [
+       "BOTTLES.",
+       "white"
+      ],
+      [
+       "PHONE CASES.",
+       "white"
+      ],
+      [
+       "CAR PARTS.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@Packaging",
+      "@Bottles",
+      "@Phone",
+      "@Car"
+     ],
+     "size": 100,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@Packaging"
+    },
+    {
+     "name": "pop",
+     "at": "@Bottles"
+    },
+    {
+     "name": "pop",
+     "at": "@Phone"
+    },
+    {
+     "name": "pop",
+     "at": "@Car"
+    }
+   ]
+  },
+  {
+   "text": "And no new oil means no new plastic.",
+   "v": {
+    "img": "img/plastic-factory.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/noplastic",
+     "at": "@no-0.1"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Hospitals feel it first.",
+   "v": {
+    "video": "stock/hosp-corridor.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Syringes, gloves, IV bags, tubes.",
+   "v": {
+    "video": "stock/syringe.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "SYRINGES. GLOVES.",
+       "white"
+      ],
+      [
+       "IV BAGS. TUBES.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@Syringes",
+      "@IV"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most are plastic, and they're used once and thrown away.",
+   "v": {
+    "img": "img/syringe-iv.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Many medicines are made with chemicals that come from oil too.",
+   "v": {
+    "video": "stock/pills.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Even simple painkillers.",
+   "v": {
+    "img": "img/painkillers.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@painkillers"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "So hospitals start doing something they haven't done in decades.",
+   "v": {
+    "img": "img/sterilize.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Washing and sterilising equipment, and using it again.",
+   "v": {
+    "img": "img/sterilize.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Around the world, roughly eighty percent of trade moves by sea.",
+   "v": {
+    "video": "stock/cargo-ship.mp4",
+    "start": 6.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/sea",
+     "at": "@eighty-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Now the ships just sit there.",
+   "v": {
+    "img": "img/port-stuck.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Phones, medicines, spare parts, all stuck in ports.",
+   "v": {
+    "video": "stock/port.mp4",
+    "start": 6.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "STUCK IN PORT",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And some places go dark after all.",
+   "v": {
+    "img": "img/island-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Many small islands and remote towns make their electricity by burning diesel.",
+   "v": {
+    "img": "img/diesel-plant.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "For them, the lights finally go out.",
+   "v": {
+    "img": "img/island-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "music_fx": "muffle",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "switch",
+     "at": "@out"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "One week in, the question isn't how to get to work anymore.",
+   "v": {
+    "video": "stock/walking.mp4",
+    "start": 10.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's how to get food to eight billion people.",
+   "v": {
+    "img": "img/food-queue.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "8,000,000,000 PEOPLE",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "And the answer, for now, is simple.",
+   "v": {
+    "img": "img/city-hungry.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "We can't. Not all of them.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "WE CAN'T.",
+      "red"
+     ],
+     [
+      "NOT ALL OF THEM.",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@Not"
+    ],
+    "size": 160
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": 0.0
+    }
+   ],
+   "voice_fx": {
+    "at": 0.1,
+    "fx": "echo"
+   },
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Plus one month.",
+   "v": {
+    "video": "motion/ch4.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Now the farms are in trouble.",
+   "v": {
+    "video": "stock/tractor.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Modern farming runs on diesel.",
+   "v": {
+    "video": "stock/harvest.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Tractors plough. Harvesters harvest.",
+   "v": {
+    "img": "img/tractor-idle.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Trucks carry the grain away. Water pumps keep crops alive.",
+   "v": {
+    "img": "img/grain-truck.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Fertilizer mostly comes from natural gas, so some of it can still be made.",
+   "v": {
+    "img": "img/fertilizer.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But getting it to the fields?",
+   "v": {
+    "img": "img/tractor-idle.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "That needs diesel too.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THAT NEEDS",
+      "white"
+     ],
+     [
+      "DIESEL TOO.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@diesel"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@diesel"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Some farmers bring back horses.",
+   "v": {
+    "video": "stock/horse.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Others try to convert tractors to run on electricity or on fuel made from plants.",
+   "v": {
+    "img": "img/tractor-convert.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But you can't rebuild a whole farm system in a month.",
+   "v": {
+    "img": "img/horse-plough.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Food gets more expensive every single day.",
+   "v": {
+    "img": "img/price-tags.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "tick",
+     "at": 0.3
+    },
+    {
+     "name": "tick",
+     "at": 0.8
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Meat becomes rare, because feeding animals takes huge amounts of grain,",
+   "v": {
+    "img": "img/cattle-feed.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "and moving that grain takes fuel.",
+   "v": {
+    "img": "img/grain-truck.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "People start planting vegetables on balconies, in parks, and in their front gardens.",
+   "v": {
+    "video": "stock/garden.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Just like during the world wars.",
+   "v": {
+    "img": "img/victory-garden.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "tag",
+     "text": "◀◀ 1943",
+     "at": 0.0,
+     "pos": [
+      0.04,
+      0.08
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "rewind",
+     "at": 0.0,
+     "gain": 0.4
+    },
+    {
+     "name": "click",
+     "at": 0.0,
+     "gain": 0.6
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Meanwhile, the stuff we already have is slowly wearing out.",
+   "v": {
+    "img": "img/rusty-gears.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every engine, every machine, every wind turbine needs lubricant to keep moving.",
+   "v": {
+    "video": "stock/wind.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Most of it comes from oil.",
+   "v": {
+    "img": "img/oil-can.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Car tyres are made with synthetic rubber, mostly from oil.",
+   "v": {
+    "video": "stock/tire.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Roads are paved with asphalt, which is made from oil too.",
+   "v": {
+    "video": "stock/asphalt.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Potholes start appearing, and nobody can fill them.",
+   "v": {
+    "img": "img/pothole.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "impact",
+     "at": "@Potholes",
+     "gain": 0.4
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Even your wardrobe changes.",
+   "v": {
+    "img": "img/wardrobe.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "More than half of the fibres in our clothes are polyester, which is basically plastic.",
+   "v": {
+    "video": "stock/sewing.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/polyester",
+     "at": "@half-0.1"
+    }
+   ],
+   "captions": false,
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Cotton and wool suddenly become very fashionable.",
+   "v": {
+    "img": "img/cotton-wool.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@fashionable"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "And think about your phone.",
+   "v": {
+    "video": "stock/phone.mp4",
+    "start": 3.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Its case, the coating on its wires, even parts of its screen use chemicals made from oil.",
+   "v": {
+    "img": "img/phone-parts.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Making new electronics suddenly gets much harder.",
+   "v": {
+    "img": "img/electronics-factory.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But humans are good at one thing in a crisis.",
+   "v": {
+    "video": "stock/factory.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Getting creative.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "GETTING CREATIVE.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ],
+    "size": 180
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Factories that made petrol cars start retooling for electric ones.",
+   "v": {
+    "img": "img/retool-factory.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Engineers dust off old ideas, some of them more than a hundred years old.",
+   "v": {
+    "img": "img/old-ideas.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And that's where things start to turn around.",
+   "v": {
+    "video": "stock/solar.mp4",
+    "start": 1.0,
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Because one thing still works almost everywhere.",
+   "v": {
+    "video": "stock/powerlines.mp4",
+    "start": 12.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The power grid.",
+   "v": {
+    "img": "img/grid.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "zap",
+     "at": 0.1
+    },
+    {
+     "name": "bass",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "text": "And anything that can plug into it suddenly becomes priceless.",
+   "v": {
+    "img": "img/wall-plug.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "click",
+     "at": "@plug"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Plus one year.",
+   "v": {
+    "video": "motion/ch5.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.35,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "reveal",
+     "at": 0.0
+    },
+    {
+     "name": "impact",
+     "at": 1.75,
+     "gain": 0.8
+    },
+    {
+     "name": "bass",
+     "at": 1.8,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The world looks like nineteen hundred and twenty fifty at the same time.",
+   "v": {
+    "img": "img/horse-bus.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Horses on the streets next to electric buses.",
+   "v": {
+    "img": "img/horse-bus.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.6,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Sailing ships in the harbour next to giant batteries.",
+   "v": {
+    "img": "img/sail-battery.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It turns out we've lived without oil before.",
+   "v": {
+    "video": "stock/candle.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The first commercial oil well was drilled in Pennsylvania in eighteen fifty nine.",
+   "v": {
+    "img": "img/drake-well.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/drake",
+     "at": "@Pennsylvania-0.2"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Before that, people lit their homes with whale oil and candles.",
+   "v": {
+    "img": "img/whale-lamp.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Now, every country races to replace oil with something else.",
+   "v": {
+    "img": "img/world-race.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Countries like Brazil already run millions of cars on ethanol, made from sugarcane.",
+   "v": {
+    "img": "img/sugarcane-field.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/brazil",
+     "at": "@Brazil-0.1"
+    }
+   ],
+   "captions": false,
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Fuel made from plants becomes the new gold.",
+   "v": {
+    "img": "img/ethanol-gold.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "sparkle",
+     "at": "@gold"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Others turn coal and gas into liquid fuel.",
+   "v": {
+    "video": "stock/coal.mp4",
+    "start": 1.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's an old trick. Germany did it in the Second World War, and South Africa still does it today.",
+   "v": {
+    "img": "img/synfuel-plant.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/synfuel",
+     "at": "@old"
+    }
+   ],
+   "captions": false,
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It's expensive and dirty, but it keeps the planes flying.",
+   "v": {
+    "video": "stock/plane.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Barely.",
+   "v": {
+    "img": "img/plane-glide.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.7,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.9
+   },
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "scratch",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "And electricity becomes king.",
+   "v": {
+    "img": "img/grid.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@king"
+    }
+   ],
+   "in": "whip"
+  },
+  {
+   "text": "Electric trucks. Electric tractors. Electric ferries.",
+   "v": {
+    "img": "img/electric-truck.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "ELECTRIC TRUCKS.",
+       "white"
+      ],
+      [
+       "ELECTRIC TRACTORS.",
+       "white"
+      ],
+      [
+       "ELECTRIC FERRIES.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@trucks",
+      "@tractors",
+      "@ferries"
+     ],
+     "size": 100,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false,
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    },
+    {
+     "name": "pop",
+     "at": "@trucks"
+    },
+    {
+     "name": "pop",
+     "at": "@tractors"
+    },
+    {
+     "name": "pop",
+     "at": "@ferries"
+    }
+   ],
+   "in": "zoom"
+  },
+  {
+   "text": "Factories that once built petrol cars now build electric ones around the clock.",
+   "v": {
+    "video": "stock/factory.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Solar panels and wind turbines go up faster than ever,",
+   "v": {
+    "video": "stock/solar.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "because now they're not just about the climate.",
+   "v": {
+    "video": "stock/wind.mp4",
+    "start": 10.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "They're about survival.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THEY'RE ABOUT",
+      "white"
+     ],
+     [
+      "SURVIVAL.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@survival"
+    ],
+    "size": 170
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@survival"
+    }
+   ],
+   "in": "flash",
+   "captions": false
+  },
+  {
+   "text": "Batteries become the most valuable thing you can own.",
+   "v": {
+    "img": "img/battery-gold.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Cities change too.",
+   "v": {
+    "video": "stock/bike.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "People move closer to where they work, and closer to where their food grows.",
+   "v": {
+    "img": "img/bike-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Bikes outnumber cars on many streets.",
+   "v": {
+    "video": "stock/bike.mp4",
+    "start": 10.0,
+    "zoom": 1.2,
+    "drift": 0.06
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Plus ten years.",
+   "v": {
+    "video": "motion/tl10.mp4",
+    "start": 0.0,
+    "zoom": 1.0,
+    "drift": 0.0,
+    "grade": false
+   },
+   "in": "dip",
+   "pause_before": 0.3,
+   "captions": false,
+   "sfx": [
+    {
+     "name": "tunnel",
+     "gain": 0.7
+    },
+    {
+     "name": "tunnel"
+    },
+    {
+     "name": "tick",
+     "at": 0.65
+    }
+   ]
+  },
+  {
+   "text": "The world has survived.",
+   "v": {
+    "img": "img/ten-years.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But it's poorer, smaller and slower.",
+   "v": {
+    "img": "img/ten-years.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.5
+   },
+   "in": "cut",
+   "overlays": [
+    {
+     "mg": "kinetic",
+     "lines": [
+      [
+       "POORER.",
+       "white"
+      ],
+      [
+       "SMALLER.",
+       "white"
+      ],
+      [
+       "SLOWER.",
+       "yellow"
+      ]
+     ],
+     "times": [
+      "@poorer",
+      "@smaller",
+      "@slower"
+     ],
+     "size": 110,
+     "dy": -60,
+     "at": 0.0
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Flying is a luxury again.",
+   "v": {
+    "video": "stock/airport.mp4",
+    "start": 8.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Fruit from the other side of the world is a treat, not a snack.",
+   "v": {
+    "img": "img/fruit-treat.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.35
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And plastic? It's so precious that nobody throws it away.",
+   "v": {
+    "video": "stock/bottles.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Every bottle gets used again and again.",
+   "v": {
+    "img": "img/refill.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Holidays happen by train.",
+   "v": {
+    "img": "img/train-holiday.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Your clothes are made to last.",
+   "v": {
+    "video": "stock/sewing.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "And repair shops are busier than ever,",
+   "v": {
+    "img": "img/repair-shop.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "because fixing something is cheaper than making a new one.",
+   "v": {
+    "img": "img/repair-shop.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Here's the strange twist.",
+   "v": {
+    "video": "stock/skyline.mp4",
+    "start": 14.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "In a world without oil, the air gets cleaner.",
+   "v": {
+    "img": "img/blue-sky-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.25
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The skies over cities turn bluer.",
+   "v": {
+    "img": "img/blue-sky-city.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.3
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "cut"
+  },
+  {
+   "text": "But the cost of getting there is enormous.",
+   "v": {
+    "img": "img/city-hungry.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.2
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Because we didn't choose the change.",
+   "v": {
+    "img": "img/valve.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "It was forced on us overnight.",
+   "v": {
+    "img": "img/oil-vanish.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.4,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.7
+   },
+   "in": "glitch",
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    },
+    {
+     "name": "glitch-hit",
+     "at": "@overnight",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "text": "And that's the real lesson.",
+   "v": {
+    "video": "stock/pumpjack.mp4",
+    "start": 6.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "Oil will not vanish tomorrow.",
+   "v": {
+    "video": "stock/refinery.mp4",
+    "start": 10.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "But one day, the world will move beyond it anyway.",
+   "v": {
+    "video": "stock/solar.mp4",
+    "start": 10.0,
+    "zoom": 1.15,
+    "drift": 0.06
+   },
+   "in": "whip",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "The only question is whether we do it slowly and on purpose,",
+   "v": {
+    "img": "img/blue-sky-city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.2,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.4
+   },
+   "in": "zoom",
+   "sfx": [
+    {
+     "name": "sweep",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "or suddenly, and in the dark.",
+   "v": {
+    "img": "img/night-city-dark.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.3,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.6
+   },
+   "in": "glitch",
+   "music_fx": "muffle",
+   "voice_fx": {
+    "at": "@dark",
+    "fx": "echo"
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "text": "So, if the tap shut off tonight, would you be ready?",
+   "v": {
+    "img": "img/valve.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.6,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 2.0
+   },
+   "captions": false,
+   "overlays": [
+    {
+     "mg": "clip",
+     "dir": "motion/ending",
+     "at": "@would-0.1"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.7
+    },
+    {
+     "name": "bass",
+     "at": "@ready"
+    }
+   ],
+   "in": "whip"
+  }
+ ]
+}

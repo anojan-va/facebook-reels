@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/ambulance-stopped.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an ambulance stopped in the middle of a dark road with its lights off, paramedics standing beside it, abandoned cars around.",
+   "seed": 3500
+  },
+  {
+   "out": "img/sugarcane-field.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a vast green sugarcane field in Brazil at golden hour with an ethanol plant chimney in the distance.",
+   "seed": 3501
+  },
+  {
+   "out": "img/cotton-wool.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a market stall full of natural cotton and wool clothes, soft knit sweaters and linen shirts, people browsing, warm light.",
+   "seed": 3502
+  }
+ ]
+}

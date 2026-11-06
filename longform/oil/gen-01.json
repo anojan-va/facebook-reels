@@ -1,0 +1,477 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/oil-vanish.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a huge oil storage tank farm at midnight under floodlights, the tanks eerily empty with an open hatch showing nothing inside, dramatic fog.",
+   "seed": 3000
+  },
+  {
+   "out": "img/car-tank-empty.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: close-up of a car dashboard at night, the fuel gauge needle on empty with a glowing orange warning light, city lights through the windscreen.",
+   "seed": 3001
+  },
+  {
+   "out": "img/oil-drop.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a single glossy black drop of crude oil suspended in mid-air, slowly dissolving into nothing, black background, macro.",
+   "seed": 3002
+  },
+  {
+   "out": "img/highway-stopped.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a wide multi-lane highway at night completely full of stopped cars with headlights on, people standing outside their cars confused.",
+   "seed": 3003
+  },
+  {
+   "out": "img/plastic-world.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a dramatic still life of everyday objects made from oil: plastic bottles, a phone, sneakers, a polyester jacket, pill bottles, a toy, a tyre, on a dark table.",
+   "seed": 3004
+  },
+  {
+   "out": "img/barrels.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: thousands of oil barrels stacked in rows in a vast warehouse, dramatic low angle, warm light.",
+   "seed": 3005
+  },
+  {
+   "out": "img/oil-pool.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an Olympic swimming pool filled completely with glossy black crude oil, stadium lights, surreal and dramatic.",
+   "seed": 3006
+  },
+  {
+   "out": "img/valve.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: close-up of a huge red industrial oil pipeline valve wheel being turned shut, dramatic light, steam.",
+   "seed": 3007
+  },
+  {
+   "out": "img/lights-on.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: apartment buildings at dawn with many warmly lit windows, while the street below is full of abandoned cars, calm and strange.",
+   "seed": 3008
+  },
+  {
+   "out": "img/wall-plug.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: close-up of a power plug being pushed into a wall socket with a tiny blue spark, warm home light.",
+   "seed": 3009
+  },
+  {
+   "out": "img/planes-sky.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: many airliners with blinking lights high in the night sky over a city, long exposure feel.",
+   "seed": 3010
+  },
+  {
+   "out": "img/cockpit.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: two airline pilots in a dark cockpit lit only by red warning lights, tense, seen from behind.",
+   "seed": 3011
+  },
+  {
+   "out": "img/engine-off.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: close-up of a giant jet engine of an airliner in flight at night with its fan blades slowly stopping, no exhaust.",
+   "seed": 3012
+  },
+  {
+   "out": "img/plane-glide.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a large twin-engine airliner silently gliding over dark countryside at dawn with no engine exhaust, wide shot, eerie.",
+   "seed": 3013
+  },
+  {
+   "out": "img/gimli-cruise.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a 1980s twin-engine wide-body airliner cruising high above the clouds at sunset, vintage film look.",
+   "seed": 3014
+  },
+  {
+   "out": "img/fuel-calc.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a 1980s aircraft fuel gauge and a paper fuel calculation sheet with a pencil, close-up, vintage film look, blank paper.",
+   "seed": 3015
+  },
+  {
+   "out": "img/gimli.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a 1980s wide-body airliner landing nose down on an old abandoned military airstrip with smoke from its tyres, people watching, vintage film look.",
+   "seed": 3016
+  },
+  {
+   "out": "img/runway-dark.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a dark airport runway at night with lights glowing in fog, empty, ominous.",
+   "seed": 3017
+  },
+  {
+   "out": "img/headlights.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: rows of car headlights on a stopped highway at night slowly dimming, low angle.",
+   "seed": 3018
+  },
+  {
+   "out": "img/fire-station.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a red fire engine parked inside a fire station with the big doors open at night, firefighters standing beside it helplessly.",
+   "seed": 3019
+  },
+  {
+   "out": "img/police-parked.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: police cars parked at the side of a dark city street with blue lights off, officers standing on foot.",
+   "seed": 3020
+  },
+  {
+   "out": "img/walk-home.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: crowds of people walking along the shoulder of a highway at night past rows of abandoned cars, using phone lights.",
+   "seed": 3021
+  },
+  {
+   "out": "img/ship-drift.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a giant container ship drifting in total darkness at sea under the stars, no lights on board.",
+   "seed": 3022
+  },
+  {
+   "out": "img/freight-train.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a long freight train with a diesel locomotive stopped on tracks in the middle of nowhere at dusk.",
+   "seed": 3023
+  },
+  {
+   "out": "img/generator.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a large industrial diesel backup generator in a hospital basement, dim emergency light, silent.",
+   "seed": 3024
+  },
+  {
+   "out": "img/night-city-dark.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a city skyline at night with only half of the buildings lit and streets dark, eerie.",
+   "seed": 3025
+  },
+  {
+   "out": "img/power-plant.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a big power station with cooling towers and transmission lines at sunrise, steady and calm.",
+   "seed": 3026
+  },
+  {
+   "out": "img/fridge.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an open home fridge glowing with light in a dim kitchen at dawn, calm.",
+   "seed": 3027
+  },
+  {
+   "out": "img/phone-news.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a hand holding a smartphone showing a live video of a traffic jam, blank caption area, kitchen background.",
+   "seed": 3028
+  },
+  {
+   "out": "img/bus-depot.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a city bus depot with dozens of buses parked in rows, completely empty of people, morning.",
+   "seed": 3029
+  },
+  {
+   "out": "img/taxi-rank.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an empty taxi rank at a train station, a few parked taxis with no drivers, people waiting with bags.",
+   "seed": 3030
+  },
+  {
+   "out": "img/school-bus.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a row of yellow school buses parked in a lot, empty, morning light.",
+   "seed": 3031
+  },
+  {
+   "out": "img/empty-office.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an empty open plan office with rows of desks and chairs, no people, morning sun.",
+   "seed": 3032
+  },
+  {
+   "out": "img/ev-hero.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a man proudly standing next to his electric car charging in his driveway while a group of neighbours gather around admiring it, morning, funny.",
+   "seed": 3033
+  },
+  {
+   "out": "img/packed-train.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an extremely packed electric commuter train carriage with people squeezed together, morning light.",
+   "seed": 3034
+  },
+  {
+   "out": "img/departures-red.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an airport departures board where every row glows red, a crowded terminal of stranded travellers, blank board text.",
+   "seed": 3035
+  },
+  {
+   "out": "img/empty-runway.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a big airport seen from above with dozens of airliners parked at gates, no movement, morning haze.",
+   "seed": 3036
+  },
+  {
+   "out": "img/tank-farm.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a strategic oil reserve site with huge white storage tanks and pipelines, aerial view, overcast.",
+   "seed": 3037
+  },
+  {
+   "out": "img/salt-cave.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a gigantic underground salt cavern with white crystalline walls lit by work lights, a tiny engineer for scale.",
+   "seed": 3038
+  },
+  {
+   "out": "img/salt-cave-empty.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a vast empty dark underground salt cavern, a single flashlight beam, echoing emptiness.",
+   "seed": 3039
+  },
+  {
+   "out": "img/loading-dock.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a supermarket loading dock with empty bays and no trucks, staff waiting, early morning.",
+   "seed": 3040
+  },
+  {
+   "out": "img/panic-shop.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a crowded supermarket with people rushing and filling trolleys in panic, aisles chaotic.",
+   "seed": 3041
+  },
+  {
+   "out": "img/empty-shelves.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: long supermarket aisles with completely empty shelves, a few price clips left, fluorescent light.",
+   "seed": 3042
+  },
+  {
+   "out": "img/long-walk.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a woman walking along a long empty country road carrying heavy shopping bags, abandoned car on the roadside, golden hour.",
+   "seed": 3043
+  },
+  {
+   "out": "img/city-hungry.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: aerial view of a big city with empty roads and abandoned cars, smoke rising in the distance, grey sky.",
+   "seed": 3044
+  },
+  {
+   "out": "img/rotting-farm.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a field of unpicked vegetables rotting under the sun, crates left behind, no workers.",
+   "seed": 3045
+  },
+  {
+   "out": "img/food-queue.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a long queue of people waiting for food handouts outside a city hall, volunteers handing out boxes.",
+   "seed": 3046
+  },
+  {
+   "out": "img/army-ration.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: soldiers handing out food boxes from the back of an army truck to a crowd in a city square.",
+   "seed": 3047
+  },
+  {
+   "out": "img/garbage-street.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a city street with huge piles of black rubbish bags on the pavement, flies, morning.",
+   "seed": 3048
+  },
+  {
+   "out": "img/electric-ambulance.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a white electric ambulance van charging at a hospital, paramedics loading equipment.",
+   "seed": 3049
+  },
+  {
+   "out": "img/nurse-bike.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a nurse in scrubs cycling to a hospital at dawn along an empty road full of parked cars.",
+   "seed": 3050
+  },
+  {
+   "out": "img/plastic-factory.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a giant plastic manufacturing plant with silent machines and stacks of white plastic pellets, workers standing idle.",
+   "seed": 3051
+  },
+  {
+   "out": "img/syringe-iv.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a hospital tray with plastic syringes, IV bags, tubes and gloves, close-up, clinical light.",
+   "seed": 3052
+  },
+  {
+   "out": "img/painkillers.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: close-up of white painkiller tablets spilling from a plastic blister pack, macro.",
+   "seed": 3053
+  },
+  {
+   "out": "img/sterilize.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: hospital staff washing and sterilising medical instruments in a steaming autoclave room, busy.",
+   "seed": 3054
+  },
+  {
+   "out": "img/port-stuck.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a huge container port with giant cranes frozen and dozens of container ships waiting at anchor, no movement.",
+   "seed": 3055
+  },
+  {
+   "out": "img/island-dark.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a small tropical island town at dusk with all its lights going out, a diesel power station silent.",
+   "seed": 3056
+  },
+  {
+   "out": "img/diesel-plant.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a small diesel power station on an island with big generators and fuel tanks, workers looking worried.",
+   "seed": 3057
+  },
+  {
+   "out": "img/tractor-idle.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a big green tractor stopped in the middle of a wheat field, the farmer standing beside it looking at the empty fuel tank.",
+   "seed": 3058
+  },
+  {
+   "out": "img/grain-truck.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a grain truck parked beside a combine harvester in a golden field, idle, dusty.",
+   "seed": 3059
+  },
+  {
+   "out": "img/fertilizer.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a fertilizer factory with tall pipes and white storage silos next to natural gas pipelines, overcast.",
+   "seed": 3060
+  },
+  {
+   "out": "img/tractor-convert.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: engineers in a barn workshop fitting a big battery pack into an old tractor, sparks from welding.",
+   "seed": 3061
+  },
+  {
+   "out": "img/horse-plough.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a farmer ploughing a field with two big draft horses, misty morning.",
+   "seed": 3062
+  },
+  {
+   "out": "img/price-tags.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: close-up of a market stall price board with prices rising, blank tags crossed out, vegetables.",
+   "seed": 3063
+  },
+  {
+   "out": "img/cattle-feed.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: cattle eating grain in a big feedlot barn, dusty light.",
+   "seed": 3064
+  },
+  {
+   "out": "img/victory-garden.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a 1940s family planting vegetables in a city park, vintage film look, sepia tones.",
+   "seed": 3065
+  },
+  {
+   "out": "img/rusty-gears.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: close-up of dry rusty machine gears grinding without oil, sparks, industrial.",
+   "seed": 3066
+  },
+  {
+   "out": "img/oil-can.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a vintage metal oil can dripping its last drop onto a machine gear, close-up.",
+   "seed": 3067
+  },
+  {
+   "out": "img/pothole.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a city road full of deep potholes and cracked asphalt, cyclists avoiding them.",
+   "seed": 3068
+  },
+  {
+   "out": "img/wardrobe.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an open wardrobe full of colourful clothes, a hand holding a polyester jacket, warm light.",
+   "seed": 3069
+  },
+  {
+   "out": "img/phone-parts.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a disassembled smartphone laid out neatly on a dark mat, case, wires, screen layers, macro.",
+   "seed": 3070
+  },
+  {
+   "out": "img/electronics-factory.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an electronics factory with idle assembly lines and workers waiting, clean room light.",
+   "seed": 3071
+  },
+  {
+   "out": "img/retool-factory.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a car factory being converted, robots installing battery packs into electric car bodies, sparks.",
+   "seed": 3072
+  },
+  {
+   "out": "img/old-ideas.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an engineer unrolling old yellowed blueprints of early electric vehicles on a workshop table, vintage photos pinned behind.",
+   "seed": 3073
+  },
+  {
+   "out": "img/grid.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: high voltage power lines and pylons glowing at sunset across a valley, powerful.",
+   "seed": 3074
+  },
+  {
+   "out": "img/horse-bus.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a modern city street where a horse-drawn cart rides next to a sleek electric bus, people on bicycles.",
+   "seed": 3075
+  },
+  {
+   "out": "img/sail-battery.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a modern sailing cargo ship in a harbour next to rows of giant battery storage containers, sunset.",
+   "seed": 3076
+  },
+  {
+   "out": "img/drake-well.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an 1859 wooden oil derrick in a Pennsylvania valley with men in old clothes, sepia vintage photograph look.",
+   "seed": 3077
+  },
+  {
+   "out": "img/whale-lamp.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a 19th century room lit by whale oil lamps and candles, a family reading, warm sepia.",
+   "seed": 3078
+  },
+  {
+   "out": "img/world-race.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: engineers in a control room watching big screens of a world map with glowing energy projects, busy.",
+   "seed": 3079
+  },
+  {
+   "out": "img/ethanol-gold.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a glass of golden ethanol fuel glowing in front of a sugarcane field at sunset, like liquid gold.",
+   "seed": 3080
+  },
+  {
+   "out": "img/synfuel-plant.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a huge coal-to-liquid fuel plant with towers, pipes and steam at night, industrial.",
+   "seed": 3081
+  },
+  {
+   "out": "img/electric-truck.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a big electric lorry charging at a highway charging station next to an electric tractor, sunny.",
+   "seed": 3082
+  },
+  {
+   "out": "img/battery-gold.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a car battery pack displayed in a glass case like a jewel in a museum, dramatic spotlight.",
+   "seed": 3083
+  },
+  {
+   "out": "img/bike-city.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a busy city street full of cyclists and pedestrians with very few cars, trees, sunny morning.",
+   "seed": 3084
+  },
+  {
+   "out": "img/ten-years.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a calm city ten years later with trams, bicycles, green rooftops and clear skies, quieter streets.",
+   "seed": 3085
+  },
+  {
+   "out": "img/fruit-treat.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a single perfect mango on a white plate under a spotlight, treated like a luxury dessert.",
+   "seed": 3086
+  },
+  {
+   "out": "img/refill.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a refill station where people fill old glass and plastic bottles from taps, a sustainable shop.",
+   "seed": 3087
+  },
+  {
+   "out": "img/train-holiday.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a family with suitcases boarding a long-distance electric train for holiday, sunny platform.",
+   "seed": 3088
+  },
+  {
+   "out": "img/repair-shop.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a busy repair shop with people fixing shoes, phones and clothes at workbenches, warm light.",
+   "seed": 3089
+  },
+  {
+   "out": "img/blue-sky-city.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a city skyline under a brilliant deep blue sky with crystal clear air, no smog, sunny.",
+   "seed": 3090
+  },
+  {
+   "out": "img/ambulance-stopped.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: an ambulance stopped in the middle of a dark road with its lights off, paramedics standing beside it, abandoned cars around.",
+   "seed": 3500
+  },
+  {
+   "out": "img/sugarcane-field.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a vast green sugarcane field in Brazil at golden hour with an ethanol plant chimney in the distance.",
+   "seed": 3501
+  },
+  {
+   "out": "img/cotton-wool.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a market stall full of natural cotton and wool clothes, soft knit sweaters and linen shirts, people browsing, warm light.",
+   "seed": 3502
+  }
+ ]
+}
