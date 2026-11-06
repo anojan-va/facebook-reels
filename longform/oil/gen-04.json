@@ -1,0 +1,17 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/blue-sky-city.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, bright and hopeful, vivid natural colours, high detail. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks. Scene: a modern city skyline under a brilliant clear deep blue sky on a sunny day, crystal clear air with no smog, green trees and cyclists in the foreground.",
+   "seed": 3601
+  },
+  {
+   "out": "img/sugarcane-field.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, bright and hopeful, vivid natural colours, high detail. Horizontal 16:9 widescreen composition. No text, letters, logos or watermarks. Scene: a Brazilian sugarcane plantation with very tall dense sugarcane stalks and long thin leaves, workers harvesting cane, an ethanol mill with a chimney in the distance, golden hour.",
+   "seed": 3602
+  }
+ ]
+}
