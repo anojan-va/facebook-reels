@@ -24,13 +24,10 @@ def rec(stem):
     print(stem, "OK" if r.returncode == 0 else "FAIL " + (r.stdout + r.stderr).strip().splitlines()[0][:80], flush=True)
     global strikes
     if "429" in r.stdout + r.stderr:
-        strikes += 1
-        if strikes >= 2:
-            budget = 0
-        time.sleep(70)
+        budget = 0          # every 429 also counts against the 10/day quota: stop at the first one
     else:
         strikes = 0
-    time.sleep(40)
+    time.sleep(65)
     return r.returncode == 0
 
 

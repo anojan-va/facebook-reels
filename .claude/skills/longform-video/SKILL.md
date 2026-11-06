@@ -46,7 +46,7 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
   `npx hyperframes render . -c card.html` prints "No index.html found" but still renders the card.
 - Gemini TTS: a 429 right after a run of calls can be the 3-per-minute limit (wait 60 s), not the daily one.
   The Pollinations fallback's Algenib is a different-sounding voice (median pitch ~145 Hz against ~105 Hz for
-  Gemini Algenib): never mix it into a Gemini-voiced video; wait for the daily reset instead: midnight Pacific time, i.e. 07:00 UTC in summer (PDT) but **08:00 UTC in winter (PST)**. The 429 body names the quota (`GenerateRequestsPerDayPerProjectPerModel-FreeTier`) and the retry delay.
+  Gemini Algenib): never mix it into a Gemini-voiced video; wait for the daily reset instead: midnight Pacific time, i.e. 07:00 UTC in summer (PDT) but **08:00 UTC in winter (PST)**. The 429 body names the quota (`GenerateRequestsPerDayPerProjectPerModel-FreeTier`) and the retry delay. **429 responses count against the 10/day too**: stop at the first 429, never retry in a loop; space calls ≥ 65 s (3/min limit). Takes of ~100–200 words; record with `<video>/rec2.py`.
 - Music levels: trapanomics and silent-descent are ~5 dB louder than echoes/out-of-this-world: cue them with
   `"volume"` 0.56 / 0.62 (fifth-of-february 1.15).
 
