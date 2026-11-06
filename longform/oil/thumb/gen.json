@@ -1,0 +1,22 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "thumb/art-a.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic and eye-catching YouTube thumbnail art, vivid saturated colours, strong contrast, high detail. Horizontal 16:9. No people, no hands, no faces. No text, letters, numbers, logos or watermarks anywhere. Scene: a giant car fuel gauge with the needle hard on empty and a glowing red warning light, filling the frame, dark background with orange glow.",
+   "seed": 6100
+  },
+  {
+   "out": "thumb/art-b.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic and eye-catching YouTube thumbnail art, vivid saturated colours, strong contrast, high detail. Horizontal 16:9. No people, no hands, no faces. No text, letters, numbers, logos or watermarks anywhere. Scene: planet Earth in space with a single huge black oil drop above it evaporating into smoke, the planet's city lights fading, epic.",
+   "seed": 6101
+  },
+  {
+   "out": "thumb/art-c.jpg",
+   "prompt": "Cinematic photorealistic film still, dramatic and eye-catching YouTube thumbnail art, vivid saturated colours, strong contrast, high detail. Horizontal 16:9. No people, no hands, no faces. No text, letters, numbers, logos or watermarks anywhere. Scene: an endless highway at night completely full of abandoned cars with doors open, a dry broken petrol pump in the foreground, eerie orange light.",
+   "seed": 6102
+  }
+ ]
+}
