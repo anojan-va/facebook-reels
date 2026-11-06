@@ -1,0 +1,367 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/f-one-thing.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a tidy home desk with a laptop. Scene: the yellow man sits down at the desk with a single sheet of paper, rolling up his sleeves, determined.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6100
+  },
+  {
+   "out": "img/f-phone-grab.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a home desk with an open laptop. Scene: the yellow man's hand reaches for a smartphone lying next to the laptop, his eyes already on the phone.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6101
+  },
+  {
+   "out": "img/f-tabs-chaos.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a dark room with a big computer monitor. Scene: the yellow man stares at a monitor overflowing with dozens of overlapping browser windows spilling out of the screen.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6102
+  },
+  {
+   "out": "img/f-book-reread.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a cosy armchair under a floor lamp. Scene: the yellow man holds an open book, eyes glazed and confused, as if reading the same page again.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6103
+  },
+  {
+   "out": "img/f-movie-phone.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a living room sofa facing a big TV. Scene: the yellow man sits on the sofa looking down at his phone while a movie plays on the TV in front of him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6104
+  },
+  {
+   "out": "img/f-old-reading.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a calm living room at night with a floor lamp. Scene: the yellow man reads a thick book completely absorbed and relaxed, legs crossed, a cup of tea beside him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6105
+  },
+  {
+   "out": "img/f-goldfish.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk with a round fishbowl. Scene: the yellow man leans in and looks sceptically at a white line-art goldfish in a round fishbowl, eyebrow raised.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6106
+  },
+  {
+   "out": "img/f-force-focus.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk with a laptop. Scene: the yellow man grips his head with both hands and strains to stare at the laptop screen, sweat drops flying.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6107
+  },
+  {
+   "out": "img/f-hand-reflex.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: close-up of an armchair. Scene: close-up: the yellow man holds an open book in one hand while his other hand reaches on its own toward a phone on the armrest.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6108
+  },
+  {
+   "out": "img/f-stopwatch.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an open-plan office. Scene: a white line-art woman researcher with a clipboard and a stopwatch watches the yellow man working at his computer.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6109
+  },
+  {
+   "out": "img/f-switching.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk surrounded by screens. Scene: the yellow man sits in the middle of five floating screens, his head turning fast between them, motion lines around his head.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6110
+  },
+  {
+   "out": "img/f-self-interrupt.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a quiet desk. Scene: the yellow man stops typing and picks up his phone by himself; the phone screen is empty, no notifications.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6111
+  },
+  {
+   "out": "img/f-reward-spark.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk. Scene: the yellow man smiles as small sparkles burst out of the phone in his hand like a little treat.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6112
+  },
+  {
+   "out": "img/f-juggler.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an empty dark stage with a spotlight. Scene: the yellow man skilfully juggles many small phones and tablets in the air like a circus juggler.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6113
+  },
+  {
+   "out": "img/f-face-down.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk with a laptop. Scene: the yellow man types on his laptop while his phone lies face down next to him; a thought bubble above his head shows a phone.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6114
+  },
+  {
+   "out": "img/f-other-room.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a home office with an open doorway to a kitchen. Scene: the yellow man works calmly at his desk in the foreground; far behind him through the open doorway a phone lies alone on the kitchen counter.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6115
+  },
+  {
+   "out": "img/f-guard-duty.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk. Scene: the yellow man works at a laptop but one eye keeps glancing sideways at the phone beside him, a small radar dish drawn on top of his head pointing at the phone.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6116
+  },
+  {
+   "out": "img/f-shoulder-tap.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an office desk. Scene: the yellow man tries to work while a white line-art hand pokes out of the phone in his trouser pocket and taps him on the shoulder.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6117
+  },
+  {
+   "out": "img/f-stuck-hard.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk covered in papers. Scene: the yellow man frowns at a messy pile of difficult papers while his phone beside the papers glows invitingly.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6118
+  },
+  {
+   "out": "img/f-lunch-done.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk with a wall clock showing twelve. Scene: the yellow man leans back proud and happy next to a finished stack of completed work, the wall clock shows noon.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6119
+  },
+  {
+   "out": "img/f-coffee-line.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a coffee shop. Scene: the yellow man stands in a queue at a coffee counter; every white line-art person in the queue is staring down at a phone.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6120
+  },
+  {
+   "out": "img/f-red-light.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: inside a car at a traffic light drawn in white lines. Scene: the yellow man sits at the steering wheel scrolling his phone while waiting at the traffic light.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6121
+  },
+  {
+   "out": "img/f-bathroom.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a bathroom mirror and sink. Scene: the yellow man brushes his teeth while watching a video on a phone propped against the mirror.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6122
+  },
+  {
+   "out": "img/f-daydream.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a park bench under a tree. Scene: the yellow man sits on the bench gazing at the sky, thought bubbles with little light bulbs and doodles floating above him.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6123
+  },
+  {
+   "out": "img/f-boring-start.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a reading chair. Scene: the yellow man opens a very thick book and yawns widely.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6124
+  },
+  {
+   "out": "img/f-exit-door.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk. Scene: the yellow man sits at his desk and leans toward a glowing doorway shaped like a giant phone standing beside the desk, like an escape exit.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6125
+  },
+  {
+   "out": "img/f-rescued.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an empty room. Scene: the yellow man sits bored on a chair while a giant white line-art hand holding a phone reaches down to scoop him up.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6126
+  },
+  {
+   "out": "img/f-break-scroll.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an office chair. Scene: the yellow man leans back in his chair with his feet up scrolling his phone, a coffee cup on the desk.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6127
+  },
+  {
+   "out": "img/f-sprint.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a running track. Scene: the yellow man sprints at full speed on a running track, sweating, arms pumping.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6128
+  },
+  {
+   "out": "img/f-bed-scroll.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a bedroom at night. Scene: the yellow man lies in bed in the dark, his face lit by his phone; a bedside clock shows a late hour.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6129
+  },
+  {
+   "out": "img/f-tired-morning.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an office desk in the morning. Scene: the yellow man yawns at his desk with heavy tired eyes, holding a big coffee mug.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6130
+  },
+  {
+   "out": "img/f-fog.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an outdoor path disappearing into thick swirling fog drawn as white lines. Scene: the yellow man stands at the edge of the fog, hesitating, unsure where to step.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6131
+  },
+  {
+   "out": "img/f-next-step.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk with a small notepad. Scene: the yellow man writes one short line on a small notepad with a pencil, calm and clear.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6132
+  },
+  {
+   "out": "img/f-phone-away.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a hallway with a shelf. Scene: the yellow man walks away from his phone left on a shelf, waving goodbye to it over his shoulder.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6133
+  },
+  {
+   "out": "img/f-walk-park.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a quiet park path with trees. Scene: the yellow man walks slowly along the path with no headphones, hands in pockets, enjoying the quiet.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6134
+  },
+  {
+   "out": "img/f-coffee-window.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a window seat in a cafe. Scene: the yellow man holds a coffee mug with both hands and simply looks out of the window, calm.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6135
+  },
+  {
+   "out": "img/f-itch.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a plain chair in an empty room. Scene: the yellow man sits on the chair fidgeting restlessly, small scribble lines around his twitching hands.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6136
+  },
+  {
+   "out": "img/f-one-tab.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a clean desk with a laptop and a small kitchen timer. Scene: the yellow man works with deep calm focus on a laptop showing one single clean window, a small kitchen timer beside it.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6137
+  },
+  {
+   "out": "img/f-window-water.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a window with a city view. Scene: the yellow man stands at the window holding a glass of water, stretching and looking outside.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6138
+  },
+  {
+   "out": "img/f-surf.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a big ocean wave drawn in white lines. Scene: the yellow man rides a big wave calmly on a surfboard, balanced and relaxed.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6139
+  },
+  {
+   "out": "img/f-count-ten.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: an empty dark room. Scene: the yellow man sits upright with his eyes closed and raises his fingers one by one, counting calmly.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6140
+  },
+  {
+   "out": "img/f-reach-empty.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a desk. Scene: the yellow man reaches out to an empty spot on the desk where his phone used to be, finding nothing, surprised.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6141
+  },
+  {
+   "out": "img/f-forty-pages.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a cosy armchair under a lamp. Scene: the yellow man smiles contentedly holding a book with many pages already turned, a bookmark far into the book.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6142
+  },
+  {
+   "out": "img/f-stay.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a calm desk by a window at dusk. Scene: the yellow man sits at his desk completely focused and peaceful, a soft glow around him, no phone anywhere.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6143
+  },
+  {
+   "out": "img/f-jake.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  Setting: a cafe table. Scene: the yellow man laughs with his friend, a white line-art man with short hair and a beard, who is talking and gesturing across the table.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 6144
+  }
+ ]
+}

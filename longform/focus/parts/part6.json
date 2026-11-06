@@ -1,0 +1,671 @@
+{
+ "out": "../../output/focus/part6.mp4",
+ "audio": "p6.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 20.0
+  }
+ ],
+ "music_volume": 0.32,
+ "progress": true,
+ "style": {
+  "grade": "teal",
+  "captions": "highlight",
+  "caption_y": 0.86,
+  "vignette": 0.4,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "So what do you actually do?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "SO WHAT DO YOU",
+      "white"
+     ],
+     [
+      "ACTUALLY DO?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@actually"
+    ]
+   },
+   "captions": false
+  },
+  {
+   "text": "The first thing is the easiest, and it works better than any app.",
+   "v": {
+    "img": "../img/f-phone-away.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "FIX #1",
+     "at": 0.1,
+     "y": 0.08,
+     "size": 96
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    },
+    {
+     "name": "impact",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Put your phone in another room.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "PHONE IN",
+      "white"
+     ],
+     [
+      "ANOTHER ROOM.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@another"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "bass",
+     "at": "@another",
+     "gain": 0.6
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  },
+  {
+   "text": "Not face down.",
+   "v": {
+    "video": "../stock/phone-notification-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Not in a drawer next to you.",
+   "v": {
+    "img": "../img/f-guard-duty.jpg",
+    "focus": [
+     0.6,
+     0.6
+    ],
+    "zoom": 1.3
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Another room.",
+   "v": {
+    "img": "../img/f-phone-away.jpg",
+    "focus": [
+     0.3,
+     0.55
+    ],
+    "zoom": 1.5
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Remember the study. Distance is the whole point.",
+   "v": {
+    "mg": "rooms",
+    "title": "DISTANCE IS THE POINT",
+    "cols": [
+     [
+      "DESK",
+      55
+     ],
+     [
+      "POCKET",
+      70
+     ],
+     [
+      "ANOTHER ROOM",
+      88
+     ]
+    ],
+    "times": [
+     0.0,
+     0.2,
+     0.4
+    ],
+    "unit": ""
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "If you're waiting for something urgent, turn the ringer on and you'll hear it.",
+   "v": {
+    "video": "../stock/kitchen-counter-0.mp4",
+    "start": 3.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "The second thing is to train boredom on purpose.",
+   "v": {
+    "img": "../img/f-coffee-window.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "FIX #2",
+     "at": 0.1,
+     "y": 0.08,
+     "size": 96
+    }
+   ],
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    },
+    {
+     "name": "impact",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Start small. Ten minutes a day where you do nothing.",
+   "v": {
+    "mg": "timer",
+    "seconds": 600,
+    "label": "DO NOTHING",
+    "end_label": "DONE"
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "A walk without headphones.",
+   "v": {
+    "video": "../stock/walking-park-2.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Waiting in line without your phone.",
+   "v": {
+    "img": "../img/f-coffee-line.jpg",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": 1.3
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Sitting with your coffee and just drinking it.",
+   "v": {
+    "img": "../img/f-coffee-window.jpg",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.4,
+    "to_zoom": 1.7,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "It will feel strange. You'll feel the itch.",
+   "v": {
+    "img": "../img/f-itch.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.52,
+     0.55
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "That itch is the whole point.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THE ITCH",
+      "white"
+     ],
+     [
+      "IS THE POINT.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@point"
+    ]
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Every time you sit through it, you're teaching your brain that a slow moment isn't an emergency.",
+   "v": {
+    "img": "../img/f-walk-park.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "The third thing is to clear the fog before you start.",
+   "v": {
+    "img": "../img/f-fog.jpg",
+    "focus": [
+     0.5,
+     0.7
+    ],
+    "zoom": 1.5
+   },
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "FIX #3",
+     "at": 0.1,
+     "y": 0.08,
+     "size": 96
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Before you sit down, write the very next physical step.",
+   "v": {
+    "img": "../img/f-next-step.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.6,
+     0.6
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Not \"write the report\".",
+   "v": {
+    "video": "../stock/writing-notebook-1.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Something like \"open the document and write three bullet points for the introduction\".",
+   "v": {
+    "mg": "checklist",
+    "title": "NEXT STEP",
+    "items": [
+     "OPEN THE DOCUMENT",
+     "WRITE 3 BULLET POINTS",
+     "FOR THE INTRODUCTION"
+    ],
+    "times": [
+     "@open",
+     "@three",
+     "@introduction"
+    ]
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Small enough that your brain can't argue with it.",
+   "v": {
+    "img": "../img/f-next-step.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.3
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "The fourth thing is to stop trying to focus forever.",
+   "v": {
+    "img": "../img/f-force-focus.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.2
+   },
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "FIX #4",
+     "at": 0.1,
+     "y": 0.08,
+     "size": 96
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 0.1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Pick twenty-five minutes. Just twenty-five.",
+   "v": {
+    "mg": "timer",
+    "seconds": 1500,
+    "label": "ONE ROUND",
+    "end_label": "BREAK"
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "tick",
+     "at": 0.3
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Close every tab except the one you need.",
+   "v": {
+    "img": "../img/f-one-tab.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.6,
+     0.45
+    ],
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    },
+    {
+     "name": "click",
+     "at": "@close"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "And when the time is up, take a real break.",
+   "v": {
+    "video": "../stock/stopwatch-4.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "correct",
+     "at": "@up",
+     "gain": 0.6
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Stand up, look out a window, get some water.",
+   "v": {
+    "img": "../img/f-window-water.jpg",
+    "focus": [
+     0.55,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Anything but a screen.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "ANYTHING BUT",
+      "white"
+     ],
+     [
+      "A SCREEN.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@screen"
+    ]
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And if twenty-five minutes feels impossible right now, start with ten.",
+   "v": {
+    "video": "../stock/man-laptop-office-2.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "That's fine. You're not trying to become a monk.",
+   "v": {
+    "img": "../img/f-count-ten.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    },
+    {
+     "name": "pop",
+     "at": "@monk"
+    }
+   ],
+   "in": "push"
+  },
+  {
+   "text": "You're trying to win one small round today, and another one tomorrow.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "ONE ROUND TODAY.",
+     "ONE TOMORROW."
+    ],
+    "mark": [
+     "ONE ROUND TODAY.",
+     "ONE TOMORROW."
+    ],
+    "times": [
+     0.0,
+     "@another"
+    ]
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  }
+ ]
+}

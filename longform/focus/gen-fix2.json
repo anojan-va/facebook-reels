@@ -1,0 +1,31 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/f-phone-grab.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  No logos or brand marks. Any screen shows only simple white line shapes, never photos or coloured content. All objects are white line art on black, nothing else is yellow. Setting: a home desk, the laptop seen from the side so its lid shows no symbol. Scene: exactly one yellow man sits alone at the desk; he stops typing and reaches one hand toward a smartphone lying on the desk next to the laptop, his eyes fixed on the phone.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 7378
+  },
+  {
+   "out": "img/f-face-down.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  No logos or brand marks. Any screen shows only simple white line shapes, never photos or coloured content. All objects are white line art on black, nothing else is yellow. Setting: a desk, the laptop seen from the side so its lid shows no symbol. Scene: the yellow man types on the laptop while his phone lies face down on the desk next to him; a small thought bubble above his head shows a phone.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 7391
+  },
+  {
+   "out": "img/f-phone-away.jpg",
+   "prompt": "Use the reference image ONLY for how the yellow man looks and the drawing style. Draw a NEW composition and camera angle as described. Completely replace the background. Only ONE yellow figure in the image. Minimalist illustration on a pure black background, clean thin white line art with no shading. No colour anywhere except the glowing yellow man. No text, letters or captions in the image unless described. Horizontal 16:9 widescreen composition, cinematic framing. Correct anatomy: every person has exactly one head, two arms, two hands and two legs; no extra or duplicated limbs. The main character is a faceless glowing neon-yellow mannequin man: round bald head, simple cartoon face with two black dot eyes, thin black eyebrows and a small black mouth, smooth solid yellow body with a soft yellow neon glow, no clothes, no hair.  No logos or brand marks. Any screen shows only simple white line shapes, never photos or coloured content. All objects are white line art on black, nothing else is yellow. Setting: a hallway with a small wall shelf, full body visible from head to feet. Scene: the yellow man walks out of the room toward the right with empty hands, looking back over his shoulder and waving goodbye to the phone lying on the shelf on the left.",
+   "refs": [
+    "../../reels/refs/man.jpg"
+   ],
+   "seed": 7410
+  }
+ ]
+}

@@ -1,0 +1,676 @@
+{
+ "out": "../../output/focus/part3.mp4",
+ "audio": "p3.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 80.0
+  },
+  {
+   "shot": 25,
+   "music": "../../../reels/audio/music/fifth-of-february.mp3",
+   "start": 20.0
+  }
+ ],
+ "music_volume": 0.32,
+ "progress": true,
+ "style": {
+  "grade": "teal",
+  "captions": "highlight",
+  "caption_y": 0.86,
+  "vignette": 0.4,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "The second thing surprised me even more.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "#2",
+      "white"
+     ],
+     [
+      "THE PHONE YOU DON'T TOUCH",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@surprised"
+    ]
+   },
+   "captions": false
+  },
+  {
+   "text": "You'd think the fix is simple.",
+   "v": {
+    "img": "../img/f-guard-duty.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Turn notifications off, put the phone face down, done.",
+   "v": {
+    "video": "../stock/phone-notification-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "click",
+     "at": "@off"
+    },
+    {
+     "name": "click",
+     "at": "@down"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "It isn't.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "IT ISN'T.",
+      "red"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "in": "rgb",
+   "sfx": [
+    {
+     "name": "zap",
+     "gain": 0.45
+    },
+    {
+     "name": "glitch-hit",
+     "gain": 0.5
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "In 2017,",
+   "v": {
+    "video": "../stock/students-exam-4.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "overlays": [],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "a team led by Adrian Ward at the University of Texas",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@Adrian",
+     "gain": 0.5
+    }
+   ],
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "WARD ET AL. (2017)",
+     "sub": "University of Texas · 'Brain Drain'",
+     "at": "@Adrian"
+    }
+   ],
+   "v": {
+    "video": "../stock/students-exam-4.mp4",
+    "start": 1.75,
+    "zoom": 1.24
+   }
+  },
+  {
+   "text": "ran an experiment with around eight hundred people.",
+   "v": {
+    "mg": "grid",
+    "rows": 4,
+    "cols": 12,
+    "h": 110,
+    "cy": 0.45,
+    "lit": [
+     0,
+     48,
+     0.1,
+     1.6
+    ],
+    "label": "AROUND 800 PEOPLE"
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "They gave them tests that needed real concentration.",
+   "v": {
+    "video": "../stock/students-exam-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Some people had their phone on the desk, face down. Some had it in their bag or pocket. And some left it in another room.",
+   "v": {
+    "mg": "rooms",
+    "title": "WHERE WAS THE PHONE?",
+    "cols": [
+     [
+      "ON THE DESK",
+      55
+     ],
+     [
+      "BAG / POCKET",
+      70
+     ],
+     [
+      "ANOTHER ROOM",
+      88
+     ]
+    ],
+    "times": [
+     0.0,
+     "@bag",
+     "@another"
+    ],
+    "unit": ""
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "pop",
+     "at": 0.1
+    },
+    {
+     "name": "pop",
+     "at": "@bag"
+    },
+    {
+     "name": "pop",
+     "at": "@another"
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  },
+  {
+   "text": "The phones were silent. Nobody checked them.",
+   "v": {
+    "video": "../stock/phone-on-desk-6.mp4",
+    "start": 3.0,
+    "zoom": 1.2
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "And still, the people with the phone in another room",
+   "v": {
+    "img": "../img/f-one-tab.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "music_fx": "muffle",
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "did noticeably better than the people with it on the desk.",
+   "v": {
+    "mg": "bars",
+    "headline": "CONCENTRATION",
+    "bars": [
+     [
+      "ANOTHER ROOM",
+      88,
+      "yellow"
+     ],
+     [
+      "ON THE DESK",
+      55,
+      "grey"
+     ]
+    ],
+    "values": false
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "bass",
+     "gain": 0.6
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  },
+  {
+   "text": "Just having it close was enough to drain them.",
+   "v": {
+    "mg": "battery",
+    "start": 100,
+    "end": 35,
+    "label": "BRAIN POWER",
+    "at": "@close"
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Think about what that means.",
+   "v": {
+    "img": "../img/f-guard-duty.jpg",
+    "focus": [
+     0.55,
+     0.3
+    ],
+    "zoom": 1.4
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Part of your brain is always on guard duty.",
+   "v": {
+    "img": "../img/f-guard-duty.jpg",
+    "focus": [
+     0.6,
+     0.15
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.6,
+     0.2
+    ],
+    "to_zoom": 1.7,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "zap",
+     "at": "@guard",
+     "gain": 0.4
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Is it buzzing? Did someone reply? Am I missing something?",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "BUZZING?",
+      "white"
+     ],
+     [
+      "REPLY?",
+      "white"
+     ],
+     [
+      "MISSING SOMETHING?",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@reply",
+     "@missing"
+    ]
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You're not using your phone,",
+   "v": {
+    "video": "../stock/man-laptop-office-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "but you're still spending attention on not using it.",
+   "v": {
+    "mg": "battery",
+    "start": 60,
+    "end": 20,
+    "label": "ATTENTION",
+    "at": 0.2
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "It's like trying to work with someone standing behind you,",
+   "v": {
+    "img": "../img/f-shoulder-tap.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "tapping your shoulder every few seconds.",
+   "v": {
+    "img": "../img/f-shoulder-tap.jpg",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "zoom": 1.7
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": "@tapping"
+    },
+    {
+     "name": "tick",
+     "at": "@shoulder"
+    },
+    {
+     "name": "tick",
+     "at": "@seconds"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "Except that someone lives in your pocket.",
+   "v": {
+    "video": "../stock/smartphone-hand-0.mp4",
+    "start": 3.0,
+    "zoom": 1.25
+   },
+   "in": "rgb",
+   "sfx": [
+    {
+     "name": "zap",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "And it gets worse when you're stuck.",
+   "v": {
+    "img": "../img/f-stuck-hard.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "The moment the work gets hard,",
+   "v": {
+    "img": "../img/f-stuck-hard.jpg",
+    "focus": [
+     0.55,
+     0.7
+    ],
+    "zoom": 1.6
+   },
+   "overlays": [],
+   "in": "cut",
+   "sfx": []
+  },
+  {
+   "text": "that little voice in your head says, just check.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    },
+    {
+     "name": "pop",
+     "at": "@just",
+     "gain": 0.6
+    }
+   ],
+   "overlays": [
+    {
+     "mg": "notify",
+     "title": "Your brain",
+     "text": "just check 👀",
+     "at": "@just"
+    }
+   ],
+   "v": {
+    "img": "../img/f-stuck-hard.jpg",
+    "focus": [
+     0.55,
+     0.7
+    ],
+    "zoom": 1.23
+   }
+  },
+  {
+   "text": "And the phone is right there to say yes.",
+   "v": {
+    "video": "../stock/woman-using-phone-6.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "I tested this on myself.",
+   "v": {
+    "img": "../img/f-next-step.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.1
+   },
+   "pause_before": 0.25,
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Same desk, same work.",
+   "v": {
+    "video": "../stock/writing-notebook-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "One week with the phone face down on the desk,",
+   "v": {
+    "img": "../img/f-guard-duty.jpg",
+    "focus": [
+     0.6,
+     0.6
+    ],
+    "zoom": 1.2
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "one week with the phone in the kitchen.",
+   "v": {
+    "video": "../stock/kitchen-counter-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "The second week,",
+   "v": {
+    "img": "../img/f-lunch-done.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.55,
+     0.3
+    ],
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ],
+   "in": "push"
+  },
+  {
+   "text": "I finished more before lunch than I used to finish all day.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    },
+    {
+     "name": "reveal",
+     "at": "@lunch"
+    }
+   ],
+   "v": {
+    "img": "../img/f-lunch-done.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.25
+   }
+  }
+ ]
+}

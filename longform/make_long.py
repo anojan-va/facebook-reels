@@ -821,11 +821,122 @@ def mg_sticky(fr, t, d, p, ctx):
         blit(fr, layer, x, y, scale=0.8 + 0.2 * ease_back(lt / 0.3), alpha=min(1, lt / 0.1))
 
 
+
+def mg_tabs(fr, t, d, p, ctx):
+    """A browser window whose tab strip keeps filling up: p.tabs = titles, p.times = when each tab opens; counter."""
+    fr[:] = (16, 18, 22)
+    x0, y0, x1, y1 = 160, 130, W - 160, H * 0.74
+    rect(fr, x0, y0, x1, y1, (30, 33, 40), 1.0)
+    rect(fr, x0, y0, x1, y0 + 70, (22, 24, 30), 1.0)
+    for i, c in enumerate([(235, 90, 80), (240, 190, 60), (90, 200, 110)]):
+        cv2.circle(fr, (int(x0 + 34 + i * 34), int(y0 + 35)), 10, c, -1, cv2.LINE_AA)
+    times = [ctx.at(x) for x in p["times"]]
+    shown = [tt for tt in times if tt <= t]
+    n = len(shown)
+    tw = min(300, (x1 - x0 - 160) / max(n, 1))
+    for i in range(n):
+        k = ease_back((t - times[i]) / 0.25)
+        tx = x0 + 140 + i * tw
+        rect(fr, tx, y0 + 14, tx + (tw - 8) * min(k, 1), y0 + 70, (48, 52, 62) if i < n - 1 else (70, 75, 88), 1.0)
+        if tw > 90 and k > 0.6:
+            lab = p["tabs"][i % len(p["tabs"])]
+            lab = lab if len(lab) * 15 < tw - 30 else lab[:max(2, int((tw - 30) / 15))] + "…"
+            blit(fr, text_layer(lab, INTER_SB, 26, (220, 222, 230)), tx + 16, y0 + 43, anchor="l")
+    if n:
+        last = p["tabs"][(n - 1) % len(p["tabs"])]
+        blit(fr, text_layer(last.upper(), ANTON, 96, (90, 96, 110), track=4), W / 2, (y0 + 70 + y1) / 2)
+    cnt = text_layer(f"{n} TABS", ANTON, 120, YELLOW, glow=12, track=4)
+    pop = ease_back((t - shown[-1]) / 0.2) if shown else 0
+    blit(fr, cnt, W / 2, y1 + 110, scale=1 + 0.25 * (1 - min(pop, 1)), alpha=min(1, n))
+
+
+def mg_countdown(fr, t, d, p, ctx):
+    """Attention-span drop: a bar shrinks step by step; p.steps = [[year, seconds, label], ...], p.times."""
+    fr[:] = (10, 14, 18)
+    times = [ctx.at(x) for x in p["times"]]
+    steps = p["steps"]
+    i = max([k for k, tt in enumerate(times) if tt <= t] or [0])
+    cur = steps[i][1]
+    prev = steps[i - 1][1] if i else steps[0][1]
+    k = ease_out((t - times[i]) / 0.6)
+    val = prev + (cur - prev) * k
+    full = steps[0][1]
+    bx, by, bw, bh = 260, H * 0.5, W - 520, 70
+    rect(fr, bx, by, bx + bw, by + bh, (35, 40, 48), 1.0)
+    col = YELLOW if i < len(steps) - 1 else RED
+    rect(fr, bx, by, bx + bw * val / full, by + bh, col, 1.0)
+    secs = f"{int(val) // 60}:{int(val) % 60:02d}" if val >= 60 else f"{int(round(val))} SEC"
+    blit(fr, text_layer(secs, ANTON, 190, col, glow=10), W / 2, H * 0.3, scale=1 + 0.2 * (1 - k))
+    blit(fr, text_layer(str(steps[i][0]), INTER_SB, 54, (200, 205, 215), track=12), W / 2, by + bh + 70)
+    if p.get("title"):
+        blit(fr, text_layer(p["title"], INTER_SB, 40, (150, 158, 170), track=10), W / 2, H * 0.1, alpha=min(1, t / 0.3))
+    for j in range(i):
+        x = bx + bw * steps[j][1] / full
+        rect(fr, x - 2, by - 20, x + 2, by + bh + 20, (120, 126, 136), 1.0)
+
+
+def mg_battery(fr, t, d, p, ctx):
+    """Attention battery draining from p.start to p.end percent; p.label under it; red when low."""
+    fr[:] = (12, 12, 14)
+    t0 = ctx.at(p.get("at", 0.2))
+    k = ease_io((t - t0) / p.get("run", max(d - t0 - 0.5, 0.6)))
+    v = p.get("start", 100) + (p.get("end", 10) - p.get("start", 100)) * k
+    cx, cy, bw, bh = W / 2, H * 0.42, 620, 280
+    cv2.rectangle(fr, (int(cx - bw / 2), int(cy - bh / 2)), (int(cx + bw / 2), int(cy + bh / 2)), (220, 220, 220), 10, cv2.LINE_AA)
+    rect(fr, cx + bw / 2 + 6, cy - 50, cx + bw / 2 + 40, cy + 50, (220, 220, 220), 1.0)
+    col = YELLOW if v > 30 else RED
+    rect(fr, cx - bw / 2 + 22, cy - bh / 2 + 22, cx - bw / 2 + 22 + (bw - 44) * v / 100, cy + bh / 2 - 22, col, 1.0)
+    blit(fr, text_layer(f"{round(v)}%", ANTON, 120, (20, 20, 20) if v > 45 else WHITE), cx, cy)
+    blit(fr, text_layer(p.get("label", "ATTENTION"), ANTON, 80, WHITE, track=6), cx, cy + bh / 2 + 100, alpha=min(1, t / 0.3))
+
+
+def mg_rooms(fr, t, d, p, ctx):
+    """Three conditions side by side with a phone icon at growing distance and a score bar each: p.cols = [[label, score]], p.times."""
+    fr[:] = (12, 14, 18)
+    times = [ctx.at(x) for x in p["times"]]
+    if p.get("title"):
+        blit(fr, text_layer(p["title"], INTER_SB, 44, (170, 176, 188), track=10), W / 2, H * 0.09, alpha=min(1, t / 0.3))
+    for i, ((label, score), t0) in enumerate(zip(p["cols"], times)):
+        lt = t - t0
+        if lt < 0:
+            continue
+        cx = W / 2 + (i - 1) * 560
+        a = min(1, lt / 0.2)
+        # phone icon
+        px, py = cx, H * 0.3
+        cv2.rectangle(fr, (int(px - 45), int(py - 80)), (int(px + 45), int(py + 80)), (230, 230, 230), 6, cv2.LINE_AA)
+        cv2.circle(fr, (int(px), int(py + 60)), 7, (230, 230, 230), -1, cv2.LINE_AA)
+        blit(fr, text_layer(label, ANTON, 60, WHITE, track=4), cx, H * 0.48, alpha=a)
+        g = ease_out((lt - 0.2) / 0.8)
+        top, bot = H * 0.54, H * 0.74
+        col = YELLOW if i == len(p["cols"]) - 1 else (130, 130, 130)
+        rect(fr, cx - 170, top, cx + 170, bot, (36, 38, 44), a)
+        rect(fr, cx - 170, top, cx - 170 + 340 * score / 100 * g, bot, col, 1.0)
+        blit(fr, text_layer(p.get("unit", "FOCUS"), INTER_SB, 34, (20, 20, 20) if score * g > 55 else WHITE, track=8), cx, (top + bot) / 2, alpha=a)
+
+
+def mg_wave(fr, t, d, p, ctx):
+    """An urge drawn as a wave that rises, peaks and falls while a counter runs 1..10; p.label."""
+    fr[:] = (8, 14, 20)
+    run = p.get("run", max(d - 0.4, 1.0))
+    k = min(1, t / run)
+    xs = np.linspace(0, 1, 400)
+    ys = np.exp(-((xs - 0.45) / 0.18) ** 2)
+    pts = [(int(160 + x * (W - 320)), int(H * 0.72 - y * H * 0.45)) for x, y in zip(xs, ys)]
+    n = max(2, int(len(pts) * k))
+    cv2.polylines(fr, [np.array(pts, np.int32)], False, (45, 55, 70), 6, cv2.LINE_AA)
+    cv2.polylines(fr, [np.array(pts[:n], np.int32)], False, YELLOW, 10, cv2.LINE_AA)
+    cv2.circle(fr, pts[n - 1], 18, YELLOW, -1, cv2.LINE_AA)
+    num = min(10, 1 + int(k * 10))
+    blit(fr, text_layer(str(num), ANTON, 200, WHITE if num < 10 else YELLOW, glow=0 if num < 10 else 14), W - 260, H * 0.2)
+    blit(fr, text_layer(p.get("label", "THE URGE"), INTER_SB, 48, (170, 180, 195), track=12), W / 2, H * 0.84, alpha=min(1, t / 0.3))
+
 MG = {"kinetic": mg_kinetic, "title": mg_title, "year": mg_year, "grid": mg_grid, "bars": mg_bars,
       "list": mg_list, "chapter": mg_chapter, "versus": mg_versus, "recap": mg_recap,
       "chat": mg_chat, "marker": mg_marker, "quote": mg_quote, "reason": mg_reason, "checklist": mg_checklist,
       "curve": mg_curve, "lesson": mg_lesson, "polaroid": mg_polaroid, "loop": mg_loop, "receipt": mg_receipt, "timer": mg_timer,
-      "stamps": mg_stamps, "gauge": mg_gauge, "sticky": mg_sticky}
+      "stamps": mg_stamps, "gauge": mg_gauge, "sticky": mg_sticky,
+      "tabs": mg_tabs, "countdown": mg_countdown, "battery": mg_battery, "rooms": mg_rooms, "wave": mg_wave}
 OV = {"notify": ov_notify, "lower_third": ov_lower_third, "scan": ov_scan, "tag": ov_tag, "title": ov_title, "kinetic": mg_kinetic}
 
 
@@ -868,6 +979,7 @@ def warp(im, fx, fy, z, rot=0.0, shake=(0, 0)):
 
 
 GRADES = {   # stock-footage looks, picked per video with "style": {"grade": ...}
+    "teal": "eq=saturation=0.7:contrast=1.1:brightness=-0.02:gamma=0.97,colorbalance=rs=-0.1:gs=0.02:bs=0.1:rh=0.08:gh=0.02:bh=-0.08,curves=all='0/0.03 0.5/0.48 1/0.95'",
     "cool": "eq=saturation=0.62:contrast=1.12:brightness=-0.035:gamma=0.95,colorbalance=rs=-0.04:bs=0.05:rh=0.03:gh=0.01",
     "film": "eq=saturation=0.6:contrast=1.05:brightness=0.0:gamma=1.0,colorbalance=rs=0.08:gs=0.03:bs=-0.06:rh=0.05:bh=-0.04,curves=all='0/0.08 0.5/0.5 1/0.9'",
     "night": "eq=saturation=0.45:contrast=1.12:brightness=-0.05:gamma=0.92,colorbalance=rs=-0.08:gs=-0.02:bs=0.12:rm=-0.05:bm=0.06,curves=all='0/0.03 0.5/0.45 1/0.94'",
@@ -1012,6 +1124,8 @@ def caption_layer(words, active):
         return caption_underline(words, active)
     if STYLE["captions"] == "karaoke":
         return caption_karaoke(words, active)
+    if STYLE["captions"] == "highlight":
+        return caption_highlight(words, active)
     f = ImageFont.truetype(INTER, 66)
     sp = f.getlength(" ")
     ws = [f.getlength(w) for w in words]
@@ -1028,6 +1142,26 @@ def caption_layer(words, active):
         x += wl + sp
     sh = sh.filter(ImageFilter.GaussianBlur(6))
     return np.asarray(Image.alpha_composite(sh, im))
+
+
+def caption_highlight(words, active):
+    """Caption variant: UPPERCASE white words, the spoken word sits on a yellow box in black text."""
+    f = ImageFont.truetype(INTER, 60)
+    words = [w.upper() for w in words]
+    sp = f.getlength(" ") + 6
+    ws = [f.getlength(w) for w in words]
+    asc, desc = f.getmetrics()
+    im = Image.new("RGBA", (int(sum(ws) + sp * len(words)) + 100, asc + desc + 50), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    x = 50
+    for k, (w, wl) in enumerate(zip(words, ws)):
+        if k == active:
+            d.rounded_rectangle([x - 12, 14, x + wl + 12, asc + desc + 30], 10, fill=(*YELLOW, 255))
+            d.text((x, 20), w, font=f, fill=(10, 10, 10, 255))
+        else:
+            d.text((x, 20), w, font=f, fill=(245, 245, 245, 255), stroke_width=6, stroke_fill=(0, 0, 0, 255))
+        x += wl + sp
+    return np.asarray(im)
 
 
 def caption_karaoke(words, active):
@@ -1423,6 +1557,19 @@ def main():
                     fr = np.where(m, B, A).astype(np.uint8)
                     edge = (np.abs(xs - off) < 6)
                     fr[edge] = YELLOW
+                elif kind == "pixel":     # pixelate A out, B in
+                    base_fr = A if p < 0.5 else B
+                    blk = int(2 + 60 * math.sin(math.pi * p))
+                    small = cv2.resize(base_fr, (max(1, W // blk), max(1, H // blk)), interpolation=cv2.INTER_AREA)
+                    fr = cv2.resize(small, (W, H), interpolation=cv2.INTER_NEAREST)
+                elif kind == "rgb":       # chromatic split + punch through the cut
+                    base_fr = A if p < 0.5 else B
+                    w = math.sin(math.pi * p)
+                    fr = warp(base_fr, .5, .5, 1 + 0.12 * w).copy()
+                    o = int(40 * w)
+                    if o:
+                        fr[..., 0] = np.roll(fr[..., 0], o, axis=1)
+                        fr[..., 2] = np.roll(fr[..., 2], -o, axis=1)
                 elif kind == "spin":      # rotate + zoom through the cut
                     base_fr = A if p < 0.5 else B
                     ang = (p - 0.5) * 40

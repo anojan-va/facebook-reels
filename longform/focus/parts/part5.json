@@ -1,0 +1,569 @@
+{
+ "out": "../../output/focus/part5.mp4",
+ "audio": "p5.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 140.0
+  },
+  {
+   "shot": 11,
+   "music": "../../../reels/audio/music/silent-descent.mp3",
+   "start": 50.0
+  },
+  {
+   "shot": 21,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 80.0
+  }
+ ],
+ "music_volume": 0.32,
+ "progress": true,
+ "style": {
+  "grade": "teal",
+  "captions": "highlight",
+  "caption_y": 0.86,
+  "vignette": 0.4,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "The fourth thing is how we rest.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "#4",
+      "white"
+     ],
+     [
+      "FAKE REST",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@rest"
+    ]
+   },
+   "captions": false
+  },
+  {
+   "text": "Or rather, how we think we rest.",
+   "v": {
+    "img": "../img/f-break-scroll.jpg",
+    "focus": [
+     0.55,
+     0.4
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "You work for twenty minutes, you feel tired, so you take a break.",
+   "v": {
+    "video": "../stock/man-laptop-office-4.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And what does the break look like?",
+   "v": {
+    "img": "../img/f-break-scroll.jpg",
+    "focus": [
+     0.55,
+     0.3
+    ],
+    "zoom": 1.5
+   },
+   "music_fx": "muffle",
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Your phone. Videos, news, messages.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "VIDEOS.",
+      "white"
+     ],
+     [
+      "NEWS.",
+      "white"
+     ],
+     [
+      "MESSAGES.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@news",
+     "@messages"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "pop",
+     "at": "@news"
+    },
+    {
+     "name": "pop",
+     "at": "@messages"
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  },
+  {
+   "text": "But that's not a break for your brain. That's more input.",
+   "v": {
+    "mg": "battery",
+    "start": 70,
+    "end": 25,
+    "label": "NOT A BREAK",
+    "at": 0.3
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Faster, louder, more colourful than the work you just left.",
+   "v": {
+    "video": "../stock/traffic-night-6.mp4",
+    "start": 3.0,
+    "zoom": 1.08,
+    "rate": 1.0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "So when you go back,",
+   "v": {
+    "img": "../img/f-boring-start.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "the work feels even slower and even more boring than before.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/f-boring-start.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.25
+   }
+  },
+  {
+   "text": "You've just made the contrast worse.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "THE PHONE",
+     "LOUD"
+    ],
+    "right": [
+     "THE WORK",
+     "DULL"
+    ],
+    "at": "@contrast",
+    "left_at": 0.0
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "It's like taking a break from running by sprinting.",
+   "v": {
+    "img": "../img/f-sprint.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.3,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    },
+    {
+     "name": "whoosh",
+     "at": "@sprinting"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "And then there's the night.",
+   "v": {
+    "video": "../stock/traffic-night-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "pause_before": 0.25,
+   "in": "cut"
+  },
+  {
+   "text": "You get into bed, you're exhausted,",
+   "v": {
+    "img": "../img/f-bed-scroll.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.6,
+     0.45
+    ],
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "and you scroll for an hour anyway.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/f-bed-scroll.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.25
+   }
+  },
+  {
+   "text": "Not because it's fun.",
+   "v": {
+    "video": "../stock/woman-using-phone-5.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Because it's the first moment all day that feels like yours,",
+   "v": {
+    "video": "../stock/bed-phone-dark-0.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "and you don't want to give it up.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "video": "../stock/bed-phone-dark-0.mp4",
+    "start": 7.11,
+    "zoom": 1.24
+   }
+  },
+  {
+   "text": "People call it revenge bedtime procrastination.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "REVENGE BEDTIME",
+      "white"
+     ],
+     [
+      "PROCRASTINATION",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@procrastination"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "reveal",
+     "at": "@procrastination"
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  },
+  {
+   "text": "But you pay for it the next morning,",
+   "v": {
+    "img": "../img/f-tired-morning.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "because a tired brain is a distracted brain.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/f-tired-morning.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.25
+   }
+  },
+  {
+   "text": "Everything in this video gets harder on five hours of sleep.",
+   "v": {
+    "mg": "battery",
+    "start": 40,
+    "end": 8,
+    "label": "5 HOURS OF SLEEP",
+    "at": 0.2
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And there's one more thing that makes all of this worse.",
+   "v": {
+    "video": "../stock/man-staring-window-0.mp4",
+    "start": 2.0,
+    "zoom": 1.08
+   },
+   "in": "rgb",
+   "sfx": [
+    {
+     "name": "zap",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Sometimes you can't focus because you don't know what you're supposed to do next.",
+   "v": {
+    "img": "../img/f-fog.jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.5,
+     0.75
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "\"Work on the project\" isn't a task. It's a fog.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "NOT A",
+     "TASK"
+    ],
+    "right": [
+     "IT'S A",
+     "FOG"
+    ],
+    "at": "@fog",
+    "left_at": 0.0
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "And when your brain looks into a fog, it doesn't want to go in.",
+   "v": {
+    "video": "../stock/fog-forest-4.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "It wants something clear and easy.",
+   "v": {
+    "video": "../stock/walking-park-2.mp4",
+    "start": 4.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And what's always clear and easy? The next video.",
+   "v": {
+    "video": "../stock/smartphone-hand-4.mp4",
+    "start": 3.0,
+    "zoom": 1.2
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": "@next"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "A lot of what feels like a focus problem is really a clarity problem.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "NOT A FOCUS PROBLEM",
+     "A CLARITY PROBLEM"
+    ],
+    "mark": [
+     "A CLARITY PROBLEM"
+    ],
+    "times": [
+     0.0,
+     "@clarity"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "impact",
+     "at": "@clarity",
+     "gain": 0.6
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  }
+ ]
+}

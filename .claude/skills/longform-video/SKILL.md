@@ -109,5 +109,5 @@ renders in `longform/output/`. Sample to copy from: `longform/spotlight-effect/`
 
 `"style": {"grade": "cool"|"warm", "captions": "phrase"|"pill", "caption_y": 0.86, "vignette": 0.38, "grain": 4,
 "chip": {"text": "REASON 2 / 7", "from": 3.0}}`; `"progress": true` for a progress bar instead of a chip.
-Transitions: `cut whip zoom flash glitch dip slide blur`. Graphics: `kinetic title year grid bars list chapter versus
+Transitions: `cut whip zoom flash glitch dip slide blur wipe spin iris push pixel rgb`. Graphics: `kinetic title year grid bars list chapter versus
 recap chat marker quote reason checklist curve` (+ overlays `lower_third scan tag title`).

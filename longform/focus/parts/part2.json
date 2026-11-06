@@ -1,0 +1,809 @@
+{
+ "out": "../../output/focus/part2.mp4",
+ "audio": "p2.wav",
+ "speed": 1.0,
+ "tail": 0.45,
+ "music_fade": 0.5,
+ "music_cues": [
+  {
+   "shot": 0,
+   "music": "../../../reels/audio/music/silent-descent.mp3",
+   "start": 50.0
+  },
+  {
+   "shot": 8,
+   "music": "../../../reels/audio/music/out-of-this-world.mp3",
+   "start": 80.0
+  },
+  {
+   "shot": 30,
+   "music": "../../../reels/audio/music/echoes.mp3",
+   "start": 140.0
+  }
+ ],
+ "music_volume": 0.32,
+ "progress": true,
+ "style": {
+  "grade": "teal",
+  "captions": "highlight",
+  "caption_y": 0.86,
+  "vignette": 0.4,
+  "grain": 5
+ },
+ "shots": [
+  {
+   "text": "A couple of years ago, I noticed I couldn't read anymore.",
+   "v": {
+    "video": "../stock/reading-book-2.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   }
+  },
+  {
+   "text": "Not properly.",
+   "v": {
+    "img": "../img/f-book-reread.jpg",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": 1.5
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "I'd get two pages into a book and",
+   "v": {
+    "img": "../img/f-hand-reflex.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.0,
+    "to": [
+     0.62,
+     0.55
+    ],
+    "to_zoom": 1.6,
+    "drift": 0
+   },
+   "in": "cut"
+  },
+  {
+   "text": "my hand would just reach for my phone.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/f-hand-reflex.jpg",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": 1.25
+   }
+  },
+  {
+   "text": "I didn't decide to do it.",
+   "v": {
+    "video": "../stock/woman-using-phone-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "It just happened, like a reflex.",
+   "v": {
+    "img": "../img/f-hand-reflex.jpg",
+    "focus": [
+     0.66,
+     0.55
+    ],
+    "zoom": 1.8
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    },
+    {
+     "name": "click",
+     "at": "@reflex"
+    }
+   ],
+   "in": "push"
+  },
+  {
+   "text": "At first I thought I was just tired.",
+   "v": {
+    "img": "../img/f-tired-morning.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.3
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Then I thought maybe something was wrong with me.",
+   "v": {
+    "video": "../stock/man-staring-window-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "And then I found the work of a researcher called Gloria Mark.",
+   "v": {
+    "img": "../img/f-stopwatch.jpg",
+    "focus": [
+     0.6,
+     0.45
+    ],
+    "zoom": 1.0,
+    "drift": 0.06
+   },
+   "pause_before": 0.25,
+   "overlays": [
+    {
+     "mg": "lower_third",
+     "title": "GLORIA MARK",
+     "sub": "UC Irvine · attention research",
+     "at": "@Gloria"
+    }
+   ],
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    },
+    {
+     "name": "swoosh-fast",
+     "at": "@Gloria",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "She's spent around twenty years",
+   "v": {
+    "video": "../stock/man-laptop-office-5.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "at the University of California, Irvine,",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "video": "../stock/man-laptop-office-5.mp4",
+    "start": 3.22,
+    "zoom": 1.24
+   }
+  },
+  {
+   "text": "watching how people really use their screens at work.",
+   "v": {
+    "video": "../stock/typing-keyboard-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "Not asking them. Watching,",
+   "v": {
+    "img": "../img/f-stopwatch.jpg",
+    "focus": [
+     0.68,
+     0.4
+    ],
+    "zoom": 1.6
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "first with a stopwatch and later with software.",
+   "v": {
+    "video": "../stock/stopwatch-1.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": "@stopwatch"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "In 2004, people stayed on one screen for about two and a half minutes before switching to something else.",
+   "v": {
+    "mg": "countdown",
+    "title": "TIME ON ONE SCREEN",
+    "steps": [
+     [
+      2004,
+      150,
+      ""
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "tick",
+     "at": "@two"
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  },
+  {
+   "text": "By 2012, it was about seventy-five seconds.",
+   "v": {
+    "video": "../stock/stopwatch-4.mp4",
+    "start": 1.0,
+    "zoom": 1.15
+   },
+   "overlays": [
+    {
+     "mg": "title",
+     "text": "2012: 75 SEC",
+     "at": "@seventy",
+     "y": 0.15,
+     "size": 96
+    }
+   ],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    },
+    {
+     "name": "impact",
+     "at": "@seventy",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "text": "In her more recent studies, it's around forty-seven seconds.",
+   "v": {
+    "mg": "countdown",
+    "title": "TIME ON ONE SCREEN",
+    "steps": [
+     [
+      2004,
+      150,
+      ""
+     ],
+     [
+      2012,
+      75,
+      ""
+     ],
+     [
+      "TODAY",
+      47,
+      ""
+     ]
+    ],
+    "times": [
+     -1.0,
+     -0.6,
+     "@forty"
+    ]
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "impact",
+     "at": "@forty",
+     "gain": 0.6
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  },
+  {
+   "text": "Forty-seven seconds.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "47 SECONDS.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0
+    ]
+   },
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    },
+    {
+     "name": "bass",
+     "gain": 0.7
+    }
+   ],
+   "in": "pixel",
+   "captions": false
+  },
+  {
+   "text": "That's how long the average person",
+   "v": {
+    "img": "../img/f-switching.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.2,
+    "to_zoom": 1.5,
+    "drift": 0
+   },
+   "shake": [],
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "stays on one thing before jumping.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "shake": [
+    "@jumping"
+   ],
+   "v": {
+    "img": "../img/f-switching.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.5
+   }
+  },
+  {
+   "text": "And here's what got me.",
+   "v": {
+    "img": "../img/f-self-interrupt.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.3
+   },
+   "music_fx": "muffle",
+   "in": "cut"
+  },
+  {
+   "text": "A lot of those switches weren't caused by a notification.",
+   "v": {
+    "video": "../stock/phone-on-desk-6.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "overlays": [
+    {
+     "mg": "notify",
+     "title": "Notifications",
+     "text": "No new notifications",
+     "at": 0.3
+    }
+   ],
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.3,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "text": "Nobody interrupted them.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "NOBODY",
+      "white"
+     ],
+     [
+      "INTERRUPTED",
+      "white"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@interrupted"
+    ]
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "They interrupted themselves.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "THEY INTERRUPTED",
+      "white"
+     ],
+     [
+      "THEMSELVES.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@themselves"
+    ]
+   },
+   "in": "rgb",
+   "sfx": [
+    {
+     "name": "zap",
+     "gain": 0.45
+    },
+    {
+     "name": "bass",
+     "at": "@themselves",
+     "gain": 0.6
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Think about that for a second.",
+   "v": {
+    "img": "../img/f-daydream.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.1
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "You open your email, nothing new.",
+   "v": {
+    "video": "../stock/smartphone-hand-4.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "click",
+     "at": "@nothing"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "You check the news, nothing new.",
+   "v": {
+    "video": "../stock/woman-using-phone-0.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "sfx": [
+    {
+     "name": "click",
+     "at": "@nothing"
+    }
+   ],
+   "in": "cut"
+  },
+  {
+   "text": "You open the same app you",
+   "v": {
+    "img": "../img/f-reward-spark.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.0,
+    "to_zoom": 1.4,
+    "drift": 0
+   },
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ],
+   "in": "push"
+  },
+  {
+   "text": "closed thirty seconds ago. Nothing new.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    },
+    {
+     "name": "click",
+     "at": "@Nothing"
+    }
+   ],
+   "v": {
+    "img": "../img/f-reward-spark.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": 1.25
+   }
+  },
+  {
+   "text": "And you do it again anyway.",
+   "v": {
+    "img": "../img/f-juggler.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": 1.1,
+    "drift": 0.06
+   },
+   "in": "cut"
+  },
+  {
+   "text": "That's the first thing you need to understand.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "#1",
+      "white"
+     ],
+     [
+      "IT'S TRAINED",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@understand"
+    ]
+   },
+   "pause_before": 0.25,
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "Your attention isn't broken. It's trained.",
+   "v": {
+    "mg": "versus",
+    "left": [
+     "NOT",
+     "BROKEN"
+    ],
+    "right": [
+     "JUST",
+     "TRAINED"
+    ],
+    "at": "@trained",
+    "left_at": 0.0
+   },
+   "in": "cut",
+   "captions": false
+  },
+  {
+   "text": "Every time you switch, your brain gets a tiny reward.",
+   "v": {
+    "img": "../img/f-reward-spark.jpg",
+    "focus": [
+     0.45,
+     0.35
+    ],
+    "zoom": 1.5
+   },
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    },
+    {
+     "name": "sparkle",
+     "at": "@reward"
+    }
+   ],
+   "in": "flash"
+  },
+  {
+   "text": "Something new. Something different.",
+   "v": {
+    "video": "../stock/smartphone-hand-6.mp4",
+    "start": 1.0,
+    "zoom": 1.08
+   },
+   "in": "cut"
+  },
+  {
+   "text": "A little hit of \"what's this?\"",
+   "v": {
+    "img": "../img/f-reward-spark.jpg",
+    "focus": [
+     0.42,
+     0.3
+    ],
+    "zoom": 1.9
+   },
+   "punch": {
+    "at": "@this",
+    "zoom": 2.2,
+    "focus": [
+     0.42,
+     0.3
+    ]
+   },
+   "in": "push",
+   "sfx": [
+    {
+     "name": "swoosh",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "And anything you repeat thousands of times a day becomes a habit.",
+   "v": {
+    "mg": "marker",
+    "lines": [
+     "THOUSANDS OF TIMES",
+     "= A HABIT"
+    ],
+    "mark": [
+     "= A HABIT"
+    ],
+    "times": [
+     0.0,
+     "@habit"
+    ]
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  },
+  {
+   "text": "You've been practising switching for years.",
+   "v": {
+    "img": "../img/f-juggler.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": 1.4
+   },
+   "in": "flash",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "text": "You're really, really good at it.",
+   "v": {
+    "img": "../img/f-switching.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": 1.5
+   },
+   "in": "cut"
+  },
+  {
+   "text": "You just never practised staying.",
+   "v": {
+    "mg": "kinetic",
+    "lines": [
+     [
+      "YOU NEVER PRACTISED",
+      "white"
+     ],
+     [
+      "STAYING.",
+      "yellow"
+     ]
+    ],
+    "times": [
+     0.0,
+     "@staying"
+    ]
+   },
+   "voice_fx": {
+    "at": "@staying",
+    "fx": "echo"
+   },
+   "in": "pixel",
+   "sfx": [
+    {
+     "name": "glitch-hit",
+     "gain": 0.45
+    }
+   ],
+   "captions": false
+  }
+ ]
+}
