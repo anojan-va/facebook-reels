@@ -863,7 +863,7 @@ def mg_countdown(fr, t, d, p, ctx):
     full = steps[0][1]
     bx, by, bw, bh = 260, H * 0.5, W - 520, 70
     rect(fr, bx, by, bx + bw, by + bh, (35, 40, 48), 1.0)
-    col = YELLOW if i < len(steps) - 1 else RED
+    col = RED if (len(steps) > 1 and i == len(steps) - 1) else YELLOW
     rect(fr, bx, by, bx + bw * val / full, by + bh, col, 1.0)
     secs = f"{int(val) // 60}:{int(val) % 60:02d}" if val >= 60 else f"{int(round(val))} SEC"
     blit(fr, text_layer(secs, ANTON, 190, col, glow=10), W / 2, H * 0.3, scale=1 + 0.2 * (1 - k))

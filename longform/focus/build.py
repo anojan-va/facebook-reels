@@ -116,7 +116,7 @@ P2 = [
      {"mg": "countdown", "title": "TIME ON ONE SCREEN", "steps": [[2004, 150, ""]], "times": [0.0]}, {"sfx": [{"name": "tick", "at": "@two"}]}),
     ("By 2012, it was about seventy-five seconds.", V("stopwatch-4", 1.0, z=1.15), {"overlays": [TITLE("2012: 75 SEC", "@seventy", y=0.15)]}),
     ("In her more recent studies, it's around forty-seven seconds.",
-     {"mg": "countdown", "title": "TIME ON ONE SCREEN", "steps": [[2004, 150, ""], [2012, 75, ""], ["TODAY", 47, ""]], "times": [-1.0, -0.6, "@forty"]},
+     {"mg": "countdown", "title": "TIME ON ONE SCREEN", "steps": [[2004, 150, ""], [2012, 75, ""], ["TODAY", 47, ""]], "times": [-1.0, -0.6, "@around"]},
      {"sfx": [{"name": "impact", "at": "@forty", "gain": 0.6}]}),
     ("Forty-seven seconds.", K(("47 SECONDS.", "yellow")), {"sfx": [{"name": "bass", "gain": 0.7}], "in": "pixel"}),
     ("That's how long the average person stays on one thing before jumping.", I("switching", (.5, .4), 1.2, to_zoom=1.5, drift=0), {"shake": ["@jumping"]}),
