@@ -48,10 +48,10 @@
     "img": "../img/f-phone-away.jpg",
     "focus": [
      0.5,
-     0.5
+     0.32
     ],
-    "zoom": 1.0,
-    "drift": 0.06
+    "zoom": 1.3,
+    "drift": 0.05
    },
    "overlays": [
     {
@@ -189,7 +189,7 @@
    "captions": false
   },
   {
-   "text": "If you're waiting for something urgent, turn the ringer on and you'll hear it.",
+   "text": "If you're waiting for something urgent,",
    "v": {
     "video": "../stock/kitchen-counter-0.mp4",
     "start": 3.0,
@@ -204,15 +204,30 @@
    ]
   },
   {
+   "text": "turn the ringer on and you'll hear it.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "video": "../stock/kitchen-counter-0.mp4",
+    "start": 5.26,
+    "zoom": 1.24
+   }
+  },
+  {
    "text": "The second thing is to train boredom on purpose.",
    "v": {
     "img": "../img/f-coffee-window.jpg",
     "focus": [
      0.45,
-     0.45
+     0.32
     ],
-    "zoom": 1.0,
-    "drift": 0.06
+    "zoom": 1.3,
+    "drift": 0.05
    },
    "overlays": [
     {
@@ -347,7 +362,7 @@
    "captions": false
   },
   {
-   "text": "Every time you sit through it, you're teaching your brain that a slow moment isn't an emergency.",
+   "text": "Every time you sit through it,",
    "v": {
     "img": "../img/f-walk-park.jpg",
     "focus": [
@@ -365,6 +380,24 @@
      "gain": 0.45
     }
    ]
+  },
+  {
+   "text": "you're teaching your brain that a slow moment isn't an emergency.",
+   "in": "cut",
+   "sfx": [
+    {
+     "name": "swoosh-fast",
+     "gain": 0.3
+    }
+   ],
+   "v": {
+    "img": "../img/f-walk-park.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": 1.25
+   }
   },
   {
    "text": "The third thing is to clear the fog before you start.",
@@ -470,9 +503,9 @@
     "img": "../img/f-force-focus.jpg",
     "focus": [
      0.5,
-     0.4
+     0.3
     ],
-    "zoom": 1.2
+    "zoom": 1.35
    },
    "overlays": [
     {
