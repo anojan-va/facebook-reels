@@ -4163,10 +4163,18 @@
   {
    "text": "Car tyres are made with synthetic rubber, mostly from oil.",
    "v": {
-    "video": "stock/tire.mp4",
-    "start": 1.0,
-    "zoom": 1.15,
-    "drift": 0.06
+    "img": "img/tyres.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": 1.0,
+    "drift": 0,
+    "to": [
+     0.5,
+     0.5
+    ],
+    "to_zoom": 1.3
    },
    "in": "zoom",
    "sfx": [

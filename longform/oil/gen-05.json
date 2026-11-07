@@ -1,0 +1,12 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 7,
+ "jobs": [
+  {
+   "out": "img/tyres.jpg",
+   "prompt": "Cinematic photorealistic documentary film still, dramatic lighting, rich colour, teal and amber grade, high detail, anamorphic lens. Horizontal 16:9 widescreen composition. No text, letters, numbers, logos or watermarks anywhere, all screens and signs blank. Scene: a tyre factory with rows of new black car tyres stacked high, warm industrial light, sharp detail on the tread.",
+   "seed": 3700
+  }
+ ]
+}

@@ -244,7 +244,7 @@ CH5 = [
     ("Meanwhile, the stuff we already have is slowly wearing out.", I("rusty-gears", (.5, .5), 1.0, tz=1.25), {"music": "intrigue"}),
     ("Every engine, every machine, every wind turbine needs lubricant to keep moving.", V("wind", 6.0, 1.15), {}),
     ("Most of it comes from oil.", I("oil-can", (.5, .5), 1.0, tz=1.4), {}),
-    ("Car tyres are made with synthetic rubber, mostly from oil.", V("tire", 1.0, 1.15), {}),
+    ("Car tyres are made with synthetic rubber, mostly from oil.", I("tyres", (.5, .5), 1.0, tz=1.3), {}),
     ("Roads are paved with asphalt, which is made from oil too.", V("asphalt", 1.0, 1.15), {}),
     ("Potholes start appearing, and nobody can fill them.", I("pothole", (.5, .5), 1.0, tz=1.35), {"sfx": [{"name": "impact", "at": "@Potholes", "gain": 0.4}]}),
     ("Even your wardrobe changes.", I("wardrobe", (.5, .5), 1.0, tz=1.2), {}),
