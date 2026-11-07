@@ -13,7 +13,7 @@ if [ "${1:-hf}" = hf ] || [ -z "$1" ]; then
   R gauge gauge
   T() { R timeline $1 "{\"set\":\"oil\",\"head\":\"A WORLD WITHOUT OIL\",$2}"; }
   T tl0 '"stop":0,"from":0,"label":""'
-  T tlall '"stop":5,"from":0,"dur":4.2,"label":""'
+  T tlall '"stop":5,"from":0,"dur":3.85,"label":""'
   T tl10 '"stop":5,"label":"+ 10 YEARS"'
   V() { R chapter $1 "$2"; }
   V ch1 '{"label":"+ 1 HOUR","big":"ENGINES OFF","sub":"MAYDAY","size":290}'
