@@ -24,9 +24,11 @@ def S(img, text, focus="wide", zoom=1.0, sfx=(), punch=False, pause=False, drift
 
 
 def HOOK(img, text, focus="wide", zoom=1.25):
-    s = S(img, text, focus, zoom, sfx=["hook", "bass"], punch=True)
+    """Two quick cuts on the hook image: wide with a flash, then a punch-in on the second half of the line."""
+    a, b = text.split("|")
+    s = S(img, a, "wide", 1.0, sfx=["hook"], drift=0.06)
     s["flash"] = True
-    return s
+    return [s, S(img, b, focus, zoom + 0.25, sfx=["bass"], punch=True)]
 
 
 def END(img, text, focus="wide"):
@@ -36,7 +38,7 @@ def END(img, text, focus="wide"):
 VOICE = {"sharp-axe": "voice-cand-2.wav", "monkey-jar": "voice-cand-3.wav"}
 R = {}
 R["sharp-axe"] = ("tense", [
-    HOOK("h0-tired", "Working harder is not always the answer.", "man-face", 1.3),
+    HOOK("h0-tired", "Working harder|is not always the answer.", "man-face", 1.3),
     S("f01-hire", "A young woodcutter got a new job.", pause=True),
     S("f02-pile", "On the first day, he cut eighteen trees.", sfx=["pop"]),
     S("f03-amazed", "His boss was amazed.", C, 1.3, punch=True, sfx=["sparkle"]),
@@ -48,33 +50,37 @@ R["sharp-axe"] = ("tense", [
     S("f07-blade", "\"When did you last sharpen your axe?\"", C, 1.35, punch=True, sfx=["bass"]),
     S("f08-shrug", "\"Sharpen? I had no time.", "man-face", 1.2),
     S("f08-shrug", "I was too busy cutting trees.\"", "wide", 1.0, sfx=["wrong"]),
-    S("f09-sharpen", "Rest is not wasting time.", pause=True),
+    S("f09-sharpen", "Rest is not wasting time.", sfx=["whoosh"]),
     S("f09-sharpen", "It's sharpening your axe.", "man-face", 1.4, punch=True, sfx=["sparkle"]),
     S("k1-rest", "Take care of yourself,", pause=True),
     S("k2-strong", "or you'll keep working harder", "man-face", 1.3),
     END("k2-strong", "for less."),
 ], "Rest is not wasting time.")
 R["lost-watch"] = ("echoes", [
-    HOOK("h0-silent", "The one who wins is often the quietest one.", "man-face", 1.4),
+    HOOK("h0-silent", "The one who wins|is often", "man-face", 1.2),
+    S("h0-silent", "the quietest one.", "man-face", 1.7, punch=True),
     S("g01-lost", "A farmer lost his precious watch", pause=True),
     S("g01-lost", "in a huge barn full of hay.", "wide", 1.1),
     S("g02-reward", "He promised a reward to whoever found it.", sfx=["pop"]),
     S("g03-chaos", "The children searched everywhere,", sfx=["whoosh2"]),
     S("g03-chaos", "shouting and running. Nothing.", C, 1.3, punch=True),
     S("g04-giveup", "One by one, they gave up.", sfx=["heartbeat"]),
-    S("g05-ask", "Then a little boy asked for one more chance.", pause=True),
+    S("g05-ask", "Then a little boy", pause=True),
+    S("g05-ask", "asked for one more chance.", "wide", 1.15),
     S("h0-silent", "He went in alone, sat down,", "wide", 1.0),
     S("h0-silent", "and stayed silent.", "man-face", 1.4, punch=True),
     S("g06-listen", "Soon he heard it.", "man-face", 1.2),
-    S("g07-watch", "Tick... tick... tick.", C, 1.3, sfx=["heartbeat"]),
-    S("g08-found", "He followed the sound and found the watch.", sfx=["sparkle"]),
+    S("g07-watch", "Tick...", C, 1.15, sfx=["heartbeat"]),
+    S("g07-watch", "tick... tick.", C, 1.45, punch=True, sfx=["heartbeat"]),
+    S("g06-listen", "He followed the sound", "man-face", 1.0),
+    S("g08-found", "and found the watch.", sfx=["sparkle"]),
     S("k1-give", "A calm mind finds answers", pause=True),
     S("k1-give", "a noisy one can't.", C, 1.25),
     S("k2-calm", "Sometimes, all you need", "man-face", 1.3),
     END("k2-calm", "is silence."),
 ], "A calm mind finds answers")
 R["golden-buddha"] = ("echoes", [
-    HOOK("h0-crack", "What if your real value is hidden under mud?", C, 1.3),
+    HOOK("h0-crack", "What if your real value|is hidden under mud?", C, 1.3),
     S("j01-gold", "Long ago, monks owned a giant golden statue.", pause=True, sfx=["sparkle"]),
     S("j02-cover", "When an army came, they covered it in thick clay", sfx=["whoosh2"]),
     S("j02-cover", "so nobody would steal it.", C, 1.3),
@@ -92,7 +98,7 @@ R["golden-buddha"] = ("echoes", [
     END("k2-walk", "Start chipping.", "man-face"),
 ], "and the whole statue shone.")
 R["twenty-dollar"] = ("echoes", [
-    HOOK("h0-hold", "No matter what happens to you, remember this.", "man-face", 1.25),
+    HOOK("h0-hold", "No matter what happens to you,|remember this.", "man-face", 1.25),
     S("t01-stage", "A speaker held up a twenty-dollar bill.", pause=True),
     S("t01-stage", "\"Who wants this?\"", "man-face", 1.6, punch=True),
     S("t02-hands", "Every hand went up.", sfx=["pop"]),
@@ -111,7 +117,7 @@ R["twenty-dollar"] = ("echoes", [
     END("k2-light", "Never forget your value."),
 ], "\"It didn't lose its value,\" he said.")
 R["jar-rocks"] = ("echoes", [
-    HOOK("h0-wrong", "Most people fill their life in the wrong order.", C, 1.3),
+    HOOK("h0-wrong", "Most people fill their life|in the wrong order.", C, 1.3),
     S("r01-rocks", "A professor put big rocks into a glass jar.", pause=True),
     S("r01-rocks", "\"Is it full?\"", "man-face", 1.5, punch=True),
     S("r02-yes", "The students said yes.", sfx=["pop"]),
@@ -130,7 +136,7 @@ R["jar-rocks"] = ("echoes", [
     END("k2-done", "will find its place."),
 ], "\"The rocks are your family, your health, your dreams.")
 R["monkey-jar"] = ("tense", [
-    HOOK("h0-stuck", "Your problem might be that you won't let go.", C, 1.3),
+    HOOK("h0-stuck", "Your problem might be|that you won't let go.", C, 1.3),
     S("m01-set", "Hunters had a clever way to catch monkeys.", pause=True),
     S("m02-banana", "They put a banana inside a jar with a narrow neck.", C, 1.2),
     S("m03-reach", "A monkey reached in and grabbed it.", sfx=["pop"]),
@@ -146,22 +152,25 @@ R["monkey-jar"] = ("tense", [
     END("k1-open", "Open your hand."),
 ], "It was free the whole time.")
 R["salt-lake"] = ("tense", [
-    HOOK("h0-sad", "Your pain is not too big.", "man-face", 1.3),
-    S("h0-sad", "Your heart is too small.", "man-face", 1.7, punch=True, sfx=["heartbeat"]),
-    S("s01-visit", "An unhappy young man went to an old master.", pause=True),
+    HOOK("h0-sad", "Your pain is not too big.|Your heart is too small.", "man-face", 1.4),
+    S("s01-visit", "An unhappy young man", pause=True),
+    S("s01-visit", "went to an old master.", C, 1.2),
     S("s02-salt", "The master told him to put a handful of salt", sfx=["whoosh2"]),
     S("s02-salt", "in a glass of water and drink it.", C, 1.25),
     S("s03-drink", "\"How does it taste?\" \"Terrible.\"", "man-face", 1.3, sfx=["wrong"]),
     S("s04-walk", "Then the master took him to a lake", pause=True),
-    S("s05-throw", "and told him to throw the same salt in and drink.", sfx=["whoosh2"]),
-    S("s06-sip", "\"How does it taste now?\" \"Fresh.\"", "man-face", 1.3, sfx=["sparkle"]),
+    S("s05-throw", "and told him to throw", sfx=["whoosh2"]),
+    S("s05-throw", "the same salt in and drink.", "man-face", 1.3),
+    S("s06-sip", "\"How does it taste now?\"", "wide", 1.0),
+    S("s06-sip", "\"Fresh.\"", "man-face", 1.5, punch=True, sfx=["sparkle"]),
     S("s07-master", "\"The pain of life is the same salt.", pause=True),
-    S("s07-master", "What changes is the container.\"", C, 1.3, punch=True),
+    S("s07-master", "What changes", C, 1.2),
+    S("s07-master", "is the container.\"", C, 1.45, punch=True),
     S("k1-lake", "Stop being a glass.", pause=True),
     END("k2-peace", "Become a lake."),
 ], "Then the master took him to a lake")
 R["frog-boil"] = ("tense", [
-    HOOK("h0-desk", "This is how most people waste their life without noticing.", "man-face", 1.25),
+    HOOK("h0-desk", "This is how most people|waste their life without noticing.", "man-face", 1.25),
     S("p01-jump", "Put a frog in boiling water,", pause=True),
     S("p01-jump", "and it jumps out right away.", C, 1.25, sfx=["pop"]),
     S("p02-cool", "But put it in cool water and heat it slowly...", sfx=["whoosh2"]),
@@ -179,22 +188,25 @@ R["frog-boil"] = ("tense", [
     END("k2-free", "Leave while you still can."),
 ], "Don't wait until you can't jump.")
 R["potato-grudge"] = ("tense", [
-    HOOK("h0-sack", "Hating someone hurts you more than them.", "man-face", 1.25),
-    S("q01-bags", "A teacher gave each student a bag and a pile of potatoes.", pause=True),
+    HOOK("h0-sack", "Hating someone|hurts you more than them.", "man-face", 1.25),
+    S("q01-bags", "A teacher gave each student", pause=True),
+    S("q01-bags", "a bag and a pile of potatoes.", C, 1.2),
     S("q02-write", "\"For every person you refuse to forgive,", "man-face", 1.2),
     S("q02-write", "write their name on a potato and put it in the bag.\"", "wide", 1.0),
     S("q03-lift", "Some bags got very heavy.", sfx=["bass"]),
     S("q04-street", "\"Now carry it everywhere for one week.\"", pause=True),
     S("q05-bed", "Every day, the bag felt heavier.", sfx=["heartbeat"]),
     S("q06-rot", "The potatoes began to rot and smell.", C, 1.25, sfx=["glitch"]),
-    S("q07-teacher", "\"This is what grudges do,\" the teacher said.", pause=True),
-    S("q07-teacher", "\"You carry them, and they rot inside you.\"", C, 1.3, punch=True),
+    S("q07-teacher", "\"This is what grudges do,\"", pause=True),
+    S("q07-teacher", "the teacher said.", C, 1.15),
+    S("q07-teacher", "\"You carry them,", C, 1.3),
+    S("q07-teacher", "and they rot inside you.\"", C, 1.5, punch=True, sfx=["heartbeat"]),
     S("k1-down", "Forgive.", pause=True),
     S("k1-down", "Not for them. For you.", "man-face", 1.4, punch=True, sfx=["sparkle"]),
     END("k2-free", "Put the bag down."),
 ], "Forgive.")
 R["farmer-treasure"] = ("echoes", [
-    HOOK("h0-dig", "The real treasure is never where you think.", "man-face", 1.25),
+    HOOK("h0-dig", "The real treasure|is never where you think.", "man-face", 1.25),
     S("v01-bed", "An old farmer was dying.", pause=True),
     S("v01-bed", "He told his lazy sons,", "wide", 1.1),
     S("v01-bed", "\"There's treasure buried in our field.\"", C, 1.35, punch=True, sfx=["sparkle"]),
@@ -215,6 +227,7 @@ if __name__ == "__main__":
     here = Path(__file__).parent
     for slug in sys.argv[1:] or R:
         m1, shots, sw = R[slug]
+        shots = [x for s in shots for x in (s if isinstance(s, list) else [s])]
         i = next(n for n, s in enumerate(shots) if s["text"] == sw)
         cue = lambda k, n: {"music": f"../audio/music/{MUS[k][0]}.mp3", "start": MUS[k][1], "shot": n}
         d = {"out": f"../output/{slug}.mp4", "audio": [VOICE.get(slug, "voice-cand-1.wav")], "speed": 1.0, "music_volume": 0.4,
