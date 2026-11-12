@@ -33,6 +33,7 @@ def END(img, text, focus="wide"):
     return S(img, text, focus, 1.15, drift=-0.08, sfx=["whoosh", {"name": "sparkle", "at": 0.3}])
 
 
+VOICE = {"sharp-axe": "voice-cand-2.wav", "monkey-jar": "voice-cand-3.wav"}
 R = {}
 R["sharp-axe"] = ("tense", [
     HOOK("h0-tired", "Working harder is not always the answer.", "man-face", 1.3),
@@ -216,7 +217,7 @@ if __name__ == "__main__":
         m1, shots, sw = R[slug]
         i = next(n for n, s in enumerate(shots) if s["text"] == sw)
         cue = lambda k, n: {"music": f"../audio/music/{MUS[k][0]}.mp3", "start": MUS[k][1], "shot": n}
-        d = {"out": f"../output/{slug}.mp4", "audio": ["voice-cand-1.wav"], "speed": 1.0, "music_volume": 0.4,
+        d = {"out": f"../output/{slug}.mp4", "audio": [VOICE.get(slug, "voice-cand-1.wav")], "speed": 1.0, "music_volume": 0.4,
              "fade_out": 1.0, "music_cues": [cue(m1, 0), cue("warm", i)], "shots": shots}
         json.dump(d, open(here / slug / "reel.json", "w"), indent=1)
         print(slug, len(shots))
