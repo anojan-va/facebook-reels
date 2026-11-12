@@ -1,0 +1,37 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "2048x1152",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "art-gift-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure with a hopeful sad smile holds out a bright yellow gift box with both hands, while three grey cartoon people stand turned away with their backs to him, looking at their phones. The entire left half of the image is empty solid black.",
+   "seed": 7100
+  },
+  {
+   "out": "art-gift-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure with a hopeful sad smile holds out a bright yellow gift box with both hands, while three grey cartoon people stand turned away with their backs to him, looking at their phones. The entire left half of the image is empty solid black.",
+   "seed": 7101
+  },
+  {
+   "out": "art-doormat-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure lies flat on the floor like a doormat with a sad face, grey shoe prints on his body, a grey cartoon shoe stepping on him from above. The entire left half of the image is empty solid black.",
+   "seed": 7110
+  },
+  {
+   "out": "art-doormat-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a plain white round-headed cartoon stick figure lies flat on the floor like a doormat with a sad face, grey shoe prints on his body, a grey cartoon shoe stepping on him from above. The entire left half of the image is empty solid black.",
+   "seed": 7111
+  },
+  {
+   "out": "art-fade-0.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a group of three colourful cartoon people laughing together in a bright yellow spotlight, and next to them a plain white round-headed stick figure who is fading away, half transparent, with a small sad smile. The entire left half of the image is empty solid black.",
+   "seed": 7120
+  },
+  {
+   "out": "art-fade-1.jpg",
+   "prompt": "YouTube thumbnail, simple flat cartoon illustration, thick clean black outlines, flat colours, very minimal, high contrast, readable at small size. No text, no letters, no numbers, no words anywhere. Correct anatomy: every person has exactly one head, two arms, two hands and two legs. Plain solid pure black background. On the right half: a group of three colourful cartoon people laughing together in a bright yellow spotlight, and next to them a plain white round-headed stick figure who is fading away, half transparent, with a small sad smile. The entire left half of the image is empty solid black.",
+   "seed": 7121
+  }
+ ]
+}
