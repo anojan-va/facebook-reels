@@ -1,0 +1,252 @@
+{
+ "out": "../output/golden-buddha.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 15
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-crack.jpg",
+   "text": "What if your real value",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-crack.jpg",
+   "text": "is hidden under mud?",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/j01-gold.jpg",
+   "text": "Long ago, monks owned",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/j01-gold.jpg",
+   "text": "a giant golden statue.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/j02-cover.jpg",
+   "text": "When an army came, they covered it in thick clay",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/j02-cover.jpg",
+   "text": "so nobody would steal it.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/j03-army.jpg",
+   "text": "The soldiers walked right past.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "img/j03-army.jpg",
+   "text": "They saw only",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.15,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/j03-army.jpg",
+   "text": "an ugly clay statue.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/j04-years.jpg",
+   "text": "For hundreds of years,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/j04-years.jpg",
+   "text": "everyone forgot what was underneath.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/j05-notice.jpg",
+   "text": "One day, a young monk",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/j05-notice.jpg",
+   "text": "noticed a small crack.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/j06-glint.jpg",
+   "text": "Through it, he saw a glint of gold.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/j07-chip.jpg",
+   "text": "He chipped away the clay,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/j08-shine.jpg",
+   "text": "and the whole statue shone.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/k1-face.jpg",
+   "text": "Life covers you in clay:",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-face.jpg",
+   "text": "fear, pain, other people's opinions.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k2-walk.jpg",
+   "text": "But the gold was never gone.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k2-walk.jpg",
+   "text": "Start chipping.",
+   "focus": "man-face",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

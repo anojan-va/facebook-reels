@@ -1,0 +1,212 @@
+{
+ "out": "../output/potato-grudge.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 13
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-sack.jpg",
+   "text": "Hating someone",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-sack.jpg",
+   "text": "hurts you more than them.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/q01-bags.jpg",
+   "text": "A teacher gave each student",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/q01-bags.jpg",
+   "text": "a bag and a pile of potatoes.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/q02-write.jpg",
+   "text": "\"For every person you refuse to forgive,",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/q02-write.jpg",
+   "text": "write their name on a potato and put it in the bag.\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/q03-lift.jpg",
+   "text": "Some bags got very heavy.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/q04-street.jpg",
+   "text": "\"Now carry it everywhere for one week.\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/q05-bed.jpg",
+   "text": "Every day, the bag felt heavier.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/q06-rot.jpg",
+   "text": "The potatoes began to rot and smell.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/q07-teacher.jpg",
+   "text": "\"This is what grudges do,\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/q07-teacher.jpg",
+   "text": "the teacher said.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.15,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/q07-teacher.jpg",
+   "text": "\"You carry them, and they rot inside you.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/k1-down.jpg",
+   "text": "Forgive.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-down.jpg",
+   "text": "Not for them. For you.",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/k2-free.jpg",
+   "text": "Put the bag down.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

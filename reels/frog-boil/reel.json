@@ -1,0 +1,258 @@
+{
+ "out": "../output/frog-boil.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 18
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-desk.jpg",
+   "text": "This is how most people",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-desk.jpg",
+   "text": "waste their life",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/h0-desk.jpg",
+   "text": "without noticing.",
+   "focus": "man-face",
+   "zoom": 1.8,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/p01-jump.jpg",
+   "text": "Put a frog in boiling water,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/p01-jump.jpg",
+   "text": "and it jumps out right away.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/p02-cool.jpg",
+   "text": "But put it in cool water",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/p02-cool.jpg",
+   "text": "and heat it slowly...",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/p03-comfy.jpg",
+   "text": "it stays. It gets comfortable.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/p04-hotter.jpg",
+   "text": "The water gets hotter,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/p04-hotter.jpg",
+   "text": "and the frog",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.15,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/p04-hotter.jpg",
+   "text": "keeps adjusting.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/p05-weak.jpg",
+   "text": "By the time it's too hot,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/p05-weak.jpg",
+   "text": "it has no strength left to jump.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/p05-weak.jpg",
+   "text": "It wasn't the heat that killed it.",
+   "focus": "wide",
+   "zoom": 1.05,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/p05-weak.jpg",
+   "text": "It was waiting too long to leave.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-desk.jpg",
+   "text": "A bad job.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/p06-habit.jpg",
+   "text": "A bad habit.",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/p07-couple.jpg",
+   "text": "A bad relationship.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/k1-leave.jpg",
+   "text": "Don't wait until you can't jump.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k2-free.jpg",
+   "text": "Leave while you still can.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "out": "../output/sharp-axe.mp4",
+ "audio": [
+  "voice-cand-2.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 13
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-tired.jpg",
+   "text": "Working harder",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-tired.jpg",
+   "text": "is not always the answer.",
+   "focus": "man-face",
+   "zoom": 1.55,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/f01-hire.jpg",
+   "text": "A young woodcutter got a new job.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/f02-pile.jpg",
+   "text": "On the first day, he cut eighteen trees.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/f03-amazed.jpg",
+   "text": "His boss was amazed.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/f04-harder.jpg",
+   "text": "The next day, he worked even harder,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/f04-harder.jpg",
+   "text": "but cut only fifteen.",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/f05-stump.jpg",
+   "text": "Then ten. Then just five.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/f06-hands.jpg",
+   "text": "He thought he was getting weak.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/f07-blade.jpg",
+   "text": "His boss asked,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/f07-blade.jpg",
+   "text": "\"When did you last sharpen your axe?\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/f08-shrug.jpg",
+   "text": "\"Sharpen? I had no time.",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/f08-shrug.jpg",
+   "text": "I was too busy cutting trees.\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "wrong"
+   ]
+  },
+  {
+   "image": "img/f09-sharpen.jpg",
+   "text": "Rest is not wasting time.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "img/f09-sharpen.jpg",
+   "text": "It's sharpening your axe.",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/k1-rest.jpg",
+   "text": "Take care of yourself,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k2-strong.jpg",
+   "text": "or you'll keep working harder",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k2-strong.jpg",
+   "text": "for less.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

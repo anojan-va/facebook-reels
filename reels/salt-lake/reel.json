@@ -1,0 +1,218 @@
+{
+ "out": "../output/salt-lake.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 7
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-sad.jpg",
+   "text": "Your pain is not too big.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-sad.jpg",
+   "text": "Your heart is too small.",
+   "focus": "man-face",
+   "zoom": 1.65,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/s01-visit.jpg",
+   "text": "An unhappy young man",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s01-visit.jpg",
+   "text": "went to an old master.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s02-salt.jpg",
+   "text": "The master told him to put a handful of salt",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s02-salt.jpg",
+   "text": "in a glass of water and drink it.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s03-drink.jpg",
+   "text": "\"How does it taste?\" \"Terrible.\"",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "wrong"
+   ]
+  },
+  {
+   "image": "img/s04-walk.jpg",
+   "text": "Then the master took him to a lake",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s05-throw.jpg",
+   "text": "and told him to throw",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s05-throw.jpg",
+   "text": "the same salt in and drink.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s06-sip.jpg",
+   "text": "\"How does it taste now?\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s06-sip.jpg",
+   "text": "\"Fresh.\"",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/s07-master.jpg",
+   "text": "\"The pain of life is the same salt.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s07-master.jpg",
+   "text": "What changes",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s07-master.jpg",
+   "text": "is the container.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.45,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-lake.jpg",
+   "text": "Stop being a glass.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k2-peace.jpg",
+   "text": "Become a lake.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}
