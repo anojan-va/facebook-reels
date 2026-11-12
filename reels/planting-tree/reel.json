@@ -1,0 +1,238 @@
+{
+ "out": "../output/planting-tree.mp4",
+ "audio": [
+  "voice-cand-3.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 7
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-plant.jpg",
+   "text": "The best things you do might be",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-plant.jpg",
+   "text": "for people you'll never meet.",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/t01-dig.jpg",
+   "text": "An old man was",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/t01-dig.jpg",
+   "text": "planting a small mango tree.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t02-laugh.jpg",
+   "text": "A young man laughed.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/t02-laugh.jpg",
+   "text": "\"You're ninety! You'll never eat its fruit.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t03-keep.jpg",
+   "text": "The old man kept digging.",
+   "focus": "man-face",
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t04-memory.jpg",
+   "text": "\"When I was a boy, I ate mangoes",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/t04-memory.jpg",
+   "text": "from trees I didn't plant.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t03-keep.jpg",
+   "text": "Someone planted them for me.\"",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/t05-pat.jpg",
+   "text": "He patted the soil gently.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/t05-pat.jpg",
+   "text": "\"Now I'm planting",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "sfx": [],
+   "drift": 0.05
+  },
+  {
+   "image": "img/t05-pat.jpg",
+   "text": "for someone else.\"",
+   "focus": "man-face",
+   "zoom": 1.65,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/t06-years.jpg",
+   "text": "Years later,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/t06-years.jpg",
+   "text": "the young man sat under that tree",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t06-years.jpg",
+   "text": "with his children, eating its fruit.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t07-understand.jpg",
+   "text": "And he finally understood.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-sapling.jpg",
+   "text": "Plant trees whose shade",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-sapling.jpg",
+   "text": "you'll never sit in.",
+   "focus": "man-face",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

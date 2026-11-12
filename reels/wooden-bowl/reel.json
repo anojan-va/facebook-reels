@@ -1,0 +1,274 @@
+{
+ "out": "../output/wooden-bowl.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 16
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-corner.jpg",
+   "text": "Your children will treat you",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-corner.jpg",
+   "text": "the way you",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "sfx": [
+    "bass"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/h0-corner.jpg",
+   "text": "treat your parents.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.8,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/w01-spill.jpg",
+   "text": "An old grandfather's",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/w01-spill.jpg",
+   "text": "hands were shaking.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w01-spill.jpg",
+   "text": "He spilled food and broke plates.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/w02-send.jpg",
+   "text": "So his son made him eat alone,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/h0-corner.jpg",
+   "text": "in the corner,",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/h0-corner.jpg",
+   "text": "from a wooden bowl.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w04-carve.jpg",
+   "text": "One evening, the son saw his little boy",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/w04-carve.jpg",
+   "text": "carving a piece of wood.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w05-ask.jpg",
+   "text": "\"What are you making?\"",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w06-answer.jpg",
+   "text": "\"A bowl for you and Mom,",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w06-answer.jpg",
+   "text": "for when you get old.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/w07-tears.jpg",
+   "text": "The son froze.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w07-tears.jpg",
+   "text": "Tears filled his eyes.",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-lead.jpg",
+   "text": "That night,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-lead.jpg",
+   "text": "he led his father back to the table.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k2-family.jpg",
+   "text": "And never sent him away again.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/k2-family.jpg",
+   "text": "Children don't listen to what you say.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k2-family.jpg",
+   "text": "They copy what you do.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

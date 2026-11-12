@@ -1,0 +1,248 @@
+{
+ "out": "../output/insult-gift.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 13
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-face.jpg",
+   "text": "Someone insults you.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-face.jpg",
+   "text": "Here's the smartest",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "sfx": [
+    "bass"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/h0-face.jpg",
+   "text": "way to respond.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.75,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/i01-come.jpg",
+   "text": "An angry man walked up to a calm monk",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/i02-insult.jpg",
+   "text": "and insulted him for an hour.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/i03-smile.jpg",
+   "text": "The monk just listened, smiling.",
+   "focus": "man-face",
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/i04-why.jpg",
+   "text": "Finally, the man shouted,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/i04-why.jpg",
+   "text": "\"Why don't you say anything?\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/i05-gift.jpg",
+   "text": "The monk asked,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/i05-gift.jpg",
+   "text": "\"If someone offers you a gift,",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/i05-gift.jpg",
+   "text": "and you don't accept it,",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/i05-gift.jpg",
+   "text": "who does it belong to?\"",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/i06-think.jpg",
+   "text": "\"To the one who offered it.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/i07-exact.jpg",
+   "text": "\"Exactly.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/i07-exact.jpg",
+   "text": "I don't accept your anger.",
+   "focus": "man-face",
+   "zoom": 1.55,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/i07-exact.jpg",
+   "text": "So it still belongs to you.\"",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/i08-leave.jpg",
+   "text": "The man walked away",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/i08-leave.jpg",
+   "text": "speechless.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-calm.jpg",
+   "text": "Their insult is their gift.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-calm.jpg",
+   "text": "You don't have to take it.",
+   "focus": "man-face",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

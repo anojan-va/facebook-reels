@@ -1,0 +1,19 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/cand/m06-many-c.jpg",
+   "refs": [],
+   "seed": 14082,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a hall full of tall mirrors on every wall in thin white line art, endless reflections. Scene: a small angry dog drawn all in WHITE (white fur), NOT black-filled stands in the middle of the hall growling; in every mirror on both walls its reflections growl back with bared teeth; ALL reflections are WHITE-filled dogs with thin dark outlines, NOT black, no dark dogs at all. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/m06-many-d.jpg",
+   "refs": [],
+   "seed": 14083,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a hall full of tall mirrors on every wall in thin white line art, endless reflections. Scene: a small angry dog drawn all in WHITE (white fur), NOT black-filled stands in the middle of the hall growling; in every mirror on both walls its reflections growl back with bared teeth; ALL reflections are WHITE-filled dogs with thin dark outlines, NOT black, no dark dogs at all. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  }
+ ]
+}

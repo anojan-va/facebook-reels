@@ -5,7 +5,29 @@ from pathlib import Path
 
 from build40 import C, END, HOOK, MUS, S
 
-VOICE = {}
+LONG = json.load(open(Path(__file__).parent / "split50.json")) if (Path(__file__).parent / "split50.json").exists() else {}
+
+
+def split(s):
+    """Cut a shot longer than 3.1 s at the phrase break nearest its middle; the second half reframes the same image."""
+    w = s["text"].split()
+    breaks = [i for i in range(1, len(w)) if w[i - 1][-1] in ",.!?:;"] or [len(w) // 2]
+    k = min(breaks, key=lambda i: abs(i - len(w) / 2))
+    a, b = dict(s), dict(s)
+    a["text"], b["text"] = " ".join(w[:k]), " ".join(w[k:])
+    if s.get("drift", 0) < 0:                     # closing pull-out: keep it on the second half
+        a.update(focus="wide", zoom=1.0, drift=0.05, sfx=[x for x in s["sfx"] if isinstance(x, dict) and x.get("at", 0) < 0])
+        b["sfx"] = [x for x in s["sfx"] if not (isinstance(x, dict) and x.get("at", 0) < 0)]
+    else:
+        b.pop("pause_before", None); b.pop("flash", None)
+        b.update(focus=C if s["focus"] == "wide" else s["focus"], zoom=round(s["zoom"] + 0.25, 2), sfx=[])
+        b.pop("punch", None); b["drift"] = 0.05
+        if s.get("punch"):
+            a.pop("punch"); a["drift"] = 0.05; b["punch"] = True; b.pop("drift")
+    return [a, b]
+
+
+VOICE = {"echo-life": "voice-cand-3.wav", "planting-tree": "voice-cand-3.wav"}
 R = {}
 R["echo-life"] = ("echoes", [
     HOOK("h0-shout", "Whatever you send out|comes back to you.", "man-face", 1.2),
@@ -41,7 +63,8 @@ R["empty-boat"] = ("tense", [
     S("b07-push", "There was no one to blame.", "wide", 1.0),
     S("b07-push", "The crash was the same.", "man-face", 1.3),
     S("k1-sunrise", "Only his story changed.", pause=True),
-    S("k1-sunrise", "Every time someone hits your boat, remember:", "man-face", 1.25),
+    S("k1-sunrise", "Every time someone", "wide", 1.05),
+    S("k1-sunrise", "hits your boat, remember:", "man-face", 1.3),
     END("k2-peace", "maybe they're just an empty boat."),
 ], "Only his story changed.")
 R["wooden-bowl"] = ("tense", [
@@ -92,7 +115,8 @@ R["insult-gift"] = ("tense", [
     S("i06-think", "\"To the one who offered it.\"", C, 1.2),
     S("i07-exact", "\"Exactly. I don't accept your anger.", "man-face", 1.3, sfx=["sparkle"]),
     S("i07-exact", "So it still belongs to you.\"", "man-face", 1.7, punch=True),
-    S("i08-leave", "The man walked away speechless.", sfx=["whoosh2"]),
+    S("i08-leave", "The man walked away", sfx=["whoosh2"]),
+    S("i08-leave", "speechless.", C, 1.3, punch=True),
     S("k1-calm", "Their insult is their gift.", pause=True),
     END("k1-calm", "You don't have to take it.", "man-face"),
 ], "\"Exactly. I don't accept your anger.")
@@ -107,10 +131,14 @@ R["bird-branch"] = ("tense", [
     S("r05-calm", "But the bird didn't panic.", pause=True),
     S("r05-calm", "It didn't even look down.", C, 1.4, punch=True),
     S("r06-fly", "When the branch broke,", sfx=["bass"]),
-    S("r06-fly", "the bird simply opened its wings and flew.", "wide", 1.0, sfx=["sparkle"]),
+    S("r06-fly", "the bird simply opened its wings", "wide", 1.0),
+    S("r07-sky", "and flew.", C, 1.2, sfx=["sparkle"]),
     S("r07-sky", "Its trust was never in the branch.", pause=True),
-    S("r07-sky", "It was in its own wings.", C, 1.3, sfx=["sparkle"]),
-    S("k0-box", "Jobs break. People leave. Plans fail.", pause=True, sfx=["heartbeat"]),
+    S("r07-sky", "It was in its own", "wide", 1.05),
+    S("r07-sky", "wings.", C, 1.5, punch=True, sfx=["sparkle"]),
+    S("k0-box", "Jobs break.", pause=True, sfx=["heartbeat"]),
+    S("k0-box", "People leave.", "man-face", 1.3, sfx=["heartbeat"]),
+    S("k0-box", "Plans fail.", "wide", 1.1, sfx=["heartbeat"]),
     S("k1-wings", "Build your wings,", "man-face", 1.3),
     END("k1-wings", "and no branch can scare you."),
 ], "Its trust was never in the branch.")
@@ -188,7 +216,8 @@ if __name__ == "__main__":
     for slug in sys.argv[1:] or R:
         m1, shots, sw = R[slug]
         shots = [x for s in shots for x in (s if isinstance(s, list) else [s])]
-        i = next(n for n, s in enumerate(shots) if s["text"] == sw)
+        shots = [x for s in shots for x in (split(s) if s["text"] in LONG.get(slug, ()) else [s])]
+        i = next(n for n, s in enumerate(shots) if sw.startswith(s["text"]))
         cue = lambda k, n: {"music": f"../audio/music/{MUS[k][0]}.mp3", "start": MUS[k][1], "shot": n}
         d = {"out": f"../output/{slug}.mp4", "audio": [VOICE.get(slug, "voice-cand-1.wav")], "speed": 1.0,
              "music_volume": 0.4, "fade_out": 1.0, "music_cues": [cue(m1, 0), cue("warm", i)], "shots": shots}

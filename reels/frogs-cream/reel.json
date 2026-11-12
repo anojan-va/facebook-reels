@@ -1,0 +1,238 @@
+{
+ "out": "../output/frogs-cream.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 11
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-kick.jpg",
+   "text": "This tiny story could change",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-kick.jpg",
+   "text": "how you face problems.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/c01-fall.jpg",
+   "text": "Two frogs fell into",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "pop"
+   ]
+  },
+  {
+   "image": "img/c01-fall.jpg",
+   "text": "a deep bucket of cream.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/c02-walls.jpg",
+   "text": "The walls were too slippery to climb.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "wrong"
+   ]
+  },
+  {
+   "image": "img/c03-sink.jpg",
+   "text": "The first frog said, \"It's hopeless,\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/c03-sink.jpg",
+   "text": "stopped swimming, and sank.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/c04-tired.jpg",
+   "text": "The second frog was just as tired.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/c04-tired.jpg",
+   "text": "But he refused to give up.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.4,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/c05-kicking.jpg",
+   "text": "He kicked. And kicked. And kicked.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop",
+    {
+     "name": "pop",
+     "at": 0.6
+    },
+    {
+     "name": "pop",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "image": "img/c05-kicking.jpg",
+   "text": "Hours passed.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/c06-butter.jpg",
+   "text": "Slowly, his kicking churned the cream into butter.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/c06-butter.jpg",
+   "text": "It became solid.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/c07-jump.jpg",
+   "text": "He climbed on top and jumped out.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "img/k1-climb.jpg",
+   "text": "When you feel like quitting, keep kicking.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k2-top.jpg",
+   "text": "Your problem might turn into",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k2-top.jpg",
+   "text": "the ground you stand on.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

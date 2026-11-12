@@ -1,0 +1,11 @@
+P = {}
+P["echo-life"] = "h0-shout-a e01-walk-a e02-trip-a e03-echo-a e04-who-b e05-angry-a e06-father-b e07-amazed-b k1-sunset-b k2-love-b"
+P["empty-boat"] = "h0-yell-b b01-row-a b02-crash=b02-crash-d b03-furious-a b04-shout-a b05-empty-a b06-calm-a b07-push-a k1-sunrise-a k2-peace-b"
+P["wooden-bowl"] = "h0-corner-a w01-spill-a w02-send-b w03-bowl-b w04-carve-a w05-ask=w05-ask-c w06-answer-a w07-tears-b k1-lead-a k2-family-b"
+P["thousand-mirrors"] = "h0-growl-b k1-mirror-b k2-smile-a m01-house-b m02-enter-b m03-wag-b m04-leave-b m05-enter2-b m06-many=m06-many-d m07-run-a"
+P["insult-gift"] = "h0-face=h0-face-c i01-come=i01-come-c i02-insult=i02-insult-d i03-smile-a i04-why-a i05-gift-a i06-think-a i07-exact-a i08-leave-a k1-calm-b"
+P["bird-branch"] = "h0-crack-b r01-sit-a r02-wind-a r03-break-b r04-animals-a r05-calm-a r06-fly-b r07-sky-a k0-box-a k1-wings-a"
+P["planting-tree"] = "h0-plant-a t01-dig-a t02-laugh-a t03-keep-a t04-memory-b t05-pat-a t06-years-b t07-understand-a k1-sapling-a"
+P["frogs-cream"] = "h0-kick-b c01-fall-b c02-walls-a c03-sink-a c04-tired-a c05-kicking-b c06-butter-b c07-jump-a k1-climb-a k2-top-b"
+P["leather-shoes"] = "h0-feet=h0-feet-c l01-walk=l01-walk-c l02-order-a l03-ministers-a l04-cows-b l05-servant=l05-servant-e l06-laugh-a l07-shoes-a k1-wear-a"
+P["two-bricks"] = "h0-stare-b k01-build-a k02-care-a k03-done-b k04-crooked-a k05-ashamed-a k06-visitor-a k07-point-b k08-cry-a k1-whole-a"
