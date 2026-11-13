@@ -1,0 +1,19 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 4,
+ "jobs": [
+  {
+   "out": "img/cand/a07-three-c.jpg",
+   "refs": [],
+   "seed": 18246,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a deep river in a forest in thin white line art, tall trees, rocks on the bank. Scene: the main character in his mustard-YELLOW hoodie, black cargo pants and white sneakers, with a short brown beard, smiles amazed and grateful, hugging THREE axes against his chest with both arms: one shining GOLD axe, one shining SILVER axe and one plain old iron axe with a wooden handle, all three clearly visible. Only he and the golden axe have colour. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/a07-three-d.jpg",
+   "refs": [],
+   "seed": 18247,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a deep river in a forest in thin white line art, tall trees, rocks on the bank. Scene: the main character in his mustard-YELLOW hoodie, black cargo pants and white sneakers, with a short brown beard, smiles amazed and grateful, hugging THREE axes against his chest with both arms: one shining GOLD axe, one shining SILVER axe and one plain old iron axe with a wooden handle, all three clearly visible. Only he and the golden axe have colour. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  }
+ ]
+}

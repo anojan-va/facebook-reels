@@ -1,0 +1,268 @@
+{
+ "out": "../output/three-sieves.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 16
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-stop.jpg",
+   "text": "Before you repeat what you heard,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-stop.jpg",
+   "text": "ask yourself",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "sfx": [
+    "bass"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/h0-stop.jpg",
+   "text": "three questions.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.75,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/t01-run.jpg",
+   "text": "A man ran to Socrates.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/t01-run.jpg",
+   "text": "\"I have news about your friend!\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/t02-one.jpg",
+   "text": "\"Wait. First, is it true?\"",
+   "focus": "man-face",
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t03-shrug.jpg",
+   "text": "\"Well, I just heard it.\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t04-two.jpg",
+   "text": "\"Second, is it good?\"",
+   "focus": "man-face",
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/t05-bad.jpg",
+   "text": "\"No, it's quite bad.\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t06-three.jpg",
+   "text": "\"Third, is it useful to me?\"",
+   "focus": "man-face",
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/t05-bad.jpg",
+   "text": "\"Not really.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/t06-three.jpg",
+   "text": "Socrates smiled.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/h0-stop.jpg",
+   "text": "\"If it's not true,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-stop.jpg",
+   "text": "not good and not useful,",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-stop.jpg",
+   "text": "why tell me at all?\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/t07-quiet.jpg",
+   "text": "The man went quiet.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/k1-wise.jpg",
+   "text": "Most drama would disappear if",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-wise.jpg",
+   "text": "we asked these three questions.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-wise.jpg",
+   "text": "True.",
+   "focus": "man-face",
+   "zoom": 1.4,
+   "drift": 0.05,
+   "sfx": [
+    "pop",
+    {
+     "name": "pop",
+     "at": 0.5
+    },
+    {
+     "name": "pop",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "image": "img/k1-wise.jpg",
+   "text": "Good. Useful.",
+   "focus": "man-face",
+   "zoom": 1.65,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-wise.jpg",
+   "text": "Or stay silent.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

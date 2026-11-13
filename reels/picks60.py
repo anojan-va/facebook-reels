@@ -1,0 +1,11 @@
+P = {}
+P["stone-cutter-100"] = "h0-strike-a s01-first-b s02-sweat=s02-sweat-c s03-laugh-a s04-again-a s05-split=s05-split-c s06-lucky=s06-lucky-d s07-knows-a k1-next-a"
+P["camel-hump"] = "h0-zoo-a c01-ask-a c02-hump-b c03-lashes-b c04-feet-a c05-think-a c06-stuck-a k0-office-a k1-desert-a"
+P["pencil-lesson"] = "h0-pencil-a k1-boy-a p01-writing-a p02-boy-a p03-show=p02-boy-b p04-hand=p01-writing-b p05-sharpen-a p06-erase-a p07-inside-b"
+P["hole-in-boat"] = "h0-hole-a h01-hire=h01-hire-c h02-paint-a h03-notice-b h04-kids-a h05-run-a h06-reward=h05-run-b h07-surprised-b k1-sunset-b"
+P["blind-lamp"] = "h0-lamp-a b01-walk-a b02-laugh-a b03-smile-a b04-path-a b05-quiet-b k1-hero-a k2-glow-b"
+P["donkey-salt"] = "h0-fall-b d01-load=d01-load-c d02-cross-a d03-light-a d04-sneaky-b d05-notice-b d06-sponges-b d07-heavy-a k1-hero-b"
+P["wolf-sheep"] = "h0-disguise-b w01-watch-a w02-shepherd=k1-flock-a w03-walk-b w04-sleep=w04-sleep-c w05-dark-a w06-grab-a w07-caught-a k1-flock-b"
+P["three-sieves"] = "h0-stop-a t01-run-b t02-one=k1-wise-b t03-shrug-a t04-two=k1-wise-b t05-bad-a t06-three=k1-wise-b t07-quiet-a k1-wise-a"
+P["woodcutter-axe"] = "h0-gold-b a01-chop-a a02-drop-a a03-cry-b a04-offer-b a05-silver-a a06-iron-b a07-three=a07-three-c k1-walk-b"
+P["two-seeds"] = "h0-hen-a g01-two-a g02-roots-a g03-sun-b g04-scared-a g05-wait-b g06-eat-a k1-hero-a k2-tall-b"

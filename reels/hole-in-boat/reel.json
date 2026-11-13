@@ -1,0 +1,253 @@
+{
+ "out": "../output/hole-in-boat.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 17
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-hole.jpg",
+   "text": "The smallest thing you do",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-hole.jpg",
+   "text": "could save",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "sfx": [
+    "bass"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/h0-hole.jpg",
+   "text": "someone's whole family.",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/h01-hire.jpg",
+   "text": "A man hired a painter to paint his boat.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/h02-paint.jpg",
+   "text": "While painting,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/h03-notice.jpg",
+   "text": "the painter noticed a small hole",
+   "focus": "man-face",
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-hole.jpg",
+   "text": "and quietly fixed it.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/h05-run.jpg",
+   "text": "Weeks later,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/h05-run.jpg",
+   "text": "the man ran to him with a big reward.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h06-reward.jpg",
+   "text": "\"You fixed the hole?\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h07-surprised.jpg",
+   "text": "\"Yes,",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h07-surprised.jpg",
+   "text": "but you only paid me to paint.\"",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h04-kids.jpg",
+   "text": "\"My children took the boat",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/h04-kids.jpg",
+   "text": "to sea while I was away.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h04-kids.jpg",
+   "text": "Without your fix, they would have drowned.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/h07-surprised.jpg",
+   "text": "The painter",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "sfx": [],
+   "drift": 0.05
+  },
+  {
+   "image": "img/h07-surprised.jpg",
+   "text": "never knew.",
+   "focus": "man-face",
+   "zoom": 1.75,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/k1-sunset.jpg",
+   "text": "Do the small good things,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-sunset.jpg",
+   "text": "even when no one asks.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-sunset.jpg",
+   "text": "You may never know",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-sunset.jpg",
+   "text": "whose life you saved.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}
