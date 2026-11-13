@@ -10,7 +10,7 @@ from build40 import C, END, HOOK, MUS, S
 
 HERE = Path(__file__).parent
 LONG = json.load(open(HERE / "split60.json")) if (HERE / "split60.json").exists() else {}
-VOICE = {}
+VOICE = {"donkey-salt": "voice-cand-2.wav"}
 R = {}
 R["stone-cutter-100"] = ("tense", [
     HOOK("h0-strike", "You might be one hit away|from breaking through.", "man-face", 1.2),
