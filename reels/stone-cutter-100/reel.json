@@ -1,7 +1,7 @@
 {
  "out": "../output/stone-cutter-100.mp4",
  "audio": [
-  "voice-cand-1.wav"
+  "voice-cand-2.wav"
  ],
  "speed": 1.0,
  "music_volume": 0.4,
@@ -15,7 +15,7 @@
   {
    "music": "../audio/music/fifth-of-february.mp3",
    "start": 4.85,
-   "shot": 20
+   "shot": 15
   }
  ],
  "shots": [
@@ -42,7 +42,7 @@
   },
   {
    "image": "img/s01-first.jpg",
-   "text": "A stonecutter hit a",
+   "text": "A stonecutter hit a giant rock with his hammer.",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
@@ -54,18 +54,6 @@
     },
     "bass"
    ]
-  },
-  {
-   "image": "img/s01-first.jpg",
-   "text": "giant rock with his hammer.",
-   "focus": [
-    0.5,
-    0.5,
-    0.5
-   ],
-   "zoom": 1.25,
-   "drift": 0.05,
-   "sfx": []
   },
   {
    "image": "img/s01-first.jpg",
@@ -81,7 +69,7 @@
   },
   {
    "image": "img/s02-sweat.jpg",
-   "text": "Ten times.",
+   "text": "Ten times. Nothing.",
    "focus": "man-face",
    "zoom": 1.2,
    "drift": 0.05,
@@ -90,34 +78,14 @@
    ]
   },
   {
-   "image": "img/s02-sweat.jpg",
-   "text": "Nothing.",
-   "focus": "man-face",
-   "zoom": 1.45,
-   "drift": 0.05,
-   "sfx": []
-  },
-  {
    "image": "img/s04-again.jpg",
-   "text": "Fifty times.",
+   "text": "Fifty times. Not even a crack.",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
    "sfx": [
     "bass"
    ]
-  },
-  {
-   "image": "img/s04-again.jpg",
-   "text": "Not even a crack.",
-   "focus": [
-    0.5,
-    0.5,
-    0.5
-   ],
-   "zoom": 1.25,
-   "drift": 0.05,
-   "sfx": []
   },
   {
    "image": "img/s03-laugh.jpg",
@@ -203,53 +171,29 @@
   },
   {
    "image": "img/s07-knows.jpg",
-   "text": "It wasn't the last",
+   "text": "It wasn't the last blow that broke it.",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
    "sfx": []
   },
   {
-   "image": "img/s07-knows.jpg",
-   "text": "blow that broke it.",
-   "focus": [
-    0.5,
-    0.5,
-    0.5
-   ],
-   "zoom": 1.25,
-   "drift": 0.05,
-   "sfx": []
-  },
-  {
    "image": "img/s04-again.jpg",
-   "text": "It was all",
+   "text": "It was all hundred before it.",
    "focus": [
     0.5,
     0.5,
     0.5
    ],
    "zoom": 1.3,
+   "punch": true,
    "sfx": [
     "sparkle"
-   ],
-   "drift": 0.05
-  },
-  {
-   "image": "img/s04-again.jpg",
-   "text": "hundred before it.",
-   "focus": [
-    0.5,
-    0.5,
-    0.5
-   ],
-   "zoom": 1.55,
-   "sfx": [],
-   "punch": true
+   ]
   },
   {
    "image": "img/k1-next.jpg",
-   "text": "Don't quit because you",
+   "text": "Don't quit because you can't see the crack yet.",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
@@ -260,18 +204,6 @@
      "at": -0.15
     }
    ]
-  },
-  {
-   "image": "img/k1-next.jpg",
-   "text": "can't see the crack yet.",
-   "focus": [
-    0.5,
-    0.5,
-    0.5
-   ],
-   "zoom": 1.25,
-   "drift": 0.05,
-   "sfx": []
   },
   {
    "image": "img/k1-next.jpg",
