@@ -94,7 +94,7 @@
   },
   {
    "image": "img/w03-turtle.jpg",
-   "text": "One day,",
+   "text": "One day, a turtle from the ocean",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
@@ -108,7 +108,7 @@
   },
   {
    "image": "img/w03-turtle.jpg",
-   "text": "a turtle from the ocean looked down into the well.",
+   "text": "looked down into the well.",
    "focus": [
     0.5,
     0.5,

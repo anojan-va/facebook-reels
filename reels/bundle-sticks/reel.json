@@ -61,7 +61,7 @@
   },
   {
    "image": "img/s02-give.jpg",
-   "text": "One day,",
+   "text": "One day, he gave each son a single stick.",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
@@ -69,14 +69,14 @@
   },
   {
    "image": "img/s02-give.jpg",
-   "text": "he gave each son a single stick. \"Break it.\"",
+   "text": "\"Break it.\"",
    "focus": [
     0.5,
     0.5,
     0.5
    ],
-   "zoom": 1.25,
-   "drift": 0.05,
+   "zoom": 1.35,
+   "punch": true,
    "sfx": []
   },
   {

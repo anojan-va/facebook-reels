@@ -15,7 +15,7 @@
   {
    "music": "../audio/music/fifth-of-february.mp3",
    "start": 4.85,
-   "shot": 16
+   "shot": 15
   }
  ],
  "shots": [
@@ -183,19 +183,11 @@
   },
   {
    "image": "img/r06-sit.jpg",
-   "text": "I wish I could have",
+   "text": "I wish I could have given him this beautiful moon.\"",
    "focus": "man-face",
    "zoom": 1.5,
-   "sfx": [],
-   "drift": 0.05
-  },
-  {
-   "image": "img/r06-sit.jpg",
-   "text": "given him this beautiful moon.\"",
-   "focus": "man-face",
-   "zoom": 1.75,
-   "sfx": [],
-   "punch": true
+   "punch": true,
+   "sfx": []
   },
   {
    "image": "img/k1-moon.jpg",

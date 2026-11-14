@@ -59,26 +59,26 @@
    ]
   },
   {
+   "image": "img/g01-goose.jpg",
+   "text": "One morning, he found",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
    "image": "img/g02-find.jpg",
-   "text": "One morning,",
+   "text": "a shining golden egg in her nest.",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
    "sfx": [
     "sparkle"
    ]
-  },
-  {
-   "image": "img/g02-find.jpg",
-   "text": "he found a shining golden egg in her nest.",
-   "focus": [
-    0.5,
-    0.5,
-    0.5
-   ],
-   "zoom": 1.25,
-   "drift": 0.05,
-   "sfx": []
   },
   {
    "image": "img/h0-egg.jpg",

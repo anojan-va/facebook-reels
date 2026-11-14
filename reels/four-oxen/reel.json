@@ -162,7 +162,7 @@
   },
   {
    "image": "img/o05-alone.jpg",
-   "text": "Finally,",
+   "text": "Finally, each ox went to graze alone",
    "focus": "wide",
    "zoom": 1.0,
    "drift": 0.05,
@@ -176,7 +176,7 @@
   },
   {
    "image": "img/o05-alone.jpg",
-   "text": "each ox went to graze alone in a different corner of the field.",
+   "text": "in a different corner of the field.",
    "focus": [
     0.5,
     0.5,
