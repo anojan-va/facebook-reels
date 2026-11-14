@@ -1,0 +1,251 @@
+{
+ "out": "../output/cried-wolf.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 15
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-scream.jpg",
+   "text": "One lie",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-scream.jpg",
+   "text": "can cost you everything.",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/w01-bored.jpg",
+   "text": "A shepherd boy was bored watching his sheep.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/w02-shout.jpg",
+   "text": "So he shouted, \"Wolf! Wolf!\"",
+   "focus": "man-face",
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/w03-run.jpg",
+   "text": "The villagers ran up the hill to help.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/w04-laugh.jpg",
+   "text": "But there was no wolf. The boy laughed.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w02-shout.jpg",
+   "text": "A few days later,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/w02-shout.jpg",
+   "text": "he did it again. \"Wolf!\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w03-run.jpg",
+   "text": "Again, the villagers came running.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w05-angry.jpg",
+   "text": "Again, no wolf.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "wrong"
+   ]
+  },
+  {
+   "image": "img/w06-wolf.jpg",
+   "text": "Then one evening,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/w06-wolf.jpg",
+   "text": "a real wolf came.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-scream.jpg",
+   "text": "The boy screamed, \"Wolf! Please help!\"",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/w07-nobody.jpg",
+   "text": "But this time, nobody came.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w07-nobody.jpg",
+   "text": "They thought he was lying again.",
+   "focus": "wide",
+   "zoom": 1.05,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-sad.jpg",
+   "text": "Trust takes years to",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-sad.jpg",
+   "text": "build and seconds to break.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-sad.jpg",
+   "text": "Never lie,",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-sad.jpg",
+   "text": "because one day",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-sad.jpg",
+   "text": "you'll need someone to believe you.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

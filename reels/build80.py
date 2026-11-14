@@ -10,7 +10,7 @@ from build40 import C, END, HOOK, MUS, S
 
 HERE = Path(__file__).parent
 LONG = json.load(open(HERE / "split80.json")) if (HERE / "split80.json").exists() else {}
-VOICE = {}
+VOICE = {"cookie-thief": "voice-cand-2.wav", "tortoise-hare": "voice-cand-3.wav"}
 R = {}
 R["long-spoons"] = ("echoes", [
     HOOK("h0-feed", "The difference between heaven and hell|might shock you.", C, 1.3),
@@ -120,7 +120,9 @@ R["cried-wolf"] = ("tense", [
     S("w07-nobody", "But this time, nobody came.", C, 1.25),
     S("w07-nobody", "They thought he was lying again.", "wide", 1.05),
     S("k1-sad", "Trust takes years to build and seconds to break.", pause=True),
-    END("k1-sad", "Never lie, because one day you'll need someone to believe you."),
+    S("k1-sad", "Never lie,", "man-face", 1.3),
+    S("k1-sad", "because one day", "wide", 1.0),
+    END("k1-sad", "you'll need someone to believe you."),
 ], "Trust takes years to build and seconds to break.")
 R["thirsty-crow"] = ("echoes", [
     HOOK("h0-pebble", "When the answer seems impossible,|think differently.", C, 1.3),

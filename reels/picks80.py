@@ -1,0 +1,11 @@
+P = {}
+P["long-spoons"] = "h0-feed=h0-feed-d l01-ask-a l02-hell-a l03-spoon-a l04-watch-a l05-heaven-a l06-smile-a k1-share-b"
+P["ant-grasshopper"] = "h0-snow=h0-snow-e a01-carry-a a02-line-b a03-sing-a a04-laugh-b a05-winter-a a06-warm-b k1-hero-a"
+P["tortoise-hare"] = "h0-finish-a t01-mock-a t02-start-a t03-zoom-b t04-nap-a t05-walk-b t06-wake-b t07-run-b k1-hero-b"
+P["cookie-thief"] = "h0-take-a c01-sit-b c02-stranger-b c03-he-takes-a c04-furious-b c05-half-a c06-leave-b c07-bag-a k1-kind-a"
+P["bear-friend"] = "h0-sniff-a f01-walk-a f02-bear-a f03-climb-a f04-alone-b f05-leave-a f06-down-b f07-answer-a k1-alone-a"
+P["miser-gold"] = "h0-stare-a m01-sell-a m02-bury-b m03-visit-b m04-thief-b m05-cry-b m06-neighbor-b m07-stone-b k1-share-a"
+P["cried-wolf"] = "h0-scream-b w01-bored-a w02-shout-b w03-run-a w04-laugh-b w05-angry-a w06-wolf-b w07-nobody-b k1-sad-a"
+P["thirsty-crow"] = "h0-pebble-a c01-search-a c02-found-a c03-low-a c04-push-a c05-think-b c06-rise-b c07-drink-a k1-hero-a"
+P["empty-pot"] = "h0-pot-b p01-seeds-a p02-plant=p03-water-a p03-water-b p04-nothing-b p05-flowers-b p06-smile-a p07-boiled-b k1-crown-b"
+P["sour-grapes"] = "h0-nose-a g01-see-a g02-jump-b g03-higher-b g04-tired-b k0-hero-b k1-reach-b"

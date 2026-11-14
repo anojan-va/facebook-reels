@@ -1,0 +1,25 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "img/cand/h0-snow-c.jpg",
+   "refs": [],
+   "seed": 26041,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a meadow in a heavy BLIZZARD at night in thin white line art; thick white snow covers the ground, big snowflakes falling everywhere, frozen grass. Scene: close-up: a grasshopper drawn all in WHITE, NOT black-filled, NOT green sits half-buried in white snow, hugging itself with its front legs, shivering, sad hungry eyes, icicles hanging from its antennae, snowflakes on its back. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/h0-snow-d.jpg",
+   "refs": [],
+   "seed": 26042,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a meadow in a heavy BLIZZARD at night in thin white line art; thick white snow covers the ground, big snowflakes falling everywhere, frozen grass. Scene: close-up: a grasshopper drawn all in WHITE, NOT black-filled, NOT green sits half-buried in white snow, hugging itself with its front legs, shivering, sad hungry eyes, icicles hanging from its antennae, snowflakes on its back. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/h0-snow-e.jpg",
+   "refs": [],
+   "seed": 26043,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a meadow in a heavy BLIZZARD at night in thin white line art; thick white snow covers the ground, big snowflakes falling everywhere, frozen grass. Scene: close-up: a grasshopper drawn all in WHITE, NOT black-filled, NOT green sits half-buried in white snow, hugging itself with its front legs, shivering, sad hungry eyes, icicles hanging from its antennae, snowflakes on its back. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  }
+ ]
+}
