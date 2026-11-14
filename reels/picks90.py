@@ -1,0 +1,11 @@
+P = {}
+P["well-frog"] = "h0-sky-a w01-bottom-b w02-circle-a w03-turtle-a w04-ask-b w05-ocean-b w06-doubt-b k1-climb-a"
+P["truck-bridge"] = "h0-stuck=t01-jam-a t01-jam-a t02-traffic-a t03-engineers-a t04-plans-a t05-girl-b t06-quiet-a t07-tyre-b t08-free=t08-free-b k1-hero-a"
+P["ryokan-moon"] = "h0-moon-a r01-hut-a r02-thief-a r03-home-a r04-robe-b r05-run-a r06-sit-a k1-moon-a"
+P["wind-sun"] = "h0-duel-b s01-argue-a s02-walker-a s03-blow-a s04-hold-a s05-shine-b s06-warm-b s07-coat-b k1-hero-a"
+P["dog-bone"] = "h0-drop-a d01-find-a d02-run-a d03-bridge-b d04-look-a d05-want-a d06-sink-a d07-empty-b k1-hero-a"
+P["golden-goose"] = "h0-egg-a g01-goose-b g02-find-a g03-rich-b g04-greedy-a g05-knife-a g06-nothing-b k1-patient-a"
+P["bell-cat"] = "h0-bell-a b01-cat-b b02-meeting-b b03-idea-b b04-cheer-b b05-old-b b06-silence-a k1-hero-b"
+P["bundle-sticks"] = "h0-strain-a s01-fight-a s02-give-b s03-snap=s02-give-b s04-bundle-b s05-try-b s06-father-a k1-hug-b"
+P["fox-crow-cheese"] = "h0-fall-b f01-crow-b f02-fox=f02-fox-d f03-praise=f03-praise-c f04-proud-b f05-catch-b f06-sad-b k1-hero-a"
+P["four-oxen"] = "h0-circle-b o01-field-a o02-lion-a o03-whisper-a o04-argue-a o05-alone-b o06-hunt-b k1-hero-b"

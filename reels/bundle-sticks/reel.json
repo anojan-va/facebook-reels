@@ -1,0 +1,233 @@
+{
+ "out": "../output/bundle-sticks.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 16
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-strain.jpg",
+   "text": "Alone you can be broken.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-strain.jpg",
+   "text": "Together you are strong.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/s01-fight.jpg",
+   "text": "An old father had sons who were always fighting.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/s02-give.jpg",
+   "text": "One day,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s02-give.jpg",
+   "text": "he gave each son a single stick. \"Break it.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s03-snap.jpg",
+   "text": "They snapped them easily.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/s04-bundle.jpg",
+   "text": "Then he tied a bundle",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s04-bundle.jpg",
+   "text": "of sticks together with a rope.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s04-bundle.jpg",
+   "text": "\"Now break this.\"",
+   "focus": "man-face",
+   "zoom": 1.35,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s05-try.jpg",
+   "text": "Each son tried as hard as he could.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/h0-strain.jpg",
+   "text": "Nobody could break it.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/s06-father.jpg",
+   "text": "\"Alone, anyone can break you,\" the father said.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s06-father.jpg",
+   "text": "\"But together,",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "sfx": [
+    "sparkle"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/s06-father.jpg",
+   "text": "nobody can.\"",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/k1-hug.jpg",
+   "text": "The brothers looked at",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-hug.jpg",
+   "text": "each other and stopped fighting.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-hug.jpg",
+   "text": "Stay close to the people you love.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-hug.jpg",
+   "text": "Together you are unbreakable.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

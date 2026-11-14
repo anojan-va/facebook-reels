@@ -1,0 +1,43 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "img/cand/f02-fox-c.jpg",
+   "refs": [],
+   "seed": 30041,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a forest clearing in thin white line art, a tall tree with a branch. Scene: a tall tree: high up on a branch sits a crow drawn all in WHITE (white feathers), NOT black-filled holding a piece of YELLOW cheese in its beak; on the ground far below sits a fox drawn all in WHITE (white fur), NOT black-filled, NOT orange, alone, looking UP at the crow. Exactly ONE fox and ONE crow, both WHITE, no black birds. The fox licks its lips hungrily. Only the cheese has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/f02-fox-d.jpg",
+   "refs": [],
+   "seed": 30042,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a forest clearing in thin white line art, a tall tree with a branch. Scene: a tall tree: high up on a branch sits a crow drawn all in WHITE (white feathers), NOT black-filled holding a piece of YELLOW cheese in its beak; on the ground far below sits a fox drawn all in WHITE (white fur), NOT black-filled, NOT orange, alone, looking UP at the crow. Exactly ONE fox and ONE crow, both WHITE, no black birds. The fox licks its lips hungrily. Only the cheese has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/f02-fox-e.jpg",
+   "refs": [],
+   "seed": 30043,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a forest clearing in thin white line art, a tall tree with a branch. Scene: a tall tree: high up on a branch sits a crow drawn all in WHITE (white feathers), NOT black-filled holding a piece of YELLOW cheese in its beak; on the ground far below sits a fox drawn all in WHITE (white fur), NOT black-filled, NOT orange, alone, looking UP at the crow. Exactly ONE fox and ONE crow, both WHITE, no black birds. The fox licks its lips hungrily. Only the cheese has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/f03-praise-c.jpg",
+   "refs": [],
+   "seed": 30044,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a forest clearing in thin white line art, a tall tree with a branch. Scene: a tall tree: high up on a branch sits a crow drawn all in WHITE (white feathers), NOT black-filled holding a piece of YELLOW cheese in its beak; on the ground far below sits a fox drawn all in WHITE (white fur), NOT black-filled, NOT orange, alone, looking UP at the crow. Exactly ONE fox and ONE crow, both WHITE, no black birds. The fox smiles sweetly with its front paws pressed together, flattering the crow. Only the cheese has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/f03-praise-d.jpg",
+   "refs": [],
+   "seed": 30045,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a forest clearing in thin white line art, a tall tree with a branch. Scene: a tall tree: high up on a branch sits a crow drawn all in WHITE (white feathers), NOT black-filled holding a piece of YELLOW cheese in its beak; on the ground far below sits a fox drawn all in WHITE (white fur), NOT black-filled, NOT orange, alone, looking UP at the crow. Exactly ONE fox and ONE crow, both WHITE, no black birds. The fox smiles sweetly with its front paws pressed together, flattering the crow. Only the cheese has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/f03-praise-e.jpg",
+   "refs": [],
+   "seed": 30046,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a forest clearing in thin white line art, a tall tree with a branch. Scene: a tall tree: high up on a branch sits a crow drawn all in WHITE (white feathers), NOT black-filled holding a piece of YELLOW cheese in its beak; on the ground far below sits a fox drawn all in WHITE (white fur), NOT black-filled, NOT orange, alone, looking UP at the crow. Exactly ONE fox and ONE crow, both WHITE, no black birds. The fox smiles sweetly with its front paws pressed together, flattering the crow. Only the cheese has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  }
+ ]
+}

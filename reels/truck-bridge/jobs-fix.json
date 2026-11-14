@@ -1,0 +1,43 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 3,
+ "jobs": [
+  {
+   "out": "img/cand/h0-stuck-c.jpg",
+   "refs": [],
+   "seed": 30000,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: side view at road level of a LOW concrete bridge passing over a city road in thin white line art. Scene: a big WHITE truck with a tall box trailer, white-filled with thin dark outlines is driving UNDER the low bridge and is jammed: the top of its box trailer is pressed hard against the underside of the concrete bridge, which is cracked and chipped where they touch; the truck is half under the bridge; dust falls. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/h0-stuck-d.jpg",
+   "refs": [],
+   "seed": 30001,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: side view at road level of a LOW concrete bridge passing over a city road in thin white line art. Scene: a big WHITE truck with a tall box trailer, white-filled with thin dark outlines is driving UNDER the low bridge and is jammed: the top of its box trailer is pressed hard against the underside of the concrete bridge, which is cracked and chipped where they touch; the truck is half under the bridge; dust falls. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/h0-stuck-e.jpg",
+   "refs": [],
+   "seed": 30002,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: side view at road level of a LOW concrete bridge passing over a city road in thin white line art. Scene: a big WHITE truck with a tall box trailer, white-filled with thin dark outlines is driving UNDER the low bridge and is jammed: the top of its box trailer is pressed hard against the underside of the concrete bridge, which is cracked and chipped where they touch; the truck is half under the bridge; dust falls. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/t08-free-c.jpg",
+   "refs": [],
+   "seed": 30003,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: side view at road level of a LOW concrete bridge passing over a city road in thin white line art. Scene: a big WHITE truck with a tall box trailer, white-filled with thin dark outlines drives out from UNDER the low bridge on the road below it, a small clear gap now visible between the top of the trailer and the underside of the bridge, motion lines behind the truck. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/t08-free-d.jpg",
+   "refs": [],
+   "seed": 30004,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: side view at road level of a LOW concrete bridge passing over a city road in thin white line art. Scene: a big WHITE truck with a tall box trailer, white-filled with thin dark outlines drives out from UNDER the low bridge on the road below it, a small clear gap now visible between the top of the trailer and the underside of the bridge, motion lines behind the truck. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/t08-free-e.jpg",
+   "refs": [],
+   "seed": 30005,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: side view at road level of a LOW concrete bridge passing over a city road in thin white line art. Scene: a big WHITE truck with a tall box trailer, white-filled with thin dark outlines drives out from UNDER the low bridge on the road below it, a small clear gap now visible between the top of the trailer and the underside of the bridge, motion lines behind the truck. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  }
+ ]
+}
