@@ -1,0 +1,11 @@
+P = {}
+P["kintsugi-bowl"] = "h0-gold-a k01-drop=k01-drop-a k02-shards=k02-shards-e k03-sad-a k04-glue-b k05-gasp-b k06-smile-b k1-hold-b"
+P["farmer-best-corn"] = "h0-wind-a c01-prize-b c02-seeds-b c03-reporter-a c04-explain-b c05-bad-b c06-neighbors-a k1-together-a"
+P["eagle-rebirth"] = "h0-strike-a e01-old-b e02-hunt-a e03-choice-b e04-fly-up-b e05-wait-a e06-new-b e07-soar-a k1-hero-b"
+P["rich-poor-trip"] = "h0-stars-a r01-car=r01-car-e r02-farm-a r03-ask-b r04-dogs-a r05-river-a r06-food-a r07-dad-b k1-boy-a"
+P["words-feathers"] = "h0-feathers-a w01-shout=w01-shout-c w02-sorry-a w03-pillow-b w04-climb-a w05-wind-a w06-search-a w07-gran-a k1-think-b"
+P["lion-mouse"] = "h0-chew-a l01-sleep-a l02-catch-a l03-beg-a l04-laugh-a l05-net-a l06-hunters-a l07-free-a k1-hero-a"
+P["bag-on-cart"] = "h0-ride-a b01-walk-a b02-offer=b03-ask-b b03-ask-a b04-answer=h0-ride-b b05-laugh-b k1-down=k1-down-c"
+P["busy-beggar"] = "h0-gold-a g01-beg-a g02-years-a g03-stranger=g03-stranger-e g04-shrug-b g05-open-a g06-shock-a k1-within-a"
+P["hedgehogs-winter"] = "h0-ouch-b q01-cold-b q02-huddle-a q03-apart-a q04-freeze-b q05-balance-b q06-dawn-a k1-hero-b"
+P["search-within"] = "h0-mirror-a s01-travel-a s02-desert-b s03-temples-a s04-monk-a s05-give=h0-mirror-b s06-smile-a k1-within-b"

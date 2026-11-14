@@ -1,0 +1,223 @@
+{
+ "out": "../output/hedgehogs-winter.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 10
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-ouch.jpg",
+   "text": "Every relationship",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-ouch.jpg",
+   "text": "has thorns.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-ouch.jpg",
+   "text": "Here's how to survive them.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/q01-cold.jpg",
+   "text": "On a freezing winter night,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/q02-huddle.jpg",
+   "text": "a group of hedgehogs huddled together to stay warm.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/h0-ouch.jpg",
+   "text": "But their sharp spines pricked each other.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/q03-apart.jpg",
+   "text": "So they moved apart.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/q04-freeze.jpg",
+   "text": "Then they began to freeze.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/q02-huddle.jpg",
+   "text": "So they moved close again.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-ouch.jpg",
+   "text": "And got hurt again.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/q05-balance.jpg",
+   "text": "Finally, they found the right distance.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/q05-balance.jpg",
+   "text": "Close enough to stay warm.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/q05-balance.jpg",
+   "text": "Far enough not to hurt each other.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/q06-dawn.jpg",
+   "text": "That's how they survived the winter.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-hero.jpg",
+   "text": "No one is perfect.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-hero.jpg",
+   "text": "Learn to live with other people's thorns,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-hero.jpg",
+   "text": "and take the warmth they give.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

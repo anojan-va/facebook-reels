@@ -1,0 +1,226 @@
+{
+ "out": "../output/search-within.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 16
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-mirror.jpg",
+   "text": "Everything you're searching for",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-mirror.jpg",
+   "text": "is already in you.",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/s01-travel.jpg",
+   "text": "A young man travelled",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s01-travel.jpg",
+   "text": "for years looking for God.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s02-desert.jpg",
+   "text": "He crossed mountains and deserts.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/s03-temples.jpg",
+   "text": "He visited every temple.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s04-monk.jpg",
+   "text": "Finally, an old monk asked him,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s04-monk.jpg",
+   "text": "\"Why are you searching so hard?\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s03-temples.jpg",
+   "text": "\"Because I want to find God.\"",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s05-give.jpg",
+   "text": "The monk handed him a mirror.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/h0-mirror.jpg",
+   "text": "The young man looked into",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-mirror.jpg",
+   "text": "it and saw only himself.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-mirror.jpg",
+   "text": "\"I don't understand.\"",
+   "focus": "man-face",
+   "zoom": 1.5,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/s06-smile.jpg",
+   "text": "The monk smiled.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/s06-smile.jpg",
+   "text": "\"You walked a thousand miles to find",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/s06-smile.jpg",
+   "text": "what was with you the whole time.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-within.jpg",
+   "text": "Stop searching everywhere.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-within.jpg",
+   "text": "Look within.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

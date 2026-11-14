@@ -1,0 +1,279 @@
+{
+ "out": "../output/words-feathers.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 17
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-feathers.jpg",
+   "text": "Be careful.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-feathers.jpg",
+   "text": "Your words can cut",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "sfx": [
+    "bass"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/h0-feathers.jpg",
+   "text": "deeper than a knife.",
+   "focus": "man-face",
+   "zoom": 1.7,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/w01-shout.jpg",
+   "text": "A little boy shouted at his friend in anger.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "bass"
+   ]
+  },
+  {
+   "image": "img/w01-shout.jpg",
+   "text": "He said terrible things.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/w02-sorry.jpg",
+   "text": "Later, he felt sorry and apologised.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/w02-sorry.jpg",
+   "text": "But his",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/w02-sorry.jpg",
+   "text": "friend stayed quiet.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w03-pillow.jpg",
+   "text": "His grandmother took him outside",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/w03-pillow.jpg",
+   "text": "and gave him a pillow full of feathers.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w04-climb.jpg",
+   "text": "\"Climb the hill and",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w04-climb.jpg",
+   "text": "scatter them in the wind.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-feathers.jpg",
+   "text": "He did.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "image": "img/w05-wind.jpg",
+   "text": "\"Now go and",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/w05-wind.jpg",
+   "text": "collect every feather.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w06-search.jpg",
+   "text": "\"That's impossible!",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "wrong"
+   ]
+  },
+  {
+   "image": "img/w06-search.jpg",
+   "text": "The wind took them everywhere.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/w07-gran.jpg",
+   "text": "\"Words are like feathers.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/w07-gran.jpg",
+   "text": "Once they're out,",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "sfx": [],
+   "drift": 0.05
+  },
+  {
+   "image": "img/w07-gran.jpg",
+   "text": "you can never take them all back.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/k1-think.jpg",
+   "text": "Think before",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-think.jpg",
+   "text": "you speak.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

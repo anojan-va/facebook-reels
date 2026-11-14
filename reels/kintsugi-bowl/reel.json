@@ -1,0 +1,257 @@
+{
+ "out": "../output/kintsugi-bowl.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 17
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-gold.jpg",
+   "text": "Your scars might be",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-gold.jpg",
+   "text": "the most beautiful",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "sfx": [
+    "bass"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/h0-gold.jpg",
+   "text": "thing about you.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.8,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/k01-drop.jpg",
+   "text": "A rich man dropped his favourite tea bowl.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "bass"
+   ]
+  },
+  {
+   "image": "img/k02-shards.jpg",
+   "text": "It shattered into pieces.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": [
+    "glitch"
+   ]
+  },
+  {
+   "image": "img/k03-sad.jpg",
+   "text": "He was heartbroken.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/k04-glue.jpg",
+   "text": "Instead of throwing it away,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k04-glue.jpg",
+   "text": "a craftsman glued the",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/k04-glue.jpg",
+   "text": "pieces back together with gold.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-gold.jpg",
+   "text": "Every crack became",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/h0-gold.jpg",
+   "text": "a shining golden line.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k05-gasp.jpg",
+   "text": "When the man saw it, he gasped.",
+   "focus": "man-face",
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k05-gasp.jpg",
+   "text": "\"It's more beautiful than before.\"",
+   "focus": "wide",
+   "zoom": 1.05,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k06-smile.jpg",
+   "text": "The craftsman smiled.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k06-smile.jpg",
+   "text": "\"Because now it has a story.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-gold.jpg",
+   "text": "In Japan,",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.5,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/h0-gold.jpg",
+   "text": "this is called Kintsugi.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.75,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-hold.jpg",
+   "text": "You don't have to hide your broken parts.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-hold.jpg",
+   "text": "They're where the gold goes.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

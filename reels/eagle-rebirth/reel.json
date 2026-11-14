@@ -1,0 +1,253 @@
+{
+ "out": "../output/eagle-rebirth.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/out-of-this-world.mp3",
+   "start": 117.26,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 14
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-strike.jpg",
+   "text": "Sometimes you have to break yourself",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-strike.jpg",
+   "text": "to survive.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/e01-old.jpg",
+   "text": "An old eagle's claws grew weak.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e01-old.jpg",
+   "text": "Its beak became long and bent.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e01-old.jpg",
+   "text": "Its feathers grew heavy.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e02-hunt.jpg",
+   "text": "It couldn't hunt anymore.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "wrong"
+   ]
+  },
+  {
+   "image": "img/e03-choice.jpg",
+   "text": "It had two choices.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/e03-choice.jpg",
+   "text": "Die, or go through a painful change.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.35,
+   "punch": true,
+   "sfx": []
+  },
+  {
+   "image": "img/e04-fly-up.jpg",
+   "text": "The eagle flew to a mountaintop.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "whoosh2"
+   ]
+  },
+  {
+   "image": "img/h0-strike.jpg",
+   "text": "It struck its old beak against",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/h0-strike.jpg",
+   "text": "a rock until it broke off.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e05-wait.jpg",
+   "text": "It waited for a new one to grow.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/e05-wait.jpg",
+   "text": "Then it pulled out its old claws.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e05-wait.jpg",
+   "text": "Then its heavy feathers.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.55,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/e06-new.jpg",
+   "text": "Five months later,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/e07-soar.jpg",
+   "text": "it flew again,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/e07-soar.jpg",
+   "text": "stronger than ever.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-hero.jpg",
+   "text": "Growth hurts.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/k1-hero.jpg",
+   "text": "But staying the same hurts more.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}

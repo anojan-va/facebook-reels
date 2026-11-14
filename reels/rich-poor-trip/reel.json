@@ -1,0 +1,261 @@
+{
+ "out": "../output/rich-poor-trip.mp4",
+ "audio": [
+  "voice-cand-1.wav"
+ ],
+ "speed": 1.0,
+ "music_volume": 0.4,
+ "fade_out": 1.0,
+ "music_cues": [
+  {
+   "music": "../audio/music/echoes.mp3",
+   "start": 162.865,
+   "shot": 0
+  },
+  {
+   "music": "../audio/music/fifth-of-february.mp3",
+   "start": 4.85,
+   "shot": 19
+  }
+ ],
+ "shots": [
+  {
+   "image": "img/h0-stars.jpg",
+   "text": "This boy taught his rich father",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.06,
+   "sfx": [
+    "hook"
+   ],
+   "flash": true
+  },
+  {
+   "image": "img/h0-stars.jpg",
+   "text": "what wealth really means.",
+   "focus": "man-face",
+   "zoom": 1.45,
+   "punch": true,
+   "sfx": [
+    "bass"
+   ]
+  },
+  {
+   "image": "img/r01-car.jpg",
+   "text": "A rich father took his son to the countryside",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/r01-car.jpg",
+   "text": "to show him how poor people live.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/r02-farm.jpg",
+   "text": "They stayed a few days with a poor family.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/r03-ask.jpg",
+   "text": "On the way home, the father asked,",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/r03-ask.jpg",
+   "text": "\"So, what did you learn?\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.3,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/r04-dogs.jpg",
+   "text": "\"We have one dog.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/r04-dogs.jpg",
+   "text": "They have four.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/r05-river.jpg",
+   "text": "We have a pool.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/r05-river.jpg",
+   "text": "They have a whole river.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/h0-stars.jpg",
+   "text": "We have lamps.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "sparkle"
+   ]
+  },
+  {
+   "image": "img/h0-stars.jpg",
+   "text": "They have the stars.",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/r06-food.jpg",
+   "text": "We buy our food.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "sfx": [
+    "pop"
+   ]
+  },
+  {
+   "image": "img/r06-food.jpg",
+   "text": "They grow theirs.\"",
+   "focus": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "zoom": 1.25,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/r07-dad.jpg",
+   "text": "The father was speechless.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    },
+    "heartbeat"
+   ]
+  },
+  {
+   "image": "img/k1-boy.jpg",
+   "text": "The boy added, \"Thanks, Dad,",
+   "focus": "man-face",
+   "zoom": 1.2,
+   "drift": 0.05,
+   "sfx": []
+  },
+  {
+   "image": "img/k1-boy.jpg",
+   "text": "for showing me",
+   "focus": "man-face",
+   "zoom": 1.6,
+   "sfx": [
+    "bass"
+   ],
+   "drift": 0.05
+  },
+  {
+   "image": "img/k1-boy.jpg",
+   "text": "how poor we are.\"",
+   "focus": "man-face",
+   "zoom": 1.85,
+   "sfx": [],
+   "punch": true
+  },
+  {
+   "image": "img/h0-stars.jpg",
+   "text": "Wealth isn't what you own.",
+   "focus": "wide",
+   "zoom": 1.0,
+   "drift": 0.05,
+   "pause_before": 0.25,
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": -0.15
+    }
+   ]
+  },
+  {
+   "image": "img/h0-stars.jpg",
+   "text": "It's what you see.",
+   "focus": "wide",
+   "zoom": 1.15,
+   "drift": -0.08,
+   "sfx": [
+    "whoosh",
+    {
+     "name": "sparkle",
+     "at": 0.3
+    }
+   ]
+  }
+ ]
+}
