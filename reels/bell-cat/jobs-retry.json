@@ -1,0 +1,103 @@
+{
+ "model": "black-forest-labs/flux.2-klein-4b",
+ "size": "1152x2048",
+ "workers": 2,
+ "jobs": [
+  {
+   "out": "img/cand/h0-bell-a.jpg",
+   "refs": [],
+   "seed": 28222,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: close-up: a small shining GOLDEN bell on a red ribbon lies in the middle of a circle of worried mice drawn all in WHITE, NOT black-filled, all staring at it. Only the bell has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/h0-bell-b.jpg",
+   "refs": [],
+   "seed": 28223,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: close-up: a small shining GOLDEN bell on a red ribbon lies in the middle of a circle of worried mice drawn all in WHITE, NOT black-filled, all staring at it. Only the bell has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b01-cat-a.jpg",
+   "refs": [],
+   "seed": 28224,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a kitchen floor in thin white line art. Scene: a big cat drawn all in WHITE (white fur), NOT black-filled, sharp eyes chases small mice drawn all in WHITE, NOT black-filled across the kitchen floor, the mice running in fear. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b01-cat-b.jpg",
+   "refs": [],
+   "seed": 28225,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: a kitchen floor in thin white line art. Scene: a big cat drawn all in WHITE (white fur), NOT black-filled, sharp eyes chases small mice drawn all in WHITE, NOT black-filled across the kitchen floor, the mice running in fear. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b02-meeting-a.jpg",
+   "refs": [],
+   "seed": 28226,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: a big meeting of mice drawn all in WHITE, NOT black-filled sitting in rows, one mouse on a spool like a stage. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b02-meeting-b.jpg",
+   "refs": [],
+   "seed": 28227,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: a big meeting of mice drawn all in WHITE, NOT black-filled sitting in rows, one mouse on a spool like a stage. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b03-idea-a.jpg",
+   "refs": [],
+   "seed": 28228,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: a young mouse drawn all in WHITE stands on a spool and proudly holds up a small GOLDEN bell, explaining. Only the bell has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b03-idea-b.jpg",
+   "refs": [],
+   "seed": 28229,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: a young mouse drawn all in WHITE stands on a spool and proudly holds up a small GOLDEN bell, explaining. Only the bell has colour. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b04-cheer-a.jpg",
+   "refs": [],
+   "seed": 28230,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: many mice drawn all in WHITE, NOT black-filled cheer and clap, throwing their arms up happily. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b04-cheer-b.jpg",
+   "refs": [],
+   "seed": 28231,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: many mice drawn all in WHITE, NOT black-filled cheer and clap, throwing their arms up happily. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b05-old-a.jpg",
+   "refs": [],
+   "seed": 28232,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: close-up: an old grey-whiskered mouse drawn all in WHITE with a walking stick raises one finger, asking a quiet question. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b05-old-b.jpg",
+   "refs": [],
+   "seed": 28233,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: close-up: an old grey-whiskered mouse drawn all in WHITE with a walking stick raises one finger, asking a quiet question. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b06-silence-a.jpg",
+   "refs": [],
+   "seed": 28234,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: all the mice drawn all in WHITE, NOT black-filled sit frozen in silence, looking away nervously, nobody moving. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/b06-silence-b.jpg",
+   "refs": [],
+   "seed": 28235,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading, white lines only, no colour at all. People, animals and objects are drawn WHITE: white bodies, white clothes, white fills, never black-filled shapes or dark silhouettes. No text, letters or captions in the image. Vertical 9:16 composition. Setting: inside a mouse hole under a house in thin white line art, a meeting hall made of books and spools. Scene: all the mice drawn all in WHITE, NOT black-filled sit frozen in silence, looking away nervously, nobody moving. No people. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/k1-hero-a.jpg",
+   "refs": [],
+   "seed": 28236,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a street at sunrise in thin white line art. Scene: the main character in his mustard-YELLOW hoodie, black cargo pants and white sneakers, short brown beard, steps forward confidently with one hand raised, volunteering, a brave determined face. Only the main character has colour. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  },
+  {
+   "out": "img/cand/k1-hero-b.jpg",
+   "refs": [],
+   "seed": 28237,
+   "prompt": "Minimalist illustration on a pure black background, clean thin white line art with no shading. Everything is white line art except the colours described. No text, letters or captions. Vertical 9:16 composition. Setting: a street at sunrise in thin white line art. Scene: the main character in his mustard-YELLOW hoodie, black cargo pants and white sneakers, short brown beard, steps forward confidently with one hand raised, volunteering, a brave determined face. Only the main character has colour. Every object (boats, bowls, buckets, walls, furniture) is drawn WHITE-filled with thin dark outlines, never black-filled; the ground and sky are pure black with thin white lines, no brown, no green, no grey fills."
+  }
+ ]
+}
